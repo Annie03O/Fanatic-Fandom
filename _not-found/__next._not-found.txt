@@ -1,0 +1,4 @@
+1:"$Sreact.fragment"
+2:I[4297,["/DITT_REPO_NAMN/_next/static/chunks/014950e511383dea.js","/DITT_REPO_NAMN/_next/static/chunks/a03dd05dfc80e5c2.js"],"default"]
+3:I[90244,["/DITT_REPO_NAMN/_next/static/chunks/014950e511383dea.js","/DITT_REPO_NAMN/_next/static/chunks/a03dd05dfc80e5c2.js"],"default"]
+0:{"buildId":"ddIyRevZz1yNs6aMW-6IS","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
