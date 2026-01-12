@@ -1,5 +1,5 @@
-import { Page } from "./Page";
+import { IMovieListItem } from "./Page";
 
 export interface IOmdbResponse {
-  Search: Page[];
+  results: IMovieListItem[];
 }

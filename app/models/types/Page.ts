@@ -1,30 +1,21 @@
-export type Page = {
-  Title: string,
-  Year: string,
-  Rated: string,
-  Released: string,
-  imdbID: string,
-  Poster: string
+export interface IMovieListItem  {
+  id: number;
+  poster_path: string | null;
+  release_date: string; // "YYYY-MM-DD"
+  title: string;
+  adult: boolean;
+};
+
+export interface IMovieListItemExt extends IMovieListItem {
+  backdrop_path: string | null;
+  genre_ids: number[];
+  original_language: string;
+  original_title: string;
+  overview: string;
+  popularity: number;
+  video: boolean;
+  vote_average: number;
+  vote_count: number;
+
 }
 
-export type PageExt = {
-  Runtime: string,
-  Genre: string,
-  Director: string,
-  Writer: string,
-  Actors: string,
-  Plot: string,
-  Language: string,
-  Country: string,
-  Awards: string,
-  Ratings: [
-    {
-      Source: string; 
-      Value: string;
-    },
-  ],
-  Metascore: string,
-  imdbRating: string,
-  imdbVotes: string,
-  Type: string,
-}

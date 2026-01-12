@@ -1,74 +1,84 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { SetStateAction, useEffect, useState } from "react";
 import Link from "next/link";
-import type { Page } from "../models/types/Page";
-import { get } from "../services/serviceBase";
-import type { IOmdbResponse } from "../models/types/IOmdbResponse";
+import type { IMovieListItem } from "../models/types/Page";
 
-function loadItems(): Page[] {
+const STORAGE_KEY = "items";
+
+function loadItems(): IMovieListItem[] {
   if (typeof window === "undefined") return [];
-  const raw = localStorage.getItem("items");
+  const raw = localStorage.getItem(STORAGE_KEY);
 
   if (!raw || raw === "undefined") return [];
 
   try {
     const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
+    return Array.isArray(parsed) ? (parsed as IMovieListItem[]) : [];
   } catch {
-    localStorage.removeItem("items");
+    localStorage.removeItem(STORAGE_KEY);
     return [];
   }
 }
 
-export const Shows = () => {
-  // ✅ Viktigt för hydration: börja alltid med samma HTML på server + client
-  const [tvShows, setTvShows] = useState<Page[]>([]);
+type Props = {
+  getMovies: (query: string) => Promise<IMovieListItem[]>
+}
+
+export const Shows = ({getMovies}: Props) => {
+  // ✅ Array (du mappar ju!)
+  const [movies, setMovies] = useState<IMovieListItem[]>([]);
   const [error, setError] = useState("");
   const [input, setInput] = useState("");
 
-  const getShows = async (query: string): Promise<Page[]> => {
-    const q = query.trim() || input; // fallback så du aldrig skickar s=
-    const url = `https://omdbapi.com/?apikey=6d7b3352&s=${encodeURIComponent(q)}`;
+    const apiKey = "ec859d0394c9b557d3f801a5b45a9723";
 
-    const response = await get<IOmdbResponse>(url);
 
-    return Array.isArray(response.Search) ? response.Search : [];
-  };
 
-  // ✅ Läs cache efter mount (ingen hydration mismatch)
+
+  // ✅ Läs cache efter mount
   useEffect(() => {
     const cached = loadItems();
-    if (cached.length > 0) setTvShows(cached);
+    if (cached.length > 0) setMovies(cached);
   }, []);
 
-  // ✅ Hämta initialt om vi saknar cache
+  const q = input.trim();
+  // ✅ Hämta initialt om cache saknas
   useEffect(() => {
     const fetchInitial = async () => {
       try {
-        const shows = await getShows(input); // input är "" först → fallback "star"
-        setTvShows(shows);
-        localStorage.setItem("items", JSON.stringify(shows));
+        const items = await getMovies(q);
+        setMovies(items);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
       } catch {
-        setError("Error getting data from omdb, please try again later");
+        setError("Kunde inte hämta filmer, försök igen senare.");
       }
     };
 
-    if (tvShows.length === 0 && error === "") fetchInitial();
-  }, [tvShows.length, error]); // (input behövs inte här)
+    if (movies.length === 0 && error === "") fetchInitial();
+  }, [movies.length, error]);
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
-
+   
+    
+  
     try {
-      const shows = await getShows(input);
-      setTvShows(shows);
-      localStorage.setItem("items", JSON.stringify(shows));
+      const items = await getMovies(q);
+      console.log(q);
+      
+      setMovies(items);
+      console.log(items);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
     } catch {
-      setError("Error getting data from omdb, please try again later");
+      setError("Kunde inte hämta filmer, försök igen senare.");
     }
   };
+
+
+  const posterUrl = (path: string | null) =>
+    path ? `https://image.tmdb.org/t/p/w500${path}` : "";
 
   return (
     <section>
@@ -78,31 +88,39 @@ export const Shows = () => {
           className="bg-white p-2 text-black"
           value={input}
           onChange={(e) => setInput(e.target.value)}
+          placeholder="(just nu används inte sök)"
         />
         <button type="submit" className="bg-black p-2">
           Get
         </button>
       </form>
 
-      <div className="movies">
-        {error !== "" ? (
+      <section className="grid grid-cols-6 gap-4">
+        {error ? (
           <div>{error}</div>
         ) : (
-          tvShows.map((t) =>
-            t.Title.length > 6 ? (
-              <div className="movie" key={t.imdbID}>
-                <h3>{t.Title}</h3>
-                <div className="img-container">
-                  <img src={t.Poster} alt={t.Title} />
+          movies.map((m) =>
+            m.title.length > 6 ? (
+              
+             <div className="movie" key={m.id}>
+                <h3>{m.title}</h3>
+
+                <div className="bg-black">
+                  {m.poster_path ? (
+                    <img className="hidden" src={posterUrl(m.poster_path)} alt={m.title} />
+                  ) : (
+                    <div>Ingen poster</div>
+                  )}
                 </div>
-                <Link href={"/movie/" + t.imdbID}>Läs mer...</Link>
+
+                <Link href={"/movie/" + m.id}>Läs mer...</Link>
               </div>
             ) : (
-              <h1 key={t.imdbID}>{t.Title}</h1>
+              <h1 key={m.id}>{m.title}</h1>
             )
           )
         )}
-      </div>
+      </section>
     </section>
   );
 };
