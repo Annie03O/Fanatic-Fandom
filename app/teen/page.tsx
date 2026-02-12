@@ -36,21 +36,18 @@ export const TeenPage = () => {
 
                   {/* Tags */}
                   <li className="mt-2">
-                    <div className="flex flex-col gap-2">
-                      {rows.map((row, rIdx) => (
-                        <div key={rIdx} className="flex gap-2 w-fit">
-                          {row.map((t, tIdx) => (
-                            <span
-                              key={`${t}-${rIdx}-${tIdx}`}
-                              className="bg-black text-white rounded-lg whitespace-nowrap px-2 py-0.5"
-                            >
-                              {t}
-                            </span>
-                          ))}
-                        </div>
+                    <div className="flex flex-wrap gap-2">
+                      {i.tags.map((t, idx) => (
+                        <span
+                          key={`${t}-${idx}`}
+                          className="bg-black text-white rounded-lg whitespace-nowrap px-2 py-0.5"
+                        >
+                          {t}
+                        </span>
                       ))}
                     </div>
                   </li>
+
                 </ul>
               </article>
             </section>

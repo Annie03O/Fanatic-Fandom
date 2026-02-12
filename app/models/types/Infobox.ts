@@ -1,8 +1,10 @@
+import { Education } from "./Occupation";
+import { Show } from "./Show";
+
 export type InfoField = {
-  index: number;
   label: string;
-  info: string;
-};
+  info: string | string[] | Education[];
+} | null;
 
 export type Infobox = {
   name: string;

@@ -7,5 +7,5 @@ export type TvSeriesFull = {
   series: Show;
   seasons: Season[];
   episodes: Episode[];
-  characters: Character[];
+ character: Character[];
 };

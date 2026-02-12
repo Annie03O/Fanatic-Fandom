@@ -1,19 +1,12 @@
+import { Character } from "./Character";
 import { Season } from "./Season";
 
 export type CastMember = {
   actor: string;
-  character: string;
+  character: string | string[];
   creditOrder?: number; // 1 = toppnamn
   imageUrl?: string;
-};
-export type CharacterInfo = {
-  id: string;
-  firstName: string;
-  lastName: string;
-  personality?: string;
-  imageUrl?: string;
-  
-};
+}; 
 
 export type TeenSeriesEntry = {
   id: string;
@@ -34,7 +27,7 @@ export type TeenSeriesEntry = {
   plot?: string;
 
   // ✅ NYTT (du kan antingen ha bara namn, eller full info per karaktär)
-  mainCharacters?: CharacterInfo[];
+  mainCharacters?: Character[];
 
   // ✅ NYTT
   cast?: CastMember[];

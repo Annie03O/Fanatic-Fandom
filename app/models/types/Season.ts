@@ -3,7 +3,12 @@ export type Season = {
   seasonNumber: number;
   title?: string;
   plot?: string;
-  airDate?: string;
+  premiereDate?:string;
+  finaleDate?:string;
+  premiereEpisode?: string;
+  finaleEpisode?: string;
   posterUrl?: string;
   episodeCount: number;
+  generation?: 1 | 2 | 3;
+
 };
