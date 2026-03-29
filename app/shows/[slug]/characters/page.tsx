@@ -1,16 +1,12 @@
-"use client"
-import { CharacterPortals } from "@/app/components/Characters/CharacterPortals";
 import { teenSeriesTop50WithSlug } from "@/app/functions/teenSeriesTop50WithSlug";
-import { useParams } from "next/navigation";
+import CharacterPageClient from "./CharacterPageClient";
+
+export async function generateStaticParams() {
+    return teenSeriesTop50WithSlug.items.map((series) => ({
+        slug: series.slug,
+    }));
+}
 
 export default function AllCharacterPage() {
-        const {slug} = useParams<{slug: string}>();
-    
-        const series = teenSeriesTop50WithSlug.items.find((s) => s.slug === slug)
-        
-        if (!series) return <section>Series not found</section>
-    
-    return (
-      <CharacterPortals show={series} page={true}/>
-    )
+    return <CharacterPageClient />
 }
