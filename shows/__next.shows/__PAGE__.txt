@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[69660,["/Fanatic-Fandom/_next/static/chunks/014950e511383dea.js","/Fanatic-Fandom/_next/static/chunks/a03dd05dfc80e5c2.js"],"ClientPageRoot"]
+3:I[73967,["/Fanatic-Fandom/_next/static/chunks/ce58501e8729b6d7.js","/Fanatic-Fandom/_next/static/chunks/6283c9af7a1128c6.js","/Fanatic-Fandom/_next/static/chunks/41da46977bc93309.js"],"default"]
+6:I[13217,["/Fanatic-Fandom/_next/static/chunks/014950e511383dea.js","/Fanatic-Fandom/_next/static/chunks/a03dd05dfc80e5c2.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"buildId":"8szhEp5caVhZKSCY8a0I7","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/Fanatic-Fandom/_next/static/chunks/6283c9af7a1128c6.js","async":true}],["$","script","script-1",{"src":"/Fanatic-Fandom/_next/static/chunks/41da46977bc93309.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+4:{}
+5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null
