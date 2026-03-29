@@ -8,12 +8,9 @@ type NavItem = { label: string; href: string };
 
 const navItems: NavItem[] = [
   { label: "Home", href: "/" },
-  { label: "Teen", href: "/teen" },
-  { label: "Kids", href: "/kids" },
-  { label: "Comedy", href: "/comedy" },
-  { label: "Crime", href: "/crime" },
-  { label: "About", href: "/about" },
-  { label: "Contacts", href: "/contacts" },
+  { label: "Shows", href: "/shows" },
+  // { label: "About", href: "/about" },
+  // { label: "Contacts", href: "/contacts" },
 ];
 
 const cx = (...classes: Array<string | false | undefined>) =>

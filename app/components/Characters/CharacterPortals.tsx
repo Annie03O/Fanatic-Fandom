@@ -134,11 +134,9 @@ export const CharacterPortals = ({ show, page }: Props) => {
   const renderRow = (items: typeof visible, cols: number) => (
     <section className={`grid-cols-1 ${gridBase} ${colsClass(cols)} mt-4`}>
       {items.map((c) => (
-        <button
-          key={c.id}
-          type="button"
-          onClick={() => pushCharacter(c.id!)}
-          className="border w-fit"
+        <section
+        key={c.id}
+        className="border w-fit"
         >
           <article className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative"}>
             <h2 className={`text-2xl text-center ${page === false ? "absolute bg-black w-full" : ""}`}>
@@ -147,11 +145,11 @@ export const CharacterPortals = ({ show, page }: Props) => {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={c.imageUrl}
-              alt={`${c.firstName} ${c.lastName}`}
+              alt={`Image of ${c.firstName} ${c.lastName} from ${series.title} portrayed by ${c.actor}`}
                          className={`${page === true ? "h-[250px] w-[200px]" : "w-[250px] md:h-[200px] md:w-[150px]"} object-cover object-center`}
  />
           </article>
-        </button>
+        </section>
       ))}
     </section>
   );
@@ -227,7 +225,7 @@ export const CharacterPortals = ({ show, page }: Props) => {
         )}
 
         {/* VIEW ALL */}
-        <section className="flex items-center justify-center mt-4">
+        {/* <section className="flex items-center justify-center mt-4">
           {page === false && mainChars.length > 10 ? (
             <button
               className="underline"
@@ -236,7 +234,7 @@ export const CharacterPortals = ({ show, page }: Props) => {
               View All Characters
             </button>
           ) : null}
-        </section>
+        </section> */}
       </section>
     </section>
   );

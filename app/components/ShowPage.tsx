@@ -28,14 +28,14 @@ function ShowPage() {
                           <h2>Plot</h2>
                           <span>{series.plot}</span>
                        </section>
-                       <section className="col-start-1 lg:row-start-3 lg:row-span-5 col-span-10 lg:col-span-4 w-full">
+                       <section className="col-start-1 xl:row-start-3 xl:row-span-5 col-span-10 xl:col-span-4 w-full">
                           <CharacterPortals show={series} page={false}/>
                        </section>
-                       <section className="col-span-10 col-start-1 lg:col-start-5 lg:row-start-3 lg:row-span-5 lg:col-span-4 w-full">
+                       <section className="col-span-10 col-start-1 xl:col-start-5 xl:row-start-3 xl:row-span-5 xl:col-span-4 w-full">
                           <SeasonsPortals show={series} page={false}/>
                        </section>
                     </section>
-                    <section className="border md:w-[50%] lg:w-[20%]">
+                    <section className="border md:w-[50%] xl:w-[20%]">
                         <Infobox show={series} type="Show"/>
                     </section>
                        

@@ -455,7 +455,6 @@ export const teenSeries: Show[] = [
             id: "brandon-brenda",
             type: "Family",
             name: "Brandon Walsh",
-            biological: true,
             twin: true,
             family: "Sibling", 
             description: ["Brenda and Brandon Walsh are twin siblings who move with their parents from Minneapolis to Beverly Hills at the beginning of Beverly Hills, 90210. From the start, their relationship is shown as close and supportive, with Brandon often acting as Brenda’s confidant and grounding influence. Brandon plays a stabilizing role in Brenda’s life as she struggles to adjust to the new social dynamics of Beverly Hills, develop friendships, and navigate her romantic relationships. Brenda openly tells Brandon at one point that he is her best friend, and Brandon expresses that he hopes they always remain that close. Though the show focuses more heavily on Brenda’s own storylines—especially her high-profile romance with Dylan McKay and the accompanying family tensions—her bond with Brandon remains a consistent part of her character arc. Brandon cares deeply for Brenda, supports her through personal ups and downs, and is there for her during major moments in the early seasons. Overall, their relationship is portrayed as a strong familial bond rather than a romantic one, grounded in mutual support, shared experience as newcomers in Beverly Hills, and brother-sister loyalty."], 
@@ -1148,6 +1147,7 @@ export const teenSeries: Show[] = [
             started: "1993",
             ended: "1997"
           }, 
+
           {
             place: "West Beverly High School",
             hasEnded: true,
@@ -1849,7 +1849,7 @@ export const teenSeries: Show[] = [
         id: "teddy-montgomery",
         firstName: "Teddy",
         lastName: "Montgomery",
-        imageUrl: "https://i.redd.it/9oik7ay bowc1.jpeg",
+        imageUrl: "https://melthomas.wordpress.com/wp-content/uploads/2011/03/teddy-90210.jpg",
         promo: true,
       },
       {
@@ -2044,7 +2044,7 @@ export const teenSeries: Show[] = [
         firstName: "Kirsten",
         lastName: "Cohen",
         imageUrl:
-          "https://www.hallofseries.com/wp-content/uploads/2020/04/kirsten-cohen.jpg",
+          "https://images.mubicdn.net/images/cast_member/28212/cache-257139-1505764404/image-w856.jpg?size=300x",
         promo: true,
       },
       {
@@ -2866,7 +2866,7 @@ export const teenSeries: Show[] = [
     language: "en",
     country: "US",
     posterUrl:
-      "https://m.media-amazon.com/images/M/MV5BMjUwYWRkMDItYTNkNy 0OWQ0LWJhYTQtNzI3MWFmMmI3ZDQ5XkEyXkFqcGc@._V1_.jpg",
+      "https://cdn.europosters.eu/image/1300/8956.jpg",
     numberOfSeasons: 6,
     numberOfEpisodes: 121,
     mainCharacters: [
@@ -4640,7 +4640,7 @@ export const teenSeries: Show[] = [
         firstName: "Emma",
         lastName: "Nelson",
         imageUrl:
-          "https://media0093.elcinema.com/uploads/_640x_73850ca4914289c50172e243328ddc1d193ac5868429d2903f178c7a4e3e142e.jpg",
+          "https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_242/MTg5NzQyNDIzMzczOTgwODk4/ladiesofdegrassi.webp",
         promo: true,
         classOf: "2007",
         generation: 1,
@@ -6242,7 +6242,7 @@ export const teenSeries: Show[] = [
         firstName: "Hanna",
         lastName: "Marin",
         imageUrl:
-          "https://scontent.fbma6-1.fna.fbcdn.net/v/t39.30808-6/512512144_24550718421197480_7148238620108678665_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=rjxsyscWNxwQ7kNvwGkO6yN&_nc_oc=AdnUeJJfHBsOtu5m61suMPiYlw_Cz2fLgVQaaPx0VhhlqwBmRZu4uRIcg7u_gMUHwII&_nc_zt=23&_nc_ht=scontent.fbma6-1.fna&_nc_gid=2kgAE_kNtlGMD6xoZiXrdQ&oh=00_AfoGFWW0lWuxo8qyvoeEpU8uYbUkfppY3aZnIPGAahlIjA&oe=697B065B",
+          "https://w0.peakpx.com/wallpaper/777/89/HD-wallpaper-ashley-benson-hanna-marin-pretty-little-liars.jpg",
         posterUrl:
           "https://preview.redd.it/what-do-my-top-say-about-me-v0-v46zwu53oz3d1.jpg?width=640&crop=smart&auto=webp&s=47f5ff829870bc9d2aca6a1f99658c3dbd7ee010",
         promo: true,
@@ -6550,7 +6550,7 @@ export const teenSeries: Show[] = [
         firstName: "Lorenzo",
         lastName: "St. John",
         imageUrl:
-          "https://scontent.fbma6-1.fna.fbcdn.net/v/t39.30808-6/506449592_1373793850568105_681691114474787311_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=eIbqAMfXkPQQ7kNvwHcXgGk&_nc_oc=AdmRutM2dY4GYArzRxn3x5zu3VxzrD7eT1Rh0Nx-gfTXG4Inl1bB5SgMp7kuf31ptd4&_nc_zt=23&_nc_ht=scontent.fbma6-1.fna&_nc_gid=NOFFjaAgXe3AlVdoQ002fw&oh=00_AfqGhjFxLMZsqbZEHwS1CHQ1O_IMUwVAwaq8giL7arWL7Q&oe=6975B53A",
+          "https://assets.mycast.io/characters/elza-5942475-normal.jpg?1677943852",
         promo: true,
         nickname: ["Enzo"],
       },
@@ -7800,7 +7800,7 @@ export const teenSeries: Show[] = [
     id: "smallville",
     title: "Smallville",
     posterUrl:
-      "https://m.media-amazon.com/images/M/MV5BZDU0ZDVjOTItMDNkMy 0YTI0LWFjYzItY2M1NjU5NjAzZGViXkEyXkFqcGc@._V1_.jpg",
+      "https://m.media-amazon.com/images/I/61J0MdwUy8L._AC_UF894,1000_QL80_.jpg",
     country: "US",
     language: "En",
     firstAirDate: "2001-10-16",
@@ -9205,7 +9205,7 @@ export const teenSeries: Show[] = [
     id: "summer-i-turned-pretty",
     title: "The Summer I Turned Pretty",
     posterUrl:
-      "https://m.media-amazon.com/images/M/MV5BYjy OWZkYjEtYzBmZC00NThhLWFjOGYtM2Q5NDA5MWJjZGVkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "https://hips.hearstapps.com/hmg-prod/images/e64b451f-61ef-4c10-ac5b-41f6c372d6eb.jpg?crop=1xw:1xh;center,top&resize=980:*",
     country: "US",
     language: "En",
     status: "Ended",
@@ -9744,7 +9744,7 @@ export const teenSeries: Show[] = [
     id: "awkward",
     title: "Awkward.",
     posterUrl:
-      "https://m.media-amazon.com/images/M/MV5BMjBmNTU4Y2EtNDc5Yy 0NDdjLTk5ZTgtYTEwMDQzMWM2YjQ5XkEyXkFqcGc@._V1_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMjBmNTU4Y2EtNDc5Yy00NDdjLTk5ZTgtYTEwMDQzMWM2YjQ5XkEyXkFqcGc@._V1_.jpg",
     country: "US",
     language: "En",
     firstAirDate: "2011–07-19",

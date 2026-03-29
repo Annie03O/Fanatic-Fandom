@@ -87,10 +87,8 @@ useEffect(() => {
   const renderRow = (items: typeof visible, cols: number) => (
     <section className={`grid-cols-1 ${gridBase} ${colsClass(cols)} mt-4`}>
       {items.map((s) => (
-        <button
+        <section
           key={s.id}
-          type="button"
-          onClick={() => pushSeason(s.id!)}
           className="border w-fit"
         >
           <article className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative"}>
@@ -102,8 +100,8 @@ useEffect(() => {
               className={`${page === true ? "h-[250px] w-[200px]" : "w-[250px] md:h-[200px] md:w-[150px]"} object-cover object-center`}
             />
           </article>
-          <section className="text-lg">Season {s.seasonNumber}</section>
-        </button>
+          <section className="text-lg text-center">Season {s.seasonNumber}</section>
+        </section>
       ))}
     </section>
   );
@@ -165,7 +163,7 @@ useEffect(() => {
         )}
 
         {/* VIEW ALL */}
-        <section className="flex items-center justify-center mt-4">
+        {/* <section className="flex items-center justify-center mt-4">
           {page === false && seasons.length > 10 ? (
             <button
               className="underline"
@@ -174,7 +172,7 @@ useEffect(() => {
               View All Seasons
             </button>
           ) : null}
-        </section>
+        </section> */}
       </section>
     </section>
   );

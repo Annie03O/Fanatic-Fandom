@@ -1,4 +1,5 @@
 import { Header } from "./components/Header";
+import { Footer } from "./Footer";
 import "./globals.css";
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
@@ -15,6 +16,7 @@ export default function RootLayout({
       <body>
       <Header/>
         {children}
+      <Footer/>
       </body>
     </html>
   );

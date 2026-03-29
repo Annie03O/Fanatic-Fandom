@@ -28,7 +28,7 @@ function Character() {
 
   if (!character) return notFound();
  
-  const grouped = character.relationships.reduce<Record<string, Relationship[]>>(
+  const grouped = character.relationships!.reduce<Record<string, Relationship[]>>(
     (acc, r) => {
       (acc[r.type] ??= []).push(r);
       return acc;
@@ -59,7 +59,7 @@ const sortedTypes = Object.keys(grouped).sort(); // eller din egen ordning
                            </section>
                            <section className="w-full">
                              <h2 className="text-3xl">Relationships</h2>
-                           <RelationshipsSection relationships={character.relationships} />
+                           <RelationshipsSection relationships={character.relationships!} />
                          </section>
                         </section>
                         <section className="border md:w-[50%] lg:w-[30%]">

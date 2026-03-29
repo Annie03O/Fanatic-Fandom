@@ -11,12 +11,12 @@ function chunk<T>(arr: T[], size: number): T[][] {
 
 export const TeenPage = () => {
   return (
-    <section className="grid gap-y-10 gap-x-5 grid-cols-1 md:grid-cols-4 lg:grid-cols-6">
+    <section className="grid gap-y-10 gap-x-5 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6">
       {teenSeriesTop50WithSlug.items.map((i) => {
         const rows = chunk(i. tags, 3); // max 3 tags per rad
 
         return (
-          <Link key={i.slug} href={`/teen/${i.slug}`}>
+          <Link key={i.slug} href={`/shows/${i.slug}`}>
             <section className="flex justify-center items-center">
               <article className="w-[300px] h-[600px] border rounded-xl">
                 <h1 className="text-2xl whitespace-nowrap text-center">
@@ -31,7 +31,7 @@ export const TeenPage = () => {
 
                 <ul className="p-1">
                   <li>
-                    <b>Airing:</b> {i.firstAirDate.slice(0,4)} - {i.lastAirDate.slice(0,4)}
+                    <b>Airing:</b> {i.firstAirDate.slice(-4)} - {i.lastAirDate.slice(-4)}
                   </li>
 
                   {/* Tags */}
