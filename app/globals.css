@@ -1,9 +1,15 @@
 @import "tailwindcss";
 
 :root {
+<<<<<<< HEAD
   --background: hsl(257, 100%, 71%);
   --foreground: #ededed;
   }
+=======
+  --background: #ffffff;
+  --foreground: #171717;
+}
+>>>>>>> d847065 (Initial commit from Create Next App)
 
 @theme inline {
   --color-background: var(--background);
@@ -14,7 +20,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+<<<<<<< HEAD
     --background: hsl(257, 100%, 71%);
+=======
+    --background: #0a0a0a;
+>>>>>>> d847065 (Initial commit from Create Next App)
     --foreground: #ededed;
   }
 }
@@ -22,5 +32,9 @@
 body {
   background: var(--background);
   color: var(--foreground);
+<<<<<<< HEAD
   font-family: 'Times New Roman', Times, serif;
+=======
+  font-family: Arial, Helvetica, sans-serif;
+>>>>>>> d847065 (Initial commit from Create Next App)
 }

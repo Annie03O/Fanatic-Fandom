@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 
+<<<<<<< HEAD
 const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
@@ -12,3 +13,10 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+=======
+const nextConfig: NextConfig = {
+  /* config options here */
+};
+
+export default nextConfig;
+>>>>>>> d847065 (Initial commit from Create Next App)

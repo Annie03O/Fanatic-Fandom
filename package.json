@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "fanaticfandom",
+=======
+  "name": "my-app",
+>>>>>>> d847065 (Initial commit from Create Next App)
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+<<<<<<< HEAD
     "build": "cross-env NODE_ENV=production next build",
     "start": "next start",
     "lint": "eslint",
@@ -19,17 +24,32 @@
     "next": "16.1.0",
     "react": "19.2.3",
     "react-dom": "19.2.3"
+=======
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.3.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+>>>>>>> d847065 (Initial commit from Create Next App)
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+<<<<<<< HEAD
     "cross-env": "^10.1.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.0",
     "gh-pages": "^6.3.0",
     "prettier": "3.8.1",
+=======
+    "eslint": "^9",
+    "eslint-config-next": "16.3.1",
+>>>>>>> d847065 (Initial commit from Create Next App)
     "tailwindcss": "^4",
     "typescript": "^5"
   }
