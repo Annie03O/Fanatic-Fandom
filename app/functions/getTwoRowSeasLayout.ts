@@ -2,19 +2,11 @@ import { Layout } from "../models/types/Layout";
 
 export function getTwoRowSeasLayout(count: number): Layout {
   
-<<<<<<< HEAD
-  if (count === 3 || count === 2 || count === 4) return { rows: 1, topCols: count, splitAt: count };
-  if (count === 5) return { rows: 2, topCols: 2, bottomCols: 3, splitAt: 2 };
-  if (count === 6) return { rows: 1, topCols: 3,  splitAt: count };
-
-  if (count === 7) return { rows: 2, topCols: 3, bottomCols: 3,  splitAt: count };
-=======
   if (count === 1 || count === 3 || count === 2 || count === 4) return { rows: 1, topCols: count, splitAt: count };
   if (count === 5) return { rows: 2, topCols: 2, bottomCols: 3, splitAt: 2 };
   if (count === 6) return { rows: 1, topCols: 3,  splitAt: count };
 
   if (count === 7) return { rows: 2, topCols: 3, bottomCols: 4,  splitAt: 3 };
->>>>>>> 4b79439 (Cleaning worktree)
 
   if (count <= 8) return { rows: 1, topCols: 4, splitAt: count };
 
@@ -41,8 +33,4 @@ export function getTwoRowSeasLayout(count: number): Layout {
   const topCols = Math.min(splitAt, 6);
   const bottomCols = Math.min(count - splitAt, 6);
   return { rows: 2, topCols, bottomCols, splitAt };
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 4b79439 (Cleaning worktree)

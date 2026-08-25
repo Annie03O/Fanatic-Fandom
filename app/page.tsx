@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import Link from "next/link";
 
 const featuredShows = [
@@ -55,16 +54,3 @@ export default function Home() {
     </main>
   );
 }
-=======
-import Image from "next/image";
-
-export default function Home() {
-  return (
-    <div >
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
-  );
-}
->>>>>>> d847065 (Initial commit from Create Next App)

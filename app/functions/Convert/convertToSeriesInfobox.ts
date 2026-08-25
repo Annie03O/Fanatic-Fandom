@@ -1,10 +1,6 @@
 import { InfoField } from "../../models/types/Infobox";
 import { Show } from "../../models/types/Show";
-<<<<<<< HEAD
-import { teenSeriesTop50WithSlug } from "../teenSeriesTop50WithSlug";
-=======
 import { teenSeriesWithSlug } from "../WithSlug/teenSeriesWithSlug";
->>>>>>> 4b79439 (Cleaning worktree)
 
 // type guard så .filter inte blir (InfoField | null)[]
 const isInfoField = (v: InfoField | null): v is InfoField => v !== null;
@@ -38,11 +34,7 @@ export function convertToSeriesInfobox(show?: Show) {
     show.title?.length ? { label: "Title", info: show.title } : null,
     show.tags?.length ? { label: "Genre", info: show.tags } : null,
     show.basedOn === true && show.related?.length
-<<<<<<< HEAD
-      ? { label: "Based On", info: show.related[0] }
-=======
       ? { label: "Based On", info: show.related[0].title }
->>>>>>> 4b79439 (Cleaning worktree)
       : null,
     show.creator?.length ? { label: "Creator", info: show.creator } : null,
     castNames.length ? { label: "Cast", info: castNames } : null,
@@ -65,11 +57,7 @@ export function convertToSeriesInfobox(show?: Show) {
     show.firstAirDate?.length ? { label: "Premiere Air Date", info: show.firstAirDate } : null,
     show.lastAirDate?.length ? { label: "Finale Air Date", info: show.lastAirDate } : null,
     show.network?.length ? { label: "Network", info: show.network } : null,
-<<<<<<< HEAD
-    show.related?.length ? { label: "Related", info: show.related } : null,
-=======
     show.related?.length ? { label: "Related", info: show.related.map((r) => r.title) } : null,
->>>>>>> 4b79439 (Cleaning worktree)
   ].filter(isInfoField);
 
   return {
@@ -84,16 +72,8 @@ export function convertToSeriesInfobox(show?: Show) {
 
 // Om du vill bygga listan:
 // (filtrera bort null ifall något skulle vara trasigt)
-<<<<<<< HEAD
-export const teenSeriesTop50WithInfobox = {
-  items: teenSeriesTop50WithSlug.items
-    .map(convertToSeriesInfobox)
-    .filter((s): s is Show & { infobox: any } => Boolean(s)),
-};
-=======
 export const teenSeriesWithInfobox = {
   items: teenSeriesWithSlug.items
     .map(convertToSeriesInfobox)
     .filter((s): s is Show & { infobox: any } => Boolean(s)),
 };
->>>>>>> 4b79439 (Cleaning worktree)

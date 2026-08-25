@@ -1,6 +1,6 @@
 import { Relationship } from "../../models/types/Relationship";
 
-export function formatFriendShip(ship: Relationship): string | null {
+export function formatFriendship(ship: Relationship): string | null {
   if (ship.type !== "Friendship") return null;
 
   if (ship.kindOfFriendship === "Normal")  return `${ship.name}`;

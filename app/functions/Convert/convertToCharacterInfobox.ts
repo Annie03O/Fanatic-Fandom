@@ -1,19 +1,11 @@
 import { Character } from "../../models/types/Character";
 import { InfoField } from "../../models/types/Infobox";
 import { Relationship } from "../../models/types/Relationship";
-<<<<<<< HEAD
-import { formatFamilyShip } from "../Format/formatFamilyShip";
-import { formatFriendShip } from "../Format/formatFriendShip";
-import { formatMaritalStatus } from "../Format/formatMaritalStatus";
-import { formatRomance } from "../Format/formatRomance";
-import { teenSeriesTop50WithSlug } from "../teenSeriesTop50WithSlug";
-=======
 import { formatFamily } from "../Format/formatFamily";
 import { formatFriendship } from "../Format/formatFriendship";
 import { formatMaritalStatus } from "../Format/formatMaritalStatus";
 import { formatRomance } from "../Format/formatRomance";
 import { teenSeriesWithSlug } from "../WithSlug/teenSeriesWithSlug";
->>>>>>> 4b79439 (Cleaning worktree)
 
 const isInfoField = (x: InfoField | null): x is InfoField => x !== null;
 
@@ -23,17 +15,10 @@ export function convertToCharacterInfobox(character: Character) {
   );
 
   const friends = rels.
-<<<<<<< HEAD
-    map(formatFriendShip).
-    filter((f): f is string => Boolean(f)) ;
-  const family = rels
-    .map(formatFamilyShip)
-=======
     map(formatFriendship).
     filter((f): f is string => Boolean(f)) ;
   const family = rels
     .map(formatFamily)
->>>>>>> 4b79439 (Cleaning worktree)
     .filter((s): s is string => Boolean(s));
 
   const romance = rels.
@@ -73,28 +58,15 @@ export function convertToCharacterInfobox(character: Character) {
       {
         name: character.firstName,
         posterSrc: character.posterUrl,
-<<<<<<< HEAD
-        fields,
-=======
         fields
->>>>>>> 4b79439 (Cleaning worktree)
       },
     ],
   };
 }
 
-<<<<<<< HEAD
-export const teenSeriesTop50WithInfobox = {
-  items: teenSeriesTop50WithSlug.items.map((show) => ({
-=======
 export const teenSeriesWithInfobox = {
   items: teenSeriesWithSlug.items.map((show) => ({
->>>>>>> 4b79439 (Cleaning worktree)
     ...show,
     characters: (show.mainCharacters ?? []).map(convertToCharacterInfobox),
   })),
 };
-<<<<<<< HEAD
-
-=======
->>>>>>> 4b79439 (Cleaning worktree)
