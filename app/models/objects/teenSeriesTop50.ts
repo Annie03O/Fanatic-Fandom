@@ -8431,40 +8431,40 @@ export const teenSeries: Show[] = [
         id: "nick-andopolis",
         firstName: "Nick",
         lastName: "Andopolis",
-        imageUrl:
-          "https://preview.redd.it/who-do-i-look-like-i-always-wondered-v0-wf8z2texjz7f1.jpeg?width=426&format=pjpg&auto=webp&s=604d14661f58f4ad4264905c008401c30d4b6f20",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThvK4DykQBENgbPhBPh-deR-XoMyyKfJCzuQ-kZGmlMzAb9fcu1dipLeqL&s=10",
+        posterUrl: "https://preview.redd.it/who-do-i-look-like-i-always-wondered-v0-wf8z2texjz7f1.jpeg?width=426&format=pjpg&auto=webp&s=604d14661f58f4ad4264905c008401c30d4b6f20",
         promo: true,
       },
       {
         id: "bill-haverchuck",
         firstName: "Bill",
         lastName: "Haverchuck",
-        imageUrl:
-          "https://scontent.fbma6-1.fna.fbcdn.net/v/t39.30808-6/517409086_10161523912133483_4236080250782526204_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=b9kV5w2Z2fgQ7kNvwFgvqjy&_nc_oc=AdkVxXGPn85Cl-1V8PYNxy2lpUh3jbOceOyZFk9HUgajGyb3ZpWeDj4wKwlI9bVy1aI&_nc_zt=23&_nc_ht=scontent.fbma6-1.fna&_nc_gid=nBBkjQED-eg1mr6oPLxmbA&oh=00_AfrL14sfsD968N5xaavzTJOnTpdeBlzpEeJ0tcTdd5zhwA&oe=69767203",
+        imageUrl: "https://preview.redd.it/this-is-one-of-the-best-characters-in-television-history-v0-qeq42pg6yapb1.jpg?auto=webp&s=c5a63dde16125d1ef59fe0fa04a152db8cde5e13",        
+        posterUrl:  "https://static.wikia.nocookie.net/freaksandgeeks/images/6/6d/Bill-Haverchuck-imdb-61.jpg/revision/latest?cb=20150128065541",
         promo: true,
       },
       {
         id: "jean-weir",
         firstName: "Jean",
         lastName: "Weir",
-        imageUrl:
-          "https://preview.redd.it/becky-ann-baker-loreen-aka-jean-weir-freaks-and-geeks-v0-6t51mn57k4af1.jpeg?auto=webp&s=fb67a77db4e7fb16a51796187d13140fa20bbc10",
+        imageUrl: "https://preview.redd.it/tv-show-scenes-the-hit-you-in-the-feels-for-you-for-me-the-v0-1vbw6xvoe89h1.png?width=940&format=png&auto=webp&s=9d0123846443754ca6662402bf371c72b9be80c8",
+        posterUrl: "https://preview.redd.it/becky-ann-baker-loreen-aka-jean-weir-freaks-and-geeks-v0-6t51mn57k4af1.jpeg?auto=webp&s=fb67a77db4e7fb16a51796187d13140fa20bbc10",
         promo: true,
       },
       {
         id: "harold-weir",
         firstName: "Harold",
         lastName: "Weir",
-        imageUrl:
-          "https://npr.brightspotcdn.com/dims4/default/1cf5fb1/2147483647/strip/true/crop/480x720+0+0/resize/1760x2640!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwesa%2Ffiles%2F201603%2Fflaherty.jpg",
+        imageUrl: "https://planetclaire.tv/wp-content/uploads/2015/04/freaks-and-geeks-mr-weir.jpg",
+        posterUrl:  "https://npr.brightspotcdn.com/dims4/default/1cf5fb1/2147483647/strip/true/crop/480x720+0+0/resize/1760x2640!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwesa%2Ffiles%2F201603%2Fflaherty.jpg",
         promo: true,
       },
       {
         id: "kim-kelly",
         firstName: "Kim",
         lastName: "Kelly",
-        imageUrl:
-          "https://hips.hearstapps.com/elleuk.cdnds.net/15/37/2048x2730/2048x2730-e32db-assets-elleuk-com-gallery-2953-1394193218-busy-philipps-audrey-liddell-dawsons-creek-getty-jpg.jpg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIZ_GQhbtWL6XbYsCwHGZKinKysladebJse82jm4slEsdFza-PXBZaIQ_-&s=10",
+        posterUrl:  "https://hips.hearstapps.com/elleuk.cdnds.net/15/37/2048x2730/2048x2730-e32db-assets-elleuk-com-gallery-2953-1394193218-busy-philipps-audrey-liddell-dawsons-creek-getty-jpg.jpg",
         promo: true,
       },
     ],
@@ -8493,6 +8493,13 @@ export const teenSeries: Show[] = [
           "https://image.tmdb.org/t/p/original/b099jmImbcYkcVLCpqkWN3PSjvw.jpg",
         episodeCount: 18,
       },
+    ],
+    soundtrack: [
+      {
+        id: "freaks-and-geeks-soundtrack",
+        noImage: true,
+        noSeason: 1,
+      }
     ],
     themeSong: ["'Bad Reputation' by Joan Jett"],
     creator: ["Paul Feig"],
@@ -8533,65 +8540,66 @@ export const teenSeries: Show[] = [
         id: "lorelai-gilmore",
         firstName: "Lorelai",
         lastName: "Gilmore",
-        imageUrl:
-          "https://i.pinimg.com/1200x/99/ca/53/99ca531b7ad94da294c912acdcd6f784.jpg",
+        imageUrl: "https://literallydarling.com/wp-content/uploads/2016/04/635883988844690890-1771697843_Lorelai-gilmore-girls-24368505-1024-768.png",
+        posterUrl:  "https://i.pinimg.com/1200x/99/ca/53/99ca531b7ad94da294c912acdcd6f784.jpg",
         promo: true,
       },
       {
         id: "rory-gilmore",
         firstName: "Lorelai",
         lastName: "Gilmore",
-        imageUrl:
-          "https://scontent.fbma6-1.fna.fbcdn.net/v/t39.30808-6/514593662_10163482195142456_5065917034912559789_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=IsaaXzAn_PsQ7kNvwG-OEFD&_nc_oc=AdkO82TKM9WZmfyQGqbMnsd-b8l3BkmhhkgMIbhiiLRG9jpoYnUpq9i2A_zfydSSpWU&_nc_zt=23&_nc_ht=scontent.fbma6-1.fna&_nc_gid=-odb8jQfDBFMVMaJn2_0HQ&oh=00_Afp5NP9fHA_11B_2XJ2BB-m7VL8PShYMSZu2z_n7ohs4NQ&oe=6976A962",
+        imageUrl: "https://preview.redd.it/worst-thing-each-character-has-done-first-day-rory-gilmore-v0-xllmr59aidqd1.jpeg?width=640&crop=smart&auto=webp&s=2f5f3a643efd1d5c8aa55043d8cc0a058353be84",
+        posterUrl: "https://static.wikia.nocookie.net/gilmoregirls/images/9/9a/2rory.jpeg/revision/latest?cb=20160718233946",
         promo: true,
         nickname: ["Rory"],
+        goesByNickname: true,
       },
       {
         id: "sookie-st.-james",
         firstName: "Sookie",
         lastName: "St. James",
-        imageUrl:
-          "https://imgix.bustle.com/2016/11/5/gilmore-girls-revival-sookie-melissa-mccarthy-a36a1043-942f-4dd6-b72d-c6846425ea49.jpg?w=1200&h=1200&fit=crop&crop=faces&fm=jpg",
+        imageUrl: "https://media.glamour.com/photos/57ed49d767019e3b52347748/1:1/w_1406,h_1406,c_limit/ffwefwf.jpg",
+        posterUrl:  "https://imgix.bustle.com/2016/11/5/gilmore-girls-revival-sookie-melissa-mccarthy-a36a1043-942f-4dd6-b72d-c6846425ea49.jpg?w=1200&h=1200&fit=crop&crop=faces&fm=jpg",
         promo: true,
       },
       {
         id: "lane-kim",
         firstName: "Lane",
         lastName: "Kim",
-        imageUrl:
-          "https://images.sbs.com.au/dims4/default/cc58241/2147483647/strip/true/crop/1115x627+120+0/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Fguide%2Fpublic%2Fkeiko-agena-lane-kim.jpg",
+        imageUrl: "https://i.insider.com/6012dbf26dfbe10018e00787?width=1200&format=jpeg",
+        posterUrl: "https://images.sbs.com.au/dims4/default/cc58241/2147483647/strip/true/crop/1115x627+120+0/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Fguide%2Fpublic%2Fkeiko-agena-lane-kim.jpg",
         promo: true,
       },
       {
         id: "michel-gerard",
         firstName: "Michel",
         lastName: "Gerard",
-        imageUrl:
-          "https://i.namu.wiki/i/u5xElaimCYzcTWwto24Fqmk6wTiflpEfXe318hKHf6coy WOrkzlTrYj03ipylVNzqTz5nSWAqHCFWwoGL0Uj_Z6mo0Fo4cCFa84l5yviv96d2UWEoohghUlHpiD5H6Korldq2MppZcGFxvrgKgFBg.webp",
+        imageUrl: "https://pyxis.nymag.com/v1/imgs/ffa/f22/c423df183af23bd36020676d7ff4343865-23-yanic-truesdale.rsquare.w330.jpg",
+        posterUrl:  "https://people.com/thmb/NR1-CyxVwTwR4AC8L-N3c60qIQ0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(665x0:667x2)/yanic-truesdale-1333x2000-1-24588e4ba06f46c0bc978d8c09dd9a7f.jpg",
         promo: true,
       },
       {
         id: "luke-danes",
         firstName: "Luke",
         lastName: "Danes",
-        imageUrl:
-          "https://scontent.fbma6-1.fna.fbcdn.net/v/t39.30808-6/475767569_951627337062244_5903962176502751408_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=4vO5gmnfpSMQ7kNvwFAvqF_&_nc_oc=Adl__9q_yJ29fXpB3QnEUzAjYR2ebLv-6mHC8Pf6MGu3cFbJJdeB1psbnxsBzxmFkcM&_nc_zt=23&_nc_ht=scontent.fbma6-1.fna&_nc_gid=snYkrEy_sxIe_O_YaHPpdw&oh=00_Afp-IdT8L_4sVZydT2uUEvYxozVGdpyGkJZGW5k4HOpIOA&oe=69768C09",
+        imageUrl: "https://static.wikia.nocookie.net/gilmoregirls/images/e/e3/111luke.png/revision/latest?cb=20240823034952",
+        posterUrl: "https://static.wikia.nocookie.net/glimoregirls/images/6/60/Luke_Danes.jpg/revision/latest?cb=20161123105840&path-prefix=de",
         promo: true,
       },
       {
         id: "emily-gilmore",
         firstName: "Emily",
         lastName: "Gilmore",
-        imageUrl:
-          "https://i.pinimg.com/736x/2c/cf/4a/2ccf4a39df9d571825e42127d8c095a4.jpg",
+        imageUrl: "https://ew.com/thmb/ZPLUX624RxP6A1sO-ZrPZS5g0Dc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/kelly_l-5-357e2a5366ff4f0880a05316f20c9614.jpg",
+        posterUrl: "https://i.pinimg.com/736x/2c/cf/4a/2ccf4a39df9d571825e42127d8c095a4.jpg",
         promo: true,
       },
       {
         id: "richard-gilmore",
         firstName: "Richard",
-        lastName: "Gil<more",
-        imageUrl:
-          "https://preview.redd.it/gilmore-girls-spin-off-idea-v0-aifhl63v51ge1.jpeg?auto=webp&s=9b08daa5bf549158124b960f23163a7e6ea2a610",
+        lastName: "Gilmore",
+        imageUrl: "https://hallmark.brightspotcdn.com/dims4/default/4909e27/2147483647/strip/true/crop/1911x1911+941+141/resize/300x300!/quality/90/?url=http%3A%2F%2Fhallmark-channel-brightspot.s3.amazonaws.com%2F31%2F52%2F2c70334d42738f616404b211146a%2Ffullres-00357522.jpg",
+        posterUrl: "https://preview.redd.it/gilmore-girls-spin-off-idea-v0-aifhl63v51ge1.jpeg?auto=webp&s=9b08daa5bf549158124b960f23163a7e6ea2a610",
         promo: true,
       },
     ],
@@ -8691,6 +8699,50 @@ export const teenSeries: Show[] = [
         episodeCount: 22,
       },
     ],
+    soundtrack: [
+      {
+        id: "gilmore-girls-season-1-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1, 
+      },
+      {
+        id: "gilmore-girls-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2, 
+      },
+      {
+        id: "gilmore-girls-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3, 
+      },
+      {
+        id: "gilmore-girls-season-4-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 4, 
+      },
+      {
+        id: "gilmore-girls-season-5-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 5, 
+      },
+      {
+        id: "gilmore-girls-season-6-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 6, 
+      },
+      {
+        id: "gilmore-girls-season-7-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 7, 
+      }
+    ],
     themeSong: ["'Where You Lead' by Carole King and Louise Goffin"],
     creator: ["Amy Sherman-Palladino"],
     producer: [
@@ -8714,6 +8766,7 @@ export const teenSeries: Show[] = [
     related: [
       {
         id: "gilmore-girls-reboot",
+        title: "Girlmore Girls: A year in the life",
         posterUrl: "https://m.media-amazon.com/images/M/MV5BODM1OTk4MDY2M15BMl5BanBnXkFtZTgwOTEwNzczMDI@._V1_.jpg",
       },
     ],
@@ -8737,48 +8790,48 @@ export const teenSeries: Show[] = [
         id: "veronica-mars",
         firstName: "Veronica",
         lastName: "Mars",
-        imageUrl:
-          "https://ew.com/thmb/fYiDkVePUpPW0JwilCBcdZI2nYI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/203551__veronica_l-1-3ac93ec3a8164744927bca295124d138.jpg",
+        imageUrl: "https://media.wired.com/photos/59326d8d2a990b06268aa74e/3:2/w_2560%2Cc_limit/Veronica-Mars.png",
+        posterUrl:  "https://ew.com/thmb/fYiDkVePUpPW0JwilCBcdZI2nYI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/203551__veronica_l-1-3ac93ec3a8164744927bca295124d138.jpg",
         promo: true,
       },
       {
         id: "wallace-fennel",
         firstName: "Wallace",
         lastName: "Fennel",
-        imageUrl:
-          "https://static.tvmaze.com/uploads/images/medium_portrait/3/9303.jpg",
+        imageUrl: "https://assets.mycast.io/characters/wallace-fennel-7194028-normal.jpg",
+        posterUrl: "https://static.tvmaze.com/uploads/images/medium_portrait/3/9303.jpg",
         promo: true,
       },
       {
         id: "duncan-kane",
         firstName: "Duncan",
         lastName: "Kane",
-        imageUrl:
-          "https://baileydavidappelhans.wordpress.com/wp-content/uploads/2014/10/duncan-kane.jpg",
+        imageUrl: "https://www.tvguide.com/a/img/hub/2019/07/11/b7b2aff2-82c1-45eb-8adf-8a80278c4daf/duncan.png",
+        posterUrl: "https://baileydavidappelhans.wordpress.com/wp-content/uploads/2014/10/duncan-kane.jpg",
         promo: true,
       },
       {
         id: "logan-echolls",
         firstName: "Logan",
         lastName: "Echolls",
-        imageUrl:
-          "https://www.cryptoseries.fr/media/k2/items/cache/6111134b69b9dcb9c953bb227317f7fc_XL.jpg",
+        imageUrl: "https://ew.com/thmb/ezOpuCpLkRe8ih66L95XfiivaSI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/203551__logan_l-575927555e2340a7bb7ce34c5f1ba748.jpg",
+        posterUrl:  "https://www.cryptoseries.fr/media/k2/items/cache/6111134b69b9dcb9c953bb227317f7fc_XL.jpg",
         promo: true,
       },
       {
         id: "eli-navarro",
         firstName: "Eli",
         lastName: "Navarro",
-        imageUrl:
-          "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Eli-Navarro.Veronica-Mars.webp",
+        imageUrl: "https://i.pinimg.com/474x/16/ec/86/16ec86f96fd9daeb17cdef404835188f.jpg",
+        posterUrl:  "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Eli-Navarro.Veronica-Mars.webp",
         promo: true,
       },
       {
         id: "keith-mars",
         firstName: "Keith",
         lastName: "Mars",
-        imageUrl:
-          "https://media1.popsugar-assets.com/files/thumbor/-Bwnl2wttjvUVNF364RlE6p2lQI=/fit-in/792x1151/filters:format_auto():upscale()/2014/03/06/907/n/1922283/15c8518efbe5c1bf_veronica-mars-photoshoots-veronica-mars-9575201-950-1381.jpg",
+        imageUrl: "https://static.wikia.nocookie.net/veronicamars/images/4/47/ReKeith.png/revision/latest/smart/width/250/height/250?cb=20140420054713",
+        posterUrl:  "https://media1.popsugar-assets.com/files/thumbor/-Bwnl2wttjvUVNF364RlE6p2lQI=/fit-in/792x1151/filters:format_auto():upscale()/2014/03/06/907/n/1922283/15c8518efbe5c1bf_veronica-mars-photoshoots-veronica-mars-9575201-950-1381.jpg",
         promo: true,
       },
     ],
@@ -8812,7 +8865,7 @@ export const teenSeries: Show[] = [
         finaleEpisode: "Not Pictured",
         title: "Veronica Mars, Season 2",
         posterUrl:
-          "https://pics.filmaffinity.com/veronica_mars-706824547-large.jpg",
+          "https://m.media-amazon.com/images/I/91XUGZT6ybL._AC_UF894,1000_QL80_.jpg",
         episodeCount: 22,
       },
       {
@@ -8837,6 +8890,32 @@ export const teenSeries: Show[] = [
         posterUrl:
           "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185042_b_v8_ac.jpg",
         episodeCount: 8,
+      },
+    ],
+    soundtrack: [
+      {
+        id: "veronica-mars-season-1-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1
+      },
+      {
+        id: "veronica-mars-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2
+      },
+      {
+        id: "veronica-mars-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3
+      },
+      {
+        id: "veronica-mars-season-4-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 4
       },
     ],
     themeSong: ["'We Used to Be Friends' by The Dandy Warhols"],
