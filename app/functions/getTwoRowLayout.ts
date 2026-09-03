@@ -16,6 +16,7 @@ export function getTwoRowLayout(count: number): Layout {
   if (count === 10) return { rows: 2, topCols: 5, bottomCols: 5, splitAt: 5  };
 
   if (count === 11) return { rows: 2, topCols: 5, bottomCols: 6, splitAt: 5 };
+  if (count === 13) return { rows: 2, topCols: 3, bottomCols: 5, splitAt: 3}
 
   if (count === 14) return { rows: 2, topCols: 4, bottomCols: 5, splitAt: 4 };
   if (count === 15) return { rows: 2, topCols: 5, bottomCols: 5, splitAt: 5 };
@@ -23,6 +24,8 @@ export function getTwoRowLayout(count: number): Layout {
 
   if (count === 16) return { rows: 1, topCols: 8, splitAt: count };
   if (count === 17) return { rows: 2, topCols: 5, bottomCols: 6, splitAt: 5 };
+
+  if (count === 19) return { rows: 2, topCols: 4, bottomCols: 5, splitAt: 4}
 
   if (count === 20) {
     return {

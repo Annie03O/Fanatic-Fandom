@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import { generateLabel } from "@/app/functions/Format/generateLabel";
-=======
 import { generateLabel } from "@/app/functions/Format/generateLabels";
->>>>>>> 4b79439 (Cleaning worktree)
 import { Relationship } from "@/app/models/types/Relationship";
 
 type Props = {
@@ -11,19 +7,19 @@ type Props = {
 
 export const ShipCard = ({ item }: Props) => {
   return (
-    <section className="flex  h-[300px] relative ">
-      <section className="flex border flex-col w-2/3 p-1">
+    <section className="flex min-h-[310px] h-fit w-full relative mr-1">
+      <section className="flex border flex-col w-2/3  p-1">
         <section>
           <h1 className="text-2xl">{item.name}</h1>
         </section>
 
-        <section>
+        <section className="">
           <header className="text-lg">{generateLabel(item)}</header>
           <span>{item.shortDesc}</span>
         </section>
       </section>
 
-      <section className="w-[200px] border flex items-center relative ">
+      <section className="w-1/3 border flex items-center relative ">
         <img
           className="object-cover object-center h-full w-full md:w-max absolute right-0"
           src={item.imgUrl}
@@ -32,8 +28,4 @@ export const ShipCard = ({ item }: Props) => {
       </section>
     </section>
   );
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> 4b79439 (Cleaning worktree)

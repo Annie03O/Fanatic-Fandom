@@ -2,7 +2,7 @@ import { Character } from "./Character";
 import { Season } from "./Season";
 
 export type CastMember = {
-  actor: string;
+  actor: string | string[];
   character: string | string[];
   creditOrder?: number; // 1 = toppnamn
   imageUrl?: string;
@@ -31,8 +31,4 @@ export type TeenSeriesEntry = {
 
   // ✅ NYTT
   cast?: CastMember[];
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> 4b79439 (Cleaning worktree)

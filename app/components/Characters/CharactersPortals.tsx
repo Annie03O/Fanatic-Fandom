@@ -145,10 +145,10 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
           key={c.id}
           type="button"
           onClick={() => pushCharacter(c.id!)}
-          className="border w-fit"
+          className={`border w-fit bg-white` }
         >
-          <article className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative"}>
-            <h2 className={`text-2xl text-center ${page === false ? "absolute bg-black w-full" : ""}`}>
+          <article className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative" }>
+            <h2 className={`text-2xl text-center bg-black ${page === false ? "absolute  w-full" : ""}`}>
               {c.label ? c.label : c.nickname && c.goesByNickname === true ? c.nickname[0] : c.firstName}
             </h2>
             {/* eslint-disable-next-line @next/next/no-img-element */}

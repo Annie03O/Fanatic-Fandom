@@ -21,7 +21,72 @@ export const teenSeries: Show[] = [
         firstName: "Brandon",
         lastName: "Walsh",
         gender: "M",
-        personality: "Brandon Walsh is portrayed as the moral center of Beverly Hills, 90210. He is intelligent, thoughtful, and deeply principled, often guided by a strong sense of right and wrong. Throughout the series, Brandon consistently tries to do what he believes is fair and ethical, even when it puts him in difficult situations. He is highly responsible and mature for his age, frequently acting as a voice of reason among his friends. Brandon often takes on leadership roles, whether as a student journalist, class president, or community advocate. He believes strongly in standing up for others and is not afraid to challenge authority when he feels something is unjust. Socially, Brandon is charismatic and approachable. He forms close relationships easily and is well-liked by both peers and adults. His empathy allows him to connect with people from different backgrounds, and he is usually willing to listen before judging. However, Brandon is not without flaws. He can be stubborn, self-righteous, and overly idealistic. At times, he struggles with seeing perspectives that differ from his own and may come across as judgmental. His desire to 'do the right thing' can sometimes turn into moral superiority, creating tension in his relationships. Emotionally, Brandon is loyal and caring, especially toward his twin sister Brenda and his close friends. He values honesty and commitment in romantic relationships but sometimes finds it difficult to balance his ideals with real-life complexities. Overall, Brandon Walsh represents the classic 'good guy' archetype: principled, compassionate, and driven by integrity, while still learning through mistakes and personal growth.",        
+        personality: 
+        "Brandon Walsh is portrayed as the moral center of Beverly Hills, 90210. He is intelligent, thoughtful, and deeply principled, often guided by a strong sense of right and wrong. Throughout the series, Brandon consistently tries to do what he believes is fair and ethical, even when it puts him in difficult situations. He is highly responsible and mature for his age, frequently acting as a voice of reason among his friends. However, Brandon is not without flaws. He can be stubborn, self-righteous, and overly idealistic. At times, he struggles with seeing perspectives that differ from his own and may come across as judgmental. His desire to 'do the right thing' can sometimes turn into moral superiority, creating tension in his relationships. Emotionally, Brandon is loyal and caring, especially toward his twin sister Brenda and his close friends. He values honesty and commitment in romantic relationships but sometimes finds it difficult to balance his ideals with real-life complexities. Overall, Brandon Walsh represents the classic 'good guy' archetype: principled, compassionate, and driven by integrity, while still learning through mistakes and personal growth.",        
+        characterArc: [
+          {
+            seasonNumber: 1,
+            summary: ["After moving from Minnesota to California, Brandon and his sister Brenda enroll at West Beverly Hills High School, where they would meet several new friends. After his initial difficulties with Beverly Hills, Brandon became loved by many and liked by all. When one of his drinks was spiked at a party, he briefly experienced a problem with drinking which led to the demise of his first cherished car (which he called 'Mondale'), and a night in jail."],
+          },
+          {
+            seasonNumber: 2,
+            summary: ["During the summer before his junior year, Brandon left his job at the Peach Pit to work as a cabana boy at the Beverly Hills Beach Club in an effort to buy a new car. He left Peach Pit with little notice, but luckily Nat found Courtney at the last minute to fill the void. Brandon spent the summer months saving up his money while meeting several characters, getting in between Jerry Rattinger and his mistress, Sandy. He also helped Dylan get through a rough patch, but suspected him of stealing some electronic equipment from the beach club. He returned to Peach Pit at the end of the summer after a camping trip with the core eight.",
+              "When school starts, he became besotted with the new girl in town, Emily Valentine, and after a brief competition with Dylan over her, the two began dating, eventually breaking up after she slips U4EA in his drink at a club. Emily became obsessed with Brandon, stalking him with phone calls and gifts left on his doorstop. When she attempts suicide, she was checked into a clinic and Brandon went to visit her. During the year, Brandon confronted his cousin, Bobby Walsh, who was in a wheelchair because of a skiing accident in which Brandon felt responsible. Bobby never blamed him, however. He also briefly fell for an ice skater, Tricia Kinney, before she had to leave Los Angeles to continue her career."
+            ],
+          },
+          {
+            seasonNumber: 3,
+            summary: [
+              "Brandon returned to work at the Beverly Hills Beach Club for a second summer as the turmoil surrounding Dylan and Brenda's doomed relationship continued. However Brandon found his own companion in Brooke Alexander, though he would later break up with her over political differences and racial issues. When Brandon started his senior year, he was pursued by a freshman named Nikki Witt, who was infatuated with him. Brandon was not interested in the beginning due to their age difference, but soon softened and began dating her. They shared a nice, drama-free relationship until Nikki's ex-boyfriend, Diesel Stone, showed up and tried to pull her back into her old life. Brandon and Diesel eventually locked horns and Brandon punched Diesel out, but this event would signal the end of their relationship.",
+              "Nikki would return to San Francisco now that Diesel was out of the picture. Brandon later developed a serious gambling problem by betting with Duke Weatherill, Nat's friend and bookie. However, after Brandon got in over his head and Duke started making threats, Nat bailed him out of the situation on the condition Brandon would never bet again. After Donna Martin got caught with alcohol at the prom, she was forbidden from graduating by the school board. Brandon organized a mass walkout after Gil Meyers encouraged him to do something memorable and the entire senior and junior classes marched on the school board. They were successful and Donna was allowed to graduate with the rest of the class. Brandon, Brenda, Dylan, Kelly, Steve, David, Donna, and Andrea later shared a final night together as classmates before defacing the Hollywood sign.",
+            ],
+          },
+          {
+            seasonNumber: 4,
+            summary: [
+              "As the summer wound down, Brandon spent time at a beach house with Steve, Celeste Lundy, and Jill Fleming. Jill was a strong, independent woman from New York who bonded with Brandon and confided in him about her rape during her stay before returning to New York. Brandon began attending California University with the rest of the gang as their college years got underway. As the year began, Brandon soon found himself assigned by a sociology professor, Professor Randall, to tutor a basketball player, D'Shawn Hardell.",
+              "He also began a flirtatious relationship with Lucinda Nicholson, who unknown to Brandon, was married to Professor Randall. D'Shawn, who had noticed Brandon and Lucinda getting flirty, told Brandon that he was supposed to take the test for him or he would tell Professor Randall about them. Brandon refused D'Shawn and told Lucinda to back away before getting in his car and leaving Los Angeles. Brandon ended up in San Francisco, where he ran into Emily Valentine on a railway car. The two became romantically involved during his brief stay before Emily left for Paris, France to attend the Cousteau Institute on her way to becoming a marine biologist.",
+              "When returned to campus, he was shocked to find that Professor Randall had figured out the chemistry between Brandon and Lucinda all on his own. When Steve got in trouble for stealing Randall's baseball, Brandon threatened to expose Randall's favoritism of athletes is he didn't drop the charges. Randall left the university. Brandon then began seeing Lucinda on a regular basis, but was hounded by school's top reporter, Josh Richland. To deflect Josh's attention and cover up his relationship with Lucinda, Brandon pretended Kelly Taylor was his girlfriend on a task force retreat. However, when Lucinda made a pass at Dylan in order to get his financing for her documentary, Brandon ended their relationship. Dylan also found that Brandon and Kelly kissed on the retreat. He took a swing at Brandon, but Steve caught the blow. As the year ended, however, Brandon went to Washington, D.C. on task force business and had to fend off Lucinda and Clare Arnold before Kelly flew to Washington and surprised them. Brandon and Kelly slept together for the first time."
+            ],
+          },
+          {
+            seasonNumber: 5,
+            summary: [
+              "Brandon spends the entire summer with Kelly Taylor and hides their relationship from everyone except for Jim and Cindy Walsh. When Dylan returned from the road drunk and disheveled, Brandon tried to break the news to him, but was unable to find the proper words when he saw how bad of shape Dylan was emotionally. However, Nat accidentally let it slip to Dylan, who caused a scene at a benefit given by Felice Martin. Brandon and Dylan had heated words over Kelly and the friendship between the two of them was strained. Brandon was also reunited with an old friend from Minnesota, Valerie Malone, who moved into the Walsh house. Brandon was then pulled into student politics as the running mate of Josh Richland. They were underdogs, but Brandon's speech about student politics to the student body gave them a boost. When a campaign manager, Alex Diaz, tried to imply Brandon took D'Shawn Hardell's exams for him, it backfired and gave Josh and Brandon even more votes. On the night of the election, the duo surprisingly won, but Josh was killed in a car accident, leaving Brandon to hold the office alone.",
+              "Alex Diaz then contested Brandon's appointment, stating the rules of succession were not clear and had never been challenged. Brandon continued to call every Senate meeting to order while the university considered Alex's protest. Brandon was eventually sworn in as student body president and had to deal with many issues while in office. After the ordeal with the Senate was resolved, Brandon had to deal with the return of Emily Valentine simultaneously occurring with Kelly getting badly burned at a rave thrown by Steve Sanders and Griffin Stone. Brandon and Emily bid each other farewell before Emily walked out of his life for good. However, Kelly had been emotionally damaged by the fire and was taken advantage of by The New Evolution, a cult headed up by Abnormal Psychology professor Patrick Finley. Despite many protests by Brandon and some confrontations with Finley, Brandon couldn't get her to listen to him.",
+              "Desperate for help, Brandon turned to Dylan, who went undercover with The New Evolution and found out they were only out to gain as much monetary assistance as they could. Dylan set it up so Finley would tell Kelly to sleep with him, but Brandon had a plan in effect. With a tip from Milton Arnold, Brandon located Professor Finley's former teaching assistant, Greg Jarret, who informed Kelly of the real intentions of the New Evolution. She then left them and came back to Brandon. Brandon spent the rest of the season battling with Dylan over Kelly's affections and simultaneously saying goodbye to his parents, Jim and Cindy Walsh, as well as Andrea Zuckerman and Jesse Vasquez, all of whom left town. After Kelly chose neither Dylan nor Brandon, Brandon drank his sorrows away at a party in Palm Springs before catching a bus home with Dylan McKay.",
+            ],
+          },
+          {
+            seasonNumber: 6,
+            summary: [
+              "Brandon works at a newspaper out of state over the summer. Upon his return he starts working at the California University newspaper, The Condor. There, he clashed with the editor, Susan Keats, a feminist that refused to date co-workers. However, Brandon eventually wore her down and they began dating. Meanwhile, Dylan McKay had started a vendetta against Anthony Marchette, the man who supposedly killed his father, Jack McKay. Brandon was able to find some information on Marchette for Dylan, who began romancing Marchette's daughter, Antonia Marchette. Brandon and Susan did many double dates with Dylan and Toni, all the while Brandon trying to get Dylan to drop his vendetta for Toni's sake. Eventually, Dylan and Toni got married, but the night after the wedding, Brandon received a call from Bruno, who warned Brandon that Marchette was going to kill Dylan. Brandon tried to get to Dylan before the hit went off, but in all of the confusion, Toni was killed by bullets meant for Dylan. Brandon and all of their friends attended Toni's funeral before Brandon and Dylan exchanged heartfelt goodbyes.",
+              "After Dylan left, Brandon and Susan began having some issues, with Susan insecure over Kelly Taylor's presence in their lives and Brandon insecure over Susan's ex, Jonathan Casten, returning to Beverly Hills to win Susan over. However, after Jonathan left town following a Susan Keats right hook, Brandon and Susan strengthened their relationship by getting stranded on a ski run, meeting Susan's overbearing parents, reuniting Nat with his old flame Joan, and planning a trip across America for the summer. However, after Brandon turned down an offer from a major newspaper in Boston at Susan's request for a summer trip, Susan took a job working on the Presidential campaign in Washington, D.C., despite Brandon's objections. They broke up and Susan left Los Angeles. However, before Brandon left for his trip, he and Steve were able to chase down Colin Robbins, who was a wanted fugitive, and aid in his trip to prison. Brandon and Kelly later shared a tender moment after learning Dylan and Brenda were together in London.",
+            ],
+          },
+          {
+            seasonNumber: 7,
+            summary: [
+              "After traveling all summer with Steve Sanders following his breakup with Susan Keats, Brandon's car broke down in a small Texas town, where he met a local woman named Mariah Murphy. After spending time with her, Mariah became inspired to leave the town and travel to New York to try and become an author. After returning home, Brandon warmly welcomed Kelly and attended the Beverly Hills Beach Club reunion. Later, leading up to the wedding of Nat Bussichio and Joan Diamond, Brandon had a one-night stand with Joan's daughter, Lily Diamond. However, Brandon was surprised to learn that she was a stripper going by the name of Tiger Lily. After Lily informed Brandon that she was a free spirit and left town, Brandon became romantically involved with Tracy Gaylian, the news anchor at the California University news station.",
+              "Brandon, still burning from the breakup with Susan, was reluctant to enter a serious relationship. However, they continued to see each other. When Professor Cory Randall returned to the university, he busted Steve Sanders for plagiarizing one of Brandon's old papers. While Steve pleaded guilty and got academic probation, Randall made a case against Brandon for collusion by fabricating evidence against him. Thanks to Steve and Clare, however, Randall was exposed and Brandon won the tribunal. After Donna had been stalked for weeks, the stalker was revealed as Evan Potter, a camera man at the university television station. Brandon had a hand in getting Evan caught after he and Donna were the last two hostages left. As the year went on, Brandon and Tracy began to have problems, mostly due to the presence of Kelly.",
+              "Although Brandon tried to do the right thing and move forward, he was never in love with Tracy. He eventually ended it after Mariah visited him and nudged him towards Kelly over Tracy. He and Kelly kissed and then Brandon broke it off with Tracy. Valerie, intent on seeing Brandon away from Kelly, had a New York friend send Kelly a telegram from Dylan, asking him to meet her at the airport. Brandon and Kelly survived Valerie's manipulations, but Kelly got pregnant and had a miscarriage, strengthening hers and Brandon's bond. As the year came to an end, Brandon prevented Valerie from committing suicide and the gang graduated college to begin the next step in their lives."
+            ],
+          },
+          {
+            seasonNumber: 8,
+            summary: [
+              "Brandon went on a Hawaiian vacation with Steve, Valerie, David and Donna, only to run into Tracy after Kelly had fought with Brandon over him holding onto her keepsakes. The gang also met Noah Hunter, who stood up for Donna when her boss was chewing her out. They spent a good time there and Kelly eventually joined them. After they got home, Kelly was shot in the airport parking lot by two thugs stealing a car, landing in Brandon's arms. The gang rushed her to the hospital , where she was saved by Dr. Sturla, who performed emergency surgery on her. However, she had complications, which led to her having temporary amnesia. When she woke up, she seemed more interested in newcomer Noah Hunter, but he was more into Valerie and told her to work her life out before she abandoned Brandon so easily. As Kelly's memories started coming back, they differed over the indentity of the perpetrator, who Brandon identified in a lineup to Detective Woods.",
+              "Brandon was offered a job in Seattle, but after advice from Noah, he decided to stay in Los Angeles and start his own paper with Steve's help called The Beverly Beat. Steve was the publisher and they hired Terri Spar to work with them. When Donna Martin found a sweatshop operation in the city, she worked with Brandon and Steve to expose the story. However, things got complicated when it turned out Rush Sanders was one of the owners of the sweat shop. They ran the story to expose him. Brandon and Kelly got into a bit of a rut, with Kelly getting bored with their unchanging daily routines. In an effort to spice up the relationship, they began having sex in different places. Brandon and Kelly later came across Erica McKay, who had returned to Los Angeles and had begun working as a prostitute for a pimp named Riggs, who pulled a knife on Brandon. They reached out to help her with the help of Pam Ahern, but Erica took advantage of them and robbed Brandon's house. Brandon and Kelly later picked her up again and took her back home.",
+              "After Brandon wrote a story on Erica's life, for The Beverly Beat, assistant DA Debra Mills showed up and wanted to make a case against Riggs. She ordered Brandon to reveal his source or he would go to jail for obstruction of justice. Brandon refused to reveal Erica as his source. Erica later set Riggs up and got him arrested on a different charge, thereby getting Mills off of Brandon's back. She then went to go live with Dylan and Brenda in London. After Kelly recommended Brandon hire Emma Bennett, he soon began an affair with her. After Emma began harassing Brandon, Steve briefly took the blame before Kelly found out via Emma. She moved out of the house and back into the beach apartment. Brandon spent several weeks trying to get her to forgive him, but she had moved on with Jeff Stockmann temporarily. She eventually forgave him and the two reunited.",
+            ],
+          },
+          {
+            seasonNumber: 9,
+            summary: [
+              "Brandon only appeared in a few episodes in season 9 as Priestley was leaving the show. All appearances ultimately lead up to him severing his relationship with Kelly and eventually accepting a job across the country and moving away from Beverly Hills."
+            ],
+          }
+        ],
         imageUrl: "https://preview.redd.it/best-thing-a-character-has-done-round-1-brandon-walsh-make-v0-5bufh6k7gcwd1.png?width=640&crop=smart&auto=webp&s=3420651eed7ff647c83726b3805fb7d38d54d02f",
         posterUrl: "https://i.pinimg.com/736x/dc/46/4f/dc464f06c9d2bcba9a30b528b4b91fba--s-tv-shows-jason-priestley.jpg",
         promo: true,
@@ -89,13 +154,15 @@ export const teenSeries: Show[] = [
             id: "brandon-jim",
             type: "Family", 
             name: "Jim Walsh",
-            family: "Parent", 
+            family: "Parent",
+            typeOfFamily: "Biological", 
             imgUrl: "https://m.media-amazon.com/images/M/MV5BMTgxMTIxNzk0NF5BMl5BanBnXkFtZTgwOTMyMDYzMzE@._V1_.jpg",
             gender: "M"   
           },
           {
             id: "brandon-cindy",
             type: "Family", 
+            typeOfFamily: "Biological",
             name: "Cindy Walsh",
             family: "Parent", 
             imgUrl: "https://m.media-amazon.com/images/M/MV5BMTgxMTIxNzk0NF5BMl5BanBnXkFtZTgwOTMyMDYzMzE@._V1_.jpg",   
@@ -142,6 +209,7 @@ export const teenSeries: Show[] = [
           {
             name: "Paula Beevis",
             type: "Family",
+            typeOfFamily: "Biological",
             extended: true,
             ifExtended: "Maternal",
             family: "Aunt/Uncle",
@@ -317,96 +385,7 @@ export const teenSeries: Show[] = [
           firstEpisode: "Class of Beverly Hills",
           lastEpisode: "Ode to Joy",
           episodeCount: "244",
-          characterArc: [ 
-            {
-            seasonNumber: 1,
-            summary: ["In Season 1 of Beverly Hills, 90210, Brandon Walsh’s main storyline centers on his adjustment to life in Beverly Hills after moving from Minnesota. As a newcomer at West Beverly High, he struggles to fit into a wealthy and image-driven environment while trying to stay true to his Midwestern values. Early in the season, he becomes involved in rumors and social conflicts, which quickly teach him how fragile reputations can be in his new school.",
-                      "Brandon forms a close friendship with Dylan McKay, which helps integrate him into the main social group. Throughout the season, he is often portrayed as a moral voice among his peers, standing up for honesty, fairness, and responsibility. He also navigates several early romantic experiences, including reconnecting with his former girlfriend Sheryl and developing growing feelings for Andrea Zuckerman.",
-                      "One of his most important storylines occurs when he helps a troubled classmate who is contemplating violence, showing his empathy and emotional maturity. By the end of the season, Brandon has become more confident in his place at West Beverly and more aware of the emotional complexities of relationships. Season 1 establishes him as a thoughtful, principled character who often acts as the conscience of the group."
-            ]
-          },
-          {
-            seasonNumber: 2,
-            summary: ["In Season 2, Brandon’s storylines focus on personal independence, romantic challenges, and growing social responsibility. During the summer, he works at the Beverly Hills Beach Club to earn money for a car, exposing him to adult lifestyles and moral compromises among wealthy clients and coworkers. This experience marks his first real step toward independence.",
-              "Back at school, Brandon becomes more involved in journalism through The Blaze, where he begins to develop his identity as a writer and investigator. His strongest storyline of the season is his relationship with Emily Valentine. What begins as an exciting romance becomes unhealthy when Emily’s emotional instability leads her to manipulate and drug him, forcing Brandon to confront issues of trust and boundaries. The relationship ultimately ends, leaving him more cautious about love.",
-              "Later in the season, Brandon investigates steroid use among student athletes, going undercover to expose cheating and corruption. This storyline reinforces his role as a truth-seeker and moral leader. He also continues to support friends like Andrea and Dylan while balancing his own ambitions and responsibilities.",
-              "By the end of Season 2, Brandon is more mature and self-aware. He has learned that doing the right thing often comes with personal consequences, and he begins to see journalism and activism as meaningful paths for his future. The season shows his transition from an idealistic newcomer into a more experienced and resilient young adult."
-            ]
-          },
-          {
-            seasonNumber: 3,
-          summary: [
-            "In Season 3, Brandon’s storylines focus on leadership, ambition, and the growing pressures of popularity and responsibility. Now more established at West Beverly High, he becomes deeply involved in student government and school politics, eventually running for student body president. His campaign highlights both his idealism and the ethical challenges that come with competition, especially when rivals resort to manipulation.",
-            "At the same time, Brandon continues developing his skills as a journalist through The Blaze. He investigates sensitive issues within the school, including cheating scandals and corruption, reinforcing his reputation as someone who values truth over personal gain. These storylines show him learning that honesty can sometimes isolate him socially.",
-            "Romantically, Brandon begins a serious relationship with Nikki Witt, but their differing values and ambitions cause tension. Their breakup reflects Brandon’s increasing focus on his future and personal integrity. He also experiences emotional distance from Andrea, whose feelings for him continue to complicate their friendship.",
-            "Throughout the season, Brandon struggles with balancing popularity and principle. While he gains influence and respect, he also learns that leadership comes with loneliness and criticism. By the end of Season 3, he emerges as a more confident and politically aware young man, prepared to take on larger responsibilities beyond high school."
-          
-          ]
-          
-          }, 
-          {
-            seasonNumber: 4,
-            summary: [
-              "Season 4 marks a major transition for Brandon as he enters college at California University and begins adult life beyond high school. His storylines revolve around independence, romantic turmoil, and deeper moral dilemmas. No longer protected by the structure of high school, Brandon must navigate academic pressure, financial responsibility, and more complex relationships.",
-              "One of his central arcs is his evolving romance with Kelly Taylor. Their relationship grows more serious and emotionally intense, eventually becoming one of the defining romances of the series. Brandon struggles with commitment, jealousy, and insecurity, especially as past relationships and external pressures interfere. This season lays the groundwork for their future engagement.",
-              "Professionally, Brandon becomes heavily involved with the campus newspaper, The Condor. As editor, he faces ethical conflicts involving censorship, political influence, and journalistic integrity. He frequently clashes with university administrators and advertisers, forcing him to decide whether to protect his career or stand by his principles.",
-              "Season 4 also explores Brandon’s darker moments. He experiences burnout, self-doubt, and moments of recklessness, including questionable decisions that threaten his reputation. These struggles humanize him, showing that even his strong moral compass can waver under pressure.",
-              "By the end of the season, Brandon is more self-aware and emotionally mature. He has begun to understand that adulthood involves compromise, vulnerability, and long-term commitment. Season 4 presents him as a young man transitioning from idealistic student leader into a more realistic, thoughtful adult."
-            ],
-          }, 
-          {
-            seasonNumber: 5, 
-            summary: [
-              "In Season 5, Brandon’s storylines revolve around emotional instability, career ambition, and the collapse of his relationship with Kelly. Now fully immersed in college life, he becomes editor-in-chief of The Condor, taking on greater responsibility and pressure. While he is proud of his leadership role, the constant stress begins to affect his judgment and personal life.",
-              "His relationship with Kelly reaches a breaking point this season. After Kelly survives a traumatic shooting and struggles with emotional recovery, Brandon has difficulty providing the support she needs. Their communication breaks down, and his growing closeness with reporter Susan Keats leads to emotional and physical infidelity. This betrayal deeply hurts Kelly and ultimately ends their relationship.",
-              "The cheating scandal marks one of Brandon’s lowest moral moments in the series. For the first time, he seriously compromises his values, damaging his reputation as the “good guy” of the group. He feels intense guilt and self-doubt afterward, realizing that good intentions are not enough to prevent harmful choices.",
-              "Professionally, Brandon continues to pursue investigative journalism, often clashing with authority figures and advertisers. His dedication to exposing the truth remains strong, but he begins to recognize the personal cost of always putting work before relationships.",
-              "By the end of Season 5, Brandon is emotionally exhausted and humbled. The season portrays him as more flawed and vulnerable than ever before, showing that even his strong moral foundation can crack under pressure."
-            ]
-          }, 
-          {
-            seasonNumber: 6,
-            summary: [
-              "Season 6 focuses on Brandon’s attempt to rebuild himself emotionally, professionally, and romantically after the mistakes of the previous year. He works hard to restore his integrity and regain trust, both in his career and in his personal life. His journalism remains central, and he continues to pursue meaningful, socially responsible stories.",
-              "A major storyline is Brandon’s renewed relationship with Kelly. After spending time apart and maturing individually, they slowly reconnect. Their bond grows stronger through shared experiences, including Kelly’s struggles with addiction and recovery. Brandon becomes more patient and emotionally present, showing growth from his earlier mistakes.",
-              "This season also introduces Brandon’s romantic involvement with Susan Keats, which ends when he realizes that his feelings for Kelly are unresolved. The triangle reinforces his internal conflict between comfort, ambition, and emotional loyalty.",
-              "Professionally, Brandon faces ethical challenges involving political influence, censorship, and power struggles at The Condor. These storylines emphasize his ongoing commitment to truth and justice, even when it risks his future. He also takes on more mentorship and leadership roles, reflecting his increasing maturity.",
-              "Toward the end of the season, Brandon proposes to Kelly, symbolizing his desire for long-term commitment and stability. Although their engagement will later face obstacles, it represents his emotional growth and readiness to take adult responsibility seriously.",
-              "By the conclusion of Season 6, Brandon emerges as more grounded and self-aware. He has learned from past failures and is now more capable of balancing love, ambition, and integrity. The season portrays him as a young man moving steadily toward adulthood."
-            ]
-          },
-          {
-            seasonNumber: 7,
-            summary: [
-              "In Season 7, Brandon’s storylines focus on career uncertainty, emotional fatigue, and questioning his long-term direction in life. Now finished with college, he begins working as a reporter at the Beverly Beat, finally entering the professional journalism world he has been working toward for years. However, he quickly discovers that real-world journalism is far more restrictive than he expected, with editors, sponsors, and political interests limiting his freedom.",
-              "Brandon becomes frustrated with having to compromise his principles in order to keep his job. Several storylines involve him investigating sensitive topics, only to be pressured into altering or dropping stories. These experiences leave him feeling disillusioned and conflicted about whether journalism can truly be a force for change.",
-              "His relationship with Kelly continues to face difficulties. Although they still care deeply for each other, their different priorities and emotional exhaustion create distance. Brandon struggles with commitment and doubts about whether he is ready for marriage, while Kelly seeks stability and reassurance. Their engagement begins to feel more like a responsibility than a source of happiness.",
-              "Season 7 also explores Brandon’s burnout. He becomes more irritable, withdrawn, and uncertain, showing signs that years of pressure and moral responsibility have taken a toll on him. Unlike earlier seasons, he no longer feels confident that doing “the right thing” will lead to positive outcomes.",
-              "By the end of the season, Brandon is at a crossroads. He is no longer the idealistic young leader he once was, but he has not yet found a new sense of purpose. Season 7 portrays him as a thoughtful but tired young man struggling to redefine himself in adulthood."
-            ]
-          }, 
-          {
-            seasonNumber: 8,
-            summary: [
-              "Season 8 represents the final chapter of Brandon’s journey on the series and focuses on closure, acceptance, and moving forward. His central storyline revolves around his engagement to Kelly and the realization that love alone is not enough to sustain a relationship.",
-              "As wedding plans progress, Brandon becomes increasingly aware of unresolved issues between them. He questions whether they are truly compatible in the long term, especially as both face career and personal uncertainties. His doubts are intensified by his lingering feelings for Emily Valentine, who returns and briefly reenters his life.",
-              "Brandon’s reunion with Emily forces him to confront his past and consider alternate versions of his future. Although he ultimately recognizes that returning to old relationships is not the solution, the experience clarifies his emotional confusion and highlights his fear of making irreversible commitments.",
-              "Professionally, Brandon continues working as a journalist but remains dissatisfied with the limitations of his career path. He feels trapped between wanting stability and wanting meaningful impact. This internal conflict mirrors his romantic struggles, reinforcing the theme of uncertainty that defines his final season.",
-              "The most significant moment of Season 8 is Brandon and Kelly’s decision to call off their wedding. Rather than ending in bitterness, their breakup is portrayed as a mature and mutual realization that they are no longer right for each other. This marks a major emotional milestone for Brandon, showing his growth in self-awareness and honesty.",
-              "At the end of the season, Brandon accepts a job in Washington, D.C., and leaves Beverly Hills. His departure symbolizes his readiness to start a new chapter independently, free from past expectations and unfinished relationships. Season 8 concludes his arc as someone who has learned that growth sometimes means letting go and choosing an uncertain future over familiar comfort."
-            ]
-          },
-          {
-            seasonNumber: 9, 
-            summary: [
-              "By Season 9, Brandon is no longer a regular presence on the show, having left Beverly Hills at the end of Season 8 to pursue a political journalism career in Washington, D.C. As a result, he does not have ongoing storylines in this season.",
-              "However, Brandon remains emotionally important to the series through references and brief mentions, especially in connection to Kelly. She continues to reflect on their past relationship, and his influence is still felt in her personal growth and decision-making. Their history is treated as a defining chapter in both of their lives.",
-              "Brandon’s absence in Season 9 reinforces the idea that he has truly moved on to the next phase of adulthood. Instead of remaining tied to high school friendships and past romances, he chooses independence, ambition, and personal fulfillment. His departure represents a successful transition from teenage idealism to professional maturity.",
-              "Although he is not physically present, Season 9 confirms that Brandon’s story has reached a natural conclusion: he has left Beverly Hills with clarity, purpose, and a stronger sense of self."
-            ]
-          }
-          
-        ]   
+            
            
         },
       {
@@ -418,6 +397,80 @@ export const teenSeries: Show[] = [
           "https://images6.fanpop.com/image/photos/41300000/Brenda-Walsh-beverly-hills-90210-41373235-727-936.jpg",
         promo: true,
         personality: "Brenda Walsh is a passionate, sensitive, and idealistic young woman who experiences life with emotional intensity. She is deeply romantic, loyal, and creative, but also vulnerable to jealousy and heartbreak. While her strong feelings sometimes lead to impulsive behavior, they also fuel her growth into a confident and independent person. Brenda’s journey is about learning to balance love, self-respect, and ambition in a world that often undervalues emotional honesty.",        
+        characterArc: [
+          {
+            seasonNumber: 1,
+            summary: [
+              "Upon arrival in Beverly Hills, Brenda feels overwhelmed by the social pressures and the high upkeep the rich teens maintain in terms of expensive clothes and the importance they give to their image. When heading to a club with Kelly and her friends, Brenda is the only one who gets in and she meets a guy named Jason. Brenda pretends to be a college student and starts dating Jason, who is a twenty-something lawyer, until she decides to be honest with him to strengthen their relationship and he takes it badly, humiliating her in public. Brenda tells him she liked him so much she had thought of sleeping with him and he tries to apologize to her, but Brenda tells him off and says she never wants to see him again.",
+              
+              "Her first few months in Beverly Hills, Brenda attempts to make a good impression on Kelly, wanting to fit in while also being impressed by Kelly, who is the most popular girl at West Beverly. Brenda finds herself in situations where she doesn't agree with Kelly's behavior or where Kelly doesn't consider other people and Brenda stands up to Kelly, showing respect for herself. All the while, Brenda doesn't realise that Kelly wishes she could be more like Brenda, who has a safe family life. Brenda and Kelly grow closer and find more equal footing with one another, once Brenda meets Kelly's former model mother, who Brenda doesn't know is an addict and alcoholic. Brenda and her family support Kelly and their friendship becomes deeper and stronger.",
+
+              "After a while, Brenda finds herself uninspired by the constant shopping trips Kelly and Donna focus their time on, and decides she wants something valuable to spend her time on, outside of school. Brandon sets her up with Andrea, who volunteers for a rape crisis center and, although they clash at first with both having presumptions about who the other is as well as strong convictions and personalities, the girls get to know each other better through the work. In one of her first sessions, Brenda inadvertently talks to a West Beverly student, who is experiencing continuous date-rape and Brenda figures out how to save the girl and have the attackers arrested. The intense experience creates a strong bond and mutual respect between Andrea and Brenda.",
+
+              "Brenda meets and develops a crush on Beverly Hills bad-boy legend, Dylan McKay. She feels insecure at first, thinking she can't compete with all the glamourous rich blondes at her school, but soon comes to find that Dylan is not that kind of guy. They fall into each other's orbit when Dylan hangs out with Brandon and invites Brenda along. They flirt and go on an explosive first date where Brenda meets Dylan's negligent father. He is vulnerable and opens up to Brenda, who comforts him and their intense relationship begins. Brenda stands up for herself and Dylan is honest with her, making their connection strong. Dylan is also there for a panicked Brenda when the twins throw a house party that gets out of control and Brandon gets in an accident while DUI.",
+
+              "When Brenda throws a slumber party at her house, she decides to invite Andrea so she can get to know the other girls better. Unexpectedly, the girls all become closer as they share intimate truths and reveal some secrets. Brenda and Kelly fight over Kelly having tried to get a date with Dylan after he and Brenda started going out, but they make up with help from Andrea and Brenda forgives Kelly. Brenda becomes insecure about her relationship with Dylan as he wants to take 'the next step', but stands her ground and lets him know that it's about their relationship, not just sex. They move on from there and their relationship deepens, with Dylan supporting Brenda when she discovers a lump in her breast and has to have a biopsy done. Brenda explores her interest in acting with both a temp stint at the Peach Pit as 'Laverne' and a spoken word coffeehouse performance, where she meets some likeminded people. She also tries her hand at what life will be like as an adult, living on her own for a few days and comes to appreciate her parents all the more for this. She decides that she's ready to have sex for the first time when she and Dylan attend the Spring Dance together, after having been together six months. She is really happy to have taken the step, but devastated when her father decides to take a lucrative promotion that will mean moving back to Minneapolis, away from Dylan. Although she breaks up with him, they reconcile once her father decides the family should stay in California.",
+            ],
+          },
+          {
+            seasonNumber: 2,
+            summary: [
+              "Brenda's discovery that she's late sends her into an understandable panic as she grapples with having to visit a gynaecologist without alerting her parents. She gets her period and finds out that she's not pregnant, but the experience leaves her wanting to take a step back and take a breath. Brenda decides to break up with a devastated Dylan. To get back to focusing on her life and distract herself from the break-up, Brenda signs up for summer drama classes with Donna and is surprised, but happy to find Andrea in the class too. Brenda bonds with Andrea over being wary of going to the beach as they might run into Dylan and Brandon, respectively. Although her relationship with Dylan is over, he's not far from her orbit as he recuperates with the Walsh family after a surfing accident, much to Brenda's alarm. They share a kiss and she feels confused, but remains firm that they should stay apart.",
+
+              "Brenda spends her summer in drama class, hanging out with Donna at the Beach Club and attending an after hours poker party where they dress up in period clothes and with Kelly at the beach, having lunch with Kelly and her mother Jackie. Brenda alone stands by Dylan when everyone thinks he's robbed the Beach Club and once Dylan leaves to visit his mother in Hawaii, Brenda finds herself daydreaming of and missing him. Brenda's drama classes excite her, but a crush on her teacher, Chris, temporarily drive her and Andrea apart when he chooses Andrea. They end up becoming closer after Chris turns out to be a horrible person. Dylan keeps at wanting Brenda back and they fight when Dylan is feeling neglected by his mother, exacerbating his loneliness and lack of support. Brenda continues to try and be there for Dylan.",
+            ],
+          },
+          {
+            seasonNumber: 3,
+            summary: [
+              "At the beginning of the school year, Brenda becomes jealous when Dylan goes on a date with the new transfer student, Emily Valentine, who also has eyes for Brandon. Out of jealousy Brenda lashes out at Emily and calls her a slut in front of everyone. She later regrets her actions and apologizes to Emily, the two making amends. She realises that she misses and loves Dylan and they get back together. Brenda feels a lot of anger towards Dylan's mother, Iris McKay, when she arrives in town and upsets Dylan. Although Brenda initially doesn't like Iris, they find common ground in their love for Dylan and passionate dispositions. Brenda finds her friendship with Kelly tested when her cousin Bobby visits the family and he starts dating Kelly. Brenda becomes overprotective of him, as Bobby's in a wheelchair, but Kelly handles the situation well and their friendship is strengthened.",
+
+              "The girl group as a whole grows stronger when Andrea deals with possibly being exposed for living out of district and the girls come to her aid and support her. Brenda and the gang also deal with the death of Scott Scanlon, which brings them all closer yet. Brenda's previous ire with Emily Valentine resurfaces when Emily drugs Brandon without his knowledge, but Brenda actually ends up being the one to help out Emily, when Emily experiences a depressive episode, using her experience from the Teen Rap Line. Brenda starts working at a posh boutique where her boss (whom she once thought was a mentor) starts mistreating her (and a mysterious old homeless man dressed as Santa Claus). To get back at her boss, her mother dresses as a rich woman who pretends that she's about to buy a lot of stuff only to dress down Brenda's boss, after which Brenda quits. She also deals with her furtiveness regarding her driving skills, first having trouble passing her driver's test, and then being nervous about actually driving – although her cousin Bobby encourages her to try. In the spring Brenda is in a minor accident, and her parents question her driving skills yet again, but are stifled once Brenda and Dylan discover the other driver is a con artist trying to scam Brenda.",
+
+              "Brenda also starts attending an exercise class with Kelly, where she is tempted to cheat on Dylan when a college guy named Tim starts hitting on her. She doesn't know that at the same time, Dylan is also tempted by his old friend Sarah whom he meets at an AA meeting, but they both confess and stay together.[35] Brenda becomes a victim of Post Traumatic Stress Disorder after being held at gunpoint by an armed robber during an after-hours hold up at the Peach Pit, which incurs nightmares. With help from a psychiatrist and support from Dylan and her family, Brenda gets better. Along with Kelly, Donna and David, Brenda spends a rainy day tracking down Color Me Badd, which culminates in their private impromptu a capella show at the Peach Pit in the Spring of 1992.",
+
+              "Brenda's parents start to think that Brenda's a bit too invested in her romance with Dylan, which culminates in stricter rules when she comes home from Dylan's house late. Dylan invites Brenda to come surfing with him in Baja, a seminal moment for Brenda in their relationship. She asks her parents, who agree that she can go if she can demonstrate her commitment to abiding by their rules. Unfortunately, Brenda and Dylan fall asleep studying and Brenda's banned for the trip. Her decision to go anyway, asking Brandon and Kelly to lie to her parents for her, has a ripple affect on her life until she moves to London two years later.",
+
+              "Brenda doesn't tell Dylan that she wasn't allowed to go before they cross the border, and on their way back they're stopped as she's forgotten her passport. This starts an all-out war between Jim and Dylan, although Brenda is the culprit. Jim overreacts and blames Dylan for Brenda's decisions and ends up effectively excommunicating him from the family. While Brandon and Dylan's friendship somewhat survives, it is never as close as it was and, although Brenda knows that they are Dylan's sole family, she cannot stop her father from severing that bond. The result is Dylan starting to withdraw from her, although Brenda fights her parents on the issue.",
+
+              "Brenda defies her parents and continues to secretly see Dylan behind everyone's back with help from Kelly and Donna. Brenda's caught in the act when Jim and Cindy run into Brenda with Dylan at the beach club, and she runs away to Dylan's house. Brenda learns that living with Dylan isn't all it's cracked up to be and once Brandon and Cindy discover that Brenda is unhappy living with Dylan, Jim immediately takes advantage of it to play hardball with Dylan by canceling his trust fund without Brenda knowing about it. Meanwhile, Kelly and Donna plan a trip to Paris, but Kelly's loss of not going, due to her decision to stay and care for her mother's newborn baby girl, is Brenda's gain when Jim, using a little influence and blackmail, gets Kelly's visa for Brenda who agrees to accompany Donna to Paris for the summer.",
+
+              "When Brenda and Donna arrive in Paris, they get a less than dazzling welcome to the City of Light and miss their boyfriends, but they soon move past it. Brenda has a good time, quickly learning French and finding herself comfortable with the Parisian lifestyle, taking up smoking with Maggie. While in Paris, Brenda pretends to be a French tour guide to a young, attractive Wisconsin native named Rick. They spend time together in Paris and eventually develop feelings for one another. Although Brenda tells Rick she has a boyfriend, she can't resist and they share a passionate kiss. Rick asks her to go with him on his travels around the world and Brenda decides to go, only to miss him as he leaves.[40] Donna and Brenda return from Paris, both with a more independent spirit, but happy to see their boyfriends. Brenda feels guilty and confesses to Dylan that she was seeing Rick in Paris, but they stay together.",
+
+              "Starting senior year, Brenda volunteers to become a senior buddy to a freshman, who turns out to be the late Scott's younger sister, Sue. Brenda finds it difficult to reach Sue and suspects that something is wrong at home, stemming from something other than the loss of her brother. Donna helps Brenda uncover the truth and Sue gets help. Brenda is also worried about Kelly, who seems down, but Brenda doesn't know why and she tries to be there for Kelly. Brandon and Brenda fight over who gets to attend college out of state, only to realise that they both want to stay in California. Brenda keeps very active in school activities, arranging the annual 'Pig Skin Prom' for West Beverly.",
+
+              "Brenda feels increasingly distant from Dylan because of their differing views on their futures. She wants the relationship to work and is of course unaware that his distancing is due to his lying to and cheating on Brenda. At this uncertain stage, Brenda randomly bumps in to Rick at a video store and carries on the charade that she's French and living with her distant American relatives, the Walshes. After a while Brenda can't take it and tells Rick the truth. Although he's surprised, he's still interested and they start dating. Brenda's shocked and hurt when Rick brings her to a restaurant where they bump into Kelly and Dylan on a date. Brenda realises that she and Rick may not have that much in common and, although she cares about him, she's not truly over Dylan and therefore not ready to start anything new.",
+
+              "Dylan decides to skip town after the confrontation, while Brenda and Kelly start feuding. She and Brenda both heed Donna's words and mend fences, but are put on unsteady ground when Dylan returns. Brenda agrees to try just friendship with the two of them, but Dylan soon ends up kissing both girls, hurting people all over again. Brenda and Kelly decide that Dylan has to choose who he wants to be with on New Year's Eve. The girls start hanging out again, going on dates and being a united front again's their one-time lover. Dylan invites Brenda to a party for his father at the Bel Age Hotel after Jack is released from prison, but Brenda decides not to go, following a decree from her father but also on her own, as Jack McKay has mob connections.",
+
+              "Brenda tries to spend time with Dylan, but he rejects her and soon brings Kelly to meet up with Brenda and tell her they are together and the truth about their affair. Brenda is heartbroken and feels betrayed all at once and cuts them out of her life.Iris McKay shows up in Beverly Hills and helps Brenda find a path to feeling better by meeting her opponent halfway. Brenda and Iris's bond stays strong, in spite of Dylan being with someone else. To distract herself, Brenda takes up self-defence classes with her mother, Cindy, and Donna.",
+
+              "Following the sudden murder of Dylan's father, Brenda, in spite of feeling conflicted, decides to do the right thing and asks her father to bring Dylan to the safety of their home, which Dylan gladly accepts. Brenda is there for Dylan and consoles him, while Dylan assures her how much she means to him. The Walshes also insist on having Dylan over for dinner to keep tabs on his well-being, which Dylan is grateful for and which heals the former rift between Brenda's parents and Dylan. When Donna plans to throw Kelly a surprise 18th birthday party at the Peach Pit, Kelly collapses from overdose of diet pills. Brenda finds her unconscious in the bathroom and, as Kelly recovers in the hospital, the two have a heart to heart about their friendship and Brenda tells Kelly that she loves her. Brenda starts to feel like she doesn't belong in Beverly Hills. This is exacerbated by the Senior Polls, where Brenda had hoped to win 'Done Most For Class', which goes to a girl everyone's known since 2nd grade. Even though college could open up that world for Brenda, she feels excluded by her heartbreak over Dylan as well, and begins considering applying to college in Minneapolis. She does have a fun Senior Ditch Day with Andrea, David, Kelly and Donna at Magic Mountain.",
+
+              "West Beverly football star Tony Miller asks her to Senior Prom and, although she says yes, she's not really excited about going with Tony, but rather wouldn't want to miss out on Prom altogether. She spends the night trying to hide how much she misses Dylan and how hard it is for her to see him with Kelly. Dylan asks her to dance and Brenda admits to him she's not sure she'll ever get over him. Brenda applies to University of Minnesota and is accepted, and she struggles with how to tell the gang that she'll be leaving L.A. at the end of summer. On the day of graduation, the gang thinks back about their most memorable moments from the past three years. Brenda graduates with honours. On the night of graduation, they all meet in the Hollywood Hills, near the big Hollywood sign, to create their logo on the sign for the whole city to see, to commemorate their years at West Beverly Hills High School."
+            ],
+          },
+          {
+            seasonNumber: 4,
+            summary: [
+              "Brenda spends her summer before college working as a camp counsellor with Andrea at the Beverly Hills Beach Club. Still heartbroken over Dylan's betrayal, Brenda departs for Minnesota University. Steve's lucked out staying for free at a Malibu beach house and, together with Brandon, hosts a goodbye party for Brenda. Brenda's prom date Tony attends and still pines for Brenda. The following morning, Brandon takes her to breakfast at the Peach Pit to bid Nat farewell, who introduces his newest special: Laverne's honey pie. Arriving in Minneapolis, Brenda visits their old house with her mother, grandmother and cousin, who's constantly badgering Brenda about the glitz of Beverly Hills. It turns out to be subject to fascination and prejudice with her old friends as well, including her roommate Darla, which Brenda tires of and lets them know. After they make up and go off to a party, Brenda's phone rings and its Dylan, calling from Paris but just missing her.",
+
+              "Brenda has trouble readjusting to life in Minnesota, realising that, while she may have felt alienated by her friend group in L.A. following her break-up with Dylan, her true home is not in Minnesota either. Brenda comes to terms with the fact that she will walk a different life path from the people she knows, on her own at times, but that staying true to herself is what is most important. She tells Darla this, after confronting Darla with her and their Minnesota 'friends' making fun of Brenda, and decides to return to her family in Beverly Hills. In L.A., Donna is surprised to see Dylan and Kelly reunited, as she had told Brenda that they broke up. Wary from her overwhelming experience of solemnity, Brenda's knee-jerk reaction to her parents' incessant questioning about why she left Minneapolis is that college may not suit her after all. In the face of her parents vehement disapproval, she doesn't budge but goes to the Peach Pit to get a break. While there, she finds a future-weary compatriot in Dylan and the two jump in his car and speed off on adventure. They go to the pier and decide to fish, having a lot of fun just talking about life. They reconnect and mend fences after how Dylan broke Brenda's heart, but Dylan wants to get back together and Brenda declines. She admits she likes that they're on good terms, seemingly not wanting to risk having her heart broken again and Dylan accepts it. Her day spent with Dylan has changed something in her and Brenda tells her parents she wants to go to California University after all.",
+
+              "Brenda, Andrea, Kelly and Donna decide to rush sororities together, ending up all favouring Alpha Omega house, where they are dubbed the 'West Beverly 4' for their contributions in high school. The girls meet up at the Peach Pit to open their letters together and find they have all been accepted to final rounds at Alpha. Despite all four of them being offered a place in Alpha House, Brenda isn't feeling that enthusiastic about the thought of joining a sorority. At the KEG party at the end of their rushing, Brenda stands by herself in the corner and, after talking to Brandon, heads out. She goes to the Peach Pit where she bumps into Dylan, who's surprised that Brenda even attempted rush as he couldn't see her doing that. Brenda concedes his point, telling him that she was hoping for the girls to have something to keep them together now that they're in a big college, going in different directions. Andrea also decides Greek Life isn't for her and the girls decide to create a sorority of their own — the Peach Pit sorority, where they can have meetings to keep updated on each other's lives.",
+
+              "Brenda decides she wants a job to go along with college, wanting to get a head start on real life as she worries work will be hard to come by post-degree. She goes on a bunch of interviews, but gets no jobs before finally getting one related to her theatre interests, which turns out to be baby-sitting. Having declined her Dad's offer of an office job as his work initially, Brenda's misfortune has her accept it after all and her first task is to deliver papers for a business deal to a client of Jim's. Brenda drops by the freshman pool party and competes in a dance contest with David, which they win. She and Donna push him in the pool and Brenda ends up staying late at the party, forgetting the time. When she sees the papers in her car, she rushes off but doesn't make it in time. She tells Jim what happened and ask that he please not fire her and her words echo Jim's own, leaving him to let Brenda off the hook. At her work, Brenda meets Lawrence Carson, whose son Jim asks Brenda if she would like to be set up with. Unenthusiastic at first, Brenda agrees but is pleasantly surprised when she meets Stuart, a handsome 25-year-old.",
+
+              "When Brenda returns, she meets a wealthy young-man named Stuart (whom Dylan knew as a drug-dealer in times past), and quickly falls in love with him. The couple would get engaged within weeks of their meeting and elope to Las Vegas, causing Dylan and her friends to come and attempt to stop it. Brenda's non-romantic life also took some hits over the season.",
+
+              "When Donna Martin took in a puppy she and Brenda found, they learned it had escaped from an animal-testing lab and were both distraught when the puppy died. Brenda fell in with a group of animal-rights activists and ended up going along with them when they trashed a number of labs, and she got arrested (Donna decided at the last minute not to join the group). After her arrest, the only person in the group to show support for her was Dylan: David Silver questioned her judgment, Andrea angrily accused her of causing damage to labs that didn't test on animals, and Kelly told her that Dylan wasn't her boyfriend anymore and Brenda couldn't go running to him every time she had a problem. It turned out one of the activists was an undercover FBI agent who offered Brenda a deal for no prison time, because she had not known about nor supported the vandalism. All of Brenda's friends were apologetic for their shoddy treatment of her afterwards.",
+
+              "Brenda would also explore acting during the fourth-season, but this also led to problems: She bungled her first audition and then went over to the director's house to try again. She then got the part, but an unstable student implied she'd slept her way to the role. Unfortunately, this student was also dating Steve Sanders and he believed her claims, with everyone else more or less refusing to believe Brenda's denials. Steve realized his mistake when the student asked him to attack Brenda so she'd have to miss rehearsals. The student later tried to kill herself, but Brenda and Steve teamed up to save her, and Steve finally made amends by attending Brenda's well-received acting debut. The director's praise ended up leading to her accepting a position at the Royal Academy of Dramatic Art (RADA) in London for a year. Following Kelly and Dylan's latest break-up, Brenda eventually learned of a possible romance between Kelly and Brandon, and expressed her blessing.",
+
+              "Another significant event that occurred in the season finale was when Brenda, Jim, and Cindy watched Brandon's meeting with the President. She later spent her last night with Dylan, telling him that she wouldn't be gone forever. The couple would briefly reconcile in the final scene of the fourth season, although (because of Doherty's departure), the character was written out and never reappeared again."
+            ],
+          },
+        ],
         gender: "F",
         nickname: [
           "Bren ",
@@ -457,7 +510,6 @@ export const teenSeries: Show[] = [
             id: "brandon-brenda",
             type: "Family",
             name: "Brandon Walsh",
-            biological: true,
             twin: true,
             family: "Sibling", 
             description: ["Brenda and Brandon Walsh are twin siblings who move with their parents from Minneapolis to Beverly Hills at the beginning of Beverly Hills, 90210. From the start, their relationship is shown as close and supportive, with Brandon often acting as Brenda’s confidant and grounding influence. Brandon plays a stabilizing role in Brenda’s life as she struggles to adjust to the new social dynamics of Beverly Hills, develop friendships, and navigate her romantic relationships. Brenda openly tells Brandon at one point that he is her best friend, and Brandon expresses that he hopes they always remain that close. Though the show focuses more heavily on Brenda’s own storylines—especially her high-profile romance with Dylan McKay and the accompanying family tensions—her bond with Brandon remains a consistent part of her character arc. Brandon cares deeply for Brenda, supports her through personal ups and downs, and is there for her during major moments in the early seasons. Overall, their relationship is portrayed as a strong familial bond rather than a romantic one, grounded in mutual support, shared experience as newcomers in Beverly Hills, and brother-sister loyalty."], 
@@ -661,55 +713,7 @@ export const teenSeries: Show[] = [
           firstEpisode: "Class of Beverly Hills",
           lastEpisode: "Mr. Walsh Goes to Washington: Part 2",
           episodeCount: "112",
-          characterArc: [ 
-            {
-            seasonNumber: 1,
-            summary: ["In Season 1, Brenda Walsh’s storylines focus on identity, romance, and emotional vulnerability as she adjusts to life in Beverly Hills after moving from Minnesota. Unlike her brother Brandon, Brenda struggles more intensely with fitting in and often feels insecure about her appearance, popularity, and social status. She is sensitive to rejection and eager to be accepted in her new environment.",
-                      "Brenda’s central storyline of the season is her developing romance with Dylan McKay. Their relationship begins with strong attraction and quickly becomes emotionally intense. Through Dylan, Brenda experiences her first serious love, but also her first major heartbreak. Their relationship is complicated by Dylan’s troubled past, his emotional distance, and his lingering connection to Kelly Taylor. Brenda frequently feels torn between trust and jealousy, which becomes a recurring theme in her character arc.",
-                      "Throughout the season, Brenda also navigates conflicts with her friends, especially Kelly, as romantic tension and misunderstandings begin to affect their friendship. Although she tries to appear confident, Brenda often doubts herself and fears being replaced or forgotten. These insecurities lead her to make impulsive decisions and emotional mistakes.",
-                      "Family plays an important role in Brenda’s development. Her close bond with Brandon and her parents provides stability, but she also struggles with feeling compared to her more socially successful brother. She wants independence and recognition as her own person, not just “the Walsh twin.”",
-                      "Season 1 portrays Brenda as romantic, idealistic, and emotionally expressive. She feels things deeply and invests fully in her relationships, sometimes at the cost of her own well-being. By the end of the season, Brenda has grown more aware of her own emotional needs and limitations. Although she is still vulnerable, she begins to develop greater self-respect and resilience.",
-                      "The season establishes Brenda as a passionate and sensitive character whose journey is shaped by love, insecurity, and the search for self-worth. Her experiences in Season 1 lay the foundation for her later struggles with confidence, loyalty, and independence."
-            ]
-          },
-          {
-            seasonNumber: 2,
-            summary: ["In Season 2, Brenda Walsh’s storylines focus on emotional growth, jealousy, self-confidence, and the challenges of first love. Having become more established at West Beverly High, Brenda appears more confident on the surface, but she remains deeply sensitive and insecure, especially in matters of love and friendship.",
-              "Her central storyline continues to revolve around her relationship with Dylan McKay. Their romance becomes more serious, but also more unstable. Brenda struggles with Dylan’s emotional distance and his unresolved feelings for Kelly. She often feels torn between trusting him and fearing betrayal, which creates ongoing tension and emotional stress.",
-              "One of the most defining arcs of the season is Brenda’s growing conflict with Kelly. As Dylan and Kelly become closer behind her back, Brenda senses that something is wrong but is repeatedly reassured that nothing is happening. When she eventually discovers their affair, she feels deeply betrayed by both her boyfriend and her best friend. This moment becomes one of the most painful experiences of her life and permanently changes her relationships with them.",
-              "Throughout the season, Brenda also explores her independence and identity outside of romance. She becomes more interested in acting and performance, revealing her creative side and desire for self-expression. These storylines show her longing to be seen and valued for her talents, not just her looks or relationships.",
-              "Family remains an important support system for Brenda. Her parents and Brandon provide comfort during her emotional struggles, especially after the betrayal. However, she also feels embarrassed by her vulnerability and tries to appear strong even when she is hurting.",
-              "By the end of Season 2, Brenda is more guarded and emotionally mature. The heartbreak she experiences forces her to confront her insecurities and reassess her self-worth. She begins to understand that love can be painful and that loyalty cannot be taken for granted.",
-              "Season 2 portrays Brenda as a young woman learning difficult lessons about trust, betrayal, and resilience. While she remains romantic and passionate, she becomes more cautious and self-aware. This season marks a turning point in her development, transforming her from an idealistic girl in love into a stronger, more independent person."
-            ]
-          },
-          {
-            seasonNumber: 3,
-            summary: [
-              "In Season 3, Brenda Walsh’s storylines focus on independence, self-discovery, and her struggle to move on from past heartbreak. After the betrayal involving Dylan and Kelly in Season 2, Brenda enters this season emotionally wounded and more guarded. She is no longer the naive romantic she once was and becomes more cautious in relationships and friendships.",
-              "One of Brenda’s major arcs is her attempt to rebuild her confidence and sense of identity outside of romance. She begins to focus more on her own interests and ambitions, especially her growing passion for acting and performance. Through school plays and auditions, Brenda explores her creative side and starts to see herself as more than “Dylan’s girlfriend” or “Kelly’s friend.”",
-              "Romantically, Brenda remains emotionally connected to Dylan, even though their relationship is strained and complicated. They attempt to reconnect at various points, but trust issues and unresolved resentment continue to interfere. Brenda struggles with forgiving both Dylan and Kelly, and much of the season shows her working through feelings of anger, jealousy, and lingering love.",
-              "A defining storyline of the season is Brenda’s decision to study in Paris. Feeling restricted by her environment and eager for a fresh start, she applies for and is accepted into a study-abroad program. This choice represents her desire for independence and personal growth. Paris symbolizes freedom, adventure, and the opportunity to redefine herself away from past drama.",
-              "Throughout the season, Brenda also experiences tension within her friend group. She often feels isolated and misunderstood, especially as Kelly becomes more central to the group dynamic. This reinforces Brenda’s sense of being an outsider and strengthens her desire to find her own path.",
-              "Family continues to be an important anchor for Brenda. Brandon and her parents support her ambitions, even when they worry about her impulsiveness. Their encouragement helps her build confidence in her decisions.",
-              "By the end of Season 3, Brenda has grown noticeably more mature and self-reliant. Choosing to leave Beverly Hills for Paris marks a turning point in her development. Rather than defining herself through romance, she begins to prioritize her own dreams and emotional well-being.",
-              "Season 3 portrays Brenda as a young woman reclaiming her identity after heartbreak. It is a season about healing, courage, and learning to choose herself — even when it means leaving familiar people and places behind."
-            ],
-          }, 
-          {
-            seasonNumber: 4,
-            summary: [
-              "In Season 4, Brenda Walsh’s storylines center on ambition, self-respect, and her struggle to be taken seriously as an aspiring actress. After returning from her time in Paris, Brenda is noticeably more confident, independent, and self-aware. She brings back with her a stronger sense of identity and a determination to pursue her dreams, particularly in the world of acting.",
-              "One of Brenda’s main arcs is her pursuit of professional acting opportunities. She begins attending auditions, working with acting coaches, and competing for roles, which exposes her to both the excitement and harsh realities of the entertainment industry. Brenda quickly learns that talent alone is not enough, as favoritism, politics, and appearance often influence casting decisions.",
-              "A major conflict in the season arises from her rivalry with Kelly Taylor. Both girls audition for the same roles, and Brenda becomes increasingly frustrated when Kelly is chosen over her. This rivalry intensifies Brenda’s long-standing feelings of insecurity and resentment, making her feel overlooked and undervalued. She struggles to cope with repeated professional rejection, especially when it comes from someone so close to her.",
-              "Romantically, Brenda’s connection to Dylan remains complicated. Although their relationship is no longer central, unresolved feelings and lingering attraction continue to surface. Brenda must confront whether she is holding onto the past out of love or fear of moving on.",
-              "Season 4 also explores Brenda’s desire for independence from her family. She wants to be seen as an adult and an artist, not simply as “the Walsh daughter.” This leads to conflicts with her parents, who worry about her unstable career path and emotional vulnerability.",
-              "Throughout the season, Brenda faces moments of disappointment and self-doubt, particularly when she loses roles she feels she deserves. These experiences test her resilience and force her to develop thicker skin. Rather than giving up, she becomes more determined and disciplined, showing growth in her professionalism and emotional maturity.",
-              "By the end of Season 4, Brenda has developed a stronger sense of self-worth that is less dependent on external validation. She learns that success in acting requires patience, persistence, and emotional strength. Season 4 portrays her as a young woman learning to balance ambition with self-respect, marking an important step in her journey toward independence."
-            ],
-          }, 
-          
-        ] 
+       
       },
       {
         id: "dylan-mckay",
@@ -719,6 +723,60 @@ export const teenSeries: Show[] = [
         posterUrl:
           "https://hips.hearstapps.com/hmg-prod/images/t8dbehi-ec020-1551739712.jpg",
         personality: "Dylan McKay is a brooding, intelligent, and emotionally complex character who often appears independent and detached. Shaped by a troubled upbringing and personal loss, he struggles with trust, commitment, and vulnerability. Although he values freedom and self-reliance, he deeply desires emotional connection and becomes intensely attached in relationships. Dylan is thoughtful and introspective, but he also has a self-destructive side, often turning to unhealthy coping mechanisms when overwhelmed. Despite his flaws, he is loyal, compassionate, and deeply sensitive beneath his tough exterior.",
+        characterArc: [
+          {
+            seasonNumber: 1,
+            summary: [
+              "When Dylan meets Brandon, he quickly takes to him, recognizing Brandon's intelligence and genuine character, which Dylan considers a novelty in the superficial Beverly Hills world. Dylan soon meets Brandon's sister Brenda and falls in love with her. Dylan's relationship with Brenda provides him with much needed love and comfort, add to the fact that they really care about each other and respect one another as individuals – in as much as Dylan is able to with his low self-esteem. Along with Brandon and Brenda, the Walsh parents also become a comforting fixture in Dylan's life, the first sense of family he had known in 10 years.[3] With his mother AWOL and his father's neglect and abusive behavior, Dylan struggles with feeling safe and finding focus in his life, unable to take care of himself solely at 16. Dylan and Brenda become very close, while Brandon and Dylan become best friends. The trio look out for each other at all times and bring Andrea, Steve and Kelly into their soon-to-be friend group, later joined by Donna and David Silver.",   
+            ],
+          },
+          {
+            seasonNumber: 2,
+            summary: [
+              "A brief pregnancy scare marked the beginning of a highly stressful period for Brenda, which soon led her to break up with Dylan. Dylan's father was later arrested for a brief period of time, creating another painful experience for him in which Brenda attempted to provide comfort. His tendency to drink when stressed was also displayed during this period, which prompted the intervention of Brandon. Brenda and Dylan draw close once again when he was injured while surfing, with the two admitting that they missed one another.",   
+              "It was around this time that Brenda's parents, however, had become opposed to the relationship, leading to much antagonism. Further complicating the situation was the fact that Dylan shared a professional bond with Brenda's father, Jim Walsh — who Iris had selected as Dylan's trustee.",
+              "Dylan eventually decided that it would be best to let his own father oversee his assets, and Jack agreed. Despite their personal differences, Jim was uncomfortable with letting Dylan put his financial future in Jack's hands—though he merely cited the legality of their arrangement while blocking the change. Dylan and Jim moved back and forth on the issues of their personal and professional matters, finally settling into enmity. During this period, Dylan also briefly reunited with a friend and mentor named Jake Hanson."
+            ],
+          },
+          {
+            seasonNumber: 3,
+            summary: [
+              "While Brenda was in Paris during the summer, Dylan had an affair with their mutual friend Kelly Taylor. The feelings between Dylan and Kelly grew in spite of their reservations, as they'd known each other for many years.",
+              "When Brenda returned, she and Dylan began growing apart due to new-found differences. After confirming that they'd both had flings during her time in Paris, the couple soon broke up. Dylan then began seeing Kelly, which quickly angered Brenda. After the girls had reconciled, Dylan was told to reach a choice between them. He eventually chose Kelly, when Brenda could not show up to his father's party because of her parents. Dylan and Jack faced a trying time following Jack's release from an incarceration. Though Dylan was at first emotionally detached from his father, the pair eventually reconciled and grew close once again.",
+              "Shortly afterward, a car bomb apparently took Jack's life after he'd resumed his criminal relations. Dylan was again tempted to soothe his pain by drinking, but thanks to some comforting words from David Silver, he was able to realize that it wasn't what he wanted. He soon learned that Jack had been collaborating with the FBI. Dylan was also comforted by Brenda who knew how to be there for him while Kelly tried but awkwardly failed. Dylan's mother, Iris, visited Beverly Hills to attend his high school graduation, which highlighted the two's comical differences, but ultimately left them on good terms. After feeling his dad's presence, Dylan later revealed that it seemed as though Jack was there with them throughout the day—to which Iris replied that perhaps he was."
+            ],
+          },
+          {
+            seasonNumber: 4,
+            summary: [
+              "Though their relationship was generally amicable throughout the fourth season, Dylan's tendency to decline Jim's advice would have consequences. After purchasing a new car against Jim's wishes, Dylan was soon carjacked—which resulted in him buying a gun and becoming obsessed with self-defense. Following a moment in which he came close to accidentally shooting Brandon, Dylan began to relent in this obsession. However, much more anxiety would follow. He soon learned that Brenda was involved with Stuart Carson, a young man who Dylan had a rocky past with and a less than high opinion of. Growing amounts of tension troubled his relationship with Kelly, due largely to differences over certain people in their lives. The biggest surprise of all came during Christmas when he met a woman named Suzanne, who introduced him to a younger child of Jack's named Erica. He was initially skeptical, having never heard of Erica before, but eventually invited the two of them into his life—along with Suzanne's partner Kevin. Jim, however, cautioned Dylan against being too trusting, particularly when the couple began making business proposals. Though Dylan initially heeded the warning, he ultimately declined Jim's advice once more, which would again prove to be a mistake. By the end of the season, Dylan had lost a girlfriend in Kelly, an adviser in Jim, and two new friends in Kevin and Suzanne, who departed the country after conning him (although at this point, he was unaware of this). In the final moments of the finale, however, Dylan shared a farewell kiss with Brenda, who'd opted to pursue stage acting in London.",   
+            ],
+          },
+          {
+            seasonNumber: 5,
+            summary: [
+              "Dylan fell into a downward spiral throughout the fifth season, largely because of Kevin and Suzanne's betrayal, and partly due to the knowledge that Brandon and Kelly were dating. He found temporary comfort in the arms of Valerie Malone, an old friend of the Walsh family's with a naughty side. After a period of drug use and reckless behavior enabled by his drug dealer, Mr. Trilling, Dylan eventually wound up in the hospital after a car crash while driving under the influence. A dream sequence during this period revealed that he viewed Jim and Cindy Walsh as ideal parents, Mr. Trilling as the devil, Valerie Malone as a Brenda-wanna be, and Jack McKay as a homeless vet. Dylan was watched over by Iris McKay and a med student named Jamie Young, who believed that Dylan's dreams were a struggle for his soul. After finally awakening, he began steps toward recovery by going to rehab.",
+              "While in rehab, he met Charley Rollins, who he would eventually work with on a screenplay. They clashed in rehab, but later became friends after they both got out. With the help of J. Jay Jones, a private investigator recommended by Christine Pettit, Dylan, along with Valerie, would later pursue Kevin and Suzanne. The trio managed to reclaim the money they'd taken, and removed Erica from their custody following their arrest. After the fire, Kelly had gotten caught up in the New Evolution, a cult led by Patrick Finley. When Brandon's attempts to reach her failed, he hatched a plan with Dylan to free Kelly from their influence. Dylan went undercover and made a deal with Finley to buy him a new building if he convinced Kelly to marry him. When the plan worked, Dylan and Brandon freed Kelly from Finley. Following several sessions of hypnotherapy with Molly Campbell in which Dylan saw himself in past lives, Dylan came to realize that he wasn't over Kelly and believed there was a possibility that she was his soul mate.",
+              "A brief fling once again developed between Dylan and Kelly, despite her still being involved with Brandon. Dylan eventually invited Kelly on a romantic trip around the world, prompting Brandon to respond by proposing to her. She eventually chose neither, later stating that she didn't want to ruin Brandon and Dylan's friendship."
+            ],
+          },
+          {
+            seasonNumber: 6,
+            summary: [
+              "While playing action against Anthony Marchette, the man responsible for bombing his father's car, Dylan befriended Anthony's daughter Toni. Over time, he found himself developing genuine feelings for the young woman. Anthony opposed the romance and informed Toni of Dylan's vendetta, prompting Dylan to reveal his side of the story when she confronted him. Toni initially didn't believe Dylan, but later discovered the truth. Dylan and Toni were soon engaged. Shortly before the wedding, Brandon read Dylan a telegram from Jim and Cindy, both of whom stated that they were proud of him. Brenda also sent a message expressing her affection.",
+              "After getting married, Dylan and Toni intended to leave Beverly Hills. Just before they could do so, however, Anthony attempted to have Dylan killed via a drive-by assassin, who accidentally shot Toni instead. Brandon stood beside a screaming Dylan as he cradled his wife's body. Tony and Dylan met for the last time in a private area at Toni's funeral. A devastated Anthony handed over a gun and told Dylan to kill him. Dylan refused, gave in the temptation, and walked away after stating that the killing was over. Brandon was present to see Dylan Return.",
+              "While grieving the loss of his wife, Dylan realizes that living in Beverly Hills has brought him nothing but agony and sadness. He chooses to make a change in his life by leaving California and traveling the world in search of himself. He went to London for 2 years and was together with Brenda."
+            ],
+          },
+          {
+            seasonNumber: 9,
+            toSeason: 10,
+            summary: [
+              "Following an off-screen reunion with Brenda, Dylan returned to Beverly Hills shortly after Brandon had departed. He would eventually learn that Anthony Marchette had committed suicide. In time he began to regularly interact with several of the group's new friends—entering a relationship with Gina, and helping Steve rescue an abducted Noah. Dylan, after returning to the Beverly Royale Hotel upon being evicted by his roommate, David, caught up with Jack's old friend, the hotel manager Hector. He also met an old friend named Lucy Wilson, who had lived in the hotel her entire life and knew Dylan from the old days. Through each other, they both realized how lost they both were and made a deal to return to college get to some direction in their lives.",
+              "Dylan also got involved at a community center, where Andrew Emery was employed. After helping out there and with some issues with the center, Matt started realizing that Dylan was getting serious about getting his life together, but also about Kelly. Dylan later discovered that his father was alive after all, and had merely been under FBI protection for years. After first seeing Jack on video, the two men were briefly reunited in person. Jack then left town, returning to FBI protection and his new wife. Before Jack left he revealed that he had been living under the identity Eddie Waitkus and that he was married to a woman named Lisa and they had a son named Jack. Dylan and Kelly would eventually face rekindled feelings, and reunited by the time of the series' conclusion."
+            ],
+          },
+        ],
         promo: true, 
         nickname: [
           "D",
@@ -820,7 +878,7 @@ export const teenSeries: Show[] = [
             type: "Friendship", 
             name: "Jim Walsh",
             kindOfFriendship: "Father Figure", 
-            imgUrl: "/images/BH 90210/DylanJim.jpg",
+            imgUrl: "https://preview.redd.it/what-are-your-overall-thoughts-on-jim-walsh-v0-zyu07zznrv5b1.png?auto=webp&s=377065de82b2b67221ec6a6d1ea6f1e2d350992f",
             gender: "M", 
             card: true,
             shortDesc: "Dylan and Jim’s relationship begins with distrust, as Jim sees Dylan as a risky influence on Brenda. Over time, however, Jim recognizes Dylan’s sincerity and emotional depth, while Dylan comes to respect Jim as a stable father figure. Their bond gradually develops into one of mutual respect, guidance, and quiet support, reflecting Dylan’s need for stability and Jim’s growing faith in him.",
@@ -1029,102 +1087,6 @@ export const teenSeries: Show[] = [
           firstEpisode: "The Green Room",
           lastEpisode: "Ode to Joy",
           episodeCount: "194",
-          characterArc: [ 
-            {
-            seasonNumber: 1,
-            summary: ["In Season 1, Dylan McKay is introduced as the mysterious and emotionally guarded outsider of West Beverly High. Living alone in a hotel suite and financially independent due to his wealthy but absent father, Dylan appears mature and detached compared to his classmates. From the beginning, he keeps his distance from most people, preferring solitude and avoiding emotional vulnerability.",
-                      "One of Dylan’s most important developments in this season is his growing friendship with Brandon Walsh. Brandon’s honesty and moral integrity gradually break through Dylan’s emotional defenses, giving him his first genuine male friendship. Through Brandon, Dylan becomes more integrated into the core friend group, though he still maintains his reserved nature.",
-                      "Romantically, Dylan becomes deeply involved with Brenda Walsh. Their relationship begins as a passionate and intense attraction and quickly develops into one of the show’s central romances. With Brenda, Dylan shows a softer and more vulnerable side, opening up about his troubled family life and feelings of abandonment. However, his fear of commitment and emotional instability often create tension between them.",
-                      "Dylan’s family issues are a major part of his storyline. His father, Jack McKay, is revealed to have a criminal past and a strained relationship with Dylan. Dylan struggles with feelings of resentment, disappointment, and longing for parental approval. These unresolved family conflicts contribute to his emotional guardedness and occasional reckless behavior.",
-                      "Throughout the season, Dylan is portrayed as intelligent, introspective, and deeply sensitive beneath his tough exterior. He often feels isolated from his peers and questions whether he truly belongs in their world. His occasional clashes with authority and preference for independence reinforce his image as a rebel, but they also reflect his fear of being controlled or disappointed again.",
-                      "By the end of Season 1, Dylan has begun to change. His relationships with Brandon and Brenda help him develop trust and emotional openness. Although he remains guarded, he is no longer completely alone. Season 1 establishes Dylan as a complex, emotionally wounded character whose journey centers on learning how to connect with others and confront his past."
-            ]
-          },
-          {
-            seasonNumber: 2,
-            summary: [
-              "In Season 2, Dylan McKay’s storylines become darker and more emotionally intense, focusing on family conflict, addiction, and complicated romantic choices. While he remains intelligent and introspective, this season reveals how deeply his unresolved trauma affects his behavior and relationships.",
-              "A major storyline revolves around Dylan’s strained relationship with his father, Jack McKay. When Jack is released from prison and tries to rebuild his life, Dylan struggles to trust him. Although he wants to believe in his father’s redemption, years of disappointment make him cautious and emotionally guarded. Their fragile reconciliation creates both hope and anxiety for Dylan.",
-              "Dylan’s romantic life becomes one of the central conflicts of the season. While still involved with Brenda Walsh, he begins developing strong feelings for Kelly Taylor. This emotional triangle intensifies as Dylan finds himself torn between Brenda’s loyalty and Kelly’s growing emotional connection. His inability to clearly choose leads to secrecy, guilt, and emotional damage to both relationships.",
-              "The tension reaches a turning point when Dylan and Kelly begin a secret relationship. This betrayal deeply hurts Brenda and causes lasting fractures within the friend group. Dylan struggles with remorse but also feels unable to deny his feelings for Kelly. The storyline shows his tendency to avoid confrontation and emotional responsibility.",
-              "Another key arc is Dylan’s growing struggle with substance abuse. Under pressure from family problems and romantic turmoil, he turns increasingly to alcohol as a coping mechanism. His drinking becomes more noticeable and concerning, marking the beginning of his long-term battle with addiction. This behavior reflects his difficulty dealing with emotional pain in healthy ways.",
-              "Throughout the season, Dylan also continues to rely on Brandon Walsh as his closest friend and emotional anchor. Brandon often serves as a voice of reason, encouraging Dylan to confront his problems instead of escaping them. Their friendship highlights Dylan’s capacity for loyalty and trust, even when he feels lost.",
-              "By the end of Season 2, Dylan is more emotionally conflicted than ever. His relationships are damaged, his family situation remains unstable, and his reliance on alcohol signals deeper struggles ahead. Season 2 portrays Dylan as a young man caught between love, guilt, and unresolved trauma, setting the stage for his later emotional and personal crises.",
-            ]
-          },
-          {
-            seasonNumber: 3,
-            summary: [
-              "In Season 3, Dylan McKay’s storylines are defined by grief, emotional collapse, and a deepening struggle with addiction. This season represents one of the darkest and most transformative periods of his life, as he is forced to confront devastating personal loss and its long-term consequences.",
-              "The central storyline of the season is the death of Dylan’s father, Jack McKay. After attempting to start a new, honest life, Jack is killed in a car explosion, which Dylan initially believes to be an accident. The loss shatters him emotionally. Having only recently begun to rebuild trust with his father, Dylan is left with overwhelming guilt, anger, and unresolved grief.",
-              "As he tries to cope with this trauma, Dylan turns increasingly to alcohol. His drinking escalates throughout the season, becoming a serious problem that affects his school performance, friendships, and emotional stability. Rather than openly expressing his pain, Dylan isolates himself and uses alcohol as a way to numb his feelings. This marks a major turning point in his long-term battle with addiction.",
-              "Romantically, Dylan’s relationship with Kelly continues but becomes strained by his emotional withdrawal and self-destructive behavior. Although Kelly tries to support him, Dylan struggles to accept help and often pushes her away. Their relationship is tested by his mood swings, secrecy, and lack of communication, highlighting how grief has made him emotionally inaccessible.",
-              "Dylan also grows more distant from Brenda during this season. The fallout from the previous love triangle still lingers, and although there are moments of unresolved feelings, Dylan is no longer emotionally capable of rebuilding that relationship. Instead, he remains trapped in his internal struggles.",
-              "His friendship with Brandon remains one of his few sources of stability. Brandon repeatedly encourages Dylan to face his problems and seek healthier ways of coping. However, Dylan often resists this support, feeling misunderstood and unworthy of help. Their friendship shows both Dylan’s loyalty and his difficulty trusting that others will not abandon him.",
-              "Academically and socially, Dylan becomes increasingly detached. He skips classes, loses motivation, and shows little interest in planning for the future. His once sharp intellect and curiosity are overshadowed by depression and emotional exhaustion.",
-              "By the end of Season 3, Dylan begins to recognize the seriousness of his condition. Although he is far from healed, he becomes more aware that his drinking and isolation are destroying his life. The season ends with him still struggling, but with the first signs that he may eventually seek change.",
-              "Season 3 presents Dylan as a deeply wounded young man learning how fragile emotional stability can be. It shows that beneath his cool exterior is someone profoundly affected by loss, loneliness, and fear of abandonment. This season cements Dylan as one of the show’s most complex and tragic characters, whose journey is as much about survival as it is about love and friendship.",
-            ]
-          
-          }, 
-          {
-            seasonNumber: 4,
-            summary: [
-               "In Season 4, Dylan McKay’s storylines focus on recovery, emotional rebuilding, and his search for meaning after the trauma and addiction of the previous year. Having hit a low point in Season 3, Dylan enters this season determined to regain control of his life and find healthier ways to cope with his pain.",
-               "One of his central arcs is his commitment to sobriety. Dylan actively works to stay away from alcohol and destructive habits, showing greater self-awareness and discipline. Although he still struggles with emotional instability, he becomes more open about his vulnerabilities and begins taking responsibility for his actions. This marks an important step in his personal growth.",
-               "Dylan also develops a strong interest in spirituality and philosophy. He explores Eastern religions, meditation, and alternative ways of understanding life and suffering. This spiritual journey reflects his desire to make sense of his past losses and find inner peace. Rather than relying on substances or relationships for comfort, he starts looking inward for stability.",
-               "Romantically, Dylan’s relationship with Kelly continues but remains complicated. While they still care deeply for each other, Dylan’s emotional distance and ongoing self-discovery create tension. He often struggles to fully commit, fearing that emotional dependence might threaten his recovery. Their relationship becomes more thoughtful but also more fragile.",
-               "At the same time, unresolved feelings for Brenda occasionally resurface, especially during moments of nostalgia or emotional vulnerability. These lingering emotions highlight Dylan’s difficulty letting go of the past and fully embracing change. However, he ultimately avoids repeating old patterns and tries to act more responsibly.",
-               "Dylan’s friendship with Brandon remains an important source of support. Brandon encourages his efforts to stay sober and focused, while Dylan increasingly learns to accept help rather than pushing people away. Their bond reflects Dylan’s growing trust in others and his willingness to be emotionally honest.",
-               "Academically and socially, Dylan begins to reengage with his future. He shows renewed interest in learning, literature, and self-improvement. Although he is still uncertain about his long-term direction, he no longer feels completely lost. Instead, he approaches life with greater thoughtfulness and restraint.",
-               "By the end of Season 4, Dylan is more balanced and emotionally grounded than in previous years. He has not completely healed, but he has developed healthier coping mechanisms and a stronger sense of identity. The season portrays him as a young man learning how to live with his past rather than run from it.",
-               "Season 4 represents Dylan’s transition from self-destruction to self-reflection. It shows that recovery is not linear, but through honesty, discipline, and emotional openness, he is slowly rebuilding himself and redefining what happiness and stability mean.",
-            ],
-          }, 
-          {
-            seasonNumber: 5, 
-            summary: [
-              "In Season 5 of Beverly Hills, 90210, Dylan McKay’s storyline shifts from the introspective young man of earlier seasons into a character facing serious emotional and personal crises as he enters his college years. His life becomes far more chaotic and unstable than before.",
-              "At the start of the season, Dylan returns having lost almost all of his money after being duped in a scam involving an old friend of the family — a major blow that deeply affects his confidence and sense of security. This financial loss triggers a relapse into one of his longstanding struggles: turning to alcohol and unhealthy coping mechanisms to numb the pain.",
-              "Rather than growing from past mistakes, Dylan increasingly isolates himself and makes reckless decisions. His addiction begins to spiral again, showing that the emotional wounds from his father’s death and earlier trauma have not fully healed. This season also shows him engaging in a complex relationship with Valerie Malone, a new character whose presence pulls him deeper into self-destructive behavior and away from his old support systems.",
-              "Emotionally, Dylan is caught between nostalgia for his past with Kelly Taylor and a darker present where he struggles to maintain stable relationships. Although he once represented the sensitive loner learning to trust others, in Season 5 he often pushes people away and seeks momentary escape over long-term growth.",
-              "Season 5 marks a clear downturn for Dylan — instead of moving forward into maturity after his recovery work in Season 4, he finds himself repeating old patterns, questioning his purpose, and facing the consequences of impulsive choices. The season ends suggesting that without confronting his addiction head-on, he risks losing the emotional progress he had worked so hard to build.",
-            ]
-          }, 
-          {
-            seasonNumber: 6,
-            summary: [
-              "In Season 6, Dylan McKay’s character continues to undergo deep emotional and narrative transformation as he moves beyond the high-school/early college years and confronts even more complex personal struggles. After the turmoil of previous seasons — including his battles with grief, relationships, and addiction — Dylan’s storyline this season shifts toward family legacy, revenge, love, and loss.",
-              "A central arc in Season 6 is Dylan’s connection to his father’s killer and the consequences that follow. Dylan becomes involved with Antonia “Toni” Marchette, the daughter of Anthony Marchette — a man responsible for orchestrating the attack that killed Dylan’s father. Despite this fraught history, Dylan falls in love with Toni and impulsively marries her, hoping that love can transcend the pain and betrayal connected to their families.",
-              "However, this decision leads to tragedy. Marchette’s enemies attempt to eliminate Dylan through a hit-man job, but instead of killing him, Toni is mistakenly shot and killed. This devastating loss is a blow that compounds Dylan’s longstanding emotional wounds and leaves him shattered.",
-              "Following the loss of Toni, Dylan decides to give up his downtown condo and leaves Beverly Hills to start anew. In the canon later revealed by the show and confirmed by franchise summaries, he moves to London to be with Brenda — the romantic partner he once struggled to balance against Kelly — suggesting an attempt to find stability and closure abroad.",
-              "Season 6 depicts Dylan at a crossroads between justice, forgiveness, and the desire for a fresh start. His choices reflect his enduring patterns of self-destruction intertwined with deep longing for connection and belonging — whether through love, revenge, or family ties.",
-            ]
-          },
-          {
-            seasonNumber: 9, 
-            summary: [
-              "In Season 9, Dylan returns to Beverly Hills after several years away, marking a major turning point in his character arc. He comes back older, more guarded, and visibly changed by past trauma, especially the loss of Toni and his earlier struggles with addiction. Although he presents himself as calmer and more mature, it quickly becomes clear that he is still emotionally wounded.",
-              "One of Dylan’s central storylines this season involves his growing concern for Kelly Taylor, who becomes trapped in an abusive relationship. Dylan becomes one of the first people to recognize the seriousness of her situation and repeatedly tries to protect her. His support shows his deep loyalty and emotional attachment to Kelly, even after years apart.",
-              "As he helps Kelly regain her independence, their emotional bond begins to rebuild. Dylan becomes more open and protective, taking on a more stable and responsible role than in earlier seasons. Unlike his past relationships, which were often driven by passion and impulsiveness, this connection is rooted in shared history and mutual understanding.",
-              "Professionally, Dylan returns as a financially independent writer and investor, but he remains somewhat detached from career ambition. Instead, his focus is more inward, centered on emotional healing and rebuilding trust in relationships.",
-              "Season 9 portrays Dylan as someone trying to live more thoughtfully, learning from past mistakes. Although he still carries emotional scars, he is more self-aware and committed to healthier choices. By the end of the season, he has reestablished himself as part of the group and as a reliable emotional presence, especially for Kelly. ",
-            ]
-          },
-          
-          {
-            seasonNumber: 10, 
-            summary: [ 
-              "In Season 10, Dylan’s storylines focus on long-term commitment, emotional stability, and the possibility of lasting happiness. Now fully reintegrated into the group, he is more grounded and less self-destructive than in his earlier years. This season represents the most mature version of Dylan seen in the series.",
-              "His primary storyline centers on his renewed romantic relationship with Kelly. After years of emotional turbulence, missed opportunities, and failed relationships, Dylan and Kelly finally come together in a stable and supportive partnership. Their relationship is portrayed as deeper and more balanced than before, built on mutual respect rather than drama.",
-              "Throughout the season, Dylan demonstrates consistent emotional growth. He communicates more openly, handles conflicts with greater patience, and shows genuine commitment to building a future with Kelly. Unlike his younger self, he no longer avoids vulnerability or responsibility.",
-              "Dylan also revisits his past through reflections on his family, his losses, and his earlier struggles with addiction. These moments reinforce how far he has come and highlight his determination not to repeat old patterns. He is no longer defined by self-destruction, but by resilience and emotional intelligence.",
-              "In the series finale, Dylan and Kelly choose to leave Beverly Hills together and start a new life. Their departure symbolizes closure and renewal, suggesting that Dylan has finally found peace and emotional stability. It represents the fulfillment of his long-running journey from lonely outsider to emotionally secure adult.",
-              "Season 10 completes Dylan’s arc by showing that healing is possible, even after years of loss and mistakes. He ends the series as a character who has learned how to love, trust, and live with honesty.",
-            ]
-          }
-          
-        ]   
            
       },
       {
@@ -1141,6 +1103,93 @@ export const teenSeries: Show[] = [
 
         ],
         personality: "Kelly Taylor is a charismatic and emotionally complex character who balances social confidence with deep inner insecurity. While she begins as a popularity-driven teenager, she gradually becomes more empathetic, reflective, and resilient. Shaped by personal trauma and difficult relationships, Kelly learns to prioritize self-respect, emotional honesty, and compassion. Her willingness to confront her flaws and grow from them makes her one of the most developed and enduring characters in Beverly Hills, 90210.",
+        characterArc: [
+          {
+            seasonNumber: 1,
+            summary: [
+              "As a sophomore, Kelly enters the scene as a popular, privileged girl who places high value on posh appearances and material possessions. A pivotal change in Kelly's life happens when she meets Brenda Walsh. Kelly's mother Jackie is revealed to have a drug addiction, which created an occasionally difficult home environment.",
+              "Kelly revealed that she was date-raped by a popular jock named Ross Webber. This had led her into an irresponsible and promiscuous lifestyle that she would later regret, as it hurt her self-esteem.",
+              "Toward the end of the first season, Kelly eagerly and confidently attempted to win Brandon's heart at the high school Spring Dance—nearly succeeding. Brandon, however, soon informed Kelly that he couldn't go through with the relationship, as he'd come to view her as a sister due to her bond with Brenda. Kelly was surprised, and even offended by the remark, but she and Brandon remained on good terms.",
+            ],
+          },
+          {
+            seasonNumber: 2,
+            summary: [
+              "After Jackie kicked her drug habit, she became romantically involved with Mel Silver, David's father. This irritated Kelly to no end at first, as she had always regarded David as an immature pest. Mel and Jackie became engaged, and would go on to have Kelly and David's little sister, Erin. During this time, Kelly's opinion of David began to change little by little and they eventually became good friends.",
+              "Kelly soon met Jake, a construction worker in his twenties who was an old friend and mentor of Dylan's. While she was openly drawn to him, Jake ultimately refused to embrace their attraction due to the fact that Kelly was still a teenager. When it became clear that Jake was avoiding her due to their age difference, she eventually visited him at his apartment complex. During the discussion, Kelly boldly asserted that she wasn't a mere lovesick teenager, and offered to end the relationship if he didn't take it seriously. Jake eventually responded by kissing her. In time, however, he began to vacillate once again between attraction and reluctance. Though Jake settled on wanting a platonic relationship, Kelly continued to express a romantic interest. Reluctantly, he then led Kelly to believe he was cheating, which finally prompted her to leave him. Despite his discomfort with a romance, Jake expressed an affection for Kelly's friendly demeanor, citing his fondness for her nature both during and after their relationship."
+            ],
+          },
+          {
+            seasonNumber: 3,
+            summary: [
+              "Brenda and Dylan had been romantically linked, off and on, for the first two seasons when Brenda left to spend a summer in Paris, accompanied by her and Kelly's friend Donna. During this time, an attraction developed between Dylan and Kelly at the Beverly Hills Beach Club. Kelly revealed a conscience as the fling progressed, often being the one to express guilt and reluctance, while at the same time finding it difficult to resist her nearly lifelong crush. Kelly's feelings began to progress from simple flirtation to genuine affection.",
+              "Once the summer ended, Kelly often found it hard to watch Brenda and Dylan together again. After Dylan and Brenda had broken up, Kelly questioned Brenda about her feelings on Dylan's new love life. Brenda stated that he was free to date whoever he wanted, and Kelly began seeing him next. Upon discovering this, however, Brenda became angered and felt betrayed. After all three had reconciled, Dylan was told that he would eventually have to choose between the two girls. He ultimately chose Kelly, which prompted the new couple—at her insistence—to also admit their summer affair. Brenda quickly severed her ties with the pair. Kelly, however, gradually reached out to Brenda, eventually winning back her friendship.",
+              "Following a comment about her figure, Kelly began to starve herself. Her eating disorder worsened when she began abusing diet pills. She was further stressed by the discovery that her mother planned on selling the home she'd grown up in. The anxiety eventually led her to be briefly hospitalized after passing out, with strict orders to eat normally upon her recovery.",
+              "Kelly's appearance is shown to play a noted role in her development. Along with winning the title of Spring Princess in Season 1, she was voted her school's most beautiful girl in the third-season episode 'Senior Poll.' Kelly is aware of her appeal, but not to the point of conceit; instead, she is sometimes shown to be troubled by it. Upon growing suspicious that she was mainly admired for her looks, she also began to feel that no one took her seriously.",
+              "This was furthered when Dylan gave his manuscript to their friend Andrea Zuckerman for review, instead of to Kelly. Dylan, however, would soon prove that his feelings were deeper than she suspected, letting her read part of his manuscript in which he described her. At her high school graduation, Kelly was reunited with her father, Bill, for the first time in years.",
+            ],
+          },
+          {
+            seasonNumber: 4,
+            summary: [
+              "As the teens entered their first year in college, Kelly and Dylan continued their romance, breaking up and reconciling several times throughout the fourth season. Kelly became a stronger person throughout her senior year of high school and freshman year of college, a trend that would continue throughout the series. Kelly majored in Psychology and was a devoted student throughout her time in college.",
+              "Kelly learned that a student name Laura, she planned on falsely accusing her longtime friend Steve of sexual assault, due to his disinterest in her after a one night stand. Just before the other girl could speak, Kelly stood before the rally and revealed her shame over her promiscuous past, mentioning that she'd nearly been date-raped on one occasion. She then informed the audience that Steve was among the people who came to her defense that night. Ultimately, Kelly's act discouraged the other girl from speaking, and strengthened her friendship with Steve.",
+              "As Kelly neared and entered her 20s, she started living in a beach house apartment along with Donna and initially David. During her freshman year in college, she began helping Brandon out by serving as his date at special school-related events. As these parties progressed, romantic feelings emerged once again between Brandon and Kelly—eventually leading them to kiss. Due to her commitment to Dylan, however, Kelly and Brandon wound up acknowledging but suppressing their attraction once more. In time, Kelly's romantic relationship with Dylan reached a mutual end. She then began a relationship with Brandon. In contrast to the forwardness and confidence she'd displayed during their high school days, Kelly expressed her affections for Brandon in a more discreet and gentle manner. Brandon was touched by her actions and felt mutually drawn to her. From that point onward, their feelings evolved from mere attraction to a genuinely loving bond."
+            ],
+          },
+          {
+            seasonNumber: 5,
+            summary: [
+              "Eventually, David moved out of the beach house, and was replaced by Clare Arnold, who Kelly would also grow to love as a close friend alongside Donna. As Brandon and Kelly deepened their relationship, it was made difficult by the downfall of Dylan, who was regressing into drugs and alcohol. During a rave held by Steve Sanders and Griffin Stone, Kelly was trapped with Alison Lash and both were burned very badly, resulting in Kelly's self-esteem plummeting.",
+              "As a result, Kelly became pulled into The New Evolution, a cult led by Patrick Finley, an abnormal psychology professor at California University. He encouraged her to push everyone out of her life (including Brandon, Dylan, and the rest of the gang) in order to build herself back up. Finley even asked Kelly to break up with Brandon and date Dylan. Despite repeated attempts by Brandon and Dylan to get her to leave the cult, it wasn't until a former cult member showed her his wrist scars from attempted suicide and talked with her privately that she decided to leave the New Evolution. Dylan, following several therapy sessions, confronted Kelly with rekindled romantic feelings. He then asked her to join him on a trip around the world. Brandon later responded by proposing to her. Kelly eventually chose neither, later stating that she didn't want the matter to harm their friendship. She later tells Brandon that just because they are not married, does not mean they can not have a relationship - but he does not agree.",
+            ],
+          },
+          {
+            seasonNumber: 6,
+            summary: [
+              "During Season 6, Kelly became involved with Colin Robbins, a struggling artist from New York. After she found out that Colin was being financed by Claudia Van Eyck for sexual favors, she demanded that he end it. He did, but then he started to display the habit of cocaine addiction. After her father, Bill Taylor, came to visit and promised to move back to Los Angeles, Kelly was thrilled, but when Bill no-showed the purchase of his house, she realized that he had disappointed her again. As a result, she got pulled into Colin's cocaine habit and quickly got hooked on the drug. Despite interventions by David Silver and Brandon Walsh, Kelly soon found herself abducted by an associate of Danny Five. She managed to escape unharmed.",
+              "She later checked herself into rehab, ending her relationship with Colin in the process. While in rehab, she befriended a fellow addict named Tara Marks. She was upset to learn that Colin had begun seeing Valerie Malone, but eventually began dating med student Greg Meyer after she left rehab. However, that was short-lived when Tara, who had run away from rehab and moved in with Kelly, manipulated Greg into believing Kelly didn't want to see him.",
+              "Tara later took Kelly hostage at gunpoint and tried to perform a murder-suicide by Carbon Monoxide poisoning. However, Kelly escaped and Tara was committed to a psychiatric institution. As the year wound to an end, Kelly found herself working with Valerie Malone to find Colin, who had jumped bail after Valerie posted the Peach Pit as collateral. For the sake of Nat Bussichio, Kelly got involved, but her plan didn't work out as Danny Five was caught instead.",
+              "However, by the last episode, Kelly, Valerie, Brandon, and Steve had located Colin and he was taken to prison. Kelly was later shocked to hear Dylan and Brenda were together in London and asked a newly single Brandon if they would ever have another chance. He hinted they might as both went their separate ways for the summer."
+            ],
+          },
+          {
+            seasonNumber: 7,
+            summary: [
+              "Kelly returned home from the summer and was determined to find happiness in her life. However, at the Beverly Hills Beach Club reunion, she was caught in the middle of a fight between Steve Sanders and Clare Arnold, who was unaware of Steve and Kelly having a history together. However, Steve made a confession to Kelly that he was the one who got the ball rolling on all of the rumors about her in high school. Kelly ultimately forgave Steve for his wrongdoings, citing that they were all young and stupid back in those days. She also began working at an AIDS hospice, where she befriended a gay AIDS patient named Jimmy Gold. they shared a special bond before Jimmy passed away.",
+              "Kelly began seeing Mark Reese after he pursued her for weeks. However, after Brandon won a scholarship over Mark in which Mark thought he had in the bag, Kelly and Mark had a falling out and she broke up with him on the spot. Shortly after that, Kelly began dating Tom Miller, an old friend of Valerie's in order to spite Valerie. Although she liked Tom, her heart was still with Brandon. Eventually, Valerie made a rare desperate plea for Kelly to leave Tom alone, which Kelly did out of sympathy. After Brandon returned the engagement ring he bought Kelly two years earlier, Kelly went into the jewelry store and bought it herself, not ready to give up on him.",
+              "Kelly later encountered a young boy, Joey Evers, who had slept on the beach. After failing to locate the boy's mother, Kelly took him in and bonded with him, but ultimately had to turn the matter over to the police, despite Joey's objections. Kelly spent time with Mariah Murphy, who encouraged her to not give up on Brandon. Later, Brandon and Kelly kissed. Shortly thereafter, Brandon broke up with his girlfriend, Tracy Gaylian, and reunited with Kelly.",
+              "Additionally, Kelly's constant bond with the Walsh family was shown to have progressed from the early seasons through the later ones. During her teenage years, she was presented as a familiar presence around the Walsh Family House while bonding with Brenda and the others. Following her romantic reunion with Brandon in Season 7, Kelly finally moved into the home on a permanent basis. Kelly got pregnant late in the season and considered an abortion, but ended up having a miscarriage. She later graduated college with Brandon and her friends. Her father, Bill Taylor, was briefly sent to jail for fraud and embezzlement, but made arrangements to spend time with Kelly before he was taken away."
+            ],
+          },
+          {
+            seasonNumber: 8,
+            summary: [
+              "Kelly and Brandon were fighting because he still had some of Tracy's old cards. She backed out of their planned Hawaii vacation because she thought they needed a break from each other. However, when Donna called and told her that they had run into Tracy in Hawaii, Kelly flew down immediately, only to learn that Tracy was now engaged. She spent the rest of the vacation with the gang. However, when they were leaving the airport to go home, Kelly was intentionally shot by two gang bangers in an unprovoked attack after they stole a car. Brandon and the others got her to the hospital, where Dr. Sturla performed emergency surgery and saved her life. However, she later suffered complications, which left her with temporary amnesia. Kelly finally remembered her life with Brandon and went back home, but after a week or two, began to be bored by their everyday routines. She and Brandon tried to liven up their sex lives by having sex in various places, such as the kitchen table, elevators, etc.",
+              "Brandon and Kelly later came across Erica Steele, who had returned to Beverly Hills and begun working as a prostitute for a pimp named Riggs. With the help of Pam Ahern, the woman who ran the foundation where Kelly worked, they began searching for her, eventually coming into contact with Riggs, who pulled a knife on them. After Brandon and Kelly got her off the street, she and her friend Ricky robbed Brandon's house. Later, Kelly and Brandon rescued Erica once again and got her off the streets. However, once Brandon wrote an article on Erica's experience, assistant DA Debra Mills approached Brandon and tried to force him to reveal his source. When he refused, he was arrested. Kelly was not happy with his decision and opposed it, but Brandon stood his ground. Eventually, Erica got Riggs arrested on other charges.",
+              "Kelly went to work at the Wyatt Clinic, an urgent care facility where Dr. Gary Monahan was the doctor. He began sexually harassing her and after a few weeks of Kelly dodging his advances, she busted him by broadcasting his advances over the intercom system, where the boss to the clinic heard it and fired him. To make life harder, Kelly learned from Emma Bennett that she had been carrying on an affair with Brandon. She left Brandon and moved with Donna and Carly Reynolds at the Beach House. Valerie began deflecting Brandon's messages of apology and pushed Kelly towards the new doctor at the clinic, Jeff Stockman. She later counseled a date rape victim named Leah to press charges against her attacker Lenny as she abused her authority over Valerie, who was serving community service at the clinic.",
+              "Kelly later got involved in the life of Leanne, a teenage girl who left her baby in a dumpster. When Leanne took the baby back out of homophobia, Kelly talked her into giving up to a loving home when she knew she wasn't ready to care for the baby.",
+              "The five-year high school reunion took place and Kelly had to confront her past with Ross Webber, a jerk who took her virginity and left her in the bushes when she was a freshman. With surprise help from Valerie, she got her revenge. Kelly and Brandon reunited and got engaged. However, they called off the wedding just before the ceremony, feeling that they were not ready, and danced together afterward."
+            ],
+          },
+          {
+            seasonNumber: 9,
+            summary: [
+              "The beginning of the season saw Kelly and Donna opening a new clothing store, Now Wear This, which sold Donna's designs. They hired Pia Swanson, a publicist who tried to boost their business, with mixed results. Kelly met an attorney, working in the same building named Matt Durning. As she started to form a relationship with Matt, Brandon got a job offer in Washington, D.C. and accepted it. Kelly and Brandon spent some time together and Brandon then departed Beverly Hills. Both of them began their separate paths.",
+              "After learning about Valerie's home life, Kelly made an effort to reach out to her and the two of them made amends before Valerie moved back to Buffalo. However, just as Matt and Kelly really started getting close, Dylan McKay returned from London and his other travels, looking to get Kelly back. A new rivalry formed between Kelly and Donna's cousin, Gina Kincaid, over Dylan. Just as Matt and Kelly were finally beginning to have a real relationship, Matt's wife, Lauren Durning, returned after being released from a mental institution. When she needed clozapine to help with her schizophrenia, Dylan and Kelly flew to Mexico to smuggle some back to her. While there, they had sex.",
+              "Tension grew between Kelly and Gina when Kelly hypnotized and asked who she'd like to be on a desert island with and she chose Dylan. Matt was angry for a while and Gina slapped her. When Gina was almost raped outside the Peach Pit After Dark, Kelly didn't believe her. However, Kelly and Matt worked things out and finally got to a good place in their relationship. One night, after Dylan had a fight with Gina, he called Kelly to stop himself from getting high. She came out to meet with him, but was attacked and brutally raped by Joe Patch. After a failed attempt by Dylan and Matt to find the rapist, Kelly and Joe came face to face at Now Wear This, where Kelly shot Joe in self-defense and killed him.",
+              "In the aftermath of Kelly killing Joe Patch, she was arrested, and Matt defended her until the charges were eventually dropped and deemed a justifiable homicide. Kelly later was confronted by Joe Patch's parents and they asked her for forgiveness, which she wasn't able to give them at first, but eventually reached the point where she could put it behind her.",
+            ],
+          },
+          {
+            seasonNumber: 10,
+            summary: [
+              "She traveled with Dylan to Ojai with Steve and Janet to plan their wedding. While there, they watch the pink sunset. However, after Gina found out they were by themselves, she made a point of busting up their good time and physically went to Ojai to see Dylan. She and Gina also quarreled over the breakup of Mel and Jackie, which she blamed on Gina for trying to blackmail Mel.",
+              "Matt and Kelly continued to argue over Dylan's intentions, but when Kelly pressed Dylan to make a commitment, Dylan back away. Matt then proposed to Kelly and she accepted. Kelly eventually quit Now Wear This and went to work for a public relations firm with Pia Swanson. Although she felt she could do the job, she was unable to voice for an opposing view and promptly quit the job. She later started her own P.R. firm. Matt's brother, Patrick, and his wife, Juliane came to visit and wanted Matt to donate sperm so that they can have children since Patrick is infertile. Kelly and Matt disagreed on whether it was a good idea, but Kelly ultimately changed her mind and let Matt make his own choice.",
+              "Later in the year, after Dylan and Steve spotted Jack McKay on television, she and Matt helped Dylan track Jack down in Arizona. Ultimately, when Dylan was unable to approach Jack, Kelly reached out and called Jack, filling him in on Dylan's life since he 'died'. A drugged Matt cheated on Kelly with a girl named Amy while on a road trip with Dylan. Kelly and Matt broke it off after Kelly realized she still had feelings for Dylan and Matt inadvertently confessed to sleeping with Amy. Dylan and Kelly concluded the series renewing their relationship."
+            ],
+          },
+        ],
         goesByNickname: false,
         birthday: "March 1975/September 1974, Beverly Hills",
         eyeColor: "Grey",
@@ -1366,7 +1415,6 @@ export const teenSeries: Show[] = [
               name: "Ed",
               type: "Family",
               family: "Grandparent",
-              typeOfFamily: "Biological",
               dead: true,
               extended: true,
               gender: "M"
@@ -1377,144 +1425,1091 @@ export const teenSeries: Show[] = [
           lastEpisode: "Ode to Joy",
           episodeCount: "244",
           gender: "F",
-          characterArc: [ 
-            {
+        },
+      {
+        id: "donna-martin",
+        firstName: "Donna",
+        middleName: "Marie",
+        lastName: "Martin",
+        gender: "F",
+        nickname: ["Don"],
+        birthday: "December 25, 1974, Beverly Hills",
+        eyeColor: "Brown",
+        hairColor: ["Blonde", "Brown"],
+        occupation: [
+          {
+            started: "1998",
+            hasEnded: false,
+            title: "Owner",
+            place: "Now Wear This",
+          }
+        ],
+        education: [
+          {
+            place: "Californa Universty", 
+            hasEnded: true,
+            started: "1993",
+            ended: "1997"
+          }, 
+          {
+            place: "West Beverly High School",
+            hasEnded: true,
+            started: "1989",
+            ended: "1993"
+          }
+        ],
+        married: true,
+        single: false,
+        nationality: "American",
+        personality: "Donna is an easy-going, good-spirited character with a rational, occasionally bold personality. She is introduced as a student of West Beverly High and was born to John and Felice Martin. Throughout high school, she forged bonds with seven friends who she would know well into her adult life, including her eventual love interest David Silver. Of the girls Donna knew during high school, she was closest to Kelly Taylor and Brenda Walsh. It was during this period that Donna declared her intentions to remain a virgin for the foreseeable future.",
+        characterArc: [
+          {
             seasonNumber: 1,
             summary: [
-              "In Season 1 of Beverly Hills, 90210, Kelly Taylor is initially presented as one of the most popular and glamorous girls at West Beverly High. She is confident, fashion-forward, and socially influential, often appearing self-assured on the surface. However, as the season progresses, the show gradually reveals her emotional vulnerabilities and complex family background.",
-              "Kelly’s most significant storyline in Season 1 revolves around her relationship with Dylan McKay. Although Dylan is initially distant and emotionally guarded, Kelly is drawn to him and tries to break through his defenses. Their relationship develops slowly, marked by moments of misunderstanding and insecurity. Kelly often feels unsure about Dylan’s feelings and struggles with jealousy, especially when he grows closer to Brenda Walsh. This creates early tension in what will later become one of the show’s central love triangles.",
-              "Another important aspect of Kelly’s character arc involves her family life. She lives primarily with her mother, Jackie Taylor, whose history of addiction and unstable relationships affects Kelly deeply. Although this background is not fully explored in Season 1, hints are given that Kelly has grown up too quickly and has learned to be emotionally independent. Her strained relationship with her absent father also contributes to her desire for stability and affection.",
-              "Kelly also deals with issues related to self-image and social expectations. As one of the school’s “popular girls,” she feels pressure to maintain a perfect appearance and reputation. This sometimes leads her to act defensively or superficially, masking her insecurities. Despite her popularity, she often feels lonely and unsure of her true worth beyond her looks and status.",
-              "Throughout the season, Kelly’s friendship with Brenda Walsh plays an important role in her development. While they are close friends, subtle rivalry and tension emerge, especially due to their shared connection to Dylan. Kelly struggles between loyalty to Brenda and her growing romantic feelings, revealing her internal conflict between friendship and personal desire.",
-              "By the end of Season 1, Kelly has evolved from a stereotypical “popular girl” into a more layered and sympathetic character. The audience sees her emotional sensitivity, her longing for genuine connection, and her struggle to balance independence with vulnerability. These early storylines lay the foundation for Kelly’s deeper personal growth and major conflicts in later seasons.",
-            ]
+              "When Brenda meets Kelly and Donna in their sophomore year, Donna and Kelly always hang out together and often go shopping. Donna also throws a party at her parents' house when they're out of town and generally seems comfortable with her and Kelly's status and lifestyle. Donna at first comes across as superficial but is later revealed to harbor an inferiority complex, as she feels her friends assume that she's stupid – which both Brenda and Kelly tell her they don't think at all.",
+              "These feelings are compounded when Donna receives a poor result on her SATs, but after talking to Mrs. Teasley, Donna learns that she has a learning disability and is therefore eligible to retake the test."
+            ],
           },
           {
             seasonNumber: 2,
             summary: [
-              "In Season 2, Kelly Taylor remains a key part of the West Beverly High group as they enter their junior year, though much of the season’s focus shifts to multiple ensemble storylines rather than a single central arc for her. She continues to be socially popular and connected with the core friend group, navigating the ups and downs of teenage life alongside Brandon, Brenda, Dylan, Steve, Donna, Andrea, and the others as they deal with relationships, school pressures, and personal growth.",
-              "A notable development for Kelly this season is her involvement with Jake Hanson, a character introduced late in Season 2 whose storyline would help launch the spin-off Melrose Place. Jake is an older, emotionally guarded biker and occasional love interest for Kelly; although there is mutual attraction, he makes it clear he is uncomfortable with her being in high school, and their relationship proves fleeting.",
-              "Throughout the season, Kelly’s romantic life and emotional maturity remain in transition. After the intense ups and downs of Season 1 — especially her complicated feelings for Dylan McKay — the sophomore year doesn’t give her a long-term steady partner, but it does allow viewers to see her experiment with new connections, handle the normal challenges of high school friendships and dating, and reflect her growing self-awareness.",
-              "While Kelly doesn’t face a major individual crisis this season, she continues to influence and support her friends’ stories, remaining emotionally involved in the group’s collective dramas and social dynamics. This positions her as both a loyal friend and an evolving character whose experiences in Season 2 help lay the groundwork for deeper personal and relationship arcs in later seasons."
-            ]
+              "During the summer, Donna decides to take drama class to get more credits with Andrea, Brenda, and David in summer school. David and Donna are reluctantly paired for a Romeo and Juliet scene as a class project. At the Beverly Hills Beach Club, Donna and Brenda decide to get tan before going to a party. Brenda then gets sun urn and tells Dylan that Donna is lucky that she did not get sun urn like her and that she get ready for 'party' night at the beach club.",
+              "Brandon, Brenda, Dylan, Kelly, Steve, Donna, Andrea and David take an end-of-the-summer camping trip to Yosemite National Park. Donna brings a lot of makeup and girl stuff causing Steve to get angry and they begin to argue, but Brandon quashes that disagreement saying they need to get moving. The group, however, failed to heed civil defense reports that a nasty thunderstorm was making its way through California, which resulted in lightning and heavy rains. As a result, the gang is thwarted shortly into their trip as the highway patrol closes the route the Yosemite, and the kids are stuck at a remote campground where the only lodging available is a ramshackle cabin. Steve tries to liven up the party by going into town and bribing adults to buy alcohol for him, but this plan backfires and an angry Steve returns, causing the group to get into a debate how teenagers are treated as second-class citizens. Donna avoids that debate, thinking maybe it is better that there is an age cap on alcohol. Later, when the kids are invited into a nice cabin by a couple that is just married, they are enjoying themselves until the couple has their first fight. Kelly, Brenda, and Donna try to smooth things over with the bride, and in doing so learn some of the facts of life.",
+              "During class, Steve and Donna decide to play the stock market. But Kelly disapproves and expresses Donna's waste of money. Donna is stubborn and refusse to listen to what Kelly said to her. Donna expresses that she is not stupid. The gang attends a Halloween costume party at an old brownstone mansion with Donna dressed as a mermaid which limits her mobility. Donna could not walk and some of the guests at the party got a laugh. Donna and Brenda enter a room where Kelly almost gets raped by a stranger from the party she met earlier. Donna and Brenda enter who then eventually calls in Dylan to save Kelly.",
+              "On Scott's 16th birthday, Scott's mother gives Donna and David the responsibility of rounding up people for his birthday party to save it from being a social disaster. When the gang is ready to leave Scott's party to go to the Peach Pit, Donna assk David to go with her but David decides he wants to stay with Scott. Later, Scott finds a gun in his father's office and while showing it off to David, he accidentally shoots himself. David is then filled with conflicting emotions for days after and ends up telling Donna, he is tired of people asking him if he is alright knowing they weren't his true friends. Emily leads the gang to an underground nightclub where the drugs are involved. Kelly and Donna worry about David who gets drunk at the rave. David gets worse wild hyper and dance with Donna then she feels tired of it then Kelly and Donna leave the nightclub and are caught by Kelly's mother Jackie.",
+              "After Gang saw Donna and David outside talking about winter dance, they decide pick on Donna for going out with David Silver but Donna say they are just friend that all then Donna finally agrees to go to the annual winter dance with David, where they kiss for the first time. Donna decides that she doesn't care about being teased for dating a sophomore.",
+              "On Christmas Eve, Donna, Samantha, Kelly, Jackie, Andrea, David, Mel, Dylan, and Steve all show up at the Walsh house for dinner and caroling. The old man in the Santa suit gives everyone presents and describes his lonely life: his children are grown and his wife died a year earlier. He thanks Brenda for her kindness and generosity, then mysteriously disappears as footsteps are heard on the roof. Gang says Happy Birthday song to Donna and we learn that Donna was born on Christmas. David leads Brenda, Kelly and Donna to the Bel Aire Hotel on a mission to meet the rock group 'Color Me Badd' when they come to town. But only Kelly gets to see the band, while David and Brenda get stuck in the hotel stairwell, and Donna sees more than she wants when she finds her mother, Felice, at the hotel with a man other than her father cause Donna to be angry and tell her mother Felice to tell her father the truth."
+            ],
           },
           {
             seasonNumber: 3,
             summary: [
-              "In Season 3, Kelly Taylor becomes one of the central emotional figures of the series as her storyline revolves around love, loyalty, and guilt. The season begins with the group spending the summer in Paris, where Kelly grows closer to Dylan McKay while Brenda is distracted and emotionally distant. During this trip, Kelly and Dylan share intimate moments that mark the beginning of a secret emotional—and later romantic—connection, setting the stage for one of the show’s most important conflicts.",
-              "As the season continues, Kelly and Dylan begin a hidden relationship behind Brenda’s back. Although Kelly has genuine feelings for Dylan, she is deeply conflicted about betraying her best friend. She struggles with guilt and self-doubt, often questioning her own morality and loyalty. This internal conflict becomes a defining part of her arc, showing her vulnerability and emotional complexity more clearly than in earlier seasons.",
-              "When Brenda eventually discovers the truth about Kelly and Dylan’s relationship, the fallout is intense and painful. Kelly is forced to confront the consequences of her actions, losing Brenda’s trust and damaging one of her most important friendships. The love triangle becomes the emotional core of the season, with Kelly caught between her desire for Dylan and her regret over hurting Brenda. This period marks a major turning point in her character, as she can no longer rely on popularity or charm to avoid emotional responsibility.",
-              "Despite the tension, Kelly gradually steps into a more serious and mature relationship with Dylan. Their bond deepens as they support each other through personal struggles, and Kelly begins to see herself as more than just “the popular girl.” She becomes more introspective, sensitive, and aware of her own flaws, signaling her transition into a more emotionally grounded character.",
-              "By the end of Season 3, Kelly has undergone significant personal growth. She emerges as a more complex and layered individual—someone who has made serious mistakes but is learning from them. Her experiences with Dylan and Brenda reshape her identity and set the foundation for the more intense personal challenges she will face in later seasons.",
-            ]
-          
-          }, 
+              "Donna and Kelly plan to travel to Paris during the summer before their senior year and Donna's freaks out when Kelly decides to stay home to be around Erin, as Donna doesn't want to go by herself. Brenda's parents offer to pay for her to go in Kelly's stead, and Brenda accepts. Although Donna complains a lot in the beginning, as she is timid about a new culture, she confesses to Brenda that she is really relieved and happy that Brenda came with her instead of Kelly. The two girls shared experiences in Paris bring them much closer.",
+              "Upon her return to high school, Donna's ability to draw is noticed in an art class, and a teacher suggests that she take additional courses in art after graduating. This would eventually lead to her successful future as a fashion designer. Towards the end of her senior year in high school, Donna became drunk on prom night and is subsequently ruled unable to graduate on time due to a new penalty in effect. However, several students, led by Brandon Walsh, showed their support for Donna by conducting a walkout and addressing a panel of administrators. The decision was ultimately overturned on that day, and Donna was allowed to graduate with the others."
+            ],
+          },
           {
             seasonNumber: 4,
             summary: [
-              "In Season 4, Kelly Taylor enters college at California University with the rest of the group, marking a major transition from high school to young adulthood. This new environment pushes her to become more independent and self-reflective, as she begins to think more seriously about her future, her identity, and what she wants from her relationships. The season presents Kelly as more mature and emotionally grounded than before, while still vulnerable to insecurity and self-doubt.",
-              "A central part of Kelly’s storyline this season is her relationship with Dylan McKay. Now an established couple, they attempt to build a stable and committed partnership in college. However, their relationship is tested by emotional distance, different life goals, and Dylan’s growing personal struggles. Kelly often finds herself in the role of emotional caretaker, trying to support Dylan while also feeling increasingly lonely and uncertain about their future together.",
-              "Kelly also faces challenges related to self-worth and personal validation. As she adjusts to college life, she compares herself to others academically and socially, sometimes feeling inadequate despite her outward confidence. These insecurities make her more sensitive to rejection and criticism, revealing that her polished exterior still masks deep emotional vulnerability.",
-              "Throughout the season, Kelly becomes more involved in serious emotional and social issues, reflecting the show’s shift toward darker and more realistic storylines. She is affected by the changing dynamics within the friend group, especially as Brenda grows more distant and eventually leaves the series. This shift reshapes Kelly’s role in the group, placing her more firmly at the emotional center of the ensemble.",
-              "By the end of Season 4, Kelly emerges as a stronger but more complicated character. She has learned that love alone cannot fix another person’s problems and that she must prioritize her own emotional health. Her experiences with Dylan, college life, and evolving friendships help solidify her transformation from a high-school “popular girl” into a thoughtful young woman facing adult realities. These developments prepare her for the even more intense personal struggles she will confront in later seasons.",
+              "After working for the summer at the Beverly Hills Beach Club, David and Donna seek out affordable housing on the beach. Donna is afraid to tell her mother about David living with her and Kelly at their new beach front house. David and Donna audition to be DJ's on campus radio and get a 2 AM gig. During Rush Week, the girls attempt to pledge the Alpha Omega sorority and the result exhausts Donna, who tries to boost ratings for her and David's radio show.",
+              "During the first week of classes as California University, Donna becomes burned out of her work which is interfering with her college courses and decides to resign from the late-night radio shift, leaving David solo. Due to his late night schedule, David causes problems with Kelly and Donna over his lack of housekeeping. David and Kelly grow more hostile to each other when they are caught in the middle of Mel and Jackie's custody battle for Erin, and Donna continues to try to resolve the continuing feud between David and Kelly. Strange dreams have Donna contemplating sleeping with David on their second anniversary together until her parents show up for a surprise visit.",
+              "During Christmas time, frustrated that Donna won't give up her virginity, David starts to act coldly towards her and breaks up with her, on her birthday. Donna is in denial and tries to rekindle things with David during mid-terms, who starts taking crystal methamphetamine to keep up with his busy schedule, while Donna wonders what's wrong with his sudden change in behavior. Donna temporarily forgets about David when she flirts with an attractive ski instructor, named Chad, during a ski trip with the rest of the gang, but Donna tells Chad that she still in love with David. David's drug problem continues, causing Kelly and Donna to move out and in with Dylan for a while.",
+              "Donna tries to make up with David, whose increased drug use turns her away. After his arrest, they settle on friendlier terms and Donna decides to move back into the beach house. Brenda and Donna attend an animal rights rally, and are crestfallen when the university refuses to suspend animal testing. After Rocky dies of cancer, Andrea gives Donna a healthy puppy (Rocky II) to take her mind off Rocky's death. She also supports Brenda after her arrest for participating in a break-in at Andrea's lab.",
+              "When the rest of the gang takes off on a ski weekend, Donna asks Brenda to go with her, but Brenda decides to stay behind. Brenda discovers an old diary that belonged to a young woman who once lived in the Walsh house in the late 1960s. Brenda imagines herself as the girl Wendy and Donna as Maryanne Bagley. After Donna finds David flirting with his blind piano teacher Holly, Donna goes on a date with D'Shawn to make David jealous. At the CU Mardi Gras, David impresses pop star Kenneth 'Babyface' Edmunds, and his recording manager Ariel with his keyboard music. Donna catches David cheating on her and breaks up with him.",
             ],
-          }, 
+          },
           {
-            seasonNumber: 5, 
+            seasonNumber: 5,
             summary: [
-             "In Season 5, Kelly Taylor experiences one of the darkest and most emotionally intense periods of her life, as the show places her at the center of multiple major crises involving addiction, manipulation, and recovery. After struggling with insecurity and pressure to succeed, Kelly becomes dependent on diet pills and stimulants to cope with stress, gradually slipping into substance abuse. At first, she denies that anything is wrong, but her behavior becomes increasingly erratic, affecting her health, her studies, and her relationships.",
-             "As her addiction worsens, Kelly’s emotional vulnerability makes her susceptible to outside influence. She becomes involved with a self-help group that slowly reveals itself to be a manipulative cult. The group exploits her fragile state, encouraging her to cut ties with her friends and become emotionally dependent on its leader. This storyline highlights Kelly’s deep need for belonging and validation, showing how easily her desire for support can be twisted when she feels lost and isolated.",
-             "Kelly’s downward spiral reaches a turning point when her friends intervene and help her recognize the danger she is in. With their support, she leaves the cult and enters rehabilitation to confront her addiction. Her time in rehab is portrayed as painful but transformative, forcing her to face long-standing emotional wounds, including issues connected to her family background and self-worth. This marks the beginning of Kelly’s journey toward genuine self-acceptance and emotional stability.",
-             "Later in the season, Kelly faces another life-changing trauma when she is seriously injured in a fire at a college laboratory. The accident leaves her hospitalized and emotionally shaken, reinforcing how fragile her life has become. During her recovery, she becomes more reflective and appreciative of her relationships, realizing how close she came to losing everything.",
-             "At the same time, Kelly’s romantic life takes an important turn. As she rebuilds herself emotionally, she grows closer to Brandon Walsh, who becomes a steady and supportive presence in her life. Their relationship develops gradually, based on trust and mutual respect rather than drama, offering Kelly a healthier emotional connection than she has had in the past.",
-             "By the end of Season 5, Kelly emerges as a stronger and more self-aware character. Having survived addiction, emotional manipulation, and physical trauma, she gains a deeper understanding of her own resilience. This season represents a major turning point, transforming Kelly from someone driven by insecurity into a young woman committed to healing, honesty, and personal growth.",
-            ]
-          }, 
+              "Donna returns from her summer stay in Texas and claims that she's over David, who's doing a video for his film class about his travels during the summer. But that evening, Donna has an emotional breakdown when she runs into David at a nightclub. Donna announces to the gang that she has decided to move to Houston to be a debutante. But Kelly eventually learns that Donna still emotionally fragile since her breakup with David and she's hiding behind her mother just to avoid running into him. Later, at a banquet for Donna's, Dylan crashes the party and creates an ugly scene after being inadvertently tipped off by Nat about Brandon and Kelly. When Donna's mother criticizes her behavior by accepting a dance with D'Shawn, she decides to stand up to Felice and stay in Beverly Hills.",
+              "Donna asks Clare (now attending C.U. as a sophomore) to move into the beachfront apartment to help pay the rent. But Clare brings a bad snoring habit with her cause wake Donna and Kelly up all night. Donna finds a new man for herself, a KEG member named Griffin Stone, whom her mother sets her up with. Donna meets a musician and carpenter named Ray Pruit at the CU campus. Valerie helps Steve, Kelly, and fellow KEG members Griffin and Muntz, plan the theft of a rival college's mascot, a huge stuffed bear, during homecoming weekend. Donna skips the caper to spend some time with Ray at his family's pumpkin stand. While Donna has trouble balancing the affections of both Griffin and Ray, she sees Griffin's sleazy another side when he whisks her away for an overnight trip to Catalina Island and attempts to seduce her.",
+              "On Halloween night, Donna becomes scared when her two suitors, Ray and Griffin, finally cross paths during a costume party at the KEG house. Donna finally dumped Griffin Stone when he calls her a 'slut', resulting from her in slapping him. Donna learn thsat Ray's birthday is coming soon so Donna plans a party for Ray's 25th birthday but everyone does not come to his party which causes Donna to become upset and Ray told her he didn't care about them but her. Ray and Donna worked as vendors to see the show free of charge. At a House party, Griffin uses too much electricity, and the house catches on fire. Donna ran getto out thf house and tell Ray to rescues Steve and Valerie, who were fooling around in one of the bedrooms. Kelly and a girl named Allison are trapped in a downstairs bathroom with no means of escape. The firefighters try to reach them as they are engulfed by flames. Ray's perpetual bad mood confuses Donna. He explains that his mother always begins drinking around the holidays, as his drunkard father left her on Christmas... after pushing her down the stairs and causing her to have a miscarriage.",
+              "Donna's snobbish mother, Felice, puts Ray's feelings for her daughter to the test by offering him money to stop seeing her, while Ray's alcoholic, chain-smoking, redneck mother, LuAnn, goes Christmas shopping with Donna. Ray declines a request by Donna to perform at the opening of the Peach Pit After Dark nightclub causing Donna to become upset and confused. Donna tries to help Ray get over his stage fright on the eve of his debut at the grand opening of the Peach Pit After Dark. David's old flame Ariel Hunter, now a music company rep, returns and woos Ray to get him to sign a music deal, much to Donna's worry. Valerie comes onto Ray who's having problems with Donna and pressures him into an affair. Ray's mother, LuAnn, figures out that Ray cheated on Donna when he doesn't come home after that night, and covers for him when Donna comes calling asking of Ray's whereabouts. Donna wrongly blames David for Ray's departure after Valerie lies to her that David is the one responsible for Ray leaving town.",
+              "An unseen psycho, who may be the creepy grad student Lenny Zeminski, creates a crime wave on the CU campus which includes the rape of a girl student which worries everyone. Lenny becomes an outcast when he is suspected of the campus rape despite his protest of innocence which prompts him to ask Brandon to help him prove his innocence. At the same time, the real rapist name Garrett Slan stalks an unsuspecting Donna and holds her hostage in the beach apartment. David comes to the beach apartment to apologize to Donna and saves her. Brandon, Kelly, Donna and Steve appear in Clare and David's cinema verity project which ends up revealing truths from their pasts to each other and Clare catches Donna and David kiss on video. During spring break, Donna visits Ray, who is living in Portland, Oregon. David tags along to visit his mother only to learn that she has disappeared. So David, along with Donna and his father, Mel, follow sa strange trail to find her, while Ray begins to show increasingly signs of jealousy over Donna helping David.",
+              "Ray returns to Beverly Hills and to a bravo return appearance at the After Dark. But Ray's mother, LuAnn, in an intoxicated state, ends up tipping off David and Clare about his unfaithfulness to Donna with Valerie. After David and Clare confront Ray, and then Valerie, they decide not to tell Donna to avoid hurting her feelings. The gang goes to Palm Springs for the national KEG/ALPHA fraternity/sorority convention, Donna brings Ray along to make up with him, but later regrets it when he injures her during a fight because she's got a speech to work on, while he manages to stay on the good side of her mother. In Palm Springs, Donna decides to give the possessive Ray a second chance, and rudely blows off Valerie in which Donna reveals that she's figured out that Valerie seduced Ray."              
+            ],
+          },
           {
             seasonNumber: 6,
             summary: [
-              "In Season 6, Kelly Taylor continues her journey of emotional recovery and self-discovery following the traumatic events of the previous year. Having survived addiction, manipulation, and physical injury, she enters this season more self-aware and determined to build a healthier, more stable life. Kelly is focused on maintaining her sobriety, rebuilding her confidence, and learning how to manage stress without falling back into destructive pat",
-              "A central storyline this season is Kelly’s relationship with Brandon Walsh. Now established as a serious couple, they try to balance love, independence, and personal ambition. Although they care deeply for each other, tensions arise as both begin to prioritize their careers and futures. Kelly sometimes feels insecure about her place in Brandon’s life, while Brandon struggles with commitment and long-term expectations. Their relationship reflects the growing pains of young adults transitioning from college life to professional adulthood.",
-              "Kelly also becomes more interested in helping others and giving her life a deeper sense of purpose. She shows increasing concern for social issues and emotional well-being, which foreshadows her later interest in counseling and psychology. Through interactions with friends and people in need, she begins to redefine herself as someone who wants to make a positive difference rather than simply seeking validation.",
-              "Throughout the season, Kelly faces moments of emotional relapse, including anxiety, self-doubt, and fear of failure. These struggles remind viewers that recovery is not linear and that her past experiences still affect her. However, unlike in earlier seasons, Kelly now has stronger coping skills and is more willing to ask for help, showing clear personal growth.",
-              "As graduation approaches, Kelly is forced to confront major life decisions about her education, career path, and relationships. She begins to question whether her relationship with Brandon truly fits her long-term goals, and both realize that love alone may not be enough to sustain them. Their eventual breakup is painful but mature, emphasizing mutual respect rather than betrayal or resentment.",
-              "By the end of Season 6, Kelly emerges as a more independent and emotionally resilient young woman. She has learned to stand on her own without relying on romance for stability, and she shows greater clarity about her values and aspirations. This season solidifies Kelly’s transition from a recovering young adult into someone capable of shaping her own future with confidence and responsibility.",
-            ]
+              "Donna hosts a party on her parents yacht,while trying to hide her doubts about her future relationship with Ray. Ray becomes the prime suspect in the theft of money and several jewelry items from Donna's parents and others. But Valerie exposes Ginger as the culprit which at the end is revealed to be a scam for the gang to get to like Valerie again. Brandon and Susan cover the Tournament of Roses Royal Court tryouts in which Kelly, Donna, and Clare are candidates. Nat and his chief, Willie, try to catch an exclusive mouse at the Peach Pit that's hurting their business,until Donna comes to their rescue.",
+              "Kelly, Donna, and Clare decide to take a 'just girls' road in which Valerie spoils their fun by insisting that she come along. Soon, the trip becomes unpleasant when secrets from their pasts come into the light with Valerie admitting that she has feelings for David and that she seduced Ray months earlier for no reason aside from the ultimate thrill of it. Donna becomes angry at Valerie, and then at Clare who admits she knew but did not say anything. In a turn of events, the four of them end up stranded for the night in a convent after their car breaks down. Valerie also convinces Donna to break up with Ray knowing that he is physically abusive. Donna finally broke up with Ray. Donna continues her quest to become Rose Queen. After Ray decorates the beachfront apartment with pumpkins in an attempt to spruce up his sagging relationship with Donna, he has a violent reaction to her new romantic interest, a college football player named Joe Bradley.",
+              "While Donna continues to try out for Rose Queen, meeting a new friend named Lisa Dixon during the competition. She finds a picture of her mother taken during a 1969 Rose competition, while at the same time, Ray's therapist warns Donna that he has a history of being abused as a child by his father and he may harm her. On the eve of Dylan and Toni's wedding, Marchette sends his thugs to kill Dylan to prevent it from happening. But gets thwarted by the gang's plans for the happy couple. Kelly and Donna throw a bachelorette party for Toni at the beach apartment with male strippers and Ray threatens Donna after she breaks up with him to attend the wedding with Joe Bradley... just as Ray's therapist had warned her. Donna's mother, Felice, confesses a past indiscretion to her about her involvement in the Rose Bowl tryouts of 1969, causing Donna to question her own innocence. Donna invites NFL quarterback Steve Young over at Casa Walsh for Thanksgiving, one of two surprises she plans for Joe's birthday on that same day. But Donna later learns that she and Joe have a thing in common: they both disapprove of premarital sex. Joe's assault and battery trial begins where Donna is caught in a lie on the witness stand.",
+              "Donna covers for the new Rose Queen, Lisa Dixon, at her convenience-store job in South-Central L.A. and feels sympathy for a ghetto boy she catches shoplifting. Donna forces Joe to drive her over to the boy's house and learns that the boy, Isaiah, and his two siblings are not supervised at home. Joe plans the perfect gift for Donna on her 21st birthday that same day; a talking parrot. David and Joe skip out on the After Dark party to help Donna peruse her escaped parrot. Joe makes a professional call on Donna's cardiologist father who discovers that Joe may have a certain heart disorder. Joe's heart condition becomes an issue between Brandon and Susan after they question Donna's father about it, while Donna questions the second opinion Joe received from another doctor. Donna and Clare find Kelly's stash of cocaine in their beach font apartment, prompting her to move out to Colin's for a inncreased drug binge.",
+              "Donna investigates a new cardiac procedure that could help Joe. Kelly gets admitted into a rehab center and meets her mysterious new roommate Tara Marks and she gets out of rehab and moves in with Kelly, Donna and Clare at the beach ront apartment. During Spring Break, Brandon and Susan, Steve and Clare, Joe and Donna take a camping trip where three female campers from Canada distract the guys from their girls. Donna works on a music video with David which lands her in front of the camera as the star, making Joe jealous. Donna and David's music video of her and Powerman 5000 is a hit with everyone but Joe. Tara flips out when she discovers that Kelly had called her parents and found that she ran away from them years ago. Tara then kidnaps Kelly and plans to murder her to end their 'pain,' via a murder/suicide, until Kelly managed to overpower and subdue her. David and Donna's fame as video producers spreads in which their video producer Erik, wants them to make another music video. Also, Joe finally returns to football practice.",
+              "Ray Pruit returns to Beverly Hills as Donna and David's first video-production assignment for MZA. Joe decides to quit football and choose a new course for his life by moving back to his hometown in Pennsylvania and wants Donna to come with him, but she declines. David and Donna grow more intimate while their producer Erik, makes a move on Donna and other women as well. Andrea Zuckerman arrives in town to have fun at Steve's party, and Nat brings Joan along who keeps feeling unwell. David and Donna decide to get back together.",
+            ],
           },
           {
             seasonNumber: 7,
             summary: [
-              "In Season 7, Kelly Taylor focuses strongly on building a meaningful adult life after college, shifting much of her attention toward career goals and emotional independence. She begins working in counseling and social services, showing a deep commitment to helping vulnerable people. This reflects how far she has come since her own struggles with addiction and self-worth, as she now channels her past pain into compassion and purpose.",
-              "A major part of Kelly’s storyline centers on her professional growth and moral convictions. Through her work at clinics and community organizations, she becomes emotionally involved in difficult cases involving abuse, trauma, and family conflict. These experiences affect her deeply and sometimes blur the line between professional responsibility and personal attachment. Kelly struggles to maintain healthy boundaries, revealing that her empathy, while genuine, can also be emotionally draining.",
-              "Romantically, Season 7 revisits Kelly’s complicated history with Brandon Walsh. After time apart, the two reconnect and attempt to rebuild their relationship. Although their feelings remain strong, they soon realize that unresolved differences and changing priorities still stand in their way. Their renewed romance is marked by affection, nostalgia, and uncertainty, as both question whether they are truly compatible in the long run.",
-              "Kelly also continues to confront lingering insecurities and fears about abandonment and failure. Despite her outward maturity, she occasionally doubts her own judgment and worries about repeating past mistakes. These moments show that even as an adult, she is still learning how to balance emotional openness with self-protection.",
-              "As the season progresses, Kelly is forced to accept that love and career cannot always be perfectly aligned. Her relationship with Brandon ultimately ends again, this time in a more reflective and bittersweet way. Rather than seeing the breakup as a failure, Kelly views it as part of her personal evolution, choosing to prioritize her own growth and values.",
-              "By the end of Season 7, Kelly emerges as one of the show’s most emotionally grounded characters. She is confident in her ability to stand on her own, committed to her career in helping others, and more at peace with her past. This season reinforces her identity as a resilient, compassionate, and self-aware woman entering full adulthood.",
-            ]
-          }, 
+              "David and Donna worked together on another music video project and found that their renewed relationship may have been on a short fuse. Donna met an old high school crush, Casey Watkins, at the Beverly Hills Beach Club reunion, which caused David to become jealous. Mel withdrew David's financial support after learning from Donna that he dropped out of college to concentrate on his film making career. Donna became chairperson of the rush committee for the ALPHA sorority and lobbied to get a female jock, Danielle St. John, accepted. However, Dani was treated badly by Ellen Fogerty and pledged to a friendlier sorority, at which point Donna quit due to Ellen's attitude.",
+              "David and Mark Reese threw a big party at their Hollywood Hills house, until a huge brush fire stopped the party, which puts Donna in jeopardy when she attempts to save a baby deer. However, she was saved by a fireman, Cliff Yeager. Later, Cliff assisted her at her sorority's Halloween Haunted House bash. Cliff took Donna on a camping trip where he told her of his future plans, which didn't include her. Mel, worried by David's ne found wealth, asked Donna to keep an eye on him. David went on a wild spending spree, and later showed up at Donna's apartment in the middle of the night after swimming in the ocean.",
+              "The increasingly manic David took Valerie, Steve and Clare for a wild weekend to Las Vegas, where his increased drinking and gambling threatened to turn the events bad. Ray Pruit was performing at their hotel. David ended up picking up two prostitutes and took them to a seedy motel where they drugged and robbed him. David was forced to call Donna for help and she arrived in Vegas to comfort him. She yelled at Steve, Clare, and Valerie for letting David get out of control. During an argument with Donna in the student union, David threw a tantrum and cut his hand on a glass. He was forced to see a psychiatrist after displaying hostile behavior toward the ER staff. Mel agreed with the doctor's recommendation that David be held 72 hours for observation. David was diagnosed with a mild form of manic depression. David thanked Donna for her support and they decided to get back together.",
+              "Donna clashed with her uptight mother, Felice, over wanting to renew her relationship with David as part of her effort for his mental recovery. David tried to get on the good side of Donna's conservative and domineering mother, Felice. Donna's father, John asked her to come his work and Donna proves to be a lifesaver when she fills in as the receptionist at her father's office for the day.",
+              "Clare, and later Donna, tried to arrange a blind date for Kelly, which turned less than satisfying when the guy, an Englishman named Neil Phillips, annoyed her. Donna began a new career for herself as the weather girl on the campus TV, which unfortunately netted her an unwanted fan. Donna initially thought that her stalker was Garrett Slan, the man who tried to rape her two years ago. Kelly and Clare decided to cheer Donna up by taking her out on the town to a male strip club, where the unseen stalker turned up the heat by attempting to run Donna over with his car. Donna was denied a permanent restraining order against Slan, while David became overprotective of her.",
+              "Donna's stalker, who is finally revealed to be a disturbed TV station worker named Evan Potter, takes her, Brandon, Tracy Gaylian, and a group of other people hostage in the campus TV station. Brandon tried to calm down everyone's heightened tensions as Donna sat in front of the running cameras with a gun to her head. Donna finally got the gun from Evan by tricking him with a kiss and then Evan was arrested. On Valentine's Day, Donna was depressed and in bed all week because of her depression over the hostage situation and Cliff Yeager showed up and caused concern for her and David. Donna couldn't decide whether to be with Cliff or David, while Chloe Davis made a move on David after she told him that Donna is not the woman for him.",
+              "Donna wavered between David and Cliff. David and Donna visited her paternal grandmother, Celia Martin, who told them the story of her husband, the only one true love of her life during the 1940s. David was present with Donna at the hospital after her father suffered a stroke. Donna blamed David for causing her father's stroke, but David denied it. Donna and her uptight mother, Felice, argued about what was best for Dr. Martin pending his release from the hospital and David tried to cool down the conflict.",
+              "Donna persuaded Felice to accompany her to the KEG/ALPHA spring campus talent show, where she got increasingly worried when a former boyfriend of Felice's (from the 'Color Me Badd' episode) showed up to accompany her. David took Donna on a one-night trip to New Orleans in an attempt to sleep with her, which also delayed Donna's presentation of her business project the very next day to her stern teacher, Professor Langely.",
+              "Donna became stressed out with balancing time with David and studying for her final exams, and had another run-in with her cold-hearted business professor, Langley, who openly disapproves of Donna dating David because he sees David as a distraction to Donna's future. Donna flaked out on her last final exam with Professor Langely. Donna decided it was time to move up to a new level of romance with David after getting advice from her grandmother. On the night of graduation, Donna lost her virginity to David."
+            ],
+          },
           {
             seasonNumber: 8,
             summary: [
-              "In Season 8, Kelly Taylor continues to focus on her career in counseling and social services, fully embracing her desire to help vulnerable people. Her work becomes more demanding and emotionally intense, placing her in difficult situations involving abuse, trauma, and troubled clients. While Kelly is deeply committed to her job, the emotional weight of constantly caring for others begins to affect her own mental health, leaving her exhausted and emotionally fragile.",
-              "One of the most significant storylines of the season occurs when Kelly is shot during a robbery at the clinic where she works. The violent attack leaves her seriously injured and traumatized. Afterward, she struggles with fear, anxiety, and post-traumatic stress, finding it difficult to feel safe in everyday situations. This storyline shows a more vulnerable side of Kelly, as she confronts the reality that her chosen profession exposes her to real danger.",
-              "During her recovery, Kelly becomes more introspective and cautious. She begins questioning how much of herself she gives to others and whether she has neglected her own emotional needs. Although she tries to remain strong, she experiences moments of isolation and emotional withdrawal, showing that she is still learning how to cope with trauma in healthy ways.",
-              "Romantically, Season 8 does not center on Dylan, who is still absent from the series. Instead, Kelly’s love life remains uncertain and secondary to her personal struggles. She focuses more on healing, self-protection, and rebuilding her sense of security rather than pursuing intense relationships. Her interactions with friends emphasize emotional support and loyalty rather than romantic drama.",
-              "Throughout the season, Kelly also reflects on her past mistakes and patterns, especially her tendency to put others’ needs before her own. Gradually, she begins setting stronger boundaries, both at work and in her personal life. This marks an important step toward emotional maturity, as she learns that caring for herself is just as important as caring for others.",
-              "By the end of Season 8, Kelly emerges as a more guarded but wiser woman. Having survived both physical and emotional trauma, she becomes more aware of her limits and more protective of her well-being. The season portrays her as resilient but realistic, showing that healing is an ongoing process. These experiences prepare her for the major emotional developments that will follow when Dylan returns in Season 9.",
-            ]
+              "Donna asks David to move back in with her at the beachfront apartment, but with a stipulation that they sleep in separate rooms and that she doesn't tell her parents. Donna lands a job as a modeling assistant and flies to Hawaii for the photoshoot and the rest of the gang, whom include David, Brandon, Valerie, and Steve follow her there for an end-of-the summer vacation, where Valerie meets and becomes smitten with a mysterious sailor, named Noah Hunter who tries to help Donna when the shoot goes bad. When Kelly is shot at LAX airport, Donna rushes there to help her stay alive. Donna lands another job at a prestigious fashion company and after much hesitation, finally tells her mother of her living arrangements with David. Meanwhile, Donna overhears the lead singer, Devin Taggart, of Cain Was Abel, making racist remarks as David tries to land them a recording contract. She becomes increasingly frustrated when David continues to work with them.",
+              "Donna has an on-the-job crisis when she loses her new boss. Valerie (for some suspicious reason) offers to help Donna with her job to land more clients. Donna's newest designs impress a manufacturer, whose workers she discovers toil in depressing conditions. While investigating Donna's story about working conditions at a sweatshop, Brandon discovers that Steve's father, Rush, is involved which brings up tension between Brandon and Steve over publishing the story. Valerie turns on her deviousness again when she begins stealing Donna's design clients for her own use and in the process lands in a quandary over being with Donna's new client, Cooper Hargrove.",
+              "Donna finally learns of Valerie's back-stabbing by stealing all of her clients. So, Donna successfully gets revenge against Valerie when she sets up Cooper and Valerie on a dinner date to a fancy new restaurant where Noah also shows up after Donna anonymously sends him a message to meet Valerie there. Donna is hired by an eccentric widow who wants to organize a seance to contact her long-dead husband. David's continuing financial troubles with the After Dark begin to take a toll on him and an unknowing Donna when the club is foreclosed for late-rent payments, and David continues to hide his problems from Donna. Donna finally learns about David's financial problems after she discovers that David has forged her signature on her checks to pay for the building's rent. After throwing David out of her beach front apartment, Donna meets with Noah who takes her on a sailing cruise, and who rescues a bankrupt David from his loan shark who wants a huge payback, with interest, for the loan.",
+              "David's jealousy and pride brings out the worst in him and he rejects help from Donna after a fire breaks out at the After Dark. Valerie schemes with David to make Noah and Donna jealous by making it seem that they are having an affair, but it doesn't work due to David's lack of lying skills. Donna reacts to Noah's lack of Christmas spirit due to his past history. Carly and Zack temporarily move in with Donna at the beach front apartment after they are evicted from their house for repairs where she gives Donna love life advice who's deciding whether or not to move onto the next stage with Noah. Donna and Noah say I love you to each other, and they make love that night. Carly thinks Steve is irresponsible with Zack, which takes a turn when she herself loses Zack during an outing at a mall with Donna. Carly and Donna tried look around at mall and did find Zack.",
+              "Donna starts a new photo shoot and deals with a spoiled child model and her demanding mother who spells trouble for her. Donna's grandmother is hospitalized where she tells Donna that her soulmate is David. David and Donna feel guilty about spending innocent time together to celebrate his record deal, which takes a turn when they get into a minor car accident where Donna slightly injures her back. After Noah is questioned by the police about Valerie's rape charges, he admits to Donna that he did have sex with Valerie that night at the After Dark club, but he did not know that she was drugged. Donna's addiction to pain pills spins out of control when she begins stealing pills from her father's medicine cabinet at his clinic while she also combats work pressure by plagiarizing another co-worker's ideas for her newest designs. When Noah arrives at Donna's apartment, he is waiting for Donna to open the door but no one answers it, Noah checks the window and sees Donna on the floor, overdosed on the pills.",
+              "Donna is rushed to the hospital after falling into a coma from the overdose of painkillers. She comes clean to her father about her addiction to the pain pills. When Donna admits to her boss, Robert, that she plagiarized someone else's sketches, she is immediately fired. Noah asks to finance Donna's marketing of her own designs for another fashion company.",
+              "Noah goes too far in helping Donna with her work in bribing a local fashion company to set the stage for her designs and purchases. Valerie creates problems between Noah and Donna when she claims that the expensive diamond necklace that Noah gave Donna is a fake. Donna becomes jealous about a Rolling Stones magazine article detailing about Noah's single status, which prompts her to sneak away from the dance and to the Peach Pit After Dark to see if Noah will be true to her. Donna learns that Monica, a new assistato of her designs, has a psychological problem of self-mutilation and tries to get her to listen to her. Donna becomes stricken with jealousy and suspicion when an old girlfriend of Noah's, named Gwyneth, shows up for a visit. Gwyneth turns to Valerie for a little help to break up Donna and Noah by sabotaging her fashion show at the After Dark.",
+              "In the week before Kelly and Brandon's wedding, different views of marriage divide Noah and Donna in which he tells her that he does not believe in marriage. With a few hours before Brandon and Kelly's wedding, Donna and Noah at a loss on their relationship, she decides to make Noah jealous by going out on a date with the wedding caterer, Jacob Wallenfels.",
+            ],
           },
           {
-            seasonNumber: 9, 
+            seasonNumber: 9,
             summary: [
-              "In Season 9, Kelly Taylor’s life is once again transformed by the return of Dylan McKay, reopening one of the most important and emotionally charged relationships of her past. After years apart, Dylan comes back to Beverly Hills struggling with personal demons, including grief, addiction, and unresolved trauma. Kelly is immediately drawn back into his world, feeling both nostalgic and protective, even though she knows their history is complicated and painful. ",
-              "As Kelly and Dylan reconnect, their relationship quickly becomes intense and emotionally consuming. Kelly believes she can help Dylan heal and regain control of his life, stepping once again into the role of emotional caretaker. She supports him through relapses, mood swings, and moments of self-destruction, often putting her own needs aside in the process. This dynamic reflects a familiar pattern in Kelly’s life—loving deeply while trying to “fix” someone who is broken. ",
-              "Throughout the season, Kelly struggles with the emotional toll of being involved with Dylan. Although she genuinely loves him, she becomes increasingly exhausted by his instability and unpredictable behavior. Their relationship is marked by passion, loyalty, and shared history, but also by mistrust, disappointment, and recurring conflict. Kelly is forced to confront the reality that love alone cannot overcome addiction and emotional trauma.  ",
-              "At the same time, Kelly continues her work in counseling and social services, which remains an important part of her identity. However, her demanding relationship with Dylan often distracts her from her career goals and personal well-being. She finds herself torn between her professional commitment to helping others and her personal tendency to sacrifice herself for the people she loves.  ",
-              "As the season progresses, Kelly begins to reflect more deeply on her own emotional patterns. She starts questioning why she is repeatedly drawn to unstable relationships and why she feels responsible for saving others. These moments of self-awareness show her growing maturity and desire to break free from unhealthy cycles, even though doing so is emotionally difficult. ",
-              "By the end of Season 9, Kelly is emotionally drained but more self-aware than ever. Her relationship with Dylan has forced her to face hard truths about love, boundaries, and self-respect. Although she still cares deeply for him, she begins to recognize that protecting her own mental and emotional health must come first. This season portrays Kelly as a woman caught between past and present, learning that true strength sometimes means letting go rather than holding on.",
-            ]
+              "Donna meddles in Noah's family affairs by insisting they have dinner with his estranged parents. But problems further arise when Noah learns that his father is about to be indited for income tax evasion as well as questionable business deals. With a little of Donna's help, Noah achieves peace with his estranged father, which turns out to be short-lived. Back in Los Angeles, Noah's and Donna's relationship is on the rocks as he continues to mourn over his father's recent suicide over his failed business, and the fact when IRS agents show up to confiscate everything of Mr. Hunter's for income tax fraud. Meanwhile, Donna is done in by another back-stabbing designer, Carrie, who gets a job after taking credit for Donna's clothing designs.",
+              "Noah turns to Valerie instead of Donna for help after he is arrested for drunk driving, and a young lawyer, named Matt Durning, approaches him for representation for free of charge since Noah and his entire family is now broke from Noah's late father's dirty business dealings. Noah continues on his self-destructive path and pushes away Donna when he sees her talking to Matt, and anyone who offers him support, except Valerie whom he challenges to a dangerous road game of chicken. Donna's estranged cousin, Gina Kincaid, arrives in town for Thanksgiving where she fibs a little about her failed ice-skating career, and secretly shows her true arrogant colors while casting an eye on Noah.",
+              "Dylan McKay arrives back in town and tries to help everyone with their share of problems. Gina sets out to prevent Noah and Donna from reconciling so she can have Noah all for herself. Gina gives up trying to break Noah and Donna up and turns her sights on Dylan. Also, Donna befriends a female gang member, named Sonia, who cannot leave the gang she's in. Sonia's girl gang member friends affect Donna's business at the boutique shop 'Now Wear This!' by their presence. When the store is robbed one night, the missing Sonia becomes the chief suspect. Noah also asks Gina to help him and Nat plan Donna's 24th birthday party for Christmas Day, where Gina has a little too much to drink and finally reveals her true contempt feelings about Donna in front of everyone.",
+              "Gina begins to stir up trouble between Donna and her mother, Felice, by using their tension to play them against each other. Donna and Noah struggle to find a place to be alone at her parents house after they go away for a vacation to have sex. After Dylan accidentally injures Donna by knocking her into her swimming pool while high on drugs, he tries to confront his personal demons. Claire Coville, a rising singer, asks Donna to design her a dress for an awards show and for Noah to be her escort. Steve and Noah declare a war of practical jokes after Noah cheats at strip poker, which apparently takes a serious turn when a man suddenly drops dead and Steve and Donna try to retrieve the corpse from a missing refrigerator. Noah fool both of them.",
+              "Gina begins to cause more friction between Donna and Noah when she tells Donna a concocted story about a drunken Noah making the moves on her from one particular night. Afterwards, a dejected Donna agrees to pose David's girlfriend at a business function of his. Noah makes a proposal to Donna to move in with him. But then, Gina sabotages their reconciliation by playing games with Noah over what really happened that night between him and her. Donna's anger over both Noah and Gina sends her to the arms of David. After finding out that Donna's mother is the one responsible for mismanaging her trust fund, Gina decides to sue Felice for $1.1 million.",
+              "Over Donna's objection, Kelly hires a publicist, named Pia, to boost business for the boutique store. But the devious Gina makes the situation worse when she fans the flames between Donna and Kelly. Ashley Reese, a former high school nemesis of Donna's, asks for her help in her fight against West Beverly High's drama teacher whom Ashley claims molested her years ago. Donna becomes a nervous wreck after her parents announce their decision to separate, and Noah tries to help Donna find out why her parents would want to end their marriage.",
+              "Wayne Moses, a fashion model, makes a play for Donna while Noah pressures her to keep her distance to the guy. Donna is warned by Wayne not to move in with Noah. Donna declines both to move in with Noah or travel with Wayne as his modeling career heats up. A confused Donna continues to balance her time between Noah and Wayne, which changes when Wayne takes advantage it to seduce Donna, and Noah walks in on them the morning after.",
+            ],
           },
           {
-            seasonNumber: 10, 
+            seasonNumber: 10,
             summary: [
-              "In Season 10, Kelly Taylor enters the final chapter of her journey with a stronger sense of self and a clearer understanding of what she wants from life and love. After years of emotional turmoil, unstable relationships, and personal struggles, she is more focused on stability, honesty, and emotional balance. Professionally, she remains committed to counseling and helping others, reinforcing her identity as someone who has transformed her own painful experiences into compassion and purpose.",
-              "A central storyline of the season revolves around Kelly’s renewed relationship with Dylan McKay. After the emotional exhaustion of Season 9, their bond becomes more reflective and mature. Both have changed, and Kelly is no longer willing to sacrifice her well-being for Dylan’s problems. Instead of trying to “fix” him, she begins demanding mutual responsibility, trust, and emotional equality. Their relationship develops more slowly and thoughtfully than in previous years.",
-              "Kelly is also forced to confront lingering fears about abandonment and long-term commitment. Having experienced repeated heartbreak, betrayal, and disappointment, she struggles at times to fully trust that lasting happiness is possible. These doubts surface in moments of conflict with Dylan, where she questions whether their shared history is enough to sustain a healthy future. This internal struggle highlights how deeply her past has shaped her emotional outlook.",
-              "As the season progresses, Kelly grows more confident in asserting her needs and setting boundaries. She becomes less willing to tolerate dishonesty, emotional distance, or instability in her relationships. This marks a major contrast to earlier seasons, when she often placed others’ needs above her own. Now, she prioritizes self-respect and emotional security, showing how much she has matured.",
-              "The emotional climax of Kelly’s storyline comes in the series finale, when Dylan proposes and the two reunite in a hopeful and romantic conclusion. Their engagement symbolizes not just romantic fulfillment, but the completion of Kelly’s long personal journey. She is no longer the insecure “popular girl” of Season 1, nor the self-sacrificing caretaker of later years, but a confident woman who understands her own worth.",
-              "By the end of Season 10, Kelly emerges as one of the show’s most fully developed characters. Her story comes full circle—from teenage insecurity to adult self-awareness. Through love, addiction, trauma, career struggles, and personal growth, Kelly learns that true happiness comes from self-acceptance, healthy boundaries, and emotional honesty. Her ending with Dylan represents not a fairy-tale escape, but a partnership built on experience, resilience, and mutual respect.",
-            ]
+              "Donna throws Gina out of the beach house after seeing Gina bad-mouthing Kelly to some TV reporters which leads to Dylan and Gina to move into a hotel suite together at the Bel-Air. Noah refuses to associate himself with Donna or anyone near her, while Donna thinks that her involvement with Wayne was a mistake after he tells her that he does not want her to spend time comforting Kelly but with him only. Donna tries to reconcile with Noah, but does not find him open for talk especially when she sees him with another woman from the After Dark.",
+              "Kelly and Donna prepare the reopening of the boutique since the shooting for Donna's men's line fashions. But Gina's accident sets fire to their dresses. With that, all of Donna's friends assemble to salvage the fashions and the guys even step in as models for the fashion show. When Matt realizes that Gina set the fire deliberately to ruin Kelly and Donna, he uses this damaging information to put pressure on Gina to help with the publicity of the fashion show. Noah's attitude towards Donna and everyone changes when while hosting a new band for the After Dark, he learns that the band leader's cousin was Wayne.",
+              "David's new brash radio persona gets flack from Donna among others, but high ratings. Noah and Gina continue running their secret gentlemen's club in the After Dark, but the place attracts the wrong attention when the police raid it after several nuisance complaints and arrest both Noah and Donna. Donna have to call Dylan to bail her out the jail. Gina tells Donna that she told Felice about her arrest, which causes Donna to be upset. A homeless man's death affects Donna which sets her and Noah out to learn the history of the anonymous man.",
+              "Donna learns of a past indiscretion by her father with Gina's mother, which brings out revelations that could threaten to tear Donna's family apart. Donna finally tells Gina their whole story about that they ar- half sisters, which throws Gina into anger and frustration. But Donna learns that Noah hasn't told her all of his life story when he tells her that he never went to Harvard. Donna can't let go of Noah's accident years ago resulting in the death of his girlfriend which leads to her and him considering breaking up. David and others benefit from a man's crush on Donna whom she asks out on a date that flops.",
+              "Donna and David meet promising new mates for themselves, she with an unpredictable businessman named Jerry, and he with a law clerk named Chrissy. Donna, now running the boutique shop on her own, goes out with a fashion designer, named Dan. Donna goes on the show with Matt in her place. Donna's father tries to bond with Gina who continues to be uncertain about what to do.",
+              "After Dr. Martin dies from a sudden and massive stroke, unspoken accusations regarding his death haunt Gina. But Felice, as always, speaks her mind accusing Gina of bringing on her husband's fatal stroke while Donna gets consul David and the rest of the gang. With everyone against her and conflicted by her past, Gina says goodbye to Donna after Dr. Martin's funeral to return to New York, but Dylan decides to stay to be near Kelly. Noah's return to drinking gets worse when he intrudes on Donna's newest date Eli. Also, David ponders his further relationship with Camille when the issue of how to satisfy her arises during their first night together, while Donna hires Camille to work at the boutique.",
+              "Donna brings Noah at the beach apartment to convalesce for his injuries where he begins to take advantage her loneliness to make the moves on her. Also, Camille tells David that she's beginning to resent Donna's constant phone calls to him for support which intrudes on their evenings out. David interviews for a radio job in New York City while Donna and Camille worry about this turn of events. Donna's distress over David grows after she catches him and Camille in a compromising sexual position on the floor of the boutique after hours. Camille continues to get between Donna and David when she decides, but not Donna, to market products from the boutique over the Internet. But David has concerns of his own when Dylan begins working closely with Camille for her on-line web site for the store, and Donna is drawn to the Internet salesman Mitch Field.",
+              "Steve invests in Donna's on-line venture after Janet says no to the offer. Donna rejects Mitch's business style in personal matters when his come-ons become more frequent which leads to him sabotaging her opening night of her web site after she rejects going out with him again. Donna tells David that she wants to keep their relationship strictly platonic, while Donna's mother, Felice, tells her that she has decided to put the family house up for sale. Camille returns to town after a long vacation with hope of reconciliation with David, unaware of his returning feelings for Donna who finds Camille's presence uncomfortable. After David proposes marriage to Donna, both of them contemplate the matter and finally make a big decision. Donna waiting for Kelly come home from New York to tell her that David proposes her. David and Donna announce their engagement in which all of their friends rush to give them the perfect wedding with Donna's mother, Felice, and David's stepmother, Jackie, taking over the arrangements and Nat catering for the ceremony and agreeing to escort Donna down the church aisle. At Donna's pre-wedding party, Kelly, Janet, Felice, and Jackie are in attendance as well as friends from their past who include West Beverly High principal Mrs. Yvonne Teasley, as well as Andrea Zuckerman and even Valerie Malone, except for Brandon Walsh who sends his regards to everyone via videotape. The day of the wedding goes without a hitch and at the end."
+            ],
+          },
+        ],
+        relationships: [
+           //Family
+           {
+            type: "Family",
+            name: "John Martin",
+            family: "Parent",
+            typeOfFamily: "Biological",
+            gender: "M",
+           },
+           {
+            type: "Family",
+            name: "Felice Martin",
+            family: "Parent",
+            typeOfFamily: "Biological",
+            gender: "F",
+           },
+           {
+            name: "Bobbi Kincaid",
+            type: "Family",
+            typeOfFamily: "Biological",
+            extended: true,
+            ifExtended: "Maternal",
+            family: "Aunt/Uncle",
+            gender: "F"
+          },
+           {
+            type: "Family",
+            name: "Gina Kincaid",
+            family: "Sibling",
+            half: "Paternal",
+            gender: "F",
+           },
+           {
+            type: "Family",
+            name: "Mel Silver",
+            typeOfFamily: "In-Law",
+            family: "Parent",
+            gender: "M",
+           },
+           {
+            type: "Family",
+            name: "Jackie Taylor",
+            typeOfFamily: "In-Law",
+            family: "Parent",
+            gender: "F",
+           },
+           {
+            type: "Family",
+            name: "Sheila Silver",
+            typeOfFamily: "In-Law",
+            family: "Parent",
+            gender: "F",
+           },
+           {
+            type: "Family",
+            name: "Jackie Taylor",
+            typeOfFamily: "In-Law",
+            family: "Parent",
+            gender: "F",
+           },
+           {
+            type: "Family",
+            name: "Kelly Taylor",
+            typeOfFamily: "In-Law",
+            family: "Sibling",
+            gender: "F",
+           },
+           {
+            name: "Celia Martin",
+            type: "Family",
+            family: "Grandparent",
+            extended: true,
+            gender: "F"
+          },
+           //Romances
+           {
+            id: "david-donna",
+            type: "Romantic",
+            romantic: "Wife/Husband",
+            name: "David Silver",
+            shortDesc: "Donna reluctantly begins dating an interested David, who's still considered a bit geeky by the gang. Donna is also well aware of David's infatuation with Kelly Taylor. However, she slowly realises that she's falling for David and makes their relationship public at a Christmas party in her junior year in high school. They date for the rest of high school and into their freshman year of college. David claims to love Donna, but wants to have sex, so instead of breaking up with her he cheats on her. Donna is heartbroken and moves on, although it's difficult. She eventually finds love in other serious relationships, while David, who still loves her, is forced to watch her be happy with others, knowing what he did. Although he also has other relationships, he wants to be with Donna and they rekindle their romance a few times. They finally end up together and get married when they are 26.",
+            imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTWkeHw1THHx8grGj_Zq3Ew890W8MtlzXLFFaULGUJ6nbYsH3m_TVCTltg&s=10",
+            gender: "M",
+            started: [
+              "Chuckie's Back",
+              "Addicted To Love",
+              "You Say It's Your Birthday: Part 2",
+              "If I Had A Hammer",
+              "Straight Shooter",
+              "Love is Blind",
+            ],
+            ended: [
+              "Somewhere In The World It's Christmas",
+              "Mr. Walsh Goes to Washington: Part 2",
+              "Here We Go Again",
+              "My Funny Valentine",
+              "Child of the Night",
+            ],
+            card: true,
+           },
+           {
+            type: "Romantic",
+            name: "Wayne Moses",
+            romantic: "Ex-Boyfriend/Ex-Girlfriend",
+            gender: "M",
+           },
+           {
+            type: "Romantic",
+            name: "Noah Hunter",
+            romantic: "Ex-Boyfriend/Ex-Girlfriend",
+            imgUrl: "https://www.televisionofyore.com/uploads/9/3/0/3/9303799/8-25-inside_orig.jpeg",
+            shortDesc: "Noah was a rebound relationship after Donna broke up with David the second time. The two were together through much of the 8th, 9th and 10th seasons with Noah sleeping with Val one drunken (and drugged) night and Donna briefly being torn between Noah and Wayne, a man she met in her store. Ultimately she and Noah break up near the end of the series, paving the way for a David/Donna reconciliation.",
+            card: true,
+            gender: "M",
+            started: [
+              "Child of the night",
+              "A Fine Mess",
+            ],
+            ended: [
+              "Survival Skils",
+              "Nine Yolks Whipped Lightly",
+            ],
+           },
+           {
+            type: "Romantic",
+            name: "Ray Pruit",
+            romantic: "Ex-Boyfriend/Ex-Girlfriend",
+            gender: "M",
+            shortDesc: "Ray was somewhat of a rebound relationship with David. Donna seemed to love him (and stated that she did) but Ray was very manipulative and controlling - he hated her friends and wanted to monopolize all of her time. His actions later became somewhat abusive culminating in him (somewhat accidentally) pushing her down some stairs and hurting her arm. While Ray seemed to get a handle on his anger issues and the two tried to make their relationship work, when Donna found out he slept with Val she ends things permanently.",
+            card: true,
+            imgUrl: "https://preview.redd.it/ray-donna-v0-y9o58amdq9zc1.jpeg?width=640&crop=smart&auto=webp&s=0605c8a502d7cd031d0ddc18dba4238abfe7a7bf",
+           },
+           {
+            type: "Romantic",
+            name: "Joe Bradley",
+            romantic: "Ex-Boyfriend/Ex-Girlfriend",
+            gender: "M",
+            shortDesc: "Joe and Donna seemed to fit - they both had the same expectations in their relationship and both were determined to remain virgins until marriage. The relationship had a few ups and downs but Joe was always faithful to Donna and they only decided to break up when Joe decided to move back to his hometown and coach high school football. He proposed to Donna and asked her to come with him but she decided she was too young and not ready to take such a big step yet.",
+            card: true,
+            imgUrl: "https://i.pinimg.com/474x/dc/a8/47/dca847f918da590e171f018de1333887.jpg",
+           },
+           {
+            type: "Romantic",
+            name: "Cliff Yeager",
+            romantic: "Ex-Boyfriend/Ex-Girlfriend",
+            gender: "M",
+           },
+           {
+            type: "Romantic",
+            name: "Jacob Wallenfels",
+            romantic: "Fling",
+            gender: "M",
+           },
+           {
+            type: "Romantic",
+            name: "D'Shawn Hardell",
+            romantic: "Fling",
+            gender: "M",
+           },
+           {
+            type: "Romantic",
+            name: "Griff Stone",
+            romantic: "Dated",
+            gender: "M",
+           },
+           {
+            type: "Romantic",
+            name: "Chad",
+            romantic: "Fling",
+            gender: "M",
+           },
+           {
+            type: "Romantic",
+            name: "Casey Watkind",
+            romantic: "Crush",
+            gender: "M",
+           },
+
+           //Friendships
+          {
+            id: "donna-kelly",
+            type: "Friendship", 
+            name: "Kelly Taylor",
+            kindOfFriendship: "Best Friend", 
+            imgUrl: "https://m.media-amazon.com/images/M/MV5BNTM5MjhhNWYtMWRlOC00YzgzLWFkMTQtZDNkZTA5YWViYjIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            shortDesc: "Kelly Taylor and Donna Martin share one of the most loyal and enduring friendships in Beverly Hills, 90210. From high school through adulthood, they support each other through family problems, romantic struggles, and personal crises. Donna provides emotional stability and unconditional loyalty, while Kelly encourages Donna’s confidence and independence. Largely free from betrayal, their bond matures over time into a respectful and lasting connection built on trust, empathy, and mutual support.",
+            description: [
+              "Kelly Taylor and Donna Martin share one of the longest-lasting and most stable friendships in Beverly Hills, 90210. From the early seasons, their bond is built on loyalty, emotional support, and mutual trust. While Kelly is socially confident and often at the center of attention, Donna is gentle, patient, and morally grounded. These contrasting personalities complement each other and form the foundation of their close relationship.",
+              "In the early years, Donna often serves as Kelly’s emotional anchor. When Kelly struggles with family instability, insecurity, and self-esteem issues, Donna consistently provides reassurance and understanding. She listens without judgment and remains supportive even when Kelly makes mistakes. At the same time, Kelly helps Donna become more socially confident and encourages her to step outside her comfort zone. Their friendship allows both girls to grow in balanced ways.",
+              "Unlike some of Kelly’s other friendships, particularly with Brenda, her relationship with Donna is largely free from major betrayal. During periods of group conflict—especially after the Dylan-Kelly-Brenda triangle—Donna remains loyal and refuses to abandon Kelly. She often acts as a peacemaker, helping maintain harmony within the group. Her steady presence gives Kelly a sense of emotional security during turbulent times.",
+              "As the series progresses, Kelly faces serious personal challenges, including addiction, trauma, illness, and relationship struggles. Throughout these crises, Donna remains by her side, offering compassion and practical support. Whether Kelly is rebuilding her self-worth or questioning her life direction, Donna consistently encourages her to stay strong and believe in herself. This unwavering loyalty deepens their bond and reinforces their role as each other’s emotional support system.",
+              "In later seasons, their friendship matures into a more adult and reciprocal relationship. Kelly becomes more emotionally self-aware and appreciative of Donna’s reliability, while Donna grows more confident and assertive. They learn to communicate more openly and respect each other’s boundaries. Even as their lives and priorities change, their connection remains intact.",
+              "By the end of the series, Kelly and Donna’s friendship stands as one of the healthiest and most enduring relationships in the show. Built on trust, empathy, and shared history, their bond survives romantic drama, personal crises, and major life transitions. Their relationship represents the power of consistent friendship and emotional loyalty in an often unstable social environment.",
+            ],
+            card: true,
+            gender: "F"   
+          },
+          {
+            id: "brenda-donna",
+            type: "Friendship", 
+            name: "Brenda Walsh",
+            kindOfFriendship: "Best Friend",
+            description: ["When Brenda Walsh first arrives in Beverly Hills, Donna Martin becomes one of her earliest and most reliable friends. Unlike Kelly, who introduces Brenda to the school’s social hierarchy, Donna offers immediate kindness and emotional safety. She welcomes Brenda without judgment and treats her with warmth and sincerity. From the beginning, their bond is built on trust, gentleness, and mutual support rather than popularity or competition. Donna’s calm, non-confrontational nature balances Brenda’s emotional intensity, creating a friendship based on comfort and understanding.",
+              "During the early seasons, Brenda and Donna develop a quiet but meaningful closeness. They often confide in each other about romantic struggles, family problems, and personal insecurities. Donna consistently acts as a listener and emotional anchor for Brenda, especially during moments of heartbreak involving Dylan and conflict with Kelly. In return, Brenda encourages Donna to be more confident and assertive, helping her express her feelings and stand up for herself. Their friendship functions as a safe space where both can be vulnerable without fear of judgment.",
+              "Unlike many other relationships in the group, Brenda and Donna’s friendship is largely free from betrayal or rivalry. Even during periods of major group conflict—particularly after the Dylan-Kelly affair—Donna remains loyal to Brenda. She refuses to take sides in a way that would hurt her and often serves as a mediator within the group. Her loyalty helps Brenda feel less isolated during some of her most difficult emotional periods. This steadfast support strengthens their bond and distinguishes their friendship from the more turbulent relationships around them.",
+              "As Brenda struggles with feelings of insecurity, displacement, and disappointment in later seasons, Donna continues to provide emotional stability. She encourages Brenda to prioritize her own well-being and self-respect, especially when Brenda questions her worth in relationships. Donna’s consistent presence reminds Brenda that she is valued for who she is, not for her romantic status or popularity. At the same time, Brenda supports Donna through her own challenges, including academic pressure and relationship issues, reinforcing their reciprocal loyalty.",
+              "Their friendship also reflects their contrasting personalities. Brenda is passionate, expressive, and emotionally intense, while Donna is gentle, patient, and morally grounded. These differences rarely cause conflict; instead, they complement one another. Donna helps calm Brenda during emotional crises, while Brenda helps Donna become more courageous and self-assured. Together, they represent a balanced and emotionally healthy friendship within a group often marked by drama and instability.",
+              "As the series progresses and Brenda begins to pursue her independence through acting and travel, her relationship with Donna remains steady. Even as their lives start to move in different directions, their emotional connection endures. There is no major rupture or betrayal that defines their separation; instead, their friendship fades naturally into a quieter, more mature bond based on mutual respect and shared history.",
+              "By the time Brenda leaves the series, her friendship with Donna stands as one of her most positive and enduring relationships. Unlike her turbulent romances and complicated friendships, her bond with Donna remains rooted in loyalty, compassion, and emotional honesty. Ultimately, Brenda and Donna’s friendship represents the healthiest form of connection in the series—a relationship built on trust, empathy, and unwavering support, showing how genuine friendship can provide stability in an emotionally unpredictable world."
+            ], 
+            shortDesc: "Brenda Walsh and Donna Martin share one of the most stable and supportive friendships in Beverly Hills, 90210. From the beginning, Donna offers Brenda kindness, loyalty, and emotional safety, while Brenda encourages Donna to become more confident and assertive. Unlike many other relationships in the group, their bond is largely free from rivalry and betrayal. Donna remains loyal to Brenda during difficult periods, especially after conflicts involving Dylan and Kelly. Over time, their friendship matures into a quiet but lasting connection based on trust, compassion, and mutual respect.",
+            imgUrl: "https://i.pinimg.com/1200x/1d/ac/65/1dac659da8a9cf977f76538a9d2c197e.jpg",   
+            gender: "F",
+            card: true
+          },
+
+          { 
+            type: "Friendship",
+            name: "Clare Arnold",
+            kindOfFriendship: "Close",
+            gender: "M",
+          },
+          { 
+            type: "Friendship",
+            name: "Steve Sanders",
+            kindOfFriendship: "Normal",
+            gender: "M",
+          },
+          { 
+            type: "Friendship",
+            name: "Andrea Zuckerman",
+            kindOfFriendship: "Normal",
+            gender: "M",
           }
-          
-          
-        ]   
-      },
-      {
-        id: "donna-martin",
-        firstName: "Donna",
-        lastName: "Martin",
+        ],
         imageUrl: "https://www.tvline.com/img/gallery/90210-star-tori-spelling-was-happy-to-lose-this-aspect-of-donnas-character/intro-1765380471.jpg",
         posterUrl:
           "https://i.pinimg.com/originals/c1/33/61/c13361f9c77f51bf5aeae714e1a984fa.jpg",
         promo: true,
+        actor: "Tori Spelling",
+        episodeCount: "291",
+        firstEpisode: "Class of Beverly Hills",
+        lastEpisode: "Ode to Joy",
       },
       {
         id: "david-silver",
         firstName: "David",
         lastName: "Silver",
+        birthday: "August 1975",
+        eyeColor: "Blue",
+        hairColor: ["Brown"],
+        gender: "M",
+        single: false,
+        married: true,
+        personality: "David starts out as an ambitious freshman, eager in every sense of the word; to create a name for himself at West Beverly, be it through his music or by dating the most popular girl in school with whom he is infatuated: Kelly Taylor. Though irritating Kelly and Steve at first, after a while he slowly becomes friendly with the gang and ends up graduating a year early to be with his friends and longtime girlfriend, Donna. David proceeds to delve into his music and DJ interests in college, but has trouble with drug abuse. He also has an unsteady moral compass and cheats on Donna because he wants to have sex.",
+        education: [
+          { 
+           place: "West Beverly",
+           hasEnded: true,
+           started: "1990",
+           ended: "1993", 
+          },
+          { 
+            place: "California University",
+            hasEnded: true,
+            started: "1993",
+            ended: "1997", 
+           },
+        ],
+        occupation: [
+          {
+            title: "Musician/DJ",
+            started: "Before 1990",
+            hasEnded: false,
+          },
+          {
+            title: "Jingle Writer",
+            hasEnded: false,
+          }
+        ],
+        nickname: [
+          "Young Silver",
+          "Dave",
+          "Silver",
+        ],
+        characterArc: [
+          {
+            seasonNumber: 1,
+            summary: [
+              "During the first season David was a Geeky freshman at West Beverly, him and his best friend Scott Scanlon were excited to start high school. On the first day of school there was an announcement that there would be a party Friday, he was already to go when it was announced that it was upperclassmen only. Scott was fine not going but David was determined. At the party David quickly became obsessed with Steve Sanders, because his mother was on the Hartley House. Steve that night proceeded to get drunk and asked David his 'buddy' to drive him home. They made it home safely but David was about to walk home when the car started to roll down the driveway. He forgot to put the car in park. Steve's car then rolled down the driveway and crash into a parked car. During this season David sort of inserts himself into the forming gang and becomes the schools new DJ.",
+            ],
+          },
+          {
+            seasonNumber: 2,
+            summary: [
+              "During the second season David and Scott drifted apart. Mostly because David dropped him to become friends with the Gang. David during this season developed a crush on Donna Martin. David proceeded to take Donna to the Annual Winter dance. Attempting to kiss her in the car Donna backed away and said that she didn't like him like that. During the Winter dance David and Donna were on the dance floor and Donna kissed him. She walked over to her friends and said that she liked him and that she didn't care what any of them thought about her and David she didn't care. They grew close and started going out. One night they were making out at Donna's and she told him that she was going to stay a virgin till she was married. They stayed in a relationship because david really liked donna. Towards the end of the season it was Scotts birthday and he asked David to attend even though they weren't that close anymore. Scott's mother then told him that he should invite people so he decided to ask the Gang. They all attended. Scott was so happy to have David be in his life again that he wanted to show david this new gun trick he learned. David asked him to put it down and then Scott shot himself. Scott died that night. David was not the same for the rest of the season. He told Brandon Walsh he felt bad because he ditched his best friend for the people he thought were cool. Meaning the Gang. (Kelly, Donna, Brenda, Brandon, Dylan, Steve) He announces this while his hand is on the microphone of the DJ booth allowing everyone to hear him.",
+            ],
+          },
+          {
+            seasonNumber: 3,
+            summary: [
+              "During the third season Donna went to France with Brenda and he spent most of the summer at the beach with his new step sister Kelly Taylor. David put on a well-received musical performance at the Beverly Hills Beach Club. This event was seen by several of his friends, as well as Mel, Jackie, and Jim and Cindy. During the summer a girl named Nikki Witt became infatuated with young Silver. This lead to them Making out on the couch in his cabana. Kelly then walks in and David realized that he made a huge mistake. Nikki then transfers to West Beverly and become Donna's new student buddy. Nikki tells Donna that her and David made out and Donna then plays a trick on David to test if he loves her or not. He passed. David writes a rap single that catches Steve's ear. Steve becomes davids music manager because he tries to break into the business. He gets a record deal, but there is one catch, he has to ditch Steve. His chance was blown by a no good producer. In the episode when Dylan's father died he showed up late to the Walsh's. Dylan was ready to jump off of his sobriety wagon once again, when David walked in. He told dylan that he never really thought that they were friends or close friends because they didn't have anything in common. But that he feels like he has more in common with anyone else in the gang now because they both witness a death right infront of there eyes. Dylan with his father and David with Scott. David proceeded to tell Dylan that it gets better. This has Dylan not jump off the wagon. Donna and David stay together all through High School, and he even graduates early so that he can stay with his friends."
+            ],
+          },
+          {
+            seasonNumber: 4,
+            summary: [
+              "During the Fourth Season the Gang attends C.U. David needing an apartment asks Kelly to help him find a place. The three (David, Donna, and Kelly) find a great beach front apartment. The three then move in together. David and Donna being freshman in college try and get a job on the college radio. They succeed but get the graveyard shift. Donna can't handle the pressure of the 2 A.M to 6 A.M. shift and quickly quits. Leaving young Sliver all on this own. The station manager Howard then asks David if he wants some Uppers. David begrudgingly excepts. This is the beginning of his long wrong towards being a drug addict. During Windstruck it is David and Donna's two year anniversary. The whole Gang goes out to dinner with David and Donna. At the end of the night they throw pennies into the fountain outside the chinese food restaurant and Donna's penny lands in Love, and David's lands in luck. Leading the Gang to make a sex joke. For the two that are still virgins. Donna the next day decides that she is ready to sleep with him. David then proceeds to set up his room in a romantic way. They are about to make love when the doorbell rings. David and Donna assume that Kelly forgot her key to the apartment and David goes to open the door in his underwear. To his surprise it is Donna's Parents. Leading the two not to have sex. The next episode Somewhere in the World it's Christmas David breaks up with Donna on her birthday because he wants a mature relationship with the woman he loves and she is not able to give that to him. David then quickly becomes a drug addict. He is behind in his classes and has to continue with his shift at the station, so Howard offers him some Crystal Meth. This then starts his addiction. He starts to have constant mood swings. Kelly gets suspicious of David. The girls move out because they are giving him tough love. He then gets fired from the station because Howard doesn't want a addict working on the waves. He then gets himself into the tough situation where a new dealer asks him to shoot up meth in his feet. He passes. The next episode David goes to his dealer to have him listen to a new song he likes and he asks him to take all of his inventory because he got a tip that the building was going to be raided. David runs out of the building right before the cops enter. His dealer then gets arrested and doesn't know what to do with the stash. He calls Dylan because he told him that he owed him one for the night that he came to the Walsh's and told him that it gets better. Dylan then comes tells David that his dealer sold him out and the cops were not there way and that they had to flush all the drugs. David doesn't want too. But then realizes that this could ruin his life. The flush the whole stash and then about thirty seconds later the cops bust in and read the boys their miranda rights. Finding nothing in the apartment they were let go. Leaving David Scared Very Straight. He then tells Donna, Kelly and Dylan that he is going to give it up. The next episode Addicted to Love Donna and David get back together. In Mr. Walsh Goes to Washington: Part 2 David sleeps with a girl in the business names Ariel Hunter. Donna then walks in on the two of them in the Limo with a condom on the floor. She runs out and the two break up, he moves out.",
+            ],
+          },
+          {
+            seasonNumber: 5,
+            summary: [
+              "During the fifth season, David gets a dorm room. He joins the school T.V station. David then sees Clare Arnold in the computer lab on campus. He then quickly becomes attracted to her. Then quickly finding out that Clare was Donna and Kelly's new room mate decided not to pursue her. Clare and Donna start working on the T.V station with David. Not long after that Donna and David become friends again. Clare and David keep their relationship completely platonic till Donna gets a boyfriend named Griffin. Allowing Clare and David to start a relationship. During Who's Zoomin' Who? David and Clare eat watermelon in her bed, things get messy and she says she is going to do a wash if he wants to put his watermelon juice infested shirt in. She then proceeded to tell him that there are t-shirts in the middle draw. He opens the middle draw and finds Clare's handcuffs. She comes back into the room and sees him handcuffed and says that they are similar. Then he tells her that they are her handcuffs, she then laughs and says she lost the key. David doesn't care as long as Clare is kissing him. But young Silver can't catch a break. Clare's dad then decided to see where she lives. Covering stuck David in a pile of laundry and pillows she allows him into her room. She calls a locksmith and leaves with her father for dinner. Leaving David stuck and helpless. Donna then comes home to see David handcuffed to the bed and laughs. She stays with him till he tells her that Ray stopped by. She then ran outside saw he smashed the pumpkins and tells David she is going to go find him. Again leaving him alone handcuffed to the bed. The locksmith never came, so he broke Clare's head board to get out. In Things that Go Bang in the Night Clare and David go looking for UFOs after they were not successful they cuddled up into a sleeping bag, and had sex for the first time. In Intervention Clare and David make a sex tape. They later want to watch the tape but see that it has gone missing. Donna had taken it because it used to be an air check of Clare and Donna. Donna brings it to her parents and her dad winds up watching it. Clare and David soon take over Peach Pit After Dark from Steve because he got in trouble with the law and he wasn't allowed to be a party of the party scene. In Love Hurts David yells at Donna telling her that she has become “self-involved bitch” and that she is not half the woman she used to be. He also tells her that he doesn't understand why he fell for her in the first place. That night he went back to the apartment to apologize to Donna. Donna was in a bad situation that she was being held by Garrett Slan and was about to be raped. Garrett told Donna to get rid of him. So Donna cleverly kept calling him Dave. Which no one ever does. So he got the hint and came into the room with the newly purchase baseball bat and hit Garett. Saving Donna from being raped. Clare and David break up in the next episode Unreal World due to David realizing he still had feelings for Donna. He then followed those feelings and kissed Donna. Clare found out and they both admitted to everyone that they still love different people. David still loves Donna, and Clare still has feelings for Brandon. So David broke up with Clare to try and get Donna back. David and Donna travel to Portland together. Donna goes to see Ray who is very upset David is there, and David goes to surprise his mom. When he gets there he finds out that that she was fired from her job, ran out of her apartment, started living in a hotel, hasn't cashed her alimony checks in 3 months, and was arrested for drunken disorderly, lastly missing. Donna and David search all night for her. Clare and David get back together in Squash It, after she told David how hot he looked on stage.",
+            ],
+          },
+          {
+            seasonNumber: 6,
+            summary: [
+              "In the first episode of season 6 we are informed that David and Clare broke up. At the end of Everything's Coming Up Roses David takes Valerie to meet his mom. They get to her apartment building and there is an ambulance there. He runs out of the car to ask what was going on if he could get inside to see his mom, at that second his mom is being brought out on a gurney. She had attempted suicide. The next episode David is not his normal self. He is kind of depressed. He won't come out of his room for anything but food. The night that Toni has a dinner party Valerie skips it and goes to see David. David is coming back from getting food and sees Valerie, she makes him come with her. She takes David to a place she takes herself for a gut check. They step out onto the ledge of the highway and Valerie tells him to jump if he wants too. He gets teary eyed and says that he doesn't want to die. Valerie then pulls him back and they hug. The beginning of the next episode David kisses Valerie. She then says that he was her best kiss. Valerie and David start dating in the next episode. David and Valerie date till Ginger LaMonica comes back to town. She blackmails Valerie and says that she has to pay her $50,000 or let her sleep with David. She agrees and David agrees. David then tells ginger he want touch her because he loves Val. He then breaks up with Val because he can't believe what she asked him to do. David asks Donna to make a music video with him. They grow close again, and Donna's boyfriend Joe Bradley gets jealous. Joe and Donna break up. In You Say It's Your Birthday: Part 2 Donna and David get back together.",    
+            ],
+          },
+          {
+            seasonNumber: 7,
+            summary: [
+              "At the beginning of this season David yells at Donna during a music video shoot. Donna loves him but David keeps treating her like crap. So in Here We Go Again they break up. They say they want to stay friends. But once they break up they constantly argue and keep getting in fights. David becomes quite a douche, thinking he is better then everyone. David moves in with Mark Reese in the Hollywood Hills. David dropped out of his senior year of college. When Kelly's friend Jimmy dies David brings Kelly a Yahrzeit candle to light. David throws a pool party in Housewarming. In this episode David had too much to drink and Donna takes him to his room. While Mark tells everyone that the fire department has asked them to evacuate because of the forrest fire. Donna comforts David while he throws up. Donna sees a baby deer during the brush fire and goes to save it. David blames himself for losing sight of her because he was drunk. Later in episode David tells Donna that she can count on him as a friend. David's grandpa's 71st birthday is in Fearless, he refuses to go down to palm springs to see him, because he is 'too busy'. He later finds out that his grandfather died, he collapsed in the street. David who was super close to him feels terrible that he blew off the his birthday. After finding this out David turns to drinking again. In his grandfathers will David was left $250,000 and his car. Mel wants to set up a trust because he doesn't trust David. David then turns to drinking again. He tries to get back Donna, but she isn't interested because he isn't acting like himself. That night he runs into Val, he then asks if she needs a partner. They go into business together, and then wind up kissing. Ending with them getting back together. In Lost in Las Vegas David gets so drunk and gambles away a lot of his money, he got fed up with the hotel and with Val. He constantly calls Donna to have her come out to Vegas to be with him. Showing us who he truly wants to be with. He leaves to go to another casino alone because Val is tired. While on the curb he meets these two girls. He invites them to come with him. He wakes up the next morning with nothing but his underwear and the picture of Donna in his wallet. The two girls drugged and robbed him. He wakes up looks at the picture and said 'Oh Donna what did I do' next thing we know Donna walks into the hotel. David is so upset, and doesn't want to talk to any of his friends but Donna. He cries and she holds him and tells him she won't let anything like this happen to him again. Then she kissed his neck. Showing us she cares about David just as much as he cares about her. In the next episode If I Had A Hammer David causes a huge scene. He gets angry and throws stuff at walls and shatters a glass, in the middle of that little cafe. Donna then proceed to say what is wrong with you. They look down and he has a huge gash in his hand. They go to the hospital and he gets stitched up. But they won't release him unless he talks to a therapist. He refused, so they put him under a 72 hour psych review. His mom comes to talk to him, they talk about how they have the same highs and lows. But the doctor doesn't think that David needs medication. She tells him that he can't drink or be careless. They release him. He shows up at the house that the gang is building for Willie during Thanksgiving. He thanks Donna for always being there for him, and that he doesn't know why she does it, that he has never done anything for her. She proceeds to tell him that isn't true, that he was her first kiss and first love and he will always hold a special place in her heart. That she will always care for him. David then tells Donna he loves her and she says it back. They kiss. In Mother's Day Valerie hits on David to manipulate him into taking her half. She kissed him, he pushes her away. Donna tells David that he has to choose between her or the club. He decided to buy Val out and he got to keep both. In Graduation Day: Part 2 Donna decides that it was time, in this episode David and Donna make love for the first time.",
+            ],
+          },
+          {
+            seasonNumber: 8,
+            summary: [
+              "In the first episode of this season we find out that David is literally drowning in all of the bills from the club. Then later in the episode Donna's job takes the gang to Hawaii. David helps her with the asshole photographer. Donna and all of the models fall off a raft. Most of the models can't swim. So David jumps in with Steve, Brandon and a stranger jumps off a close sail boat. The stranger Noah Hunter helps bring the girls to shore and there a friendship between him and the gang form. The gang goes for a hike, and David stops to tie his shoe lace. He falls and rolls down a hill over some rocks, into the water. Donna says she doesn't know what is taking so long. So they go back. That's when Brandon noticed David's hat. So Brandon told everyone to go back to the car and Noah and him will continue to look for him here. They walk down the hill and climb down the rocks, and find David passed out clinging to a rock. He is all scraped up and can't walk. So Brandon and Noah swim and carry him all the way back to the car. Not only his he having all this trouble. He wants to move in with Donna, and she wants it too. But David knows that she won't tell her parents so he won't move in till she tells them. So once they land in LAX David says that he will take Donna home. They are on the way to the car when Brandon and Kelly walk away. Someone is breaking into a car. Brandon talks to one of them. He gets in the car and drives away. Thats what they wanted you to think. They turned around and shot Kelly. The whole gang ran from there separate cars to come to her rescue. David is basically broke. He try to sign this band Cain was Abel. But Donna doesn’t like him because the lead singer is a bigot. Later Donna walks into David's office. The delivery man is demanding Cash on Delivery. He doesn't have enough money to pay. In comes Donna for a rescue. She pays for the delivery. This starts David on the downward spiral of leaning on Donna for money. In Pride and Prejudice David takes what Donna says to heart, that Cain was Abel is just about hate, that its all hate lyrics. He doesn't let them go on. They get mad and a brawl starts on stage. Because of David and Donna's morals, David lost a lot of money. He will now go even further into debt. In Toil and Trouble David takes one of Donna's checks and forges her signature to pay the rent of the peach pit, because he was evicted. He payed the rent, but stood Donna up at the ball. She was very angry. Donna found out that David forged a check and she threw him out of the beach apartment. David really needed money, so his bartender Dan set him up with a loan shark. David was late with his payment. So Noah payed off the loan sharks for David. David moves into the office of the club. He puts in a heater and by accident left it on. While riffling through paper work one of his shirts fell on to the radiator and caused a fire. He couldn't afford to pay for the damage so he got evicted again. So superhero Noah swooped in again. David didn't want to have anything to do with the club now that Noah bought the building. David now is unemployed. Noah now has his girl, has his club. But at least for now Felice is still on his side.In Friends in Deed Valerie and David devise a scheme to pretend to be together to make Noah and Donna jealous. In the opening scene of Comic Relief Valerie is screaming and moaning while on the bed while shaking the backboard. David sits in a chair laughing quietly. He said that what they were doing was ridiculous. She tells David if she wants Donna back then he should join in. He walks down to the kitchen while Steve and Brandon clapping. David gets a job at the car wash and befriends a gay teenager Ben Brinkley who's family has disowned him so he lives at the car wash. David later comes back to the car wash after remembering something that Ben had said. He walked in on Ben about to kill himself. He saved his life. Valerie and David actually get back together for real. After Steve and Brandon showed up at the car wash, they offered him a job at the Beverly Beat. He initially turns them down, but then his boss walks up and asks what’s going on, and asks who they are. David responses with 'My New Boss' then tells him he quits, he jumped in the car and they drove away. David winds up joining a band when the pianist got drunk and high and got into a car accident. He threatened to sue the after dark and Noah for negligence. David had a talk with Donna, she said that anything you regret to get what you want isn't worth it. The leader of the band Jasper McQuade kicked out the other guy when he found out that he was going to bring David down with him. David now is part of his band. Though he failed on many occasions to actually enter the music business, David never stopped loving it, so when this opportunity presented itself he jumped at the chance. In Crimes and Misdemeanors Donna's grandmother is sick and in the hospital. Donna goes to see her. She keeps going on and on about how her and David are meant to be together. Donna was trying to tell her that she was dating Noah, who was in the room with her. David goes to the hospital to see her, and is greeted with kisses and hugs from Felice and John. He goes to the room to see her alone, she asks him to take care of Donna. That they are meant to be, and that she is going to need him later. David listens with tears in his eyes. Valerie is upset that David is comforting Donna about her grandmother's death. Valerie basically asked him to choose. He said 'I've loved her longer then I have even known you.' David got a record deal. They only wanted David, so they dropped Jasper from Jasper's Law. He became an overnight success. Later it was revealed that the record label payed off the radio station to play David's song. He didn't want fake fame. He quit the band."
+            ],
+          },
+          {
+            seasonNumber: 9,
+            summary: [
+              "At the beginning of this season he is introduced to Sophie Burns. She moved into the Walsh house when she met Steve, and is using him to become famous. She is manipulative, but David can't seem to get enough. In You Say Goodbye, I Say Hello David hooks up with a girl named Denise O'Lare she winds up being 17, but he finds this out after he sleeps with her. Denise was later approached by a returning Dylan McKay and told that she's ruining David's life. She stated it was out of her hands. Dylan warned David that he'd better hire Matt Durning, which he did. Matt interrogated Denise during a deposition, got her flustered, and caused her to storm out of it with her mother in tow. Mrs. Teasley later told Dylan that Denise was a good student, but that she had a bad year, but she thought it was because her parents ignored her. Dylan later confronted Denise's parents and opened their eyes to their neglectful parenting, telling them his own past story as an example of what kids will do to get noticed by their parents. Denise later got her parents to drop the charges. After Dylan got the charges drop for David he tells him that he sold his house, and then moves in with David into The Bungalow. In the episode, Beheading St. Valentine David needs a date to a work function. He asks Donna. They go and are asked to pose for a picture of them kissing. They kiss and that is when they start to feel something for each other again. They later are sitting in the Peach Pit parking lot, talking about how comfortable slipping back into that role felt. David and Donna then agreed that they are more like siblings then exes nowadays. Then they both reached in and kissed. David is in the booth playing the last of his show, and Noah brings in the band for an encore. Donna and Noah slow dancing, but Donna and David share a longing glance. In the next episode Donna and Noah break up. David wanted Kelly on the show but she said she was busy, so Donna filled in. As Donna and David take a trip down memory lane by doing a show together they got a question from a caller asking why she has butterflies overtime she sees her ex. Donna goes on a long speech about how once its done its done, but then she goes somewhere else that makes the caller believe differently. David then makes the night a theme night. Saying can ex lovers still be friends...and that they are living proof. Later that night he shows up at Donna's door step and said that he lied. He leans in and kisses her, and they walk inside. David and Donna then go on a date. Donna then says she needs to think about things, because she has feelings for both David and Noah. She wound up picking Noah. David being sad Donna goes to comfort him, and tells him that he should use his radio power to find a girl. He then dares his audience to find him a girl. This one girl calls in, and tells him what he is doing is ridiculous. He agrees, and he tries to find this girl. The girl who called winds up being the cleaner Claudia who works at the club. Their relationship blossoms and then David finds out that she is going to get deported because her visa is up. David tries everything to get her a job. It doesn't work. Dylan then tells David if he really cares for her then he should keep trying. Claudia asks David to marry him, and he says yes."
+            ],
+          },
+          {
+            seasonNumber: 10,
+            summary: [""],
+          },
+        ],
+        relationships: [
+          {
+            type: "Family",
+            name: "Mel Silver",
+            typeOfFamily: "Biological",
+            family: "Parent",
+            gender: "M",
+          },
+          {
+            type: "Family",
+            name: "Sheila Silver",
+            typeOfFamily: "Biological",
+            family: "Parent",
+            gender: "F",
+          },
+          {
+            type: "Family",
+            name: "Jackie Tayor",
+            family: "Parent",
+            typeOfFamily: "Step",
+            gender: "F",
+          },
+          {
+            type: "Family",
+            name: "Kelly Taylor",
+            family: "Sibling",
+            typeOfFamily: "Step",
+            gender: "F",
+          },
+          {
+            type: "Family",
+            name: "Erin Silver",
+            family: "Sibling",
+            half: "Paternal",
+            typeOfFamily: "Half",
+            gender: "F",
+          },
+          
+          {
+            name: "Henry Silver",
+            type: "Family",
+            ifExtended: "Paternal",
+            family: "Grandparent",
+            extended: true,
+            gender: "M"
+          },
+          {
+            name: "Adele Silver",
+            type: "Family",
+            typeOfFamily: "Biological",
+            extended: true,
+            ifExtended: "Maternal",
+            family: "Aunt/Uncle",
+            gender: "F"
+          },
+          {
+            id: "david-donna",
+            type: "Romantic",
+            romantic: "Wife/Husband",
+            name: "Donna Martin",
+            shortDesc: "David began dating Donna Martin in the second season of the show; the two went to a dance as friends but left as a couple. When the issue of sex eventually arose, Donna informed David that she intended to remain a virgin for the foreseeable future. As a result, David eventually cheated on Donna with Ariel Hunter in Season 4, which split them up for a long time. At the show's conclusion, a reunited David and Donna were married with several of their loved ones in attendance.",
+            imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTWkeHw1THHx8grGj_Zq3Ew890W8MtlzXLFFaULGUJ6nbYsH3m_TVCTltg&s=10",
+            gender: "F",
+            started: [
+              "Chuckie's Back",
+              "Addicted To Love",
+              "You Say It's Your Birthday: Part 2",
+              "If I Had A Hammer",
+              "Straight Shooter",
+              "Love is Blind",
+            ],
+            ended: [
+              "Somewhere In The World It's Christmas",
+              "Mr. Walsh Goes to Washington: Part 2",
+              "Here We Go Again",
+              "My Funny Valentine",
+              "Child of the Night",
+            ],
+            card: true,
+           },
+           {
+            id: "david-valerie",
+            type: "Romantic",
+            romantic: "Ex-Boyfriend/Ex-Girlfriend",
+            name: "Valerie Malone",
+            shortDesc: "David and Val had an on-again/off-again relationship from their junior year at college, but after their first relationship (ending when Val volunteered David to sleep with her former friend who was blackmailing her) they could never make it work again. They eventually become best friends until Val leaves Beverly Hills in 1998.",
+            imgUrl: "https://i.redd.it/valerie-malone-wins-davids-love-interests-v0-b59b9j2kggtd1.jpg?width=750&format=pjpg&auto=webp&s=8dd4af13de20712e7df9b6f99b74e6c30d47d3e0",
+            gender: "F",
+            started: [
+              "Halloween VI",
+              "Ready or Not"
+            ],
+            ended: [
+              "Bleeding Hearts",
+              "The Fundamental Things Aplly"
+            ],
+            card: true,
+           },
+           {
+            type: "Romantic",
+            romantic: "Ex-Boyfriend/Ex-Girlfriend",
+            name: "Clare Arnold",
+            gender: "F",
+            shortDesc: "David and Clare start dating their sophomore year in college after meeting in a Media Studies class. They have a fun and light relationship, mostly based on sex. They eventually start fighting a lot and break up when they both admit to having feelings for someone else; Clare for Brandon, David for Donna. They reunite for a while at the end of the year, but Clare breaks up with David during the summer before their junior year. They stay friendly afterwards as part of the gang.",
+            imgUrl: "https://static.wikia.nocookie.net/90210/images/8/8e/524clavid.png/revision/latest/scale-to-width-down/250?cb=20211003014552",
+            card: true,
+           },
+           {
+            type: "Romantic",
+            romantic: "Ex-Boyfriend/Ex-Girlfriend",
+            name: "Camille Desmond",
+            gender: "F",
+           },
+           {
+            type: "Romantic",
+            romantic: "Dated",
+            name: "Sopfie Burns",
+            gender: "F",
+           },
+            {
+              type: "Romantic",
+              romantic: "Hook-Up",
+              name: "Denise O'Lare",
+              gender: "F",
+            },
+            {
+              type: "Romantic",
+              romantic: "Ex-Boyfriend/Ex-Girlfriend",
+              name: "Claudia",
+              gender: "F",
+            },
+            {
+              type: "Romantic",
+              romantic: "Ex-Boyfriend/Ex-Girlfriend",
+              name: "Robyn",
+              gender: "F",
+            },
+            {
+              type: "Romantic",
+              romantic: "Fling",
+              name: "Ariel Hunter",
+              gender: "F",
+            },
+            {
+              type: "Romantic",
+              romantic: "Fling",
+              name: "Nikki Witt",
+              gender: "F",
+            },
+            {
+              type: "Romantic",
+              romantic: "Crush",
+              name: "Kelly Taylor",
+              gender: "F",
+            },
+            {
+              id: "dylan-david",
+              type: "Friendship", 
+              name: "Dylan McKay",
+              kindOfFriendship: "Close",
+              description: [
+                "Dylan and David’s relationship begins in Season 1 with clear differences in personality and social status. Dylan is introduced as a mysterious, independent loner, while David is younger, insecure, and eager to fit in. Early on, they do not interact much, and Dylan initially views David as immature and somewhat annoying. Their bond is limited, mainly existing through their shared connections to the friend group.",
+                "As David becomes more integrated into the group, especially through his relationship with Donna, his friendship with Dylan slowly grows. Dylan begins to respect David’s loyalty and sincerity, while David looks up to Dylan as a symbol of confidence and emotional depth. Although they are never as close as Dylan and Brandon, their connection becomes steadier and more meaningful over time.",
+                "During Dylan’s darker periods — particularly his struggles with addiction, grief, and emotional isolation — David shows quiet concern and support. He often stands by Dylan without judgment, even when Dylan pushes people away. This demonstrates David’s growing emotional maturity and reinforces his role as a dependable friend.",
+                "In later seasons, especially after Dylan’s return in Season 9, their relationship becomes more balanced. David is no longer the insecure outsider but a confident musician and adult in his own right. Dylan treats him more as an equal, showing trust and appreciation for his perspective. Their interactions reflect mutual respect rather than hierarchy.",
+                "Although their friendship is rarely the main focus of the series, it represents one of the show’s more understated and realistic bonds. Unlike Dylan’s intense romantic relationships or dramatic conflicts, his relationship with David is built on consistency, shared history, and quiet loyalty.",
+                "By the end of the series, Dylan and David share a mature and stable friendship. They may not always be emotionally expressive with each other, but their bond reflects years of shared experiences, personal growth, and mutual understanding. Their relationship shows how friendships can evolve naturally from awkward beginnings into lasting connections.",
+              ], 
+              shortDesc: "Dylan and David’s relationship develops from distant acquaintance to genuine friendship over the course of the series. Although they start off with little in common, they gradually build mutual respect through shared experiences and loyalty to their friend group. Over time, Dylan becomes a quiet mentor figure for David, while David offers emotional support and reliability in return.",
+              imgUrl: "https://i.pinimg.com/originals/93/1c/c9/931cc9a3a150744a6dca071e2a44086b.jpg",   
+              gender: "M",
+              card: true, 
+              started: ["Class of Beverly Hills"], 
+            },
+            {
+              id: "david-kelly",
+              name: "Kelly Taylor",
+              type: "Family",
+              family: "Sibling",
+              typeOfFamily: "Step",
+              description: [
+                "Kelly Taylor and David Silver’s relationship evolves into one of the most unique bonds in Beverly Hills, 90210 because it blends friendship with family. Early on, they move in the same social circles, with Kelly positioned as older, more established, and socially confident, while David is younger and eager to fit in. Even before they become family, Kelly often treats David with a kind of older-sister energy—encouraging him, including him, and helping him feel less like an outsider around the main group.",
+                "Their connection becomes more personal when their parents marry, making them step-siblings. This shift changes their dynamic: they’re no longer just friends within the same clique but also part of the same household structure, which adds emotional complexity. Kelly’s role becomes more protective and grounded, especially when David is insecure or struggling, and David grows to rely on her steady support. Their family connection deepens further when they gain a shared younger half-sister, Erin, which reinforces that their relationship is tied not only to their friend group but to long-term family reality.",
+                "As David faces challenges—romantic problems, career frustration, and later more serious emotional and behavioral struggles—Kelly tends to respond with concern rather than judgment. She encourages him to make better choices and to take responsibility, often acting as a stabilizing influence. Meanwhile, David matures over time and becomes a more dependable presence in Kelly’s life as she faces her own hardships. Because they’re step-siblings, their loyalty often feels less conditional than typical high-school friendships; even when they disagree, there’s an underlying sense that they’re connected for the long haul.",
+                "By later seasons, their bond looks more like an adult sibling relationship: honest, sometimes blunt, but rooted in real care. David is no longer simply the “younger kid” trying to be included, and Kelly is no longer just the confident older friend—both have grown through serious life experiences. Their relationship ultimately stands out as a supportive, family-linked friendship built on trust, shared history, and the added permanence of becoming step-siblings and co-parents’ children, with Erin further cementing their place in each other’s lives."
+              ],
+              shortDesc: "Kelly Taylor and David Silver share a long-running bond that becomes even stronger when they become step-siblings through their parents’ marriage. Kelly often acts like an older-sister figure, helping David feel accepted and guiding him through insecurities and later personal struggles. Their connection deepens further because they share a younger half-sister, Erin, which ties them together as both friends and family. Over time, their relationship matures into a steady, supportive sibling-like friendship built on loyalty, trust, and shared history.",
+              started: ["Wedding Bell Blues"],
+              imgUrl: "https://i.pinimg.com/originals/c0/45/ee/c045eea96c6b0432b505ac8a9919acb1.jpg",
+              card: true,
+              gender: "F" 
+            },
+            {
+              type: "Friendship",
+              name: "Brandon Walsh",
+              kindOfFriendship: "Close",
+              gender: "M",
+            },
+            {
+              type: "Friendship",
+              name: "Brenda Walsh",
+              kindOfFriendship: "Normal",
+              gender: "M",
+            },
+            {
+              type: "Friendship",
+              name: "Steve Sanders",
+              kindOfFriendship: "Normal",
+              gender: "M",
+            },
+            {
+              id: "david-scott",
+              name: "Scott Scanlon",
+              type: "Friendship",
+              kindOfFriendship: "Normal",
+              started: ["Before Class of Beverly Hills"],
+              gender: "M",
+              dead: true, 
+              
+            },
+
+        ],
+       
         imageUrl: "https://www.soapsworld.de/cms/wp-content/uploads/rollenbilder/beverly-hills-90210/brian-austin-green-300x200.jpg",
         posterUrl:
           "https://image.gala.de/20405798/t/BO/v16/w960/r0/-/beverly-hills08--4761426-.jpg",
         promo: true,
+        firstEpisode: "Class of Beverly Hills",
+        lastEpisode: "Ode to Joy",
+        episodeCount: "293",
+        actor: "Brian Austin Green"
       },
       {
         id: "steve-sanders",
         firstName: "Steve",
         lastName: "Sanders",
+        birthday: "May 15, 1975, Beverly Hills",
+        nickname: [
+          "Sanders",
+          "Gorgeous",
+          "Steve-o",
+          "Stevie"
+        ],
+        eyeColor: "Blue",
+        hairColor: [
+          "Blonde",
+        ],
+        occupation: [
+          {
+            title: "Co-Owner",
+            place: "Beverly Beat",
+            started: "1993",
+            ended: "1997",
+            hasEnded: true,
+          },
+          {
+            title: "Legacy Member",
+            place: "KEG",
+            started: "1994",
+            hasEnded: false,
+          },
+        ],
+        education: [
+          {
+            place: "West Beverly",
+            started: "1989",
+            ended: "1993",
+            hasEnded: true,
+          },
+          {
+            place: "California University",
+            started: "1993",
+            ended: "1997",
+            hasEnded: true,
+          },
+        ],
+        personality: "Steve is at first a careless, rich and spoiled teenager – or so it seems. Beneath the posturing he struggles with the knowledge that he was adopted, his strained relationship with his critical father, Rush, and a lack of substantial relationships with his mother and friends. Once Steve meets Brandon, like Kelly, he quickly takes to the stable Walsh family and his friendship with Brandon provides him with a stability he had hitherto not known.",
+        characterArc: [
+          {
+            seasonNumber: 1,
+            summary: [
+              "Still devastated at their break-up 3 months later, Steve alternates between being mean to Kelly and talking dung about her, and trying to get her back. He meets new face in town, Brandon Walsh, at a party at senior Marianne Moore's house and they begin a friendship. Steve gets plastered and ends up being driven home in his drunken stupor by Freshman David Silver who doesn't have a license. Silver doesn't park Steve's car and it rolls out of Steve's driveway and crashes. He finds this out the following morning and goes on a hunt for the culprit, but David manages to talk his way out of repercussions. It's school-party-at-the-beach season and Steve, along with most other Beverly and West Beverly students, treks to Secos State Beach. The weather turns out dim and Steve is continually hounded by freshman gnat David Silver, whom Steve tries to be nice to on orders from his mother who thinks David's father is a producer. Steve tries to spar with Kelly, but her disinterest upsets him. Steve is later dismayed to learn that David's father isn't a producer. When Kelly and Tiffany start speaking again, Steve runs into them out shopping and tries to bother Kelly by quasi-flirting with Tiffany and alluding to the time she tried to seduce him while he was with Kelly.",
+
+              "Steve gives in to the sad part of having grown up a privileged rich kid in Beverly Hills, blaming not getting on the basketball team on alleged ringers from outside the district — who 'just happen' to be black. Although Brandon tells Steve off, he doesn't suffer any consequences for his racist behaviour, other than not making the aforementioned team due to his lack of skill. Continually taking the low road, Steve buys his way to good grades in American History class, even offering the illicit tests to Brandon. Always up for a good time and attention, Steve decides to try out for school DJ, but, after doing okay up front, freezes when he realises the scope of the crowd watching. He is bailed out by David Silver, who ends up getting the gig much to Steve's dismay. During Grudge Week, Steve hangs out with Dylan and Brandon, the former with whom Steve shares his joy at the girls participating that they can flirt with. He also enjoys asking Brandon about his chances with an 'older woman' Brandon is interested in, and teases Brandon about a Freshman girl who has a crush on Brandon.",
+              "When West Beverly is due to have a guest lecturer give a seminar on sex, Steve kids around with Brenda, pointing out how their Professor acts comically whenever he has to teach sex education class. Steve learns that their guest lecturer is a woman and seizes an opportunity to pick her up from the airport in his Professor's stead. Steve feigns being a teacher himself to impress Stacy Sloan and even asks her out, but she politely declines. At the seminar, Steve brags to Dylan and Brandon that he's 'been at' the lecturer's hotel room, but is immediately quieted as Stacy gives her talk on having contracted AIDS, dispelling misconceptions about the disease and talking about the maturity of responsibility regarding sex. Afterwards, Mr. Kravitz talks with Stacy and she points to Steve, who reacts with a charming 'it-wasn't-me' grin. Steve comes up to her and apologises for being so forward in asking her out, but Stacy says she didn't mind and just wants to know that he took in what she had to impart.",
+
+              "Despite showing this softer side, Steve is still immature and does some stupid things. When the sophomore parties start happening, Steve is the self-appointed drinks expert and, when Brandon doesn't want alcohol, Steve makes 'virgins' that he still puts alcohol in. Although Brandon gets angry with Steve, Brenda persuades him not to leave angry and just 'go with the flow' of drinking and partying, and Steve suffers no consequences. As Steve's pattern is, he could have done something this extreme and dumb because, well, one; he's a teenager, but, also, two: he is very insecure and needs a close friend although he'd never admit it, but also wants someone like Brandon to be his 'partner-in-crime' to provide affirmation for Steve that he's good enough. At the same party, at Donna's, Steve and Kelly start flirting and end up having sex at the party. As Steve has wanted to reunite with Kelly all semester, he takes this as a step in that direction, but Kelly is regretful and doesn't want to restart anything. When the twins throw a party, Steve tries to pour Kelly drinks, suggesting that he thinks he still has a shot in a party atmosphere. He seems unaware that this comes off as predatory and Kelly publicly and directly rejects his advances, offended. When Brandon starts dating a senior who has a son, Steve visits while Brandon is babysitting and flirts with Kelly as they both play with the baby. Steve helps Brandon babysit and they sing 'La Cucaracha' to try and calm the baby.",
+
+              "Steve and Brandon try to get into a club to meet girls, but are rejected because they're minors. Two girls spotting the guys in Steve's Corvette approach and join the guys for a night of fun. They drive around and make out, but Steve's date insists on trying to drive his car. She pretends to be a terrible driver and grind the gears, much to Steve's dismay, but then suddenly calls out to her friend who promptly jumps in the Corvette and they take off, leaving Steve and Brandon stranded in a parking lot. Steve wants to wait for them to come back, but Brandon gets irritated and yells at Steve that they're obviously not coming back. They fight and Steve starts crying thinking he's lost the car and worried what his Dad will say. Brandon feels bad and comforts him, promising that they'll find the car. They report the theft to the police and luckily, the girls had been arrested for speeding. The girls pretend that they didn't steal the car and, despite knowing they're lying, Steve sees an opportunity to make out some more, despite Brandon's resignation. When Brandon and Brenda's Dad gets fashion designer Chick Schneider as a client, they invite all their friends to the house to wear his newest designs and get free clothes.",
+
+              "As the long weekend for President's Day arrives, Steve, Kelly and Donna make plans to go to Palm Springs. David, wanting an in with Steve and Kelly, offers to house the gang in his grandparents Palm Springs Mansion, to which Steve reluctantly agrees, considering the upside of free, fancy lodging. When they arrive, they're all a bit annoyed at having to bring David along, especially Steve who feels his reputation suffers from association. When they get to the mansion, they're shocked to find that David's grandparents are home. Steve is annoyed and wants to leave as David tries desperately to get them to stay, until the grandparents offers to host a party and invite teens from the neighbourhood. The place is a scene as the grandparents apparently know a lot of people, but David's date arrives with two friends who zoom in on Steve, who is not interested. He shakes them off and, despite all the pretty girls at the party, goes to talk to Kelly. Leaving his usual bravado behind, Steve earnestly tells Kelly he thinks they were great together and floats the idea of them reuniting. They have a private talk in the evening, but Kelly gently rejects his proposal and Steve is heartbroken, but seems proud that he put himself out there. Steve helps Brandon campaign when he decides to run for Student Body President, but Brandon finds Steve's image-conscious strategies unappealing.",
+
+              "When the SATs roll around, Steve is the only one unfazed as he's gone to expensive SAT courses, while everyone else is fretting and going crazy over the test. Andrea is especially freaked out and Steve offers that they can study together, much to Andrea's surprise as she considers herself on the outside and Steve is one of the 'cool, rich, popular' kids. Andrea comes over to Steve's house and his relaxed manner and direct approach helps her calm down. Steve starts flirting with Andrea, who at first thinks he's joking, but then he kisses her and, after a beat, Andrea grabs him and they make out. She suddenly realises what's happening and she halts the proceedings, haphazardly gathers her things, thanks Steve for his help and abruptly leaves. Steve laughs to himself at having gotten Andrea so discombobulated, seemingly having enjoyed their kiss. The next day at school they're both late and arrive outside the door at the same time, comically finishing each other's sentences as they concur how they wouldn't work at all as a couple. The teacher opens the door and asks if 'the two lovebirds' would like to actually attend the class, to which both Steve and Andrea hurriedly and embarrassed enter the class. Steve and Brandon help Jim Walsh coach a little league team, where the parents are stage parents, overindulging and babying their kids. Steve takes the same approach of the environment he knows, while Brandon has to make Steve see how damaging it is to the youngsters.",
+
+              "When the Spring Dance rolls around, Steve sets his sights on asking popular senior Darla Diller, but he is turned down as Darla says she doesn't 'do Vettes'. Afterwards, Steve asks Kelly, but is hurt when he meets her at the Peach Pit as she's just asked out Brandon, who is aware of Steve's lingering feelings for Kelly and uncomfortable with the situation. Steve is upset that he'll be going solo as the only one in the gang, but Kelly tells him to ask Donna, who doesn't have a date either. Steve isn't exactly thrilled by the idea, but goes ahead with it, emphasising that it's a group outing. Donna shows up in a big, impractically fluffy dress and Steve is bemused at her being his date, ultimately being very rude to her. Steve also brings a flask and gets increasingly drunk throughout the night. It transpires that it's not so much Donna that's got him lashing out as he later reveals to Brandon that it's his birthday. Brandon didn't know and asks why Steve didn't tell anyone so they could have celebrated. Steve reveals that the only person he told is Kelly, which is why he's this upset at her not even acknowledging it. Brandon gets Kelly, who's enjoying her place on her throne as 'Spring Princess' and tells her what's going on. Kelly agrees to talk to Steve and finds him in the hall. She apologises, but Steve, hurt and drunk, lashes out at Kelly and calls her a b**ch, making her cry. She insults him and leaves. Steve realises he's in the wrong, sobers up a bit and apologises to Kelly, who forgives him. She also points out that he owes Donna an apology and Steve promptly talks to Donna, apologising for his rudeness. The evening ends on a positive note as the group celebrate the night together.",
+
+              "When the Walshes are set to move back to Minneapolis, Steve is particularly hurt and lashes out at Brandon, feeling as though Brandon isn't trying hard enough to stay. Brandon doesn't understand Steve's anger with him until Brenda explains it. Steve, who already feels rejected by his neglectful parents, quickly feels rejected by Brandon, the only real friend Steve ever made. Brandon asks Steve to meet up on the beach and tries to mend fences, succeeding. Steve, along with the other friends, attends the Walshes' surprise farewell party at the Peach Pit and is ecstatic to learn that they're staying after all, sharing his relief with Dylan.",
+            ],
+          },
+          {
+            seasonNumber: 2,
+            summary: [
+              "Steve spends the summer at the Beverly Hills Beach Club playing volleyball and gets his friend Brandon the info to apply for a job there. When Brenda breaks up with Dylan, Steve responds to Kelly's inquiries about Dylan that he must be ecstatic to be single again. Steve also tries to get some romance brewing, specifically attempting to woo a 15-year-old girl who turns out to prefer David Silver, much to Steve's horror. Steve is also set on catching the grunion run, an elusive California staple summer event. The gang end up on the beach at night finally witnessing the grunion. When Kelly takes an interest in fellow West Beverly volleyball player, Kyle Conners, Steve gets incredibly jealous and expresses his jealousy as hostility towards Kelly. When they play a game, Steve hits the ball hard at Kelly and mouths off to her, leading Kyle to defend her by tackling Steve and yelling at him. Embarrassed, Steve tries to question Kyle's manliness because he didn't sleep with Kelly, but Kelly covers for Kyle with Steve, who then walks away. Steve initiates an after-hours poker game at the Beach Club, inspired by ones seniors did when he was a freshman. He talks Brandon into it and they get some erstwhile seniors to join. They're later questioned by police when the club gets robbed, but it turns out to be the laundry service.",
+
+              "Despite their fight over Kyle earlier in the summer, Kelly lets Steve support her when her mom starts dating David's dad and she worries about them becoming family. Steve, who has plenty of the same experience as Kelly of dealing with possible new step-parents, gives her advice on how to sabotage the imepnding union and Kelly's grateful to have his support. As the summer winds down, Kelly and Steve commiserate over the impending school year. They hang out at the beach together and later party at the summer luau at the Beach Club. Before school starts, the gang decide to go on a road trip to Yosemite, but their plans are foiled by heavy rain, forcing them to stay inside their leaky, cold cabin. The gang bond over their family troubles, with Steve mentioning his parents divorcing when he was very young and what that was like growing up with. He tries to use a fake ID to buy beer, but is unsuccessful. Despite the weather infractions, the gang get closer as a result of the trip, in time for their junior year.",
+
+              "Steve and Brandon try to get into a club to meet girls, but are rejected because they're minors. Two girls spotting the guys in Steve's Corvette approach and join the guys for a night of fun. They drive around and make out, but Steve's date insists on trying to drive his car. She pretends to be a terrible driver and grind the gears, much to Steve's dismay, but then suddenly calls out to her friend who promptly jumps in the Corvette and they take off, leaving Steve and Brandon stranded in a parking lot. Steve wants to wait for them to come back, but Brandon gets irritated and yells at Steve that they're obviously not coming back. They fight and Steve starts crying thinking he's lost the car and worried what his Dad will say. Brandon feels bad and comforts him, promising that they'll find the car. They report the theft to the police and luckily, the girls had been arrested for speeding. The girls pretend that they didn't steal the car and, despite knowing they're lying, Steve sees an opportunity to make out some more, despite Brandon's resignation. When Brandon and Brenda's Dad gets fashion designer Chick Schneider as a client, they invite all their friends to the house to wear his newest designs and get free clothes.",
+
+              "As the long weekend for President's Day arrives, Steve, Kelly and Donna make plans to go to Palm Springs. David, wanting an in with Steve and Kelly, offers to house the gang in his grandparents Palm Springs Mansion, to which Steve reluctantly agrees, considering the upside of free, fancy lodging. When they arrive, they're all a bit annoyed at having to bring David along, especially Steve who feels his reputation suffers from association. When they get to the mansion, they're shocked to find that David's grandparents are home. Steve is annoyed and wants to leave as David tries desperately to get them to stay, until the grandparents offers to host a party and invite teens from the neighbourhood. The place is a scene as the grandparents apparently know a lot of people, but David's date arrives with two friends who zoom in on Steve, who is not interested. He shakes them off and, despite all the pretty girls at the party, goes to talk to Kelly. Leaving his usual bravado behind, Steve earnestly tells Kelly he thinks they were great together and floats the idea of them reuniting. They have a private talk in the evening, but Kelly gently rejects his proposal and Steve is heartbroken, but seems proud that he put himself out there. Steve helps Brandon campaign when he decides to run for Student Body President, but Brandon finds Steve's image-conscious strategies unappealing.",
+
+              "When the SATs roll around, Steve is the only one unfazed as he's gone to expensive SAT courses, while everyone else is fretting and going crazy over the test. Andrea is especially freaked out and Steve offers that they can study together, much to Andrea's surprise as she considers herself on the outside and Steve is one of the 'cool, rich, popular' kids. Andrea comes over to Steve's house and his relaxed manner and direct approach helps her calm down. Steve starts flirting with Andrea, who at first thinks he's joking, but then he kisses her and, after a beat, Andrea grabs him and they make out. She suddenly realises what's happening and she halts the proceedings, haphazardly gathers her things, thanks Steve for his help and abruptly leaves. Steve laughs to himself at having gotten Andrea so discombobulated, seemingly having enjoyed their kiss. The next day at school they're both late and arrive outside the door at the same time, comically finishing each other's sentences as they concur how they wouldn't work at all as a couple. The teacher opens the door and asks if 'the two lovebirds' would like to actually attend the class, to which both Steve and Andrea hurriedly and embarrassed enter the class. Steve and Brandon help Jim Walsh coach a little league team, where the parents are stage parents, overindulging and babying their kids. Steve takes the same approach of the environment he knows, while Brandon has to make Steve see how damaging it is to the youngsters.",
+
+              "When the Spring Dance rolls around, Steve sets his sights on asking popular senior Darla Diller, but he is turned down as Darla says she doesn't 'do Vettes'. Afterwards, Steve asks Kelly, but is hurt when he meets her at the Peach Pit as she's just asked out Brandon, who is aware of Steve's lingering feelings for Kelly and uncomfortable with the situation. Steve is upset that he'll be going solo as the only one in the gang, but Kelly tells him to ask Donna, who doesn't have a date either. Steve isn't exactly thrilled by the idea, but goes ahead with it, emphasising that it's a group outing. Donna shows up in a big, impractically fluffy dress and Steve is bemused at her being his date, ultimately being very rude to her. Steve also brings a flask and gets increasingly drunk throughout the night. It transpires that it's not so much Donna that's got him lashing out as he later reveals to Brandon that it's his birthday. Brandon didn't know and asks why Steve didn't tell anyone so they could have celebrated. Steve reveals that the only person he told is Kelly, which is why he's this upset at her not even acknowledging it. Brandon gets Kelly, who's enjoying her place on her throne as 'Spring Princess' and tells her what's going on. Kelly agrees to talk to Steve and finds him in the hall. She apologises, but Steve, hurt and drunk, lashes out at Kelly and calls her a b**ch, making her cry. She insults him and leaves. Steve realises he's in the wrong, sobers up a bit and apologises to Kelly, who forgives him. She also points out that he owes Donna an apology and Steve promptly talks to Donna, apologising for his rudeness. The evening ends on a positive note as the group celebrate the night together.",              
+              "When the Walshes are set to move back to Minneapolis, Steve is particularly hurt and lashes out at Brandon, feeling as though Brandon isn't trying hard enough to stay. Brandon doesn't understand Steve's anger with him until Brenda explains it. Steve, who already feels rejected by his neglectful parents, quickly feels rejected by Brandon, the only real friend Steve ever made. Brandon asks Steve to meet up on the beach and tries to mend fences, succeeding. Steve, along with the other friends, attends the Walshes' surprise farewell party at the Peach Pit and is ecstatic to learn that they're staying after all, sharing his relief with Dylan.",
+            ],
+          },
+          {
+            seasonNumber: 3,
+            summary: [
+              "Steve spends the summer at the Beverly Hills Beach Club playing volleyball and gets his friend Brandon the info to apply for a job there. When Brenda breaks up with Dylan, Steve responds to Kelly's inquiries about Dylan that he must be ecstatic to be single again. Steve also tries to get some romance brewing, specifically attempting to woo a 15-year-old girl who turns out to prefer David Silver, much to Steve's horror. Steve is also set on catching the grunion run, an elusive California staple summer event. The gang end up on the beach at night finally witnessing the grunion. When Kelly takes an interest in fellow West Beverly volleyball player, Kyle Conners, Steve gets incredibly jealous and expresses his jealousy as hostility towards Kelly. When they play a game, Steve hits the ball hard at Kelly and mouths off to her, leading Kyle to defend her by tackling Steve and yelling at him. Embarrassed, Steve tries to question Kyle's manliness because he didn't sleep with Kelly, but Kelly covers for Kyle with Steve, who then walks away. Steve initiates an after-hours poker game at the Beach Club, inspired by ones seniors did when he was a freshman. He talks Brandon into it and they get some erstwhile seniors to join. They're later questioned by police when the club gets robbed, but it turns out to be the laundry service.",
+
+              "Despite their fight over Kyle earlier in the summer, Kelly lets Steve support her when her mom starts dating David's dad and she worries about them becoming family. Steve, who has plenty of the same experience as Kelly of dealing with possible new step-parents, gives her advice on how to sabotage the imepnding union and Kelly's grateful to have his support. As the summer winds down, Kelly and Steve commiserate over the impending school year. They hang out at the beach together and later party at the summer luau at the Beach Club. Before school starts, the gang decide to go on a road trip to Yosemite, but their plans are foiled by heavy rain, forcing them to stay inside their leaky, cold cabin. The gang bond over their family troubles, with Steve mentioning his parents divorcing when he was very young and what that was like growing up with. He tries to use a fake ID to buy beer, but is unsuccessful. Despite the weather infractions, the gang get closer as a result of the trip, in time for their junior year.",
+            ],
+          },
+          {
+            seasonNumber: 4,
+            summary: [
+              "Steve starts college eager to join the fraternity his father was in, Kappa Epsilon Gamma house, both because it's what his father expects, but also because he feels it's the only way to truly feel like he is a part of the school. While Steve is worried that Brandon has no interest in the frat, he does get accepted and starts living in the house of constant partying. This takes a toll on his relationship with Celeste, who feels like Steve has lost interest in her, which is further compounded by his flirtatious nature.",
+
+              "Adapting to the bro-douchey KEG behaviour, Steve cheats on Celeste and sleeps with a girl, who accuses him of date-rape after he breaks things off with her. This is a horrible ordeal for them both, and Steve first believes that the sex was consensual. Steve receives support from Kelly who clears his name by telling the story of how Steve saved her from sexual assault in high school. He is relieved, but concerned that he hurt Laura's feelings and talks to her, apologising for his behaviour and comes to understand that the situation was more complex than that when Laura tells him she didn't say no, but not emphatically yes either. Steve comes clean to a heartbroken Celeste, who leaves him for good.",
+
+              "Kelly, Donna, and Steve meet John Sears at the Downey House, where he makes inappropriate comments about teenage girls. Mike informs them about the troubled girls, but John continues with crude jokes. Steve feels uncomfortable and is advised by Kelly and Donna to avoid John, who tries to charm fifteen-year-old Denise and takes her outside during Thanksgiving, worrying the others. John manipulates Denise, while Steve intervenes, gaining approval from Kelly and Donna. Steve confides in Brandon after being humiliated and unsure who set him up for breaking into a professor's office. When Mike can't help due to hazing rules, John pretends to care but dismisses Steve's worries. Steve then confronts John and Keith about betrayal in the fraternity, addressing peer pressure and its toxic nature.",
+              "Steve and Brandon meet to talk about their Christmas holidays. Steve mentions a volleyball game between KEG and Delta that surprises Brandon because it conflicts with finals. Tensions at the KEG house arise from accusations against John Sears. Brandon advises Steve to expose John, but he prefers to avoid conflict and declines the game invite due to studying. During the game, Steve confronts John who dismisses him. Steve feels stressed about finals and his issues with John. Brandon suggests leaving the fraternity, but Steve refuses. After investigating a break-in tip, Steve clashes with John again. A vote among the brothers results in John losing his membership, and Steve celebrates.",
+              "Brandon, Muntz, and Artie throw a surprise housewarming party for Steve in his new dorm room, making him happy to finally have his own space. Artie jokingly asks to borrow the room, which Steve denies. Cathy, the strict RA, enters and scolds them for loud music, warning Steve not to let his dorm become similar to the KEG house. Ahn-drea later tells Steve that Cathy is worried about issues from the KEG and allows him to stay but forbids more visitors. Muntz seeks privacy with his girlfriend, which disgusts Steve. Josh surprises Brandon at a retreat cabin, wanting to interview him, but Brandon gets annoyed and leaves. Ahn-drea finds Muntz and Sherry in her bed and confronts Steve, demanding he move out by the next day.",
+              "Steve and Brandon practice golf, where Brandon compliments Steve's skills. Steve reveals he took lessons as a kid but is hesitant to join CU's golf team because of issues with his father. Instead, he shifts the topic to Brandon's dealings with Kelly, who has been helping him with a task force. Later, at the Walsh house, Dylan confronts Brandon about Kelly after arriving in a bad mood. A fight breaks out, resulting in Steve accidentally getting punched. Mama Walsh’s invitation for brownies and ice cream resolves the tension.",
+              "Brandon and Papa Walsh have breakfast discussing a golf tournament with Steve and his father, Rush. Rush drives them to the country club, where he expresses his frustration over missing the tournament because of Brenda and learns they will play with disliked Barry Larson. Rush's critical nature strains his relationship with Steve, especially when he berates his golf skills. Rush cheats but agrees to play fairly after Steve's persuasion. Later, Brandon's car breaks down, leading them to an uncomfortable gay coffeehouse where Steve sees Mike Ryan. Kelly, Donna, and Ahn-drea seek male models for a charity calendar, but Steve faces backlash for wanting to model. At the KEG house, Mike misinterprets Steve's comments about homophobia. Tensions rise during the calendar fitting when Steve reveals Mike's secret, causing conflict and prompting Steve to promise to make amends.",
+
+            ],
+          },
+          {
+            seasonNumber: 5,
+            summary: [
+              "Steve arrives in L.A., excited to meet Howie Long but faces humorous misunderstandings, including being mistaken for Troy Aikman. He shares his breakup with Celeste and his interest in rekindling feelings for Kelly, who is concerned about her relationship with Brandon. At a barbecue, tensions rise when Kelly and Brandon reveal their romance, leaving Steve dejected. Despite skepticism, he dances with Valerie, nearly kissing her before being interrupted by Brandon. As Steve manages relationships and campaign efforts, he lies to campus security after a chaotic party and plans a hopeful mini-golf date with Valerie. During a rave at The Peach Pit, friction builds between Valerie and Kelly over a misunderstanding involving Steve. Amid rivalries and jealousy, they plan to kidnap their university's mascot, leading to success and praise for Steve. However, problems arise at his nightclub when the fire marshal shuts it down for exceeding capacity. Efforts to manage the club's future lead to conflicts about finances and romantic tensions, culminating in a confrontation where Steve punches Dylan after feeling betrayed by Valerie.",
+             "In a football tournament, Rush Sanders confronts Steve about not informing him of the tournament, reminiscing about his own fraternity's past. Meanwhile, Steve feels embarrassed about his father's presence and faces tension when Rush coaches the KEG team. Following the team's victory, Steve acknowledges Rush's new role as a nightclub owner, reflecting his mixed feelings of pride and frustration. Additionally, Steve discusses Kelly's modeling situation and their social interactions unfold, further illustrating the complexities in his relationship with Rush.In 'The Peach Pit,' Steve and Griffin distribute flyers for The Steve Sanders Holiday Rave, where Valerie, wearing a crop top, unexpectedly engages Steve about the event, eventually persuading him to let her help. They visit the Hancock Hill mansion for the rave, where Steve plans elaborate party details and insists on quality over cost, despite Griffin's reservations. The next morning, preparations intensify with the arrival of a Mexican caterer and the borrowing of Ray's truck for supplies. At the rave, guests start arriving, though Steve learns from David that the promotional post attracted an unexpected demographic—many women seeking women—causing mixed feelings.During the event, Muntz attempts to engage with attendees while Steve and Valerie dance. A chaotic scene ensues when a fuse box explodes, causing a fire that creates panic. Steve and Valerie narrowly escape, aided by Ray, who risks his safety to help others. Outside, as chaos unfolds, Dana expresses worry for Alison, revealing her concern for Kelly, leading Steve to realize that both women are still trapped inside the burning mansion. The episode culminates in heightened tension with Steve's emotional breakdown over the potential loss of Kelly.Rush Sanders consults his lawyer about the fallout from a rave fire, facing potential charges and costs related to emergency services. Steve, feeling overwhelmed, reacts with frustration towards Eduardo, a caterer demanding payment. After discussing the incident with Valerie and Brandon, Steve decides to accept responsibility for the fire at the rave. In court, he pleads 'no contest' to disturbing the peace, facing a fine and community service, along with a two-year ban from the dance party business. Tensions rise between Steve and Griffin over the theft of a key leading to the fire, culminating in Steve demanding Griffin move out of their shared house. Lastly, Steve reconciles with Eduardo by paying him for his catering services, ensuring to express his gratitude despite previous tensions.",
+             "In 'The Peach Pit,' Steve, David, and Clare assist Nat with the diner's annual Homeless People Christmas Dinner. Steve complains about the 'Steve Sanders Holiday Curse,' recalling past holiday misadventures: searching for his deceased bio mom in New Mexico, getting expelled after hacking West Beverly High for better grades, and breaking into a professor's office for a fraternity prank. Despite his grievances, Nat urges him to appreciate his blessings while serving the less fortunate. Clare suggests taking over the Peach Pit After Dark due to Steve’s restrictions. Eventually, Steve and others, dressed as Santa, gather at Ahn-drea's apartment to celebrate Hannah’s first Christmas, highlighting themes of family and community.Steve starts his community service at a nursing home where he meets resident Milton Berle, who humorously comments on a recent death. After discussing their shared history at The Hartley House, Steve interacts with Mr. Warren, the home's director. Initially reluctant to work, Steve engages after Milton asks for help with his soiled bedsheets. As their friendship develops, Steve learns of Milton's tragic loss and plans an outing to bring him joy, despite Warren's warnings. In a touching moment, Milton is unresponsive while painting, but Steve encourages him, ultimately inviting him for a drive in his Corvette, leading to lighthearted banter about who will drive.Steve expresses skepticism about the After Dark nightclub, fearing it's unprepared for opening and his friends, Clare and David, are ill-suited to run it. He criticizes Rush for wasting money on the venture. While Donna seeks Steve's advice to motivate Ray, he laments the situation and jokes about using threats. Muntz pretends disinterest in attending but quickly leaves to go to the club. Rush later apologizes for excluding Steve from planning the After Dark, emphasizing its importance to him only if Steve is involved. Ultimately, Steve agrees to attend the opening night, leading to a reconciliation between them." ,
+            ],
+          },
+          {
+            seasonNumber: 6,
+            summary: [
+              "Brandon, Ginger, and Valerie return home with groceries, where Brandon receives a call about Steve and David's news on a luxury apartment and the demolition of Casa Walsh, prompting Steve to suggest a party. At the Peach Pit, Clare and Steve continue their tutoring, share playful banter, and a kiss after a dinner party. Meanwhile, Nat faces distress from a mouse evading traps, and during breakfast, Steve reveals that Clare stayed over, leading to reflections on their relationship. The diner experiences a brief interruption when a police officer shows a mug shot of Madame Raven, a fortune teller who skipped out without paying, and Nat reveals a love potion he acquired, which Steve is eager to buy but is refused.",
+              "Steve prepares to protect the university's mascot, Corny the Condor, from theft by SCU students during a football game. He hides the real Corny and displays a decoy while his KEG friends assist in the ruse. Tensions arise with Valerie, who avoids explaining her suspicious outings to David. On game day, Steve shows a video of SCU students attempting to steal the decoy but ultimately reveals the real Corny, securing the mascot's safety. Key participants include Steve, the KEG group, Colin, and Valerie.",
+              "After Dark, Steve and Clare play blackjack while discussing Steve's internship at a talent agency. Steve interacts with his boss Tammy Kane, who is preoccupied and orders him to take messages. Tammy, eavesdropping, requests Steve get Jonathan Erwick on the phone. At Casino Night, Tammy seeks reinstatement after being fired, urging Steve to talk to Scott about it, to which he reluctantly agrees. Later, Steve approaches Scott, who questions his relationship with Tammy and ultimately states she is a poor talent agent. Steve then relays the bad news to Tammy, who realizes her job is over. He shares advice about maintaining good relationships for the future.,",
+              "Steve runs into Rush and his boss Scott at the golf club, where Scott asks him to deliver last-minute Christmas gifts, a task Rush assured Scott he would handle. After a back-and-forth about Rush's domineering nature, Steve reluctantly agrees. During the deliveries, Steve expresses frustration over Rush's treatment, revealing he doesn't consider Rush his real father, which shocks Clare. The mix-up of gifts leads to conflict between Steve and Rush, culminating in Steve asserting that Rush is not his father. Later, Rush surprises Steve with adoption papers, confirming he is indeed Steve's biological father. The revelation leads to a heartfelt moment where they reconcile, and on Christmas Day, Steve joyfully announces this newfound truth to his friends, celebrating with Rush at the Walsh house.",
+              "Clare shops for an awards dinner dress with Steve, who awkwardly encounters Monika Schnarre, a transgender supermodel he dated last spring. Later, at home, Clare learns of Steve's history with Monika, leading to a discussion about unwanted attention at the dinner. At the awards event, Arnold Arnold, Clare's father, is charmed by Monika, causing Steve to worry about Arnold's emotional fragility and Monika's intentions. Steve urges her to spare Arnold further embarrassment. Ultimately, Monika declines a date with Arnold, citing a modeling commitment, while leaving Steve uncomfortable with a cheek kiss, concluding with her playful remark about love.",
+              "Steve shares with Clare and David that his mother bought him a savings bond two decades ago, now matured, which he intends to spend recklessly on a Harley instead of reinvesting. After teasing about buying jewelry for Clare, he takes her on a short motorcycle ride, which makes her hesitant about his biker lifestyle. Despite her initial reluctance, Steve returns to the Peach Pit in full motorcycle gear, offers her a personalized helmet, and ultimately convinces her to join him on the ride.Clare reflects on Nat's lack of romantic prospects, while Steve expresses indifference. Meanwhile, Susan proposes a triple date to revive Nat and Joan's relationship, enlisting Clare and Steve's participation. At the dorm, Susan's enthusiasm contrasts with Brandon's skepticism. Nat initially refuses the idea but changes his mind if Joan is onboard. The group discusses past romantic experiences during the limo ride, with Steve notably declaring the current outing as his most romantic date. The trio appears hopeful about the potential outcome of the triple date involving Clare, Steve, Nat, and Joan.",
+              "Steve is asked by Rush to babysit his half-brothers, Ryan and Austin, during a business trip, reluctantly accepting after receiving cash. At a KEG party, Ryan becomes excessively drunk and collapses, necessitating a 911 call. Rush reprimands Steve at the hospital for not supervising the boys. Steve later meets Clare at California University before visiting her friend, Prince Carl. Despite Clare's indifference, Steve bonds with Carl over classic cars and receives cuff links as a gift. After breaking his jaw, Steve is invited to recuperate at the Beverly Hills Hotel.",
+              "On Steve’s birthday, friends surprise him with a video filled with messages from loved ones. The celebration moves to the Queen Mary, where Steve, aided by Clare and Carl, eventually gets drunk. Carl confesses his love for Clare and seeks Steve's permission to pursue her, shocking Steve. A confrontation ensues between Steve and Carl, culminating in a bar brawl. Ultimately, Clare chooses Steve over Carl, leading to Carl's disappointment as they prepare to return to L.A.",
+              
+            ],
+          },
+          {
+            seasonNumber: 7,
+            summary: [
+              "Steve navigates complex relationships during his flight to San Antonio, reuniting with Clare, who initially plans to surprise him. Their dynamic is charged with playful tension and intimacy discussions. While Brandon returns home disinterested, Steve confronts his past with Kelly, apologizing for hurtful rumors, leading to a reconciliation. At the Student Union, Steve and Brandon make amends over a prank, as Tracy shares her feelings for them both. Clare ultimately proposes an open relationship, which Steve rejects, prompting a confrontation about their maturity differences.", 
+              "Amidst these tensions, Steve considers starting his own rowing team while dealing with Valerie's unplanned pregnancy, which she wants to keep secret. He confides in Kelly, who supports Valerie but questions her honesty. As Steve faces criticism and attempts to improve himself, Clare ends her relationship with Dick after witnessing Steve's dedication, leading to their renewed romance, although Steve remains conflicted about it.",
+              "Steve faces expulsion due to plagiarism accusations after submitting a paper that Brandon previously authored. Professor Randall initiates disciplinary action upon discovering the plagiarism. In seeking help, Steve confesses to Clare about stealing the paper, leading to tensions with Brandon, who feels betrayed. As they face Chancellor Arnold, who advises Brandon to plead guilty, an intense tribunal hearing ensues, ultimately leading to dismissing charges against Brandon and an investigation into Randall's actions. Later, Steve shows generosity by supporting Larry Lincoln, deemed the phantom of CU, while also collaborating with Dick on a t-shirt project for Project Literacy, despite facing logistical challenges and concerns about Garrett Slan's prison release. The narrative ends with moments of reconciliation between Steve and Brandon.",
+              "Steve is tasked with protecting Rush's Malibu house from a hurricane, enlisting Brandon's help, while grappling with Clare's emotional demands. Clare surprises Steve by admitting she deceived him about volunteering for testosterone injection shots, leading to a conflict that prompts reflection on their relationship. In another chaotic series of events, Clare faces stress over a computer mishap, causing tension during a movie premiere invitation, yet they reconcile at a concert. Steve supports Brandon and Kelly's reunion despite Valerie's disapproval, and after an incident with the police, they clear their names with an Auto Museum representative.",
+              "Simultaneously, Clare struggles with her father's absence and pressures Steve concerning their families, revealing deep emotional rifts. As Mother's Day approaches, arguments about grief surface when Clare expresses dread over her mother's death. They take a drive to confront her past, and Steve emphasizes the importance of moving forward together. Steve also faces criticism about his uncertain job prospects after graduation and feels neglected by Clare during a roast for Brandon, leading to an emotional outburst. This prompts contemplation about their troubled future, especially as Clare considers a move to Paris.",
+            ]
+          }, 
+          {
+            seasonNumber: 8,
+            summary: [
+              "Steve supports Erin at her soccer game and encounters Zack, a bullied boy lacking a father. He helps a rude mother but faces her unfriendly demeanor. Tension arises in various relationships: Steve flirts with Marcy, while David negotiates a loan for Valerie. After a problematic dinner involving Marcy, who gets fired, the group experiences a crisis when Kelly is shot, stressing the need for Noah's rare blood type for her recovery. Steve's father is implicated in a sweatshop scandal, creating conflict between him and Brandon. As Steve navigates personal issues, he seeks forgiveness from Zack and faces rejection from Carly. Jodi reveals she is pregnant, leading to complications and discussions about responsibility. Ultimately, after a DNA test disproves his paternity, Steve confronts Jodi, who is determined to raise the child alone and seeks the actual father.", 
+              "Steve and Carly plan a night at Rush's Malibu beach house, but are interrupted by Zack's tummy ache. After ordering Thai food, they seek privacy in the Walsh house, only to be thwarted by Valerie and an exterminator dealing with a mite issue. Moving to Carly's place presents complications as her mother is with a new boyfriend and planning to relocate to Arizona, which troubles Carly about her babysitting finances. Despite these challenges, Steve comforts Carly, leading to an intimate moment between them.",
+
+              "Steve shares gossip and critiques a comedienne during their time together, which catches Noah's attention and leads to an audition invitation. Although nervous, Steve’s comedy routine initially falters until he relies on physical humor, garnering laughter and positive feedback from Brandon afterwards. Being concerned about Christmas, Steve seeks gift advice from Terri and Emma, who show little interest. Meanwhile, Carly attempts to keep the spirit of Santa alive for Zack, who starts to doubt Santa's existence.",
+
+              "The Christmas party at Casa Walsh showcases various storylines, including Ben accepting his sexuality. At the diner, Steve admires Donna's design sketches while supporting Carly amidst her worries over her mother's move. He offers her shelter, but she declines. At the beach house, chaos erupts when Zack colors on Donna's sketches. Meanwhile, Brandon grapples with feelings of guilt over his failed relationship with Kelly.",
+              "Carly later reveals her father’s heart attack, prompting her decision to move back to Montana, which devastates Steve. The gang throws her a farewell party, culminating in an emotional goodbye at LAX where they express their love. Following her departure, Steve struggles with his feelings in 'The Beverly Beat,' contemplating an interview with Mike Piazza as a coping mechanism.",
+              
+              "At 'The Beverly Beat' Janet expresses concern for Steve, who is upset over Carly's departure. Brandon attempts to uplift him with a sports story, prompting Steve to think about an interview with Mike Piazza, arranged by Christy. During Christy's wedding fitting, Steve admits using the interview to cope with his breakup, leading Christy to reflect on her own relationship. At the wedding, Steve realizes his feelings for Carly may not be as deep as he thought, while Christy offers to help with the Piazza interview. ",
+
+              "At The Peach Pit, Steve meets Madeline, who mistakenly assumes he is in a gay relationship with Brandon. This misunderstanding leads to awkward dinner plans, where Steve naively expects romance but learns the women are lesbians. Meanwhile, they express disdain for Valentine's Day until Brandon perks up at a potential date from Janet. Steve faces an awkward episode with a blind date and his ex-wife Stephanie, ultimately escaping a crowded situation through distraction. ",
+                          
+              "After realizing he misjudged Valerie's story about a roofie incident, Steve faces moral dilemmas when advertising revenue drops. He pushes for a controversial tobacco ad despite Brandon's objections, stirring conflict over ethical journalism. Their tensions peak at the Small Press Association Awards, where Brandon vows to leave if the ads run. The episode navigates themes of morality in journalism and the emotional struggles of Steve amidst shifting personal relationships. ",
+              
+              "Steve announces a decline in advertising revenue, prompting the need for a major advertiser, specifically a tobacco company. Brandon strongly opposes this due to the health risks of cigarettes, arguing moral grounds. Tensions escalate when a tobacco ad order arrives, which Brandon overrides. Despite ethical concerns, Steve covertly connects with a tobacco ad representative. As Steve continues to impersonate Ted to Jill, who eventually confronts him about his deceit, their relationship unravels. The conflict peaks at the Small Press Association Awards, where Brandon's frustration with the publication's direction leads him to threaten leaving if cigarette ads are accepted. This scenario highlights themes of journalistic morality, personal relationships, and Steve's emotional struggles.",
+
+              "In a recent episode, the gang gathers for Valerie's surprise birthday party, overshadowed by her mother's engagement to Bill, complicating relationships. Steve navigates his feelings for Jill while trying to matchmake her with Ted. Simultaneously, he faces issues with Janet during a reunion, flirts with former classmate Rhonda, and ultimately complicates his relationship with Janet. Amidst celebrations for Muntz's impending marriage, ethical debates about a local sex shop arise, revealing shifts in relationships. Steve experiences sadness regarding dating prospects and attempts to reconnect with Janet, but she declines. He becomes enamored with Sarah, who is attending marriage counseling with her estranged husband, Matt. Despite their mutual attraction, Sarah struggles with her marriage vows. The episode concludes with Sarah seeking Steve after a disappointing weekend with Matt, but he questions her sincerity, leaving their connection unresolved."
+            ],
+          },
+          {
+            seasonNumber: 9,
+            summary: [
+              "Brandon confides in Steve about his feelings for Kelly, leading to his decision to break up with her. A moment over wedding cake complicates their emotions when an unexpected kiss occurs. Subsequently, Steve meets Sophie, a redhead who recruits him as a getaway driver following a shoplifting incident; he sees potential in her as a roommate, despite friends' warnings. While supporting Sophie's academic pursuits, Sophie insists on keeping their relationship platonic, introducing additional complexity with her mixed signals. Conversations between Brandon and Steve highlight Brandon's need to separate from Kelly and Steve's confusion regarding Sophie.",
+
+              "In his role at The Beverly Beat, Steve hires Sophie as a columnist despite Janet's disapproval. Janet suggests launching an online version to attract readers, but Sophie criticizes the site's quality, proposing a live webcam for the newsroom. Tension arises when Sophie clashes with Janet over article edits, while David questions Steve's motives for hiring her. Sophie's plan to write a publicity-generating article about David escalates tensions further. The situation reaches a climax when Steve finds online footage of Sophie and David together, prompting him to confront David and announce Sophie's    imminent move-out.",
+
+              "Amid challenges at The Beverly Beat, Steve and Janet struggle to produce materials for an upcoming issue, causing Steve to panic. At the Peach Pit, intrigued by a sensational tabloid headline, Steve discusses transforming their publication to increase reader engagement, much to Janet's dismay. Despite her reservations, he proposes enticing assignments, like investigating a purportedly haunted hotel. During their investigation, they become locked in a refrigerator, leading to an intimate moment, which Janet later attempts to dismiss as instinctive. An earthquake scare culminates in another accidental encounter under their desk, underscoring the complexities of their relationship against the backdrop of their journalism endeavors.",            
+]
+          }
+        ],
+        
+        relationships: [
+          {
+            type: "Family",
+            typeOfFamily: "Adoptive",
+            adopted: true,
+            family: "Parent",
+            name: "Samantha Sanders",
+            gender: "F",
+            card: true,
+            shortDesc: "A former star of a hit family series, Samantha is very much at the center of attention at the Sanders Mansion, where she lives with her son. She is a single mother, as Rush is rarely around until Steve is an adult and although she's mostly focused on image and her life of glamour, she later proves to Steve that she loves him and has his best interest at heart.",
+            imgUrl: "https://i.ytimg.com/vi/FzBW5BCB0xg/maxresdefault.jpg",
+          },
+          {
+            type: "Family",
+            typeOfFamily: "Biological",
+            adopted: true,
+            family: "Parent",
+            name: "Karen Brown",
+            gender: "F",
+            card: true,
+            shortDesc: "At Christmas his junior year of high school, Steve sets out to find his birth parents, only to discover that his biological mother had passed away years before.",
+          },
+          {
+            type: "Family",
+            typeOfFamily: "Biological",
+            family: "Parent",
+            name: "Rush Sanders",
+            gender: "M",
+            card: true,
+            shortDesc: "It was revealed years after Steve searched for Karen that Steve's adoption was true of only one parent, as Rush is indeed his biological father. With this information in the open, Steve and Rush finally began settling their differences for good. Rush would later help Steve start up a publication with Brandon.",
+            imgUrl: "https://www.hollywoodreporter.com/wp-content/uploads/2019/03/tsdbehi_ec445-h_2019.jpg",
+          },
+          {
+            type: "Family",
+            typeOfFamily: "Biological",
+            adopted: true,
+            ifExtended: "Maternal",
+            extended: true,
+            family: "Grandparent",
+            name: "Al Brown",
+            gender: "M",
+            card: true,
+            shortDesc: "When looking for Karen, Steve tracks her down to Al's diner only for him to divulge that Karen has passed away. Shortly Al reveals that he is her father, and for the first time ever, Steve meets his grandparent. Together, Steve and Al visit Karen's grave and Steve asks to keep in touch with his newfound grandfather.",
+            imgUrl: "https://static.wikia.nocookie.net/90210/images/b/b3/AlBrown.jpg/revision/latest?cb=20160825024036",
+          },
+          {
+            type: "Family",
+            typeOfFamily: "Biological",
+            family: "Child",
+            name: "Madeline Sanders",
+            gender: "F",
+          },
+          {
+            type: "Family",
+            name: "Ryan Sanders",
+            typeOfFamily: "Half",
+            family: "Sibling",
+            half: "Paternal",
+            gender: "M",
+          },
+          {
+            type: "Family",
+            name: "Austin Sanders",
+            typeOfFamily: "Half",
+            family: "Sibling",
+            half: "Paternal",
+            gender: "M",
+          },
+          {
+            type: "Family",
+            name: "Paul",
+            extended: true,
+            family: "Cousin",
+            gender: "M",
+          },
+          {
+            type: "Romantic",
+            romantic: "Wife/Husband",
+            name: "Janet Sosna",
+            gender: "F",
+            shortDesc: "Steve finally met 'the one' in Janet Sosna, an emotionally guarded woman who worked on the Beverly Beat publication and initially wanted a merely sexual relationship with him. In time, however, the pair would come to realize and acknowledge their true feelings, and developed a deeper bond that resulted in marriage and the birth of their daughter, Madeline. Thus, Steve concluded the series as a loving husband and father.",
+            card: true,
+            imgUrl: "https://i.pinimg.com/736x/b6/c4/6c/b6c46c923f8fd4387520bb72d419cee2.jpg",
+            started: ["Survival Skills"]
+          },
+          {
+            type: "Romantic",
+            romantic: "Ex-Boyfriend/Ex-Girlfriend",
+            name: "Kelly Taylor",
+            gender: "F",
+            shortDesc: "Steve and Kelly dated for about a year their freshman year of high school, but Steve bragged about sleeping with Kelly, which caused her to break up with him. It is also implied that Steve's generally conceited, careless attitude at the time was what led Kelly to leave him. After an acrimonious split, the two spend a lot of time together due to their respective friendships with the Walsh twins, and eventually their meanness toward one another fades into friendly bickering. This is also a result of Kelly apologising to Steve for not being a better friend to him, when he realised he was adopted, as Kelly was the only person he told. Eventually, they grow closer and become great friends, to the point where Steve wants to start something up, but the timing is off as Kelly at this point is with Brandon. Despite this, the two would remain close friends well into their adult lives.",
+            card: true,
+            imgUrl: "https://i.pinimg.com/474x/42/e1/b7/42e1b749b458a1b40774d80c84ab385e.jpg",
+            started: ["Freshman Year"],
+            ended: ["Freshman Year"]
+          },
+          { 
+            type: "Romantic",
+            romantic: "Dated",
+            name: "Carly Reynolds",
+            gender: "F",
+          },
+          { 
+            type: "Romantic",
+            romantic: "Dated",
+            name: "Valerie Malone",
+            gender: "F",
+          },
+          { 
+            type: "Romantic",
+            romantic: "Ex-Boyfriend/Ex-Girlfriend",
+            name: "Clare Arnold",
+            gender: "F",
+            shortDesc: "Clare and Steve first meet through Brandon, and Steve finds her intriguing due to Brandon's stories about her. They later get on each others nerves and bicker a lot, but start spending time together when Clare tutors Steve in math. Despite their bickering, they get to know each other and eventually end up on a blind date thanks to their respective anonymous online dating profiles. In spite of themselves, they feel a raw animal attraction to one another and end up sleeping together. Steve is less than enthusiastic about any relationship, but they can't stay away from each other and eventually start dating. While starting out casual, they eventually develop real feelings for each other, and Steve becomes insecure when meeting Clare's dad, feeling like he's not good enough for Clare because he doesn't think he's smart enough. Clare, however, thinks Steve is smart and encourages him to believe more in himself. In turn, Steve mellows out Clare's tendency to want to control everything. Their romance is tested when Clare's childhood friend, Prince Carl, the son of her late mother's best friend, comes to town to declare his intention to win Clare's heart. In the end, Clare tells him that she loves Steve. Clare and Steve go through a rough patch their senior year, breaking up for a while where Clare dates one of Steve's frat bros, Dick Harrison. Despite their differences, they miss each other and eventually reunite. When Clare's father decides to relocate to Paris, Clare goes with him and breaks up with Steve, who is heartbroken.",
+            card: true,
+            imgUrl: "https://preview.redd.it/steve-clare-v0-kpyzc3boitdb1.jpg?width=640&crop=smart&auto=webp&s=8122a3653d31e22f223daa1eed0511e345f3c361",
+            started: [
+              "Halloween VI",
+              "Loser Takes All"
+            ],
+            ended: [
+              "Housewarming",
+              "Graduation Day: Part 2"
+            ],
+          },
+          {
+            type: "Romantic",
+            romantic: "Ex-Boyfriend/Ex-Girlfriend",
+            name: "Celeste Lundy",
+            gender: "F",
+            imgUrl: "https://i.pinimg.com/736x/15/dd/49/15dd499f5f24d75e7fde88d183c5afd6.jpg",
+            card: true,
+            shortDesc: "Steve competes with Brandon for the affections of Celeste Lundy on a dating game show, and she ultimately chooses him. They start dating and are happy together. Steve brings Celeste as his date to his senior prom. During the summer before college, Steve and Brandon live at a beach house in Malibu for two weeks with Celeste. She and Steve hit a rough patch as Celeste doesn't appreciate him flirting with other women. They stay together, but the problem continues when Steve starts college while Celeste works at a store. Steve secretly wants to be single and sleep around, and Celeste feels him pulling away. Despite this, Steve tells his friends he's scared of committing to her because of how much he likes her. He eventually cheats on her with a blind date set up by his KEG brothers, and Celeste is heartbroken and breaks up with him. She later starts dating John Sears to get back at Steve, but quickly ends it after Brenda tells her what a creep Sears is. Steve and Celeste reunite at the end of the year, but break up during the summer before his sophomore year at college. In the spring of his sophomore year, Steve learns that Celeste is engaged and is very upset.",
+          },
+          {
+            type: "Romantic",
+            romantic: "Dated",
+            name: "Christine",
+            gender: "F",
+          },
+          {
+            type: "Romantic",
+            current: "Friendship",
+            romantic: "Kissed",
+            name: "Andrea Zuckerman",
+            gender: "F",
+            kindOfFriendship: "Normal",
+          },
+          {
+            type: "Friendship",
+            kindOfFriendship: "Best Friend",
+            name: "Brandon Walsh",
+            gender: "M",  
+          },
+          {
+            type: "Friendship",
+            kindOfFriendship: "Normal",
+            name: "Donna Martin",
+            gender: "F",
+          },
+          {
+            type: "Friendship",
+            kindOfFriendship: "Normal",
+            name: "David Silver",
+            gender: "F",
+          },
+          {
+            type: "Friendship",
+            kindOfFriendship: "Normal",
+           name: "Dylan McKay",
+            gender: "M",
+          },
+          {
+            type: "Friendship",
+            kindOfFriendship: "Normal",
+            name: "Brenda Walsh",
+            gender: "F",
+          },
+        ],
         imageUrl: "https://i.pinimg.com/originals/56/55/02/565502443ca28fb4be3de51110b6c1ac.jpg",
         posterUrl:
           "https://i.pinimg.com/originals/31/ea/6d/31ea6d5b5b8001d2b20dba33abe1a441.jpg",
         promo: true,
+        actor: "Ian Ziering",
+        firstEpisode: "Class of Beverly Hills",
+        lastEpisode: "Ode to Joy",
+        episodeCount: "290",
       },
       {
         id: "andrea-zuckerman",
@@ -7390,7 +8385,7 @@ export const teenSeries: Show[] = [
         firstName: "Bonnie",
         lastName: "Bennett",
         imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7DajCOgLu0_HzV59KjYJchxqjDU-GEHx5KKKBK8R2JRvuhmLy98SjB0U&s=10",
-        posterUrl: "https://static.wikia.nocookie.net/p__/images/a/a4/Bonnie_Bennett_Season_6.jpg/revision/latest?cb=20141101190715&path-prefix=protagonist",
+        posterUrl: "https://static.wikia.nocookie.net/p__/images/a/a4/Bonnie_Bennett_Season_6.jpg/revision/latest?cb=20141101190715&path-prefix=",
         promo: true,
       },
       {
@@ -7406,7 +8401,7 @@ export const teenSeries: Show[] = [
         firstName: "Tyler",
         lastName: "Lockwood",
         imageUrl: "https://preview.redd.it/why-was-tyler-in-season-6-he-was-the-most-useless-character-v0-lxpikxnzezcb1.jpg?width=640&crop=smart&auto=webp&s=1fc92d228f83176d96b392ba24f321aa2ca3c536",
-        posterUrl: "https://static.wikia.nocookie.net/p__/images/f/f1/Tyler_Lockwood_Season_6.jpg/revision/latest?cb=20141101191844&path-prefix=protagonist",
+        posterUrl: "https://static.wikia.nocookie.net/p__/images/f/f1/Tyler_Lockwood_Season_6.jpg/revision/latest?cb=20141101191844&path-prefix=",
         promo: true,
       },
       {
@@ -8972,88 +9967,92 @@ export const teenSeries: Show[] = [
         id: "clark-kent",
         firstName: "Clark",
         lastName: "Kent",
-        imageUrl:
-          "https://i.pinimg.com/736x/13/d9/03/13d903d03aaedc4dc62cad51fdbd894d.jpg",
+        imageUrl: "https://tvovermind.com/wp-content/uploads/2021/09/serie-smallville-ator-tom-welling-credito-divulgacao-the-cw-grande.jpg",
+        posterUrl: "https://i.pinimg.com/736x/13/d9/03/13d903d03aaedc4dc62cad51fdbd894d.jpg",
         promo: true,
       },
       {
         id: "lana-lang",
         firstName: "Lana",
         lastName: "Lang",
-        imageUrl:
-          "https://i.ebayimg.com/images/g/8FsAAOSwnsljvaWa/s-l1600.webp",
+        imageUrl: "https://i.ytimg.com/vi/4I-XDv3f6Ds/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA-mimP1uAgVTogoADgdwEyeMeLTQ",
+        posterUrl: "https://i.ebayimg.com/images/g/8FsAAOSwnsljvaWa/s-l1600.webp",
         promo: true,
       },
       {
         id: "lex-luthor",
         firstName: "Lex",
         lastName: "Luthor",
-        imageUrl:
-          "https://i.namu.wiki/i/I9C4uHAGeVd9Poo9phWmXTSsHFByp_ahK6G6jOq_-HyaEv063F-tXKBvZQ5xs4QaZDEkcyScnPdziVJmzenExg.webp",
+        imageUrl: "https://bleedingcool.com/wp-content/uploads/2024/02/lexluthorsmallville-1-2000x1125.jpg",
+        posterUrl: "https://i.namu.wiki/i/I9C4uHAGeVd9Poo9phWmXTSsHFByp_ahK6G6jOq_-HyaEv063F-tXKBvZQ5xs4QaZDEkcyScnPdziVJmzenExg.webp",
         promo: true,
       },
       {
         id: "lois-lane",
         firstName: "Lois",
         lastName: "Lane",
-        imageUrl:
-          "https://i.ebayimg.com/images/g/HywAAOSwRxpk1M8X/s-l1600.webp",
+        imageUrl: "https://i.redd.it/who-do-you-consider-the-female-lead-of-season-8-v0-d7o8rvoqo31g1.jpg?width=967&format=pjpg&auto=webp&s=357d836afdaf3e3c2fe2be9f1845496084a04648",
+        posterUrl: "https://i.ebayimg.com/images/g/HywAAOSwRxpk1M8X/s-l1600.webp",
         promo: true,
       },
       {
         id: "chloe-sullivan",
         firstName: "Chloe",
         lastName: "Sullivan",
-        imageUrl:
-          "https://townsquare.media/site/442/files/2018/03/allison-mack-sex-cult-pic.jpg?w=980&q=75",
+        imageUrl: "https://i.pinimg.com/736x/43/f8/56/43f856e57c186a9fbdd5ae5d83db2234.jpg",
+         posterUrl: "https://i.pinimg.com/736x/bb/e3/b6/bbe3b69b5c23cb7464c218b8770bec9b.jpg",
         promo: true,
       },
       {
         id: "jonathan-kent",
         firstName: "Jonathan",
         lastName: "Kent",
-        imageUrl:
-          "https://photos1.blogger.com/blogger/7807/2295/1600/john%20schneider%202.jpg",
+        imageUrl: "https://i.pinimg.com/736x/71/9f/5c/719f5c6a9f98264d87c2ceead185c3f3.jpg",
+        posterUrl: "https://photos1.blogger.com/blogger/7807/2295/1600/john%20schneider%202.jpg",
         promo: true,
       },
       {
         id: "martha-kent",
         firstName: "Martha",
         lastName: "Kent",
-        imageUrl:
-          "https://static.hdrezka.ac/i/2016/6/23/kbc68e2144712zt15p65b.jpeg",
+        imageUrl: "https://i.pinimg.com/564x/ba/82/16/ba82168d45cc64f2655b87e307be0c77.jpg",
+        posterUrl: "https://static.hdrezka.ac/i/2016/6/23/kbc68e2144712zt15p65b.jpeg",
         promo: true,
       },
       {
         id: "lionel-luthor",
         firstName: "Lionel",
         lastName: "Luthor",
-        imageUrl: "https://i.redd.it/1yzeok3nim2c1.jpg",
+        imageUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyupBcDngSZ1h4_ZeM18UGeK3B7iKUSxjpQpyYFiIg4h3fIyqMGdODepGrcGN_ON2QeI_VTRosdTTsIdiKprqtw4sdT6ixVE98MYbuIjwafBW4yAvHRW1rqJP1bgOTjJaOqmiHoV8cjAvQmcEuP3HFel4GKV815tPvUNnN7l_pqb9DuIWaADwUXsHk/s1120/Smallville-108-Lionel-Luthor.jpg",
+        posterUrl: "https://i.redd.it/1yzeok3nim2c1.jpg",
         promo: true,
       },
       {
         id: "pete-ross",
         firstName: "Peter",
         lastName: "Ross",
-        imageUrl:
-          "https://static0.cbrimages.com/wordpress/wp-content/uploads/2025/09/sam-jones-iii-as-pete-ross-from-smallville.jpg?w=1200&h=628&fit=crop",
+        imageUrl: "https://static.wikia.nocookie.net/superman/images/a/aa/Pete_Ross_-_Sam_Jones.jpg/revision/latest?cb=20160827172248",
+        posterUrl: "https://static0.cbrimages.com/wordpress/wp-content/uploads/2025/09/sam-jones-iii-as-pete-ross-from-smallville.jpg?w=1200&h=628&fit=crop",
         promo: true,
         nickname: ["Pete"],
+        goesByNickname: true,
       },
       {
         id: "henry-james-olsen",
         firstName: "Henry-James",
         lastName: "Olsen",
-        imageUrl:
-          "https://i.pinimg.com/736x/73/22/be/7322bee6bd6efba43384694e9060617b.jpg",
+        imageUrl: "https://pbs.twimg.com/media/HITGXkYWkAAHdFp.jpg",
+        posterUrl: "https://i.pinimg.com/736x/73/22/be/7322bee6bd6efba43384694e9060617b.jpg",
         promo: true,
+        nickname: ["Jimmy"],
+        goesByNickname: true
       },
       {
         id: "kara-kent",
         firstName: "Kara",
         lastName: "Kent",
-        imageUrl:
-          "https://preview.redd.it/supergirl-laura-vandervoort-v0-akaex1edj20c1.jpg?width=1080&crop=smart&auto=webp&s=0cb4475b65f8a5ed24b0fb90682c350afc2e6140",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBd-UCqJgosBqtZnol9d_tSe_q2q7xC8AyGnAkByD3cp4l4ZlhwYRHNi9m&s=10",
+        posterUrl: "https://preview.redd.it/supergirl-laura-vandervoort-v0-akaex1edj20c1.jpg?width=1080&crop=smart&auto=webp&s=0cb4475b65f8a5ed24b0fb90682c350afc2e6140",
         promo: true,
       },
     ],
@@ -9186,6 +10185,68 @@ export const teenSeries: Show[] = [
         episodeCount: 22,
       },
     ],
+    soundtrack: [
+      { 
+        id: "smallville-season-1",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1,
+      },
+      { 
+        id: "smallville-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2,
+      },
+      { 
+        id: "smallville-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3,
+      },
+      { 
+        id: "smallville-season-4-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 4,
+      },
+      { 
+        id: "smallville-season-5-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 5,
+      },
+      { 
+        id: "smallville-season-6-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 6,
+      },
+      { 
+        id: "smallville-season-7-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 7,
+      },
+      { 
+        id: "smallville-season-8-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 8,
+      },
+      { 
+        id: "smallville-season-9-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 9,
+      },
+      { 
+        id: "smallville-season-10-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 10,
+      },
+    ],
     themeSong: ["'We Used to Be Friends' by The Dandy Warhols"],
     creator: ["Rob Thomas"],
     narrator: ["Kristen Bell"],
@@ -9258,116 +10319,125 @@ export const teenSeries: Show[] = [
         id: "eleven",
         firstName: "Eleven",
         lastName: "",
-        imageUrl:
-          "https://pbs.twimg.com/media/FS5XuDqWAAE3X8k?format=jpg&name=900x900",
+        imageUrl: "https://preview.redd.it/happy-birthday-to-our-eleven-10-millie-bobby-brown-v0-ig0uqyhn65ja1.gif?format=png8&s=c24dd6d2896f5bf926b027da6730404354f6943f",
+        posterUrl: "https://pbs.twimg.com/media/FS5XuDqWAAE3X8k?format=jpg&name=900x900",
         promo: true,
       },
       {
         id: "mike-wheeler",
         firstName: "Mike",
         lastName: "Wheeler",
-        imageUrl:
-          "https://preview.redd.it/lock-this-prediction-in-guys-mike-wheeler-will-die-in-v0-fjp4tvslcq1g1.jpeg?width=1080&crop=smart&auto=webp&s=f4190eea000864b6da56b20ff0fe0ac6e1a569d0",
+        imageUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/01/strange-things-finale-mike.jpg?w=1200&h=675&fit=crop",
+        posterUrl: "https://preview.redd.it/lock-this-prediction-in-guys-mike-wheeler-will-die-in-v0-fjp4tvslcq1g1.jpeg?width=1080&crop=smart&auto=webp&s=f4190eea000864b6da56b20ff0fe0ac6e1a569d0",
         promo: true,
       },
       {
         id: "dustin-henderson",
         firstName: "Dustin",
         lastName: "Henderson",
-        imageUrl:
-          "https://preview.redd.it/realistically-following-spoiler-s-death-how-do-we-think-v0-l4jmlnnim48c1.jpeg?auto=webp&s=fc17e3bedc852c5e313748c549129b8b85a642f5",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeMt-XlqViokU38IgXP3yo65JtjSPmrF_t0EN-mpBMXemZbIqLkqpDu4E&s=10",
+        posterUrl:  "https://preview.redd.it/realistically-following-spoiler-s-death-how-do-we-think-v0-l4jmlnnim48c1.jpeg?auto=webp&s=fc17e3bedc852c5e313748c549129b8b85a642f5",
         promo: true,
       },
       {
         id: "lucas-sinclair",
         firstName: "Lucas ",
         lastName: "Sinclair",
-        imageUrl:
-          "https://pbs.twimg.com/media/G5C3RQUWcAE02DP?format=jpg&name=large",
+        imageUrl: "https://i.pinimg.com/736x/a2/49/81/a24981fc75a8c9faccb4f762860454b6.jpg",
+        posterUrl: "https://pbs.twimg.com/media/G5C3RQUWcAE02DP?format=jpg&name=large",
         promo: true,
       },
       {
         id: "will-byers",
         firstName: "William",
         lastName: "Byers",
-        imageUrl:
-          "https://hips.hearstapps.com/hmg-prod/images/will-stranger-things-season-4-1653571856.jpg?crop=0.799xw:0.540xh;0.0839xw,0.0304xh&resize=980:*",
+        imageUrl: "https://i.pinimg.com/736x/43/7e/63/437e6395e4ef156c70da4a24951ee60c.jpg",
+        posterUrl: "https://hips.hearstapps.com/hmg-prod/images/will-stranger-things-season-4-1653571856.jpg?crop=0.799xw:0.540xh;0.0839xw,0.0304xh&resize=980:*",
         promo: true,
         nickname: ["Will"],
+        goesByNickname: true,
       },
       {
         id: "nancy-wheeler",
         firstName: "Nancy",
         lastName: "Wheeler",
-        imageUrl:
-          "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXgC49ODKjMbO5WhTfH1VDQ7Tdm25RjnU043H3IfM4G10RX5sg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcFuTVcKUWB3_24i1JDfaRVO2zPjIoWXjK45s1c4sVi8oyoNqTAWerj8E&s=10",
+        posterUrl: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXgC49ODKjMbO5WhTfH1VDQ7Tdm25RjnU043H3IfM4G10RX5sg",
         promo: true,
       },
       {
         id: "jonathan-byers",
         firstName: "Jonathan",
         lastName: "Byers",
-        imageUrl:
-          "https://preview.redd.it/who-do-you-guys-got-dying-almost-100-in-season-5-v0-ntff0h42bcgf1.jpeg?auto=webp&s=e5c729af59044159e1a57936d5aa9c01fcc9f16e",
+        imageUrl: "https://i.pinimg.com/736x/1b/90/bb/1b90bb0a4cc3041361cdbdb877b7a284.jpg",
+        posterUrl: "https://preview.redd.it/who-do-you-guys-got-dying-almost-100-in-season-5-v0-ntff0h42bcgf1.jpeg?auto=webp&s=e5c729af59044159e1a57936d5aa9c01fcc9f16e",
         promo: true,
       },
       {
         id: "karen-wheeler",
         firstName: "Karen",
         lastName: "Wheeler",
-        imageUrl: "https://i.redd.it/a7udb90jzkzf1.jpeg",
+        imageUrl: "https://static.wikia.nocookie.net/strangerthings8338/images/0/05/Karen_s5.png/revision/latest/smart/width/300/height/300?cb=20251128114405", 
+        posterUrl: "https://i.redd.it/a7udb90jzkzf1.jpeg",
         promo: true,
       },
       {
         id: "martin-brenner",
         firstName: "Martin",
         lastName: "Brenner",
-        imageUrl:
-          "https://preview.redd.it/opinions-on-martin-brenner-as-a-character-villain-v0-ez1zfvzmcmia1.jpg?auto=webp&s=08c110b5bff109f9bedce85ef5df0e704bedb01c",
+        imageUrl: "https://static.wikia.nocookie.net/strangerthings8338/images/b/be/Brenner_S1.png/revision/latest/smart/width/300/height/300?cb=20221115135716",
+        posterUrl: "https://preview.redd.it/opinions-on-martin-brenner-as-a-character-villain-v0-ez1zfvzmcmia1.jpg?auto=webp&s=08c110b5bff109f9bedce85ef5df0e704bedb01c",
         promo: true,
         nickname: ["Dr. Brenner"],
+        goesByNickname: true,
       },
       {
         id: "max-mayfield",
         firstName: "Maxine",
         lastName: "Mayfield",
-        imageUrl:
-          "https://pbs.twimg.com/media/G69hQIbXwAEzxHd?format=jpg&name=large",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk1sVQuzB0emAkre5Dnjscfx1t8hTK61DC5l71PF4pHdWhhGGXIT24xu8&s=10",
+        posterUrl: "https://pbs.twimg.com/media/G69hQIbXwAEzxHd?format=jpg&name=large",
         promo: true,
         nickname: ["Max"],
+        goesByNickname: true,
       },
       {
         id: "steve-harrington",
         firstName: "Steven",
         lastName: "Harrington",
-        imageUrl: "https://images.thedirect.com/media/photos/steves.jpg",
+        imageUrl: "https://media.allure.com/photos/59f355a64921eb420a913a69/1:1/w_3720,h_3720,c_limit/wv_publicity_pre_launch_A_still_40.000001R.jpeg", 
+        posterUrl: "https://images.thedirect.com/media/photos/steves.jpg",
         promo: true,
         nickname: ["Steve"],
+        goesByNickname: true,
       },
       {
         id: "robin-buckley",
         firstName: "Robin",
         lastName: "Buckley",
-        imageUrl:
-          "https://scontent.fbma6-1.fna.fbcdn.net/v/t39.30808-6/588503822_1330220848875898_4595858885267397831_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=rYSnvvbGDzgQ7kNvwEJjyDh&_nc_oc=Adl89hBFGz6XYneHxl4tsBBHD9flrItFtOKHM37wNULbIt3ATkm-ldHpsdGRPu5PHOk&_nc_zt=23&_nc_ht=scontent.fbma6-1.fna&_nc_gid=tQ3T5GMMrGzHm54VNLgfLg&oh=00_Afr9PM6Wp1_DC2vyfH6VDiZpsMWdbLMICXUCmmKl4wI6Uw&oe=69771D75",
+        imageUrl: "https://i1.sndcdn.com/artworks-z6mk5ayqRU3QGizj-lvxL9A-t500x500.jpg",
+        posterUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiGQBvALn2aTH1ff1SMLSJ7G7w-DH-Jdaf295h1ye7ArPiVoZP",
         promo: true,
       },
       {
         id: "billy-hargrove",
         firstName: "William",
         lastName: "Hargrove",
-        imageUrl:
-          "https://assets.change.org/photos/9/ji/ey/MpjieYqjSjSJUGW-1600x900-noPad.jpg?1563395498",
+        imageUrl: "https://media.vanityfair.com/photos/59f49b5220586235aaecf93b/1:1/w_3681,h_3681,c_limit/wv_publicity_pre_launch_A_still_7.000001.jpeg",
+        posterUrl: "https://assets.change.org/photos/9/ji/ey/MpjieYqjSjSJUGW-1600x900-noPad.jpg?1563395498",
         promo: true,
         nickname: ["Billy"],
+        goesByNickname: true
       },
       {
         id: "bob-newby",
         firstName: "Robert",
         lastName: "Newby",
-        imageUrl: "https://i.redd.it/nk30b23cnn141.png",
-        promo: false,
-        nickname: ["Rob"],
+        imageUrl: "https://i.pinimg.com/736x/fa/ef/b3/faefb3a6385a519cbf1daa375590e44b.jpg",
+        posterUrl: "https://i.redd.it/nk30b23cnn141.png",
+        promo: true,
+        nickname: ["Bob"],
+        goesByNickname: true,
       },
       {
         id: "dr.-sam owens",
@@ -9375,32 +10445,33 @@ export const teenSeries: Show[] = [
         lastName: "Owens",
         imageUrl:
           "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/04/stranger-things-sam-owens.jpg?q=50&fit=crop&w=825&dpr=1.5",
-        promo: false,
+        promo: true,
         nickname: ["Sam"],
       },
       {
         id: "erica-sinclair",
         firstName: "Erica",
         lastName: "Sinclair",
-        imageUrl:
-          "https://i.namu.wiki/i/KX35S683vYCvEYBsM1B9awIzFlSK-M4uHMyr0YvfRAbixwNdKQ5Avzfnnila_pvGhtRBr-tn35ZUWhnPmsSS4g.webp",
+        imageUrl: "https://i.pinimg.com/736x/ab/07/28/ab072811bffbbca1d642d73164d46668.jpg",
+        posterUrl: "https://i.namu.wiki/i/KX35S683vYCvEYBsM1B9awIzFlSK-M4uHMyr0YvfRAbixwNdKQ5Avzfnnila_pvGhtRBr-tn35ZUWhnPmsSS4g.webp",
         promo: true,
       },
       {
         id: "murray-bauman",
         firstName: "Murray",
         lastName: "Bauman",
-        imageUrl:
-          "https://preview.redd.it/whats-your-opinion-on-murray-v0-170nejcuxtba1.png?auto=webp&s=095cf7e18e9a3d41505df5d5338f48e3c63da984",
+        imageUrl: "https://static.wikia.nocookie.net/strangerthings8338/images/d/dd/Murray2.jpg/revision/latest/smart/width/300/height/300?cb=20201103150557",
+        posterUrl: "https://preview.redd.it/whats-your-opinion-on-murray-v0-170nejcuxtba1.png?auto=webp&s=095cf7e18e9a3d41505df5d5338f48e3c63da984",
         promo: true,
       },
       {
         id: "dr-kay",
         lastName: "Kay",
-        imageUrl:
-          "https://pbs.twimg.com/media/G9noTBvbIAA4Oeh?format=jpg&name=900x900",
+        imageUrl: "https://cdn.mos.cms.futurecdn.net/RQyWsaKTAKNjpksJFgjQBh.jpg",
+        posterUrl:"https://pbs.twimg.com/media/G9noTBvbIAA4Oeh?format=jpg&name=900x900",
         promo: true,
         nickname: ["Dr. Kay"],
+        goesByNickname: true,
       },
       {
         id: "henry-creel",
@@ -9410,6 +10481,7 @@ export const teenSeries: Show[] = [
           "https://preview.redd.it/vecnas-vision-v0-f44uvni8e31c1.jpg?auto=webp&s=2919d4f6232706aacb3c51d63131d3515f5e6a7d",
         promo: true,
         nickname: ["Vecna"],
+        goesByNickname: true,
       },
     ],
     cast: [
@@ -9500,6 +10572,39 @@ export const teenSeries: Show[] = [
         episodeCount: 8,
       },
     ],
+    soundtrack: [
+      {
+        id: "stranger-things-season-1-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1,
+      },
+      {
+        id: "stranger-things-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2,
+      },
+      {
+        id: "stranger-things-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3,
+      },
+      {
+        id: "stranger-things-season-4-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 4,
+      },
+      {
+        id: "stranger-things-season-5-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 5,
+      },
+      
+    ],
     creator: ["The Duffer Brothers"],
     producer: ["Lampton Enochs"],
     executive: [
@@ -9545,81 +10650,81 @@ export const teenSeries: Show[] = [
         id: "wednesday-addams",
         firstName: "Wednesday",
         lastName: "Addams",
-        imageUrl:
-          "https://i.pinimg.com/736x/32/52/5c/32525c5a02a623e84041ccd6d998b4d0.jpg",
+        imageUrl: "https://assets.vogue.in/photos/63a539e408387311b87d6abe/2:3/w_2560%2Cc_limit/Wednesday%2520Addams%2520Vogue%2520India.jpg",
+        posterUrl: "https://i.pinimg.com/736x/32/52/5c/32525c5a02a623e84041ccd6d998b4d0.jpg",
         promo: true,
       },
       {
         id: "enid-sinclair",
         firstName: "Enid",
         lastName: "Sinclair",
-        imageUrl:
-          "https://cdn.polyspeak.ai/speakmaster/64ace6c40b68a9ff7f833124580e8d80.webp",
+        imageUrl: "https://preview.redd.it/just-finished-binging-through-the-first-season-of-the-show-v0-b6bbjtqspnpf1.jpeg?width=640&crop=smart&auto=webp&s=255832cbd2a8d3f92d6d7eeeee80619a029057ab",
+        posterUrl: "https://cdn.polyspeak.ai/speakmaster/64ace6c40b68a9ff7f833124580e8d80.webp",
         promo: true,
       },
       {
         id: "tyler-galpin",
         firstName: "Tyler",
         lastName: "Galpin",
-        imageUrl:
-          "https://preview.redd.it/whos-a-worse-person-v0-s665t4wx2rpf1.jpg?width=1080&crop=smart&auto=webp&s=748e76b3bb781ec44ebb6a4a082033525a1e9ad6",
+        imageUrl: "https://assets.mycast.io/actor_images/actor-tyler-galpin-wednesday-608847_large.jpg",
+        posterUrl:  "https://preview.redd.it/whos-a-worse-person-v0-s665t4wx2rpf1.jpg?width=1080&crop=smart&auto=webp&s=748e76b3bb781ec44ebb6a4a082033525a1e9ad6",
         promo: true,
       },
       {
         id: "xavier-thorpe",
         firstName: "Xavier",
         lastName: "Thorpe",
-        imageUrl:
-          "https://www.hindustantimes.com/ht-img/img/2025/08/06/1600x900/fdfddd_1754487194526_1754487207399.jpg",
+        imageUrl: "https://i.redd.it/zlw7yhsbdt5b1.jpg",
+        posterUrl: "https://www.hindustantimes.com/ht-img/img/2025/08/06/1600x900/fdfddd_1754487194526_1754487207399.jpg",
         promo: true,
       },
       {
         id: "larissa-weems",
         firstName: "Larissa",
         lastName: "Weems",
-        imageUrl:
-          "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/08/mixcollage-14-aug-2025-04-12-pm-6162.jpg?q=70&fit=crop&w=1600&h=900&dpr=1",
+        imageUrl: "https://preview.redd.it/whats-your-favorite-principal-larissa-weems-quote-the-v0-ipfqiwe5ic6b1.jpg?width=640&crop=smart&auto=webp&s=248a66788704179a3f3360c0fdab247b2baa441e",
+        posterUrl: "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/08/mixcollage-14-aug-2025-04-12-pm-6162.jpg?q=70&fit=crop&w=1600&h=900&dpr=1",
         promo: true,
       },
       {
         id: "bianca-barclay",
         firstName: "Bianca",
         lastName: "Barclay",
-        imageUrl:
-          "https://i.pinimg.com/736x/9c/2a/30/9c2a30f658b1317b01a3a9f0f71409da.jpg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHBBqLS-MlEgoYXk3dnU5QY6hfTx4Ti5dmP-2HE0QtHXIrP9v9GUH1Kkkz&s=10",
+        posterUrl: "https://i.pinimg.com/736x/9c/2a/30/9c2a30f658b1317b01a3a9f0f71409da.jpg",
         promo: true,
       },
       {
         id: "ajax-petropolus",
         firstName: "Ajax",
         lastName: "Petropolus",
-        imageUrl:
-          "https://i.pinimg.com/736x/fc/97/02/fc9702e95d16953306666da99a0c04cf.jpg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ2MOu0mYolDqRzVUysVUhPU1eQIOpTbp3E30QM_Fd6QXdT9pWB9HZAUsB&s=10",
+        posterUrl: "https://i.pinimg.com/736x/fc/97/02/fc9702e95d16953306666da99a0c04cf.jpg",
         promo: true,
       },
       {
         id: "eugene-ottinger",
         firstName: "Eugene",
         lastName: "Ottinger",
-        imageUrl:
-          "https://i.pinimg.com/736x/bc/a7/2b/bca72b5e47174665c7a968e0c237afb0.jpg",
+        imageUrl: "https://i.pinimg.com/564x/2d/0f/e3/2d0fe3c9140fe0f7a1e898245fe27d54.jpg",
+        posterUrl: "https://i.pinimg.com/736x/bc/a7/2b/bca72b5e47174665c7a968e0c237afb0.jpg",
         promo: true,
       },
       {
         id: "marilyn-thornhill",
         firstName: "Marilyn",
         lastName: "Thornhill",
-        imageUrl:
-          "https://www.vanquishe.com/wp-content/uploads/2024/11/Marilyn-Thornhill-Wednesday-Brown-Jacket.webp",
-        promo: false,
+        imageUrl: "https://i.pinimg.com/736x/8d/bb/36/8dbb36653e944db28db5056a76a0e80e.jpg",
+        posterUrl: "https://www.vanquishe.com/wp-content/uploads/2024/11/Marilyn-Thornhill-Wednesday-Brown-Jacket.webp",
+        promo: true,
       },
       {
         id: "morticia-addams",
         firstName: "Morticia",
         lastName: "Addams",
-        imageUrl:
-          "https://hips.hearstapps.com/hmg-prod/images/wednesday-105-unit-04110rc-1670233231.jpg?crop=0.533xw:1.00xh;0.245xw,0&resize=980:*",
-        promo: false,
+        imageUrl: "https://static.wikia.nocookie.net/timburton/images/9/91/Profile-Morticia_Addams.png/revision/latest/scale-to-width-down/1200?cb=20250913030526",
+        posterUrl: "https://hips.hearstapps.com/hmg-prod/images/wednesday-105-unit-04110rc-1670233231.jpg?crop=0.533xw:1.00xh;0.245xw,0&resize=980:*",
+        promo: true,
       },
       {
         id: "gomez-addams",
@@ -9627,15 +10732,15 @@ export const teenSeries: Show[] = [
         lastName: "Addams",
         imageUrl:
           "https://thecelebjackets.com/wp-content/uploads/2025/08/Wednesday-S02-Gomez-Addams-Pinstriped-Blazer-1.png",
-        promo: false,
+        promo: true,
       },
       {
         id: "uncle-fester",
         firstName: "Uncle",
         lastName: "Fester",
-        imageUrl:
-          "https://thecelebjackets.com/wp-content/uploads/2025/08/Wednesday-S02-Uncle-Fester-Light-Single-Breasted-Coat.png",
-        promo: false,
+        imageUrl: "https://static.wikia.nocookie.net/characters/images/8/85/Fester_Addams_%28Wednesday%29.jpg/revision/latest?cb=20230619033509",
+        posterUrl: "https://thecelebjackets.com/wp-content/uploads/2025/08/Wednesday-S02-Uncle-Fester-Light-Single-Breasted-Coat.png",
+        promo: true,
       },
     ],
     cast: [
@@ -9674,8 +10779,22 @@ export const teenSeries: Show[] = [
         finaleEpisode: "This Means Woe",
         title: "Wednesday, Season 2",
         posterUrl:
-          "https://media.assettype.com/analyticsinsight/September 12, 2025/8ro1ypki/Wednesday-Season-2-continues-the-gothic-story-with-Jenna-Ortega-and-Lady-Gaga-directed-by-Tim-Burton.jpg",
+          "https://static.wikia.nocookie.net/addamsfamily/images/0/0a/Wednesday_Season_2_Poster_001.jpg/revision/latest?cb=20250422205134",
         episodeCount: 8,
+      },
+    ],
+    soundtrack: [
+      {
+        id: "wednesday-season-1",
+        type: "soundtrack",
+        noSeason: 1,
+        noImage: true,
+      },
+      {
+        id: "wednesday-season-2",
+        type: "soundtrack",
+        noSeason: 2,
+        noImage: true,
       },
     ],
     creator: ["Alfred Gough", "Miles Millar"],
@@ -9754,7 +10873,7 @@ export const teenSeries: Show[] = [
         firstName: "Elle",
         lastName: "Argent",
         imageUrl:
-          "https://i0.wp.com/oestrogeneration.org/wp-content/uploads/2022/04/0_Yasmin-Finney-as-Elle.png?fit=1200%2C900&ssl=1",
+          "https://static.wikia.nocookie.net/heartstopper/images/1/19/ElleArgent.png/revision/latest?cb=20220430203519&path-prefix=es",
         promo: true,
       },
       {
@@ -9770,7 +10889,7 @@ export const teenSeries: Show[] = [
         firstName: "Darcy",
         lastName: "Olsson",
         imageUrl:
-          "https://media.thetab.com/blogs.dir/90/files/2022/05/screenshot-May 17, 2022-at-231636-1024x729.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf2E_OOmnzPskWJX421PRy50O5rkqIHwX4dbO5P9Slaw&s=10",
         promo: true,
       },
       {
@@ -9836,8 +10955,31 @@ export const teenSeries: Show[] = [
         finaleEpisode: "Apart",
         title: "Heartstopper, Season 3",
         posterUrl:
-          "https://m.media-amazon.com/images/M/MV5BZjUxNjc3YjYtNzg2Yy 0OWEwLTljOGItNmE4MzgwMzQzNGRmXkEyXkFqcGc@._V1_.jpg",
+          "https://substackcdn.com/image/fetch/$s_!crBs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3d54535-c8e2-423f-bb72-25c7388adef6_1080x1350.jpeg",
         episodeCount: 8,
+      },
+    ],
+    soundtrack: [
+      {
+        id: "heartstopper-season-1-sountrack",
+        type: "soundtrack",
+        imgUrl: "https://www.musiconvinyl.com/cdn/shop/files/MOVATM461-Cover.webp?v=1787147039&width=1946",
+        noImage: false,
+        noSeason: 1,
+      },
+      {
+        id: "heartstopper-season-2-sountrack",
+        type: "soundtrack",
+        imgUrl: "https://atthemoviesshop.com/cdn/shop/files/MOVATM462-Cover_720x.webp?v=1787218448",
+        noImage: false,
+        noSeason: 2,
+      },
+      {
+        id: "heartstopper-season-3-sountrack",
+        type: "soundtrack",
+        imgUrl: "https://atthemoviesshop.com/cdn/shop/files/MOVATM463-Cover_720x.webp?v=1787218456",
+        noImage: false,
+        noSeason: 3,
       },
     ],
     creator: ["Alice Oseman"],
@@ -9859,8 +11001,14 @@ export const teenSeries: Show[] = [
     related: [
       {
         id: "heartstopper-comics",
+        title: "Heartstopper (Comics)",
         posterUrl: "https://www.brokenfrontier.com/wp-content/uploads/2022/06/heartstopper-oseman-1a.jpg"
-      }
+      },
+      {
+        id: "heartstopper-forever",
+        title: "Heartstopper Forever",
+        posterUrl: "https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRKb9IHl14U48gwo9wAf0SDPzvjKK5ZMuSxanDXR51JjdaZbYZI7zpSPLggMm5C_32eGMsksJbbRK2GE2w0c1hddaqJoKzW1oI_7.jpg?r=ee6"
+      },
     ],
   },
   {
@@ -9882,86 +11030,87 @@ export const teenSeries: Show[] = [
         id: "wilhelm",
         firstName: "Wilhelm",
         lastName: "",
-        imageUrl:
-          "https://static.tvmaze.com/uploads/images/medium_portrait/428/1072396.jpg",
+        imageUrl: "https://i.pinimg.com/736x/5e/6f/16/5e6f162854b96bda3144e87a29ff49a4.jpg",
+        posterUrl: "https://static.tvmaze.com/uploads/images/medium_portrait/428/1072396.jpg",
         promo: true,
       },
       {
         id: "simon-eriksson",
         firstName: "Simon",
         lastName: "Eriksson",
-        imageUrl:
-          "https://static.tvmaze.com/uploads/images/medium_portrait/428/1072397.jpg",
+        imageUrl: "https://pbs.twimg.com/profile_images/1429394760423428096/X4QRKGy1_400x400.jpg",
+        posterUrl: "https://static.tvmaze.com/uploads/images/medium_portrait/428/1072397.jpg",
         promo: true,
       },
       {
         id: "august-horn",
         firstName: "August",
         lastName: "Horn",
-        imageUrl:
-          "https://static.tvmaze.com/uploads/images/medium_portrait/428/1072399.jpg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsdi0BZdtHKUHynvtmIGUU_BdcpjK0J0ByEXpNA-e8jbljKAxiHH4kcFLQ&s=10",
+        posterUrl: "https://static.tvmaze.com/uploads/images/medium_portrait/428/1072399.jpg",
         promo: true,
       },
       {
         id: "sara-eriksson",
         firstName: "Sara",
         lastName: "Eriksson",
-        imageUrl:
-          "https://static.tvmaze.com/uploads/images/medium_portrait/428/1072400.jpg",
+        imageUrl: "https://pbs.twimg.com/media/F3cZ56YWAAAAyfO.jpg",
+        posterUrl: "https://static.tvmaze.com/uploads/images/medium_portrait/428/1072400.jpg",
         promo: true,
       },
       {
         id: "felice-ehrencrona",
         firstName: "Felice",
         lastName: "Ehrencrona",
-        imageUrl:
-          "https://static.tvmaze.com/uploads/images/medium_portrait/428/1072402.jpg",
+        imageUrl: "https://i.pinimg.com/736x/49/ec/bd/49ecbd1e37d6dfb3c245501d0fef6273.jpg",
+        posterUrl: "https://static.tvmaze.com/uploads/images/medium_portrait/428/1072402.jpg",
         promo: true,
       },
       {
         id: "erik",
         firstName: "Erik",
         lastName: "",
-        imageUrl:
-          "https://preview.redd.it/ycqpudkqxcp71.jpg?width=1080&crop=smart&auto=webp&s=5c1fe6bbf20cad6c71697c551919fc581b3ab5ed",
-        promo: false,
+        imageUrl: "https://bilder.fernsehserien.de/gfx/person_1000/i/ivar-forsling-736995-1626073681.jpg",
+        posterUrl: "https://preview.redd.it/ycqpudkqxcp71.jpg?width=1080&crop=smart&auto=webp&s=5c1fe6bbf20cad6c71697c551919fc581b3ab5ed",
+        promo: true,
       },
       {
         id: "queen-kristina",
         firstName: "Kristina",
         lastName: "",
-        imageUrl:
-          "https://elcomercio.pe/resizer/v2/7HIHB5QCYZEOTMUHNA3WDMLPSE.webp?auth=683ede5fc635ce65bcd6c6bc187008bb7448fafa03cde060c72e73104ebd2c79&width=1200&height=1500&quality=75&smart=true",
-        promo: false,
+        imageUrl: "https://static.wikia.nocookie.net/youngroyals/images/9/97/Kristina_s2_square.jpg/revision/latest?cb=20240415212715",
+        posterUrl: "https://elcomercio.pe/resizer/v2/7HIHB5QCYZEOTMUHNA3WDMLPSE.webp?auth=683ede5fc635ce65bcd6c6bc187008bb7448fafa03cde060c72e73104ebd2c79&width=1200&height=1500&quality=75&smart=true",
+        promo: true,
       },
       {
         id: "linda",
         firstName: "Linda",
         lastName: "",
-        imageUrl: "https://pbs.twimg.com/media/F3ciyA_WMAA2xkh.jpg",
-        promo: false,
+        imageUrl:  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHNApboRtdYsA8QVuFRpX3a6nd-AF0h7M7SDIoLMVnDSWrOYkYSOpE8vM&s=10",
+        posterUrl: "https://pbs.twimg.com/media/F3ciyA_WMAA2xkh.jpg",
+        promo: true,
       },
       {
         id: "vincent",
         firstName: "Vincent",
         lastName: "",
-        imageUrl: "/images/Young Royals/Vincent.jpg",
+        imageUrl: "https://static.wikia.nocookie.net/youngroyals/images/e/ed/Vincent_S2.jpg/revision/latest?cb=20240418225524",
         promo: true,
       },
       {
         id: "nils",
         firstName: "Nils",
         lastName: "",
-        imageUrl: "/images/Young Royals/Nils.jpg",
+        imageUrl: "https://static.wikia.nocookie.net/youngroyals/images/c/c8/Nils_S2.jpg/revision/latest/scale-to-width/360?cb=20240420003259",
         promo: true,
       },
       {
         id: "henry",
         firstName: "Henry",
         lastName: "",
-        imageUrl:
-          "https://i.pinimg.com/736x/d7/5a/62/d75a62283aab7af20116d5643df71233.jpg",
-        promo: false,
+        imageUrl: "https://static.wikia.nocookie.net/youngroyals/images/b/b9/Henry_S2.jpg/revision/latest?cb=20240414225035",
+        posterUrl: "https://i.pinimg.com/736x/d7/5a/62/d75a62283aab7af20116d5643df71233.jpg",
+        promo: true,
       },
     ],
     cast: [
@@ -10007,6 +11156,26 @@ export const teenSeries: Show[] = [
         episodeCount: 6,
       },
     ],
+    soundtrack: [
+      {
+        id: "young-royals-season-1-soundrtack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1,
+      },
+      {
+        id: "young-royals-season-2-soundrtack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2,
+      },
+      {
+        id: "young-royals-season-3-soundrtack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3,
+      },
+    ],
     creator: ["Lisa Ambjörn", "Lars Beckung", "Camilla Holter"],
     producer: ["Lisa Berggren Eyre", "Martin Söder"],
     executive: ["Lars Beckung"],
@@ -10033,73 +11202,170 @@ export const teenSeries: Show[] = [
         id: "clay-jensen",
         firstName: "Clay",
         lastName: "Jensen",
-        imageUrl:
-          "https://resizing.flixster.com/qxCTpAWvvb6Y8cPJEFq_hafm5zc=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjI5NTc2Ni53ZWJw",
+        imageUrl: "https://m.media-amazon.com/images/M/MV5BZTcxZjcxNmQtZDI3Yi00YjhjLWEyMWEtYzAzYTc5ZWM3NDJhXkEyXkFqcGc@._V1_QL75_UY281_CR18,0,500,281_.jpg",
+        posterUrl:  "https://resizing.flixster.com/qxCTpAWvvb6Y8cPJEFq_hafm5zc=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjI5NTc2Ni53ZWJw",
         promo: true,
       },
       {
         id: "hannah-baker",
         firstName: "Hannah",
         lastName: "Baker",
-        imageUrl:
-          "https://assets.teenvogue.com/photos/5d2de3b3a392930008045c90/16:9/w_1280,c_limit/fb.jpg",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/7/77/Katherine_Langford_as_Hannah_Baker.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+        posterUrl: "https://assets.teenvogue.com/photos/5d2de3b3a392930008045c90/16:9/w_1280,c_limit/fb.jpg",
         promo: true,
       },
       {
         id: "jessica-davis",
         firstName: "Jessica",
         lastName: "Davis",
-        imageUrl:
-          "https://miro.medium.com/v2/resize:fit:720/format:webp/1*ovS-v9r_P0dl8yFwQziLyw.jpeg",
-        promo: true,
+        imageUrl: "https://www.looper.com/img/gallery/why-jessica-from-13-reasons-why-looks-so-familiar/intro-1591464492.jpg",
+        posterUrl: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*ovS-v9r_P0dl8yFwQziLyw.jpeg",
+        promo: true, 
       },
       {
         id: "justin-foley",
         firstName: "Justin",
         lastName: "Foley",
-        imageUrl:
-          "https://i.pinimg.com/1200x/31/2b/6b/312b6b4edd6b9600e7d544366e30ab66.jpg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK67OHUzz0_3fa0567Sl0Re_I9htTvkOe7w6TfLwvULoeona3nkvkJQsMg&s=10",
+        posterUrl: "https://i.pinimg.com/1200x/31/2b/6b/312b6b4edd6b9600e7d544366e30ab66.jpg",
         promo: true,
       },
       {
         id: "bryce-walker",
         firstName: "Bryce",
         lastName: "Walker",
-        imageUrl:
-          "https://i.pinimg.com/1200x/50/38/bb/5038bbc451c6df256f2749e3088a6b52.jpg",
+        imageUrl: "https://static.wikia.nocookie.net/heroes-and-villain/images/1/17/Profile_-_Bryce_Walker.png/revision/latest?cb=20230114152842",
+        posterUrl: "https://i.pinimg.com/1200x/50/38/bb/5038bbc451c6df256f2749e3088a6b52.jpg",
         promo: true,
       },
       {
         id: "alex-standall",
         firstName: "Alex",
         lastName: "Standall",
-        imageUrl:
-          "https://preview.redd.it/xec18ovudzb61.jpg?width=619&format=pjpg&auto=webp&s=82585dee5edc72476d3fa57c6ebbd71057edbfe8",
+        imageUrl: "https://i2-prod.mirror.co.uk/article12555436.ece/ALTERNATES/s1200d/Alex.jpg",
+        posterUrl: "https://preview.redd.it/xec18ovudzb61.jpg?width=619&format=pjpg&auto=webp&s=82585dee5edc72476d3fa57c6ebbd71057edbfe8",
         promo: true,
       },
       {
         id: "tony-padilla",
         firstName: "Tony",
         lastName: "Padilla",
-        imageUrl:
-          "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*N5HXZyesr6_gX9FBZrjB9g.jpeg",
+        imageUrl: "https://assets.capitalfm.com/2020/23/what-happened-to-tony-in-13-reasons-why-season-4-1591719255-view-0.jpg",
+        posterUrl: "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*N5HXZyesr6_gX9FBZrjB9g.jpeg",
         promo: true,
       },
       {
         id: "zach-dempsey",
         firstName: "Zach",
         lastName: "Dempsey",
-        imageUrl:
-          "https://miro.medium.com/v2/resize:fit:720/format:webp/1*VpoAwo9GRuPargrCGdqIJg.jpeg",
+        imageUrl: "https://assets.capitalfm.com/2020/23/what-happened-to-zach-in-13-reasons-why-season-4-1591721888-view-0.png",
+        posterUrl: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*VpoAwo9GRuPargrCGdqIJg.jpeg",
         promo: true,
       },
       {
         id: "tyler-down",
         firstName: "Tyler",
         lastName: "Down",
-        imageUrl:
-          "https://miro.medium.com/v2/resize:fit:720/format:webp/1*2mnpasIvRt2ARtOPWU_fiw.jpeg",
+        imageUrl: "https://i.redd.it/hj9yrc6y2lz01.jpg",
+        posterUrl: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*2mnpasIvRt2ARtOPWU_fiw.jpeg",
         promo: true,
+      },
+      {
+        id: "lainie-jensen",
+        firstName: "Lainie",
+        lastName: "Jensen",
+        imageUrl:
+          "https://static.wikia.nocookie.net/13reasonswhy/images/c/cc/Lainie.png/revision/latest/thumbnail/width/360/height/450?cb=20180516152827",
+        promo: true,
+        nickname: ["Mrs. Jensen"],
+        goesByNickname: true,
+      },
+      {
+        id: "kevin-porter",
+        firstName: "Kevin",
+        lastName: "Porter",
+        imageUrl: "https://thecinemaholic.com/wp-content/uploads/2019/08/Capture-8.png",
+        posterUrl: "https://static.wikia.nocookie.net/13reasonswhy/images/8/8c/Season_2_Character_Portrait_Kevin_Porter.jpg/revision/latest?cb=20200523174031",
+        promo: true,
+        nickname: ["Mr. Porter"],
+        goesByNickname: true,
+      },
+      {
+        id: "olivia-baker",
+        firstName: "Olivia",
+        lastName: "Baker",
+        imageUrl: "https://i.insider.com/5bad43330114551206769254?width=600&format=jpeg&auto=webp",
+        posterUrl: "https://static.wikia.nocookie.net/13reasonswhy/images/4/44/Season_2_Character_Portrait_Olivia_Baker.jpg/revision/latest?cb=20200523174429",
+        promo: true,
+        nickname: ["Mrs. Baker"],
+        goesByNickname: true,
+      },
+      {
+        id: "andy-baker",
+        firstName: "Andy",
+        lastName: "Baker",
+        imageUrl: "https://static.wikia.nocookie.net/13reasonswhy/images/8/85/Andrew_Baker.png/revision/latest/thumbnail/width/360/height/360?cb=20190412151620",
+        promo: true,
+      },
+      {
+        id: "ani-achola",
+        firstName: "Ani",
+        lastName: "Achola",
+        imageUrl: "https://assets.mycast.io/characters/ani-achola-755322-normal.jpg",
+        posterUrl: "https://static.wikia.nocookie.net/13reasonswhy/images/9/93/Ani-Achola-Season-4-Portrait.jpg/revision/latest/scale-to-width/360?cb=20200523170620",
+        promo: true,
+      },
+      {
+        id: "monty-de-la-cruz",
+        firstName: "Montgomery",
+        lastName: "De la Cruz",
+        imageUrl: "https://i.pinimg.com/474x/1e/50/10/1e501095f3ed22a94156b5666ebfc916.jpg",
+        posterUrl: "https://static.wikia.nocookie.net/13reasonswhy/images/1/12/13RW_Season_3_Character_Portrait_Montgomery_de_la_Cruz.jpg/revision/latest?cb=20200410163943",
+        promo: true,
+        nickname: ["Monty"],
+        goesByNickname: true,
+      },
+      {
+        id: "bill-standall",
+        firstName: "Bill",
+        lastName: "Standall",
+        imageUrl: "https://static.tvmaze.com/uploads/images/medium_portrait/197/494151.jpg",
+        posterUrl: "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*N5HXZyesr6_gX9FBZrjB9g.jpeg",
+        promo: true,
+      },
+      {
+        id: "charlie-st-george",
+        firstName: "Charlie",
+        lastName: "St. George",
+        imageUrl:
+          "https://static.wikia.nocookie.net/13reasonswhy/images/0/0b/Charlie_St_George.png/revision/latest?cb=20190928123632",
+        promo: true,
+      },
+      {
+        id: "winston-williams",
+        firstName: "Winston",
+        lastName: "Williams",
+        imageUrl:
+          "https://i.pinimg.com/736x/b0/87/a7/b087a76d2181a62acfd9d287b1abaefb.jpg",
+        promo: true,
+      },
+      {
+        id: "diego-torres",
+        firstName: "Diego",
+        lastName: "Torres",
+        imageUrl: "https://static.wikia.nocookie.net/13reasonswhy/images/3/32/S04E01-Winter-Break-071-Diego-Torres.png/revision/latest/smart/width/300/height/300?cb=20200617095922",
+        posterUrl: "https://static.wikia.nocookie.net/13reasonswhy/images/5/5d/Diego-Torres-Season-4-Portrait.jpg/revision/latest?cb=20200523172338",
+        promo: true,
+      },
+      {
+        id: "robert-ellman",
+        firstName: "Robert",
+        lastName: "Ellman",
+        imageUrl:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYb0cH8bHTS22hcg-QDSmX7hLqmvz9_ePUV5ZZ7IDTodx5sTAnZnbS8fE&s=10",
+        promo: true,
+        nickname: ["Dr. Ellman"],
+        goesByNickname: true
       },
     ],
     cast: [
@@ -10157,6 +11423,32 @@ export const teenSeries: Show[] = [
         posterUrl:
           "https://fr.web.img6.acsta.net/pictures/20/05/22/10/13/3168845.jpg",
         episodeCount: 10,
+      },
+    ],
+    soundtrack: [
+      {
+        id: "13-reasons-why-season-1-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1,
+      },
+      {
+        id: "13-reasons-why-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2,
+      },
+      {
+        id: "13-reasons-why-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3,
+      },
+      {
+        id: "13-reasons-why-season-4-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 4,
       },
     ],
     basedOn: true,
@@ -10236,6 +11528,7 @@ export const teenSeries: Show[] = [
           "https://wegotthiscovered.com/wp-content/uploads/2023/02/Screenshot-2023-02-22-at-2.01.07-PM.png",
         promo: true,
         nickname: ["JJ"],
+        goesByNickname: true,
       },
       {
         id: "kiara-carrera",
@@ -10357,6 +11650,36 @@ export const teenSeries: Show[] = [
         episodeCount: 10,
       },
     ],
+    soundtrack: [
+      {
+        id: "outer-banks-season-1-soundtrack",
+        type: "soundtrack",
+        imgUrl: "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da842cf2dee772d9851a3860ee6e",
+        noImage: false,
+        noSeason: 1,
+      },
+      {
+        id: "outer-banks-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: false,
+        imgUrl: "https://external-preview.redd.it/i-added-all-of-the-soundtrack-from-season-2-since-there-v0-8NadWfyRFEKYrI55mlORWnE95mYcl99_bb49YvaH8pI.jpg?auto=webp&s=8bf405bc1675b1138e002ce720e440df25b1ec2a",
+        noSeason: 2,
+      },
+      {
+        id: "outer-banks-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: false,
+        imgUrl: "https://m.media-amazon.com/images/I/91dksPSHPBL._AC_UF1000,1000_QL80_.jpg",
+        noSeason: 3,
+      },
+      {
+        id: "outer-banks-season-4-soundtrack",
+        type: "soundtrack",
+        noImage: false,
+        imgUrl: "https://i.scdn.co/image/ab67616d0000b273a8f1f1925ae2f8a5679fb9ab",
+        noSeason: 4,
+      },
+    ],
     creator: [
       "Josh Pate",
       "Jonas Pate",
@@ -10397,49 +11720,50 @@ export const teenSeries: Show[] = [
         id: "isabel-conklin",
         firstName: "Isabel",
         lastName: "Conklin",
-        imageUrl:
-          "https://preview.redd.it/youre-meeting-belly-conklin-irl-today-what-do-you-ask-say-v0-5cp0hz61r0xf1.jpeg?width=1080&crop=smart&auto=webp&s=61a0c02039ee12bf0e1e8b04da7a4ba4a57fd034",
+        imageUrl: "https://cdn.justjared.com/wp-content/uploads/headlines/2024/01/belly.jpg",
+        posterUrl: "https://preview.redd.it/youre-meeting-belly-conklin-irl-today-what-do-you-ask-say-v0-5cp0hz61r0xf1.jpeg?width=1080&crop=smart&auto=webp&s=61a0c02039ee12bf0e1e8b04da7a4ba4a57fd034",
         promo: true,
         nickname: ["Belly"],
+        goesByNickname: true,
       },
       {
         id: "conrad-fisher",
         firstName: "Conrad",
         lastName: "Fisher",
-        imageUrl:
-          "https://i.pinimg.com/474x/40/f0/0b/40f00b8d1f373e6eed11f4898bd8269b.jpg",
+        imageUrl: "https://static.wikia.nocookie.net/thesummeriturnedprettytrilogy/images/3/31/Conrad_S3_Portrait.jpg/revision/latest?cb=20250720233913",
+        posterUrl: "https://i.pinimg.com/474x/40/f0/0b/40f00b8d1f373e6eed11f4898bd8269b.jpg",
         promo: true,
       },
       {
         id: "jeremiah-fisher",
         firstName: "Jeremiah",
         lastName: "Fisher",
-        imageUrl:
-          "https://images.lifestyleasia.com/wp-content/uploads/sites/3/2025/12/05181323/worst-boyfriends-ft.jpg?tr=w-800",
+        imageUrl: "https://static.wikia.nocookie.net/thesummeriturnedprettytrilogy/images/e/e6/Jeremiah_S3_Portrait.jpg/revision/latest/scale-to-width-down/1200?cb=20251110044647",
+        posterUrl: "https://images.lifestyleasia.com/wp-content/uploads/sites/3/2025/12/05181323/worst-boyfriends-ft.jpg?tr=w-800",
         promo: true,
       },
       {
         id: "susannah-fisher",
         firstName: "Susannah",
         lastName: "Fisher",
-        imageUrl:
-          "https://media.vogue.co.uk/photos/68c95688feeb7dcc89ac0faf/2:3/w_2560%2Cc_limit/SITP_UT_202_220808_MERJOH_00331RC_3000.jpg",
-        promo: false,
+        imageUrl: "https://preview.redd.it/what-if-susannah-didnt-pass-away-v0-iwpzqdrwipqf1.jpeg?auto=webp&s=29e06bb029266917c601e848f146e1258bf11e68",
+        posterUrl: "https://media.vogue.co.uk/photos/68c95688feeb7dcc89ac0faf/2:3/w_2560%2Cc_limit/SITP_UT_202_220808_MERJOH_00331RC_3000.jpg",
+        promo: true,
       },
       {
         id: "laurel-park",
         firstName: "Laurel",
         lastName: "Park",
-        imageUrl:
-          "https://i.redd.it/laurel-is-the-best-character-in-this-entire-show-v0-k3qslzt4bmef1.jpg?width=958&format=pjpg&auto=webp&s=992c3513ec66be8e1fd124ade95878beebd42dec",
-        promo: false,
+        imageUrl: "https://i.pinimg.com/736x/6b/7b/8e/6b7b8e2bfc58e3aef111020fea72916e.jpg",
+        posterUrl: "https://i.redd.it/laurel-is-the-best-character-in-this-entire-show-v0-k3qslzt4bmef1.jpg?width=958&format=pjpg&auto=webp&s=992c3513ec66be8e1fd124ade95878beebd42dec",
+        promo: true,
       },
       {
         id: "steven-conklin",
         firstName: "Steven",
         lastName: "Conklin",
-        imageUrl:
-          "https://assets.teenvogue.com/photos/68b9c0f95cac527da1f38ba4/master/w_1600,c_limit/SITP_S3_Static4x5_Character_Steven_1080x1350%20(1).jpg",
+        imageUrl: "https://assets.teenvogue.com/photos/68502c7d80825f7e9f2fc852/1:1/w_1498,h_1498,c_limit/SITP_S2_FG_208_00170806_Still154C_f_3000.jpg",
+        posterUrl: "https://assets.teenvogue.com/photos/68b9c0f95cac527da1f38ba4/master/w_1600,c_limit/SITP_S3_Static4x5_Character_Steven_1080x1350%20(1).jpg",
         promo: true,
       },
       {
@@ -10448,15 +11772,15 @@ export const teenSeries: Show[] = [
         lastName: "Wang",
         imageUrl:
           "https://preview.redd.it/best-thing-a-character-has-said-or-done-day-16-shayla-v0-qo6e406vorkc1.jpg?width=888&format=pjpg&auto=webp&s=81ee1bf529c5358e8b3dae4781c6b243ecad3ea6",
-        promo: false,
+        promo: true,
       },
       {
         id: "cleveland-castillo",
         firstName: "Cleveland",
         lastName: "Castillo",
-        imageUrl:
-          "https://preview.redd.it/worst-thing-a-character-has-said-or-done-day-11-cleveland-v0-3p1nnil0dfgc1.jpg?width=735&format=pjpg&auto=webp&s=7b0fd87e9b20c9a404b5ca7e654636a9f39bfa47",
-        promo: false,
+        imageUrl: "https://static.wikia.nocookie.net/thesummeriturnedprettytrilogy/images/5/5d/Cleveland_S2.jpg/revision/latest/thumbnail/width/360/height/360?cb=20230804041540",
+        posterUrl: "https://preview.redd.it/worst-thing-a-character-has-said-or-done-day-11-cleveland-v0-3p1nnil0dfgc1.jpg?width=735&format=pjpg&auto=webp&s=7b0fd87e9b20c9a404b5ca7e654636a9f39bfa47",
+        promo: true,
       },
     ],
     cast: [
@@ -10517,6 +11841,29 @@ export const teenSeries: Show[] = [
         episodeCount: 8,
       },
     ],
+    soundtrack: [
+      {
+        id: "summer-i-turned-pretty-season-1-soundtrack",
+        type: "soundtrack",
+        imgUrl: "https://i.scdn.co/image/ab67616d0000b2730db3cacc2437f0c9b437de41",
+        noImage: false,
+        noSeason: 1,
+      },
+      {
+        id: "summer-i-turned-pretty-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: false,
+        imgUrl: "https://i.scdn.co/image/ab67616d0000b2730de6e5a6ebfceb2b25de2ece",
+        noSeason: 2,
+      },
+      {
+        id: "summer-i-turned-pretty-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: false,
+        imgUrl: "https://i.scdn.co/image/ab67616d0000b273bcd6213a48dd877dbddcfa7c",
+        noSeason: 3,
+      },
+    ],
     basedOn: true,
     creator: ["Jenny Han"],
     producer: [
@@ -10553,6 +11900,7 @@ export const teenSeries: Show[] = [
     related: [
       {
         id: "the-summer-i-turned-pretty-trilogy",
+        title: "The Summer I Turned Pretty (Trilogy)",
         posterUrl: "https://m.media-amazon.com/images/I/61myan+CzHL.jpg",
       }
     ],
@@ -10705,6 +12053,32 @@ export const teenSeries: Show[] = [
         episodeCount: 10,
       },
     ],
+    soundtrack: [
+      {
+        id: "never-have-i-ever-season-1-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1,
+       },
+      {
+        id: "never-have-i-ever-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2,
+       },
+      {
+        id: "never-have-i-ever-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3,
+       },
+      {
+        id: "never-have-i-ever-season-4-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 4,
+       },
+    ],
     creator: [
       "Mindy Kaling",
       "Lang Fisher"
@@ -10827,7 +12201,7 @@ export const teenSeries: Show[] = [
         finaleEpisode: "Adoption Day",
         title: "The Fosters, Season 1",
         posterUrl:
-          "https://image.tmdb.org/t/p/original/AcuPFaO4tATqAOs7J5eLhUfB0dV.jpg",
+          "https://static.wikia.nocookie.net/thefosters/images/c/c0/Rs_634x839-131115122458-634_The-Fosters_.png/revision/latest?cb=20131216005218",
         episodeCount: 21,
       },
       {
@@ -10839,7 +12213,7 @@ export const teenSeries: Show[] = [
         finaleEpisode: "The End of the Beginning",
         title: "The Fosters, Season 2",
         posterUrl:
-          "https://pics.filmaffinity.com/the_fosters-494408841-large.jpg",
+          "https://upload.wikimedia.org/wikipedia/en/0/04/The_Fosters_season_2_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
         episodeCount: 21,
       },
       {
@@ -10851,7 +12225,7 @@ export const teenSeries: Show[] = [
         finaleEpisode: "Kingdom Come",
         title: "The Fosters, Season 3",
         posterUrl:
-          "https://www.papodecinema.com.br/wp-content/uploads/2020/02/20200221-poster-1.webp",
+          "https://www.moviezine.se/wp-content/uploads/2025/02/large_3e1add0dfd99ade4e0bf3011834e0c8a-MV5BMGNjMTRjMjItYzUzNi00Mzk1LWFkM2MtNmZlODdjZGUwYTQzXkEyXkFqcGdeQXVyNjc4MzM4NTM_._V1.jpg",
         episodeCount: 20,
       },
       {
@@ -10863,7 +12237,7 @@ export const teenSeries: Show[] = [
         finaleEpisode: "Until Tomorrow",
         title: "The Fosters, Season 4",
         posterUrl:
-          "https://www.papodecinema.com.br/wp-content/uploads/2020/02/20200225-poster-2.webp",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPDb11CkESVYA1swg3a7_tBD7qAWDrz6VyyrPkrqsHnoKMYKhcaH63Njug&s=10",
         episodeCount: 20,
       },
       {
@@ -10875,7 +12249,7 @@ export const teenSeries: Show[] = [
         finaleEpisode: "Adoption Day",
         title: "The Fosters, Season 5",
         posterUrl:
-          "https://fr.web.img5.acsta.net/r_1920_1080/pictures/18/06/22/11/01/0828582.jpg",
+          "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13901008_b_v8_ad.jpg",
         episodeCount: 21,
       },
     ],
@@ -10890,6 +12264,38 @@ export const teenSeries: Show[] = [
         creditOrder: 5,
       },
     ],
+    soundtrack: [
+      {
+        id: "the-fosters-season-1-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1,
+      },
+      {
+        id: "the-fosters-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2,
+      },
+      {
+        id: "the-fosters-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3,
+      },
+      {
+        id: "the-fosters-season-4-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 4,
+      },
+      {
+        id: "the-fosters-season-5-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 5,
+      },
+    ], 
     creator: ["Bradley Bredeweg", "Peter Paige"],
     themeSong: ["Where You Belong by Kari Kimmel"],
     composer: ["Alec Puro", "Michael Brook"],
@@ -10922,6 +12328,7 @@ export const teenSeries: Show[] = [
     related: [
       { 
         id: "good-trouble",
+        title: "Good Trouble",
         posterUrl: "https://m.media-amazon.com/images/M/MV5BYjBlZTlkMDUtZGVjYy00MDU3LThjYzYtYWNlNDFkNjdjNGIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
       },
     ],
@@ -10947,7 +12354,7 @@ export const teenSeries: Show[] = [
         firstName: "Jenna",
         lastName: "Hamilton",
         imageUrl:
-          "https://www.tvline.com/tvline/gallery/awkward-preview-does-matty-have-competition-whos-a-third-wheel-and-has-sadie-changed/awkward-season-3-spoilers-1.webp",
+          "https://static.tvmaze.com/uploads/images/medium_portrait/283/708741.jpg",
         promo: true,
       },
       {
@@ -10955,7 +12362,7 @@ export const teenSeries: Show[] = [
         firstName: "Matty",
         lastName: "McKibben",
         imageUrl:
-          "https://static1.purebreak.com.br/articles/3/28/73/@/16923-carnaval-700x700-1.jpg",
+          "https://static.tvmaze.com/uploads/images/medium_portrait/283/708742.jpg",
         promo: true,
       },
       {
@@ -10963,7 +12370,7 @@ export const teenSeries: Show[] = [
         firstName: "Jake",
         lastName: "Rosati",
         imageUrl:
-          "https://i.namu.wiki/i/bjuT7DfxtZRduhsVcwnPFS3k4ZzgLvFKtZWRX4wEBTP8k4X1tTYKOfgNXlnq5ZOSKI7Eq9-dk8MKAfO5ySXK0g.webp",
+          "https://static.tvmaze.com/uploads/images/medium_portrait/283/708754.jpg",
         promo: true,
       },
       {
@@ -10971,14 +12378,14 @@ export const teenSeries: Show[] = [
         firstName: "Tamara",
         lastName: "Kaplan",
         imageUrl:
-          "https://www.formulatv.com/images/articulos/74000/n74866_6ea00232b9-q.jpg",
+          "https://static.tvmaze.com/uploads/images/medium_portrait/283/708753.jpg",
         promo: true,
       },
       {
         id: "ming-huang",
         firstName: "Ming",
         lastName: "Huang",
-        imageUrl: "/images/Awkward/Ming.jpg",
+        imageUrl: "https://static.tvmaze.com/uploads/images/medium_portrait/283/708758.jpg",
         promo: true,
       },
       {
@@ -10986,14 +12393,28 @@ export const teenSeries: Show[] = [
         firstName: "Sadie",
         lastName: "Saxton",
         imageUrl:
-          "https://shesaidmediasaid.wordpress.com/wp-content/uploads/2013/06/molly.jpg",
+          "https://static.tvmaze.com/uploads/images/medium_portrait/283/708755.jpg",
         promo: true,
       },
       {
         id: "lacey-hamilton",
         firstName: "Lacey",
         lastName: "Hamilton",
-        imageUrl: "/images/Awkward/Lacey.jpg",
+        imageUrl: "https://static.tvmaze.com/uploads/images/medium_portrait/283/708750.jpg",
+        promo: true,
+      },
+      {
+        id: "valerie-marks",
+        firstName: "Valerie",
+        lastName: "Marks",
+        imageUrl: "https://static.tvmaze.com/uploads/images/medium_portrait/283/708756.jpg",
+        promo: true,
+      },
+      {
+        id: "lissa-miller",
+        firstName: "Lissa",
+        lastName: "Miller",
+        imageUrl: "https://static.tvmaze.com/uploads/images/medium_portrait/283/708757.jpg",
         promo: true,
       },
       {
@@ -11001,7 +12422,7 @@ export const teenSeries: Show[] = [
         firstName: "Kevin",
         lastName: "Hamilton",
         imageUrl:
-          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXc_MmFjCA8Tda1Y8LuP0j6JDVR-AX-v16hpqLZIWh1l-vH-phZBENtGhyxka6-YfcjZRl8UpIMrLZ5UuVyZvvLzHmG7Rk4ceWUiN2TdYKxmd6w_Z5FGzmwfNPNySKoLIkhHbEzVpUA8Y/s1600/kevin-hamilton-awkward.jpg",
+          "https://static.tvmaze.com/uploads/images/medium_portrait/283/708759.jpg",
         promo: true,
       },
     ],
@@ -11078,6 +12499,38 @@ export const teenSeries: Show[] = [
         episodeCount: 24,
       },
     ],
+    soundtrack: [
+      {
+        id: "awkward-season-1-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1,
+      },
+      {
+        id: "awkward-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2,
+      },
+      {
+        id: "awkward-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3,
+      },
+      {
+        id: "awkward-season-4-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 4,
+      },
+      {
+        id: "awkward-season-5-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 5,
+      },
+    ],
     creator: ["Lauren Iungerich"],
     narrator: ["Ashley Rickards"],
     executive: [
@@ -11141,13 +12594,14 @@ export const teenSeries: Show[] = [
           "https://preview.redd.it/quinni-enid-and-jules-v0-unpled1e9mvc1.jpg?width=724&format=pjpg&auto=webp&s=17ad1dc76580b1e5721bba561eaea6634c25cad7",
         promo: true,
         nickname: ["Quinni"],
+        goesByNickname: true,
       },
       {
         id: "malakai-mitchell",
         firstName: "Malakai",
         lastName: "Mitchell",
         imageUrl:
-          "https://i.redd.it/thomas-weatherall-as-malakai-mitchell-in-heartbreak-high-v0-e0sl1l9hdkdd1.jpg?width=736&format=pjpg&auto=webp&s=b4b1c5c79b443b788717e88e6a1c50fc77391a09",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrOKsFZGze_HsIXsPAFN6IWJ5QE26Q8-ZQtYgR5Yg6ecEuK6eb2XxCjw0&s=10",
         promo: true,
       },
       {
@@ -11158,6 +12612,7 @@ export const teenSeries: Show[] = [
           "https://preview.redd.it/cashs-sexuality-storyline-v0-aijpvk98r2dd1.jpeg?auto=webp&s=d02b1bd005198851e533fcd72e1f93652db66318",
         promo: true,
         nickname: ["Ca$h"],
+        goesByNickname: true,
       },
       {
         id: "spider-white",
@@ -11167,6 +12622,7 @@ export const teenSeries: Show[] = [
           "https://preview.redd.it/what-storyline-spider-v0-v8j5ou07ozgd1.jpeg?auto=webp&s=a536e68d2d33fe37643d523638704d6aa3bdc417",
         promo: true,
         nickname: ["Spider"],
+        goesByNickname: true
       },
       {
         id: "sasha-so",
@@ -11192,6 +12648,7 @@ export const teenSeries: Show[] = [
           "https://www.themarysue.com/wp-content/uploads/2024/04/Dusty-in-Heartbreak-High-season-1.jpg?fit=1200%2C675",
         promo: true,
         nickname: ["Dusty"],
+        goesByNickname: true,
       },
     ],
     cast: [
@@ -11229,8 +12686,22 @@ export const teenSeries: Show[] = [
         finaleEpisode: "Boys Don't Cry",
         title: "Heartbreak High, Season 2",
         posterUrl:
-          "https://pics.filmaffinity.com/heartbreak_high-733286918-large.jpg",
+          "https://static.wikia.nocookie.net/heartbreak-high/images/9/9d/Season2.jpeg/revision/latest?cb=20240517033702",
         episodeCount: 8,
+      },
+    ],
+    soundtrack: [
+      {
+        id: "heartbreak-high-season-1-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1,
+      },
+      {
+        id: "heartbreak-high-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2,
       },
     ],
     creator: ["Hannah Carroll Chapman"],
@@ -11256,6 +12727,7 @@ export const teenSeries: Show[] = [
     related: [
       {
         id: "heartbreak-high-original",
+        title: "Heartbreak High (1994)",
         posterUrl: "https://m.media-amazon.com/images/M/MV5BMmEzMGUzOWYtYTU0MC00MDdmLTlhZWItMWRiNDZhMzY0YzZhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
       }
     ],
@@ -11417,6 +12889,32 @@ export const teenSeries: Show[] = [
         episodeCount: 10,
       },
     ],
+    soundtrack: [
+      {
+        id: "skam-season-1-soundtrack",
+        imgUrl: "https://static.wikia.nocookie.net/tvmovie9471/images/6/69/Eva_.jpg/revision/latest?cb=20170614153918",
+        noImage: false,
+        noSeason: 1,
+      },
+      {
+        id: "skam-season-2-soundtrack",
+        imgUrl: "https://i.pinimg.com/564x/f7/68/7f/f7687f11b9bc99c8e95acf7aa55efac7.jpg",
+        noImage: false,
+        noSeason: 2,
+      },
+      {
+        id: "skam-season-3-soundtrack",
+        imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgdGrapL8fnbUyc7-xbhzFNr5dE9dkkP_xZSUj3pH3fCoPbG8TqZrZCkk&s=10",
+        noImage: false,
+        noSeason: 3,
+      },
+      {
+        id: "skam-season-4-soundtrack",
+        imgUrl: "https://assets.teenvogue.com/photos/59039cc330d229249cb49aba/master/w_1509,h_1509,c_limit/tout.jpg",
+        noImage: false,
+        noSeason: 4,
+      },
+    ],
     creator: ["Julie Andem"],
     executive: [      
       "Håkon Moslet",
@@ -11432,35 +12930,43 @@ export const teenSeries: Show[] = [
     network: ["NRK1"],
     related: [
       {
-        id: "SKAM France", 
+        id: "skam-france",
+        title: "SKAM France", 
         posterUrl: "https://m.media-amazon.com/images/M/MV5BNDk2MWQ1OWItZjgwYS00YjIxLWJhZTUtNzUxYTBlZDE0MDVmXkEyXkFqcGc@._V1_QL75_UY281_CR10,0,190,281_.jpg"
       },
       {
-        id: "DRUCK", 
-        posterUrl: "https://pics.filmaffinity.com/DRUCK_Die_Serie_SKAM_Germany_TV_Series-818378840-large.jpg"
+        id: "druck",
+        title: "DRUCK", 
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BYzFmMGM5NDEtZDY3Ni00ZWQ3LWFiZmItNzJjZmU1ZDFhY2ZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
       },
       {
-        id: "SKAM Italia", 
+        id: "skam-italia",
+        title: "SKAM Italia", 
         posterUrl: "https://m.media-amazon.com/images/M/MV5BYmI5OWMxNzAtMmYzMS00NzFjLTkwZjItMzAwOTA2ZjgzYjNlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
       },
       {
-        id: "SKAM Austin", 
+        id: "skam-austin",
+        title: "SKAM Austin", 
         posterUrl: "https://m.media-amazon.com/images/M/MV5BMjFhMzE4OTUtZjQ5MC00MDcxLTlmZmItYzg2YzRkMmZkMTA4XkEyXkFqcGc@._V1_.jpg"
       },
       {
-        id: "SKAM España", 
+        id: "skam-españa",
+        title: "SKAM España", 
         posterUrl: "https://m.media-amazon.com/images/M/MV5BYmQwMjM0N2MtMDhhMS00NDI5LWIwZTEtNGRlYzJjOTJjZTUwXkEyXkFqcGc@._V1_.jpg"
       },
       {
-        id: "SKAM NL", 
+        id: "skam-nl",
+        title: "SKAM NL", 
         posterUrl: "https://m.media-amazon.com/images/M/MV5BOGI3YzA0N2ItNDc4Yy00ODFkLTgxYTItZDc0MTg2NjZhNTM4XkEyXkFqcGc@._V1_.jpg"
       },
       {
-        id: "wtFOCK", 
+        id: "wtfock",
+        title: "wtFOCK", 
         posterUrl: "https://static.wikia.nocookie.net/wtfock/images/8/85/Wtfockkk.jpg/revision/latest?cb=20200816084912"
       },
       {
-        id: "SRAM", 
+        id: "sram",
+        title: "SRAM", 
         posterUrl: "https://m.media-amazon.com/images/M/MV5BNjk3MGIzZjAtNGE4OC00Mjg3LTk4YTEtNTVmM2RmZDlkNGRmXkEyXkFqcGc@._V1_.jpg"
       },
     ],
@@ -11542,8 +13048,8 @@ export const teenSeries: Show[] = [
         firstName: "Grace",
         lastName: "Wilcox",
         imageUrl:
-          "https://m.media-amazon.com/images/M/MV5BMjg4NzczZmYtMjg4My 0Yzk4LTlhZGMtODlkYmU3MWQ1MGI0XkEyXkFqcGc@._V1_.jpg",
-        promo: true,
+          "https://m.media-amazon.com/images/M/MV5BMjg4NzczZmYtMjg4My00Yzk4LTlhZGMtODlkYmU3MWQ1MGI0XkEyXkFqcGc@._V1_.jpg",
+        promo: false,
       },
     ],
     cast: [
@@ -11628,7 +13134,44 @@ export const teenSeries: Show[] = [
         episodeCount: 24,
       },
     ], 
-    
+    soundtrack: [
+      {
+        id: "party-of-five-season-1-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1,
+      },
+      {
+        id: "party-of-five-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2,
+      },
+      {
+        id: "party-of-five-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3,
+      },
+      {
+        id: "party-of-five-season-4-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 4,
+      },
+      {
+        id: "party-of-five-season-5-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 5,
+      },
+      {
+        id: "party-of-five-season-6-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 6,
+      },
+    ],
     creator: [
       "Christopher Keyser",
       "Amy Lippman",
@@ -11664,6 +13207,7 @@ export const teenSeries: Show[] = [
     related: [
       {
        id:  "time-of-your-life",
+       title: "Time of Your Life",
        posterUrl: "https://m.media-amazon.com/images/M/MV5BNGNmMGEyYzMtMmU0Zi00NzMyLTg5Y2ItYzNlM2Y4ZDZhNzlmXkEyXkFqcGc@._V1_.jpg"
       }
     ],

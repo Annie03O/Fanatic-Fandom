@@ -19,7 +19,7 @@ export function formatFamily(ship: Relationship) {
         }
 
         ship.older === true ? `${ship.name} (Older ${base})` : `${ship.name} (Younger ${base})` 
-      return base;
+      return ship.name + " " + `(${base})`;
     }
     const tof = ship.typeOfFamily;
 
@@ -34,14 +34,14 @@ export function formatFamily(ship: Relationship) {
         
       // mest specifikt först
       if (tof === "Biological" && ship.adopted) return `${ship.name} (Birth ${parent})`;
-      if (tof === "Biological") return `${ship.name} (${parent})`;
+      if (tof === "Biological" ) return `${ship.name} (${parent})`;
         
       if (tof === "Step") return `${ship.name} (Step ${parent})`;
       if (tof === "Adoptive") return `${ship.name} (Adoptive ${parent})`;
       if (tof === "God") return `${ship.name} (God ${parent})`;
       if (tof === "In-Law") return `${ship.name} (${parent} In Law)`;
         
-      return parent;
+      return ship.name + " " + `(${parent})`;
     }
 
     if (ship.family === "Child") {
@@ -62,7 +62,7 @@ export function formatFamily(ship: Relationship) {
       if (tof === "God") return `${ship.name} (God ${child})`;
       if (tof === "In-Law") return `${ship.name} (${child} In Law)`;
 
-      return child;
+      return ship.name + " " + `(${child})`;
     }
     if (ship.extended === true) {  
       const side = ship.ifExtended === "Maternal" ? "Maternal" : "Paternal"
@@ -80,7 +80,7 @@ export function formatFamily(ship: Relationship) {
           if (tof === "Step") return `${ship.name} (${side} Step ${base})`;
           if (tof === "Adoptive") return `${ship.name} (${side} Adoptive ${base})`
       
-        return base;
+        return ship.name + " " + `(${base})`;
       }
     
       if (ship.family === "Cousin") {
@@ -91,7 +91,7 @@ export function formatFamily(ship: Relationship) {
         if (tof === "Step") return `${ship.name} (${side} Step Cousin)`;
         if (tof === "Adoptive") return `${ship.name} (${side} Adoptive Cousin)`;
       
-        return "Cousin";
+        return ship.name + " " + side;
       }
       
 
@@ -99,12 +99,12 @@ export function formatFamily(ship: Relationship) {
         const base = ship.gender === "F" ? "Grandmother" : "Grandfather"
 
         // mest specifikt först
-        if (tof === "Biological" && ship.adopted) return `${ship.name} (Birth Cousin)`;
+        if (tof === "Biological" && ship.adopted) return `${ship.name} (Birth )`;
         if (tof === "Biological") return `${ship.name} (Cousin})`;
         if (tof === "Step") return `${ship.name} (Step Cousin)`;
         if (tof === "Adoptive") return `${ship.name} (Adoptive Cousin)`;
       
-        return "Cousin";
+        return ship.name + " " + `(${base})`;
       }
     }
 

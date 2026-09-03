@@ -29,12 +29,12 @@ export const CharacterInfobox = ({ character }: Props) => {
       <h2 className="text-3xl text-center">{displayName}</h2>
 
       <img
-        src={characterWithInfobox.imageUrl}
+        src={characterWithInfobox.posterUrl}
         alt={characterWithInfobox.firstName}
         className="w-full h-auto"
       />
 
-      <section className="border text-lg mt-3">
+      <section className="border text-md mt-3">
         {box.fields.map((item) => {
           if (!item) return null;
 
