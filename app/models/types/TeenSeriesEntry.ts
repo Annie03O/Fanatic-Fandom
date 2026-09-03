@@ -31,4 +31,8 @@ export type TeenSeriesEntry = {
 
   // ✅ NYTT
   cast?: CastMember[];
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 4b79439 (Cleaning worktree)

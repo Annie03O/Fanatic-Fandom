@@ -41,4 +41,8 @@ export const SeriesInfobox = ({type, show}: Props) => {
       </section>
     </aside>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4b79439 (Cleaning worktree)

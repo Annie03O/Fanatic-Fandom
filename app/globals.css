@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+<<<<<<< HEAD
 :root {
 <<<<<<< HEAD
   --background: hsl(257, 100%, 71%);
@@ -38,3 +39,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 >>>>>>> d847065 (Initial commit from Create Next App)
 }
+=======
+body {
+  color: #fff;
+}
+>>>>>>> 4b79439 (Cleaning worktree)

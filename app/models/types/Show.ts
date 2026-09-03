@@ -1,7 +1,8 @@
-import { Character } from "./Character";
+
 import { Season } from "./Season";
-import { CastMember,  } from "./TeenSeriesEntry";
-import { Infobox,  } from "./Infobox";
+import { CastMember,  } from "./TeenSeriesEntry.js";
+import { Character } from "./Character";
+import { Soundtrack } from "./Soundtrack";
 
 export type Show = {
   id: string;
@@ -31,6 +32,6 @@ export type Show = {
   prodLocation: string[];
   prodCompanies: string[];
   network: string[];
-  related?: string[]; 
-  
+  related?: Pick<Show, "posterUrl" | "id"| "title">[]; 
+  soundtrack: Soundtrack[];
 };

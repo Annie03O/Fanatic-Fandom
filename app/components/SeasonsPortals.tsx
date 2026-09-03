@@ -2,7 +2,11 @@
 
 import { useParams, useRouter } from "next/navigation";
 import type { Show } from "../models/types/Show";
+<<<<<<< HEAD
 import { teenSeriesTop50WithSlug } from "../functions/teenSeriesTop50WithSlug";
+=======
+import { teenSeriesWithSlug } from "../functions/WithSlug/teenSeriesWithSlug";
+>>>>>>> 4b79439 (Cleaning worktree)
 import { getTwoRowSeasLayout as getTwoRowLayout } from "../functions/getTwoRowSeasLayout";
 import { useEffect, useRef } from "react";
 
@@ -12,6 +16,7 @@ export const SeasonsPortals = ({ show, page }: Props) => {
   const { slug } = useParams<{ slug: string }>();
   const router = useRouter();
 
+<<<<<<< HEAD
   
 
 
@@ -20,6 +25,9 @@ export const SeasonsPortals = ({ show, page }: Props) => {
 
   const seasons = series.seasons ?? [];
 
+=======
+  const seasons = show?.seasons ?? [];
+>>>>>>> 4b79439 (Cleaning worktree)
   // På startsidan: visa max 8 om det finns fler än 10
   const visible =
     page === false && seasons.length > 10 ? seasons.slice(0, 8) : seasons
@@ -33,6 +41,7 @@ useEffect(() => {
 }, [visible.length]);
 
 
+<<<<<<< HEAD
   const pushSeason = (id: string) => router.push(`/teen/${series.slug}/${id}`);
 
   const colsClass = (n: number) => {
@@ -40,6 +49,13 @@ useEffect(() => {
     return cols === 1 
       ? "grid-cols-1"
       : cols === 2
+=======
+  const pushSeason = (id: string) => router.push(`/teen/${slug}/${id}`);
+
+  const colsClass = (n: number) => {
+    const cols = Math.max(1, Math.min(5, n)); // clamp 1..8
+    return cols === 2
+>>>>>>> 4b79439 (Cleaning worktree)
       ? "md:grid-cols-2"
       : cols === 3
       ? "md:grid-cols-3"
@@ -87,8 +103,15 @@ useEffect(() => {
   const renderRow = (items: typeof visible, cols: number) => (
     <section className={`grid-cols-1 ${gridBase} ${colsClass(cols)} mt-4`}>
       {items.map((s) => (
+<<<<<<< HEAD
         <section
           key={s.id}
+=======
+        <button
+          key={s.id}
+          type="button"
+          onClick={() => pushSeason(s.id!)}
+>>>>>>> 4b79439 (Cleaning worktree)
           className="border w-fit"
         >
           <article className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative"}>
@@ -100,8 +123,13 @@ useEffect(() => {
               className={`${page === true ? "h-[250px] w-[200px]" : "w-[250px] md:h-[200px] md:w-[150px]"} object-cover object-center`}
             />
           </article>
+<<<<<<< HEAD
           <section className="text-lg text-center">Season {s.seasonNumber}</section>
         </section>
+=======
+          <section className="text-lg">Season {s.seasonNumber}</section>
+        </button>
+>>>>>>> 4b79439 (Cleaning worktree)
       ))}
     </section>
   );
@@ -109,6 +137,13 @@ useEffect(() => {
   const renderGridFor = (items: typeof visible) => {
     const layout = getTwoRowLayout(items.length);
 
+<<<<<<< HEAD
+=======
+    console.log("items:", items.length);
+    console.log("layout:", layout);
+
+
+>>>>>>> 4b79439 (Cleaning worktree)
     const top = items.slice(0, layout.splitAt);
 
     const middle =
@@ -163,7 +198,11 @@ useEffect(() => {
         )}
 
         {/* VIEW ALL */}
+<<<<<<< HEAD
         {/* <section className="flex items-center justify-center mt-4">
+=======
+        <section className="flex items-center justify-center mt-4">
+>>>>>>> 4b79439 (Cleaning worktree)
           {page === false && seasons.length > 10 ? (
             <button
               className="underline"
@@ -172,8 +211,16 @@ useEffect(() => {
               View All Seasons
             </button>
           ) : null}
+<<<<<<< HEAD
         </section> */}
       </section>
     </section>
   );
 };
+=======
+        </section>
+      </section>
+    </section>
+  );
+};
+>>>>>>> 4b79439 (Cleaning worktree)

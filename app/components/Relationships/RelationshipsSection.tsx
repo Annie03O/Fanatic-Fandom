@@ -53,7 +53,11 @@ export const RelationshipsSection = ({ relationships }: Props) => {
           <section key={key}>
             <h2 className="text-3xl">{title}</h2>
 
+<<<<<<< HEAD
             <section className="mt-3 flex flex-col gap-3">
+=======
+            <section key={title} className="mt-3 flex flex-col gap-3">
+>>>>>>> 4b79439 (Cleaning worktree)
               {items.map((r) => (
                 <ShipCard key={r.id} item={r} />
               ))}
@@ -63,4 +67,8 @@ export const RelationshipsSection = ({ relationships }: Props) => {
       })}
     </section>
   );
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 4b79439 (Cleaning worktree)

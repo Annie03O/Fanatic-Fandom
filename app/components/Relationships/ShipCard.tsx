@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { generateLabel } from "@/app/functions/Format/generateLabel";
+=======
+import { generateLabel } from "@/app/functions/Format/generateLabels";
+>>>>>>> 4b79439 (Cleaning worktree)
 import { Relationship } from "@/app/models/types/Relationship";
 
 type Props = {
@@ -28,4 +32,8 @@ export const ShipCard = ({ item }: Props) => {
       </section>
     </section>
   );
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 4b79439 (Cleaning worktree)

@@ -22,7 +22,8 @@ export const teenSeries: Show[] = [
         lastName: "Walsh",
         gender: "M",
         personality: "Brandon Walsh is portrayed as the moral center of Beverly Hills, 90210. He is intelligent, thoughtful, and deeply principled, often guided by a strong sense of right and wrong. Throughout the series, Brandon consistently tries to do what he believes is fair and ethical, even when it puts him in difficult situations. He is highly responsible and mature for his age, frequently acting as a voice of reason among his friends. Brandon often takes on leadership roles, whether as a student journalist, class president, or community advocate. He believes strongly in standing up for others and is not afraid to challenge authority when he feels something is unjust. Socially, Brandon is charismatic and approachable. He forms close relationships easily and is well-liked by both peers and adults. His empathy allows him to connect with people from different backgrounds, and he is usually willing to listen before judging. However, Brandon is not without flaws. He can be stubborn, self-righteous, and overly idealistic. At times, he struggles with seeing perspectives that differ from his own and may come across as judgmental. His desire to 'do the right thing' can sometimes turn into moral superiority, creating tension in his relationships. Emotionally, Brandon is loyal and caring, especially toward his twin sister Brenda and his close friends. He values honesty and commitment in romantic relationships but sometimes finds it difficult to balance his ideals with real-life complexities. Overall, Brandon Walsh represents the classic 'good guy' archetype: principled, compassionate, and driven by integrity, while still learning through mistakes and personal growth.",        
-        imageUrl: "https://i.pinimg.com/736x/dc/46/4f/dc464f06c9d2bcba9a30b528b4b91fba--s-tv-shows-jason-priestley.jpg",
+        imageUrl: "https://preview.redd.it/best-thing-a-character-has-done-round-1-brandon-walsh-make-v0-5bufh6k7gcwd1.png?width=640&crop=smart&auto=webp&s=3420651eed7ff647c83726b3805fb7d38d54d02f",
+        posterUrl: "https://i.pinimg.com/736x/dc/46/4f/dc464f06c9d2bcba9a30b528b4b91fba--s-tv-shows-jason-priestley.jpg",
         promo: true,
         nickname: [
           "Bran ",
@@ -412,7 +413,8 @@ export const teenSeries: Show[] = [
         id: "brenda-walsh",
         firstName: "Brenda",
         lastName: "Walsh",
-        imageUrl:
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZqEXsN_yS6oHvCE5s5gFA8_NUamsBmFORM4N16UY9phr0eNlSso5yp3AF&s=10",
+        posterUrl:
           "https://images6.fanpop.com/image/photos/41300000/Brenda-Walsh-beverly-hills-90210-41373235-727-936.jpg",
         promo: true,
         personality: "Brenda Walsh is a passionate, sensitive, and idealistic young woman who experiences life with emotional intensity. She is deeply romantic, loyal, and creative, but also vulnerable to jealousy and heartbreak. While her strong feelings sometimes lead to impulsive behavior, they also fuel her growth into a confident and independent person. Brenda’s journey is about learning to balance love, self-respect, and ambition in a world that often undervalues emotional honesty.",        
@@ -455,6 +457,7 @@ export const teenSeries: Show[] = [
             id: "brandon-brenda",
             type: "Family",
             name: "Brandon Walsh",
+            biological: true,
             twin: true,
             family: "Sibling", 
             description: ["Brenda and Brandon Walsh are twin siblings who move with their parents from Minneapolis to Beverly Hills at the beginning of Beverly Hills, 90210. From the start, their relationship is shown as close and supportive, with Brandon often acting as Brenda’s confidant and grounding influence. Brandon plays a stabilizing role in Brenda’s life as she struggles to adjust to the new social dynamics of Beverly Hills, develop friendships, and navigate her romantic relationships. Brenda openly tells Brandon at one point that he is her best friend, and Brandon expresses that he hopes they always remain that close. Though the show focuses more heavily on Brenda’s own storylines—especially her high-profile romance with Dylan McKay and the accompanying family tensions—her bond with Brandon remains a consistent part of her character arc. Brandon cares deeply for Brenda, supports her through personal ups and downs, and is there for her during major moments in the early seasons. Overall, their relationship is portrayed as a strong familial bond rather than a romantic one, grounded in mutual support, shared experience as newcomers in Beverly Hills, and brother-sister loyalty."], 
@@ -712,7 +715,8 @@ export const teenSeries: Show[] = [
         id: "dylan-mckay",
         firstName: "Dylan",
         lastName: "McKay",
-        imageUrl:
+        imageUrl: "https://decider.com/wp-content/uploads/2015/10/luke-perry.png",
+        posterUrl:
           "https://hips.hearstapps.com/hmg-prod/images/t8dbehi-ec020-1551739712.jpg",
         personality: "Dylan McKay is a brooding, intelligent, and emotionally complex character who often appears independent and detached. Shaped by a troubled upbringing and personal loss, he struggles with trust, commitment, and vulnerability. Although he values freedom and self-reliance, he deeply desires emotional connection and becomes intensely attached in relationships. Dylan is thoughtful and introspective, but he also has a self-destructive side, often turning to unhealthy coping mechanisms when overwhelmed. Despite his flaws, he is loyal, compassionate, and deeply sensitive beneath his tough exterior.",
         promo: true, 
@@ -1127,7 +1131,8 @@ export const teenSeries: Show[] = [
         id: "kelly-taylor",
         firstName: "Kelly",
         lastName: "Taylor",
-        imageUrl:
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Kelly90210S3.jpg/250px-Kelly90210S3.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+        posterUrl:
           "https://ilarge.lisimg.com/image/16324877/740full-kelly-taylor.jpg",
         promo: true, 
         nickname: [
@@ -1147,7 +1152,6 @@ export const teenSeries: Show[] = [
             started: "1993",
             ended: "1997"
           }, 
-
           {
             place: "West Beverly High School",
             hasEnded: true,
@@ -1489,7 +1493,8 @@ export const teenSeries: Show[] = [
         id: "donna-martin",
         firstName: "Donna",
         lastName: "Martin",
-        imageUrl:
+        imageUrl: "https://www.tvline.com/img/gallery/90210-star-tori-spelling-was-happy-to-lose-this-aspect-of-donnas-character/intro-1765380471.jpg",
+        posterUrl:
           "https://i.pinimg.com/originals/c1/33/61/c13361f9c77f51bf5aeae714e1a984fa.jpg",
         promo: true,
       },
@@ -1497,7 +1502,8 @@ export const teenSeries: Show[] = [
         id: "david-silver",
         firstName: "David",
         lastName: "Silver",
-        imageUrl:
+        imageUrl: "https://www.soapsworld.de/cms/wp-content/uploads/rollenbilder/beverly-hills-90210/brian-austin-green-300x200.jpg",
+        posterUrl:
           "https://image.gala.de/20405798/t/BO/v16/w960/r0/-/beverly-hills08--4761426-.jpg",
         promo: true,
       },
@@ -1505,7 +1511,8 @@ export const teenSeries: Show[] = [
         id: "steve-sanders",
         firstName: "Steve",
         lastName: "Sanders",
-        imageUrl:
+        imageUrl: "https://i.pinimg.com/originals/56/55/02/565502443ca28fb4be3de51110b6c1ac.jpg",
+        posterUrl:
           "https://i.pinimg.com/originals/31/ea/6d/31ea6d5b5b8001d2b20dba33abe1a441.jpg",
         promo: true,
       },
@@ -1513,7 +1520,8 @@ export const teenSeries: Show[] = [
         id: "andrea-zuckerman",
         firstName: "Andrea",
         lastName: "Zuckerman",
-        imageUrl:
+        imageUrl: "https://www.corriere.it/methode_image/2020/02/28/Spettacoli/Foto%20Spettacoli/12.jpg" ,
+        posterUrl:
           "https://tse2.mm.bing.net/th/id/OIP.SkdK3_MYs3TidK8ZJw2fUwHaK3?rs=1&pid=ImgDetMain&o=7&rm=3",
         promo: true,
       },
@@ -1521,48 +1529,56 @@ export const teenSeries: Show[] = [
         id: "valerie-malone",
         firstName: "Valerie",
         lastName: "Malone",
-        imageUrl:
-          "https://imgix.billedbladet.dk/2022-11-08/megaetsdbehiec086_200801-2.jpg?auto=format,compress&fit=min&crop=faces,entropy",
+        imageUrl: "https://preview.redd.it/valerie-malone-face-card-v0-l560e1gtgq4d1.jpg?width=640&crop=smart&auto=webp&s=1c9c6bb3854e3dcfe8739f1582783ff11a31d1b3",
+        posterUrl: "https://imgix.billedbladet.dk/2022-11-08/megaetsdbehiec086_200801-2.jpg?auto=format,compress&fit=min&crop=faces,entropy",
         promo: true,
       },
       {
         id: "scott-scanlon",
         firstName: "Scott",
         lastName: "Scanlon",
-        imageUrl:
-          "https://static.tvmaze.com/uploads/images/medium_portrait/112/281451.jpg",
+        imageUrl: "https://m.media-amazon.com/images/M/MV5BNDQzOTJjZGYtZTM2ZS00YzFhLThmOWMtMTI1ZGQxMTFmZDJlXkEyXkFqcGc@._V1_.jpg",
+        posterUrl: "https://static.tvmaze.com/uploads/images/medium_portrait/112/281451.jpg",
         promo: true,
       },
       {
         id: "claire-arnold",
         firstName: "Claire",
         lastName: "Arnold",
-        imageUrl:
-          "https://i.pinimg.com/736x/b8/1c/90/b81c903dd6df2c81b7e51ca46001a4aa--kathleen-robertson-beverly-hills-.jpg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFfLrTmFxUeW87ntyC2Bg9YK_kbyCEZ5F0IQ0ERPD02pjdH0IVRoBEg9hr&s=10",
+        posterUrl: "https://i.pinimg.com/736x/b8/1c/90/b81c903dd6df2c81b7e51ca46001a4aa--kathleen-robertson-beverly-hills-.jpg",
         promo: true,
       },
       {
         id: "jesse-vasquez",
         firstName: "Jesse",
         lastName: "Vasquez",
-        imageUrl:
-          "https://tse3.mm.bing.net/th/id/OIP.Bq5BY5rGXGggF0YD84df3AHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2AQTnXilh1TQORSI7THbCbTMNiVQB52mG7-e5ZTIkvW0bPTKyBrOOWkg&s=10",
+        posterUrl:  "https://tse3.mm.bing.net/th/id/OIP.Bq5BY5rGXGggF0YD84df3AHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
         promo: true,
       },
       {
         id: "carly-reynolds",
         firstName: "Carly",
         lastName: "Reynolds",
-        imageUrl:
-          "https://vignette.wikia.nocookie.net/90210/images/7/7d/Carlyreynolds.jpg/revision/latest?cb=20190811035903",
+        imageUrl: "https://www.soapsworld.de/cms/wp-content/uploads/rollenbilder/beverly-hills-90210/hilary-swank-300x200.jpg",
+        posterUrl:  "https://vignette.wikia.nocookie.net/90210/images/7/7d/Carlyreynolds.jpg/revision/latest?cb=20190811035903",
+        promo: true,
+      },
+      {
+        id: "janet-sosna",
+        firstName: "Janet",
+        lastName: "Sosna",
+        imageUrl: "https://preview.redd.it/matt-appearing-on-the-show-wins-worst-thing-a-character-has-v0-gvq24e52rk3e1.jpg?width=451&format=pjpg&auto=webp&s=89baf17e1c2aefade7df9cce8b8ef3c4198f2ac3",
+        posterUrl:  "https://static.wikia.nocookie.net/90210/images/8/84/Janet.png/revision/latest/scale-to-width-down/1200?cb=20190326174017",
         promo: true,
       },
       {
         id: "gina-kincaid",
         firstName: "Gina",
         lastName: "Kincaid",
-        imageUrl:
-          "https://i.pinimg.com/originals/64/24/4c/64244c5fed1d5c4419d1960bef2b707f.jpg",
+        imageUrl: "https://www.televisionofyore.com/uploads/9/3/0/3/9303799/9-22-inside_orig.jpeg",
+        posterUrl: "https://i.pinimg.com/originals/64/24/4c/64244c5fed1d5c4419d1960bef2b707f.jpg",
         promo: true,
       },
       {
@@ -1570,15 +1586,15 @@ export const teenSeries: Show[] = [
         firstName: "Noah",
         lastName: "Hunter",
         imageUrl:
-          "https://tse1.explicit.bing.net/th/id/OIP._Kf7iP8bx6JFx7yJl3RWzQHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3",
+          "https://preview.redd.it/describe-one-word-about-noah-hunter-v0-upxrga7s5toe1.jpeg?auto=webp&s=bb9662db1abb03047b17f1409c5652dce8b4cbc8",
         promo: true,
       },
       {
         id: "matt-durning",
         firstName: "Matt",
         lastName: "Durning",
-        imageUrl:
-          "https://th.bing.com/th/id/R.895886c05ef3c72f1ef9c4855cd45214?rik=4v0sXHC5%2bIgG9Q&riu=http%3a%2f%2fwww.bh90210.co.uk%2fphotos%2findividual%2fImages%2fmatt003.jpg&ehk=70%2biEgoIk49KH5s7ncZsgcAGMgiU6cgSsSPDOP3m6%2b0%3d&risl=&pid=ImgRaw&r=0",
+        imageUrl: "https://i.redd.it/mzk35rnpfydb1.jpg",
+        posterUrl: "https://th.bing.com/th/id/R.895886c05ef3c72f1ef9c4855cd45214?rik=4v0sXHC5%2bIgG9Q&riu=http%3a%2f%2fwww.bh90210.co.uk%2fphotos%2findividual%2fImages%2fmatt003.jpg&ehk=70%2biEgoIk49KH5s7ncZsgcAGMgiU6cgSsSPDOP3m6%2b0%3d&risl=&pid=ImgRaw&r=0",
         promo: true,
       },
     ],
@@ -1708,7 +1724,79 @@ export const teenSeries: Show[] = [
         episodeCount: 27,
       },
     ],
-      
+    soundtrack: [
+      {
+        id: "beverly-hills-90210-soundtrack-s1",
+        type: "soundtrack",
+        imgUrl: "https://play-lh.googleusercontent.com/bLaFwaaFhgC0EaHjxMXY4na390kB-FZ7ZqD1LzDMzwhz5dtXtxTj075raYPi76fFIHn8bbQ3V3O7LhlWpw",  
+        noSeason: 1,
+        noImage: false,
+        
+      },
+      {
+        id: "beverly-hills-90210-soundtrack-s2",
+        type: "soundtrack",
+        imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/19/5e/6d/195e6d25-689c-be3b-8afc-ba6cb85aad85/BeverlyHills90210_S02_CoverArt_3000x3000.png/400x400bb.jpg",  
+        noSeason: 2,
+        noImage: false,
+      },
+      {
+        id: "beverly-hills-90210-soundtrack-s3",
+        type: "soundtrack",
+        imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/8f/43/a7/8f43a7e1-d828-64f6-a504-f576ab2a9586/BeverlyHills90310_S03_CoverArt_3000x3000.png/400x400bb.jpg",  
+        noSeason: 3,
+        noImage: false,
+      },
+      {
+        id: "beverly-hills-90210-soundtrack-s4",
+        type: "soundtrack",
+        imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/2e/0b/87/2e0b87bf-fd13-4f5f-c6bf-101b924b75e7/BeverlyHills90310_S04_CoverArt_3000x3000.png/400x400bb.jpg",  
+        noSeason: 4,
+        noImage: false,
+      },
+      {
+        id: "beverly-hills-90210-soundtrack-s5",
+        type: "soundtrack",
+        imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/0d/9a/5e/0d9a5e22-9820-804b-4807-4228c213d533/BeverlyHills90310_S05_CoverArt_3000x3000.png/400x400bb.jpg",  
+        noSeason: 5,
+        noImage: false,
+      },
+      {
+        id: "beverly-hills-90210-soundtrack-s6",
+        type: "soundtrack",
+        imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/3c/33/0f/3c330f52-dffa-e43a-05a8-9f99f7b14559/BeverlyHills90310_S06_CoverArt_3000x3000.png/400x400bb.jpg",  
+        noSeason: 6,
+        noImage: false,
+      },
+      {
+        id: "beverly-hills-90210-soundtrack-s7",
+        type: "soundtrack",
+        imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/92/cc/82/92cc82ba-df4d-f702-cc31-a41515913335/BeverlyHills90310_S07_CoverArt_3000x3000.png/400x400bb.jpg",  
+        noSeason: 7,
+        noImage: false,
+      },
+      {
+        id: "beverly-hills-90210-soundtrack-s8",
+        type: "soundtrack",
+        imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/42/aa/ec/42aaec0b-590d-b7e2-affe-757fdfda4f51/BeverlyHills90310_S08_CoverArt_3000x3000.png/400x400bb.jpg",  
+        noSeason: 8,
+        noImage: false,
+      },
+      {
+        id: "beverly-hills-90210-soundtrack-s9",
+        type: "soundtrack",
+        imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/54/88/5b/54885b62-bfec-c3b8-cac1-b5c6641d7747/BeverlyHills90310_S09_CoverArt_3000x3000.png/400x400bb.jpg",  
+        noSeason: 9,
+        noImage: false,
+      },
+      {
+        id: "beverly-hills-90210-soundtrack-s10",
+        type: "soundtrack",
+        imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/2a/f3/d6/2af3d6ed-d3bf-d95f-0228-5f8a8515f9be/BeverlyHills90310_S10_CoverArt_3000x3000.png/400x400bb.jpg",  
+        noSeason: 10,
+        noImage: false,
+      },
+    ],
     creator: ["Darren Starr"],
     composer: ["John E. Davis"],
     executive: [
@@ -1772,7 +1860,23 @@ export const teenSeries: Show[] = [
       "Spelling Television,",
     ],
     network: ["Fox"],
-    related: ["Melrose Place", "90210", "BH90210"],
+    related: [
+      {
+        id: "melrose-place",
+        title: "Melrose Place",
+        posterUrl:  "https://m.media-amazon.com/images/M/MV5BNTJmYmVkYTAtNDkxNC00MDMzLTk4OTgtNDYxNzRkMGNmMDFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", 
+      }, 
+      {
+        id: "90210",
+        title: "90210",
+        posterUrl: "https://flxt.tmsimg.com/assets/p186593_b_v8_ab.jpg",
+      }, 
+      {
+        id: "BH90210",
+        title: "BH 90210",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BOTVmZDljN2QtNGE4Yi00NTE4LTliMzMtMmFlZjViOWMyNGRiXkEyXkFqcGc@._V1_.jpg"
+      }
+    ],
   },
   {
     id: "90210-2008",
@@ -1830,6 +1934,7 @@ export const teenSeries: Show[] = [
       },
       {
         id: "erin-silver",
+        label: "Silver",
         firstName: "Erin",
         lastName: "Silver",
         imageUrl:
@@ -1847,9 +1952,10 @@ export const teenSeries: Show[] = [
       },
       {
         id: "teddy-montgomery",
-        firstName: "Teddy",
+        label: "Teddy",
+        firstName: "Theodore",
         lastName: "Montgomery",
-        imageUrl: "https://melthomas.wordpress.com/wp-content/uploads/2011/03/teddy-90210.jpg",
+        imageUrl: "https://globalnews.ca/wp-content/uploads/2010/09/f10bb264-cab8-4627-b235-3efaed5d31f8.jpg?quality=65&strip=all",
         promo: true,
       },
       {
@@ -1859,6 +1965,38 @@ export const teenSeries: Show[] = [
         imageUrl:
           "https://nowhitenoise.com/wp-content/uploads/2012/05/gillian-zinser.jpg",
         promo: true,
+      },
+    ],
+    soundtrack: [
+      {
+        id: "90210-soundtrack-s1",
+        type: "soundtrack",
+        noSeason: 1,
+        noImage: true, 
+      },
+      {
+        id: "90210-soundtrack-s2",
+        type: "soundtrack",
+        noSeason: 2,
+        noImage: true,
+      },
+      {
+        id: "90210-soundtrack-s3",
+        type: "soundtrack",
+        noSeason: 3,
+        noImage: true,
+      },
+      {
+        id: "90210-soundtrack-s4",
+        type: "soundtrack",
+        noSeason: 4, 
+        noImage: true,
+      },
+      {
+        id: "90210-soundtrack-s5",
+        type: "soundtrack",
+        noSeason: 5,  
+        noImage: true,
       },
     ],
     cast: [
@@ -1977,11 +2115,21 @@ export const teenSeries: Show[] = [
     ],
     network: ["The CW"],
     related: [
-      "Beverly Hills, 90210",
-      "Melrose Place",
-      "BH90210",
-      "Models Inc.",
-      "Melrose Place (2009 TV series)",
+        {
+          id: "beverly-hills-90210",
+          title: "Beverly Hills, 90210",
+          posterUrl: "https://static1.colliderimages.com/wordpress/wp-content/uploads/sharedimages/2024/04/beverly-hills-90210-tv-show-poster.jpg?q=49&fit=contain&w=480&dpr=2",
+        },
+        {
+          id: "melrose-place",
+          title: "Melrose Place",
+          posterUrl:  "https://m.media-amazon.com/images/M/MV5BNTJmYmVkYTAtNDkxNC00MDMzLTk4OTgtNDYxNzRkMGNmMDFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", 
+        },  
+        {
+          id: "BH90210",
+          title: "BH: 90210",
+          posterUrl: "https://m.media-amazon.com/images/M/MV5BOTVmZDljN2QtNGE4Yi00NTE4LTliMzMtMmFlZjViOWMyNGRiXkEyXkFqcGc@._V1_.jpg"
+        }
     ],
   },
   {
@@ -2003,64 +2151,66 @@ export const teenSeries: Show[] = [
         id: "ryan-atwood",
         firstName: "Ryan",
         lastName: "Atwood",
-        imageUrl:
-          "https://i.redd.it/early-s2-promo-shoot-bts-v0-nfcob4ose2ca1.jpg?width=1600&format=pjpg&auto=webp&s=ed0c5e8bb86305c7b5d1b3113bbaaa899da70584",
+        imageUrl: "https://assets.mycast.io/characters/ryan-atwood-1318730-normal.jpg",
+        posterUrl: 
+          "https://static.wikia.nocookie.net/ocwikia/images/f/f3/RyanAtwood-S4-3.jpg/revision/latest?cb=20220919041217",
         promo: true,
       },
       {
         id: "seth-cohen",
         firstName: "Seth",
         lastName: "Cohen",
-        imageUrl:
-          "https://preview.redd.it/im-a-guy-but-isnt-it-strange-that-the-actor-for-seth-is-v0-bn7ns7a1w9bf1.jpeg?auto=webp&s=2982c5d4a965370c437df2af7cb68616edc2290c",
+        imageUrl: "https://i.pinimg.com/236x/9e/5a/d1/9e5ad1ef359e49b2e99ba1547d0f9d47.jpg",
+        posterUrl:
+          "https://static.wikia.nocookie.net/ocwikia/images/c/c4/SethCohen-S3-3.jpg/revision/latest?cb=20220906053105",
         promo: true,
       },
       {
         id: "marissa-cooper",
         firstName: "Marissa",
         lastName: "Cooper",
-        imageUrl:
-          "https://i.pinimg.com/originals/27/2a/4f/272a4f844e4d2e58c95649ab4d2a7aca.jpg",
+        imageUrl:"https://imagenes.elpais.com/resizer/v2/SYUVM35P45ASPK3Y5USJBOUBZE.jpg?auth=412f3798aac447693159e6878954b2a0173f5e8c07df61ccd62402a3f21c3b4e&width=1960&height=1470&smart=true",
+        posterUrl:  "https://upload.wikimedia.org/wikipedia/en/4/47/Marissa_cooper.JPG?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
         promo: true,
       },
       {
         id: "summer-roberts",
         firstName: "Summer",
         lastName: "Roberts",
-        imageUrl:
-          "https://preview.redd.it/the-tier-list-summer-roberts-v0-2wgdcjuzdyvf1.png?width=474&format=png&auto=webp&s=7372251132e75d7406758430054373de3ab5c0db",
+        imageUrl: "https://i.pinimg.com/736x/a4/1c/cf/a41ccfc65666d6fc3406b4ea969aaffc.jpg",
+        posterUrl:  "https://static.wikia.nocookie.net/ocwikia/images/2/23/SummerRoberts-S4-0.jpg/revision/latest?cb=20220717090058",
         promo: true,
       },
       {
         id: "sandy-cohen",
         firstName: "Sandy",
         lastName: "Cohen",
-        imageUrl:
-          "https://i.pinimg.com/originals/33/c6/27/33c627bfc02dcad6742982f5e62058ab.jpg",
+        imageUrl: "https://assets.mycast.io/characters/sandy-cohen-6509919-normal.jpg",
+        posterUrl:  "https://static.wikia.nocookie.net/ocwikia/images/9/92/SandyCohen-S1-0.jpg/revision/latest?cb=20220720204944",
         promo: true,
       },
       {
         id: "kirsten-cohen",
         firstName: "Kirsten",
         lastName: "Cohen",
-        imageUrl:
-          "https://images.mubicdn.net/images/cast_member/28212/cache-257139-1505764404/image-w856.jpg?size=300x",
+        imageUrl: "https://imgix.bustle.com/uploads/image/2018/5/30/a464fba0-9a06-48fc-8607-50e6057dc3cd-screen-shot-2018-05-30-at-44009-pm.png?w=1200&h=900&fit=crop&crop=faces&fm=jpg",
+        posterUrl: "https://static.wikia.nocookie.net/ocwikia/images/e/ec/KirstenCohen-S3.jpg/revision/latest?cb=20220716140000",
         promo: true,
       },
       {
         id: "julie-cooper",
         firstName: "Julie",
         lastName: "Cooper",
-        imageUrl:
-          "https://imagebox.cz.osobnosti.cz/foto/melinda-clarke/O411388-cf646.jpg",
+        imageUrl: "https://i.pinimg.com/236x/f9/85/13/f9851318235ed756690c732e2191b779.jpg",
+        posterUrl: "https://static.wikia.nocookie.net/ocwikia/images/6/63/JulieCooper-S4.jpg/revision/latest?cb=20220716161029",
         promo: true,
       },
       {
         id: "taylor-townsend",
         firstName: "Taylor",
         lastName: "Townsend",
-        imageUrl:
-          "https://th.bing.com/th/id/R.b931f28310ad1c2140fe5cf36ac441e4?rik=No4Z%2f7AauZrjAw&riu=http%3a%2f%2fwww.theocmusic.co.uk%2fimages%2fgallery%2fTaylor%2fTaylor_Townsend_5.jpg&ehk=0Cj6VLiXT%2fhfe%2bunVLebzIcKKuOIMpNjh997tfFUIbg%3d&risl=&pid=ImgRaw&r=0",
+        imageUrl:"https://assets.mycast.io/characters/taylor-townsend-2657429-normal.jpg",
+        posterUrl:  "https://static.wikia.nocookie.net/ocwikia/images/3/3d/TaylorTownsend-S4-6.jpg/revision/latest?cb=20220817140917",
         promo: true,
       },
     ],
@@ -2125,6 +2275,36 @@ export const teenSeries: Show[] = [
         episodeCount: 16,
       },
     ],
+    soundtrack: [
+      {
+        id: "the-oc-soundtrack-s1",
+        type: "soundtrack",
+        noSeason: 1,
+        imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video22/v4/53/b8/01/53b8015e-1328-ee76-11b6-e97448103861/mzm.awsotetf.lsr/400x400bb.jpg", 
+        noImage: false,
+      },
+      {
+        id: "the-oc-soundtrack-s2",
+        type: "soundtrack",
+        noSeason: 2,
+        imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video/v4/0e/42/4a/0e424ab0-e248-ca6e-9606-c467430b6426/mzl.bdxltsrk.lsr/400x400bb.jpg",
+        noImage: false,
+      },
+      {
+        id: "the-oc-soundtrack-s3",
+        type: "soundtrack",
+        noSeason: 3,
+        imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video3/v4/2c/fb/b0/2cfbb02e-5160-e482-d13f-12b805f961c9/mzl.mcozxbqv.lsr/400x400bb.jpg",
+        noImage: false,
+      },
+      {
+        id: "the-oc-soundtrack-s4",
+        type: "soundtrack", 
+        noSeason: 4, 
+        imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video3/v4/c5/98/ef/c598ef05-3bfb-a421-22da-54a058acf6ee/mzl.qyqstkwf.lsr/400x400bb.jpg",
+        noImage: false,
+      },
+    ],  
     creator: ["Josh Schwartz"],
     themeSong: ["'California' by Phantom Planet"],
     composer: ["Christopher Tyng", "Richard Marvin"],
@@ -2170,14 +2350,16 @@ export const teenSeries: Show[] = [
         id: "lucas-scott",
         firstName: "Lucas ",
         lastName: "Scott",
-        imageUrl: "https://i.ebayimg.com/images/g/3fMAAOSwQX1m8P5T/s-l1200.jpg",
+        imageUrl: "https://static.wikia.nocookie.net/onetreehill/images/b/b1/Lucas009.jpg/revision/latest/scale-to-width-down/250?cb=20141208124254",
+        posterUrl: "https://i.ebayimg.com/images/g/3fMAAOSwQX1m8P5T/s-l1200.jpg",
         promo: true,
       },
       {
         id: "nathan-scott",
         firstName: "Nathan",
         lastName: "Scott",
-        imageUrl:
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStN3UTctkMHilmOUABkH47zpCL86VdYQ4_oU-WfckvI90m0h6KPS2dB3Vu&s=10",
+        posterUrl:
           "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXb-XJFFxW7JL4b6M9KWQt0UcjWxMILib7xKaUpPzYJB3w-V8gYJYUAnP3rsVXTF47q4twTZGCQqFPp_ozmsoRKtHa2ZwfKZmiFhZmvSr6tfdLPTlWr5dXXdHok_YHFa66a4eirNcpKT33/s320/one-tree-hill-nathan.jpg",
         promo: true,
       },
@@ -2185,71 +2367,76 @@ export const teenSeries: Show[] = [
         id: "peyton-sawyer",
         firstName: "Peyton",
         lastName: "Sawyer",
-        imageUrl:
-          "https://static1.purebreak.com/articles/6/12/04/86/@/512622-les-freres-scott-hilarie-burton-contre-1200x0-2.png",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf_HY4QcZkerdvus-7iuCmMDpCwlruMuoFgqLGcoSrBB-XH8Qs75Ksx1Q&s=10",
+        posterUrl:  "https://static1.purebreak.com/articles/6/12/04/86/@/512622-les-freres-scott-hilarie-burton-contre-1200x0-2.png",
         promo: true,
       },
       {
         id: "brooke-davis",
         firstName: "Brooke",
         lastName: "Davis",
-        imageUrl:
-          "https://i.pinimg.com/736x/56/21/86/56218669cdbe7a06f2fb91d4cbee397b.jpg",
+        imageUrl: "https://www.brit.co/media-library/sophia-bush-as-brooke.png?id=53627134&width=800&quality=50",
+        posterUrl: "https://i.pinimg.com/736x/56/21/86/56218669cdbe7a06f2fb91d4cbee397b.jpg",
         promo: true,
       },
       {
         id: "haley-james-scott",
         firstName: "Haley",
         lastName: "James-Scott",
-        imageUrl:
-          "https://jordanunroe.wordpress.com/wp-content/uploads/2011/12/bethany-joy-galeotti.png",
+        imageUrl: "https://static0.srcdn.com/wordpress/wp-content/uploads/2021/11/oth-haley-chances.jpeg?q=50&fit=crop&w=825&dpr=1.5",
+        posterUrl: "https://jordanunroe.wordpress.com/wp-content/uploads/2011/12/bethany-joy-galeotti.png",
         promo: true,
       },
       {
         id: "dan-scott",
         firstName: "Dan",
         lastName: "Scott",
-        imageUrl:
-          "https://i.pinimg.com/236x/e8/b0/c5/e8b0c5648b528cd544a7c1cb7cd9249b.jpg",
+        imageUrl: "https://m.media-amazon.com/images/M/MV5BMTQxNzIzMzI0MV5BMl5BanBnXkFtZTgwMzM3MzIyMjE@._V1_.jpg",
+        posterUrl:  "https://i.pinimg.com/236x/e8/b0/c5/e8b0c5648b528cd544a7c1cb7cd9249b.jpg",
         promo: true,
       },
       {
         id: "karen-roe",
         firstName: "Karen",
         lastName: "Roe",
-        imageUrl:
-          "https://i.pinimg.com/736x/5a/f8/e0/5af8e02b89928d44a6129529205827d5.jpg",
+        imageUrl: "https://www.looper.com/img/gallery/the-untold-truth-of-one-tree-hill/moira-kelly-was-pregnant-in-a-surprising-season-1656421901.jpg",
+        posterUrl: "https://i.pinimg.com/736x/5a/f8/e0/5af8e02b89928d44a6129529205827d5.jpg",
         promo: true,
       },
       {
         id: "keith-scott",
         firstName: "Keith",
         lastName: "Scott",
-        imageUrl:
-          "https://i.pinimg.com/736x/f8/52/b3/f852b32b3896428d17143c1374bb46f7.jpg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ29isR_EASQNX-Q8WMcIWu9kQS7zgcZphuKMxk7iTMBuPn3O-XNOh1orAP&s=10",
+        posterUrl: "https://i.pinimg.com/736x/f8/52/b3/f852b32b3896428d17143c1374bb46f7.jpg",
         promo: true,
       },
       {
         id: "deb-scott",
         firstName: "Deb",
         lastName: "Scott",
-        imageUrl: "/images/one-tree-hill/deb-scott.jpg",
+        imageUrl: "https://serieously.ouest-france.fr/app/uploads/2024/09/barbara-alyn-woods-deborah-scott.jpg?width=768&height=432&fit=cover",
+        posterUrl: "https://i.pinimg.com/736x/91/78/e4/9178e416d7192bb9c9e7626506d3800b.jpg",
         promo: true,
       },
       {
         id: "mouth-mcfadden",
         firstName: "Marvin",
         lastName: "McFadden",
-        imageUrl:
-          "https://kaczazupa.wordpress.com/wp-content/uploads/2012/07/mouth-mcfadden.jpg",
+        imageUrl: "https://i.pinimg.com/736x/da/57/e9/da57e97c51077bbf6b22e4b65a22dde3.jpg",
+        posterUrl: "https://kaczazupa.wordpress.com/wp-content/uploads/2012/07/mouth-mcfadden.jpg",
         promo: true,
+        nickname: ["Mouth"],
+        goesByNickname: true,
       },
       {
         id: "skills-taylor",
         firstName: "Antwon",
         lastName: "Taylor",
-        imageUrl: "/images/one-tree-hill/skills-taylor.jpg",
+        imageUrl: "https://static.wikia.nocookie.net/onetreehill/images/8/89/Skills..jpg/revision/latest?cb=20201010111802",
+        nickname: ["Skills"],
         promo: true,
+        goesByNickname: true
       },
     ],
     cast: [
@@ -2376,6 +2563,27 @@ export const teenSeries: Show[] = [
           "https://m.media-amazon.com/images/I/8103XIZ3nsL._AC_SL1500_.jpg",
         episodeCount: 13,
       },
+    ],
+    soundtrack: [
+      {
+        id: "one-tree-hill-album",
+        type: "album",
+        imgUrl: "https://i.scdn.co/image/ab67616d0000b273c7cd0e7aae2effadef127ae1",
+        noImage: false,
+      },
+      {
+        id: "friends-with-benefits-album",
+        type: "album",
+        imgUrl: "https://m.media-amazon.com/images/I/51ToEZrdM7L.jpg",
+        noImage: false,
+      },
+      {
+        id: "the-road-mix",
+        type: "album",
+        imgUrl: "https://m.media-amazon.com/images/I/71wYJ4OX4VL._UF894,1000_QL80_.jpg",
+        noImage: false,
+      },
+
     ],
     creator: ["Mark Schwahn"],
     themeSong: ["I Don't Want To Be by Gavin Degraw"],
@@ -2580,6 +2788,45 @@ export const teenSeries: Show[] = [
         episodeCount: 10,
       },
     ],
+    soundtrack: [
+      {
+        id: "gossip-girl-soundtrack-s1",
+        type: "soundtrack",
+        noSeason: 1,
+        noImage: true,
+        
+      },
+      {
+        id: "gossip-girl-soundtrack-s2",
+        type: "soundtrack",
+        noSeason: 2,
+        noImage: true,
+      },
+      {
+        id: "gossip-girl-soundtrack-s3",
+        type: "soundtrack",
+        noSeason: 3,
+        noImage: true,
+      },
+      {
+        id: "gossip-girl-soundtrack-s4",
+        type: "soundtrack",
+        noSeason: 4,
+        noImage: true,
+      },
+      {
+        id: "gossip-girl-soundtrack-s5",
+        type: "soundtrack",
+        noSeason: 5,
+        noImage: true,
+      },
+      {
+        id: "gossip-girl-soundtrack-s6",
+        type: "soundtrack",
+        noSeason: 6,
+        noImage: true,
+      },
+    ],
     basedOn: true,
     creator: ["Josh Schwartz", "Stephanie Savage"],
     themeSong: ["'Steps of the Met' by Transcenders"],
@@ -2627,15 +2874,46 @@ export const teenSeries: Show[] = [
     ],
     network: ["The CW"],
     related: [
-      "Gossip Girl by Cecily von Ziegesar",
-      "Lipgloss (2008)",
-      "Gossip Girl: Chasing Dorota (2009)",
-      "Gossip Girl: Acapulco (2013)",
-      "Gossip Girl: Thailand (2015)",
-      "The Gossip Girl (China; 2015)",
-      "Gossip Girl Indonesia (2020)",
-      "Little Secrets (Turkey; 2010)",
-      "Gossip Girl (2021)",
+      {
+        id: "gossip-girl-book",
+        title: "Gossip Girl (Book)",
+        posterUrl: "https://m.media-amazon.com/images/I/81v-AVJUhOL._AC_UF1000,1000_QL80_.jpg",
+      },
+      {
+        id: "gossip-girl-chasing-dorota",
+        title: "Gossip Girl: Chasing Dorota",
+        posterUrl: "https://a.ltrbxd.com/resized/film-poster/1/2/6/1/8/2/2/1261822-chasing-dorota-0-600-0-900-crop.jpg?v=d0c99a1279",
+      },
+      {
+        id: "gossip-girl-acapulco",
+        title: "Gossip Girl: Acapulco",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BODlmYjliMGEtOTNlNy00NDIzLWJjMjktNWEwY2Q1NzAzMzRmXkEyXkFqcGc@._V1_.jpg",
+      },
+      {
+        id: "gossip-girl-thailand",
+        title: "Gossip Girl: Thailand",
+        posterUrl: "https://images.static-bluray.com/products/20/34020_1_large.jpg",
+      },
+      {
+        id: "the-gossip-girl-china",
+        title: "The Gossip Girl: China",
+        posterUrl: "https://i.mydramalist.com/LdO43f.jpg",
+      },
+      {
+        id: "gossip-girl-indonesia",
+        title: "Gossip Girl: Indonesia",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BNGFjYmEyNTMtMGUxMS00ZDZkLWExODctNGU0ZTNhY2Q0ZWEzXkEyXkFqcGc@._V1_.jpg",
+      },
+      {
+        id: "little-secrets-turkey",
+        title: "Little Secrets: Turkey",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BMTc3OTM0NzExNl5BMl5BanBnXkFtZTgwMzI1Mjk5NzE@._V1_.jpg",
+      },
+      {
+        id: "gossip-girl-reboot",
+        title: "Gossip Girl (2021)",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BNzcwZTQ3YjEtMjFhOS00MDQyLWE3MDQtMDNhMGU2MDIyNzcwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      },
     ],
   },
   {
@@ -2804,6 +3082,45 @@ export const teenSeries: Show[] = [
         episodeCount: 24,
       },
     ],
+    soundtrack: [
+      {
+        id: "dawsons-creek-soundtrack-s1",
+        type: "soundtrack",
+        noSeason: 1,
+        noImage: true,
+        
+      },
+      {
+        id: "dawsons-creek-soundtrack-s2",
+        type: "soundtrack",
+        noSeason: 2,
+        noImage: true,
+      },
+      {
+        id: "dawsons-creek-soundtrack-s3",
+        type: "soundtrack",
+        noSeason: 3,
+        noImage: true,
+      },
+      {
+        id: "dawsons-creek-soundtrack-s4",
+        type: "soundtrack",
+        noSeason: 4,
+        noImage: true,
+      },
+      {
+        id: "dawsons-creek-soundtrack-s5",
+        type: "soundtrack",
+        noSeason: 5,
+        noImage: true,
+      },
+      {
+        id: "dawsons-creek-soundtrack-s6",
+        type: "soundtrack",
+        noSeason: 6,
+        noImage: true,
+      },
+    ],
     creator: ["Kevin Williamson"],
     themeSong: [
       "'I Don't Want to Wait' by Paula Cole (American broadcast, re-recording for streaming 2021–)",
@@ -2866,7 +3183,7 @@ export const teenSeries: Show[] = [
     language: "en",
     country: "US",
     posterUrl:
-      "https://cdn.europosters.eu/image/1300/8956.jpg",
+      "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7892037_b_v8_ac.jpg",
     numberOfSeasons: 6,
     numberOfEpisodes: 121,
     mainCharacters: [
@@ -3152,6 +3469,51 @@ export const teenSeries: Show[] = [
         episodeCount: 13,
       },
     ],
+    soundtrack: [
+      {
+        id: "glee-soundtrack-s1",
+        type: "album",
+        noSeason: 1,
+        imgUrl: "https://i.scdn.co/image/ab67616d0000b273798b48a5e5a9bd8dacbf3647",
+        noImage: false,
+        
+      },
+      {
+        id: "glee-soundtrack-s2",
+        type: "soundtrack",
+        noSeason: 2,
+        imgUrl: "https://media.senscritique.com/media/000009546602/300/glee_the_music_the_complete_season_two.png",
+        noImage: false,
+      },
+      {
+        id: "glee-soundtrack-s3",
+        type: "soundtrack",
+        imgUrl: "https://lastfm.freetls.fastly.net/i/u/ar0/3d5d48e3aaec07ceeff010e509cacadc.jpg",
+        noSeason: 3,
+        noImage: false,
+      },
+      {
+        id: "glee-soundtrack-s4",
+        type: "soundtrack",
+        imgUrl: "https://64.media.tumblr.com/3ac1b3240bd4b86ccaca998517e0ee10/tumblr_mwxkihbwqk1ql5xjpo1_1280.jpg",
+        noSeason: 4,
+        noImage: false,
+      },
+      {
+        id: "glee-soundtrack-s5",
+        type: "soundtrack",
+        noSeason: 5,
+        imgUrl: "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8447a46e19898bb1f2c1d7a367",
+        noImage: false,
+      },
+      {
+        id: "glee-soundtrack-s6",
+        type: "soundtrack",
+        noSeason: 6,
+        imgUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dc414e15-344c-4159-ada4-545e9e2b59c3/d8n4lqu-aa9aa04b-ecd4-4d82-818f-41d37a7c342d.png/v1/fit/w_414,h_414,q_70,strp/glee_the_music__the_complete_season_six__newbies__by_monstergleek_d8n4lqu-414w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjAwIiwicGF0aCI6Ii9mL2RjNDE0ZTE1LTM0NGMtNDE1OS1hZGE0LTU0NWU5ZTJiNTljMy9kOG40bHF1LWFhOWFhMDRiLWVjZDQtNGQ4Mi04MThmLTQxZDM3YTdjMzQyZC5wbmciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.KKPT-KA_5c1GBI8CN6XmV-YqgdxVousVc0BVDnc4UH0",
+        noImage: false,
+      },
+    ],
     creator: ["Ryan Murphy", "Brad Falchuk", "Ian Brennan"],
     endingTheme: "Time for Some Girl Talk",
     composer: ["James S. Levine"],
@@ -3179,7 +3541,13 @@ export const teenSeries: Show[] = [
     ],
     prodLocation: ["Hollywood, California"],
     network: ["Fox"],
-    related: ["The Glee Project"],
+    related: [
+      {
+        id: "the-glee-project",
+        title: "The Glee Project",
+        posterUrl: "https://media.senscritique.com/media/000020682923/0/the_glee_project.jpg",
+      }
+    ],
   },
   {
     id: "riverdale",
@@ -3204,6 +3572,7 @@ export const teenSeries: Show[] = [
           "https://cdn01.justjaredjr.com/wp-content/uploads/2018/07/river-sdcc/riverdale-comic-con-keycards-tvguide-mag-contest-08.jpg",
         nickname: ["Archie"],
         promo: true,
+        goesByNickname: true,
       },
       {
         id: "betty-cooper",
@@ -3213,6 +3582,7 @@ export const teenSeries: Show[] = [
           "https://cdn01.justjaredjr.com/wp-content/uploads/2018/07/river-sdcc/riverdale-comic-con-keycards-tvguide-mag-contest-07.jpg",
         nickname: ["Betty"],
         promo: true,
+        goesByNickname: true
       },
       {
         id: "veronica-lodge",
@@ -3224,6 +3594,7 @@ export const teenSeries: Show[] = [
       },
       {
         id: "jughead-jones",
+        label: "Jughead",
         firstName: "Forsythe Pendleton",
         lastName: "Jones",
         imageUrl:
@@ -3256,6 +3627,7 @@ export const teenSeries: Show[] = [
           "https://cdn01.justjaredjr.com/wp-content/uploads/2018/07/river-sdcc/riverdale-comic-con-keycards-tvguide-mag-contest-04.jpg",
         nickname: ["Josie"],
         promo: true,
+        goesByNickname: true
       },
       {
         id: "alice-cooper",
@@ -3298,6 +3670,7 @@ export const teenSeries: Show[] = [
         nickname: ["F.P"],
         number: 2,
         promo: true,
+        goesByNickname: true,
       },
       {
         id: "reggie-mantle",
@@ -3307,6 +3680,7 @@ export const teenSeries: Show[] = [
           "https://cdn01.justjaredjr.com/wp-content/uploads/2018/07/river-sdcc/riverdale-comic-con-keycards-tvguide-mag-contest-16.jpg",
         nickname: ["Reggie"],
         promo: true,
+        goesByNickname: true
       },
       {
         id: "toni-topaz",
@@ -3316,6 +3690,7 @@ export const teenSeries: Show[] = [
           "https://cdn01.justjaredjr.com/wp-content/uploads/2018/07/river-sdcc/riverdale-comic-con-keycards-tvguide-mag-contest-01.jpg",
         nickname: ["Toni"],
         promo: true,
+        goesByNickname: true
       },
       {
         id: "fangs-fogarty",
@@ -3325,6 +3700,7 @@ export const teenSeries: Show[] = [
           "https://www.hleatherjackets.com/wp-content/uploads/2021/03/Drew-Ray-Tanner-TV-Series-Riverdale-S03-Fangs-Fogarty-Black-Jacket.jpg",
         promo: false,
         nickname: ["Fangs"],
+        goesByNickname: true,
       },
     ],
     seasons: [
@@ -3413,6 +3789,58 @@ export const teenSeries: Show[] = [
         episodeCount: 20,
       },
     ],
+    soundtrack: [
+      {
+        id: "riverdale-soundtrack-s1",
+        type: "soundtrack",
+        imgUrl: "https://cdn-images.dzcdn.net/images/cover/dbf5938eaf08de1eaa6675a5660b929e/0x1900-000000-80-0-0.jpg",  
+        noSeason: 1,
+        noImage: false,
+        
+      },
+      {
+        id: "riverdale-soundtrack-s2",
+        type: "soundtrack",
+        imgUrl: "https://cdn11.bigcommerce.com/s-lj8wphc2lt/images/stencil/1280x1280/products/394/1062/riverdaleS2-cover__80691.1540832916.jpg?c=2",  
+        noSeason: 2,
+        noImage: false,
+      },
+      {
+        id: "riverdale-soundtrack-s3",
+        type: "soundtrack",
+        imgUrl: "https://static.wikia.nocookie.net/riverdalearchie/images/2/20/Riverdale-Soundtrack-Cover-Season-3.jpg/revision/latest?cb=20230201200915",  
+        noSeason: 3,
+        noImage: false,
+      },
+      {
+        id: "riverdale-soundtrack-s4",
+        type: "soundtrack",
+        imgUrl: "https://i.scdn.co/image/ab67616d0000b27317ac32394ca3d91340021cf6",  
+        noSeason: 4,
+        noImage: false,
+      },
+      {
+        id: "riverdale-soundtrack-s5",
+        type: "soundtrack",
+        imgUrl: "https://images.genius.com/d823bbcf8a9d2035463c11c44bd734ba.300x300x1.png",  
+        noSeason: 5,
+        noImage: false,
+      },
+      {
+        id: "riverdale-soundtrack-s6",
+        type: "soundtrack",
+        imgUrl: "https://images.genius.com/de4085567ffb953d4f3113e9aa48d994.300x300x1.png",  
+        noSeason: 6,
+        noImage: false,
+      },
+      {
+        id: "riverdale-soundtrack-s7",
+        type: "soundtrack",
+        imgUrl: "https://filmmusicreporter.com/wp-content/uploads/2023/07/va-10.jpeg",  
+        noSeason: 7,
+        noImage: false,
+      },
+    ],
     cast: [
       { actor: "KJ Apa", character: "Archie Andrews" },
       { actor: "Lili Reinhart", character: "Betty Cooper" },
@@ -3450,7 +3878,23 @@ export const teenSeries: Show[] = [
       "Warner Bros. Television Studios",
     ],
     network: ["The CW"],
-    related: ["Archie Comics"],
+    related: [
+      {
+        id: "archie-comics",
+        title: "Archie Comics",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/commons/0/08/Archie_117.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+      },
+      {
+        id: "chilling-adventures-of-sabrina",
+        title: "Chilling Adventures of Sabrina",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BOTQyMDYwNDMyOV5BMl5BanBnXkFtZTgwMjM4NTIzNjM@._V1_.jpg",
+      },
+      {
+        id: "katy-keene-series",
+        title: "Katy Keene (TV Series)",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BYWM2Yzk1ZjYtNTA0MS00ZDFmLTkzOTktM2ZiMjJiOTNjYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      }
+    ],
   },
   {
     id: "sex-education",
@@ -3471,7 +3915,7 @@ export const teenSeries: Show[] = [
         id: "jean-milburn",
         firstName: "Jean",
         lastName: "Milburn",
-        imageUrl: "https://pbs.twimg.com/media/E9foS1UWQAy 7Bq.jpg",
+        imageUrl: "https://queerforty.com/wp-content/uploads/2021/09/Gillian-Anderson-768x960.jpeg",
         promo: true,
       },
       {
@@ -3499,7 +3943,7 @@ export const teenSeries: Show[] = [
         promo: true,
       },
       {
-        id: "adam.groff",
+        id: "adam-groff",
         firstName: "Adam",
         lastName: "Groff",
         imageUrl:
@@ -3539,6 +3983,7 @@ export const teenSeries: Show[] = [
       },
       {
         id: "the-untouchables",
+        label: "The Untouchables",
         imageUrl:
           "https://i.pinimg.com/1200x/b1/7c/51/b17c5141b1a9cbdf6cdbed25ad25be95.jpg",
         nickname: ["The Untouchables"],
@@ -3638,7 +4083,7 @@ export const teenSeries: Show[] = [
         finaleEpisode: "Episode 8",
         title: "Sex Education, Season 1",
         posterUrl:
-          "https://mcratingsblog.wordpress.com/wp-content/uploads/2023/08/564f9-mv5bzwe1ywizodutntk2my 0ngvjlwi5otmtmzc3ztu3nwi2mza0xkeyxkfqcgdeqxvymtmxodk2otu40._v1_.jpg",
+          "https://m.media-amazon.com/images/M/MV5BOTE0MjQ1NDU3OV5BMl5BanBnXkFtZTgwNTI4MTgwNzM@._V1_.jpg",
         episodeCount: 8,
       },
       {
@@ -3649,7 +4094,7 @@ export const teenSeries: Show[] = [
         finaleEpisode: "Episode 8",
         title: "Sex Education, Season 2",
         posterUrl:
-          "https://pics.filmaffinity.com/sex_education-424636352-large.jpg",
+          "https://resizing.flixster.com/CdVLgQaXsb9YI5aSQ0YrPq59Pk8=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vZTBhZGIzODktNTA2ZS00MGZkLWIzMDAtMTBhZWFmMGQ1NDYwLmpwZw==",
         episodeCount: 8,
       },
       {
@@ -3660,7 +4105,7 @@ export const teenSeries: Show[] = [
         finaleEpisode: "Episode 8",
         title: "Sex Education, Season 3",
         posterUrl:
-          "https://pics.filmaffinity.com/sex_education-196139510-large.jpg",
+          "https://assets.openmoviemap.com/images/productions/280/96.jpg",
         episodeCount: 8,
       },
       {
@@ -3672,6 +4117,37 @@ export const teenSeries: Show[] = [
         posterUrl:
           "https://resizing.flixster.com/1Dyi8LP_cm3s1aImt3JUR-NBcqw=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vMGU4ZWVlZTQtYTljNS00ZjZmLWE4YzgtNWY2ZmU2MjZlYTgwLmpwZw==",
         episodeCount: 8,
+      },
+    ],
+    soundtrack: [
+      {
+        id: "sex-education-soundtrack-s1",
+        type: "soundtrack",
+        imgUrl: "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84141ed44629dce2909139a321",  
+        noSeason: 1,
+        noImage: false,
+        
+      },
+      {
+        id: "sex-education-soundtrack-s2",
+        type: "soundtrack",
+        imgUrl: "https://www.jbhifi.co.nz/cdn/shop/files/380889-Product-0-I-638917007035042323.jpg?v=1756109617",  
+        noSeason: 2,
+        noImage: false,
+      },
+      {
+        id: "sex-education-soundtrack-s3",
+        type: "soundtrack",
+        imgUrl: "https://i.scdn.co/image/ab67616d0000b273a0368999daf7b1ee87aa3fc4",  
+        noSeason: 3,
+        noImage: false,
+      },
+      {
+        id: "sex-education-soundtrack-s4",
+        type: "soundtrack",
+        imgUrl: "https://i.scdn.co/image/ab67616d0000b273f179b4ccd733c21749ef9e69",  
+        noSeason: 4,
+        noImage: false,
       },
     ],
     creator: ["Laurie Nunn"],
@@ -3765,7 +4241,7 @@ export const teenSeries: Show[] = [
         id: "nadia-shanaa",
         firstName: "Nadia",
         lastName: "Shanaa",
-        imageUrl: "/images/Elite/Nadia_Season_8.webp",
+        imageUrl: "https://i.pinimg.com/736x/e6/5b/4d/e65b4d29082d60be32b30c42ec7d7670.jpg",
         promo: true,
       },
       {
@@ -3780,7 +4256,7 @@ export const teenSeries: Show[] = [
         id: "omar-shanaa",
         firstName: "Omar",
         lastName: "Shanaa",
-        imageUrl: "/images/Elite/Omar_Season_8.webp",
+        imageUrl: "https://scontent.fbma6-1.fna.fbcdn.net/v/t39.30808-6/485783436_1050216007139796_7880118343549215188_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=W1Jnf12L_qYQ7kNvwEUOZvq&_nc_oc=AdoiQ-fQQHGVoX78aIjz9NIDclnQMJphD_kUqVa2WSQHAynXqSNtVRibtrvAPLuQkOw&_nc_zt=23&_nc_ht=scontent.fbma6-1.fna&_nc_gid=7_4gOi_aYm46tZqgBNrMvA&_nc_ss=7b289&oh=00_AQFEvM-znSX1EajxClZ7qf5KQpRNLhti6FxU7Cki_sVpiQ&oe=6A909DCC",
         promo: true,
       },
       {
@@ -3822,7 +4298,7 @@ export const teenSeries: Show[] = [
         id: "malick-diallo",
         firstName: "Malick",
         lastName: "Diallo",
-        imageUrl: "/images/Elite/Malick_Season_8.webp",
+        imageUrl: "https://i.pinimg.com/736x/97/70/38/977038bd81ec18db6c24b871304449cc.jpg",
         promo: true,
       },
       {
@@ -3835,6 +4311,7 @@ export const teenSeries: Show[] = [
       },
       {
         id: "ariadna-blanco",
+        label: "Ari",
         firstName: "Ariadna",
         lastName: "Blanco",
         imageUrl:
@@ -3854,7 +4331,7 @@ export const teenSeries: Show[] = [
         id: "patrick-blanco",
         firstName: "Patrick",
         lastName: "Blanco",
-        imageUrl: "/images/Elite/Patrick_Season_8.webp",
+        imageUrl: "https://i.pinimg.com/736x/a3/fa/e6/a3fae6fb0d7abeae565309fd653d597a.jpg",
         promo: true,
       },
       {
@@ -3931,7 +4408,7 @@ export const teenSeries: Show[] = [
       {
         id: "sara-elite",
         firstName: "Sara",
-        imageUrl: "/images/Elite/Sara_Season_8.webp",
+        imageUrl: "https://instagram.fbma6-1.fna.fbcdn.net/v/t51.82787-15/654720695_18120343828540003_6789926809270925278_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzQxMzQ2OTQ3MTg5MDQzMDk1MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTYwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=4VFtNNiBUQ8Q7kNvwH4a6eS&_nc_oc=AdpWiZYEYl2OMSCjqXPrRUrGbmNS6xpsR0WYUyiViYZ6hG6OyBUEKW50kVY5fVD6XdQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbma6-1.fna&_nc_gid=kAeEsc4RNuFnR1jUCnXjNw&_nc_ss=7a22e&oh=00_AQEp8d_MrKiqfD4gKgGx1xQktdKDxJD2HMYBRUZ624yONA&oe=6A90AA36",
         promo: true,
       },
       {
@@ -3967,7 +4444,7 @@ export const teenSeries: Show[] = [
         id: "rocío-owono-durán",
         firstName: "Rocío",
         lastName: "Owono Durán",
-        imageUrl: "/images/Elite/Rocio_Season_8.webp",
+        imageUrl: "https://static.wikia.nocookie.net/elite-netflix/images/5/50/Roc%C3%ADo_Season_8.png/revision/latest/scale-to-width-down/1200?cb=20240724080000",
         promo: true,
       },
       {
@@ -4047,7 +4524,7 @@ export const teenSeries: Show[] = [
         id: "héctor-krawietz",
         firstName: "Héctor",
         lastName: "Krawietz",
-        imageUrl: "/images/Elite/Hector_Elite.webp",
+        imageUrl: "https://static.wikia.nocookie.net/elite-netflix/images/4/44/H%C3%A9ctor_Season_8.png/revision/latest/scale-to-width-down/1200?cb=20240724062905",
         promo: true,
       },
       {
@@ -4116,7 +4593,7 @@ export const teenSeries: Show[] = [
         finaleEpisode: "Episode 8",
         title: "Élite, Season 1",
         posterUrl:
-          "https://media.themoviedb.org/t/p/w500/hYC4bHfvjVYMfYuTpmwNofqAG0X.jpg",
+          "https://georgeapp137.wordpress.com/wp-content/uploads/2018/11/elite.jpg?w=640",
         episodeCount: 8,
       },
       {
@@ -4127,7 +4604,7 @@ export const teenSeries: Show[] = [
         finaleEpisode: "Episode 8",
         title: "Élite, Season 2",
         posterUrl:
-          "https://media.themoviedb.org/t/p/w500/aJaVtEhdLTkQdoficiHPb6am54y.jpg",
+          "https://i.pinimg.com/736x/c8/d1/2f/c8d12ffc224a4b43a36a299647c6bd5b.jpg",
         episodeCount: 8,
       },
       {
@@ -4138,7 +4615,7 @@ export const teenSeries: Show[] = [
         finaleEpisode: "Episode 8",
         title: "Élite, Season 3",
         posterUrl:
-          "https://image.tmdb.org/t/p/original/54EfTQlhyaExBdPgCNJm47IJb0v.jpg",
+          "https://static.wikia.nocookie.net/elite-netflix/images/3/37/Season_3_Poster.jpg/revision/latest?cb=20200226044901",
         episodeCount: 8,
       },
       {
@@ -4148,7 +4625,7 @@ export const teenSeries: Show[] = [
         premiereEpisode: "Episode 1",
         finaleEpisode: "Episode 8",
         title: "Élite, Season 4",
-        posterUrl: "/images/Élite/Elite4.jpg",
+        posterUrl: "https://static.wikia.nocookie.net/elite-netflix/images/9/92/Season_4_Poster.jpg/revision/latest?cb=20210429153116",
         episodeCount: 8,
       },
       {
@@ -4196,6 +4673,57 @@ export const teenSeries: Show[] = [
         episodeCount: 8,
       },
     ],
+    soundtrack:[
+      {
+        id: "élite-soundtrack-s1",
+        type: "soundtrack",
+        noSeason: 1,
+        noImage: true,
+        
+      },
+      {
+        id: "élite-soundtrack-s2",
+        type: "soundtrack",
+        noSeason: 2,
+        noImage: true,
+      },
+      {
+        id: "élite-soundtrack-s3",
+        type: "soundtrack",
+        noSeason: 3,
+        noImage: true,
+      },
+      {
+        id: "élite-soundtrack-s4",
+        type: "soundtrack",
+        noSeason: 4,
+        noImage: true,
+      },
+      {
+        id: "élite-soundtrack-s5",
+        type: "soundtrack",
+        noSeason: 5,
+        noImage: true,
+      },
+      {
+        id: "élite-soundtrack-s6",
+        type: "soundtrack",
+        noSeason: 6,
+        noImage: true,
+      },
+      {
+        id: "élite-soundtrack-s7",
+        type: "soundtrack",
+        noSeason: 7,
+        noImage: true,
+      },
+      {
+        id: "élite-soundtrack-s8",
+        type: "soundtrack",
+        noSeason: 8,
+        noImage: true,
+      },
+    ],
     creator: ["Carlos Montero", "Darío Madrona"],
     producer: ["Francisco Ramos"],
     executive: [
@@ -4207,7 +4735,23 @@ export const teenSeries: Show[] = [
     prodLocation: ["Madrid, Spain"],
     prodCompanies: ["Eleven Film"],
     network: ["Zeta Producciones"],
-    related: ["Class", "Blood & Water", "AlRawabi School for Girls"],
+    related: [
+      {
+        id: "class", 
+        title: "Class",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BMWQ5Y2FhMTItNWI2NC00MTk0LWE1MzUtYzNhNDI0ZTAzNDJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      },
+      {
+        id: "blood-&-water",
+        title: "Blood & Water",
+        posterUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg71ne2ZMa5i_eUZHDesbCHk1HkX6WhGHnbh65iBNkOw&s=10",
+      },
+      {
+        id: "alrawabi-school-for-girls",
+        title: "Alrawabi School for Girls",
+        posterUrl: "https://www.crew-united.com/Media/Images/1976/1976560/1976560.entity.jpg"
+      },
+    ],
   },
   {
     id: "skins-uk",
@@ -4233,6 +4777,7 @@ export const teenSeries: Show[] = [
         promo: true,
         nickname: ["Tony"],
         generation: 1,
+        goesByNickname: true,
       },
       {
         id: "chris-miles",
@@ -4243,6 +4788,7 @@ export const teenSeries: Show[] = [
         promo: true,
         nickname: ["Chris"],
         generation: 1,
+        goesByNickname: true,
       },
       {
         id: "sid-jenkins",
@@ -4253,6 +4799,7 @@ export const teenSeries: Show[] = [
         nickname: ["Sid"],
         promo: true,
         generation: 1,
+        goesByNickname: true,
       },
       {
         id: "cassie-ainsworth",
@@ -4263,6 +4810,7 @@ export const teenSeries: Show[] = [
         promo: true,
         nickname: ["Cassie"],
         generation: 1,
+        goesByNickname: true,
       },
       {
         id: "michelle-richardson",
@@ -4282,6 +4830,7 @@ export const teenSeries: Show[] = [
         promo: true,
         nickname: ["Jal"],
         generation: 1,
+        goesByNickname: true,
       },
       {
         id: "anwar-kharral",
@@ -4301,16 +4850,18 @@ export const teenSeries: Show[] = [
         promo: true,
         nickname: ["Maxxie"],
         generation: 1,
+        goesByNickname: true,
       },
       {
         id: "effy-stonem",
         firstName: "Elizabeth",
         lastName: "Stonem",
         imageUrl:
-          "https://acontinentalwoman.wordpress.com/wp-content/uploads/2019/01/screenshot-2019-01September at-15.08.23.png?w=1024&h=677",
+          "https://www.nme.com/wp-content/uploads/2016/10/0916_112859_080909skins2065-1.jpg",
         nickname: ["Effy"],
         promo: true,
         generation: 2,
+        goesByNickname: true,
       },
       {
         id: "pandora-moon",
@@ -4330,6 +4881,7 @@ export const teenSeries: Show[] = [
         nickname: ["JJ"],
         promo: true,
         generation: 2,
+        goesByNickname: true,
       },
       {
         id: "james-cook",
@@ -4340,7 +4892,9 @@ export const teenSeries: Show[] = [
         nickname: ["Cook"],
         promo: true,
         generation: 2,
+        goesByNickname: true,
       },
+
       {
         id: "naomi-campbell",
         firstName: "Naomi",
@@ -4368,6 +4922,7 @@ export const teenSeries: Show[] = [
         nickname: ["Katie"],
         promo: true,
         generation: 2,
+        goesByNickname: true,
       },
       {
         id: "thom-tomone",
@@ -4388,15 +4943,17 @@ export const teenSeries: Show[] = [
         nickname: ["Freddie"],
         promo: true,
         generation: 2,
+        goesByNickname: true,
       },
       {
         id: "franky-fitzgerald",
         firstName: "Francesca",
         lastName: "Fitzgerald",
-        imageUrl: "/images/Skins/Franky.jpg",
+        imageUrl: "https://i.pinimg.com/736x/a2/0c/b3/a20cb371d0ef902e569ecbdde40aa2f4.jpg",
         promo: true,
         nickname: ["Franky"],
         generation: 3,
+        goesByNickname: true,
       },
       {
         id: "rich-hardbeck",
@@ -4407,6 +4964,7 @@ export const teenSeries: Show[] = [
         nickname: ["Rich"],
         promo: true,
         generation: 3,
+        goesByNickname: true,
       },
       {
         id: "mini-mcguinness",
@@ -4417,6 +4975,7 @@ export const teenSeries: Show[] = [
         nickname: ["Mini"],
         promo: true,
         generation: 3,
+        goesByNickname: true,
       },
       {
         id: "liv-malone",
@@ -4427,6 +4986,7 @@ export const teenSeries: Show[] = [
         nickname: ["Liv"],
         promo: true,
         generation: 3,
+        goesByNickname: true,
       },
       {
         id: "nick-levan",
@@ -4437,6 +4997,7 @@ export const teenSeries: Show[] = [
         nickname: ["Nick"],
         promo: true,
         generation: 3,
+        goesByNickname: true,
       },
       {
         id: "alo-creevey",
@@ -4447,6 +5008,7 @@ export const teenSeries: Show[] = [
         nickname: ["Alo"],
         promo: true,
         generation: 3,
+        goesByNickname: true,
       },
       {
         id: "grace-blood",
@@ -4466,6 +5028,7 @@ export const teenSeries: Show[] = [
         nickname: ["Matty"],
         promo: true,
         generation: 3,
+        goesByNickname: true,
       },
       {
         id: "alex-henley",
@@ -4476,6 +5039,7 @@ export const teenSeries: Show[] = [
         nickname: ["Alex"],
         promo: true,
         generation: 3,
+        goesByNickname: true,
       },
     ],
     cast: [
@@ -4604,6 +5168,58 @@ export const teenSeries: Show[] = [
         episodeCount: 6,
       },
     ],
+    soundtrack: [
+      {
+        id: "skins-uk-soundtrack-s1",
+        type: "soundtrack",
+        imgUrl: "https://i1.sndcdn.com/artworks-000089929380-3wzh31-t500x500.jpg",
+        noSeason: 1,
+        noImage: false,
+        
+      },
+      {
+        id: "skins-uk-soundtrack-s2",
+        type: "soundtrack",
+        noSeason: 2,
+        imgUrl: "https://open-images.acast.com/shows/6245aed65a5cb40014b0e71c/1751832409867-6b20f5e6-212a-430d-8a21-100ace097d72.jpeg?height=750",
+        noImage: false,
+      },
+      {
+        id: "skins-uk-soundtrack-s3",
+        type: "soundtrack",
+        noSeason: 3,
+        imgUrl: "https://open-images.acast.com/shows/6245aed65a5cb40014b0e71c/1782876308780-8b4cbd46-f771-4e29-b787-ab0e57770f4e.jpeg?height=750",
+        noImage: false,
+      },
+      {
+        id: "skins-uk-soundtrack-s4",
+        type: "soundtrack",
+        imgUrl: "https://vinylkitchen.co.nz/cdn/shop/files/skins-season-4-2010-dvd-2914890_600x600_crop_center.jpg?v=1764671648",
+        noSeason: 4,
+        noImage: false,
+      },
+      {
+        id: "skins-uk-soundtrack-s5",
+        type: "soundtrack",
+        imgUrl: "https://www.femalefirst.co.uk/image-library/square/500/s/skins-season-5-dvd.jpg",
+        noSeason: 5,
+        noImage: false,
+      },
+      {
+        id: "skins-uk-soundtrack-s6",
+        type: "soundtrack",
+        imgUrl: "https://www.femalefirst.co.uk/image-library/square/500/s/skins-season-6-dvd.jpg",
+        noSeason: 6,
+        noImage: false,
+      },
+      {
+        id: "skins-uk-soundtrack-s7",
+        type: "soundtrack",
+        imgUrl: "https://i1.sndcdn.com/artworks-000059426797-h0oq7q-t500x500.jpg",
+        noSeason: 7,
+        noImage: false,
+      },
+    ],
     creator: ["Bryan Elsley", "Jamie Brittain"],
     producer: ["Chris Clough", "Matt Strevens", "Neil Duncan", "Toby Welch"],
     executive: [
@@ -4617,7 +5233,13 @@ export const teenSeries: Show[] = [
     prodLocation: ["Bristol, England"],
     prodCompanies: ["Company Pictures", "Storm Dog Films"],
     network: ["E4"],
-    related: ["Skins (American TV series)"],
+    related: [
+      { 
+        id: "skins-us",
+        title: "Skins (US)",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BZDBmNmI2YmQtODBkOS00ODE1LTg1YWEtMTJjOGRmZTAyMWFlXkEyXkFqcGc@._V1_.jpg",
+      },
+    ],
   },
   {
     id: "degrassi-tng",
@@ -4640,7 +5262,7 @@ export const teenSeries: Show[] = [
         firstName: "Emma",
         lastName: "Nelson",
         imageUrl:
-          "https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_242/MTg5NzQyNDIzMzczOTgwODk4/ladiesofdegrassi.webp",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQV7bPTRWAnWx31rlJxh_fFE5VBTF8oEWOaFEoZjzWTUyn7LFSuyAoinY&s=10",
         promo: true,
         classOf: "2007",
         generation: 1,
@@ -4650,40 +5272,43 @@ export const teenSeries: Show[] = [
         firstName: "Manuela",
         lastName: "Santos",
         imageUrl:
-          "https://preview.redd.it/if-you-know-you-know-v0-6womjbm93xjf1.jpeg?width=1080&crop=smart&auto=webp&s=5b3f6aec9218550035d0608186d9bd27caf79146",
+          "https://preview.redd.it/manny-santos-and-her-ever-changing-hairstyles-v0-8mr2zandyzfe1.jpg?width=640&crop=smart&auto=webp&s=27cc880dee1f114249754a201a7f64adec06342c",
         promo: true,
         generation: 1,
         nickname: ["Manny"],
         classOf: "2007",
+        goesByNickname: true,
       },
       {
         id: "jimmy-brooks",
         firstName: "James",
         lastName: "Brooks",
         imageUrl:
-          "https://assets.mycast.io/characters/jimmy-brooks-805811-normal.jpg?1594070623",
+          "https://cdn.mos.cms.futurecdn.net/rf6WRbFBBk4RALfywgywUY-1200-80.jpg",
         promo: true,
         nickname: ["Jimmy"],
         classOf: "2007",
         generation: 1,
+        goesByNickname: true,
       },
       {
         id: "terri-macgregor",
         firstName: "Theresa",
         lastName: "MacGregor",
         imageUrl:
-          "https://i.redd.it/terri-was-an-underrated-style-icon-v0-b289rzz2zadc1.jpg?width=560&format=pjpg&auto=webp&s=5f791705e5388220b3f05c5687eefec66d9f1011",
+          "https://i0.wp.com/broomheadz.com/wp-content/uploads/2020/06/terri-5.png?w=475&h=359&ssl=1",
         promo: true,
         nickname: ["Terri"],
         classOf: "2006",
         generation: 1,
+        goesByNickname: true,
       },
       {
         id: "ashley-kerwin",
         firstName: "Ashley",
         lastName: "Kerwin",
         imageUrl:
-          "https://preview.redd.it/this-dumb-bish-turned-down-a-drake-feature-on-her-dumb-song-v0-982uppzhbsu91.jpg?auto=webp&s=2ab90fa574ff28bf61ec5d33f42cb120a8e6e857",
+          "https://preview.redd.it/what-song-represents-each-character-day-13-ashley-kerwin-v0-ge0jpylco8hc1.jpg?width=240&format=pjpg&auto=webp&s=c272b55ce09a08074277a663b4eb9dc6863b5d8d",
         promo: true,
         classOf: "2006",
         generation: 1,
@@ -4693,7 +5318,7 @@ export const teenSeries: Show[] = [
         firstName: "Liberty",
         lastName: "Van Zandt",
         imageUrl:
-          "https://preview.redd.it/liberty-vs-clare-v0-fhjy5j7ukxwc1.jpg?width=452&format=pjpg&auto=webp&s=7d672c03b2cd44363908dcd69c7cd9d8d53434a4",
+          "https://preview.redd.it/appreciation-for-libertys-hair-v0-xzyk59ozge9b1.jpg?width=640&crop=smart&auto=webp&s=cd89b5f6706f0652da4053bfbff0c50382094356",
         promo: true,
         classOf: "2007",
         generation: 1,
@@ -4702,17 +5327,18 @@ export const teenSeries: Show[] = [
         id: "archibald-simpson",
         firstName: "Archibald",
         lastName: "Simpson",
-        imageUrl: "https://i.redd.it/8cburd2m3o891.jpg",
+        imageUrl: "https://static.wikia.nocookie.net/degrassipedia/images/6/64/Archie_Simpson.png/revision/latest?cb=20160930200524",
         promo: true,
         nickname: ["Mr.Simpson", "Snake", "Archie"],
         classOf: "Other",
         generation: 1,
+        goesByNickname: true,
       },
       {
         id: "toby-isaacs",
         firstName: "Toby",
         lastName: "Isaacs",
-        imageUrl: "https://i.redd.it/tl6qlm1mt7lc1.jpeg",
+        imageUrl: "https://broomheadz.com/wp-content/uploads/2022/02/toby-1-1.png",
         promo: true,
         classOf: "2007",
         generation: 1,
@@ -4722,22 +5348,24 @@ export const teenSeries: Show[] = [
         firstName: "Gavin",
         lastName: "Mason",
         imageUrl:
-          "https://scontent.fbma6-1.fna.fbcdn.net/v/t39.30808-6/485738604_1180692170295820_3461226757658661375_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=meJ-uRnHFQ0Q7kNvwEgCB1K&_nc_oc=Adlaqb-A50WaqOl4RKv06TKRaIrn8hN3zdgci2OodAcGEbowhklRGevUngp-4bgFVno&_nc_zt=23&_nc_ht=scontent.fbma6-1.fna&_nc_gid=mq1Oae6BeEotIoTm3q4fuA&oh=00_AfoZ42tqhykE7OcJoeKF1liUhCCbAV31krz4aBAWg77dZg&oe=697444F6",
+          "https://preview.redd.it/how-does-everyone-feel-about-redemption-arc-spinner-seasons-v0-0q2lzex7kyic1.jpg?width=237&format=pjpg&auto=webp&s=583274e6b1d084f1a5920d838dbf442148b2b488",
         promo: true,
         generation: 1,
         nickname: ["Spinner"],
         classOf: "2007",
+        goesByNickname: true,
       },
       {
         id: "jt-yorke",
         firstName: "James Tiberius",
         lastName: "Yorke",
         imageUrl:
-          "https://preview.redd.it/degrassi-the-next-generation-jt-acting-immature-v0-y9loqiufoz7f1.jpeg?auto=webp&s=6cf2dc6e158545af0ab09934a95579f4a8d1ad1c",
+          "https://i.pinimg.com/736x/a2/ce/f7/a2cef796711fa10b90897e144ece2c28.jpg",
         promo: true,
         generation: 1,
         nickname: ["J.T"],
         classOf: "2007",
+        goesByNickname: true,
       },
       //2
       {
@@ -4745,7 +5373,7 @@ export const teenSeries: Show[] = [
         firstName: "Paige",
         lastName: "Michalchuk",
         imageUrl:
-          "https://scontent.fbma6-1.fna.fbcdn.net/v/t39.30808-6/560641265_10239528723266707_5892234410917864045_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=su2QdQdiDcUQ7kNvwEj895R&_nc_oc=AdnnFkcgUHC-u26UWRzBlMtROqZ61bjO7QZV2YZuZz5VQTiD04pQfk3Ug74pORZbhiI&_nc_zt=23&_nc_ht=scontent.fbma6-1.fna&_nc_gid=strPbhmc1asFCfvPpv4uLA&oh=00_AfoaerWxXcHjNujVRouTCxIEvVdBBZNqFA0uWctrgMxjhA&oe=69742067",
+          "https://imgix.bustle.com/rehost/2016/9/13/fb43ceec-b727-44e0-b155-ddb6520614e0.jpg?w=1200&h=900&fit=crop&crop=faces&fm=jpg",
         promo: true,
         classOf: "2006",
       },
@@ -4754,7 +5382,7 @@ export const teenSeries: Show[] = [
         firstName: "Sean",
         lastName: "Cameron",
         imageUrl:
-          "https://preview.redd.it/what-does-my-top-5-say-about-me-v0-v2t4ny1bbtge1.jpg?width=894&format=pjpg&auto=webp&s=c52ca2e15b5b35605c52944d8b07965610c6f05c",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjLfDJf4qqJWLfk5GstJ-z6YgaqtznsZYtenV16vtoTsVxdpvE4KCyu2aU&s=10",
         promo: true,
         classOf: "2007",
       },
@@ -4782,7 +5410,7 @@ export const teenSeries: Show[] = [
         firstName: "Craig",
         lastName: "Manning",
         imageUrl:
-          "https://scontent.fbma6-1.fna.fbcdn.net/v/t39.30808-6/529730985_31088157960782650_567781719081959758_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=zg3wDwPv7ioQ7kNvwFEln0T&_nc_oc=Adm3iMEy7RJOanpRRFICx1TEosFLrK5Z7PwbNmJfo6eqqPxB6HIZkrkQFnKZDdYzUFM&_nc_zt=23&_nc_ht=scontent.fbma6-1.fna&_nc_gid=pbqOlcqaSDBDH-Neer3vxA&oh=00_Afr7JeixnWeKZ1Tpie7idUygyyR5km148uihkNLZyoIlQA&oe=69745E73",
+          "https://i.pinimg.com/736x/6c/5e/d2/6c5ed27d34299bd307a24af17d7023b5.jpg",
         promo: true,
         classOf: "2006",
       },
@@ -4791,17 +5419,19 @@ export const teenSeries: Show[] = [
         firstName: "Eleanor",
         lastName: "Nash",
         imageUrl:
-          "https://farm8.staticflickr.com/7246/7730156844_403e4666eb.jpg",
+          "https://pbs.twimg.com/media/GLOYGkpWcAAmH3l.jpg",
         promo: true,
         generation: 1,
         nickname: ["Ellie"],
+        classOf: "2006",
+        goesByNickname: true,
       },
       {
         id: "hazel-aden",
         firstName: "Hazel",
         lastName: "Aden",
         imageUrl:
-          "http://images4.wikia.nocookie.net/__cb20101108060047/degrassi/images/2/2f/76975_136296570_hazel_3_H170843_L.jpg",
+          "https://assets.mycast.io/characters/hazel-aden-9248418-normal.jpg",
         promo: true,
         classOf: "2006",
       },
@@ -4809,11 +5439,12 @@ export const teenSeries: Show[] = [
         id: "spike-nelson",
         firstName: "Christine",
         lastName: "Nelson",
-        imageUrl: "/images/Degrassi/spike.jpg",
+        imageUrl: "https://static.wikia.nocookie.net/degrassi/images/9/94/Spike%2Cseason6.jpg/revision/latest?cb=20100704034609",
         promo: true,
         generation: 1,
         nickname: ["Spike"],
         classOf: "Other",
+        goesByNickname: true
       },
       {
         id: "caitlin-ryan",
@@ -4829,7 +5460,7 @@ export const teenSeries: Show[] = [
         firstName: "Marco",
         lastName: "Del Rossi",
         imageUrl:
-          "https://preview.redd.it/marco-tried-all-of-these-hairdos-so-that-you-dont-have-to-v0-vye98pju01b91.jpg?width=293&format=pjpg&auto=webp&s=8f060b43a0a2d4cd94966cef7559a97d3c5290e4",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8tNYc4UygsHw-ijQKmA_Xj3s4FHjAJEfDLp8AOpBlz5XAb_Is3aUiQhyG&s=10",
         promo: true,
         classOf: "2006",
       },
@@ -4840,26 +5471,29 @@ export const teenSeries: Show[] = [
         lastName: "Hogart",
         generation: 1,
         imageUrl:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUjPrPdtaZAwCet9Tf_6Mv7cbMmXEzLiE-nw&s",
+          "https://preview.redd.it/in-your-head-canon-whats-jay-doing-present-day-v0-gwsse2ssmatc1.jpeg?auto=webp&s=05a10775d37c7a6385c7bec00b2dfedb66ca1f22",
         promo: true,
         nickname: ["Jay"],
         classOf: "2006",
+        goesByNickname: true,
       },
       {
         id: "alex-nuñez",
         firstName: "Alexandra",
         imageUrl:
-          "https://preview.redd.it/this-is-an-alex-appreciation-post-v0-i0bi19jh8vya1.jpg?width=640&crop=smart&auto=webp&s=bf0a1573cb6f4dcd97a655e06256fbfe69f1f336",
+          "https://i.pinimg.com/736x/32/82/b3/3282b3d775c607d2eaee3727c19cc432.jpg",
         promo: true,
         lastName: "Nuñez",
         generation: 1,
         nickname: ["Alex"],
+        classOf: "2006",
+        goesByNickname: true,
       },
       {
         id: "peter-stone",
         firstName: "Peter",
         lastName: "Stone",
-        imageUrl: "https://i.redd.it/ltn2qn7n2q6e1.jpeg",
+        imageUrl: "https://lanateramae.com/wp-content/uploads/2021/03/degrassi-peter-screenshot.png?w=1024",
         promo: true,
         classOf: "2008",
       },
@@ -4879,7 +5513,7 @@ export const teenSeries: Show[] = [
         id: "darcy-edwards",
         firstName: "Darcy",
         lastName: "Edwards",
-        imageUrl: "/images/Degrassi/Darcy.webp",
+        imageUrl: "https://i.pinimg.com/736x/70/d7/e3/70d7e36b077d84ee800221302bd16738.jpg",
         promo: true,
         classOf: "2008",
       },
@@ -4887,9 +5521,10 @@ export const teenSeries: Show[] = [
         id: "mia-jones",
         firstName: "Mia",
         lastName: "Jones",
-        imageUrl: "/images/Degrassi/Mia.jpg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdvI_SZ_Sihr84ohnURnjlnecAJWp731h5ZN-adO_NwgBeZBFi2sR1In8&s=10",
         promo: true,
         generation: 2,
+        classOf: "2011",
       },
       {
         id: "jane-vaughn",
@@ -4905,7 +5540,7 @@ export const teenSeries: Show[] = [
         id: "danny-van-zandt",
         firstName: "Danny",
         lastName: "Van Zandt",
-        imageUrl: "/images/Degrassi/Danny.jpg",
+        imageUrl: "https://i.pinimg.com/564x/7f/01/20/7f01203b0c5f1d81fafb7dfadb3a2b12.jpg",
         promo: true,
         classOf: "2008",
       },
@@ -4913,7 +5548,7 @@ export const teenSeries: Show[] = [
         id: "leia-chang",
         firstName: "Leia",
         lastName: "Chang",
-        imageUrl: "/images/Degrassi/Leia.webp",
+        imageUrl: "https://static.wikia.nocookie.net/degrassi/images/7/74/Holly_J.-Leia_Conflict.png/revision/latest/smart/width/386/height/259?cb=20240927223715",
         promo: true,
         classOf: "2011",
       },
@@ -4921,7 +5556,7 @@ export const teenSeries: Show[] = [
         id: "chantay-black",
         firstName: "Chantay",
         lastName: "Black",
-        imageUrl: "/images/Degrassi/Chantay.jpg",
+        imageUrl: "https://static.wikia.nocookie.net/degrassi/images/4/42/Love-games-pt-1-5.jpg/revision/latest?cb=20111002175112",
         promo: true,
         classOf: "2011",
       },
@@ -4930,24 +5565,26 @@ export const teenSeries: Show[] = [
         firstName: "Damian",
         lastName: "Hayes",
         imageUrl:
-          "https://preview.redd.it/worst-plot-line-every-character-has-had-damon-is-next-swipe-v0-fedez3w4nemc1.jpg?width=726&format=pjpg&auto=webp&s=6711f936cab9288b29e34ecb89894644ccd50973",
+          "https://assets.mycast.io/characters/damian-hayes-807020-normal.jpg",
         promo: true,
         generation: 2,
+        classOf: "2007",
       },
       {
         id: "holly-j-sinclair",
         firstName: "Holly Jeanette",
         lastName: "Sinclair",
-        imageUrl: "/images/Degrassi/Hollyj.jpg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9XwFsgoBlLEClhg69yGir2CZvQBiQBqcIf1jj-CX5Cw_Oo15dcQ5lzv2j&s=10",
         promo: true,
         nickname: ["Holly J"],
         classOf: "2011",
+        goesByNickname: true, 
       },
       {
         id: "derek-haig",
         firstName: "Derek",
         lastName: "Haig",
-        imageUrl: "/images/Degrassi/Derek.jpg",
+        imageUrl: "https://static.tvtropes.org/pmwiki/pub/images/derek_10.jpg",
         promo: true,
         classOf: "2008",
       },
@@ -4955,15 +5592,14 @@ export const teenSeries: Show[] = [
         id: "kelly-hoona",
         firstName: "Kelly",
         lastName: "Hoona",
-        imageUrl: "/images/Degrassi/Kelly.jpg",
+        imageUrl: "https://static.wikia.nocookie.net/degrassi/images/d/d3/Uptown8.jpg/revision/latest?cb=20111124040657",
         promo: false,
-        classOf: "2011",
       },
       {
         id: "anya-macpherson",
         firstName: "Anya",
         lastName: "MacPherson",
-        imageUrl: "/images/Degrassi/Anya.jpg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPm_2Mpu6A5043AgzeNrVQDTnTrsrXI9Or-DapRBP47mmE4ykGaGTT7I&s=10",
         promo: true,
         classOf: "2011",
       },
@@ -4971,18 +5607,19 @@ export const teenSeries: Show[] = [
         id: "sav-bhandari",
         firstName: "Savtaj",
         lastName: "Bhandari",
-        imageUrl: "/images/Degrassi/Sav.jpg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrwI8F_wchXtT1Q_O94812o0pB39tFHk5GVNu-z__IzeRbxLaINTpzKxI&s=10",
         promo: true,
         generation: 2,
         nickname: ["Sav"],
         classOf: "2011",
+        goesByNickname: true,
       },
       //2
       {
         id: "clare-edwards",
         firstName: "Clare",
         lastName: "Edwards",
-        imageUrl: "/images/Degrassi/Clare.jpg",
+        imageUrl: "https://i.pinimg.com/736x/42/fb/7b/42fb7b227d3f0577111179d122b35e11.jpg",
         promo: true,
         classOf: "2014",
       },
@@ -4991,7 +5628,7 @@ export const teenSeries: Show[] = [
         firstName: "Connor",
         lastName: "DeLaurier",
         imageUrl:
-          "https://i.pinimg.com/1200x/de/78/8c/de788c2e8399e807079ffd71cd6d354f.jpg",
+          "https://i.pinimg.com/736x/87/81/ba/8781ba2b056be6323dd41fe4dc13285a.jpg",
         promo: true,
         classOf: "2014",
       },
@@ -5000,26 +5637,28 @@ export const teenSeries: Show[] = [
         firstName: "Kirk Cameron",
         lastName: "Guthrie",
         imageUrl:
-          "https://pbs.twimg.com/profile_images/1550837218/degrassi-s11-kc-01.png",
+          "https://i.pinimg.com/736x/78/68/8a/78688aa8e4a9b052073ef77843445cdc.jpg",
         promo: true,
         nickname: ["K.C"],
         classOf: "2014",
+        goesByNickname: true,
       },
       {
         id: "alli-bhandari",
         firstName: "Allia",
         lastName: "Bhandari",
-        imageUrl: "/images/Degrassi/Alli.jpg",
+        imageUrl: "https://i.pinimg.com/1200x/09/d2/0a/09d20a493420b70bcb0d9dd08371f9f5.jpg",
         promo: true,
         generation: 2,
         nickname: ["Alli"],
         classOf: "2014",
+        goesByNickname: true,
       },
       {
         id: "bruce-the-moose",
         firstName: "Bruce",
         imageUrl: "https://i.redd.it/5nhtji3lr0f71.jpg",
-        promo: false,
+        promo: true,
         nickname: ["Bruce the Moose"],
         classOf: "2008",
       },
@@ -5027,26 +5666,28 @@ export const teenSeries: Show[] = [
         id: "johnny-dimarco",
         firstName: "John George",
         lastName: "DiMarco",
-        imageUrl: "/images/Degrassi/Johnny.jpg",
+        imageUrl: "https://static.wikia.nocookie.net/degrassi/images/5/57/With-or-without-you-10.jpg/revision/latest?cb=20111003160324",
         promo: true,
         nickname: ["Johnny"],
         classOf: "2008",
+        goesByNickname: true,
       },
       {
         id: "blue-chessex",
         firstName: "Bradley",
         lastName: "Chessex",
         imageUrl:
-          "https://pbs.twimg.com/profile_images/1178201538/bluuuue_400x400.jpg",
+          "https://img.buzzfeed.com/buzzfeed-static/static/2021-12/1/20/asset/c923dfeb7cdd/sub-buzz-3955-1638391292-1.png?downsize=900:*&output-format=auto&output-quality=auto",
         promo: true,
         nickname: ["Blue"],
         classOf: "2011",
+        goesByNickname: true,
       },
       {
         id: "riley-stavros",
         firstName: "Riley",
         lastName: "Stavros",
-        imageUrl: "/images/Degrassi/riley.jpg",
+        imageUrl: "https://i.redd.it/bziwreo41hbe1.jpeg",
         promo: true,
         classOf: "2011",
       },
@@ -5055,7 +5696,7 @@ export const teenSeries: Show[] = [
         firstName: "Fiona",
         lastName: "Coyne",
         imageUrl:
-          "https://scontent.fbma6-1.fna.fbcdn.net/v/t39.30808-6/509438889_3534855996644422_1512164515843154203_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=1zaGAm9ZmEMQ7kNvwGqVt-t&_nc_oc=AdkUrqdgmOPF7R-BU1tWOTvTWbm_JW4k6yjBZFpvVJGwQB1nRM4u4vSSgs7dvjOU6zw&_nc_zt=23&_nc_ht=scontent.fbma6-1.fna&_nc_gid=XgKxwneKz9I8XH8HQTGVLA&oh=00_Afop61ScPbd2hPZCRNkgUeWVC1cGGyAg8tZJSROveVBI7A&oe=697549D3",
+          "https://m.media-amazon.com/images/M/MV5BMzk3Njg5MDgxOF5BMl5BanBnXkFtZTgwODk1NzQ2MjE@._V1_.jpg",
         promo: true,
         classOf: "2013",
       },
@@ -5065,7 +5706,7 @@ export const teenSeries: Show[] = [
         firstName: "Declan",
         lastName: "Coyne",
         imageUrl:
-          "https://preview.redd.it/kipy498bj8o91.jpg?width=567&format=pjpg&auto=webp&s=fb2ed4d2d895d90186d0dbd974085a75b8dbc88d",
+          "https://preview.redd.it/honest-thoughts-on-declan-i-have-to-say-i-have-no-opinion-v0-wh0gd98bj8o91.jpg?width=400&format=pjpg&auto=webp&s=e21d9014345c00bd1a97c60f750fa227b0342777",
         promo: true,
         classOf: "2011",
       },
@@ -5073,7 +5714,7 @@ export const teenSeries: Show[] = [
         id: "jenna-middleton",
         firstName: "Jenna",
         lastName: "Middleton",
-        imageUrl: "/images/Degrassi/Jenna.jpg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyioxrjNueC-yBa_x4UC-QQBPiRmcoxnRaB8ahXXVeZUmzatlUGq_4Oa8&s=10",
         promo: true,
         classOf: "2014",
       },
@@ -5082,16 +5723,18 @@ export const teenSeries: Show[] = [
         firstName: "David",
         lastName: "Turner",
         imageUrl:
-          "https://i.pinimg.com/736x/f1/09/95/f10995f8dd185edb5f58c75f30367ea4.jpg",
+          "https://i.redd.it/remembering-jahmil-french-dave-turner-who-passed-away-4-v0-iw7examyr4me1.jpg?width=500&format=pjpg&auto=webp&s=64732697158d6e51eabd8f4174ee67fb505a20d4",
         promo: true,
         generation: 2,
         nickname: ["Dave"],
+        classOf: "2013",
+        goesByNickname: true,
       },
       {
         id: "eli-goldsworthy",
         firstName: "Eli",
         lastName: "Goldsworthy",
-        imageUrl: "/images/Degrassi/Eli.jpg",
+        imageUrl: "https://i.pinimg.com/736x/01/d7/62/01d7624a0b432084678338c0ab5e5935.jpg",
         promo: true,
         classOf: "2013",
       },
@@ -5100,17 +5743,18 @@ export const teenSeries: Show[] = [
         firstName: "Winnie",
         lastName: "Oh",
         imageUrl:
-          "https://static1.personalitydatabase.net/2/pdb-images-prod/ed1866bb/profile_images/a69e0fe5144a48a2aaf64c8a3c4175ae.png",
+          "https://static.wikia.nocookie.net/degrassi/images/1/13/WDYTYA11.PNG/revision/latest?cb=20131031005249",
         promo: true,
         nickname: ["Mrs. Oh"],
         classOf: "Other",
+        goesByNickname: true
       },
       {
         id: "wesley-betenkamp",
         firstName: "Wesley",
         lastName: "Betenkamp",
         imageUrl:
-          "https://static.tvmaze.com/uploads/images/medium_portrait/19/49519.jpg",
+          "https://m.media-amazon.com/images/S/pv-target-images/0527443b87e8827ddb86f798ac97f4bca9ea8a89a5362f6efe7bbdc0b14ca776.jpg",
         promo: true,
         classOf: "2013",
       },
@@ -5118,7 +5762,7 @@ export const teenSeries: Show[] = [
         id: "adam-torres",
         firstName: "Adam",
         lastName: "Torres",
-        imageUrl: "/images/Degrassi/Adam.jpg",
+        imageUrl: "https://i.pinimg.com/736x/35/28/a6/3528a6662da4bf883218b779718261a6.jpg",
         promo: true,
         classOf: "2014",
       },
@@ -5126,7 +5770,7 @@ export const teenSeries: Show[] = [
         id: "bianca-desousa",
         firstName: "Bianca",
         lastName: "DeSousa",
-        imageUrl: "/images/Degrassi/Bianca.jpg",
+        imageUrl: "https://i.pinimg.com/736x/29/b8/a8/29b8a873e83703eb020f8adcbfa7a93d.jpg",
         promo: true,
         classOf: "2013",
       },
@@ -5134,7 +5778,7 @@ export const teenSeries: Show[] = [
         id: "drew-torres",
         firstName: "Drew",
         lastName: "Torres",
-        imageUrl: "/images/Degrassi/Drew.jpg",
+        imageUrl: "https://i.pinimg.com/736x/5b/d8/82/5bd882476de08f46ab4e54b53394098d.jpg",
         promo: true,
         classOf: "2014",
       },
@@ -5143,7 +5787,7 @@ export const teenSeries: Show[] = [
         firstName: "Zane",
         lastName: "Park",
         imageUrl:
-          "https://pbs.twimg.com/profile_images/1420764114/D11__Gallery__SS_0980_copy_400x400.jpg",
+          "https://i.pinimg.com/736x/c6/8d/22/c68d22561ec6d1fffed72251c1e84929.jpg",
         promo: true,
         classOf: "2011",
       },
@@ -5151,7 +5795,7 @@ export const teenSeries: Show[] = [
         id: "owen-milligan",
         firstName: "Owen",
         lastName: "Milligan",
-        imageUrl: "/images/Degrassi/Owen.png",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXmVN_dbz8xTVbIt-zEHL_7p-eshQaWIciqFe6zAiFz92GBKJl",
         promo: true,
         classOf: "2013",
       },
@@ -5160,17 +5804,18 @@ export const teenSeries: Show[] = [
         id: "jake-martin",
         firstName: "Jacob",
         lastName: "Martin",
-        imageUrl: "/images/Degrassi/Jake.jpg",
+        imageUrl: "https://i.pinimg.com/736x/01/97/f7/0197f7f30099140f30b893f909eac3ef.jpg",
         promo: true,
         nickname: ["Jake"],
         classOf: "2013",
+        goesByNickname: true,
       },
       {
         id: "marisol-lewis",
         firstName: "Marisol",
         lastName: "Lewis",
         imageUrl:
-          "https://pbs.twimg.com/profile_images/1557920779/_MarisolLewis_400x400.jpg",
+          "https://i.pinimg.com/736x/a0/65/7b/a0657b807180289f8dc509a5d080b7e0.jpg",
         promo: true,
         classOf: "2013",
       },
@@ -5178,28 +5823,30 @@ export const teenSeries: Show[] = [
         id: "katie-matlin",
         firstName: "Kaitlyn",
         lastName: "Matlin",
-        imageUrl: "/images/Degrassi/Katie.jpg",
+        imageUrl: "https://i.pinimg.com/736x/76/21/b4/7621b48a786636918359858a514cd4bc.jpg",
         promo: true,
         generation: 2,
         nickname: ["Katie"],
         classOf: "2013",
+        goesByNickname: true,
       },
       {
         id: "imogen-moreno",
         firstName: "Imogen",
         lastName: "Moreno",
-        imageUrl: "/images/Degrassi/Imogen.jpg",
+        imageUrl: "https://i.pinimg.com/1200x/07/11/5f/07115fa697de98a2a694676cc0a369f8.jpg",
         promo: true,
         classOf: "2014",
       },
       {
-        id: "mo-mhkour",
+        id: "mo-mashhkour",
         firstName: "Mohammed",
-        lastName: "Mhkour",
-        imageUrl: "/images/Degrassi/Mo.jpg",
+        lastName: "Mashhkour",
+        imageUrl: "https://m.media-amazon.com/images/M/MV5BMTU5NDgxMTQyMl5BMl5BanBnXkFtZTgwMTQ1NTQ2MjE@._V1_.jpg",
         promo: true,
         nickname: ["Mo"],
         classOf: "2013",
+        goesByNickname: true
       },
       //Gen 3
       //1
@@ -5208,7 +5855,7 @@ export const teenSeries: Show[] = [
         firstName: "Tristan",
         lastName: "Milligan",
         imageUrl:
-          "https://i.redd.it/whos-been-done-the-dirtiest-in-tng-nc-v0-tmwh18z5ey1f1.jpg?width=704&format=pjpg&auto=webp&s=d7e0b5fb291242872be3a088e426da37de93e3fe",
+          "https://m.media-amazon.com/images/M/MV5BNzE5MDExMjUzOV5BMl5BanBnXkFtZTgwOTgxOTQ2MjE@._V1_.jpg",
         promo: true,
         classOf: "2016",
       },
@@ -5217,7 +5864,7 @@ export const teenSeries: Show[] = [
         firstName: "Maya",
         lastName: "Matlin",
         imageUrl:
-          "https://preview.redd.it/realistically-who-would-you-be-friends-with-out-of-these-v0-e0vkk08rsw4g1.jpg?width=720&format=pjpg&auto=webp&s=a1700d7ba93e252a6dfabdadd90ccd2863ca7cba",
+          "https://i.pinimg.com/736x/6b/e2/3b/6be23bffeca8301264e65201b28a4ce0.jpg",
         generation: 3,
         promo: true,
         classOf: "2016",
@@ -5227,36 +5874,40 @@ export const teenSeries: Show[] = [
         firstName: "Victoria",
         lastName: "Santamaria",
         imageUrl:
-          "https://static.wikitide.net/allthetropeswiki/4/4a/Tori_5998.jpg",
+          "https://i.pinimg.com/736x/0d/dd/cb/0dddcb74f4befd64a7e635c44f457083.jpg",
         promo: true,
         classOf: "2016",
         nickname: ["Tori"],
+        goesByNickname: true,
       },
       {
         id: "zig-novak",
         firstName: "Zigmund",
         lastName: "Novak",
         imageUrl:
-          "https://preview.redd.it/hw0qqo4y9wn91.jpg?width=330&format=pjpg&auto=webp&s=61021224258932cfe6b619c97b7deeb68d6d5424",
+          "https://i.pinimg.com/1200x/a0/07/52/a0075227a16590cc7e80cd92cf35349c.jpg",
         promo: true,
         nickname: ["Zig"],
         classOf: "2016",
+        goesByNickname: true,
       },
       {
         id: "becky-baker",
         firstName: "Rebecca",
         lastName: "Baker",
-        imageUrl: "/images/Degrassi/becky.jpg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9kUQOVIN7oshNJSuDfffMXZItBEYn5zLmr7TYV2LuhGkr2tvF_4EJxf26&s=10",
         promo: true,
         generation: 2,
         nickname: ["Becky"],
         classOf: "2014",
+        goesByNickname: true
       },
+      
       {
         id: "luke-baker",
         firstName: "Luke",
         lastName: "Baker",
-        imageUrl: "/images/Degrassi/Luke.jpg",
+        imageUrl: "https://i.redd.it/worst-thing-that-each-character-has-ever-said-or-done-before-v0-g1gjftk4w5kc1.jpg?width=335&format=pjpg&auto=webp&s=b86e4ca03df276978d690509c2f414491a50e872",
         promo: true,
         classOf: "2014",
       },
@@ -5264,28 +5915,30 @@ export const teenSeries: Show[] = [
         id: "mike-dallas",
         firstName: "Mike",
         lastName: "Dallas",
-        imageUrl: "/images/Degrassi/dallas.jpg",
+        imageUrl: "https://degrassiblog.com/wp-content/uploads/2012/08/gobauheader.jpg",
         generation: 2,
         promo: true,
         nickname: ["Dallas"],
         classOf: "2014",
+        goesByNickname: true,
       },
       {
         id: "cam-saunders",
         firstName: "Campbell",
         lastName: "Saunders",
         imageUrl:
-          "https://static1.srcdn.com/wordpress/wp-content/uploads/2018/04/Campbell-Saunders-Degrassi.jpeg",
+          "https://i.pinimg.com/736x/aa/70/90/aa7090a7809812241f4371f258550cab.jpg",
         promo: true,
         nickname: ["Cam"],
         classOf: "2015",
+        goesByNickname: true
       },
       {
         id: "zoë-rivas",
         firstName: "Zoë",
         lastName: "Rivas",
         imageUrl:
-          "https://i.pinimg.com/736x/79/00/36/7900365f8e1b9a930a10244d929fc298.jpg",
+          "https://i.pinimg.com/736x/8a/b2/97/8ab29781bdda641f7022cc5b0691d683.jpg",
         promo: true,
         classOf: "2016",
       },
@@ -5294,7 +5947,7 @@ export const teenSeries: Show[] = [
         firstName: "Winston",
         lastName: "Chu",
         imageUrl:
-          "https://i.pinimg.com/474x/f7/5e/80/f75e8016f979c0936bffde5be8648e2a.jpg",
+          "https://static.wikia.nocookie.net/powerrangersfanon/images/b/b7/OscarTQGT.jpg/revision/latest?cb=20190115053133",
         promo: true,
         classOf: "2016",
       },
@@ -5303,7 +5956,7 @@ export const teenSeries: Show[] = [
         firstName: "Miles",
         lastName: "Hollingsworth",
         imageUrl:
-          "https://scontent.fbma6-1.fna.fbcdn.net/v/t39.30808-6/487379721_960293529598726_2488813009515794188_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Ciq0VDELPUQQ7kNvwHwtkCy&_nc_oc=Adlb851lVhp3mHKlMfWJAYGU9TZ7fYTWLVGanWVi9CqOXzyHJEuKZY79GPaGMA4XR2s&_nc_zt=23&_nc_ht=scontent.fbma6-1.fna&_nc_gid=5cy7BWio1Aiq9uO6WV3uYw&oh=00_AfqPnoinWVJTURY4ajNcAiypN2EFaNr5UmlzKI1SuhPaOg&oe=69755FC3",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnRbj-9b62g-tC5zzErTj0OlCrO6Ad43tHP7ezDsGvYP8l4CPuIxZYloA&s=10",
         promo: true,
         classOf: "2016",
       },
@@ -5313,7 +5966,7 @@ export const teenSeries: Show[] = [
         firstName: "Frankie",
         lastName: "Hollingsworth",
         imageUrl:
-          "https://preview.redd.it/why-does-nobody-talk-about-how-ungodly-annoying-frankie-v0-rm917rx909ae1.jpeg?auto=webp&s=120a9eabc023a73b23b6fe297952e25f44fcd5bd",
+          "https://i.pinimg.com/736x/a8/27/14/a827141d4b96789893a39ea0c6384068.jpg",
         promo: true,
         classOf: "2017",
       },
@@ -5322,7 +5975,7 @@ export const teenSeries: Show[] = [
         firstName: "Grace",
         lastName: "Cardinal",
         imageUrl:
-          "https://i.pinimg.com/736x/c3/f0/37/c3f037d4b8302e7aa2b7c217aef3b79c.jpg",
+          "https://i.pinimg.com/736x/d9/6a/c4/d96ac4ea96e3063a5a4193ae68872019.jpg",
         promo: true,
         classOf: "2016",
       },
@@ -5330,7 +5983,7 @@ export const teenSeries: Show[] = [
         id: "jack-jones",
         firstName: "Jack",
         lastName: "Jones",
-        imageUrl: "/images/Degrassi/Jack.jpg",
+        imageUrl: "https://pbs.twimg.com/profile_images/494573731033796609/FzOhcgJS_400x400.jpeg",
         promo: true,
         classOf: "2015",
       },
@@ -5339,7 +5992,7 @@ export const teenSeries: Show[] = [
         firstName: "Hunter",
         lastName: "Hollingsworth",
         imageUrl:
-          "https://scontent.fbma6-1.fna.fbcdn.net/v/t39.30808-6/481919836_1829361317602574_3145045514930717448_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qrE02YOM878Q7kNvwHQkoN3&_nc_oc=Adkgmhelyr-rPSI5BviF9dtgStZpw-FgEb_rUp8jlKPyD6Tnd4MgZZ6RWX8krJTXDlw&_nc_zt=23&_nc_ht=scontent.fbma6-1.fna&_nc_gid=2WtWh-HupUTOByI4qWRClw&oh=00_AfoHA5Z6VSo_3fzxtfszyLf4oSHu_O6z25USEQtlB4tRFQ&oe=69755D56",
+          "https://i.pinimg.com/736x/b9/1e/19/b91e190a459fb62093c855783283b61e.jpg",
         promo: true,
         classOf: "2017",
       },
@@ -5348,18 +6001,19 @@ export const teenSeries: Show[] = [
         firstName: "Deon",
         lastName: "Bell",
         imageUrl:
-          "https://i.pinimg.com/736x/83/28/b1/8328b1650f30a5acd479bf3b9320f5a3.jpg",
+          "https://i.pinimg.com/1200x/47/ac/a9/47aca9bb8c4e9d0ab353a8c1938faa39.jpg",
         promo: true,
         generation: 3,
         nickname: ["Tiny"],
         classOf: "2016",
+        goesByNickname: true,
       },
       {
         id: "shay-powers",
         firstName: "Shay",
         lastName: "Powers",
         imageUrl:
-          "https://static.tvmaze.com/uploads/images/medium_portrait/19/49476.jpg",
+          "https://static.wikia.nocookie.net/degrassi/images/a/a3/Et453453.png/revision/latest?cb=20160108182909",
         promo: true,
         classOf: "2017",
       },
@@ -5367,7 +6021,7 @@ export const teenSeries: Show[] = [
         id: "lola-pacini",
         firstName: "Lola",
         lastName: "Pacini",
-        imageUrl: "https://i.redd.it/o12aoawonea81.jpg",
+        imageUrl: "https://i.pinimg.com/736x/19/2f/a1/192fa171c0231333c02fb4fb12686cfe.jpg",
         promo: true,
         classOf: "2017",
       },
@@ -5378,7 +6032,7 @@ export const teenSeries: Show[] = [
       { actor: "Christina Schmidt", character: "Terri MacGregor" },
       { actor: "Melissa McIntyre", character: "hley Kerwin" },
       { actor: "Sarah Barrable", character: "Tishauer	Liberty Van Zandt" },
-      { actor: "Csie Steele", character: "Manny Santos" },
+      { actor: "Cassie Steele", character: "Manny Santos" },
       { actor: "Stefan Brogren", character: "Archie 'Snake' Simpson" },
       { actor: "Jake Goldsbie", character: "Toby Isaacs" },
       { actor: "Shane Kippel", character: "Gavin 'Spinner' Mon" },
@@ -5442,7 +6096,7 @@ export const teenSeries: Show[] = [
       { actor: "Craig Arnold", character: "Luke Baker" },
       { actor: "Demetrius Joyette", character: "Mike Dall" },
       { actor: "Dylan Everett", character: "Campbell Saunders" },
-      { actor: "Ana Golja", character: "Zoë Riv" },
+      { actor: "Ana Golja", character: "Zoë Rivas" },
       { actor: "Andre Kim", character: "Winston Chu" },
       { actor: "Eric Osborne", character: "Miles Hollingsworth" },
       { actor: "Sara Waisgls", character: "Frankie Hollingsworth" },
@@ -5499,7 +6153,7 @@ export const teenSeries: Show[] = [
         finaleEpisode: "Jagged Little Pill",
         title: "Goin' Down the Road: Part 2",
         posterUrl:
-          "https://pics.filmaffinity.com/degrassi_the_next_generation-751674639-large.jpg",
+          "https://upload.wikimedia.org/wikipedia/en/c/c5/DTNG_season-4.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
         episodeCount: 22,
       },
       {
@@ -5534,7 +6188,7 @@ export const teenSeries: Show[] = [
         finaleEpisode: "We Built This City",
         title: "Degrassi The Next Generation, Season 7",
         posterUrl:
-          "https://pics.filmaffinity.com/degrassi_the_next_generation-806670995-large.jpg",
+          "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/DTNG_season-7.jpg/250px-DTNG_season-7.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
         episodeCount: 24,
       },
       {
@@ -5618,6 +6272,61 @@ export const teenSeries: Show[] = [
         episodeCount: 28,
       },
     ],
+    soundtrack: [
+      {
+        id: "songs-from-degrassi-tng-album",
+        type: "album",
+        imgUrl: "https://static.wikia.nocookie.net/degrassi/images/f/f5/Songs_from_Degrassi.jpeg/revision/latest?cb=20230620155935",
+        noImage: false,
+      },
+      {
+        id: "degrassi-goes-hollywood-album",
+        type: "album",
+        imgUrl: "https://i.scdn.co/image/ab67616d0000b2734ea265cd024a307bd4911ebf",
+        noImage: false,
+      },
+      {
+        id: "degrassi-takes-manhattan-album",
+        type: "album",
+        imgUrl: "https://i.scdn.co/image/ab67616d0000b27365f821a6d6a76dc6f144bd17",
+        noImage: false,
+      },
+      {
+        id: "degrassi-the-boiling-point-album",
+        type: "album",
+        imgUrl: "https://m.media-amazon.com/images/I/51lShkgGOXL._UF894,1000_QL80_.jpg",
+        noImage: false,
+      },
+      {
+        id: "degrassi-tng-season-11-soundtrack",
+        type: "soundtrack",
+        imgUrl: "https://static.wikia.nocookie.net/degrassi/images/6/68/DegrassiBreakingPointPoster.png/revision/latest/scale-to-width-down/720?cb=20130914230506",
+        noImage: false,
+        noSeason: 11
+      },
+      {
+        id: "degrassi-tng-season-12-soundtrack",
+        type: "soundtrack",
+        imgUrl: "https://static.wikia.nocookie.net/degrassi/images/8/8b/61ErwM1NVzL.jpg/revision/latest/smart/width/250/height/250?cb=20131030023459",
+        noImage: false,
+        noSeason: 12
+      },
+      {
+        id: "degrassi-tng-season-13-soundtrack",
+        type: "soundtrack",
+        imgUrl: "https://static.wikia.nocookie.net/degrassi/images/f/f4/Season13.jpg/revision/latest/smart/width/250/height/250?cb=20150707191838",
+        noImage: false,
+        noSeason: 13
+      },
+      {
+        id: "degrassi-tng-season-14-soundtrack",
+        type: "soundtrack",
+        imgUrl: "https://static.wikia.nocookie.net/degrassi/images/9/91/Season14.jpg/revision/latest/smart/width/250/height/250?cb=20151214024103",
+        noImage: false,
+        noSeason: 14
+      },
+
+    ],
     creator: ["Yan Moore", "Linda Schuyler"],
     producer: ["David Lowe", "Stefan Brogren", "Seyedeh Haerihendi"],
     executive: [
@@ -5639,10 +6348,27 @@ export const teenSeries: Show[] = [
     ],
     network: ["CTV", "MuchMusic", "MTV Canada"],
     related: [
-      "The Kids of Degrassi Street (1979–1986)",
-      "Degrassi Junior High (1987–1989)",
-      "Degrassi High (1989–1991)",
-      "Degrassi: Next Class (2016–2017)",
+      {
+        id: "the-kids-of-degrassi-street",
+        title: "The Kids of Degrassi Street", 
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BMTI1ZGY2MmItODE3Yi00ODdmLTgyMjktNGFlYjljZDlhYTYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      },
+      {
+        id: "degrassi-junior-high",
+        title: "Degrassi Junior High",
+        posterUrl:
+          "https://image.tmdb.org/t/p/original/fYetgZI5fkmIFsxUGqzryGmql8G.jpg",    
+      },
+      {
+        id: "degrassi-high",
+        title: "Degrassi High", 
+        posterUrl: "https://preview.redd.it/anyone-watched-the-original-degrassi-v0-ai8ie5um3qod1.jpg?width=939&format=pjpg&auto=webp&s=2202ac9498130fa9ae1894189897ae0ee1fd4a92",
+      },
+      {
+        id: "degrassi-next-class",
+        title: "Degrassi: Next Class",
+        posterUrl: "https://preview.redd.it/degrassi-next-class-premiered-ten-years-ago-today-it-is-the-v0-1p222ss9kjdg1.jpeg?auto=webp&s=d61f2838ab47ceb45fb7a7efc42459f1a1fdfc2e",
+      },
     ],
   },
   {
@@ -5652,8 +6378,8 @@ export const teenSeries: Show[] = [
     tags: ["Teen drama", "Drama"],
     language: "En",
     country: "Canada",
-    firstAirDate: "1987-01-18",
-    lastAirDate: "1989-02-27",
+    firstAirDate: "January 18, 1987",
+    lastAirDate: "February 27, 1989",
     status: "Ended",
     posterUrl:
       "https://image.tmdb.org/t/p/original/fYetgZI5fkmIFsxUGqzryGmql8G.jpg",
@@ -5667,6 +6393,8 @@ export const teenSeries: Show[] = [
         imageUrl:
           "https://broomheadz.com/wp-content/uploads/2015/11/steph-5.png",
         promo: true,
+        nickname: ["Steph"],
+        goesByNickname: true,
       },
       {
         id: "voula-grivogianni",
@@ -5705,12 +6433,13 @@ export const teenSeries: Show[] = [
         firstName: "Archibald",
         lastName: "Simpson",
         imageUrl:
-          "https://imageresizer.static9.net.au/-iuv2obYaWDOZW63-ABeyHk9xKg=/400x0/https%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Fsnakedegrasss.jpg",
+          "https://static.tvmaze.com/uploads/images/medium_portrait/19/48543.jpg",
         promo: true,
-        nickname: ["Snake", "Archie", "Mr.Simpson"],
+        nickname: ["Snake", "Archie"],
+        goesByNickname: true
       },
       {
-        id: "susie-eivera",
+        id: "susie-rivera",
         firstName: "Susie",
         lastName: "Rivera",
         imageUrl:
@@ -5724,6 +6453,7 @@ export const teenSeries: Show[] = [
         imageUrl: "https://i.redd.it/kxe9ar1dbsd61.png",
         promo: true,
         nickname: ["Wheels"],
+        goesByNickname: true,
       },
       {
         id: "shane-mckay",
@@ -5795,6 +6525,7 @@ export const teenSeries: Show[] = [
           "https://degrassijuniorhighreviewed.wordpress.com/wp-content/uploads/2014/04/100_5186.jpg",
         promo: true,
         nickname: ["L.D."],
+        goesByNickname: true,
       },
       {
         id: "spike-nelson",
@@ -5803,6 +6534,7 @@ export const teenSeries: Show[] = [
         imageUrl: "https://i.ytimg.com/vi/LrtqxPgCq8g/hqdefault.jpg",
         promo: true,
         nickname: ["Spike"],
+        goesByNickname: true
       },
       {
         id: "alexa-pappadopoulos",
@@ -5844,6 +6576,7 @@ export const teenSeries: Show[] = [
           "https://broomheadz.com/wp-content/uploads/2017/09/blt-1.png?w=960",
         promo: true,
         nickname: ["B.L.T."],
+        goesByNickname: true,
       },
       {
         id: "michelle-accette",
@@ -5885,6 +6618,7 @@ export const teenSeries: Show[] = [
           "https://degrassijuniorhighreviewed.wordpress.com/wp-content/uploads/2014/11/bronco.png",
         promo: true,
         nickname: ["Bronco"],
+        goesByNickname: true
       },
       {
         id: "tessa-campanelli",
@@ -5962,6 +6696,26 @@ export const teenSeries: Show[] = [
         episodeCount: 16,
       },
     ],
+    soundtrack: [
+      {
+        id: "degrassi-junior-high-season-1-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1,
+      },
+      {
+        id: "degrassi-junior-high-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2,
+      },
+      {
+        id: "degrassi-junior-high-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3,
+      },
+    ],
     creator: ["Linda Schuyler", "Kit Hood"],
     producer: ["Kate Taylor"],
     executive: ["Linda Schuyler", "Kate Taylor"],
@@ -5969,10 +6723,26 @@ export const teenSeries: Show[] = [
     prodCompanies: ["Playing With Time, Inc."],
     network: ["CBC Television"],
     related: [
-      "The Kids of Degrassi Street (1979–1986)",
-      "Degrassi High (1989–1991)",
-      "Degrassi: The Next Generation",
-      "Degrassi: Next Class (2016–2017)",
+      {
+        id: "the-kids-of-degrassi-street",
+        title: "The Kids of Degrassi Street", 
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BMTI1ZGY2MmItODE3Yi00ODdmLTgyMjktNGFlYjljZDlhYTYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      },
+      {
+        id: "degrassi-high",
+        title: "Degrassi High", 
+        posterUrl: "https://preview.redd.it/anyone-watched-the-original-degrassi-v0-ai8ie5um3qod1.jpg?width=939&format=pjpg&auto=webp&s=2202ac9498130fa9ae1894189897ae0ee1fd4a92",
+      },
+      {
+        id: "degrassi-tng",
+        title: "Degrassi: The Next Generation",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BMzE4NzZmNTgtMjUzMi00MGM5LWFkMWYtMzU0ZDZmMmFiZGQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      },
+      {
+        id: "degrassi-next-class",
+        title: "Degrassi: Next Class",
+        posterUrl: "https://preview.redd.it/degrassi-next-class-premiered-ten-years-ago-today-it-is-the-v0-1p222ss9kjdg1.jpeg?auto=webp&s=d61f2838ab47ceb45fb7a7efc42459f1a1fdfc2e",
+      },
     ],
   },
   {
@@ -5980,7 +6750,7 @@ export const teenSeries: Show[] = [
     title: "Buffy the Vampire Slayer",
     plot: "A high school student discovers she is the Chosen One, destined to fight vampires and demons. Balancing school, friendships, and saving the world becomes her everyday reality.",
     tags: ["Supernatural", "Teen drama", "Horror", "Comedy-drama"],
-    firstAirDate: "1997-03-10",
+    firstAirDate: "March 10, 1997",
     lastAirDate: "May 20, 2003",
     status: "Ended",
     language: "en",
@@ -5994,96 +6764,101 @@ export const teenSeries: Show[] = [
         id: "buffy-summers",
         firstName: "Buffy",
         lastName: "Summers",
-        imageUrl:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpnhodBoSHKqJzKto6MiAxKEOHv-HAjSz8jGrr-AUuZtRwOuf",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/a/a2/S514_Buffy.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+        posterUrl:  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWpnhodBoSHKqJzKto6MiAxKEOHv-HAjSz8jGrr-AUuZtRwOuf",
         promo: true,
       },
       {
         id: "xander-harris",
         firstName: "Xander",
         lastName: "Harris",
-        imageUrl:
-          "https://m.media-amazon.com/images/M/MV5BMTM3NTA3MzM3N15BMl5BanBnXkFtZTYwMTY4NjEz._V1_.jpg",
+        imageUrl: "https://cdn.mos.cms.futurecdn.net/aveDNKPg7FbVWth6XwngdK.png",
+        posterUrl:  "https://m.media-amazon.com/images/M/MV5BMTM3NTA3MzM3N15BMl5BanBnXkFtZTYwMTY4NjEz._V1_.jpg",
         promo: true,
       },
       {
         id: "willow-rosenberg",
         firstName: "Willow",
         lastName: "Rosenberg",
-        imageUrl:
-          "https://ucarecdn.com/2df32aec-57cb-427d-b66c-f81cb957663f/-/crop/320x320/60,0/-/preview/-/progressive/yes/-/format/auto/",
+        imageUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkDNvjXjrcM4F4YUpFM83fJqPaqUQKvKI0gkZs9Tyy6F1hzqhfxhwBhd8TaPPlw7p6UTKEboQgiGlS07lZf_Gz9gkBqRn_YJGE_5drga9U-6xkRXusN8VdZ2h_4ssc0CHPh1oFi5JjC-8Y/s1600/WillowFeatured.jpg",
+        posterUrl:  "https://ucarecdn.com/2df32aec-57cb-427d-b66c-f81cb957663f/-/crop/320x320/60,0/-/preview/-/progressive/yes/-/format/auto/",
         promo: true,
       },
       {
         id: "cordelia-chase",
         firstName: "Cordelia",
         lastName: "Chase",
-        imageUrl:
-          "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRicE25m61JCW8sweAUIYkbEyXTL_sUzZtbkFMGquMqlQ9Rz67k",
+        imageUrl: "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/06/charisma-carpenter-as-cordelia-chase-smiling-widely-in-buffy-the-vampire-slayer.jpg?w=1600&h=900&fit=crop",
+        posterUrl:  "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRicE25m61JCW8sweAUIYkbEyXTL_sUzZtbkFMGquMqlQ9Rz67k",
         promo: true,
       },
       {
         id: "angel",
         firstName: "Liam",
-        imageUrl:
-          "https://static0.srcdn.com/wordpress/wp-content/uploads/2021/03/David-Boreanaz-as-Angel-in-BtVS-Angel.jpg?q=49&fit=contain&w=711&h=400&dpr=2",
+        imageUrl: "https://static0.srcdn.com/wordpress/wp-content/uploads/David-Boreanz-as-Angel-in-Buffy-the-Vampire-Slayer.jpg",
+        posterUrl:  "https://static0.srcdn.com/wordpress/wp-content/uploads/2021/03/David-Boreanaz-as-Angel-in-BtVS-Angel.jpg?q=49&fit=contain&w=711&h=400&dpr=2",
         promo: true,
+        nickname: ["Angel"],
+        goesByNickname: true,
       },
       {
         id: "oz",
         firstName: "Daniel",
         lastName: "Osbourne",
-        imageUrl:
-          "https://static0.srcdn.com/wordpress/wp-content/uploads/2020/04/Oz-Buffy-the-Vampire-Slayer-Season-2.jpg",
+        imageUrl: "https://i.redd.it/i-adore-oz-v0-3dy1acifkxsb1.jpg?width=1080&format=pjpg&auto=webp&s=52273151ab399c870292368ee5f3272c73a1b7e1",
+        posterUrl:  "https://static0.srcdn.com/wordpress/wp-content/uploads/2020/04/Oz-Buffy-the-Vampire-Slayer-Season-2.jpg",
         promo: true,
         nickname: ["Oz"],
+        goesByNickname: true,
       },
       {
         id: "riley-finn",
         firstName: "Riley",
         lastName: "Finn",
-        imageUrl: "https://i.redd.it/h33g206yph5e1.png",
+        imageUrl: "https://preview.redd.it/was-riley-really-that-terrible-v0-xt412s4bbmve1.png?width=640&crop=smart&auto=webp&s=d8d888c892b032a92cb04baa90f87012a86dcb0b",
+        posterUrl: "https://i.redd.it/h33g206yph5e1.png",
         promo: true,
       },
       {
         id: "anya-jenkins",
         firstName: "Anya",
         lastName: "Jenkins",
-        imageUrl:
-          "https://preview.redd.it/what-do-my-favorite-characters-say-about-me-v0-emm3rzulbitc1.jpg?width=225&format=pjpg&auto=webp&s=b190aa4ca090e0edad637d36ea1d61eaa8f536e3",
+        imageUrl: "https://preview.redd.it/anya-jenkins-v0-mkxrqwdefekg1.jpg?width=600&format=pjpg&auto=webp&s=2a21516608a32005bdb4450db8a4271e6a2cafcf",
+        posterUrl:  "https://preview.redd.it/what-do-my-favorite-characters-say-about-me-v0-emm3rzulbitc1.jpg?width=225&format=pjpg&auto=webp&s=b190aa4ca090e0edad637d36ea1d61eaa8f536e3",
         promo: true,
       },
       {
         id: "dawn-summers",
         firstName: "Dawn",
         lastName: "Summers",
-        imageUrl:
-          "https://yellowroseroad.wordpress.com/wp-content/uploads/2021/05/dawnsummers.png",
+        imageUrl: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/10/buffy-the-vampire-slayer-dawn.jpg",
+        posterUrl: "https://yellowroseroad.wordpress.com/wp-content/uploads/2021/05/dawnsummers.png",
         promo: true,
       },
       {
-        id: "tara-maclay-",
+        id: "tara-maclay",
         firstName: "Tara",
         lastName: "Maclay ",
-        imageUrl:
-          "https://oyster.ignimgs.com/mediawiki/apis.ign.com/buffy-the-vampire-slayer/1/13/Taramaclay.jpg",
+        imageUrl: "https://miro.medium.com/1*6Ipj73CHBi9wmvuoNd0JJg.png",
+        posterUrl:  "https://oyster.ignimgs.com/mediawiki/apis.ign.com/buffy-the-vampire-slayer/1/13/Taramaclay.jpg",
         promo: true,
       },
       {
         id: "spike",
         firstName: "William",
         lastName: "Pratt",
-        imageUrl:
-          "https://oyster.ignimgs.com/mediawiki/apis.ign.com/buffy-the-vampire-slayer/7/7c/Spike.jpg",
+        imageUrl: "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Spike.Buffy-the-Vampire-Slayer.webp",
+        posterUrl: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/buffy-the-vampire-slayer/7/7c/Spike.jpg",
         promo: true,
         nickname: ["Spike"],
+        goesByNickname: true,
       },
       {
         id: "rupert-giles",
         firstName: "Rupert",
         lastName: "Giles",
-        imageUrl:
-          "https://oyster.ignimgs.com/mediawiki/apis.ign.com/buffy-the-vampire-slayer/d/da/Rupertgiles.jpg",
+        imageUrl: "https://m.media-amazon.com/images/M/MV5BNTk3YmY2M2QtYTkxZC00NWNlLWEyYWYtYWExYzdlMDRjMTE2XkEyXkFqcGc@._V1_.jpg",
+        posterUrl:  "https://oyster.ignimgs.com/mediawiki/apis.ign.com/buffy-the-vampire-slayer/d/da/Rupertgiles.jpg",
         promo: true,
       },
     ],
@@ -6187,6 +6962,50 @@ export const teenSeries: Show[] = [
         episodeCount: 22,
       },
     ],
+    soundtrack: [
+      {
+        id: "buffy-the-vampire-slayer-season-1-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1,
+      },
+      {
+        id: "buffy-the-vampire-slayer-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2,
+      },
+      {
+        id: "buffy-the-vampire-slayer-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3,
+      },
+      {
+        id: "buffy-the-vampire-slayer-season-4-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 4,
+      },
+      {
+        id: "buffy-the-vampire-slayer-season-5-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 5,
+      },
+      {
+        id: "buffy-the-vampire-slayer-season-6-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 6,
+      },
+      {
+        id: "buffy-the-vampire-slayer-season-7-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 7,
+      },
+    ],
     creator: ["Joss Whedon"],
     producer: ["Joss Whedon"],
     executive: [
@@ -6206,19 +7025,35 @@ export const teenSeries: Show[] = [
     ],
     network: ["The WB", "UPN"],
     related: [
-      "Buffy the Vampire Slayer (1992 film)",
-      "Buffy the Vampire Slayer Season Eight (comic book)",
-      "Angel",
-      "Buffy the Vampire Slayer: New Sunnydale ",
+      {
+        id: "buffy-the-vampire-slayer-film", 
+        title: "Buffy the Vampire Slayer (Film)",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BZDQ4MzNlMzAtZDMxMy00YzcwLWJiMTMtNDBmMWMyMTAwODM5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        id: "buffy-the-vampire-slayer-season-eight-comic-book", 
+        title: "Buffy the Vampire Slayer: Season Eight (Comic Book)",
+        posterUrl: "https://m.media-amazon.com/images/I/61D+duAzolL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        id: "angel", 
+        title: "Angel",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BMjQzMTliMWYtNDQ3Ny00MTdmLWJjODQtNTk3NTcyZDMwMmMwXkEyXkFqcGc@._V1_.jpg"
+      },
+      {
+        id: "buffy-the-vampire-slayer-new-sunnydale ", 
+        title: "Buffy the Vampire Slayer: New Sunnydale",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BNTU3OWE1NDQtYWY5YS00ZWFhLWFkODQtYzg2ZWY5OGE1MzFlXkEyXkFqcGc@._V1_.jpg"
+      },
     ],
   },
   {
     id: "pretty-little-liars",
     title: "Pretty Little Liars",
-    plot: "After their friend disappears, four teens are targeted by an anonymous tormentor who threatens to reveal their darkest secrets. The mystery deepens   they try to uncover who is behind it all.",
+    plot: "After their friend disappears, four teens are targeted by an anonymous tormentor who threatens to reveal their darkest secrets. The mystery deepens as they try to uncover who is behind it all.",
     tags: ["Mystery", "Teen drama", "Thriller"],
-    firstAirDate: "2010-06-08",
-    lastAirDate: "2017-06-27",
+    firstAirDate: "June 8, 2010",
+    lastAirDate: "June 27, 2017",
     status: "Ended",
     language: "en",
     country: "US",
@@ -6232,7 +7067,7 @@ export const teenSeries: Show[] = [
         firstName: "Spencer",
         lastName: "Hastings",
         imageUrl:
-          "https://live.staticflickr.com/8169/7922937158_11b676d9a2.jpg",
+          "https://i.pinimg.com/736x/97/a1/9e/97a19ec923ab2a625e3ce1121659c46e.jpg",
         posterUrl:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Spencer_Hastings.jpg/960px-Spencer_Hastings.jpg",
         promo: true,
@@ -6242,7 +7077,7 @@ export const teenSeries: Show[] = [
         firstName: "Hanna",
         lastName: "Marin",
         imageUrl:
-          "https://w0.peakpx.com/wallpaper/777/89/HD-wallpaper-ashley-benson-hanna-marin-pretty-little-liars.jpg",
+          "https://i.pinimg.com/736x/29/80/78/2980782e88bec89c27eb90cf4ba2f923.jpg",
         posterUrl:
           "https://preview.redd.it/what-do-my-top-say-about-me-v0-v46zwu53oz3d1.jpg?width=640&crop=smart&auto=webp&s=47f5ff829870bc9d2aca6a1f99658c3dbd7ee010",
         promo: true,
@@ -6251,7 +7086,7 @@ export const teenSeries: Show[] = [
         id: "aria-montgomery",
         firstName: "Aria",
         lastName: "Montgomery",
-        imageUrl: "/images/Pretty Little Liars/Aria.webp",
+        imageUrl: "https://i.redd.it/i-feel-bad-for-the-way-aria-was-written-or-at-least-how-v0-g0u7e3fj98pf1.jpg?width=298&format=pjpg&auto=webp&s=ca284cbf454652a1e1ed0a2a6b8e8f111398f374",
         posterUrl:
           "https://cdn.mos.cms.futurecdn.net/4h42GhYYkVTowqvJcrR448.jpg",
         promo: true,
@@ -6263,7 +7098,7 @@ export const teenSeries: Show[] = [
         posterUrl:
           "https://cdn.fansided.com/wp-content/blogs.dir/280/files/2016/06/Pretty-Little-Liars-Emily.jpg",
         imageUrl:
-          "https://1.bp.blogspot.com/-Ti2isov3UQw/UNEjfhWhG5I/AAAAAAAADL8/UMUxYbl5ywc/s320/Shay+Mitchell+proud+of+her+Filipino+roots.jpg",
+          "https://preview.redd.it/do-you-like-emily-fields-v0-glt9pc23qtkf1.jpeg?auto=webp&s=b3f7edfa58cfe5f9d1b8c7883dc9b4d81daa6d57",
         promo: true,
       },
       {
@@ -6271,7 +7106,7 @@ export const teenSeries: Show[] = [
         firstName: "Alison",
         lastName: "DiLaurentis",
         imageUrl:
-          "https://nypost.com/wp-content/uploads/sites/2/2014/08/128218_0676r.jpg?quality=75&strip=all&w=740",
+          "https://preview.redd.it/what-made-you-dislike-alison-v0-7sz1o01ijz0c1.jpg?width=640&crop=smart&auto=webp&s=72fc6ee59ce0b5a7936788c1d9a798ac7e5416fc",
         posterUrl:
           "https://i.pinimg.com/564x/73/c3/0a/73c30a8bf1306fbdbf4bb3d73224f809.jpg",
         promo: true,
@@ -6280,7 +7115,8 @@ export const teenSeries: Show[] = [
         id: "mona-vanderwaal",
         firstName: "Mona",
         lastName: "Vanderwaal",
-        imageUrl:
+        imageUrl: "https://imgix.bustle.com/rehost/2016/9/28/0ef66435-85fd-4d0c-8808-503c92e044b7.png?w=248&h=175&fit=crop&crop=faces&dpr=2",
+        posterUrl:
           "https://id-serienjunkies-production.s3.eu-central-1.amazonaws.com/n-cdn-sj/44423.jpg",
         promo: true,
       },
@@ -6288,7 +7124,7 @@ export const teenSeries: Show[] = [
         id: "ezra-fitz",
         firstName: "Ezra",
         lastName: "Fitz",
-        imageUrl: "/images/Pretty Little Liars/Ezra.jpg",
+        imageUrl: "https://preview.redd.it/ezra-and-aria-and-his-creepiness-aside-hes-soooo-fine-v0-ij29wi9bvple1.jpeg?auto=webp&s=ab777f38fd642647156bf38e3e8123efb1428d3a",
         promo: true,
       },
       {
@@ -6296,14 +7132,14 @@ export const teenSeries: Show[] = [
         firstName: "Toby",
         lastName: "Cavanaugh",
         imageUrl:
-          "https://i.pinimg.com/originals/ca/47/9d/ca479de174470c04a08bb1dc459fa58c.jpg",
+          "https://i.pinimg.com/736x/74/92/67/7492679d3d0c2eca72bbe88e906e97fe.jpg",
         promo: true,
       },
       {
         id: "caleb-rivers",
         firstName: "Caleb",
         lastName: "Rivers",
-        imageUrl: "/images/Pretty Little Liars/Caleb.jpg",
+        imageUrl: "https://i.pinimg.com/564x/69/62/63/69626375f8dc838625890957317ada06.jpg",
         promo: true,
       },
     ],
@@ -6363,7 +7199,7 @@ export const teenSeries: Show[] = [
         premiereEpisode: "'A' Is for A-l-i-v-e",
         finaleEpisode: "'A' Is for Answers",
         title: "Pretty Little Liars, Season 4",
-        posterUrl: "/images/Pretty Little Liars/plls4.jpg",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/d/da/Pretty_Little_Liars_Season_4_DVD_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
         episodeCount: 24,
       },
       {
@@ -6403,6 +7239,51 @@ export const teenSeries: Show[] = [
         episodeCount: 20,
       },
     ],
+    soundtrack: [
+      {
+        id: "pretty-little-liars-season-1-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1,
+      },
+      {
+        id: "pretty-little-liars-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2,
+      },
+      {
+        id: "pretty-little-liars-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3,
+      },
+      {
+        id: "pretty-little-liars-season-4-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 4,
+      },
+      {
+        id: "pretty-little-liars-season-5-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 5,
+      },
+      {
+        id: "pretty-little-liars-season-6-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 6,
+      },
+      {
+        id: "pretty-little-liars-season-7-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 7,
+      },
+    ],
+    
     basedOn: true,
     themeSong: ["'Secret' by the Pierces"],
     composer: ["Micheal Suby"],
@@ -6435,10 +7316,26 @@ export const teenSeries: Show[] = [
     ],
     network: ["Freeform"],
     related: [
-      "Pretty Dirty Secrets",
-      "Ravenswood",
-      "Pretty Little Liars: The Perfectionists",
-      "Pretty Little Liars",
+      { 
+        id: "pretty-dirty-secrets", 
+        title: "Pretty Dirty Secrets",
+        posterUrl: "https://www.toramp.com/posters/shows/5803/width360/pretty_dirty_secrets.jpg",
+      },
+      { 
+        id: "ravenswood", 
+        title: "Ravenswood",
+        posterUrl: "https://preview.redd.it/ravenswood-v0-2f5hqosfl7qe1.jpeg?auto=webp&s=c7b1a742504fa76fb6e03ed941584ad40e6feecd",
+      },
+      { 
+        id: "pretty-little-liars-the-perfectionists", 
+        title: "Pretty Little Liars: The Pefectionists",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BNzM3NTc4MTUzM15BMl5BanBnXkFtZTgwMzQxMzI0NzM@._V1_FMjpg_UX1000_.jpg",
+      },
+      { 
+        id: "pretty-little-liars-origanal-sin", 
+        title: "Pretty Little Liars: Original Sin",
+        posterUrl: "https://resizing.flixster.com/mw09iosH7Dcx1cmfTe2Yfo3TUyU=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vOTNmOTkxMDItZWYxZi00YzI5LTgyNmUtMjdlOTNjYTcwZGIwLmpwZw==",
+      },
     ],
   },
   {
@@ -6447,7 +7344,7 @@ export const teenSeries: Show[] = [
     plot: "A teen girl’s life is turned upside down when two vampire brothers return to her town, pulling her into a world of supernatural politics, romance, and danger.",
     tags: ["Supernatural", "Teen drama", "Romance", "Drama"],
     firstAirDate: "September 10, 2009",
-    lastAirDate: "2017-03-10",
+    lastAirDate: "March 10, 2017",
     status: "Ended",
     language: "en",
     country: "US",
@@ -6460,59 +7357,98 @@ export const teenSeries: Show[] = [
         id: "elena-gilbert",
         firstName: "Elena",
         lastName: "Gilbert",
-        imageUrl:
-          "https://preview.redd.it/almost-done-with-season-6-and-feel-like-elena-wasnt-even-a-v0-1o0lsxjttckd1.jpeg?auto=webp&s=5a34a469d2a7fe65d156da6ef5057b5a3c572ea2",
+        imageUrl: "https://i.redd.it/xb4t1scierv91.jpg",
+        posterUrl:  "https://preview.redd.it/almost-done-with-season-6-and-feel-like-elena-wasnt-even-a-v0-1o0lsxjttckd1.jpeg?auto=webp&s=5a34a469d2a7fe65d156da6ef5057b5a3c572ea2",
         promo: true,
       },
       {
         id: "stefan-salvatore",
         firstName: "Stefan",
         lastName: "Salvatore",
-        imageUrl:
-          "https://www.tvline.com/tvline/interviews/vampire-diaries-caroline-stefan-elena-spoilers-season-6-581800/vampire-diaries-stefan.jpg",
+        imageUrl: "https://static.wikia.nocookie.net/vampires/images/a/ae/I-would-die-for-stefan-salvatore-v0-ywjftkrjl2d81.jpg/revision/latest?cb=20240715135421",
+        posterUrl:  "https://www.tvline.com/tvline/interviews/vampire-diaries-caroline-stefan-elena-spoilers-season-6-581800/vampire-diaries-stefan.jpg",
         promo: true,
       },
       {
         id: "damon-salvatore",
         firstName: "Damon",
         lastName: "Salvatore",
-        imageUrl: "/images/The Vampire Diaries/Damon.jpg",
+        imageUrl: "https://preview.redd.it/damons-redemption-v0-etkw930gn67g1.jpeg?width=1080&crop=smart&auto=webp&s=a1241d6b8c9d12b3249a9f1c165d706b1331b2b6",
+        posterUrl: "https://i.ebayimg.com/images/g/6PEAAOSwqu9VQM8W/s-l1200.jpg",
         promo: true,
       },
       {
         id: "jeremy-gilbert",
         firstName: "Jeremy",
         lastName: "Gilbert",
-        imageUrl: "/images/The Vampire Diaries/Jeremy.jpg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCzthpmTIrxXJRIJTv2DSXezIi_LwJY2c2eGSpMlOlx0GXShBlh0dhvCE&s=10",
+        posterUrl: "https://static1.purebreak.com.br/articles/9/16/67/9/@/83128-steven-r-mcqueen-o-jeremy-de-the-580x0-3.jpg",
         promo: true,
-      },
-      {
-        id: "jenna-sommers",
-        firstName: "Jenna",
-        lastName: "Sommers",
-        imageUrl:
-          "https://imagez.tmz.com/image/08/4by3/2022/01/28/08465c8a86bd440ab0b215b60e46a79b_xl.jpg",
-        promo: false,
       },
       {
         id: "bonnie-bennett",
         firstName: "Bonnie",
         lastName: "Bennett",
-        imageUrl: "/images/The Vampire Diaries/Bonnie.jpg",
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7DajCOgLu0_HzV59KjYJchxqjDU-GEHx5KKKBK8R2JRvuhmLy98SjB0U&s=10",
+        posterUrl: "https://static.wikia.nocookie.net/p__/images/a/a4/Bonnie_Bennett_Season_6.jpg/revision/latest?cb=20141101190715&path-prefix=protagonist",
         promo: true,
       },
       {
         id: "caroline-forbes",
         firstName: "Caroline",
         lastName: "Forbes",
-        imageUrl: "https://pbs.twimg.com/media/ELOnEprWoAE4eDd.jpg",
+        imageUrl: "https://preview.redd.it/we-listen-and-we-dont-judge-caroline-forbes-edition-v0-kpmlbztqweae1.jpeg?width=640&crop=smart&auto=webp&s=983673ecf9946f39e8ce1e2c9012a0ac5cb39185",
+        posterUrl: "https://pbs.twimg.com/media/ELOnEprWoAE4eDd.jpg",
         promo: true,
       },
+      {
+        id: "tyler-lockwood",
+        firstName: "Tyler",
+        lastName: "Lockwood",
+        imageUrl: "https://preview.redd.it/why-was-tyler-in-season-6-he-was-the-most-useless-character-v0-lxpikxnzezcb1.jpg?width=640&crop=smart&auto=webp&s=1fc92d228f83176d96b392ba24f321aa2ca3c536",
+        posterUrl: "https://static.wikia.nocookie.net/p__/images/f/f1/Tyler_Lockwood_Season_6.jpg/revision/latest?cb=20141101191844&path-prefix=protagonist",
+        promo: true,
+      },
+      {
+        id: "alaric-saltzman",
+        firstName: "Alaric",
+        lastName: "Saltzman",
+        imageUrl: "https://i.pinimg.com/474x/2d/08/90/2d08907e9514e218fc2b76beaf51c5a3.jpg",
+        posterUrl: "https://i.redd.it/4ijaozomtbj61.jpg",
+        promo: true,
+      },
+      {
+        id: "klaus-mikaelsson",
+        firstName: "Klaus",
+        lastName: "Mikaelsson",
+        imageUrl: "https://preview.redd.it/klaus-season-3-of-tvd-is-peak-male-attractiveness-for-me-v0-c58m67yv1zoe1.jpg?width=640&crop=smart&auto=webp&s=c4dc86c6807e1f0cceab3807dfcc8c47bca4524d",
+        posterUrl:  "https://i.pinimg.com/564x/86/e3/8b/86e38bcd137155b9325cdf41dc6a9f95.jpg",
+        promo: true,
+      },
+      {
+        id: "enzo-st-john",
+        firstName: "Lorenzo",
+        lastName: "St. John",
+        imageUrl: "https://pbs.twimg.com/media/Ejl0z78XcAMLStH.jpg",
+        posterUrl: "https://scontent.fbma6-1.fna.fbcdn.net/v/t39.30808-6/506449592_1373793850568105_681691114474787311_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=eIbqAMfXkPQQ7kNvwHcXgGk&_nc_oc=AdmRutM2dY4GYArzRxn3x5zu3VxzrD7eT1Rh0Nx-gfTXG4Inl1bB5SgMp7kuf31ptd4&_nc_zt=23&_nc_ht=scontent.fbma6-1.fna&_nc_gid=NOFFjaAgXe3AlVdoQ002fw&oh=00_AfqGhjFxLMZsqbZEHwS1CHQ1O_IMUwVAwaq8giL7arWL7Q&oe=6975B53A",
+        promo: true,
+        nickname: ["Enzo"],
+      },
+ 
       {
         id: "matt-donovan",
         firstName: "Matt",
         lastName: "Donovan",
-        imageUrl: "https://i.ebayimg.com/images/g/wxkAAOSwQUdkoddj/s-l1200.jpg",
+        imageUrl: "https://preview.redd.it/say-something-nice-about-matt-donovan-v0-c8iu99xfhrmd1.jpeg?auto=webp&s=91149b51cabf9db3aad5910ff02128f3cc32fe57",
+        posterUrl: "https://i.ebayimg.com/images/g/wxkAAOSwQUdkoddj/s-l1200.jpg",
+        promo: true,
+      },
+      {
+        id: "jenna-sommers",
+        firstName: "Jenna",
+        lastName: "Sommers",
+        imageUrl: "https://i.redd.it/6jrsxwkg2w4c1.jpeg",
+        posterUrl: "https://imagez.tmz.com/image/08/4by3/2022/01/28/08465c8a86bd440ab0b215b60e46a79b_xl.jpg",
         promo: true,
       },
       {
@@ -6522,37 +7458,6 @@ export const teenSeries: Show[] = [
         imageUrl:
           "https://i.pinimg.com/736x/a2/cf/ba/a2cfba76c8f8355849b6941ec60f4bd1.jpg",
         promo: false,
-      },
-      {
-        id: "tyler-lockwood",
-        firstName: "Tyler",
-        lastName: "Lockwood",
-        imageUrl: "/images/The Vampire Diaries/Tyler.jpg",
-        promo: true,
-      },
-      {
-        id: "alaric-saltzman",
-        firstName: "Alaric",
-        lastName: "Saltzman",
-        imageUrl: "/images/The Vampire Diaries/Alaric.jpg",
-        promo: true,
-      },
-      {
-        id: "klaus-mikaelsson",
-        firstName: "Klaus",
-        lastName: "Mikaelsson",
-        imageUrl:
-          "https://i.pinimg.com/564x/86/e3/8b/86e38bcd137155b9325cdf41dc6a9f95.jpg",
-        promo: false,
-      },
-      {
-        id: "enzo-st-john",
-        firstName: "Lorenzo",
-        lastName: "St. John",
-        imageUrl:
-          "https://assets.mycast.io/characters/elza-5942475-normal.jpg?1677943852",
-        promo: true,
-        nickname: ["Enzo"],
       },
     ],
     cast: [
@@ -6668,6 +7573,56 @@ export const teenSeries: Show[] = [
         episodeCount: 16,
       },
     ],
+    soundtrack: [
+      {
+        id: "the-vampire-diaries-season-1-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1,
+      },
+      {
+        id: "the-vampire-diaries-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2,
+      },
+      {
+        id: "the-vampire-diaries-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3,
+      },
+      {
+        id: "the-vampire-diaries-season-4-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 4,
+      },
+      {
+        id: "the-vampire-diaries-season-5-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 5,
+      },
+      {
+        id: "the-vampire-diaries-season-6-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 6,
+      },
+      {
+        id: "the-vampire-diaries-season-7-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 7,
+      },
+      {
+        id: "the-vampire-diaries-season-8-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 8,
+      },
+    ],
     basedOn: true,
     composer: ["Micheal Suby"],
     creator: ["Julie Plec"],
@@ -6696,11 +7651,31 @@ export const teenSeries: Show[] = [
     ],
     network: ["The CW"],
     related: [
-      "The Vampire Diaries by L. J. Smith",
-      "The Vampire Diaries: A Darker Truth",
-      "The Originals",
-      "The Originals: The Awakening",
-      "Legacies",
+      { 
+        id: "the-vampire-diaries-book",
+        title: "The Vampire Diaries (Book Series)",
+        posterUrl: "https://cdn.shopify.com/s/files/1/0338/4872/1545/products/61pi-TJdTUL.jpg?v=1646235983",
+      },
+      { 
+        id: "the-vampire-diaries-a-darker-truth",
+        title: "The Vampire Diaries: A Darker Truth",
+        posterUrl: "https://media.myshows.me/shows/normal/3/cf/3cf47a65016b392436a23dd290f32a73.jpg",
+      },
+      { 
+        id: "the-originals",
+        title: "The Originals",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BNTQzMTExNzU0NV5BMl5BanBnXkFtZTgwMjgzNDIxMDE@._V1_.jpg",
+      },
+      { 
+        id: "the-originals-the-awakening",
+        title: "The Originals: The Awakening",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BMTllMmNlZmYtZGJmNS00NGJjLWFkZTgtNjU5OTM4MDk3ZGRjXkEyXkFqcGc@._V1_.jpg",
+      },
+      { 
+        id: "legacies",
+        title: "Legacies",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BZmMzYzYwMjItOWRiNi00NmU3LWI2ZjktOWFjYzI5ZmI4ZDI0XkEyXkFqcGc@._V1_.jpg",
+      },
     ],
   },
   {
@@ -6708,7 +7683,7 @@ export const teenSeries: Show[] = [
     title: "Teen Wolf",
     plot: "After being bitten by a werewolf, a shy teen gains new abilities and is drawn into supernatural conflicts. With his friends, he tries to protect his town while keeping his new life a secret.",
     tags: ["Supernatural", "Teen drama", "Mystery", "Thriller"],
-    firstAirDate: "2011-06-05",
+    firstAirDate: "June 5, 2011",
     lastAirDate: "September 24, 2017",
     status: "Ended",
     language: "en",
@@ -6890,6 +7865,44 @@ export const teenSeries: Show[] = [
         episodeCount: 20,
       },
     ],
+    soundtrack: [
+      {
+        id: "teen-wolf-season-1-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1,
+      },
+      {
+        id: "teen-wolf-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2,
+      },
+      {
+        id: "teen-wolf-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3,
+      },
+      {
+        id: "teen-wolf-season-4-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 4,
+      },
+      {
+        id: "teen-wolf-season-5-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 5,
+      },
+      {
+        id: "teen-wolf-season-6-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 6,
+      },
+    ],
     basedOn: true,
     composer: ["Jeff Davis"],
     creator: ["Dino Meneghin"],
@@ -6923,10 +7936,26 @@ export const teenSeries: Show[] = [
     ],
     network: ["MTV"],
     related: [
-      "Teen Wolf by Jeph Loeb Matthew Weisman",
-      "Teen Wolf Too",
-      "Teen Wolf (1986 TV series)",
-      "Teen Wolf: The Movie",
+      {
+        id: "teen-wolf-1985-film",
+        title: "Teen Wolf (1985 film)",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BMzNmYWJkMzktNGUxMS00ZGY1LTllNTAtNGY3YTg1YjliM2Q3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      },
+      {
+        id: "teen-wolf-too",
+        title: "Teen Wolf Too",
+        posterUrl: "https://upload.wikimedia.org/wikipedia/en/6/60/Teen_wolf_too.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+      },
+      {
+        id: "teen-wolf-1986-series",
+        title: "Teen Wolf (1986 TV series)",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BMzVmODAzMGQtMWQ1My00YjQ2LWE3ZDYtYWU0YjA1MmJiZjk3XkEyXkFqcGc@._V1_.jpg",
+      },
+      {
+        id: "teen-wolf-the-movie",
+        title: "Teen Wolf: The Movie",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BZjZhOTliNTMtZGVlOS00NDgwLWE5MzctM2VlNTY1OWE3YzRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+      },
     ],
   },
   {
@@ -6934,8 +7963,8 @@ export const teenSeries: Show[] = [
     title: "Friday Night Lights",
     plot: "In the small town of Dillon, Texas, high school football becomes a way of life   a coach, his family, and the players face pressure, ambition, and the highs and lows of community expectations.",
     tags: ["Drama", "Sports", "Teen drama"],
-    firstAirDate: "2006-10-03",
-    lastAirDate: "2011-02-09",
+    firstAirDate: "October 3, 2006",
+    lastAirDate: "February 9, 2011",
     status: "Ended",
     country: "US",
     language: "en",
@@ -6948,7 +7977,8 @@ export const teenSeries: Show[] = [
         id: "eric-taylor",
         firstName: "Eric",
         lastName: "Taylor",
-        imageUrl:
+        imageUrl: "https://variety.com/wp-content/uploads/2024/11/TCDFRNI_EC101-e1731681711958.jpg?crop=235px%2C40px%2C1800px%2C1199px&resize=1000%2C667",
+        posterUrl:
           "https://preview.redd.it/who-was-coach-taylors-favorite-player-and-why-v0-0dqc4hh1jpwc1.jpeg?auto=webp&s=c797e39a563527cbd4f81f33e2f308dcd1f20434",
         promo: true,
       },
@@ -6956,7 +7986,8 @@ export const teenSeries: Show[] = [
         id: "tami-taylor",
         firstName: "Tami",
         lastName: "Taylor",
-        imageUrl:
+        imageUrl: "https://foreveryoungadult.com/wp-content/uploads/2024/07/RP-Friday-Night-Lights-S01E09-MVP-Tami-Taylor.jpg",
+        posterUrl:
           "https://media1.popsugar-assets.com/files/thumbor/WqZskBCoUTvaoivBpbNfDN0Vzy4=/fit-in/792x792/filters:format_auto():upscale()/2014/10/24/763/n/1922283/57c2ff2f88e0c00a_thumb_temp_cover_file20701441414103144.jpg",
         promo: true,
       },
@@ -6964,102 +7995,106 @@ export const teenSeries: Show[] = [
         id: "julie-taylor",
         firstName: "Julie",
         lastName: "Taylor",
-        imageUrl:
-          "https://preview.redd.it/my-fan-casts-for-joey-and-aoife-v0-epkvptb2ck8f1.jpg?width=305&format=pjpg&auto=webp&s=158cc4a1d2b03f727015f161f55625f997689fc1",
+        imageUrl: "https://i.insider.com/5f7628520ab50d00184ada51?width=800&format=jpeg&auto=webp",
+        posterUrl:  "https://preview.redd.it/my-fan-casts-for-joey-and-aoife-v0-epkvptb2ck8f1.jpg?width=305&format=pjpg&auto=webp&s=158cc4a1d2b03f727015f161f55625f997689fc1",
         promo: true,
       },
       {
         id: "tim-riggins",
         firstName: "Tim",
         lastName: "Riggins",
-        imageUrl:
-          "https://i.abcnewsfe.com/a/a358afd8-792e-4ef2-9499-d007973b1b36/FNL-GTY-AB-EMBED-250805_1754418834395_hpEmbed_3x4.jpg",
+        imageUrl: "https://i.insider.com/5f76262e0ab50d00184ada3d?width=800&format=jpeg&auto=webp",
+        posterUrl:  "https://i.abcnewsfe.com/a/a358afd8-792e-4ef2-9499-d007973b1b36/FNL-GTY-AB-EMBED-250805_1754418834395_hpEmbed_3x4.jpg",
         promo: true,
       },
       {
         id: "landry-clarke",
         firstName: "Landry",
         lastName: "Clarke",
-        imageUrl:
-          "https://media.aintitcool.com/media/uploads/2013/draven/JessePlemons_large.jpg",
+        imageUrl: "https://img.texasmonthly.com/2023/05/writers-strike-landry-friday-night-lights.jpg?auto=compress&crop=faces&fit=fit&fm=jpg&h=0&ixlib=php-3.3.1&q=45&w=1250",
+        posterUrl:  "https://media.aintitcool.com/media/uploads/2013/draven/JessePlemons_large.jpg",
         promo: true,
       },
       {
         id: "matt-saracen",
         firstName: "Matt",
         lastName: "Saracen",
-        imageUrl:
-          "https://assets.vogue.com/photos/615771c48f840cd64d8971df/master/w_1600%2Cc_limit/TCDFRNI_EC012.jpg",
+        imageUrl: "https://compote.slate.com/images/178c3e11-9501-4cda-8e9c-235a03ee4938.jpg",
+        posterUrl:  "https://assets.vogue.com/photos/615771c48f840cd64d8971df/master/w_1600%2Cc_limit/TCDFRNI_EC012.jpg",
         promo: true,
       },
       {
         id: "lyla-garrity",
         firstName: "Lyla",
         lastName: "Garrity",
-        imageUrl: "https://s.hdnux.com/photos/46/12/54/10005286/4/640x0.webp",
+        imageUrl: "https://i.insider.com/5f77433a74fe5b0018a8eb79?width=800&format=jpeg&auto=webp",
+        posterUrl: "https://s.hdnux.com/photos/46/12/54/10005286/4/640x0.webp",
         promo: true,
       },
       {
         id: "tyra-collette",
         firstName: "Tyra",
         lastName: "Collette",
-        imageUrl:
-          "https://preview.redd.it/adrianne-palicki-v0-0bst98th5xjb1.jpg?width=960&format=pjpg&auto=webp&s=04b56f2c0af2e6c1910d9c24d661d629c57a534b",
+        imageUrl: "https://preview.redd.it/least-favorite-thing-tyra-v0-9yut2s2f1meh1.png?auto=webp&s=aafaa0f45658dfe681e8fa333936eab02201ea52",
+        posterUrl: "https://preview.redd.it/adrianne-palicki-v0-0bst98th5xjb1.jpg?width=960&format=pjpg&auto=webp&s=04b56f2c0af2e6c1910d9c24d661d629c57a534b",
         promo: true,
       },
       {
         id: "jason-street",
         firstName: "Jason",
         lastName: "Street",
-        imageUrl:
-          "https://www.usmagazine.com/wp-content/uploads/2025/04/Which-Friday-Night-Lights-Stars-Will-%E2%80%94-And-Won-t-%E2%80%94-Return-for-the-Upcoming-Reboot-793-Scott-Porter.jpg?w=900&quality=55&strip=all",
+        imageUrl: "https://foreveryoungadult.com/wp-content/uploads/2024/07/RP-Cover-Friday-Night-Lights-S01E06.jpg",
+        posterUrl: "https://www.usmagazine.com/wp-content/uploads/2025/04/Which-Friday-Night-Lights-Stars-Will-%E2%80%94-And-Won-t-%E2%80%94-Return-for-the-Upcoming-Reboot-793-Scott-Porter.jpg?w=900&quality=55&strip=all",
         promo: true,
       },
       {
         id: "brian-williams",
         firstName: "Brian",
         lastName: "Williams",
-        imageUrl: "/images/Smash.webp",
+        imageUrl: "https://openpsychometrics.org/tests/characters/test-resources/pics/FNL/3.jpg",
+        posterUrl: "https://static.wikia.nocookie.net/fnl/images/3/3a/Brian_Williams_Profile.png/revision/latest?cb=20220426234434",
         promo: true,
         nickname: ["Smash"],
+        goesByNickname: true,
       },
       {
         id: "vince-howard",
         firstName: "Vince",
         lastName: "Howard",
-        imageUrl:
-          "https://milkenroar.com/wp-content/uploads/2016/02/leto-shouts-04apr14-07.jpg",
+        imageUrl: "https://foreveryoungadult.com/wp-content/uploads/2025/08/Friday-Night-Lights-MVP-Vince.jpg",
+        posterUrl:  "https://milkenroar.com/wp-content/uploads/2016/02/leto-shouts-04apr14-07.jpg",
         promo: true,
       },
       {
         id: "jess-merriweather",
         firstName: "Jess",
         lastName: "Merriweather",
-        imageUrl:
-          "https://globalnews.ca/wp-content/uploads/2010/04/e8de367e-5d10-4f6b-97da-c87908b7dcdd.jpg?quality=65&strip=all",
+        imageUrl: "https://static.wikia.nocookie.net/fnl/images/5/56/Jess_Merriweather.png/revision/latest/smart/width/386/height/259?cb=20220428231010",
+        posterUrl: "https://globalnews.ca/wp-content/uploads/2010/04/e8de367e-5d10-4f6b-97da-c87908b7dcdd.jpg?quality=65&strip=all",
         promo: true,
       },
       {
         id: "luke-cafferty",
         firstName: "Luke",
         lastName: "Cafferty",
-        imageUrl: "https://i.ebayimg.com/images/g/gf8AAOSwGGZm2Biq/s-l1200.jpg",
+        imageUrl: "https://pbs.twimg.com/profile_images/3593600763/5af71344791df6af9289288a387211dd_400x400.jpeg",
+        posterUrl: "https://i.ebayimg.com/images/g/gf8AAOSwGGZm2Biq/s-l1200.jpg",
         promo: true,
       },
       {
         id: "becky-sproles",
         firstName: "Becky",
         lastName: "Sproles",
-        imageUrl:
-          "https://i.pinimg.com/736x/9f/fa/a7/9ffaa749c34ec1a7c001e6dd6b543505.jpg",
+        imageUrl: "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2023/08/friday-night-lights-madison-burge.jpg?q=50&fit=crop&w=825&dpr=1.5",
+        posterUrl:  "https://i.pinimg.com/736x/9f/fa/a7/9ffaa749c34ec1a7c001e6dd6b543505.jpg",
         promo: true,
       },
       {
         id: "hastings-ruckle",
         firstName: "Hastings",
         lastName: "Ruckle",
-        imageUrl:
-          "https://akns-images.eonline.com/eol_images/Entire_Site/2014015/rs_634x1024-140115183423-634.damon-grey.cm.11514.jpg?fit=around%7C634:1024&output-quality=90&crop=634:1024;center,top",
+        imageUrl: "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2023/08/friday-night-lights-grey-damon.jpg?q=50&fit=crop&w=825&dpr=1.5",
+        posterUrl:  "https://akns-images.eonline.com/eol_images/Entire_Site/2014015/rs_634x1024-140115183423-634.damon-grey.cm.11514.jpg?fit=around%7C634:1024&output-quality=90&crop=634:1024;center,top",
         promo: true,
       },
     ],
@@ -7142,6 +8177,38 @@ export const teenSeries: Show[] = [
         episodeCount: 13,
       },
     ],
+    soundtrack: [
+      {
+        id: "friday-night-lights-season-1-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 1,
+      },
+      {
+        id: "friday-night-lights-season-2-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 2,
+      },
+      {
+        id: "friday-night-lights-season-3-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 3,
+      },
+      {
+        id: "friday-night-lights-season-4-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 4,
+      },
+      {
+        id: "friday-night-lights-season-5-soundtrack",
+        type: "soundtrack",
+        noImage: true,
+        noSeason: 5,
+      },
+    ],
     basedOn: true,
     composer: ["Peter Berg"],
     creator: ["W. G. Snuffy Walden", "Bennett Salvay"],
@@ -7176,7 +8243,7 @@ export const teenSeries: Show[] = [
     plot: "A teenage girl navigates identity, friendship, and family   she grows closer to an enigmatic older boy, trying to figure out who she is and where she belongs.",
     tags: ["Teen drama", "Drama", "Coming-of-age"],
     firstAirDate: "August 19, 1994",
-    lastAirDate: "1995-01-26",
+    lastAirDate: "January 26, 1995",
     status: "Cancelled",
     language: "en",
     country: "US",
@@ -7285,6 +8352,13 @@ export const teenSeries: Show[] = [
         episodeCount: 22,
       },
     ],
+    soundtrack: [
+      {
+        id: "my-so-called-life-sountrack",
+        type: "soundtrack",
+        noImage: true,
+      }
+    ],
     narrator: ["Claire Danes"],
     themeSong: ["'My So-Called Life Theme' by W. G. Snuffy Walden"],
     creator: ["Winnie Holzman"],
@@ -7317,40 +8391,40 @@ export const teenSeries: Show[] = [
         id: "lindsay-weir",
         firstName: "Lindsay",
         lastName: "Weir",
-        imageUrl:
-          "https://www.rollingstone.com/wp-content/uploads/2019/05/lindsey-weir-deadhead-freaks-and-geeks.jpg",
+        imageUrl: "https://m.media-amazon.com/images/M/MV5BZTVmMDVhMzItYjgzMS00ZjU1LTg5OGEtYjhiNDU4OTE0MzdhXkEyXkFqcGc@._V1_.jpg",
+        posterUrl:  "https://www.rollingstone.com/wp-content/uploads/2019/05/lindsey-weir-deadhead-freaks-and-geeks.jpg",
         promo: true,
       },
       {
         id: "sam-weir",
         firstName: "Sam",
         lastName: "Weir",
-        imageUrl:
-          "https://preview.redd.it/ive-never-seen-freaks-and-geeks-before-but-baby-sweets-is-v0-8welnki2vnef1.jpeg?auto=webp&s=9aeedefba8d09e52b1d25fe3da89a7ed3035c788",
+        imageUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVlEhOAqJfDKg1BgRxZqWLygVZWbClOx5tvM54-E3e63dHKfUaUd8ujdZT-110ehii6vowNrzHViChQonK5m9hxnJj3aKjmhs9vJSLJn0H88ntntg1DfGscjxb1DMqcq_KwMWndQ/w1200-h630-p-k-no-nu/freaks-looks4.jpg",
+        posterUrl:  "https://preview.redd.it/ive-never-seen-freaks-and-geeks-before-but-baby-sweets-is-v0-8welnki2vnef1.jpeg?auto=webp&s=9aeedefba8d09e52b1d25fe3da89a7ed3035c788",
         promo: true,
       },
       {
         id: "daniel-desario",
         firstName: "Daniel",
         lastName: "Desario",
-        imageUrl:
-          "https://i.pinimg.com/736x/10/2a/fe/102afe8b7ac03cb144244226c77f56a8.jpg",
+        imageUrl: "https://pbs.twimg.com/media/CMBn7ZkWsAAIstT.jpg",
+        posterUrl: "https://i.pinimg.com/736x/10/2a/fe/102afe8b7ac03cb144244226c77f56a8.jpg",
         promo: true,
       },
       {
         id: "neal-schweiber",
         firstName: "Neal",
         lastName: "Schweiber",
-        imageUrl:
-          "https://m.media-amazon.com/images/M/MV5BMjIyNjM2NTMxNl5BMl5BanBnXkFtZTgwMTI4MTy MDE@._V1_.jpg",
+        imageUrl: "https://pagesix.com/wp-content/uploads/sites/3/2019/09/tsdfran_ec023.jpg?quality=75&strip=all&w=1200",
+        posterUrl:  "https://static.wikia.nocookie.net/freaksandgeeks/images/a/a0/Neal-Schweiber-imdb-62.jpg/revision/latest?cb=20150130071809",
         promo: true,
       },
       {
         id: "ken-miller",
         firstName: "Ken",
         lastName: "Miller",
-        imageUrl:
-          "https://pbs.twimg.com/media/GYWBZWuXEAMwPgw?format=jpg&name=large",
+        imageUrl: "https://planetclaire.tv/wp-content/uploads/2015/04/freaks-and-geeks-ken-miller.jpg",
+        posterUrl:  "https://pbs.twimg.com/media/GYWBZWuXEAMwPgw?format=jpg&name=large",
         promo: true,
       },
       {
@@ -7445,7 +8519,7 @@ export const teenSeries: Show[] = [
     title: "Gilmore Girls",
     plot: "A young mother and daughter living in a small town trying to live the best lives they possibly can. They both do everything that they can to find love and build a healthy life. With the support of their friends and family, they both go on countless adventures together.",
     tags: ["Comedy-drama", "Teen drama", "Family"],
-    firstAirDate: "2000-10-05",
+    firstAirDate: "October 5, 2000",
     lastAirDate: "May 15, 2007",
     status: "Ended",
     language: "en",
@@ -7637,7 +8711,12 @@ export const teenSeries: Show[] = [
       "Warner Bros. Television",
     ],
     network: ["The WB", "The CW"],
-    related: ["Gilmore Girls: A Year in the Life"],
+    related: [
+      {
+        id: "gilmore-girls-reboot",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BODM1OTk4MDY2M15BMl5BanBnXkFtZTgwOTEwNzczMDI@._V1_.jpg",
+      },
+    ],
   },
   {
     id: "veronica-mars",
@@ -7794,16 +8873,15 @@ export const teenSeries: Show[] = [
       "Warner Bros. Television",
     ],
     network: ["UPN", "The CW", "hulu"],
-    related: ["Gilmore Girls: A Year in the Life"],
   },
   {
     id: "smallville",
     title: "Smallville",
     posterUrl:
-      "https://m.media-amazon.com/images/I/61J0MdwUy8L._AC_UF894,1000_QL80_.jpg",
+      "https://i.ebayimg.com/00/s/MTYwMFgxMDc4/z/EgAAAOSw4h9lruPO/$_57.JPG?set_id=880000500F",
     country: "US",
     language: "En",
-    firstAirDate: "2001-10-16",
+    firstAirDate: "October 16, 2001",
     lastAirDate: "May 11, 2006",
     status: "Ended",
     numberOfSeasons: 10,
@@ -8080,7 +9158,7 @@ export const teenSeries: Show[] = [
       "Warner Bros. Television",
     ],
     network: ["The WB", "The CW"],
-    related: ["Superman by Jerry Siegel Joe Shuster"],
+    
   },
   {
     id: "stranger-things",
@@ -8090,7 +9168,7 @@ export const teenSeries: Show[] = [
     country: "US",
     language: "En",
     firstAirDate: "July 15, 2016",
-    lastAirDate: "2026-01-01",
+    lastAirDate: "January 1, 2026",
     status: "Ended",
     numberOfSeasons: 5,
     numberOfEpisodes: 42,
@@ -8363,7 +9441,12 @@ export const teenSeries: Show[] = [
       "Upside Down Pictures (season 5)",
     ],
     network: ["Netflix"],
-    related: ["Stranger Things: Tales from '85", "Stranger Things franchise"],
+    related: [
+      {
+        id: "Stranger Things: Tales from '85",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BMWU5NzgzY2QtNDVjZS00NDFkLThmMzctNTIzZmY5ZWYxZTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+      }, 
+      ],
   },
   {
     id: "wednesday",
@@ -8371,7 +9454,7 @@ export const teenSeries: Show[] = [
     posterUrl: "https://media.s-bol.com/x56VGoEmY8O9/61MxzV/802x1200.jpg",
     country: "US",
     language: "En",
-    firstAirDate: "2022-11-23",
+    firstAirDate: "November 23, 2022",
     lastAirDate: "TBA",
     status: "Airing",
     numberOfSeasons: 2,
@@ -8541,7 +9624,12 @@ export const teenSeries: Show[] = [
       "MGM Television",
     ],
     network: ["Netflix"],
-    related: ["The Addams Family"],
+    related: [
+      {
+        id: "the-addams-family",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BZmQyODM1NmEtZDgwZi00ZWU5LWI4MzItOWZjYzRhNjkwZTg3XkEyXkFqcGc@._V1_.jpg"
+      }
+    ],
   },
   {
     id: "heartstopper",
@@ -8550,8 +9638,8 @@ export const teenSeries: Show[] = [
       "https://m.media-amazon.com/images/I/617CNUVUToL._AC_UF10001000_QL80_.jpg",
     country: "UK",
     language: "En",
-    firstAirDate: "2022-04-22",
-    lastAirDate: "present",
+    firstAirDate: "April 22, 2022",
+    lastAirDate: "TBA",
     status: "Airing",
     numberOfSeasons: 3,
     numberOfEpisodes: 24,
@@ -8689,7 +9777,12 @@ export const teenSeries: Show[] = [
     prodLocation: ["London, England"],
     prodCompanies: ["See-Saw Films"],
     network: ["Netflix"],
-    related: ["Heartstopper by Alice Oseman"],
+    related: [
+      {
+        id: "heartstopper-comics",
+        posterUrl: "https://www.brokenfrontier.com/wp-content/uploads/2022/06/heartstopper-oseman-1a.jpg"
+      }
+    ],
   },
   {
     id: "young-royals",
@@ -8699,7 +9792,7 @@ export const teenSeries: Show[] = [
     country: "SE",
     language: "Swedish",
     firstAirDate: "July 01, 2021",
-    lastAirDate: "2024-03-18",
+    lastAirDate: "March 01, 2023",
     status: "Ended",
     numberOfSeasons: 3,
     numberOfEpisodes: 18,
@@ -8850,8 +9943,8 @@ export const teenSeries: Show[] = [
     country: "US",
     language: "En",
     status: "Ended",
-    firstAirDate: "2017",
-    lastAirDate: "2020",
+    firstAirDate: "March 31, 2017",
+    lastAirDate: "June 05, 2020",
     numberOfSeasons: 4,
     numberOfEpisodes: 49,
     tags: ["Teen", "netflix", "heavy-themes", "school"],
@@ -9018,7 +10111,12 @@ export const teenSeries: Show[] = [
       "Paramount Television Studios",
     ],
     network: ["Netflix"],
-    related: ["Thirteen Reasons Why by Jay Asher"]
+    related: [
+      {
+        id: "thirteen-reasons-why-book",
+        posterUrl: "https://m.media-amazon.com/images/I/81loEbyj18L.jpg",
+      }
+    ],
   },
   {
     id: "outer-banks",
@@ -9028,7 +10126,7 @@ export const teenSeries: Show[] = [
     country: "US",
     language: "En",
     status: "Airing",
-    firstAirDate: "2020-04-15",
+    firstAirDate: "April 15, 2020",
     lastAirDate: "TBA",
     numberOfSeasons: 4,
     numberOfEpisodes: 40,
@@ -9205,11 +10303,11 @@ export const teenSeries: Show[] = [
     id: "summer-i-turned-pretty",
     title: "The Summer I Turned Pretty",
     posterUrl:
-      "https://hips.hearstapps.com/hmg-prod/images/e64b451f-61ef-4c10-ac5b-41f6c372d6eb.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      "https://media.press.amazonmgmstudios.com/userfiles/images/image-20250620092033-1.jpeg",
     country: "US",
     language: "En",
     status: "Ended",
-    firstAirDate: "2022-06-17",
+    firstAirDate: "June 17, 2022",
     lastAirDate: "September 17, 2025",
     numberOfSeasons: 3,
     numberOfEpisodes: 26,
@@ -9373,7 +10471,12 @@ export const teenSeries: Show[] = [
       "Neon Stories",
     ],
     network: ["Amazon Prime Video"],
-    related: ["The Summer I Turned Pretty (trilogy)"]
+    related: [
+      {
+        id: "the-summer-i-turned-pretty-trilogy",
+        posterUrl: "https://m.media-amazon.com/images/I/61myan+CzHL.jpg",
+      }
+    ],
   
   },
   {
@@ -9383,8 +10486,8 @@ export const teenSeries: Show[] = [
       "https://filmfare.wwmindia.com/content/2024/jul/bestteendramasonott111721479713.jpg",
     country: "US",
     language: "En",
-    firstAirDate: "2020-04-27",
-    lastAirDate: "2023-06-08",
+    firstAirDate: "April 27, 2020",
+    lastAirDate: "June 08, 2023",
     status: "Ended",
     tags: ["Teen", "netflix", "school", "coming-of-age"],
     numberOfSeasons: 4,
@@ -9562,8 +10665,8 @@ export const teenSeries: Show[] = [
       "https://miro.medium.com/v2/resize:fit:1268/1*FGYinDYQxKtMFw_YYA42uQ.png",
     country: "US",
     language: "En",
-    firstAirDate: "2013–06-03",
-    lastAirDate: "2018-06-06",
+    firstAirDate: "June 3, 2013",
+    lastAirDate: "June 6, 2018",
     status: "Ended",
     numberOfSeasons: 5,
     numberOfEpisodes: 104,
@@ -9737,17 +10840,22 @@ export const teenSeries: Show[] = [
       "Nuyorican Productions,",
     ],
     network: ["FreeForm"],
-    related: ["Good Trouble"],
+    related: [
+      { 
+        id: "good-trouble",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BYjBlZTlkMDUtZGVjYy00MDU3LThjYzYtYWNlNDFkNjdjNGIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+      },
+    ],
   },
 
   {
     id: "awkward",
     title: "Awkward.",
     posterUrl:
-      "https://m.media-amazon.com/images/M/MV5BMjBmNTU4Y2EtNDc5Yy00NDdjLTk5ZTgtYTEwMDQzMWM2YjQ5XkEyXkFqcGc@._V1_.jpg",
+      "https://www.themoviedb.org/t/p/w600_and_h900_face/7PLO6PdGmfKiV3KER2Rd08Ga8kM.jpg",
     country: "US",
     language: "En",
-    firstAirDate: "2011–07-19",
+    firstAirDate: "July 19, 2011",
     lastAirDate: "May 24, 2016",
     status: "Ended",
     numberOfSeasons: 5,
@@ -9914,8 +11022,8 @@ export const teenSeries: Show[] = [
       "https://static1.colliderimages.com/wordpress/wp-content/uploads/sharedimages/2024/04/heartbreak-high-2022-tv-poster.jpg",
     country: "AU",
     language: "En",
-    firstAirDate: "14September 2022",
-    lastAirDate: "present",
+    firstAirDate: "September 14, 2022",
+    lastAirDate: "TBA",
     status: "On Air",
     numberOfSeasons: 2,
     numberOfEpisodes: 16,
@@ -10066,7 +11174,12 @@ export const teenSeries: Show[] = [
     ],
     prodCompanies: ["Fremantle Australia & NewBe"],
     network: ["Netflix"],
-    related: ["Heartbreak High (original 1994 TV series)"],
+    related: [
+      {
+        id: "heartbreak-high-original",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BMmEzMGUzOWYtYTU0MC00MDdmLTlhZWItMWRiNDZhMzY0YzZhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+      }
+    ],
   },
   {
     id: "skam",
@@ -10075,8 +11188,8 @@ export const teenSeries: Show[] = [
       "https://m.media-amazon.com/images/M/MV5BNDk5MjdkMmEtYmRjMS00YzRiLWIwYzItNzIwZWNiOGZlZTQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     country: "NO",
     language: "Norwegian",
-    firstAirDate: "2015–09-2015",
-    lastAirDate: "2017-06-24",
+    firstAirDate: "September 25, 2015",
+    lastAirDate: "June 24, 2017",
     status: "Ended",
     tags: ["Teen Drama", "Norway", "Teen-Life"],
     numberOfSeasons: 4,
@@ -10239,14 +11352,38 @@ export const teenSeries: Show[] = [
     prodCompanies: ["NRK"],
     network: ["NRK1"],
     related: [
-      "SKAM France",
-      "DRUCK",
-      "SKAM Italia",
-      "SKAM Austin",
-      "SKAM España",
-      "SKAM NL",
-      "wtFOCK",
-      "SRAM",
+      {
+        id: "SKAM France", 
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BNDk2MWQ1OWItZjgwYS00YjIxLWJhZTUtNzUxYTBlZDE0MDVmXkEyXkFqcGc@._V1_QL75_UY281_CR10,0,190,281_.jpg"
+      },
+      {
+        id: "DRUCK", 
+        posterUrl: "https://pics.filmaffinity.com/DRUCK_Die_Serie_SKAM_Germany_TV_Series-818378840-large.jpg"
+      },
+      {
+        id: "SKAM Italia", 
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BYmI5OWMxNzAtMmYzMS00NzFjLTkwZjItMzAwOTA2ZjgzYjNlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        id: "SKAM Austin", 
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BMjFhMzE4OTUtZjQ5MC00MDcxLTlmZmItYzg2YzRkMmZkMTA4XkEyXkFqcGc@._V1_.jpg"
+      },
+      {
+        id: "SKAM España", 
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BYmQwMjM0N2MtMDhhMS00NDI5LWIwZTEtNGRlYzJjOTJjZTUwXkEyXkFqcGc@._V1_.jpg"
+      },
+      {
+        id: "SKAM NL", 
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BOGI3YzA0N2ItNDc4Yy00ODFkLTgxYTItZDc0MTg2NjZhNTM4XkEyXkFqcGc@._V1_.jpg"
+      },
+      {
+        id: "wtFOCK", 
+        posterUrl: "https://static.wikia.nocookie.net/wtfock/images/8/85/Wtfockkk.jpg/revision/latest?cb=20200816084912"
+      },
+      {
+        id: "SRAM", 
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BNjk3MGIzZjAtNGE4OC00Mjg3LTk4YTEtNTVmM2RmZDlkNGRmXkEyXkFqcGc@._V1_.jpg"
+      },
     ],
  
   },
@@ -10257,7 +11394,7 @@ export const teenSeries: Show[] = [
       "https://static0.colliderimages.com/wordpress/wp-content/uploads/sharedimages/2024/11/0391375_poster_w780.jpg?q=49&fit=contain&w=480&dpr=2",
     country: "US",
     language: "En",
-    firstAirDate: "1994–09-12",
+    firstAirDate: "September 12, 1994",
     lastAirDate: "May 3, 2000",
     status: "Ended",
     numberOfSeasons: 6,
@@ -10445,6 +11582,11 @@ export const teenSeries: Show[] = [
       "Columbia TriStar Television (1997–2000) (seasons 4–6)",
     ],
     network: ["Fox"],
-    related: ["Time of Your Life"],
+    related: [
+      {
+       id:  "time-of-your-life",
+       posterUrl: "https://m.media-amazon.com/images/M/MV5BNGNmMGEyYzMtMmU0Zi00NzMyLTg5Y2ItYzNlM2Y4ZDZhNzlmXkEyXkFqcGc@._V1_.jpg"
+      }
+    ],
   },
 ];

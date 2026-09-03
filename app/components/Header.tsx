@@ -8,9 +8,18 @@ type NavItem = { label: string; href: string };
 
 const navItems: NavItem[] = [
   { label: "Home", href: "/" },
+<<<<<<< HEAD
   { label: "Shows", href: "/shows" },
   // { label: "About", href: "/about" },
   // { label: "Contacts", href: "/contacts" },
+=======
+  { label: "Teen", href: "/teen" },
+  { label: "Kids", href: "/kids" },
+  { label: "Comedy", href: "/comedy" },
+  { label: "Crime", href: "/crime" },
+  { label: "About", href: "/about" },
+  { label: "Contacts", href: "/contacts" },
+>>>>>>> 4b79439 (Cleaning worktree)
 ];
 
 const cx = (...classes: Array<string | false | undefined>) =>
@@ -123,4 +132,8 @@ export function Header() {
       )}
     </header>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4b79439 (Cleaning worktree)
