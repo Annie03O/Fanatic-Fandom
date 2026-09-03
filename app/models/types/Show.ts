@@ -20,7 +20,8 @@ export type Show = {
   tags: string[];
   mainCharacters: Character[];
   cast: CastMember[];
-  seasons: Season[];
+  movies?: Pick<Show, "posterUrl" | "id"| "title" | "plot" | "country" | "language" | "firstAirDate" | "lastAirDate" | "status" | "cast" | "director" | "creator" | "prodCompanies" | "basedOn" | "adapter" | "writtenBy" | "producer" | "soundtrack" >[];  // for shows that have movies instead of seasons, like "The Hunger Games"
+  seasons?: Season[];
   creator: string[] | string;
   director: string[];
   writtenBy: string[];

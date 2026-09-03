@@ -10,6 +10,8 @@ type Props = {
   genre?: "teen" | "kids" | "crime" | "comedy"; 
 };
 
+
+
 export const CharacterPortals = ({ show, page, genre }: Props) => {
   const { slug } = useParams<{ slug: string }>();
   const router = useRouter();
