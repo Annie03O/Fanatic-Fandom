@@ -1,29 +1,27 @@
-"use client"
 import { CharacterPortals } from "@/app/components/Characters/CharactersPortals";
-import { teenSeriesWithSlug } from "@/app/functions/WithSlug/teenSeriesWithSlug";
-import { Show } from "@/app/models/types/Show";
-import { useParams } from "next/navigation";
 
-type Props = {
-  genre: "teen" | "kids" | "crime" | "comedy";
+export function generateStaticParams() {
+  console.log("GENERATE STATIC PARAMS");
+
+  return [
+    {
+      slug: "Beverly_Hills_90210",
+    },
+  ];
 }
 
-export default function AllCharacterPage({genre}: Props) {
-        const {slug} = useParams<{slug: string}>();
-    
-    const series = teenSeriesWithSlug.items.find((s) => s.slug === slug)
-    const cast = series?.cast ?? [];
+type Props = {
+  params: Promise<{
+    slug: string;
+  }>;
+};
 
-    console.log("series", series);
-    
+export default async function AllCharacterPage({ params }: Props) {
+  const { slug } = await params;
 
-    if (!series) return <section>Series not found</section>
-        
-    
-    return (
-      <div className="flex flex-col  items-center bg-black w-[90%] min-h-[1000px]"> 
-        
-        <CharacterPortals genre="teen" show={series} page={true}/>
-      </div>
-    )
+  return (
+    <div>
+      Characters: {slug}
+    </div>
+  );
 }
