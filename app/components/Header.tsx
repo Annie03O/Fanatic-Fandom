@@ -65,7 +65,7 @@ export function Header() {
   const items = useMemo(() => navItems, []);
 
   return (
-    <header className="w-full border-b bg-black">
+    <header className="w-full border-b bg-black mb-5">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         {/* Logo */}
         <Link

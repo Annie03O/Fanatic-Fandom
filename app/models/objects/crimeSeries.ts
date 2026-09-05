@@ -9,7 +9,7 @@ export const crimeSeries: Show[] = [
     prodLocation: ["Sweden"],
     posterUrl: "https://image.tmdb.org/t/p/original/qRhEJUcOVtgMEno5LEkZZ190vDy.jpg",
     firstAirDate: "October 29, 1999",
-    lastAirDate: "Present",
+    lastAirDate: "TBA",
     tags: ["Crime", "Action", "Thriller"],
 },
 {
@@ -144,18 +144,21 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://c3687.eu-central-1.linodeobjects.com/2025/01/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vNjVhMWVjZDctMzBmYi00NjZmLWJkZDYtMDJmNjg3NmJhYWQ0LmpwZw.jpeg"
 },
 {
-    id: "knutby",
+    id: "the-congregation",
     title:"Knutby",
+    englishTitle: "The Congregation",
     country: "Sweden",
     language: "Swedish",
     prodLocation: ["Sweden"],
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMTI2ODZjNmMtYTdhMS00YWE2LThhNjctNzcxYzI5NDc0NzM5XkEyXkFqcGc@._V1_.jpg",
-    firstAirDate: "November 11, 2021",   
+    firstAirDate: "November 11, 2021",  
+    lastAirDate: "March 18, 2025", 
     tags: ["Crime", "Drama", "Mystery"],
 },
 {
     id: "riding-in-darkness",
     title:"Nattryttarna",
+    englishTitle: "Riding in Darkness",
     country: "Sweden",
     language: "Swedish",
     prodLocation: ["Sweden"],
@@ -167,12 +170,12 @@ export const crimeSeries: Show[] = [
 {
     id: "quicksand",
     title:"Störst av allt",
+    englishTitle: "Quicksand",
     country: "Sweden",
     language: "Swedish",
     prodLocation: ["Sweden"],
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMmU1MTk1MWMtMDYzZC00OTU5LWI5YmUtMTk0NWRjMDdiYmExXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "April 5, 2019",  
-    lastAirDate: "April 5, 2019",
     tags: ["Crime", "Drama", "Thriller"],
 },
 {
@@ -182,7 +185,9 @@ export const crimeSeries: Show[] = [
     language: "Swedish",
     prodLocation: ["Sweden"],
     posterUrl: "https://m.media-amazon.com/images/M/MV5BOTUwMzdhOGItZTY1Ni00Y2Y4LWJlNjQtMWY0MTI4MzAxY2Y0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-
+    firstAirDate: "August 17, 2007",
+    lastAirDate: "April 20, 2013",
+    tags: ["Crime", "Drama", "Mystery"],
 },
 {
     id: "Annika Bengtzon",
@@ -190,20 +195,34 @@ export const crimeSeries: Show[] = [
     country: "Sweden",
     language: "Swedish",
     prodLocation: ["Sweden"],
+    posterUrl: "https://m.media-amazon.com/images/I/81M+k8q9aeL._AC_UF894,1000_QL80_.jpg",
+    firstAirDate: "March 2, 2012",
+    lastAirDate: "August 29, 2012",
+    tags: ["Crime", "Drama", "Mystery"],
 },
 {
-    id: "Heder",
+    id: "honor",
     title:"Heder",
+    englishTitle: "Honour",
     country: "Sweden",
     language: "Swedish",
     prodLocation: ["Sweden"],
+    posterUrl: "https://i-viaplay-com.akamaized.net/editorial-media/editorial_pages/keyart/keyart-publish/series-heder/se/portrait/f03b447fb73d4f66afc86cb1b7fee9c5.jpg",
+    firstAirDate: "August 30, 2019",
+    lastAirDate: "TBA",
+    tags: ["Crime", "Drama"],
 },
 {
-    id: "Gåsmamman ",
-    title:"Gåsmamman ",
+    id: "mother-goose",
+    title:"Gåsmamman",
+    englishTitle: "Mother Goose",
     country: "Sweden",
     language: "Swedish",
     prodLocation: ["Sweden"],
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMTUwMjc0NDYwNV5BMl5BanBnXkFtZTgwOTU2MjEwODE@._V1_.jpg",
+    firstAirDate: "November 26, 2015",
+    lastAirDate: "October 1, 2025",
+    tags: ["Crime", "Drama", "Mystery"],
 },
 {
     id: "100-code",
@@ -211,12 +230,21 @@ export const crimeSeries: Show[] = [
     country: "Sweden",
     language: "Swedish",
     prodLocation: ["Sweden"],
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BNTcxYTViYTMtNjZlYy00YmRiLWI2MDYtZjUzZWJlODdhNmY5XkEyXkFqcGc@._V1_.jpg",
+    firstAirDate: "May 14, 2015",
+    lastAirDate: "July 30, 2015",
+    tags: ["Crime", "Drama", "Mystery"],
 },
 {
     id: "21-jump-street",
     title:"21 Jump Street",
     country: "USA",
     language: "English",
+    prodLocation: ["Vancover, British Columbia"],
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BODZkMjEzM2EtYzQwNi00ZmVjLWI3MTQtMzVkYThhYzM1YzYyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    firstAirDate: "October 13, 1990",
+    lastAirDate: "April 27, 1991",
+    tags: ["Police Crime Drama",],
 }, 
 
 {
@@ -224,6 +252,10 @@ export const crimeSeries: Show[] = [
     title:"911",
     country: "USA",
     language: "English",
+    posterUrl: "https://static.wikia.nocookie.net/9-1-1/images/a/a0/9-1-1_S8_Poster_6.jpg/revision/latest?cb=20241207022846",
+    firstAirDate: "January 3, 2018",
+    lastAirDate: "TBA",
+    tags: ["Procedural drama"],
 }, 
 
 {
@@ -231,6 +263,14 @@ export const crimeSeries: Show[] = [
     title:"Criminal Minds",
     country: "USA",
     language: "English",
+    posterUrl: "https://i.ebayimg.com/images/g/NmUAAOSw-5pjBjKW/s-l1200.jpg",
+    tags: [	 
+        "Police procedural", 
+        "Thriller", 
+        "Crime drama", 
+        "Mystery", 
+        "Detective"
+    ]
 }, 
 
 {
@@ -238,6 +278,13 @@ export const crimeSeries: Show[] = [
     title:"Bones",
     country: "USA",
     language: "English",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMjA3ODMxMzM5NF5BMl5BanBnXkFtZTgwMDM1NjU0OTE@._V1_FMjpg_UX1000_.jpg",
+    firstAirDate: "September 13, 2005",
+    lastAirDate: "March 28, 2017",
+    tags: [
+        "Police procedural",
+        "Drama"
+    ]
 }, 
 
 {
@@ -245,6 +292,15 @@ export const crimeSeries: Show[] = [
     title:"Castle",
     country: "USA",
     language: "English",
+    firstAirDate: "March 9, 2009",
+    lastAirDate: "March 16, 2016",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMjM2NjU0ODU0NF5BMl5BanBnXkFtZTgwMDAwMzg5NjE@._V1_.jpg",
+    tags: [        	
+        "Mystery",
+        "Police procedural",
+        "Crime",
+        "Comedy drama",
+    ],
 },
 
 {
@@ -252,6 +308,14 @@ export const crimeSeries: Show[] = [
     title:"Chicago PD",
     country: "USA",
     language: "English",
+    firstAirDate: "January 8, 2014",
+    lastAirDate: "TBA",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BZTJjNWVlNmEtNWZhMS00Yzk3LTg5NjctMTU5N2IxMGYxOTUxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    tags: [      	
+        "Action",
+        "Police procedural",
+        "Crime drama",
+    ],
 },  
 
 {
@@ -259,6 +323,13 @@ export const crimeSeries: Show[] = [
     title:"CSI",
     country: "USA",
     language: "English",
+    posterUrl: "https://image.tmdb.org/t/p/original/i5hmoRjHNWady4AtAGICTUXknKH.jpg",
+    firstAirDate: "October 6, 2000",
+    lastAirDate: "September 27, 2015",
+    tags: [
+        "Police procedural",
+        "Crime drama",
+    ]    
 },
 
 {
@@ -266,6 +337,17 @@ export const crimeSeries: Show[] = [
     title:"Dexter",
     country: "USA",
     language: "English",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BNTE5ZGI2N2UtYmFiMi00ZGIxLWI1ZTMtYWJkZDYxNDZiOTQwXkEyXkFqcGc@._V1_.jpg",
+    firstAirDate: "October 1, 2006",
+    lastAirDate: "September 22, 2013",
+    tags: [   	
+        "Crime",
+        "Psychological thriller",
+        "Mystery",
+        "Black comedy",
+        "Police procedural",
+        "Inverted detective story",
+    ],
 },  
 
 {
@@ -273,6 +355,14 @@ export const crimeSeries: Show[] = [
     title:"FBI",
     country: "USA",
     language: "English",
+    posterUrl: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15528078_b_v8_aa.jpg",
+    firstAirDate: "September 25, 2018",
+    lastAirDate: "TBA",
+    tags: [
+        "Crime drama",
+        "Police procedural",
+        "Action",
+    ],
 }, 
 
 {
@@ -280,6 +370,13 @@ export const crimeSeries: Show[] = [
     title:"Hawaii Five-0",
     country: "USA",
     language: "English",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BYmU1Y2Y4ZmMtYjJhYy00M2FiLWJiYWQtNmU2NGUwYjM1NGRkXkEyXkFqcGc@._V1_.jpg",
+    firstAirDate: "September 20, 2010",
+    lastAirDate: "April 3, 2020",
+    tags: [
+        "Police procedural",
+        "Action drama",
+    ]
 }, 
 
 {
@@ -287,6 +384,14 @@ export const crimeSeries: Show[] = [
     title:"Law and Order",
     country: "USA",
     language: "English",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMzgzYmZkZjctMmY3Yi00NWQwLTkxNGItNGNmYWMyZDQyNjViXkEyXkFqcGc@._V1_.jpg",
+    firstAirDate: "September 13, 1990",
+    lastAirDate: "May 24, 2010",
+    tags: [
+        "Police procedural",
+        "Legal drama",
+        "Mystery",
+    ],
 }, 
 
 {
@@ -294,27 +399,62 @@ export const crimeSeries: Show[] = [
     title:"Luther",
     country: "USA",
     language: "English",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BNmViZjE1MjEtZjRlZC00MWMzLTg0ODItYjI1ODZiNzk5YzBiXkEyXkFqcGc@._V1_.jpg",
+    firstAirDate: "4 May 2010",
+    lastAirDate: "4 January 2019",
+    tags: [
+        "Crime drama",
+        "Police procedural",
+        "Psychological thriller",
+    ]
 }, 
 
 {
     id: "dicte",
     title:"Dicte",
     country: "Denmark",
-    language: "danish",
+    language: "Danish",
+    posterUrl: "https://image.tmdb.org/t/p/original/f7YhjleQpDS1iYXFXb3rgv5zYa5.jpg",
+    firstAirDate: "January 7, 2013",
+    lastAirDate: "October 24, 2016",
+    tags: [
+        "Detective",
+        "Mystery",
+        "Crime",
+    ],
 }, 
 
 {
-    id: "harry-hole",
-    title:"Harry Hole",
-    country: "Norway",
-    language: "Norwegian",
+    id: "jo-nesbos-detective-hole",
+    title:"Jo Nesbø's Detective Hole",
+    country: [
+        "Norway",
+        "United Kingdom"
+    ],
+    language: [
+        "Norwegian",
+        "Swedish",
+        "Danish",
+        "English",
+    ],
+    posterUrl: "https://image.tmdb.org/t/p/original/j61dmzEq4aRWJZk5tPyjzpHj8T2.jpg",
+    firstAirDate: "26 March 2026",
+    tags: [      	
+        "Mystery",
+        "Crime drama",
+        "Nordic Noir",
+    ]
 },
 
 {
     id: "magnum-pi",
-    title:"Magnum PI",
+    title:"Magnum, P.I",
     country: "USA",
     language: "English",
+    posterUrl: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7893926_b_v11_ac.jpg",
+    firstAirDate: "December 11, 1980",
+    lastAirDate: "May 1, 1988",
+    tags: ["Crime Drama"],
 },  
 
 {
@@ -322,6 +462,10 @@ export const crimeSeries: Show[] = [
     title:"Modus",
     country: "Sweden",
     language: "Swedish",
+    posterUrl: "https://image.tmdb.org/t/p/original/fsClSFESKTNWovjNGXVeLE4I3DF.jpg",
+    firstAirDate: "September 23, 2015",
+    lastAirDate: "June 19, 2017",
+    tags: ["Psychological thriller"],
 }, 
 
 {
@@ -329,6 +473,14 @@ export const crimeSeries: Show[] = [
     title:"NCIS",
     country: "USA",
     language: "English",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BYjIxZTRjYWItMzE3ZC00OTU3LTljYzctZGMzYTkxMjk2NTE0XkEyXkFqcGc@._V1_.jpg",
+    firstAirDate: "September 23, 2003",
+    lastAirDate: "TBA",
+    tags: [
+        "Military",
+        "Action",
+        "Police procedural",
+    ],
 }, 
 
 {
@@ -336,6 +488,14 @@ export const crimeSeries: Show[] = [
     title:"The Rookie",
     country: "USA",
     language: "English",
+    posterUrl: "https://static.wikia.nocookie.net/the-rookie/images/0/0c/Season7poster.jpg/revision/latest?cb=20250325035318",
+    firstAirDate: "October 16, 2018",
+    lastAirDate: "TBA",
+    tags: [
+        "Police procedural",
+        "Crime drama",
+        "Action",
+    ]
 }, 
 
 {
@@ -343,6 +503,14 @@ export const crimeSeries: Show[] = [
     title:"SWAT",
     country: "USA",
     language: "English",
+    posterUrl: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14158903_b_v12_bc.jpg",
+    firstAirDate: "November 2, 2017",
+    lastAirDate: "May 16, 2025",
+    tags: [
+        "Action thriller",
+        "Crime drama",
+        "Police procedural",
+    ],
 }, 
 
 {
@@ -350,19 +518,26 @@ export const crimeSeries: Show[] = [
     title:"The Midsomer Murders",
     country: "UK",
     language: "English",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BY2U5MzA2MjctMTIzMS00ZjYxLTljMmMtNDkzZjY4YTQ0MTJiXkEyXkFqcGc@._V1_.jpg",
+    firstAirDate: "March 23, 1997",
+    lastAirDate: "TBA",
+    tags: [
+        "Drama",
+        "Detective",
+        "Mystery thriller",
+    ]
 }, 
-
 {
     id: "white-collar",
     title:"White Collar",
-    country: "USA",
+    country: "US",
     language: "English",
-}, 
-
-{
-    id: "the-x-files",
-    title:"The X-Files",
-    country: "USA",
-    language: "English",
+    posterUrl: "https://i-viaplay-com.akamaized.net/viaplay-prod/474/376/WhiteCollar_cover_GE.jpg?width=400&height=600",
+    firstAirDate: "October 23, 2009",
+    lastAirDate: "December 18, 2014",
+    tags: [
+        "Police procedural",
+        "Comedy drama",
+    ]
 }, 
 ]

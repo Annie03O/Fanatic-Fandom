@@ -157,7 +157,7 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
             <img
               src={c.imageUrl}
               alt={`${c.firstName} ${c.lastName}`}
-                         className={`${page === true ? "h-[250px] w-[200px]" : "w-[250px] md:h-[200px] md:w-[150px]"} object-cover object-center`}
+                         className={`${page === true ? "h-[250px] w-[200px]" : "w-[250px] md:h-[200px] md:w-[150px]"} object-cover object-center `}
  />
           </article>
         </button>

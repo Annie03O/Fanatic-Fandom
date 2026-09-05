@@ -8,12 +8,13 @@ import { Soundtrack } from "./Soundtrack";
 export type Show = {
   id: string;
   title: string;  
+  englishTitle?: string;  // for shows that have a different title in their original language
   posterUrl: string;
-  country: string;         // ex "US", "UK", "SE"
+  country: string | string[];         // ex "US", "UK", "SE"
   firstAirDate: string;           // ex "1990–2000" eller "2022–"
   lastAirDate: string;
   status: string;          // ex "ended", "running"
-  language: string;       // ex "English", "Swedish"
+  language: string | string[];       // ex "English", "Swedish"
   plot: string;
   numberOfSeasons: number;
   numberOfEpisodes: number;
