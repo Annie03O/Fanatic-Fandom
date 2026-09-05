@@ -1,8 +1,9 @@
 "use client"
 import { CharacterPortals } from "./Characters/CharactersPortals";
 import { teenSeriesWithSlug } from "@/app/functions/WithSlug/teenSeriesWithSlug";
+import { kidsSeriesWithSlug } from "@/app/functions/WithSlug/kidsSeriesWithSlug";
 import { useParams } from "next/navigation";
-import { SeasonsPortals } from "./SeasonsPortals";
+import { SeasonsPortals } from "./Seasons/SeasonsPortals";
 import { SeriesInfobox as Infobox } from "./SeriesInfobox"; 
 import { teenSeriesWithInfobox } from "../functions/Convert/convertToSeriesInfobox";
 import { Show } from "../models/types/Show";
@@ -23,7 +24,7 @@ const ShowPage = ({genre}: ShowPageProps) => {
         series = teenSeriesWithSlug.items.find((s) => s.slug === slug)
 
     } else if (genre === "kids") {
-        series = teenSeriesWithSlug.kids.find((s) => s.slug === slug)
+        series = kidsSeriesWithSlug.items.find((s) => s.slug === slug)
     }
     
     const cast = series?.cast ?? [];
@@ -62,7 +63,7 @@ const ShowPage = ({genre}: ShowPageProps) => {
                     <h1>Cast</h1>
                     <ul className="list-circle">
                         {cast.map((c) => (
-                            <li key={c.actor}>{c.actor} as {c.character}</li>
+                            <li key={String(c.actor)}>{c.actor} as {c.character}</li>
                         ))}
                     </ul>
                 </section>

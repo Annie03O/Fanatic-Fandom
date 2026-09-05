@@ -1,17 +1,14 @@
 "use client";
 
-import { notFound, useParams } from "next/navigation";
+import { useParams } from "next/navigation";
 import { teenSeriesWithSlug } from "../../functions/WithSlug/teenSeriesWithSlug";
 import { CharacterInfobox } from "./CharacterInfobox";; 
 import { Relationship } from "@/app/models/types/Relationship";
 import { RelationshipsSection } from "../Relationships/RelationshipsSection"; 
-import { useState } from "react";
-import { log } from "console";
 import { CharacterArc } from "./CharacterArc";
 
 function Character() {
   const { slug, id } = useParams<{ slug: string; id: string }>();
-  const [expand, setExpa] = useState(false);
 
 
   // teenSeriesWithSlug är { ...teenSeries, items: [...] }

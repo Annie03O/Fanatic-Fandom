@@ -1,14 +1,12 @@
 import { CharacterPortals } from "@/app/components/Characters/CharactersPortals";
+import { teenSeriesWithSlug } from "@/app/functions/WithSlug/teenSeriesWithSlug";
 
 export function generateStaticParams() {
-  console.log("GENERATE STATIC PARAMS");
-
-  return [
-    {
-      slug: "Beverly_Hills_90210",
-    },
-  ];
+    return teenSeriesWithSlug.items.map((series) => ({
+        slug: series.slug,
+    }));
 }
+
 
 type Props = {
   params: Promise<{
@@ -18,10 +16,14 @@ type Props = {
 
 export default async function AllCharacterPage({ params }: Props) {
   const { slug } = await params;
-
+      
+  const series = teenSeriesWithSlug.items.find((s) => s.slug === slug)
+      
+  
+  if (!series) return <section>Series not found</section>
+          
+    
   return (
-    <div>
-      Characters: {slug}
-    </div>
+    <CharacterPortals show={series} genre="teen" page={true}/>
   );
 }

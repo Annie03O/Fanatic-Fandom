@@ -47,3 +47,5 @@ export const CrimePage = () => {
     </section>
     );
 }
+
+export default CrimePage;

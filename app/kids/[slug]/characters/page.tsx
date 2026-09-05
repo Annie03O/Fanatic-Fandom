@@ -1,6 +1,6 @@
 "use client"
 import { CharacterPortals } from "@/app/components/Characters/CharactersPortals";
-import { teenSeriesWithSlug } from "@/app/functions/WithSlug/teenSeriesWithSlug";
+import { kidsSeriesWithSlug } from "@/app/functions/WithSlug/kidsSeriesWithSlug";
 import { Show } from "@/app/models/types/Show";
 import { useParams } from "next/navigation";
 
@@ -11,7 +11,7 @@ type Props = {
 export default function AllCharacterPage({genre}: Props) {
         const {slug} = useParams<{slug: string}>();
     
-    const series = teenSeriesWithSlug.kids.find((s) => s.slug === slug)
+    const series = kidsSeriesWithSlug.items.find((s) => s.slug === slug)
     const cast = series?.cast ?? [];
 
     if (!series) return <section>Series not found</section>

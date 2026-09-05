@@ -149,7 +149,7 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
           onClick={() => pushCharacter(c.id!)}
           className={`border w-fit bg-white` }
         >
-          <article className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative" }>
+          <article className="w-fit flex flex-col-reverse relative">
             <h2 className={`text-2xl text-center bg-black ${page === false ? "absolute  w-full" : ""}`}>
               {c.label ? c.label : c.nickname && c.goesByNickname === true ? c.nickname[0] : c.firstName}
             </h2>

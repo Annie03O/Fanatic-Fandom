@@ -1,7 +1,7 @@
-import { teenSeriesTop50WithSlug } from "./teenSeriesTop50WithSlug";
+import { teenSeriesWithSlug } from "./WithSlug/teenSeriesWithSlug";
 
 // Flatten: alla karaktärer från alla serier i en lista
-export const allCharacters = teenSeriesTop50WithSlug.items.flatMap((s) =>
+export const allCharacters = teenSeriesWithSlug.items.flatMap((s) =>
   (s.mainCharacters ?? []).map((c) => ({
     ...c,
     seriesId: s.id,

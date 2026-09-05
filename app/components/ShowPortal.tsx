@@ -13,11 +13,11 @@ export const ShowPortal = ({show, genre, title}: Props) => {
     return (
           <Link key={genre} href={`/${genre}/${title}`}>
             <section className="flex justify-center items-center ">
-              <article className="w-[300px] h-[550px] border rounded-xl bg-purple-300 flex flex-col justify-center gap-2">
+              <article className="w-[300px] h-[555px] border rounded-xl bg-purple-300 flex flex-col justify-center gap-2">
                 <h1 className="text-xl whitespace-nowrap text-center">
                   {show.title}</h1>
                   
-                <section className="border border-2 w-full h-[400px] overflow-hidden">
+                <section className="border border-2 w-full h-[430px] overflow-hidden">
                 {show.posterUrl && (
                   <img
                     className="w-full h-full object-cover object-center"
@@ -26,7 +26,7 @@ export const ShowPortal = ({show, genre, title}: Props) => {
                   />
                 )}
                 </section>
-                <ul className="p-1">
+                <ul className="flex flex-col gap-0 pl-2">
                   <li>
                     {show.firstAirDate && show.lastAirDate
                       ? `${show.firstAirDate.slice(-4)} - ${show.lastAirDate.slice(-4)}` 

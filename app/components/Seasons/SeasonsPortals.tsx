@@ -1,10 +1,8 @@
 "use client";
 
 import { useParams, useRouter } from "next/navigation";
-import type { Show } from "../models/types/Show";
-import { teenSeriesWithSlug } from "../functions/WithSlug/teenSeriesWithSlug";
-import { getTwoRowSeasLayout as getTwoRowLayout } from "../functions/getTwoRowSeasLayout";
-import { useEffect, useRef } from "react";
+import type { Show } from "../../models/types/Show";
+import { getTwoRowSeasLayout as getTwoRowLayout } from "../../functions/getTwoRowSeasLayout";
 
 type Props = { show: Show; page: boolean };
 
@@ -17,16 +15,7 @@ export const SeasonsPortals = ({ show, page }: Props) => {
   const visible =
     page === false && seasons.length > 10 ? seasons.slice(0, 8) : seasons
 
-const renders = useRef(0);
-renders.current += 1;
-console.log("SeasonsPortals renders:", renders.current);
-
-useEffect(() => {
-  console.log("visible length:", visible.length);
-}, [visible.length]);
-
-
-  const pushSeason = (id: string) => router.push(`/teen/${slug}/${id}`);
+  const pushSeason = (id: string) => router.push(`/teen/${slug}/seasons/${id}`);
 
   const colsClass = (n: number) => {
     const cols = Math.max(1, Math.min(5, n)); // clamp 1..8

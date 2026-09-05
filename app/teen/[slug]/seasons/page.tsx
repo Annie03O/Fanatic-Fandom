@@ -1,5 +1,5 @@
 "use client"
-import { SeasonsPortals } from "@/app/components/SeasonsPortals";
+import { SeasonsPortals } from "@/app/components/Seasons/SeasonsPortals";
 import { teenSeriesWithSlug } from "@/app/functions/WithSlug/teenSeriesWithSlug";
 import { useParams } from "next/navigation";
 
