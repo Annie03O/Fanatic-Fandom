@@ -17,7 +17,7 @@ export const SeasonInfobox = ({ season }: Props) => {
     <aside>
       <h2 className="text-3xl text-center">{box.name}</h2>
 
-      <img src={box.posterSrc} alt={box.name} />
+      <img className="w-full h-auto" src={box.posterSrc} alt={box.name} />
 
       <section className="border text-lg">
         {box.fields.map((f) => (

@@ -2346,7 +2346,11 @@ export const teenSeries: Show[] = [
               "Steve and Janet visit their neighbors, the Gundersons, where Steve shares details about their publication, The Beverly Beat, but the encounter ends poorly due to the Gundersons' disdain. Chaos follows when their dog, Georgia, brings home a rabbit, prompting Steve to buy a replica to cover up the incident. A failed attempt to swap the rabbits leads to comedic mishaps revealing the Gundersons' negative opinions about Steve and Janet.",
               "The plot reveals Steve’s hidden $50,000 trust fund, igniting conflict with Janet over risking money in an investment. Despite her objections, Steve's anxiety about financial stability grows as they navigate opportunities with Charles Yoffe, who offers to buy The Beat for $750,000 but excludes Steve from involvement. The couple discusses the sale's implications, balancing financial security against Steve’s reluctance to become a house husband.",
               "In their domestic lives, Steve struggles with his role as a stay-at-home dad while Janet receives a job offer to run a new magazine, leading to further tensions. Steve feels excluded from milestones in Maddy’s life, exacerbating feelings of resentment towards Janet's career ambitions. As they confront their aspirations, they eventually agree to a joint venture, aiming to balance family and work while reflecting on their past connection, particularly Steve’s past relationships. ",
-
+              "David invites Camille to the Santa Monica pier, but she declines, citing work on an inventory of Donna Martin originals. At the boutique, an intimate moment between David and Camille is interrupted by Donna, who confronts them about their emotions and past relations. Camille suspects Donna still has feelings for David, a notion he rejects. David later apologizes to Donna, reawakening some nostalgic feelings between them.",
+              "As tensions rise, Camille's visit to the boutique sparks jealousy in Donna, especially when discussing a potential website. Although David recommends a web designer, Donna insists on self-investment first. Complications arise when Camille proposes an investment to Dylan, causing strain within their triangle as David feels uncomfortable with Camille's growing attachment to Dylan.",
+              "Donna is anxious about photo shoot costs after a model's absence, and when Dylan suggests Camille as a replacement, David objects, leading to further conflict. Meanwhile, Camille and Dylan share that their online store is successful, contrasting with Donna's slow business growth and her commentary on Camille's interest in David, which he denies.",
+              "Their emotional entanglements deepen as David and Donna reflect on his breakup with Camille during a quiet night at Donna's beach house. Despite their chemistry, Donna is hesitant to revisit their romance. This tension culminates in a setup for a blind date, igniting mutual attraction. ",
+              "At David’s apartment, a hangout turns awkward with Noah's arrival. After David's breakup with Camille, he tenderly proposes to Donna, who asks for time to think. Dylan helps David craft a romantic message in the sand, initially misinterpreted by Donna but ultimately clarified as love. Donna accepts David's proposal, leading to wedding preparations celebrated by family and friends, solidifying their renewed relationship.",
             ],
           }
         ],
@@ -3091,7 +3095,117 @@ export const teenSeries: Show[] = [
         imgUrl: "https://play-lh.googleusercontent.com/bLaFwaaFhgC0EaHjxMXY4na390kB-FZ7ZqD1LzDMzwhz5dtXtxTj075raYPi76fFIHn8bbQ3V3O7LhlWpw",  
         noSeason: 1,
         noImage: false,
+        songs: [
+         { 
+          episodeTitle: "Class of Beverly Hills",
+          song: [
+            {
+            id: "i-want-your-love-transvision-vamp",
+            title: "I Want Your Love",
+            artist: "Transvision Vamp",
+          },
+          {
+            id: "all-i-want-is-everything-jellyfish",
+            title: "all i want is everything",
+            artist: "JELLYFISH",
+          },
+          {
+            id: "attacked-by-monsters-meat-puppets",
+            title: "attacked by monsters",
+            artist: "MEAT PUPPETS",
+          },
+          {
+            id: "paradise-meat-puppets",
+            title: "paradise",
+            artist: "MEAT PUPPETS",
+          },
+          {
+            id: "nobody-rides-for-free-climate-of-crises",
+            title: "Nobody Rides For Free",	
+            artist: "Climate of Crisis",
+          },
+          {
+            id: "the-motion-of-love-gene-loves-jezebel",
+            title: "the motion of love",
+            artist: "GENE LOVES JEZEBEL",
+          },
+          {
+            id: "clear-to-you-the-innocence-mission",
+            title: "Clear to You",
+            artist: "THE INNOCENCE MISSION",
+          },
+          {
+            id: "wild-in-the-streets-garland-jeffreys",
+            title: "wild in the streets",
+            artist: "GARLAND JEFFREYS",	
+          },
+          ]
         
+        },
+        {
+            episodeTitle: "The Green Room",
+            song: [
+              {
+                title: "Word To The Mutha!",
+                artist: "Bell Biv Devoe",
+              },
+              {
+                title: "Monday Monday",
+                artist: "The Mamas and Papas",
+              },
+              {
+                title: "Surf Crazy",
+                artist: "Jan Berry and Dean Torrence"
+              },
+            ],
+          },
+          {
+            episodeTitle: "Every Dream Has Its Price (Tag)",
+            song: [
+              {
+                title: "Town Without Pity",
+                artist: "Gene Pitney",
+              },
+              {
+                title: "dirty cash (money talks)",
+                artist: "THE ADVENTURES OF STEVIE V"
+              },
+              {
+                title: "mt [the 77s cover]",
+                artist: "ZOPPI",
+              },
+              {
+                title: "let the good times roll",
+                artist: "LOUIS JORDAN & HIS TYMPANY FIVE",
+              },
+            ],
+          },
+          {
+            episodeTitle: "The First Time",
+            song: [
+              {
+                title: "shock wave",
+                artist: "KIPPER JONES",
+              },
+              {
+                title: "Dreamlike State",
+                artist: "Erasure",
+              },
+              {
+                title: "in the mood",	
+                artist: "GLENN MILLER & HIS ORCHESTRA",
+              },
+              {
+                title: "i wanna be rich",
+                artist: "CALLOWAY",
+              },
+              {
+                title: "hippychick",
+                artist: "SO:HO"
+              },
+            ],
+          },
+        ],
       },
       {
         id: "beverly-hills-90210-soundtrack-s2",

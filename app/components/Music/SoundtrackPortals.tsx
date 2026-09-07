@@ -1,7 +1,6 @@
 "use client"
 
 import { getTwoRowLayout } from "@/app/functions/getTwoRowLayout";
-import { teenSeriesWithSlug } from "@/app/functions/WithSlug/teenSeriesWithSlug";
 import { Show } from "@/app/models/types/Show"
 import { useParams, useRouter } from "next/navigation";
 import { useRef } from "react";
@@ -26,7 +25,7 @@ renders.current += 1;
 console.log("SeasonsPortals renders:", renders.current);
 
 
-  const pushSoundtrack = (id: string) => router.push(`/teen/${slug}/${id}`);
+  const pushSoundtrack = (id: string) => router.push(`/teen/${slug}/soundtrack/${id}`);
 
   const colsClass = (n: number) => {
     const cols = Math.max(1, Math.min(5, n)); // clamp 1..8
