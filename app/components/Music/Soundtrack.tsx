@@ -2,6 +2,8 @@
 
 import { teenSeriesWithSlug } from "@/app/functions/WithSlug/teenSeriesWithSlug";
 import { useParams } from "next/navigation";
+import { capitalizeFirstLetter } from "@/app/functions/Format/capitalizeFirstLetter";
+import { SoundtrackInfobox } from "./SoundtrackInfobox";
 
 function Soundtrack() {
  const { slug,  soundtrackId} = useParams<{slug: string, soundtrackId: string}>();
@@ -18,11 +20,11 @@ function Soundtrack() {
 
 
 return (
-    <main className="flex flex-col justify-center items-center ">
-                <section className="bg-black md:w-[90%] p-1 flex flex-col ">            
+    <main key={series.id} className="flex flex-col justify-center items-center ">
+                <section key={soundtrack.id} className="bg-black md:w-[90%] p-1 flex flex-col ">            
                     
                     <h1 className="text-4xl">Music from {series.title} (Season {soundtrack.noSeason})</h1>
-                    <section className=" flex flex-col-reverse md:flex-row border w-full ">
+                    <section key={slug} className=" flex flex-col-reverse md:flex-row border w-full ">
                         <section className="w-full flex flex-col gap-2">
                            <section className="w-[75%]">
                               <h2 className="text-3xl">Soundtrack</h2>
@@ -34,20 +36,20 @@ return (
                                        <section className="flex border w-1/2 justify-center items-center">Artist</section>
                                     </section>                                
                                 </header>
-                                  {soundtrack.songs.map((s) => {
+                                                                    {soundtrack.songs.map((s, episodeIndex) => {
 
-                                    return <section className="flex border ">
+                                                                        return <section key={`${s.episodeTitle}-${episodeIndex}`} className="flex border ">
                                         <section className="flex border justify-center items-center w-1/2">
-                                           {s.episodeTitle}
+                                            {capitalizeFirstLetter(s.episodeTitle)}
                                         </section>
                                         <section className="flex flex-col border justify-center items-center w-1/2">
-                                            {s.song.map((i) => {
-                                                return <section className="flex w-full border-b">
+                                            {!s.song ? "No songs featured in this episode": s.song.map((i, songIndex) => {
+                                                return <section key={`${i.id ?? `${i.title}-${i.artist}`}-${songIndex}`} className="flex w-full border-b">
                                                     <span className="w-full text-center flex  justify-center items-center">
-                                                      {i.title}
+                                                      {capitalizeFirstLetter(i.title)}
                                                     </span>
                                                     <span className="w-full text-center flex  justify-center items-center">
-                                                        {i.artist}
+                                                        {capitalizeFirstLetter(i.artist)}
                                                     </span>
                                                 </section>
                                             })}
@@ -60,9 +62,9 @@ return (
                           
                            </section>
                         </section>
-                        <section className="border md:w-[50%] lg:w-[20%]">
-                            
-                        </section>
+                         <section className="border md:w-[50%] lg:w-[20%]">
+                            <SoundtrackInfobox soundtrack={soundtrack}/>
+                        </section> 
                            
                     </section>
                 </section>

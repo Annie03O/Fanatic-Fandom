@@ -1,6 +1,5 @@
 "use client";
 import { Season } from "@/app/models/types/Season";
-import { convertToCharacterInfobox } from "../../functions/Convert/convertToCharacterInfobox";
 import { convertToSeasonInfobox } from "@/app/functions/Convert/convertToSeasonInfobox";
 
 type Props = { season: Season };

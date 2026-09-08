@@ -3139,7 +3139,7 @@ export const teenSeries: Show[] = [
             title: "wild in the streets",
             artist: "GARLAND JEFFREYS",	
           },
-          ]
+        ]
         
         },
         {
@@ -3205,6 +3205,282 @@ export const teenSeries: Show[] = [
               },
             ],
           },
+          {
+            episodeTitle: "One on One",
+            song: [
+              {
+                title: "Ooops Up",
+                artist: "Snap!",
+              },
+              {
+                title: "the way you do the things you do",	
+                artist: "THE TEMPTATIONS",
+              },
+              {
+                title: "turn it on salvador",	
+                artist: "TOY MATINEE",
+              },
+              {
+                title: "just the way it is, baby",
+                artist: "THE REMBRANDTS",
+              },
+            ],
+          },
+          {
+            episodeTitle: "Higher Education",
+            song: [
+              {
+                title: "Policy of Truth",
+                artist: "Depeche Mode"
+              },
+              {
+                title: "bedspring kiss",
+                artist: "JELLYFISH "
+             },
+            ],
+          },
+          {
+             episodeTitle: "Perfect Mom",	
+             song: [
+              {
+                title: "star",
+                artist: "ERASURE",
+              }
+            ]
+          },
+          {
+            episodeTitle: "The 17-Year Itch",	
+            song: [
+              {
+                title: "love generation",	
+                artist: "SO:HO"	
+              },
+              {
+                title: "being cool",	
+                artist: "DJAVAN",	
+              },
+              {
+                title: "heart shaped world",
+                artist:	"CHRIS ISAAK"
+              },
+          ]
+          },
+          {
+            episodeTitle: "The Gentle Art of Listening",	
+            song: [
+              {
+                title: "Get Up (Before The Night Is Over)",	
+                artist: "TECHNOTRONIC",
+              },
+              {
+                title: "chocolate",	
+                artist: "THE TIME",	
+              },
+              {
+                title: "since i met you baby",	
+                artist: "IVORY JOE HUNTER",
+              },
+              {
+                title: "devil or angel",	
+                artist: "THE CLOVERS",
+              },
+            ],
+          },
+          {
+             episodeTitle: "Isn't It Romantic?",	
+             song: [
+              {
+                title: "Lily Was Here",
+                artist:	"Candy Dulfer"
+              },
+              {
+                title: "doin' the do",
+                artist:	"BETTY BOO"	
+              },
+              {
+                title: "She's Like the Wind (feat. Wendy Fraser)",	
+                artist: "Patrick Swayze",
+              },
+             ],
+          },
+          {
+            episodeTitle: "B.Y.O.B.",	
+            song: [
+              {
+                title: "So Hard",	
+                artist: "PET SHOP",
+              },
+              {
+                title: "goddess",	
+                artist: "SO:HO",	
+              },
+              {
+                title: "don't you love me",	
+                artist: "49ERS",
+              },
+            ]  
+          },
+          {
+             episodeTitle: "One Man And A Baby",	
+             song: [
+              {
+                title: "baby love",	
+                artist: "THE SUPREMES",
+              },
+              {
+                title: "joey",	
+                artist: "CONCRETE BLONDE",
+              },
+              {
+                title: "Wicked Game",
+                artist:	"Chris Isaak",
+              },
+            ],
+          },
+          {
+            episodeTitle: "Slumber Party",	
+            song: [
+              {
+                title: "streets in paradise",
+                artist: "VIXEN"
+              },
+              {
+                title: "mony, mony",	
+                artist: "TOMMY JAMES & THE SHONDELLS"
+              },
+            ],
+          },
+          {
+            episodeTitle: "East Side Story",	
+            song:[
+              {
+                title: "let's go deeper",
+                artist:	"MC HAMMER",
+              },	
+              {
+                title: "i like you",
+                artist:	"CULTURE BEAT"
+              },	
+             {
+              title: "deep down",
+              artist:	"DEBBIE GIBSON",
+             },
+           ],
+          },      
+          {
+            episodeTitle: "A Fling In Palm Springs",	
+            song: [
+              {
+                title: "apples, peaches, pumpkin pie",
+                artist:	"JAY & THE TECHNIQUES",
+              },
+              {
+                title: "la bamba",
+                artist:	"RITCHIE VALENS",
+              },
+              {
+                title: "tequila",
+                artist: "THE CHAMPS",
+              },
+            ],
+          },
+        {
+          episodeTitle: "Fame Is Where You Find It",
+          song:	[
+            {
+              title: "sally go 'round the roses",	
+              artist: "THE JAYNETTS",
+            },
+            {
+              title: "finger poppin' time",
+              artist:	"HANK BALLARD & THE MIDNIGHTERS",
+            },
+            {
+              title: "it's my party",	
+              artist: "LESLEY GORE",
+            },
+          ]
+      },
+      {
+        episodeTitle: "Stand (Up) and Deliver",	
+        song: [
+          {
+            title: "merry go round",
+            artist: "THE REPLACEMENTS",	
+          },
+          {
+            title: "hippychick",
+            artist: "SO:HO",
+          },
+        ],
+      },
+      {
+        episodeTitle: "It's Only A Test",	
+        song: [
+          {
+            title: "just the way it is, baby",
+            artist:	"THE REMBRANDTS",
+          }
+        ]	
+      },
+      {
+        episodeTitle: "April Is The Cruelest",
+        song: [
+          {
+            title: "Month	would i lie to you?",	
+            artist: "EURYTHMICS",
+          },	
+          {
+            title: "doin' the do",	
+            artist: "BETTY BOO",
+          },
+        ]
+      },
+      {
+        episodeTitle: "Spring Training",
+      },
+      {
+        episodeTitle: "Spring Dance",	
+        song: [
+          {
+            title: "the best i can't",	
+            artist: "THE RAVE-UPS", 
+          },	
+          {
+            title: "you can't hurry love",	
+            artist: "THE SUPREMES",
+          },	
+          {
+            title: "tinker tommy",	
+            artist: "THE RAVE-UPS",
+          },	
+          { 
+            title: "she says (come around)",
+            artist:	"THE RAVE-UPS",
+          },	
+          { 
+            title: "smile",	
+            artist: "THE RAVE-UPS",
+          },
+          { 
+            title: "if it was (a matter of mind)",	
+            artist: "THE RAVE-UPS"
+          },	
+        ],
+        },
+      {
+        episodeTitle: "Home Again",
+        song:	[
+          {
+            title: "deep down",
+            artist:	"DEBBIE GIBSON",
+          },
+          {
+            title: "celebrate me home",
+            artist:	"KENNY LOGGINS"
+          },	
+          ],
+      },
         ],
       },
       {
