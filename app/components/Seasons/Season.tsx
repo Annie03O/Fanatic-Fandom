@@ -55,7 +55,7 @@ function Season() {
                         </section>
                            
                     </section>
-                </section>''
+                </section>
             </main>
     
   );
