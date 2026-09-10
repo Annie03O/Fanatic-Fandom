@@ -2643,7 +2643,7 @@ export const dramaSeries: Show[] = [
             toSeason: 10,
             summary: [
               "Andrea comes back into town for Steve's 21st birthday party on the Queen Mary, which is thrown by Prince Carl (a childhood friend of Clare's). While showing photos of Hannah to Kelly, she reveals that Hannah is 2 years old and Jesse loves being at Yale.",
-              "Andrea also returns for the gang's five-year high school reunion, where she caught up with those still in the area and met the new faces. However, all was not well back home, as she and Jesse were planning to divorce.[47] Andrea attends Donna and David's wedding, participating in Donna's bachelor party. She is divorced, but happy with her life."
+              "Andrea also returns for the gang's five-year high school reunion, where she caught up with those still in the area and met the new faces. However, all was not well back home, as she and Jesse were planning to divorce. Andrea attends Donna and David's wedding, participating in Donna's bachelor party. She is divorced, but happy with her life."
             ],
           },
         ],
@@ -2710,19 +2710,27 @@ export const dramaSeries: Show[] = [
             name: "Jesse Vasquez",
             type: "Romantic",
             romantic: "Ex-Wife/Ex-Husband",
+            shortDesc: "Andrea meets Jesse at the Walsh's 20th wedding anniversary, leading to a romance and subsequent marriage after she becomes pregnant. Jesse struggles with the pressures surrounding the birth of their daughter, Hannah, and their relationship becomes troubled, especially when he cheats while away on business. Confessing their infidelities leads to a crisis, but with Dylan's encouragement, they reconcile. Eventually, they leave Beverly Hills, but at a reunion five years later, Andrea announces their divorce. The series concludes with Andrea attending David and Donna's wedding as a presumed divorcée.",
             gender: "M",
+            imgUrl: "https://remezcla.com/wp-content/uploads/sites/3/2018/10/Screen-Shot-2018-10-25-at-5.07.58-PM.png",
+            card: true,
           },
           {
             name: "Peter Tucker",
             type: "Romantic",
+            shortDesc: "Andrea and Peter meet at a laundromat. Peter initially assumes Andrea is babysitting Hannah, but she tells him the truth once she learns he is married as well. Andrea starts seeing him because she is jealous of Jesse's female clients and lonely. Plus they are having marital issues due to their different religious beliefs. Dylan sees Andrea and Peter at the motel where they meet and confronts her about it. Andrea, embarrassed and demoralized, confides in Dylan and stops seeing Peter.",
             romantic: "Affair",
             gender: "M",
+            card: true,
           },
           {
             name: "Dan Rubin",
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
+            imgUrl: "https://preview.redd.it/jessie-andrea-v0-b5rls7p5khmg1.jpeg?width=1163&format=pjpg&auto=webp&s=c7ec56bb8d6d6b7c371e772b770eeb5a798a0e00",
+            shortDesc: "Andrea meets Dan when she starts college and moves into the dorms at CU. There's an immediate mutual attraction, although Andrea is hesitant as Dan is older and also a TA. Dan pursues Andrea, and they eventually start going out. After being together for a little while, Andrea feels they are too different and she simultaneously meets someone else. She ends things with Dan, which she finds difficult to do, and he doesn't take it well, becoming bitter over the break-up and leaving Marlowe Hall.",
             gender: "M",
+            card: true,
           },
           {
             name: "Gil Meyers",
