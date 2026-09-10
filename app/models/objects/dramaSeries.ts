@@ -3622,7 +3622,7 @@ export const dramaSeries: Show[] = [
         posterUrl: "https://flxt.tmsimg.com/assets/p186593_b_v8_ab.jpg",
       }, 
       {
-        id: "BH90210",
+        id: "bh-90210",
         title: "BH 90210",
         posterUrl: "https://m.media-amazon.com/images/M/MV5BOTVmZDljN2QtNGE4Yi00NTE4LTliMzMtMmFlZjViOWMyNGRiXkEyXkFqcGc@._V1_.jpg"
       }
@@ -5060,15 +5060,15 @@ export const dramaSeries: Show[] = [
       },
       {
         id: "models-inc.",
-        posterUrl: "",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BZWRmYjFhMDgtN2RiNS00NjI5LTkzNjctMTY2NjI4ZTI5NGQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       },
       {
         id: "melrose-place-reboot",
-        posterUrl: "",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BNmQ3MjEwYTItZjMzMi00MTUyLTk5NDctY2UwMDIxYmE1NGVkXkEyXkFqcGc@._V1_.jpg",
       },
       {
         id: "bh-90210",
-        posterUrl: "",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BOTVmZDljN2QtNGE4Yi00NTE4LTliMzMtMmFlZjViOWMyNGRiXkEyXkFqcGc@._V1_.jpg",
       },
     ],
   },
@@ -5320,7 +5320,7 @@ export const dramaSeries: Show[] = [
           posterUrl:  "https://m.media-amazon.com/images/M/MV5BNTJmYmVkYTAtNDkxNC00MDMzLTk4OTgtNDYxNzRkMGNmMDFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", 
         },  
         {
-          id: "BH90210",
+          id: "bh-90210",
           title: "BH: 90210",
           posterUrl: "https://m.media-amazon.com/images/M/MV5BOTVmZDljN2QtNGE4Yi00NTE4LTliMzMtMmFlZjViOWMyNGRiXkEyXkFqcGc@._V1_.jpg"
         }
