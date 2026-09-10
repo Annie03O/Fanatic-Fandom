@@ -31,6 +31,7 @@ export const generateLabel = (i: Relationship): string => {
     if (i.romantic === "Kissed") return "Kissed";
     if (i.romantic === "Dated") return "Dated";
     if (i.romantic === "One Date") return "One Date";
+    if (i.romantic === "Affair") return "Affair";
 
     if (i.romantic === "Wife/Husband") {
         if (i.gender === "F") return "Wife";
