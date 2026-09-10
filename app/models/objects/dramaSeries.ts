@@ -3631,6 +3631,7 @@ export const dramaSeries: Show[] = [
   {
     id: "melrose-place",
     title: "Melrose Place",
+    plot: "Set in an apartment block in the West Hollywood district of Los Angeles, Melrose Place was originally a spin-off from Beverly Hills 90210, but when its initial formula of looking at the lives of a group of well-meaning, attractive 20-somethings failed to get high ratings, writers introduced conflict in the form of less moral characters (notably Amanda Woodward played by Heather Locklear). Ratings improved, and storylines became more and more outrageous: characters coming back from the dead, multiple personalities, a bomb destroying the apartment complex. By the end of Season 4, story-lines appeared to tend towards being more 'grounded', however.",
     posterUrl:  "https://m.media-amazon.com/images/M/MV5BNTJmYmVkYTAtNDkxNC00MDMzLTk4OTgtNDYxNzRkMGNmMDFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", 
     creator: ["Darren Starr"],
     mainCharacters: [
