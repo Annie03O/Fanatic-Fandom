@@ -1,13 +1,14 @@
 import { Relationship } from "../../models/types/Relationship";
 
 export function formatRomance(ship: Relationship): string | null {
-  if (ship.type !== "Romantic") return null;
+  if (ship.type !== "Romantic" && !(ship.type === "Friendship" && ship.romantic)) return null;
 
   if (ship.romantic === "Crush")  return `${ship.name} (Crush)`;
   if (ship.romantic === "Hook-Up")  return `${ship.name} (Hook-Up)`;
   if (ship.romantic === "Fling")  return `${ship.name} (Fling)`;
   if (ship.romantic === "Fiancé")  return `${ship.name} (Fiancé)`;
   if (ship.romantic === "Dated")  return `${ship.name} (Dated)`;
+  if (ship.romantic === "Affair")  return `${ship.name} (Affair)`;
 
   if (ship.romantic === "Ex-Boyfriend/Ex-Girlfriend") {
     if (ship.gender === "F") return `${ship.name} (Ex-Girlfriend)`;
