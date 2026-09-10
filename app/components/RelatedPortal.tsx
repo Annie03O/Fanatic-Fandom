@@ -4,14 +4,16 @@ import { useParams, useRouter } from "next/navigation"
 import { Show } from "../models/types/Show";
 import { useRef } from "react";
 import { getTwoRowLayout } from "../functions/getTwoRowLayout";
+import { toRouteSlug } from "../functions/toRouteSlug";
 
 type Props = { 
     show: Show; 
+    title: string,
     page: boolean;
 };
 
 
-export const RelatedPortal = ({show, page}: Props) => {
+export const RelatedPortal = ({show, page, title}: Props) => {
  const { slug } = useParams<{slug: string}>();
  const router = useRouter();
 
@@ -24,7 +26,8 @@ export const RelatedPortal = ({show, page}: Props) => {
  const renders = useRef(0);
  renders.current += 1;
  
- const pushRelated = (id: string) => router.push(`/drama/${id}`);
+ const pushRelated = (related: NonNullable<Show["related"]>[number]) =>
+   router.push(`/drama/${toRouteSlug(related.title ?? related.id)}`);
 
   const colsClass = (n: number) => {
     const cols = Math.max(1, Math.min(5, n)); // clamp 1..8
@@ -54,7 +57,7 @@ export const RelatedPortal = ({show, page}: Props) => {
         <button
           key={r.id}
           type="button"
-          onClick={() => pushRelated(r.id!)}
+          onClick={() => pushRelated(r)}
           className="border w-fit "
         >
           <article className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative h-[200px] w-[150px]"}>
