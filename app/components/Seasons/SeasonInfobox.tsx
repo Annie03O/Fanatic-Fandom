@@ -36,6 +36,14 @@ export const SeasonInfobox = ({ season }: Props) => {
                </section>
           </section>
         ))}
+        <section className="flex pl-2 pr-2">
+          <section className="w-1/2">Previous</section>
+          <section className="w-1/2 flex justify-end"> Next</section>
+        </section>
+        <section className="flex  pl-2 pr-2">
+          {season.previousSeason ? <section className="w-1/2"> Season {season.previousSeason?.seasonNumber}</section> : ""}
+          <section className={`w-full flex justify-end`}> Season {season.nextSeason?.seasonNumber}</section>
+        </section>
       </section>
     </aside>
   );
