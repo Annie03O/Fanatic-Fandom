@@ -33,7 +33,7 @@ export type Show = {
   endingTheme?: string;
   composer?: string[]; 
   executive: string[] | string;
-  producer: string[] | string;
+  producer?: string[] | string;
   prodLocation: string[];
   prodCompanies: string[] | string;
   network: string[] | string;
