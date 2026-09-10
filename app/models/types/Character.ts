@@ -1,6 +1,6 @@
 import { CharacterArc } from "./CharacterArc";
 import { EpisodeBreakdown } from "./EpisodeBreakdown";
-import { Education, Occupation } from "./Occupation";
+import { Occupation } from "./Occupation";
 import { Relationship } from "./Relationship";
 
 export type Character = {
@@ -15,12 +15,12 @@ export type Character = {
     actor?: string;
     birthday?: string; 
     eyeColor?: string;
-    hairColor?: string[];
+    hairColor?: string[] | string;
     gender?: "M" | "F" | "Non-Binary";
     married?: boolean;
     single?: boolean;
     occupation?: Occupation[];
-    education?: Education[]; 
+    education?: Occupation[]; 
     nationality?: string;
     goesByNickname?: boolean;
     personality?: string;
