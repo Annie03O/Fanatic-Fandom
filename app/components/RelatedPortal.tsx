@@ -24,7 +24,7 @@ export const RelatedPortal = ({show, page}: Props) => {
  const renders = useRef(0);
  renders.current += 1;
  
- const pushRelated = (id: string) => router.push(`/teen/${id}`);
+ const pushRelated = (id: string) => router.push(`/drama/${id}`);
 
   const colsClass = (n: number) => {
     const cols = Math.max(1, Math.min(5, n)); // clamp 1..8
@@ -125,7 +125,7 @@ export const RelatedPortal = ({show, page}: Props) => {
           {page === false && related.length > 10 ? (
             <button
               className="underline"
-              onClick={() => router.push(`/teen/${slug}/related`)}
+              onClick={() => router.push(`/drama/${slug}/related`)}
             >
               View All Seasons
             </button>

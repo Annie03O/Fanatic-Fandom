@@ -1,9 +1,9 @@
 import ShowPage from "@/app/components/ShowPage";
-import { teenSeriesWithSlug } from "@/app/functions/WithSlug/teenSeriesWithSlug";
+import { dramaSeriesWithSlug } from "@/app/functions/WithSlug/dramaSeriesWithSlug";
 
 
 export function generateStaticParams() {
-    return teenSeriesWithSlug.items.flatMap((series) =>
+    return dramaSeriesWithSlug.items.flatMap((series) =>
         series.mainCharacters.map((character) => ({
             slug: series.slug,
             id: character.id,
@@ -13,7 +13,7 @@ export function generateStaticParams() {
 
 
 function TeenPage() {
-    return <ShowPage genre="teen" />;
+    return <ShowPage genre="drama" />;
 }
 
 export default TeenPage;

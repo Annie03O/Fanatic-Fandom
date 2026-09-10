@@ -8,7 +8,7 @@ import { useRef } from "react";
 type Props = {
     show: Show;
     page: boolean;
-    genre?: "teen" | "kids" | "crime" | "comedy";
+    genre?: "drama" | "kids" | "crime" | "comedy";
     type: "album" | "soundtrack";
 }
 const SoundtrackPortals = ({show, page, genre, type}: Props) => {
@@ -25,7 +25,7 @@ renders.current += 1;
 console.log("SeasonsPortals renders:", renders.current);
 
 
-  const pushSoundtrack = (id: string) => router.push(`/teen/${slug}/soundtrack/${id}`);
+  const pushSoundtrack = (id: string) => router.push(`/drama/${slug}/soundtrack/${id}`);
 
   const colsClass = (n: number) => {
     const cols = Math.max(1, Math.min(5, n)); // clamp 1..8
@@ -123,7 +123,7 @@ console.log("SeasonsPortals renders:", renders.current);
           {page === false && soundtrack.length > 10 ? (
             <button
               className="underline"
-              onClick={() => router.push(`/teen/${slug}/soundtrack`)}
+              onClick={() => router.push(`/drama/${slug}/soundtrack`)}
             >
               View All Seasons
             </button>

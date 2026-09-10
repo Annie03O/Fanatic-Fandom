@@ -15,7 +15,7 @@ export const SeasonsPortals = ({ show, page }: Props) => {
   const visible =
     page === false && seasons.length > 10 ? seasons.slice(0, 8) : seasons
 
-  const pushSeason = (id: string) => router.push(`/teen/${slug}/seasons/${id}`);
+  const pushSeason = (id: string) => router.push(`/drama/${slug}/seasons/${id}`);
 
   const colsClass = (n: number) => {
     const cols = Math.max(1, Math.min(5, n)); // clamp 1..8
@@ -153,7 +153,7 @@ export const SeasonsPortals = ({ show, page }: Props) => {
           {page === false && seasons.length > 10 ? (
             <button
               className="underline"
-              onClick={() => router.push(`/teen/${slug}/seasons`)}
+              onClick={() => router.push(`/drama/${slug}/seasons`)}
             >
               View All Seasons
             </button>

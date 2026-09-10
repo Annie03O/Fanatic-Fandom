@@ -12,8 +12,8 @@ const navItems: NavItem[] = [
     href: "/" 
   },
   { 
-    label: "Teen", 
-    href: "/teen" 
+    label: "Drama", 
+    href: "/drama" 
   },
 
   { 

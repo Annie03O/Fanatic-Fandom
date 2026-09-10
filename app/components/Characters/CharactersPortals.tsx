@@ -7,7 +7,7 @@ import {  getTwoRowLayout } from "../../functions/getTwoRowLayout";
 type Props = { 
   show: Show; 
   page: boolean;
-  genre?: "teen" | "kids" | "crime" | "comedy"; 
+  genre?: "drama" | "kids" | "crime" | "comedy"; 
 };
 
 

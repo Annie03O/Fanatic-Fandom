@@ -1,6 +1,6 @@
 "use client"
 
-import { teenSeriesWithSlug } from "@/app/functions/WithSlug/teenSeriesWithSlug";
+import { dramaSeriesWithSlug } from "@/app/functions/WithSlug/dramaSeriesWithSlug";
 import { useParams } from "next/navigation";
 import { capitalizeFirstLetter } from "@/app/functions/Format/capitalizeFirstLetter";
 import { SoundtrackInfobox } from "./SoundtrackInfobox";
@@ -8,7 +8,7 @@ import { SoundtrackInfobox } from "./SoundtrackInfobox";
 function Soundtrack() {
  const { slug,  soundtrackId} = useParams<{slug: string, soundtrackId: string}>();
 
- const series = teenSeriesWithSlug.items.find((s) => s.slug === slug);
+ const series = dramaSeriesWithSlug.items.find((s) => s.slug === slug);
 
  if (!series) return <section>Series not found</section>;
 

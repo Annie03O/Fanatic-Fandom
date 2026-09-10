@@ -1,6 +1,6 @@
 import { InfoField } from "../../models/types/Infobox";
 import { Show } from "../../models/types/Show";
-import { teenSeriesWithSlug } from "../WithSlug/teenSeriesWithSlug";
+import { dramaSeriesWithSlug } from "../WithSlug/dramaSeriesWithSlug";
 
 // type guard så .filter inte blir (InfoField | null)[]
 const isInfoField = (v: InfoField | null): v is InfoField => v !== null;
@@ -72,8 +72,8 @@ export function convertToSeriesInfobox(show?: Show) {
 
 // Om du vill bygga listan:
 // (filtrera bort null ifall något skulle vara trasigt)
-export const teenSeriesWithInfobox = {
-  items: teenSeriesWithSlug.items
+export const dramaSeriesWithInfobox = {
+  items: dramaSeriesWithSlug.items
     .map(convertToSeriesInfobox)
     .filter((s): s is Show & { infobox: any } => Boolean(s)),
 };

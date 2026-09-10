@@ -1,16 +1,16 @@
 "use client"
 import { SeasonsPortals } from "@/app/components/Seasons/SeasonsPortals";
-import { teenSeriesWithSlug } from "@/app/functions/WithSlug/teenSeriesWithSlug";
+import { dramaSeriesWithSlug } from "@/app/functions/WithSlug/dramaSeriesWithSlug";
 import { useParams } from "next/navigation";
 
 type Props = {
-  genre: "teen" | "kids" | "crime" | "comedy";
+  genre: "drama" | "kids" | "crime" | "comedy";
 }
 
 export default function AllSeasonsPage({genre}: Props) {
         const {slug} = useParams<{slug: string}>();
     
-    const series = teenSeriesWithSlug.items.find((s) => s.slug === slug)
+    const series = dramaSeriesWithSlug.items.find((s) => s.slug === slug)
     const cast = series?.cast ?? [];
 
     console.log("series", series);

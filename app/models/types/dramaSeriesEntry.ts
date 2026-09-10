@@ -8,7 +8,7 @@ export type CastMember = {
   imageUrl?: string;
 }; 
 
-export type TeenSeriesEntry = {
+export type dramaSeriesEntry = {
   id: string;
   title: string;
   posterUrl?: string;

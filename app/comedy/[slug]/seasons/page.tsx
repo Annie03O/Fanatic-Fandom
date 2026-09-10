@@ -4,7 +4,7 @@ import { comedySeriesWithSlug } from "@/app/functions/WithSlug/comedySeriesWithS
 import { useParams } from "next/navigation";
 
 type Props = {
-  genre: "teen" | "kids" | "crime" | "comedy";
+  genre: "drama" | "kids" | "crime" | "comedy";
 }
 
 export default function AllSeasonsPage({genre}: Props) {

@@ -5,7 +5,7 @@ import { Show } from "@/app/models/types/Show";
 import { useParams } from "next/navigation";
 
 type Props = {
-  genre: "teen" | "kids" | "crime" | "comedy";
+  genre: "drama" | "kids" | "crime" | "comedy";
 }
 
 export default function AllCharacterPage({genre}: Props) {

@@ -1,5 +1,5 @@
 import { EpisodeBreakdown } from "./EpisodeBreakdown";
-import { CastMember } from "./TeenSeriesEntry";
+import { CastMember } from "./dramaSeriesEntry";
 
 export type Season = {
   id: string;
@@ -18,6 +18,6 @@ export type Season = {
   guestStars?: CastMember[];
   episodeBreakdown: EpisodeBreakdown[];
   network: string | string[];
-  previousSeason?: Pick<Season, "id" | "seasonNumber">[];
+  previousSeason?: Pick<Season, "id" | "seasonNumber">;
   nextSeason?: Pick<Season, "id" | "seasonNumber">;
 };

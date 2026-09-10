@@ -1,6 +1,6 @@
 import { Show } from "../types/Show";
 
-export const teenSeries: Show[] = [
+export const dramaSeries: Show[] = [
   {
     id: "beverly-hills-90210",
     title: "Beverly Hills, 90210",
@@ -3627,6 +3627,1324 @@ export const teenSeries: Show[] = [
         posterUrl: "https://m.media-amazon.com/images/M/MV5BOTVmZDljN2QtNGE4Yi00NTE4LTliMzMtMmFlZjViOWMyNGRiXkEyXkFqcGc@._V1_.jpg"
       }
     ],
+  },
+  {
+    id: "melrose-place",
+    title: "Melrose Place",
+    posterUrl:  "https://m.media-amazon.com/images/M/MV5BNTJmYmVkYTAtNDkxNC00MDMzLTk4OTgtNDYxNzRkMGNmMDFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", 
+    mainCharacters: [
+      {
+        id: "jane-mancini",
+        firstName: "Jane",
+        lastName: "Mancini",	
+        actor: "Josie Bissett",	
+      },
+      {
+        id: "michael-mancini",	
+        firstName: "Michael",
+        lastName: "Mancini",
+        actor: "Thomas Calabro",	
+      },
+      {
+        id: "sandy-harling",
+        firstName: "Sandy",
+        lastName: "Harling",	
+        actor: "Amy Locane	",	
+      },
+      {
+        id: "matt-fielding",
+        firstName: "Matt",
+        lastName: "Fielding",	
+        actor: "Doug Savant	",	
+      },
+      {
+        id: "jake-hanson",
+        firstName: "Jake",
+        lastName: "Hanson",	
+        actor: "Grant Show	",	
+      },
+      {
+        id: "billy-campbell",
+        firstName: "Billy",
+        lastName: "Campbell",	
+        actor: "Andrew Shue",	
+      },
+      {
+        id: "alison-parker",	
+        firstName: "Alison",
+        lastName: "Parker",
+        actor: "Courtney Thorne-Smith",	
+      },
+      {
+        id: "rhonda-blair",	
+        firstName: "Rhonda",
+        lastName: "Blair",
+        actor: "Vanessa Williams	",	
+      },
+      {
+        id: "jo-reynolds",	
+        firstName: "Jo",
+        lastName: "Reynolds",
+        actor: "Daphne Zuniga	",	
+      },
+      {
+        id: "amanda-woodward",
+        firstName: "Amanda",
+        lastName: "Woodward",	
+        actor: "Heather Locklea",
+      },
+      {
+        id: "sydney-andrews",	
+        firstName: "Sydney",
+        lastName: "Andrews",
+        actor: "Laura Leighton",	
+      },
+      {
+        id: "kimberly-shaw",	
+        firstName: "Kimberly",
+        lastName:"Shaw",
+        actor: "Marcia Cross",	},
+      {
+        id: "brooke-armstrong",
+        firstName: "Brooke",
+        lastName: "Armstrong",	
+        actor: "Kristin Davis",	
+      },
+      {
+        id: "peter-burns",
+        firstName: "Peter",
+        lastName:"Burns",	
+        actor: "Jack Wagner",	
+      },
+      {
+        id: "kyle-mcbride",
+        firstName: "Kyle",
+        lastName: "McBride",	
+        actor: "Rob Estes",	
+      },
+      {
+        id: "samantha-reilly",
+        firstName: "Samantha",
+        lastName: "Reilly",
+        actor: "Brooke Langton",
+      },
+      {
+        id: "taylor-mcbride",
+        firstName: "Taylor",
+        lastName: "McBride",
+        actor: "Lisa Rinna",
+      },
+      {
+        id: "megan-lewis",
+        firstName: "Megan",
+        lastName: "Lewis",
+        actor: "Kelly Rutherford",
+      },
+      {
+        id: "craig-field",
+        firstName: "Craig",
+        lastName: "Field",
+        actor: "David Charvet	",
+      },
+      {
+        id: "brett-cooper",
+        firstName: "Brett",
+        lastName: "Cooper",
+        actor: "Linden Ashby	",
+      },
+      {
+        id: "jennifer-mancini",
+        firstName: "Jennifer",
+        lastName: "Mancini",
+        actor: "Alyssa Milan",
+      },
+      {
+        id: "lexi-sterling",
+        firstName: "Lexi",
+        lastName: "Sterling",
+        actor: "Jamie Luner",
+      },
+      {
+        id: "ryan-mcbride",
+        firstName: "Ryan",
+        lastName: "McBride",
+        actor: "John Haymes Newton",
+      },
+    ],
+    cast: [
+      {
+        character: "Jane Mancini",
+        actor:	"Josie Bissett",
+      },
+      {
+        character: "Michael Mancini",
+        actor:	"Thomas Calabro",
+      },
+      {
+        character: "Sandy Harling",
+        actor:	"Amy Locane",
+      	},
+      {
+        character: "Matt Fielding",
+        actor:	"Doug Savant",
+      	},
+      {
+        character: "Jake Hanson",
+        actor:	"Grant Show",
+      	},
+      {
+        character: "Billy Campbell",
+        actor:	"Andrew Shue",
+      },
+      {
+        character: "Alison Parker",
+        actor:	"Courtney Thorne Smith",
+      },
+      {
+        character: "Rhonda Blair",
+        actor:	"Vanessa Williams",
+      	},
+      {
+        character: "Jo Reynolds",
+        actor:	"Daphne Zuniga",
+      	},
+      {
+        character: "Amanda Woodward",
+        actor:	"Heather Locklear",
+      },
+      {
+        character: "Sydney Andrews",
+        actor:	"Laura Leighton",
+      	},
+      {
+        character: "Kimberly Shaw",
+        actor:	"Marcia Cross",
+      },
+      {
+        character: "Brooke Armstrong",
+        actor:	"Kristin Davis",
+      },
+      {
+        character: "Peter Burns",
+        actor:	"Jack Wagner",
+      },
+      {
+        character: "Kyle McBride",
+        actor:	"Rob Estes",
+      },
+      {
+        character: "Samantha Reilly",
+        actor:	"Brooke Langton",
+      },
+      {
+        character: "Taylor McBride",
+        actor:	"Lisa Rinna",
+      },
+      {
+        character: "Megan Lewis",
+        actor:	"Kelly Rutherford",
+      },
+      {
+        character: "Craig Field",
+        actor:	"David Charvet",
+      	},
+      {
+        character: "Brett Cooper",
+        actor:	"Linden Ashby",
+      	},
+      {
+        character: "Jennifer Mancini",
+        actor:	"Alyssa Milano",
+      },
+      {
+        character: "Lexi Sterling",
+        actor:	"Jamie Luner",
+      },
+      {
+        character: "Ryan McBride",
+        actor:	"John Haymes Newton",
+      },
+    ],
+    seasons: [
+      {
+        id: "melrose-place-season-1",
+        title: "Melrose Place, Season 1",
+        posterUrl: "https://m.media-amazon.com/images/I/71l2yvb9BkL._SL1001_.jpg",
+        seasonNumber:1,
+        episodeCount: 32,
+        premiereDate: "July 8, 1992",
+        finaleDate: "May 26, 1993",
+        premiereEpisode: "Pilot",
+        finaleEpisode: "Suspicious Minds",
+        network: "Fox",
+        mainCast: [
+          	{
+              actor: "Josie Bissett", 
+              character: "Jane Mancini",
+            },
+            {
+              actor: "Thomas Calabro", 
+              character: "Michael Mancini,"
+            },
+            {
+              actor: "Doug Savant", 
+              character: "Matt Fieldin,g"
+            },
+            {
+              actor: "Grant Show", 
+              character: "Jake Hanson,"
+            },
+            {
+              actor: "Andrew Shue", 
+              character: "Billy Campbe,ll"
+            },
+            {
+              actor: "Courtney Thorne-Smith", 
+              character: "Alison Parker",
+            },
+            {
+              actor: "Daphne Zuniga", 
+              character: "Jo Reynolds",
+            },
+        ],
+        recurring: [
+          {
+            actor: "Jennie Garth",
+            character: "Kelly Taylor",
+          },
+          {
+            actor: "Ian Ziering",
+            character: "Steve Sanders",
+          },
+          {
+            actor: "Brian Austin Green",
+            character: "David Silver",
+          },
+          {
+            actor: "Deborah Adair", 
+            character: "Lucy Cabot",
+          },
+          {
+            actor: "Salome Jens", 
+            character: "Joan Campbell",
+          },
+          {
+            actor: "Marcia Cross",
+            character: "Dr. Kimberly Shaw"
+          },
+          {
+            actor: "William R. Moses",
+            character: "Keith Gray",
+          },
+          {
+            actor: "James Handy", 
+            character: "Matt Fielding Sr",
+          },
+          {
+            actor: "Claudette Nevins",
+            character: "Constance Fielding",
+          },
+          {
+            actor: "Rae Dawn Chong",
+            character: "Carrie Fellows",
+          },
+          {
+            actor: "Sydney Walsh",
+            character: "Kay Beacon",
+          },
+          {
+            actor: "John Marshall Jones",
+            character: "Terrence Haggard",
+          },
+          {
+            actor: "Laura Leighton",
+            character: "Sydney Andrews"
+          },
+          {
+            actor: "Wayne Tippit", 
+            character: "Palmer Woodward"
+          },
+          {  
+            actor: "Meg Wittner",
+            character: "Nancy Donner"
+          },
+          {  
+            actor: "Carmen Argenziano",
+            character: "Dr. Stanley Levin",
+          },
+          {
+            actor: "Heather Locklear", 
+            character: "Amanda Woodward",
+          }
+
+        ],
+        nextSeason: {
+          id: "melrose-place-season-2",
+          seasonNumber:2,
+        },  
+      },
+      {
+        id: "melrose-place-season-2",
+        title: "Melrose Place, Season 2",
+        posterUrl: "https://i.pinimg.com/1200x/12/cf/80/12cf80d69c483379ee0754de2a380958.jpg",
+        seasonNumber:2,
+        episodeCount: 32,
+        premiereDate: "September 8, 1993",
+        finaleDate: "May 18, 1994",
+        premiereEpisode: "Much Ado About Everything",
+        finaleEpisode: "Till Death Do Us Part",
+        mainCast: [
+          {
+              actor: "Josie Bissett", 
+              character: "Jane Mancini",
+            },
+            {
+              actor: "Thomas Calabro", 
+              character: "Michael Mancini,"
+            },
+            {
+              actor: "Doug Savant", 
+              character: "Matt Fieldi,g"
+            },
+            {
+              actor: "Grant Show", 
+              character: "Jake Hanson,"
+            },
+            {
+              actor: "Andrew Shue", 
+              character: "Billy Campbell"
+            },
+            {
+              actor: "Courtney Thorne-Smith", 
+              character: "Alison Parker",
+            },
+            {
+              actor: "Daphne Zuniga", 
+              character: "Jo Reynolds",
+            },
+        ],
+        recurring: [
+          {
+            actor: "Marcia Cross",
+            character: "Dr. Kimberly Shaw"
+          },
+          {
+            actor: "William R. Moses",
+            character: "Keith Gray",
+          },
+          {
+            actor: "Laura Leighton",
+            character: "Sydney Andrews"
+          },
+          {
+            actor: "Beata Poźniak", 
+            character: "Dr. Katya Petrova",
+          },
+          {
+            actor: "Steven Eckholdt",
+            character: "Robert Wilson",
+          },
+          {
+            actor: "Mara Wilson",
+            character: "Nikki Petrova",
+          },
+          {
+            actor: "Parker Stevenson",
+            character: "Steve McMillan",
+          },
+          {
+            actor: "Wayne Tippit", 
+            character: "Palmer Woodward"
+          },
+          {  actor: "Melanie Smith",
+            character: "Celia Morales"
+          },
+          {  
+            actor: "Meg Wittner",
+            character: "Nancy Donner"
+          },
+          {  
+            actor: "Gina Gershon",
+            character: "Ellen"
+          },
+          {  
+            actor: "Kristian Alfonso",
+            character: "Lauren Ethridge",
+          },
+          {  actor: "Janet Carroll",
+            character: "Marion Shaw"
+          },
+          {  
+            actor: "James Wilder",
+            character: "Reed Carter"
+          },
+          {  
+            actor: "Stanley Kamel",
+            character: "Bruce Teller",
+          },
+          {  
+            actor: "Jason Beghe",
+            character: "Jeffrey Lindley",
+          },
+          {  
+            actor: "Carmen Argenziano",
+            character: "Dr. Stanley Levin",
+          },
+          {  
+            actor: "Gail Strickland",
+            character: "Katherine Andrews"
+          },
+          {  
+            actor: "Monte Markham",
+            character: "John Parker",
+          },
+          {  
+            actor: "Linda Gray",
+            character: "Hillary Michaels",
+          },
+          {  
+            actor: "Jeff Kaake",
+            character: "Chas Russell",
+          },
+          {  
+            actor: "Cassidy Rae",
+            character: "Sarah Owens"
+          },
+          {  
+            actor: "Andrew Williams",
+            character: "Chris Marchette",
+          },
+          {  
+            actor: "Tracy Nelson",
+            character: "Meredith Parker",
+          },
+        ],
+        guestStars: [
+          {
+            actor: "Heather Locklear",
+            character: "Amanda Woodward",
+          },
+        ],
+        previousSeason: {
+          id: "melrose-place-season-1",
+          seasonNumber: 1,
+        },
+        nextSeason: {
+          id: "melrose-place-season-3",
+          seasonNumber: 3,
+        },
+        network: "Fox",
+      },{
+        id: "melrose-place-season-3",
+        title: "Melrose Place, Season 3",
+        posterUrl: "https://i.pinimg.com/1200x/12/cf/80/12cf80d69c483379ee0754de2a380958.jpg",
+        seasonNumber:3,
+        episodeCount: 32,
+        premiereDate: "September 12, 1994",
+        finaleDate: "May 22, 1995",
+        premiereEpisode: "I Am Curious, Melrose",
+        finaleEpisode: "The Big Bang",
+        mainCast: [
+          {
+              actor: "Josie Bissett", 
+              character: "Jane Mancini",
+            },
+            {
+              actor: "Thomas Calabro", 
+              character: "Michael Mancini,"
+            },
+            {
+              actor: "Doug Savant", 
+              character: "Matt Fieldi,g"
+            },
+            {
+              actor: "Grant Show", 
+              character: "Jake Hanson,"
+            },
+            {
+              actor: "Andrew Shue", 
+              character: "Billy Campbell"
+            },
+            {
+              actor: "Courtney Thorne-Smith", 
+              character: "Alison Parker",
+            },
+            {
+              actor: "Daphne Zuniga", 
+              character: "Jo Reynolds",
+            },
+            {
+            actor: "Marcia Cross",
+            character: "Dr. Kimberly Shaw"
+          },
+          
+          {
+            actor: "Jack Wagner",
+            character: "Peter Burns",
+          },
+        ],
+        recurring: [
+          
+          {
+            actor: "Tracy Nelson",
+            character: "Meredith Parker"
+          },
+          {
+            actor: "Kathy Ireland",
+            character: "Brittany Maddocks"
+          },
+          {
+            actor: "Carmen Argenziano",
+            character: "Dr. Stanley Levin"
+          },
+          {
+            actor: "Monte Markham",
+            character: "John Parker",
+          },
+          {
+            actor: "Dorothy Fielding [de]",
+            character: "Mrs. Parker"
+          },
+          {
+            actor: "Wayne Tippit",
+            character: "Palmer Woodward",
+          },
+          {
+            actor: "Meg Wittner",
+            character:"Nancy Donner",
+          },
+          {
+            actor: "Stanley Kamel",
+            character: "Bruce Teller",
+          },
+          {
+            actor: "Andrew Williams",
+            character: "Chris Marchette"
+          },
+          {
+            actor: "Ken Howard",
+            character: "George Andrews"
+          },
+          {
+            actor: "Penny Fuller",
+            character: "Marilyn Carter"
+          },
+          {
+            actor: "Jerry Hardin",
+            character: "Dennis Carter"
+          },
+          {
+            actor: "Carl Strano [nl]",
+            character: "Bob McGovern",
+          },
+          {
+            actor: "Cheryl Pollak",
+            character: "Susan Madsen",
+          },
+          {
+            actor: "Jason Beghe",
+            character: "Jeffrey Lindley",
+          },
+          {
+            actor: "John Saxon",
+            character: "Henry Waxman"},
+          {
+            actor: "Brian Bloom",
+            character: "Zack Phillips"
+          },
+          {
+            actor: "David Newsom",
+            character: "Williams",
+          },
+          {
+            actor: "James Handy",
+            character: "Matt Fielding Sr."
+          },
+          {
+            actor: "Claudette Nevins",
+            character: "Constance Fielding",
+          },
+          {
+            actor: "Ana Mercedes",
+            character: "Maria",
+          },
+          {
+            actor: "David James Elliott",
+            character:"Terry Parsons",
+          },
+          {
+            actor: "Jasmine Guy",
+            character: "Caitlin Mills"
+          },
+          {
+            actor: "Traci Lords",
+            character: "Rikki",
+          },
+          {
+            actor: "Ramy Zada [de]",
+            character: "Martin Abbot"
+          },
+          {
+            actor: "John Sanderford",
+            character: "Dr. Barnett"
+          },
+          {
+            actor: "Tom Schanley",
+            character: "Det. John Rawlings"
+          },
+          {
+            actor: "Francis Xavier McCarthy",
+            character: "Dr. Calvin Hobbs"
+          },
+          {
+            actor: "Kristin Davis",
+            character:"Brooke Armstrong"
+          },
+          {
+            actor: "Dan Cortese",
+            character: "Jess Hanson",
+          },
+          {
+            actor: "Perry King",
+            character: "Hayley Armstrong",
+          },
+          {
+            actor: "David Beecroft",
+            character: "Dr. Paul Graham"
+          },
+          {
+            actor: "Dana Sparks",
+            character: "Carol Graham",
+          },
+          {
+            actor: "Zitto Kazann",
+            character: "Henry",
+          },
+          {
+            actor: "Patrick Muldoon",
+            character: "Richard Hart",
+          },
+          {
+            actor: "Morgan Brittany",
+            character:"MacKenzie Hart"
+          },
+
+        ],
+        guestStars: [
+          {
+            actor: "Heather Locklear",
+            character: "Amanda Woodward",
+          },
+        ],
+        previousSeason: {
+          id: "melrose-place-season-2",
+          seasonNumber: 2,
+        },
+        nextSeason: {
+          id: "melrose-place-season-4",
+          seasonNumber: 4,
+        },
+        network: "Fox",
+      },
+      {
+        id: "melrose-place-season-4",
+        title: "Melrose Place, Season 4",
+        posterUrl: "https://m.media-amazon.com/images/I/51tqiKFLWiL._AC_.jpg",
+        seasonNumber:4,
+        episodeCount: 34,
+        mainCast: [
+          {
+              actor: "Josie Bissett", 
+              character: "Jane Mancini",
+            },
+            {
+              actor: "Thomas Calabro", 
+              character: "Michael Mancini,"
+            },
+            {
+              actor: "Marcia Cross",
+              character: "Kimberly Shaw",
+            },
+            {
+              actor: "Kristin Davis",
+              character: "Brooke Armstrong",
+            },
+            {
+              actor: "Doug Savant", 
+              character: "Matt Fieldi,g"
+            },
+            {
+              actor: "Grant Show", 
+              character: "Jake Hanson,"
+            },
+            {
+              actor: "Andrew Shue", 
+              character: "Billy Campbell"
+            },
+            {
+              actor: "Courtney Thorne-Smith", 
+              character: "Alison Parker",
+            },
+            {
+              actor: "Jack Wagner",
+              character: "Peter Burns",
+            },
+            {
+              actor: "Daphne Zuniga", 
+              character: "Jo Reynolds",
+            },
+            {
+              actor: "Laura Leighton",
+              character: "Sidney Andrews",
+            }
+        ],
+        recurring: [
+          {
+            actor: "Perry King", 
+            character: "Hayley Armstrong",
+          },
+          {
+            actor: "Patrick Muldoon", 
+            character: "Richard Hart",
+          },
+          {
+            actor: "Morgan Brittany", 
+            character: "MacKenzie Hart",
+          },
+          {
+            actor: "Anne-Marie Johnson",
+            character: "Alycia Barnett",
+          },
+          {
+            actor: "James Handy",
+            character: "Matt Fielding Sr.",
+          },
+          {
+            actor: "Claudette Nevins",
+            character: "Constance Fielding",
+          },
+          {
+            actor: "David Beecroft",
+            character: "Dr. Paul Graham",
+          },
+          {
+            actor: "Francis Xavier McCarthy",
+            character: "Dr. Calvin Hobbs",
+          },
+          {
+            actor: "Zitto Kazann",
+            character: "Henry"
+          },
+          {
+            actor: "Hudson Leick",
+            character: "Shelly Hanson"
+          },
+          {
+            actor: "Antonio Sabàto Jr.",
+            character: "Jack Parezi"
+          },
+          {
+            actor: "Janet Carroll",
+            character:"Marion Shaw",
+          },
+          {
+            actor: "John McCann",
+            character: "Walter Kovacs",
+          },
+          {
+            actor: "Morgan Stevens",
+            character: "Nick Diamond",
+          },
+          {
+            actor: "Dr. Joyce Brothers",
+            character: "herself",
+          },
+          {
+            actor: "Jan Hoag",
+            character: "Nurse Kelly",
+          },
+          {
+            actor: "John Enos III",
+            character: "Bobby Parezi",
+          },
+          {
+            actor: "David Groh",
+            character: "Vince Parezi"
+          },
+          {
+            actor: "Page Moseley",
+            character: "Vic Munson"
+          },
+          {
+            actor: "Lonnie Schuyler",
+            character: "Alan Ross"
+          },
+          {
+            actor: "Danny Darst",
+            character: "Monty"
+          },
+          {
+            actor: "Selma Archerd",
+            character: "Nurse Amy"
+          },
+          {
+            actor: "Richard Molnar",
+            character: "Guy"
+          },
+          {
+            actor: "Belita Moreno",
+            character: "Gloria Bryan"
+          },
+          {
+            actor: "Rob Youngblood",
+            character: "Dave Erickson"
+          },
+          {
+            actor: "Michael Des Barres",
+            character: "Arthur Field",
+          },
+          {
+            actor: "Loni Anderson",
+            character: "Teri Carson",
+          },
+          {
+            actor: "Denise Richards",
+            character: "Brandi Carson",
+          },
+          {
+            actor: "Justine Priestley",
+            character: "Laurie",
+          },
+          {
+            actor: "Robert Bishop",
+            character: "Tyler",
+          },
+          {
+            actor: "Brad Johnson",
+            character: "Dr. Dominick O'Malley",
+          },
+          {
+            actor: "Nigel Gibbs",
+            character: "Detective Wylie",
+          },
+          {
+            actor: "Michael Shamus Wiles",
+            character: "Dave",
+          },
+          {
+            actor: "Leland Crooke",
+            character: "Louie"
+          },
+          {
+            actor: "Garrett Warren",
+            character: "Ziggy"
+          },
+          {
+            actor: "Lynn Chalmers",
+            character: "Nurse Lynn"
+          },
+          {
+            actor: "Priscilla Presley",
+            character: "Nurse Benson"
+          },
+          {
+            actor: "Brooke Langton",
+            character: "Samantha Reilly"
+          },
+          {
+            actor: "Paul Perri",
+            character: "Andy"
+          },
+          {
+            actor: "Neill Barry",
+            character: "Greg Parker"
+          },
+        ],
+        guestStars: [
+          {
+            actor: "Heather Locklear",
+            character: "Amanda Woodward",
+          },
+        ],
+        premiereDate: "September 11, 1995",
+        finaleDate: "May 20, 1996",
+        premiereEpisode: "PostMortem Madness",
+        finaleEpisode: "Dead Sisters Walking",
+        previousSeason: {
+          id: "melrose-place-season-3",
+          seasonNumber: 3,
+        },
+        nextSeason: {
+          id: "melrose-place-season-5",
+          seasonNumber: 5,
+        },
+        network: "Fox",
+      },
+      {
+        id: "melrose-place-season-5",
+        title: "Melrose Place, Season 5",
+        posterUrl: "https://cdn.abicart.com/shop/4862/art62/h7913/3057913-origpic-425ef5.jpg",
+        seasonNumber:5,
+        episodeCount: 34,
+        mainCast: [
+      {
+        character: "Jane Mancini",
+        actor:	"Josie Bissett",
+      },
+      {
+        character: "Michael Mancini",
+        actor:	"Thomas Calabro",
+      },
+      {
+        character: "Matt Fielding",
+        actor:	"Doug Savant",
+      	},
+      {
+        character: "Jake Hanson",
+        actor:	"Grant Show",
+      	},
+      {
+        character: "Billy Campbell",
+        actor:	"Andrew Shue",
+      },
+      {
+        character: "Alison Parker",
+        actor:	"Courtney Thorne Smith",
+      },
+      {
+        character: "Sydney Andrews",
+        actor:	"Laura Leighton",
+      	},
+      {
+        character: "Kimberly Shaw",
+        actor:	"Marcia Cross",
+      },
+      {
+        character: "Peter Burns",
+        actor:	"Jack Wagner",
+      },
+      {
+        character: "Kyle McBride",
+        actor:	"Rob Estes",
+      },
+      {
+        character: "Samantha Reilly",
+        actor:	"Brooke Langton",
+      },
+      {
+        character: "Megan Lewis",
+        actor:	"Kelly Rutherford",
+      },
+      {
+        character: "Craig Field",
+        actor:	"David Charvet",
+      },
+      {
+        character: "Taylor McBride",
+        actor: "Lisa Rinna",
+      },
+        ],
+        recurring: [
+          { 
+            actor: "Patrick Muldoon",
+            character: "Richard Hart",
+          },
+          { 
+            actor: "Greg Evigan",
+            character: "Dr. Dan Hathaway",
+          },
+          { 
+            actor: "Katie Wright",
+            character: "Chelsea Fielding",
+          },
+          { 
+            actor: "Michael Des Barres",
+            character: "Arthur Field",
+          },
+          { 
+            actor: "Chad Lowe",
+            character: "Carter Gallavan",
+          },
+          { 
+            actor: "Anthony Denison",
+            character: "Jim Reilly",
+          },
+          { 
+            actor: "Alyssa Milano",
+            character: "Jennifer Mancini",
+          },
+          { 
+            actor: "Nancy Lee Grahn",
+            character: "Denise Fielding",
+          },
+          { 
+            actor: "Phil Morris",
+            character: "Walter",
+          },
+          { 
+            actor: "Scott Plank",
+            character:"Nick Reardon",
+          },
+          { 
+            actor: "Stacy Haiduk",
+            character:"Colleen Patterson",
+          },
+          { 
+            actor: "Donna Mills",
+            character:"Sherry Doucette",
+          },
+          { 
+            actor: "Markus Flanagan",
+            character:"Harry Dean",
+          },
+          { 
+            actor: "Damian Chapa",
+            character:"Josh Laughlin",
+          },
+          { 
+            actor: "Edie McClurg",
+            character:"Hilda Morris",
+          },
+        ],
+        premiereDate: "September 9, 1996",
+        finaleDate: "May 19, 1997",
+        premiereEpisode: "Living With Disaster",
+        finaleEpisode: "Who's Afraid of Amanda Woodward?",
+        previousSeason: {
+          id: "melrose-place-season-4",
+          seasonNumber: 4,
+        },
+        nextSeason: {
+          id: "melrose-place-season-5",
+          seasonNumber: 5,
+        },
+        network: "Fox",
+      },
+      {
+        id: "melrose-place-season-6",
+        title: "Melrose Place, Season 6",
+        posterUrl: "https://images.justwatch.com/poster/8619199/s718/season-6.jpg",
+        seasonNumber: 6,
+        episodeCount: 34,
+        premiereDate: "September 8, 1997",
+        finaleDate: "September 7, 1998",
+        premiereEpisode: 	"A Brand New Day",
+        finaleEpisode: "Buona Sera, Mr. Campbell",
+        mainCast: [
+      {
+        character: "Michael Mancini",
+        actor:	"Thomas Calabro",
+      },
+      {
+        character: "Matt Fielding",
+        actor:	"Doug Savant",
+      	},
+      {
+        character: "Billy Campbell",
+        actor:	"Andrew Shue",
+      },
+      {
+        character: "Craig Field",
+        actor: "David Charvet",
+      },
+      {
+        character: "Peter Burns",
+        actor:	"Jack Wagner",
+      },
+      {
+        character: "Kyle McBride",
+        actor:	"Rob Estes",
+      },
+      {
+        character: "Samantha Reilly",
+        actor:	"Brooke Langton",
+      },
+      {
+        character: "Taylor McBride",
+        actor:	"Lisa Rinna",
+      },
+      {
+        character: "Megan Lewis",
+        actor:	"Kelly Rutherford",
+      },
+      {
+        character: "Brett Cooper",
+        actor:	"Linden Ashby",
+      	},
+      {
+        character: "Lexi Sterling",
+        actor:	"Jamie Luner",
+      },
+      {
+        actor: "Alyssa Milano",
+        character: "Jennifer Mancini",
+      }
+    ],
+    recurring: [
+      {
+        actor: "Dan Gauthier", 
+        character: "Jeff Baylor",
+      },
+      {
+        actor: "Josie Bissett", 
+        character: "Jane Mancini",
+      },
+      {
+        actor: "Jeffrey Nordling", 
+        character: "Eric Baines",
+      },
+      {
+        actor: "Susan Walters", 
+        character: "Christine Denton",
+      },
+      {
+        actor: "Scott Plank", 
+        character: "Nick Reardon",
+      },
+      {
+        actor: "Megan Ward", 
+        character: "Connie Rexroth",
+      },
+      {
+        actor: "Katie Wright", 
+        character: "Chelsea Fielding",
+      },
+      {
+        actor: "Chad Everett", 
+        character: "Thomas Sterling",
+      },
+      {
+        actor: "Anthony Tyler Quinn", 
+        character: "Rory Blake",
+      },
+      {
+        actor: "Joanna Cassidy", 
+        character: "Kate Reilly",
+      },
+      {
+        actor: "Valerie Harper", 
+        character: "Mia Mancini",
+      },
+      {
+        actor: "Cliff DeYoung", 
+        character: "George Larner",
+      },
+      { 
+        actor: "Tracy Fraim", 
+        character: "Bob Matthews",
+      },
+    ],
+    guestStars: [
+      {
+        character: "Amanda Woodward",
+        actor:	"Heather Locklear",
+      },
+    ],
+        previousSeason: {
+          id: "melrose-place-season-5",
+          seasonNumber: 5,
+        },
+        nextSeason: {
+          id: "melrose-place-season-7",
+          seasonNumber: 7,
+        },
+        network: "Fox",
+      },
+      {
+        id: "melrose-place-season-7",
+        title: "Melrose Place, Season 7",
+        posterUrl: "https://www.moviemeter.nl/series/images/cover/11000/11730.jpg",
+        seasonNumber: 7,
+        episodeCount: 28,
+        mainCast: [
+          { 
+            actor: "Josie Bissett", 
+            character: "Jane Mancini"
+          },
+          { 
+            actor: "Thomas Calabro", 
+            character: "Michael Mancini"
+          },
+          { 
+            actor: "Rob Estes", 
+            character: "Kyle McBride"
+          },
+          { 
+            actor: "Jamie Luner", 
+            character: "Lexi Sterling"
+          },
+          { 
+            actor: "John Haymes Newton", 
+            character: "Ryan McBride"
+          },
+          { 
+            actor: "Kelly Rutherford", 
+            character: "Megan Lewis"
+          },
+          { 
+            actor: "Jack Wagner", 
+            character: "Peter Burn"
+          },
+        ],
+        recurring: [
+          {
+            actor: "Rena Sofer",
+            character: "Eve Cleary"
+          },
+          {
+            actor: "Chea Courtney",
+            character: "Sarah McBride"
+          },
+          {
+            actor: "Alexandra Paul",
+            character: "Terry O'Brien"
+          },
+          {
+            actor: "James Darren",
+            character: "Tony Marlin"
+          },
+          {
+            actor: "Mark L. Taylor", 
+            character: "Dr. Louis Visconti",
+          },
+          {
+            actor: "Stephanie Cameron",
+            character: "Audrey Williams",
+          },
+          {
+            actor: "Steve Wilder",
+            character: "Alex Bastian",
+          },
+          {
+            actor: "Karyn Parsons",
+            character: "Jackie Zambrano",
+          },
+          {
+            actor: "Michael Watson",
+            character: "Travis Hill",
+          },
+        ],
+        guestStars: [
+          {
+            actor: "Heather Locklear",
+            character: "Amanda Woodward"
+          }
+        ],
+        network: "Fox",
+        previousSeason: {
+          id: "melrose-place-season-6",
+          seasonNumber: 6,
+        },
+      },
+    ],
+    firstAirDate: "July 8, 1992",
+    lastAirDate: "May 24, 1999",
+    country: "US",
+    language: "English",
+    status: "Ended",
+    numberOfSeasons: 7, 
+    numberOfEpisodes: 226,
+    tags: ["Soap Opera"],
   },
   {
     id: "90210-2008",
@@ -10715,7 +12033,7 @@ export const teenSeries: Show[] = [
     status: "Ended",
     numberOfSeasons: 10,
     numberOfEpisodes: 218,
-    tags: ["Teen", "superhero", "high-school", "origin-story"],
+    tags: ["drama", "superhero", "high-school", "origin-story"],
     plot: "A teenage Clark Kent grows up in Smallville, learning to control his emerging powers while protecting the people he loves and facing threats that hint at his larger destiny.",
     mainCharacters: [
       {
@@ -11067,7 +12385,7 @@ export const teenSeries: Show[] = [
     status: "Ended",
     numberOfSeasons: 5,
     numberOfEpisodes: 42,
-    tags: ["Teen", "netflix", "teens", "mystery"],
+    tags: ["drama", "netflix", "teens", "mystery"],
     plot: "When a boy vanishes in a small town, his friends uncover secret experiments, supernatural forces, and a mysterious girl with powers—opening a doorway to another world.",
     mainCharacters: [
       {
@@ -11398,7 +12716,7 @@ export const teenSeries: Show[] = [
     status: "Airing",
     numberOfSeasons: 2,
     numberOfEpisodes: 16,
-    tags: ["Teen", "netflix", "academy", "dark-comedy"],
+    tags: ["drama", "netflix", "academy", "dark-comedy"],
     plot: "Wednesday Addams enrolls at Nevermore Academy and investigates a string of murders while navigating friendships, rivalries, and her own emerging psychic abilities.",
     mainCharacters: [
       {
@@ -11596,7 +12914,7 @@ export const teenSeries: Show[] = [
     status: "Airing",
     numberOfSeasons: 3,
     numberOfEpisodes: 24,
-    tags: ["Teen", "Romance", "lgbtq", "school"],
+    tags: ["drama", "Romance", "lgbtq", "school"],
     plot: "Two British teens become friends at school and slowly fall for each other, learning about love, identity, and what it means to be honest with themselves and the people they care about.",
     mainCharacters: [
       {
@@ -11778,7 +13096,7 @@ export const teenSeries: Show[] = [
     status: "Ended",
     numberOfSeasons: 3,
     numberOfEpisodes: 18,
-    tags: ["Teen", "netflix", "boarding-school", "Romance"],
+    tags: ["drama", "netflix", "boarding-school", "Romance"],
     plot: "A young prince is sent to an elite boarding school, where he experiences freedom, friendship, and an unexpected romance—forcing him to choose between duty, family expectations, and his own happiness.",
     mainCharacters: [
       {
@@ -11950,7 +13268,7 @@ export const teenSeries: Show[] = [
     lastAirDate: "June 05, 2020",
     numberOfSeasons: 4,
     numberOfEpisodes: 49,
-    tags: ["Teen", "netflix", "heavy-themes", "school"],
+    tags: ["drama", "netflix", "heavy-themes", "school"],
     plot: "Thirteen Reasons Why, based on the best-selling books by Jay Asher, follows teenager Clay Jensen (Dylan Minnette) as he returns home from school to find a mysterious box with his name on it lying on his porch. Inside he discovers a group of cassette tapes recorded by Hannah Baker (Katherine Langford)--his classmate and crush--who tragically committed suicide two weeks earlier. On tape, Hannah unfolds an emotional audio diary, detailing the thirteen reasons why she decided to end her life. Through Hannah and Clay's dual narratives, Thirteen Reasons Why weaves an intricate and heartrending story of confusion and desperation that will deeply affect viewers.",
     mainCharacters: [
       {
@@ -12468,7 +13786,7 @@ export const teenSeries: Show[] = [
     lastAirDate: "September 17, 2025",
     numberOfSeasons: 3,
     numberOfEpisodes: 26,
-    tags: ["Teen", "Romance", "Prime-Video", "Love-Triangle"],
+    tags: ["drama", "Romance", "Prime-Video", "Love-Triangle"],
     plot: "'The Summer I Turned Pretty' intricately weaves the tale of Isabel 'Belly' Conklin's annual sojourn to Cousin's Beach, where each sun-soaked day reveals layers of love, friendship, and self-discovery. As the series unfolds, Belly reunites with the Fisher family, whose beachfront abode serves as the backdrop for a summer rife with emotional upheavals and transformative moments.",
     mainCharacters: [
       {
@@ -12671,7 +13989,7 @@ export const teenSeries: Show[] = [
     firstAirDate: "April 27, 2020",
     lastAirDate: "June 08, 2023",
     status: "Ended",
-    tags: ["Teen", "netflix", "school", "coming-of-age"],
+    tags: ["drama", "netflix", "school", "coming-of-age"],
     numberOfSeasons: 4,
     numberOfEpisodes: 40,
     plot: "Devi Vishwakumar, a teen living in Sherman Oaks, Los Angeles, takes us through her four years of high school while grieving the loss of her father, clumsily pursuing her crushes, and discovering her true self. Loosely based on Mindy Kaling's childhood.",
@@ -12878,7 +14196,7 @@ export const teenSeries: Show[] = [
     status: "Ended",
     numberOfSeasons: 5,
     numberOfEpisodes: 104,
-    tags: ["Teen", "family", "school", "issues"],
+    tags: ["drama", "family", "school", "issues"],
     plot: "A blended family led by two moms raises a group of biological, adopted, and foster children, confronting love, identity, and tough choices while trying to keep their home together.",
     mainCharacters: [
       {
@@ -13101,7 +14419,7 @@ export const teenSeries: Show[] = [
     status: "Ended",
     numberOfSeasons: 5,
     numberOfEpisodes: 89,
-    tags: ["Teen", "MTV", "School", "Dramedy"],
+    tags: ["drama", "MTV", "School", "Dramedy"],
     plot: "'Awkward' is about the specific incidents in our formative years that define us, sometimes for the best and sometimes for the worst. The show centers around 15-year-old Jenna Hamilton, who, like many, feels invisible to her peers and desperately wants to find her place--which is hard to do in a day and age where fitting in means standing out. Unfortunately, Jenna's visibility comes on the heels of an accident that gives her a not-so-fun stigma that could be the curse of her life, but she is determined to make it her life's blessing.",
     mainCharacters: [
       {
@@ -13314,7 +14632,7 @@ export const teenSeries: Show[] = [
     status: "On Air",
     numberOfSeasons: 2,
     numberOfEpisodes: 16,
-    tags: ["Teen", "School", "Reboot"],
+    tags: ["drama", "School", "Reboot"],
     plot: "A fresh look at Hartley High over 20 years on. With her new friends - outsiders Quinni and Darren - Amerie must repair her reputation, while navigating love, sex, and heartbreak.",
     mainCharacters: [
       {
@@ -13739,7 +15057,7 @@ export const teenSeries: Show[] = [
     status: "Ended",
     numberOfSeasons: 6,
     numberOfEpisodes: 142,
-    tags: ["Teen", "family", "teen-siblings"],
+    tags: ["drama", "family", "teen-siblings"],
     plot: "The show, set in San Francisco, centered on the five Salinger siblings, who become orphans after their parents are killed in a car accident caused by a drunk driver. The family is composed of 24-year-old Charlie (Matthew Fox), the eldest, a womanizing, immature manual laborer who struggles with the responsibility of being the new head of the family; 16-year-old Bailey (Scott Wolf), the once-rebellious teen forced into a role of responsible caretaker and later veering into alcoholism; 15-year-old Julia (Neve Campbell), a sensitive teen; 11-year-old Claudia (Lacey Chabert), a precocious child prodigy musician; and baby Owen, age one.",
     mainCharacters: [
       {

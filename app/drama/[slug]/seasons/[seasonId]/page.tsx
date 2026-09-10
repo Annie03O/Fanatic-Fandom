@@ -1,10 +1,10 @@
 import Season from "@/app/components/Seasons/Season";
-import { teenSeriesWithSlug } from "@/app/functions/WithSlug/teenSeriesWithSlug";
+import { dramaSeriesWithSlug } from "@/app/functions/WithSlug/dramaSeriesWithSlug";
 import { notFound } from "next/navigation";
 
 
 export function generateStaticParams() {
-    return teenSeriesWithSlug.items.flatMap((series) =>
+    return dramaSeriesWithSlug.items.flatMap((series) =>
         (series.seasons ?? []).map((season) => ({
             slug: series.slug,
             seasonId: season.id,
@@ -21,7 +21,7 @@ type Props = {
 
 async function SeasonPage({ params }: Props) {
   const { slug, seasonId } = await params;
-  const series = teenSeriesWithSlug.items.find((item) => item.slug === slug);
+  const series = dramaSeriesWithSlug.items.find((item) => item.slug === slug);
   const season = series?.seasons?.find((item) => item.id === seasonId);
 
   if (!series || !season) notFound();

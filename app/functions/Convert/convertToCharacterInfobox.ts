@@ -5,7 +5,7 @@ import { formatFamily } from "../Format/formatFamily";
 import { formatFriendship } from "../Format/formatFriendship";
 import { formatMaritalStatus } from "../Format/formatMaritalStatus";
 import { formatRomance } from "../Format/formatRomance";
-import { teenSeriesWithSlug } from "../WithSlug/teenSeriesWithSlug";
+import { dramaSeriesWithSlug } from "../WithSlug/dramaSeriesWithSlug";
 
 const isInfoField = (x: InfoField | null): x is InfoField => x !== null;
 
@@ -64,8 +64,8 @@ export function convertToCharacterInfobox(character: Character) {
   };
 }
 
-export const teenSeriesWithInfobox = {
-  items: teenSeriesWithSlug.items.map((show) => ({
+export const dramaSeriesWithInfobox = {
+  items: dramaSeriesWithSlug.items.map((show) => ({
     ...show,
     characters: (show.mainCharacters ?? []).map(convertToCharacterInfobox),
   })),
