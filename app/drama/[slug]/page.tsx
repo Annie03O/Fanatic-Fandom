@@ -3,12 +3,10 @@ import { dramaSeriesWithSlug } from "@/app/functions/WithSlug/dramaSeriesWithSlu
 
 
 export function generateStaticParams() {
-    return dramaSeriesWithSlug.items.flatMap((series) =>
-        series.mainCharacters.map((character) => ({
-            slug: series.slug,
-            id: character.id,
-        }))
-    );
+    return dramaSeriesWithSlug.items.flatMap((series) => [
+        { slug: series.slug },
+        ...(series.id === series.slug ? [] : [{ slug: series.id }]),
+    ]);
 }
 
 
