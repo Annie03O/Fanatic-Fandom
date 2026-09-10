@@ -18,7 +18,7 @@ export type Relationship = {
     family?: "Parent" | "Sibling" | "Cousin" | "Grandparent" | "Child" | "Aunt/Uncle" ; 
     secondParent?: string;
     kindOfFriendship?: "Normal" | "Close" | "Best Friend" | "Mentor" | "Father Figure";
-    romantic?: "Girlfriend/Boyfriend" | "Dated" | "Fling" | "Crush" | "Ex-Boyfriend/Ex-Girlfriend" | "Wife/Husband" | "Ex-Wife/Ex-Husband" | "Hook-Up" | "Fiancé" | "Ex-Fiancé" | "Kissed" | "One Date";
+    romantic?: "Girlfriend/Boyfriend" | "Dated" | "Fling" | "Crush" | "Ex-Boyfriend/Ex-Girlfriend" | "Wife/Husband" | "Ex-Wife/Ex-Husband" | "Hook-Up" | "Fiancé" | "Ex-Fiancé" | "Kissed" | "One Date" | "Affair";
     description?: string[]; 
     shortDesc?: string;
     imgUrl?: string;
