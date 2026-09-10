@@ -3632,6 +3632,7 @@ export const dramaSeries: Show[] = [
     id: "melrose-place",
     title: "Melrose Place",
     posterUrl:  "https://m.media-amazon.com/images/M/MV5BNTJmYmVkYTAtNDkxNC00MDMzLTk4OTgtNDYxNzRkMGNmMDFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", 
+    creator: ["Darren Starr"],
     mainCharacters: [
       {
         id: "jane-mancini",
@@ -5028,6 +5029,7 @@ export const dramaSeries: Show[] = [
         noSeason: 7,
       },
     ],
+    composer: ["Tim Truman"],
     firstAirDate: "July 8, 1992",
     lastAirDate: "May 24, 1999",
     country: "US",
@@ -5035,7 +5037,40 @@ export const dramaSeries: Show[] = [
     status: "Ended",
     numberOfSeasons: 7, 
     numberOfEpisodes: 226,
+    executive: [
+      "Aaron Spelling",
+      "E. Duke Vincent",
+      "Darren Star",
+      "Frank South",
+      "Charles Pratt, Jr.",
+      "Carol Mendelsohn",
+      "James Kahn",
+    ],
+    producer: "Chip Hayes", 
     tags: ["Soap Opera"],
+    prodCompanies: [
+      "Darren Star Productions",
+      "Spelling Television",
+    ],
+    network: "Fox",
+    related: [
+      {
+        id: "beverly-hills-90210",
+        posterUrl: "https://static1.colliderimages.com/wordpress/wp-content/uploads/sharedimages/2024/04/beverly-hills-90210-tv-show-poster.jpg?q=49&fit=contain&w=480&dpr=2",
+      },
+      {
+        id: "models-inc.",
+        posterUrl: "",
+      },
+      {
+        id: "melrose-place-reboot",
+        posterUrl: "",
+      },
+      {
+        id: "bh-90210",
+        posterUrl: "",
+      },
+    ],
   },
   {
     id: "90210-2008",
