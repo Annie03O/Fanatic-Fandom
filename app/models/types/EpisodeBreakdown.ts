@@ -3,7 +3,7 @@ export type EpisodeBreakdown = {
     imageUrl: string;
     seasonNumber: number;
     episodeNumber: number;
-    episodeTitle: string[];
+    episodeTitle: string[] | string;
     altEpisodeTitle?: string; 
     plot: string;   
     director: string;
