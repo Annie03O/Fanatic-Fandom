@@ -2686,8 +2686,204 @@ export const kidsSeries: Show[] = [
           {
             id: "rico-suave",
             firstName: "Rico", 
-            lastName: "Suave",	
-            actor: "Moises Arias"},
+            lastName: "Suave",
+            imageUrl: "https://media.zenfs.com/en/aol_bored_panda_979/9c174f2ad2f39d305610599d036e161b",
+            posterUrl: "https://static.wikia.nocookie.net/hannahmontana/images/0/00/Rico_Suave_2.jpg/revision/latest/scale-to-width-down/250?cb=20240310054817",	
+            actor: "Moises Arias",
+            promo: true,
+          },
+        ],
+        cast:  [
+          {
+            character: "Miley Stewart",	
+            actor: "Miley Cyrus",
+          },
+          {
+            character: "Lilly Truscott",	
+            actor: "Emily Osment",
+          },
+          {
+            character: "Oliver Oken", 
+            actor: "Mitchel Musso",	
+          },
+          {
+            character: "Jackson Stewart",	
+            actor: "Jason Earles",
+          },
+          {
+            character: "Robby Ray Stewart",
+            actor: "Billy Ray Cyrus",
+           },
+          {
+            character: "Rico Suave",
+            actor: "Moises Arias",
+          },
+        ],
+        seasons: [
+          {
+            id: "hannah-montana-season-1",
+            title: "Hannah Montana, Season 1",
+            posterUrl: "https://upload.wikimedia.org/wikipedia/en/7/7d/Hannah_Montana_%28season_1_DVD%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+            seasonNumber: 1,
+            episodeCount: 26,
+            mainCast: [
+              {
+                character: "Miley Stewart",	
+                actor: "Miley Cyrus",
+              },
+              {
+                character: "Lilly Truscott",	
+                actor: "Emily Osment",
+              },
+              {
+                character: "Oliver Oken", 
+                actor: "Mitchel Musso",	
+              },
+              {
+                character: "Jackson Stewart",	
+                actor: "Jason Earles",
+              },
+              {
+                character: "Robby Ray Stewart",
+                actor: "Billy Ray Cyrus",
+              },
+            ],
+            premiereDate: "March 24, 2006",
+            premiereEpisode: 	"Lilly, Do You Want to Know a Secret?",
+            finaleDate: "March 30, 2007",
+            finaleEpisode: "Bad Moose Rising",
+            network: "Disney Channel",
+            nextSeason: {
+              id: "hannah-montana-season-2",
+              seasonNumber: 2,
+            },
+          },
+          {
+            id: "hannah-montana-season-2",
+            title: "Hannah Montana, Season 2",
+            posterUrl: "https://cdn.abicart.com/shop/4862/art62/h0299/2460299-origpic-023734.jpg",
+            seasonNumber: 2,
+            episodeCount: 29,
+            mainCast: [
+              {
+                character: "Miley Stewart",	
+                actor: "Miley Cyrus",
+              },
+              {
+                character: "Lilly Truscott",	
+                actor: "Emily Osment",
+              },
+              {
+                character: "Oliver Oken", 
+                actor: "Mitchel Musso",	
+              },
+              {
+                character: "Jackson Stewart",	
+                actor: "Jason Earles",
+              },
+              {
+                character: "Robby Ray Stewart",
+                actor: "Billy Ray Cyrus",
+              },
+              {
+                character: "Rico Suave",
+                actor: "Moises Arias",
+              },
+            ],
+            premiereDate: "April 23, 2007",
+            premiereEpisode: 	"Me and Rico Down by the Schoolyard",
+            finaleDate: "October 12, 2008",
+            finaleEpisode: "We're All on This Date Together",
+            network: "Disney Channel",
+            previousSeason: {
+              id: "hannah-montana-season-1",
+              seasonNumber: 1,
+            },
+            nextSeason: {
+              id: "hannah-montana-season-3",
+              seasonNumber: 3,
+            },
+          },
+          {
+            id: "hannah-montana-season-3",
+            title: "Hannah Montana, Season 3",
+            posterUrl: "https://static.wikia.nocookie.net/hannahmontana/images/2/2f/Hannah_Montana_The_Complete_Third_Season_DVD_cover.png/revision/latest/scale-to-width-down/1200?cb=20240311172325",
+            seasonNumber: 3,
+            episodeCount: 30,
+            mainCast: [
+              {
+                character: "Miley Stewart",	
+                actor: "Miley Cyrus",
+              },
+              {
+                character: "Lilly Truscott",	
+                actor: "Emily Osment",
+              },
+              {
+                character: "Oliver Oken", 
+                actor: "Mitchel Musso",	
+              },
+              {
+                character: "Jackson Stewart",	
+                actor: "Jason Earles",
+              },
+              {
+                character: "Robby Ray Stewart",
+                actor: "Billy Ray Cyrus",
+              },
+            ],
+            premiereDate: "November 2, 2008",
+            premiereEpisode: 	"He Ain't a Hottie, He's My Brother",
+            finaleDate: "March 14, 2010",
+            finaleEpisode:  "Miley Says Goodbye? Part 2",
+            network: "Disney Channel",
+            previousSeason: {
+              id: "hannah-montana-season-2",
+              seasonNumber: 3,
+            },
+            nextSeason: {
+              id: "hannah-montana-season-4",
+              seasonNumber: 4,
+            },
+          },
+          {
+            id: "hannah-montana-season-4",
+            title: "Hannah Montana, Season 4",
+            posterUrl: "https://upload.wikimedia.org/wikipedia/en/c/c3/Hannah_Montana_Final_Season_DVD_cover.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            seasonNumber: 4,
+            episodeCount: 13,
+            mainCast: [
+              {
+                character: "Miley Stewart",	
+                actor: "Miley Cyrus",
+              },
+              {
+                character: "Lilly Truscott",	
+                actor: "Emily Osment",
+              },
+              {
+                character: "Oliver Oken", 
+                actor: "Mitchel Musso",	
+              },
+              {
+                character: "Jackson Stewart",	
+                actor: "Jason Earles",
+              },
+              {
+                character: "Robby Ray Stewart",
+                actor: "Billy Ray Cyrus",
+              },
+            ],
+            premiereDate: "July 11, 2010",
+            premiereEpisode: 	"Sweet Home Hannah Montana",
+            finaleDate: "January 16, 2011",
+            finaleEpisode: "Wherever I Go",
+            network: "Disney Channel",
+            previousSeason: {
+              id: "hannah-montana-season-3",
+              seasonNumber: 3,
+            },
+          },
         ],
         firstAirDate: "March 24, 2006",
         lastAirDate: "January 16, 2011",
