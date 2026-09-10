@@ -244,7 +244,7 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
                 genre === "kids" ? `kids` :
                 genre === "crime" ? `crime` :
                 genre === "comedy" ? `comedy` :
-                `teen`
+                `drama`
               }/${slug}/characters`)}
             >
               View All Characters
