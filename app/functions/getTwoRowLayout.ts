@@ -33,6 +33,11 @@ export function getTwoRowLayout(count: number): Layout {
     };
   }
 
+  if (count === 23) {
+    return {
+      rows: 2, topCols: 5, bottomCols: 6, splitAt: 5 
+    };
+  }
   if (count === 29) return {
     rows: 2, topCols: 4, bottomCols: 5, splitAt: 4
   };
