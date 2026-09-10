@@ -38,6 +38,12 @@ export const generateLabel = (i: Relationship): string => {
 
         return "Spouse"
     }
+    if (i.romantic === "Ex-Wife/Ex-Husband") {
+        if (i.gender === "F") return "Ex-Wife";
+        if (i.gender === "M") return "Ex-Husband";
+
+        return "Spouse"
+    }
   }
 
   // FAMILY
