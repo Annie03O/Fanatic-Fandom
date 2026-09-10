@@ -108,18 +108,6 @@ export function convertToSeasonInfobox(season?: Season) {
       info: season.network 
     } 
     : null,
-    
-    season.previousSeason?.length ? { 
-      label: "Previous Season", 
-      info: season.previousSeason.map((i) => String(i.seasonNumber))
-    } 
-    : null,
-    
-    season.nextSeason ? { 
-      label: "Next Season", 
-      info: String(season.nextSeason.seasonNumber)
-    } 
-    : null,
   ].filter(isInfoField);
 
   return {
