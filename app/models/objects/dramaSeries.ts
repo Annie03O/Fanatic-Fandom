@@ -4185,7 +4185,7 @@ export const dramaSeries: Show[] = [
       },{
         id: "melrose-place-season-3",
         title: "Melrose Place, Season 3",
-        posterUrl: "https://i.pinimg.com/1200x/12/cf/80/12cf80d69c483379ee0754de2a380958.jpg",
+        posterUrl: "https://m.media-amazon.com/images/I/91ebDbn7wHL._AC_SL1500_.jpg",
         seasonNumber:3,
         episodeCount: 32,
         premiereDate: "September 12, 1994",
