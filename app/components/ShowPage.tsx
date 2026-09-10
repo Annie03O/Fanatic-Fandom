@@ -20,16 +20,19 @@ const ShowPage = ({genre}: ShowPageProps) => {
     let series: Show | undefined;
     if (genre === "drama") {
 
-        series = dramaSeriesWithSlug.items.find((s) => s.slug === slug)
+        series = dramaSeriesWithSlug.items.find((s) => s.slug === slug || s.id === slug)
 
     } else if (genre === "kids") {
         series = kidsSeriesWithSlug.items.find((s) => s.slug === slug)
     }
     
     const cast = series?.cast ?? [];
-
+    const related = series?.related?.[0];
+    
+    console.log("Series", series);
     if (!series) return <section>Series not found</section>
-
+    
+    
 
     return (
         <main className="flex flex-col justify-center items-center">
@@ -49,7 +52,8 @@ const ShowPage = ({genre}: ShowPageProps) => {
                        <section className="col-span-10 col-start-1 lg:col-start-5 lg:row-start-3 lg:row-span-5 lg:col-span-4 w-full">
                           <SeasonsPortals show={series} page={false}/>
                           {
-                            series.related ?<RelatedPortal show={series} page={false}/> : ""
+                            related ? <RelatedPortal title={related.title ?? related.id} show={series} page={true}/>
+                             : ""
                         }
                        </section>
                     </section>
