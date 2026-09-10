@@ -31,5 +31,12 @@ export function formatRomance(ship: Relationship): string | null {
     return `${ship.name} (Spouse)`;
   }
 
+  if (ship.romantic === "Ex-Wife/Ex-Husband") {
+    if (ship.gender === "F") return `${ship.name} (Ex-Wife)`;
+    if (ship.gender === "M") return `${ship.name} (Ex-Husband)`;
+    
+    return `${ship.name} (Spouse)`;
+  }
+
   return ship.name ? `${ship.name} (Romance)` : null;
 }
