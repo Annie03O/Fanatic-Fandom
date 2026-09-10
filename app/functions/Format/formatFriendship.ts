@@ -1,7 +1,7 @@
 import { Relationship } from "../../models/types/Relationship";
 
 export function formatFriendship(ship: Relationship): string | null {
-  if (ship.type !== "Friendship" && !(ship.type === "Romantic" && ship.current === "Friendship")) return null;
+  if (ship.type !== "Friendship") return null;
 
   if (ship.kindOfFriendship === "Normal")  return `${ship.name}`;
   if (ship.kindOfFriendship === "Close")  return `${ship.name} (Close Friend)`;
