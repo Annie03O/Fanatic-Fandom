@@ -2631,6 +2631,11 @@ export const kidsSeries: Show[] = [
         title: "Hannah Montana",
         posterUrl: "https://image.tmdb.org/t/p/original/sRqLl0SHA4diTL8zvUTgBw6DQeM.jpg",
         country: "United States",
+        creator: [
+          "Michael Poryes",
+          "Rich Correll",
+          "Barry O'Brien",
+        ],
         mainCharacters: [
           {
             id: "miley-stewart",
@@ -2719,6 +2724,7 @@ export const kidsSeries: Show[] = [
             actor: "Moises Arias",
           },
         ],
+        themeSong: '"The Best of Both Worlds" by Miley Cyrus',
         seasons: [
           {
             id: "hannah-montana-season-1",
@@ -2885,6 +2891,32 @@ export const kidsSeries: Show[] = [
             },
           },
         ],
+        soundtrack: [
+          {
+            id: "hannah-montana-season-1-album",
+            type: "album",
+            imgUrl: "https://upload.wikimedia.org/wikipedia/en/5/5e/Hannah_Montana_soundtrack.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+            noImage: false,
+          },
+          {
+            id: "hannah-montana-season-2-album",
+            type: "album",
+            imgUrl: "https://i.scdn.co/image/ab67616d00001e02e48fb3df960a0d0a4e43bbc3",
+            noImage: false,
+          },
+          {
+            id: "hannah-montana-season-3-album",
+            type: "album",
+            imgUrl: "https://i.scdn.co/image/ab67616d00001e0292eacbfef0d784eb9d057e74",
+            noImage: false,
+          },
+          {
+            id: "hannah-montana-season-4-album",
+            type: "album",
+            imgUrl: "https://upload.wikimedia.org/wikipedia/en/6/60/Hannah_Montana_Forever.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+            noImage: false,
+          },
+        ],
         firstAirDate: "March 24, 2006",
         lastAirDate: "January 16, 2011",
         status: "ended",
@@ -2892,7 +2924,16 @@ export const kidsSeries: Show[] = [
         plot: "Miley Stewart is a normal teenager who lives a double life as the famous pop singer Hannah Montana. She navigates the challenges of fame, friendship, and family while trying to keep her secret identity hidden.",
         numberOfSeasons: 4,
         numberOfEpisodes: 98,
-        tags: ["Comedy", "Music", "Family", "drama"],
+        executive: [ 	
+          "Steven Peterman",
+          "Michael Poryes",
+        ],
+        prodCompanies: [
+          "It's a Laugh Productions",
+          "Michael Poryes Productions",
+        ],
+        prodLocation: ["Los Angeles, California"],
+        tags: ["Comedy", "Music", "Family", "Drama"],
         network: ["Disney Channel"],
         related: [
           {
