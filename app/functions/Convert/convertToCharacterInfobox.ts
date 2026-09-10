@@ -2,7 +2,7 @@ import { Character } from "../../models/types/Character";
 import { InfoField } from "../../models/types/Infobox";
 import { Relationship } from "../../models/types/Relationship";
 import { formatFamily } from "../Format/formatFamily";
-import { formatFriendship } from "../Format/formatFriendship";
+import { formatFriendship } from "../Format/formatFriendShip";
 import { formatMaritalStatus } from "../Format/formatMaritalStatus";
 import { formatRomance } from "../Format/formatRomance";
 import { dramaSeriesWithSlug } from "../WithSlug/dramaSeriesWithSlug";
