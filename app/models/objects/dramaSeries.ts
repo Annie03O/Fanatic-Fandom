@@ -4179,6 +4179,255 @@ export const dramaSeries: Show[] = [
         imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/19/5e/6d/195e6d25-689c-be3b-8afc-ba6cb85aad85/BeverlyHills90210_S02_CoverArt_3000x3000.png/400x400bb.jpg",  
         noSeason: 2,
         noImage: false,
+        songs: [
+          {
+            episodeTitle: "Beach Blanket Brandon",
+            song: [
+            {
+              title: "Rockin' Robin",
+              artist: "Bobby Day",
+            },
+            {  
+              title: "Tell It Like It Is",
+              artist: "Aaron Neville"
+            },
+            {  
+              title: "Wake Up Little Susie",
+              artist: "The Everly Brothers",
+            },
+            {
+              title: "Losing My Religion",
+              artist: "R.E.M."
+            },
+            {
+              title: "droppin' like flies",
+              artist:	"SHEILA", 
+            }
+            ],
+          },
+          {
+            episodeTitle: "The Party Fish",
+            song: [
+              {
+                title: "The Goodbye Look",
+                artist: "Donald Fagen",
+              },
+              {
+                title: "Maxine", 
+                artist: "Donald Fagen",
+              },
+              {  
+                title: "The Other Side Of Summer",
+                artist: "Elvis Costello",
+              },
+            ],
+          },
+          {
+            episodeTitle: "Summer Storm",
+            song: [
+              {
+                title: "You Are the Everything",
+                artist: "R.E.M."
+              },
+              {
+                title: "I Don't Get Much Sleep Anymore",
+                artist: "Chris Luke",
+              },
+              {
+                title: "My Body Says Yes",
+                artist: "Titiyo"
+              }            
+            ],
+          },
+          {
+            episodeTitle: "Anaconda",
+            song: [
+              {
+                title: "What I Like About You",
+                artist: "The Romantics",
+              },
+              {
+                title: "You've Got That Thing",
+                artist: "Bobby Short"
+              },
+            ],
+          },
+          {
+            episodeTitle: "Play It Again, David",
+            song: [
+              {
+                title: "Summertime",
+                artist: "The Troggs",
+              }
+            ],
+          },
+          {
+            episodeTitle: "Pass, Not Pass",
+            song: [
+              {
+                title: "Little Bitty Pretty One",
+                artist: "Thurston Harris",
+              },
+              {
+                title: "Joyride",
+                artist: "Roxette",
+              },
+              {
+                title: "A Summer Song",
+                artist: "Chad and Jeremy",
+              },
+              {
+                title: "Gone Ridin'",
+                artist: "Chris Isaak",
+              },
+              {
+                title: "Sweet Talkin' Guy",
+                artist: "The Chiffons",
+              },
+              {
+                title: "hukilau",	
+                artist: "CHARLES KAIPO"
+              }
+            ],
+          },
+          {
+            episodeTitle: "Camping Trip",
+          },
+          {
+            episodeTitle: "Wildfire",
+            song: [
+              {
+                title: "Addicted to Love",
+                artist: "Robert Palmer"
+              },
+              {
+                title: "Mercedes Benz",
+                artist: "Christine Elise"
+              },
+              {
+                title: "Breaking Up Is Hard to Do",
+                artist: "Christine Elise, Tori Spelling, Jennie Garth and Shannen Doherty",
+              },
+              {  
+                title: "Teenage Mutant Kung-Fu Chickens",
+                artist: "Ray Stevens"
+              },
+              {
+                title: "Leader of the Pack",
+                artist: "The Shangri-Las",
+              },
+              {
+                title: "Wicked Game",
+                artist: "Chris Isaak"
+              }
+            ],
+          },
+          {
+            episodeTitle: "Ashes To Ashes",	
+            song: [
+              {
+                title: "who's schoolin' who?",	
+                artist: "SCHOOLLY D",
+              },
+              {
+                title: "All Right Now",
+                artist: "Free"
+              },
+              {
+                title: "Concrete Jungle",
+                artist: "Sway & King Tech"    
+              },
+            ],
+          },
+          {
+            episodeTitle: "Necessity Is a Mother",	
+            song: [
+              {
+                title: "the forecast (calls for pain)",
+                artist: "THE ROBERT CRAY BAND",
+              },
+              {
+                title: "mother-in-law",	
+                artist: "ERNIE K. DOE"
+              },
+              {
+                title: "born under a bad sign",
+                artist:	"ALBERT KING",
+              },
+            ],
+          },
+          {
+            episodeTitle: "Leading From The Heart",
+            song:	[
+              {
+                title: "romantic",
+                artist: "KARYN WHITE",	        
+              },
+              {
+                title: "he's got it goin' on",
+                artist:	"ICY BLU",
+              	},
+              {
+                title: "crazy",	
+                artist: "SEAL",
+              },
+            ],
+          },
+          {
+             episodeTitle: "Down and Out of District in Beverly Hills",
+             song: [	
+                {
+                  title: "radio song",
+                  artist:	"R.E.M.",
+                },
+                {
+                  title: "build me up buttercup",
+                  artist:	"THE FOUNDATIONS",	
+                },
+                {
+                  title: "shiny happy people",
+                  artist:	"R.E.M.",	
+                },
+                {
+                  title: "losing my religion",
+                  artist:	"R.E.M.",
+                },
+                {
+                  title: "over and over",
+                  artist:	"BOBBY DAY",
+                },
+                {
+                  title: "I'll Turn to Stone",
+                  artist: "The Four Tops",
+                },
+             ],
+          },
+          {
+            episodeTitle: "Halloween",
+            song: [	
+              {
+                title: "sweet sweet baby",
+                artist:	"ERASURE",	
+              },
+              {
+                title: "romantic",
+                artist:	"KARYN WHITE",	    
+              },
+              {
+                title: "lily was here", 
+                artist: "CANDY DULFER",
+              },
+              {
+                title: "24/7",
+                artist:	"DINO",	                
+              },
+              {
+                title: "monster mash",	
+                artist: "BOBBY 'BORIS' PICKETT",
+              },
+            ],
+          }
+        ],
       },
       {
         id: "beverly-hills-90210-soundtrack-s3",
