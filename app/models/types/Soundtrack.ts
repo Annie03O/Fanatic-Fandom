@@ -13,5 +13,5 @@ export type Soundtrack = {
 
 type EpisodeSongInfo = {
     episodeTitle: string;
-    song: Song[];
+    song?: Song[];
 }
