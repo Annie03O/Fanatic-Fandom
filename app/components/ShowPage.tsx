@@ -36,7 +36,7 @@ const ShowPage = ({genre}: ShowPageProps) => {
 
     return (
         <main className="flex flex-col justify-center items-center">
-            <section className="bg-black text-white md:w-[90%] p-1 flex flex-col">            
+            <article className="bg-black text-white md:w-[90%] p-1 flex flex-col">            
                 
                 <h1 className="text-2xl">{series.title}</h1>
                 <section className=" flex flex-col-reverse md:flex-row border w-full ">
@@ -70,7 +70,7 @@ const ShowPage = ({genre}: ShowPageProps) => {
                         ))}
                     </ul>
                 </section>
-            </section>
+            </article>
         </main>
     )
 }

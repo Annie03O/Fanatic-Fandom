@@ -40,7 +40,7 @@ function Character() {
 const sortedTypes = Object.keys(grouped).sort(); // eller din egen ordning
 
   return (
-    <main className="flex flex-col justify-center items-center ">
+    <main className="flex flex-col justify-center items-center">
                 <section className="bg-black md:w-[90%] p-1 flex flex-col ">            
                     
                     <h1 className="text-4xl">{character.firstName  + " " + character.lastName}</h1>
