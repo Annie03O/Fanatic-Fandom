@@ -30,7 +30,7 @@ function Season() {
 
   return (
     <main className="flex flex-col justify-center items-center ">
-                <section className="bg-black md:w-[90%] p-1 flex flex-col ">            
+                <article className="bg-black md:w-[90%] p-1 flex flex-col ">            
                     <h1 className="text-4xl">{season.title}</h1>
                     <section className=" flex flex-col-reverse md:flex-row border w-full ">
                         <section className="w-full flex flex-col gap-2">
@@ -55,7 +55,7 @@ function Season() {
                         </section>
                            
                     </section>
-                </section>
+                </article>
             </main>
     
   );

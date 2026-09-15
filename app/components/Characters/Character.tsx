@@ -41,7 +41,7 @@ const sortedTypes = Object.keys(grouped).sort(); // eller din egen ordning
 
   return (
     <main className="flex flex-col justify-center items-center">
-                <section className="bg-black md:w-[90%] p-1 flex flex-col ">            
+                <article className="bg-black md:w-[90%] p-1 flex flex-col ">            
                     
                     <h1 className="text-4xl">{character.firstName  + " " + character.lastName}</h1>
                     <section className=" flex flex-col-reverse md:flex-row border w-full ">
@@ -68,7 +68,7 @@ const sortedTypes = Object.keys(grouped).sort(); // eller din egen ordning
                         </section>
                            
                     </section>
-                </section>
+                </article>
             </main>
     
   );
