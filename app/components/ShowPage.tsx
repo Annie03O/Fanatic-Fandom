@@ -62,7 +62,10 @@ const ShowPage = ({genre}: ShowPageProps) => {
                                           <SoundtrackPortals genre="drama" page={false} type="soundtrack" show={series} />
                                       </>
                                   ) : (
+                                    <section className="flex flex-col">
                                       <SeasonsPortals show={series} page={false} />
+                                      <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true} />
+                                    </section>
                                   )}
                               </section>
                        
