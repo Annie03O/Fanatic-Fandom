@@ -6750,6 +6750,16 @@ export const dramaSeries: Show[] = [
         gender: "M",
       },
     ],
+    soundtrack: [
+      {
+        id: "bh90210-soundtrack",
+        type: "soundtrack",
+        imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPm9j3qIxGaGKrMQ8vATp-qolDTB6zti1jrXRQmqoX5vfxzSHOAA-ecJ6r&s=10",
+        noImage: false,
+        noSeason: 1,
+        
+      }
+    ],
     basedOn: true,
     composer: "Brian H. Kim",
     numberOfSeasons: 1,
@@ -6775,6 +6785,16 @@ export const dramaSeries: Show[] = [
       "CBS Television Studios",
     ],
     network: "Fox",
+    related: [
+      {
+        id: "beverly-hills-90210",
+        posterUrl: "https://static1.colliderimages.com/wordpress/wp-content/uploads/sharedimages/2024/04/beverly-hills-90210-tv-show-poster.jpg?q=49&fit=contain&w=480&dpr=2",
+      },
+      {
+        id: "models-inc.",
+        posterUrl: "https://m.media-amazon.com/images/M/MV5BZWRmYjFhMDgtN2RiNS00NjI5LTkzNjctMTY2NjI4ZTI5NGQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      },
+    ],
   },
   {
     id: "the-oc",
