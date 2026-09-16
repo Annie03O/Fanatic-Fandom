@@ -11,7 +11,7 @@ export const ShowPortal = ({show, genre, title}: Props) => {
   const tags = show.tags?.slice(0, 3) ?? [];
     
     return (
-          <Link key={genre} href={`/${genre}/${title}`}>
+          <Link key={genre} href={`/${genre}/${title}`} >
             <section className="flex justify-center items-center ">
               <article className="w-[300px] h-[555px] border rounded-xl bg-purple-300 flex flex-col justify-center gap-2">
                 <h1 className="text-xl whitespace-nowrap text-center">

@@ -7,7 +7,8 @@ import ShowPortal from "../components/ShowPortal";
 
 export const TeenPage = () => {
   return (
-    <article className="grid gap-y-10 gap-x-5 grid-cols-1 md:grid-cols-4 lg:grid-cols-6">
+    <article className="flex flex-wrap gap-10 items-center justify-center">
+     
       {dramaSeriesWithSlug.items.map((i) => {
         
         return <ShowPortal show={i} genre="drama" title={i.slug}/>
