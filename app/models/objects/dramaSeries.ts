@@ -6614,7 +6614,101 @@ export const dramaSeries: Show[] = [
         promo: true,
       },
     ],
-    
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodeCount: 6,
+        episodeBreakdown: [
+          {
+            id: "bh-90210-the-reunion",
+            seasonNumber: 1,
+            episodeNumber: 1,	
+            episodeTitle: "The Reunion",	
+            imageUrl: "https://soaps.sheknows.com/wp-content/uploads/2019/08/bh90210-cast-meeting-sh.jpg?resize=681%2C397",
+            director: "Elizabeth Allen Rosenbaum",	
+            writer: [
+              "Teleplay by : Mike Chessler & Chris Alberghini and Paul Sciarrotta",
+              "Story by : Tori Spelling & Jennie Garth & Mike Chessler & Chris Alberghini",
+            ],	
+            releaseDate: "August 7, 2019",	
+            usViewers: 3.86,
+            plot: "Having gone their separate ways since the series `Beverly Hills, 90210' ended 19 years ago, the cast members reunite at a 30th anniversary fan convention in Las Vegas, causing old flames, feuds and feelings to reignite."
+          },
+          {
+            id: "bh-90210-the-pitch",
+            seasonNumber: 1,
+            episodeNumber: 2,
+            imageUrl: "https://m.media-amazon.com/images/M/MV5BNDUzYzhlMjMtOTg4Ny00MjI0LTg1OTctZjgxZjYwYTBmYzYwXkEyXkFqcGc@._V1_.jpg",	
+            episodeTitle: "The Pitch",	
+            director: "Howard Deutch",
+            writer:"Katie Wech",
+            releaseDate: "August 14, 2019",	
+            usViewers: 2.52,
+            plot: "When FOX greenlights a reboot, Tori and Jennie confront each of their former castmates and are met with more resistance than they had anticipated; the gang deals with the repercussions of their actions in Las Vegas."
+          },  
+          {
+            id: "bh-90210-the-photo-shoot",
+            seasonNumber: 1,
+            episodeNumber: 3,	
+            imageUrl: "https://m.media-amazon.com/images/M/MV5BMzYzMDIwNGMtMTJmNC00ZGMxLTk4OTQtMTE5MjY5MGZkYTcxXkEyXkFqcGc@._V1_.jpg",
+            episodeTitle: "The Photo Shoot",
+            director:	"Jason Priestley",	
+            writer: [
+              "Teleplay by : Jason Coffey & Merigan Mulhern and Mike Chessler & Chris Alberghini",
+              "Story by : Jason Coffey & Merigan Mulhern"
+            ],	
+            releaseDate: "August 21, 2019",	
+            usViewers: 2.19,
+            plot: "Tori starts to feel the pressure of balancing the requirements of the cast; Jason and Ian both struggle with their marriage issues; Jennie meets her new bodyguard; Brian hires a new assistant; Gabby asks Christine for advice.",
+          },
+          {
+            id: "bh-90210-the-table-read",
+            seasonNumber: 1,
+            episodeNumber: 4,
+            imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuI6foR7mMWjOeDOvK01VH0SaCiPLgPO2m8ITIGSe-Yo2pVdCH2vJ2Dsjl&s=10",
+            episodeTitle:	"The Table Read",
+            director:	"Melanie Mayron",
+            writer:	[
+              "Teleplay by : Mike Chessler & Chris Alberghini",
+              "Story by : Michelle Furtney-Goodman & Conner Good",
+            ],	
+            releaseDate: "August 28, 2019",	
+            usViewers: 1.94,
+            plot: "When the table read serves up major disappointment, the cast band together to try and rewrite the script, but can't come to an agreement on storylines. Meanwhile, Shannen questions her decision to join the reboot.",
+          },  
+          {  
+            id: "bh-90210-picture's-up",
+            seasonNumber: 1,
+            episodeNumber: 5,
+            episodeTitle:	"Picture's Up",
+            imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFdPI98_7IqH2Gce1GVPinOE2381jOqTxiMPlJs4fGk9dnTEhZtGYk6nQ&s=10",
+            director:	"Kabir Akhtar",
+            writer:	[
+              "Teleplay by : Mike Chessler & Chris Alberghini",
+              "Story by : Mike Deas & Ben O'Hara",
+            ],
+            releaseDate:	"September 4, 2019",
+            usViewers: 1.89,
+            plot: "The first day of filming is halted due to a threat, and the cast sets their eyes on a former co-star who may be holding a vendetta against them. Jason's insensitivity while directing causes frustration, and Tori stresses over an upcoming sex scene.",
+          },  
+          {  
+            id: "bh-90210-the-long-wait",
+            seasonNumber: 1,
+            episodeNumber: 6,	
+            imageUrl: "https://m.media-amazon.com/images/M/MV5BZDFlZDg1NGUtMzJhMC00NGJiLWJiMjctMTdjOGQ4NWUxYTc2XkEyXkFqcGc@._V1_.jpg",
+            episodeTitle: "The Long Wait",
+            director:	"Gina Lamar",	
+            writer: [
+              "Teleplay by : Aaron Fullerton and Mike Chessler & Chris Alberghini",
+              "Story by : Paul Sciarrotta",
+            ],
+            releaseDate:	"September 11, 2019",
+            usViewers: 1.90,
+            plot: "As the cast members celebrate the wrap of the pilot, they await news from the network. Ian realises his relationship with Anna might be a little too casual, and Jennie thinks Wyatt might be in too deep. Later, Tori gets frustrated with Nate.",
+          }
+        ],
+      }
+    ],
     plot: "The series focuses on the original cast members of Beverly Hills, 90210—Jason Priestley, Jennie Garth, Ian Ziering, Gabrielle Carteris, Brian Austin Green, Tori Spelling, and Shannen Doherty—playing heightened, fictionalized versions of themselves. Having parted ways 19 years after the original series ended, they reunite to get a reboot up and running, and must reconcile their new lives with the complications of their histories together.",
     tags: [
       "Mockumentary", 
