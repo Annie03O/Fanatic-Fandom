@@ -4555,6 +4555,147 @@ export const dramaSeries: Show[] = [
                 artist: "The Cast of Beverly Hills, 90210"
               }
             ]
+          },
+          {
+           episodeTitle: "Fire and Ice",
+           song: [
+                {
+                  title: "(I've had) The Time of My Life",
+                  artist: "Bill Medley & Jennifer Warnes",
+                },
+                {
+                  title:" judy in disguise (with glasses)",
+                  artist:	"JOHN FRED & HIS PLAYBOY BAND",
+                },
+           ], 
+          },
+          {
+            episodeTitle: "A Competitive Edge",	
+            song: [
+              {
+                title: "games people play",
+                artist:	"JOE SOUTH"
+              },
+              {
+                title: "dancing in the street", 
+                artist: "The Mamas and The Papas",
+              },	
+              {
+                title: "backfield in motion",
+                artist:	"MEL & TIM",
+              },  
+            ],
+          },
+          {
+            episodeTitle: "Everybody's Talkin' 'Bout It	",
+            song: [
+              {
+                title: "i want you",
+                artist:	"JODY WATLEY",
+              },
+              {
+                title: "the birds and the bees",
+                artist:	"JEWEL AKENS",
+              },	
+            ],
+          },
+          {
+             episodeTitle: "And Baby Makes Five",	
+             song:[  
+               {
+                  title: "all 4 love",
+                  artist:	"COLOR ME BADD",
+                },
+               {
+                title: "do you believe in magic?",
+                artist:	"THE LOVIN' SPOONFUL",
+              }
+             ]
+            },
+          {
+            episodeTitle: "Cardio-Funk",
+            song: [
+              {
+                title:  "We Want the Funk",
+                artist: "Gerardo",
+              },
+            ]
+          },
+          {
+            episodeTitle: "The Pit and the Pendulum",	
+            song: [
+              {
+                title:  "don't get around much anymore",
+                artist: "NAT KING COLE",
+              },
+              {
+                title:  "blue suede shoes",
+                artist: "CARL PERKINS",
+              },
+              {
+                title:  "lady blue",
+                artist: "LEON RUSSELL",
+              },
+              {
+                title:  "the sun ain't gonna shine anymore",
+                artist: "THE WALKER BROTHERS",
+              },
+            ],
+          },
+          {
+            episodeTitle: "Meeting Mr. Pony",	
+            song: [
+              {
+                title: "mountain of love",
+                artist:	"JOHNNY RIVERS",
+              },	
+              {
+                title: "let the good times roll",	
+                artist: "SHIRLEY & LEE",
+              }
+            ], 
+          },
+          {
+             episodeTitle: "Things To Do On A Rainy Day",	
+             song: [
+              {
+                title: "i adore mi amor",
+                artist:	"COLOR ME BADD"
+              },
+              {
+                title: "all 4 love",
+                artist: "COLOR ME BADD"},
+              {
+                title: "i wanna sex you up",	
+                artist: "COLOR ME BADD"
+              },
+            ],
+          },
+          {
+            episodeTitle: "Mexican Standoff",
+            song: [
+              {
+                title: "i love to love you",	
+                artist: "JOHNNY 'GUITAR' WATSON",
+              },
+              {
+                title: "runaway",
+                artist:	"DEL SHANNON",
+              }
+            ]
+          },
+          {
+            episodeTitle: "Wedding Bell Blues",	
+            song: [
+              {
+                title: "wedding bell blues",
+                artist:	"THE 5TH DIMENSION",
+              },	
+              {
+                title: "bye bye love",
+                artist:	"THE EVERLY BROTHERS",
+              },
+            ],
           }
         ],
       },
@@ -6394,6 +6535,11 @@ export const dramaSeries: Show[] = [
           posterUrl: "https://m.media-amazon.com/images/M/MV5BOTVmZDljN2QtNGE4Yi00NTE4LTliMzMtMmFlZjViOWMyNGRiXkEyXkFqcGc@._V1_.jpg"
         }
     ],
+  },
+  {
+    id: "bh-90210",
+    title: "BH 90210",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BOTVmZDljN2QtNGE4Yi00NTE4LTliMzMtMmFlZjViOWMyNGRiXkEyXkFqcGc@._V1_.jpg"  
   },
   {
     id: "the-oc",
