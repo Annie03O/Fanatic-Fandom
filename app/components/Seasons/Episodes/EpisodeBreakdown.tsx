@@ -4,14 +4,15 @@ import { EpisodeBreakdown as Episode } from "@/app/models/types/EpisodeBreakdown
 
 type Props = {
     episode: Episode;
+    page?: boolean;
 }
 
-export const EpisodeBreakdown = ({episode} : Props) => {
+export const EpisodeBreakdown = ({episode, page} : Props) => {
     return <section className="flex flex-col border-b p-2">
                                      <section>
                                       <h1 className="text-2xl">{episode.episodeTitle}</h1>
                                      </section>
-                                     <section className="w-full flex flex-col bg-white text-black">
+                                     <section className="w-full flex flex-col  bg-white text-black">
                                       <section className="w-full border">
                                          <ul className="flex w-full">
                                           <li className="w-1/5 flex justify-center items-center gap-2"><b>Original Release Date:</b></li>
