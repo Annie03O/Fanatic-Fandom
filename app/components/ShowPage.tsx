@@ -54,16 +54,19 @@ const ShowPage = ({genre}: ShowPageProps) => {
                            {series.seasons!.length > 1 ? <SoundtrackPortals genre="drama" page={false} type="soundtrack" show={series} /> : ""}
                        </section>
                               <section className="col-span-10 col-start-1 lg:col-start-5 lg:row-start-3 lg:row-span-5 lg:col-span-4 w-full">
-                                  {series.seasons?.length === 1 ? <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true}/> : <SeasonsPortals show={series} page={false}/>}
-                          {
-                            series.seasons?.length === 1 ? <SoundtrackPortals genre="drama" page={false} type="soundtrack" show={series}/> :  related ? <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true}/>
-                             : <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true}/>} : <SeasonsPortals show={series} page={false}/>
-                        
-                       </section>
+                                  {series.seasons?.length === 1 ? (
+                                      <>
+                                          <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true} />
+                                          <SoundtrackPortals genre="drama" page={false} type="soundtrack" show={series} />
+                                      </>
+                                  ) : (
+                                      <SeasonsPortals show={series} page={false} />
+                                  )}
+                              </section>
                        
                 {episodes.length > 0 && (
-                    <section className="col-span-10 col-start-1 lg:row-start-9">
-                        <h1>Episodes</h1>
+                    <section className="col-span-10 col-start-1 lg:row-start-8 ">
+                        <h1 className="text-3xl ml-2">Episodes</h1>
                         {episodes.map((episode) => (
                             <EpisodeBreakdown key={episode.id} episode={episode} />
                         ))}
