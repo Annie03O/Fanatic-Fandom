@@ -4426,6 +4426,135 @@ export const dramaSeries: Show[] = [
                 artist: "BOBBY 'BORIS' PICKETT",
               },
             ],
+          },
+          {
+            episodeTitle: "The Next Fifty Years",
+            song: [
+              {
+                title: "This Is My Country",
+                artist: "WBHS Choir"
+              },
+              {
+                title: "Somewhere",
+                artist: "WBHS Choir"
+              },
+              {
+                title: "Friends in Low Places",
+                artist: "Garth Brooks"
+              },
+              {
+                title: "Work It Out",
+                artist: "Monie Love"
+              },
+              {
+                title: "In Your Room",
+                artist: "The Bangles"
+              },
+              {
+                title: "knockin' on heaven's door",
+                artist:	"BOOTLEG ROCKS!",
+              },
+            ],
+          },
+          {
+            episodeTitle: "U4EA",
+            song: [	
+              {
+                title:  "come inside",
+                artist:	"THOMPSON TWINS",	
+              },
+              {
+                title: "dominion",
+                artist:	"SISTERS OF MERCY",	
+              },
+              {
+                title: "the beginning",
+                artist:	"SEAL"
+              },
+              {
+                title: "go! (club remix)",	
+                artist: "TONES ON TAIL"
+              },
+              {
+                title: "don't fight it, feel it (scat mix)",
+                artist:	"PRIMAL SCREAM"
+              },
+            ],
+          },
+          {
+             episodeTitle: "My Desperate Valentine",	
+             song: [
+              {
+                title: "baby i'm yours",
+                artist:	"BARBARA LEWIS",
+              },
+            ],
+          },
+          {
+            episodeTitle: "Chuckie's Back",
+            song: [
+              {
+                title: "Donna",
+                artist: "Ritchie Valens"
+              },
+              {
+                title: "Have Yourself a Merry Little Christmas",
+                artist: "Frank Sinatra",
+              },
+              {
+                title: "Jingle Bell Rock",
+                artist: "Bobby Helms",
+              },
+              {
+                title:  "Hey Donna",
+                artist: "Rythm Syndicate",
+              },
+              {
+                title:  "I Adore Mi Amor",
+                artist: "Color Me Badd",
+              },
+              {
+                title:  "2000 Miles",
+                artist: "The Pretenders",
+              },
+            ]
+          },
+          {
+            episodeTitle: "A Walsh Family Christmas",
+            song: [
+              {  
+                title:  "White Christmas",
+                artist: "Bing Crosby",
+              },
+              {
+                title:  "Jingle Bells",
+                artist: "James Pierpont",
+              },  
+              {  
+                title:  "Joy to the World",
+                artist: "Lowell Mason",
+              },  
+              {  
+                title:  "Christmas is the Time To Say I Love You",
+                artist: "Billy Squier",
+              },
+              {
+                title:  "Blue Christmas",
+                artist: "Elvis Presley",
+              },
+              {
+                title:  "Deck the Halls",
+                artist: "Traditional",
+              },
+              { 
+                title:  "We Wish You a Merry Christmas",
+                artist: "Joe E. Tata and the Neighborhood Carolers",
+              },  
+              {
+                title: "White Christmas",
+                artist: "The Cast of Beverly Hills, 90210"
+              }
+            ]
           }
         ],
       },
