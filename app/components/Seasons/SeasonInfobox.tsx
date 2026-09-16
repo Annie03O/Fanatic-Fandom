@@ -13,7 +13,7 @@ export const SeasonInfobox = ({ season }: Props) => {
 
 
   return (
-    <aside>
+    <section>
       <h2 className="text-3xl text-center">{box.name}</h2>
 
       <img className="w-full h-auto" src={box.posterSrc} alt={box.name} />
@@ -45,6 +45,6 @@ export const SeasonInfobox = ({ season }: Props) => {
           <section className={`w-full flex justify-end`}> Season {season.nextSeason?.seasonNumber}</section>
         </section>
       </section>
-    </aside>
+    </section>
   );
 };

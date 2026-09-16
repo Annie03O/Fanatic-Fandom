@@ -13,7 +13,7 @@ export const SoundtrackInfobox = ({ soundtrack }: Props) => {
 
 
   return (
-    <aside>
+    <section>
       <h2 className="text-3xl text-center">Season {box.name}</h2>
 
       <img className="w-full h-auto" src={box.posterSrc} alt={soundtrack.id} />
@@ -37,6 +37,6 @@ export const SoundtrackInfobox = ({ soundtrack }: Props) => {
           </section>
         ))}
       </section>
-    </aside>
+    </section>
   );
 };

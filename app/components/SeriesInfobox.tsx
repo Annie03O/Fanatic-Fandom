@@ -15,7 +15,7 @@ export const SeriesInfobox = ({type, show}: Props) => {
   if (!box) return null;
 
   return (
-    <aside>
+    <section>
       <h2 className="text-3xl text-center">{box.name}</h2>
 
       <img src={box.posterSrc} alt={box.name} />
@@ -39,6 +39,6 @@ export const SeriesInfobox = ({type, show}: Props) => {
           </section>
         ))}
       </section>
-    </aside>
+    </section>
   );
 }

@@ -25,7 +25,7 @@ export const CharacterInfobox = ({ character }: Props) => {
       : characterWithInfobox.firstName;
 
   return (
-    <aside>
+    <section>
       <h2 className="text-3xl text-center">{displayName}</h2>
 
       <img
@@ -100,6 +100,6 @@ export const CharacterInfobox = ({ character }: Props) => {
           );
         })}
       </section>
-    </aside>
+    </section>
   );
 };
