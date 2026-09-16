@@ -10,6 +10,7 @@ import
 SoundtrackPortals from "./Music/SoundtrackPortals";
 import RelatedPortal from "./RelatedPortal";
 import { EpisodeBreakdown } from "./Seasons/Episodes/EpisodeBreakdown";
+import { useState } from "react";
 
 type ShowPageProps = {
     genre: "drama" | "kids" | "crime" | "comedy";
@@ -17,6 +18,7 @@ type ShowPageProps = {
 
 const ShowPage = ({genre}: ShowPageProps) => {
     const {slug} = useParams<{slug: string}>();
+    const [showEpisodes, setShowEpisodes ] = useState(true);
 
     let series: Show | undefined;
     if (genre === "drama") {
@@ -66,10 +68,16 @@ const ShowPage = ({genre}: ShowPageProps) => {
                        
                 {episodes.length > 0 && (
                     <section className="col-span-10 col-start-1 lg:row-start-8 ">
-                        <h1 className="text-3xl ml-2">Episodes</h1>
-                        {episodes.map((episode) => (
-                            <EpisodeBreakdown key={episode.id} episode={episode} />
-                        ))}
+                        <span className="flex gap-3 items-center">
+                            <h1 className="text-3xl ml-2">Episodes</h1>
+                            {showEpisodes === true ? <button className="text-blue-300 underline" onClick={() =>setShowEpisodes(false)}>Hide</button> : <button className="tex<t-blue-300 underline" onClick={() =>setShowEpisodes(true)}>Show</button> }
+                        </span>
+                        <section className={showEpisodes === false ? "hidden" : "block"}>
+                            {episodes.map((episode) => (
+                                <EpisodeBreakdown key={episode.id} episode={episode} />
+                            ))}
+                        </section>
+
                     </section>
                 )}
                     </section>

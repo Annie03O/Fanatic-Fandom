@@ -1,6 +1,7 @@
 "use client"
 
 import { EpisodeBreakdown as Episode } from "@/app/models/types/EpisodeBreakdown"
+import { useState } from "react";
 
 type Props = {
     episode: Episode;
@@ -8,9 +9,11 @@ type Props = {
 }
 
 export const EpisodeBreakdown = ({episode, page} : Props) => {
+    
+
     return <section className="flex flex-col border-b p-2">
                                      <section>
-                                      <h1 className="text-2xl">{episode.episodeTitle}</h1>
+                                        <h1 className="text-2xl">{episode.episodeTitle}</h1>
                                      </section>
                                      <section className="w-full flex flex-col  bg-white text-black">
                                       <section className="w-full border">
