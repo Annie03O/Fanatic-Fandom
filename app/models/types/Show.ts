@@ -31,7 +31,7 @@ export type Show = {
   narrator?: string[]; 
   themeSong?: string[] | string;
   endingTheme?: string;
-  composer?: string[]; 
+  composer?: string[] | string; 
   executive: string[] | string;
   producer?: string[] | string;
   prodLocation: string[];
