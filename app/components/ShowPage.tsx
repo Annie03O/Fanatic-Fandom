@@ -9,6 +9,7 @@ import { Show } from "../models/types/Show";
 import 
 SoundtrackPortals from "./Music/SoundtrackPortals";
 import RelatedPortal from "./RelatedPortal";
+import { EpisodeBreakdown } from "./Seasons/Episodes/EpisodeBreakdown";
 
 type ShowPageProps = {
     genre: "drama" | "kids" | "crime" | "comedy";
@@ -28,10 +29,13 @@ const ShowPage = ({genre}: ShowPageProps) => {
     
     const cast = series?.cast ?? [];
     const related = series?.related?.[0];
+    const relatedShow = related as { title?: string; id?: string } | undefined;
+    const episodes = series?.seasons?.length === 1
+        ? (series.seasons[0]?.episodeBreakdown ?? [])
+        : [];
     
     console.log("Series", series);
     if (!series) return <section>Series not found</section>
-    
     
 
     return (
@@ -47,15 +51,24 @@ const ShowPage = ({genre}: ShowPageProps) => {
                        </section>
                        <section className="col-start-1 lg:row-start-3 lg:row-span-5 col-span-10 lg:col-span-4 w-full bg-blue-200 flex flex-col justify-center items-center gap-3">
                           <CharacterPortals genre={genre} show={series} page={false}/>
-                            <SoundtrackPortals genre="drama" page={false} type="soundtrack" show={series}/>
+                           {series.seasons!.length > 1 ? <SoundtrackPortals genre="drama" page={false} type="soundtrack" show={series} /> : ""}
                        </section>
-                       <section className="col-span-10 col-start-1 lg:col-start-5 lg:row-start-3 lg:row-span-5 lg:col-span-4 w-full">
-                          <SeasonsPortals show={series} page={false}/>
+                              <section className="col-span-10 col-start-1 lg:col-start-5 lg:row-start-3 lg:row-span-5 lg:col-span-4 w-full">
+                                  {series.seasons?.length === 1 ? <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true}/> : <SeasonsPortals show={series} page={false}/>}
                           {
-                            related ? <RelatedPortal title={related.title ?? related.id} show={series} page={true}/>
-                             : ""
-                        }
+                            series.seasons?.length === 1 ? <SoundtrackPortals genre="drama" page={false} type="soundtrack" show={series}/> :  related ? <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true}/>
+                             : <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true}/>} : <SeasonsPortals show={series} page={false}/>
+                        
                        </section>
+                       
+                {episodes.length > 0 && (
+                    <section className="col-span-10 col-start-1 lg:row-start-9">
+                        <h1>Episodes</h1>
+                        {episodes.map((episode) => (
+                            <EpisodeBreakdown key={episode.id} episode={episode} />
+                        ))}
+                    </section>
+                )}
                     </section>
                     <section className="border md:w-[50%] lg:w-[20%]">
                         <Infobox show={series} type="Show"/>
