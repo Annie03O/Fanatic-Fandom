@@ -6,12 +6,11 @@ import { useParams } from "next/navigation";
 import { SeasonsPortals } from "./Seasons/SeasonsPortals";
 import { SeriesInfobox as Infobox } from "./SeriesInfobox"; 
 import { Show } from "../models/types/Show";
-import 
-SoundtrackPortals from "./Music/SoundtrackPortals";
+import SoundtrackPortals from "./Music/SoundtrackPortals";
 import RelatedPortal from "./RelatedPortal";
 import { EpisodeBreakdown } from "./Seasons/Episodes/EpisodeBreakdown";
 import { useState } from "react";
-import Soundtrack from "./Music/Soundtrack";
+import { SoundtrackBreakDown } from "./Music/SoundtrackBreakdown";
 
 type ShowPageProps = {
     genre: "drama" | "kids" | "crime" | "comedy";
@@ -63,7 +62,6 @@ const ShowPage = ({genre}: ShowPageProps) => {
                                   {series.seasons?.length === 1 ? (
                                       <>
                                           <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true} />
-                                          <SoundtrackPortals genre="drama" page={false} type="soundtrack" show={series} />
                                       </>
                                   ) : (
                                     <section className="flex flex-col">
@@ -88,9 +86,9 @@ const ShowPage = ({genre}: ShowPageProps) => {
                             <h1 className="text-3xl ml-2">Soundtrack</h1>
                             {showSoundtrack === true ? <button className="text-blue-300 underline" onClick={() =>setShowSoundtrack(false)}>Collapse</button> : <button className="tex<t-blue-300 underline" onClick={() =>setShowSoundtrack(true)}>Expand</button> }
                         </span>
-                        <section className={`${showSoundtrack === false ? " h-1/3 overflow-y-scroll" : "block"} border-b`}>
+                        <section className={`${showSoundtrack === false ? " h-1/6 overflow-y-scroll" : "block"} border-b`}>
                             {soundtrack.map((s) => (
-                                <Soundtrack/>
+                                <SoundtrackBreakDown key={s.id} songs={s.songs}/>
                             ))}
                         </section>
 
