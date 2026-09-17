@@ -44,7 +44,7 @@ export const CrimePage = () => {
       }
         )}
 
-    </section>
+    </article>
     );
 }
 

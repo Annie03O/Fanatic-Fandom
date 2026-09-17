@@ -11,7 +11,7 @@ export type Soundtrack = {
     noImage: boolean;
 }
 
-type EpisodeSongInfo = {
+export type EpisodeSongInfo = {
     episodeTitle: string;
     song?: Song[];
 }

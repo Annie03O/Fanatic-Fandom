@@ -1,4 +1,4 @@
-export type Occupation  {
+export type Occupation = {
     title?: string,
     place?: string,
     started?: string,
