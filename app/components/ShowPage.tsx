@@ -34,8 +34,9 @@ const ShowPage = ({genre}: ShowPageProps) => {
     const cast = series?.cast ?? [];
     const related = series?.related?.[0];
     const relatedShow = related as { title?: string; id?: string } | undefined;
-    const episodes = series?.seasons?.length === 1
-        ? (series.seasons[0]?.episodeBreakdown ?? [])
+    const seasons = series?.seasons ?? [];
+    const episodes = seasons.length === 1
+        ? (seasons[0]?.episodeBreakdown ?? [])
         : [];
     const soundtrack = series?.soundtrack ?? [];
     
@@ -56,10 +57,10 @@ const ShowPage = ({genre}: ShowPageProps) => {
                        </section>
                        <section className="col-start-1 lg:row-start-3 lg:row-span-5 col-span-10 lg:col-span-4 w-full bg-blue-200 flex flex-col justify-center items-center gap-3">
                           <CharacterPortals genre={genre} show={series} page={false}/>
-                           {series.seasons!.length > 1 ? <SoundtrackPortals genre="drama" page={false} type="soundtrack" show={series} /> : ""}
+                           {seasons.length > 1 ? <SoundtrackPortals genre={genre} page={false} type="soundtrack" show={series} /> : ""}
                        </section>
                               <section className="col-span-10 col-start-1 lg:col-start-5 lg:row-start-3 lg:row-span-5 lg:col-span-4 w-full">
-                                  {series.seasons?.length === 1 ? (
+                                  {seasons.length === 1 ? (
                                       <>
                                           <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true} />
                                       </>
