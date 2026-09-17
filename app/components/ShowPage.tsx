@@ -11,6 +11,7 @@ SoundtrackPortals from "./Music/SoundtrackPortals";
 import RelatedPortal from "./RelatedPortal";
 import { EpisodeBreakdown } from "./Seasons/Episodes/EpisodeBreakdown";
 import { useState } from "react";
+import Soundtrack from "./Music/Soundtrack";
 
 type ShowPageProps = {
     genre: "drama" | "kids" | "crime" | "comedy";
@@ -18,7 +19,9 @@ type ShowPageProps = {
 
 const ShowPage = ({genre}: ShowPageProps) => {
     const {slug} = useParams<{slug: string}>();
-    const [showEpisodes, setShowEpisodes ] = useState(true);
+    const [showEpisodes, setShowEpisodes ] = useState(false);
+    const [showSoundtrack, setShowSoundtrack ] = useState(false);
+
 
     let series: Show | undefined;
     if (genre === "drama") {
@@ -35,6 +38,7 @@ const ShowPage = ({genre}: ShowPageProps) => {
     const episodes = series?.seasons?.length === 1
         ? (series.seasons[0]?.episodeBreakdown ?? [])
         : [];
+    const soundtrack = series?.soundtrack ?? [];
     
     console.log("Series", series);
     if (!series) return <section>Series not found</section>
@@ -73,11 +77,20 @@ const ShowPage = ({genre}: ShowPageProps) => {
                     <section className="col-span-10 col-start-1 lg:row-start-8 ">
                         <span className="flex gap-3 items-center">
                             <h1 className="text-3xl ml-2">Episodes</h1>
-                            {showEpisodes === true ? <button className="text-blue-300 underline" onClick={() =>setShowEpisodes(false)}>Hide</button> : <button className="tex<t-blue-300 underline" onClick={() =>setShowEpisodes(true)}>Show</button> }
+                            {showEpisodes === true ? <button className="text-blue-300 underline" onClick={() =>setShowEpisodes(false)}>Collapse</button> : <button className="tex<t-blue-300 underline" onClick={() =>setShowEpisodes(true)}>Expand</button> }
                         </span>
-                        <section className={showEpisodes === false ? "hidden" : "block"}>
+                        <section className={`${showEpisodes === false ? " h-1/3 overflow-y-scroll" : "block"} border-b`}>
                             {episodes.map((episode) => (
                                 <EpisodeBreakdown key={episode.id} episode={episode} />
+                            ))}
+                        </section>
+                        <span className="flex gap-3 items-center">
+                            <h1 className="text-3xl ml-2">Soundtrack</h1>
+                            {showSoundtrack === true ? <button className="text-blue-300 underline" onClick={() =>setShowSoundtrack(false)}>Collapse</button> : <button className="tex<t-blue-300 underline" onClick={() =>setShowSoundtrack(true)}>Expand</button> }
+                        </span>
+                        <section className={`${showSoundtrack === false ? " h-1/3 overflow-y-scroll" : "block"} border-b`}>
+                            {soundtrack.map((s) => (
+                                <Soundtrack/>
                             ))}
                         </section>
 
