@@ -12,7 +12,7 @@ export type Character = {
     posterUrl?: string;
     imageUrl: string;
     nickname?: string[]
-    actor?: string;
+    actor?: string | string[];
     birthday?: string; 
     eyeColor?: string;
     hairColor?: string[] | string;
