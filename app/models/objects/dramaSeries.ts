@@ -6757,7 +6757,218 @@ export const dramaSeries: Show[] = [
         imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPm9j3qIxGaGKrMQ8vATp-qolDTB6zti1jrXRQmqoX5vfxzSHOAA-ecJ6r&s=10",
         noImage: false,
         noSeason: 1,
-        
+        songs: [
+          {
+            episodeTitle: "The Reunion",
+            song: [  
+              {
+                title: "Sweet Spot",
+                artist: "Kim Petras",
+              },  
+              {
+                title:  "Roll With Me",
+                artist: "Bantu, Shungudzo",
+              },
+              {
+                title:  "Away",
+                artist: "Niko The Kid, Bipolar Sunshine",
+              },
+              {
+                title:  "Made Of Mine",
+                artist: "Gold Fir",
+              },
+              {
+                title:  "Sun Goes Down",
+                artist: "Chance Peña",
+              },
+              {
+                title:  "Move ",
+                artist: "Sleepy Tom, Sophia Black",
+              },
+              {
+                title:  "Paradise",
+                artist: "Jon Bryant",
+              },
+              {              
+                title:  "Add a friend",
+                artist: "Kyd the Band",
+              },
+              {
+                title:  "The Sign",
+                artist: "Ace of Base",
+              },
+            ],
+          },
+          {
+            episodeTitle: "The Pitch",
+            song: [
+              {
+                title:  "Listen to Your Heart",
+                artist: "Roxette",
+              },
+              {  
+                title:  "Want What You Got",
+                artist: "THE BEACHES",
+              },
+              {
+                title:  "Gitche Gumee",
+                artist: "Nightgames",
+              },
+              {
+                title:  "Blue / Green",
+                artist: "Titanics",
+              },
+              {
+                title:  "High Note",
+                artist: "GAWVI",
+              },
+              {
+                title:  "Hold On",
+                artist: "Ford Turrell",
+              }
+            ],
+          },
+          {
+            episodeTitle: "The PhotoShoot",
+            song: [
+              {
+                title:  "Perfect Patterns",
+                artist: "Brett",
+              },
+              {
+                title:  "There Is a Mountain (Single Version)",
+                artist: "Donovan",
+              },
+              {
+                title:  "Look My Way",
+                artist: "Daniel Ellsworth",
+              },
+              {
+                title:  "Connection",
+                artist: "Elastica",
+              }
+            ],
+          },
+          {
+            episodeTitle: "The Table Read",
+            song: [
+              {
+                title:  "There She Goes",
+                artist: "The La's",
+              },  
+              {
+                title:  "Cloud Dancing",
+                artist: "Brad Hatfield", 
+              },
+              {
+                title:  "Taking Over (unmixed demo)",
+                artist: "shay",
+              },
+              { 
+                title:  "Holding On",
+                artist: "Cannons",
+              },
+              {
+                title:  "Higher",
+                artist: "Vali",
+              },
+              {
+                title:  "Last Day",
+                artist: "Natalie Walker",
+              },
+              {
+                title:  "Feels Good",
+                artist: "Coco Bvtter",
+              },
+              {
+                title:  "Body Speak",
+                artist: "Leo Islo",
+              },
+              {
+                title: "Enough",
+                artist: "Aisha Badru",
+              },
+            ],
+          },
+          {
+            episodeTitle: "Picture's Up",
+            song: [
+              {
+                title:  "Keep It Together",
+                artist: "Brian Austin Green",
+              },
+              {
+                title:  "summer in the city",
+                artist: "Aaron Taos",
+              },
+              {
+                title:  "Misery",
+                artist: "Michigander",
+              },
+              {
+                title:  "How Do You Talk to an Angel?",
+                artist: "The Heights",
+              },
+              {
+                title:  "Bad Habits",
+                artist: "Madame Gandhi [Feat. Zach Witness] ",
+              },
+              {
+                title:  "Saint's Revel",
+                artist: "Panda Transport",
+              },
+              {
+                title:  "Back In The Saddle Again",
+                artist: "Gene Autry",
+              },
+            ],
+          },
+          {
+            episodeTitle: "The Long Wait",
+            song: [
+              {   
+                title:  "Go Where It Takes Us",
+                artist: "Amanda Paris, J-Rob MD",
+              },
+              {
+                title:  "All My Friends",
+                artist: "Madeon",
+              },
+              {
+                title:  "Here and Now",
+                artist: "Letters to Cleo",
+              },
+              {
+                title:  "Love Me the Way",
+                artist: "Tullio",
+              },
+              {
+                title:  "Heart Shaped",
+                artist: "Shimmers",
+              },
+              {
+                title:  "Star",
+                artist: "TR Faruk",
+              },
+              {
+                title:  "Louder",
+                artist: "CVBZ",
+              },
+              {
+                title: "Sunsay",
+                artist:"Cape Cod, Richard Farrell",
+              },
+              {
+                title:  "Round and Round",
+                artist: "Cannons",
+              },
+              {
+                title:  "Beverly Hills",
+                artist: "Weezer",
+              },
+            ]
+          }
+        ]
       }
     ],
     basedOn: true,
