@@ -2950,6 +2950,112 @@ export const kidsSeries: Show[] = [
         id: "good-luck-charlie", 
         title: "Good Luck Charlie",
         posterUrl: "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/good_luck_charlie.png",
+        mainCharacters: [
+          {
+            id: "teddy-duncan",
+            firstName: "Theodora",
+            middleName: "R.", 
+            lastName: "Duncan",
+            imageUrl: "https://i.pinimg.com/736x/22/f2/49/22f24906ecec67601a1a1f1323939644.jpg",
+            posterUrl: "https://static.wikia.nocookie.net/disney/images/d/d8/Teddyseason4.png/revision/latest?cb=20240521083955",
+            actor: "Bridgit Mendler",
+            nickname: ["Teddy"],
+            goesByNickname: true,
+            promo: true,
+          },
+          {
+            id: "amy-duncan",
+            firstName: "Amy",
+            lastName: "Duncan",
+            imageUrl: "https://i.pinimg.com/1200x/a8/31/d2/a831d2fdc9e75b65ff52c78fcdea3e27.jpg",
+            posterUrl: "https://preview.redd.it/amy-duncan-is-one-of-the-worst-mothers-in-dc-v0-pgr8697wvezf1.jpeg?width=640&crop=smart&auto=webp&s=2bc54a83f8ac138d03dbe75fc43cb00fc3b5c3d2",
+            actor: "Leigh-Allyn Baker",
+            promo: true,
+          },
+          {
+            id: "gabe-duncan",
+            firstName: "Gabriel",
+            lastName: "Duncan",
+            imageUrl: "https://i.pinimg.com/1200x/64/2e/f0/642ef0415a10648cd0d6bc4774d582f0.jpg",
+            posterUrl: "https://static.wikia.nocookie.net/disney/images/5/57/Gabe_Duncan.jpg/revision/latest?cb=20180828004807",
+            actor: "Bradley Steven Perry",
+            nickname: ["Gabe"],
+            goesByNickname: true,
+            promo: true,
+          },
+          {
+            id: "charlie-duncan",
+            firstName: "Charlotte",
+            lastName: "Duncan",
+            imageUrl: "https://i.pinimg.com/736x/75/42/45/754245fdaf7a88adc8e77da2f0f5a630.jpg",
+            posterUrl: "https://static.wikia.nocookie.net/fanfic/images/a/ab/MiaTalerico.jpg/revision/latest?cb=20150313053704",
+            actor: "Mia Talerico",
+            nickname: ["Charlie"],
+            goesByNickname: true,
+            promo: true,
+          },
+          {
+            id: "bob-duncan",
+            firstName: "Robert",
+            middleName: "William",
+            lastName: "Duncan",
+            imageUrl: "https://i.pinimg.com/736x/f3/a8/74/f3a8748c24ddc54b38fe4130e306335e.jpg",
+            actor: "Eric Allan Kramer",
+            nickname: ["Bob"],
+            goesByNickname: true,
+            promo: true,
+          },
+          {
+            id: "pj-duncan",
+            firstName: "Potty John",
+            lastName: "Duncan",
+            imageUrl: "https://i.pinimg.com/1200x/37/0f/ad/370faddcb49e2025e2f8625651549d68.jpg",
+            actor: "Jason Dolley",
+            nickname: ["PJ"],
+            goesByNickname: true,
+            promo: true,
+          },
+          {
+            
+            id: "toby-duncan",
+            firstName: "Toby",
+            middleName: "Wan Kenobi",
+            lastName: "Duncan",
+            imageUrl: "https://i.pinimg.com/736x/53/89/4a/53894adae553984206602f6ca09e79ef.jpg",
+            posterUrl: "https://static.wikia.nocookie.net/goodluckcharlie/images/4/4d/Toby_Season_4.png/revision/latest?cb=20130622131620",
+            actor: [
+              "Jake Cinoa (season 3)",
+              "Logan Moreau (season 4)"
+            ],
+            promo: true, 
+          }
+        ],
+        cast: [
+          {
+            actor: "Bridgit Mendler",
+            character: "Teddy Duncan",
+          },
+          {
+            actor: "Leigh-Allyn Baker",
+            character: "Amy Duncan",
+          },
+          {
+            actor: "Bradley Steven Perry",
+            character: "Gabe Duncan",
+          },
+          {
+            actor: "Mia Talerico",
+            character: "Charlie Duncan",
+          },
+          {
+            actor: "Eric Allan Kramer",
+            character: "Bob Duncan",
+          },
+          {
+            actor: "Jason Dolley",
+            character: "PJ Duncan",
+          },
+        ],
         country: "United States",
         firstAirDate: "April 4, 2010",
         lastAirDate: "February 16, 2014",
@@ -2960,7 +3066,18 @@ export const kidsSeries: Show[] = [
         numberOfEpisodes: 97,
         tags: ["Comedy", "Family", "Drama"],
         network: ["Disney Channel"],
-        related: ["Good Luck Charlie: It's Christmas!", "Good Luck Charlie: The Road Trip", "Best of Luck Nikki"],
+        related: [
+          { 
+            id: "good-luck-charlie-it's-christmas!",
+            title: "Good Luck Charlie: It's Christmas!", 
+            posterUrl: "https://m.media-amazon.com/images/M/MV5BM2NiNzM4MmUtNTIzYi00ZjM0LTkzZWUtODMzOGI2Zjc2ZDdmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+          },
+          { 
+            id: "best-of-luck-nikki",
+            title: "Best of Luck Nikki",
+            posterUrl: "https://m.media-amazon.com/images/M/MV5BOWYxZTZhNTAtNzdkZi00ODAyLTgyMzItZDIxZWEyZmUxMjI2XkEyXkFqcGc@._V1_.jpg", 
+          }
+        ],
     },
     {
         id: "kc-undercover", 
