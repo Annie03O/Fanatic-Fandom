@@ -52,7 +52,7 @@ export const RelatedPortal = ({show, page, title}: Props) => {
 
   // Renderar en grid-rad
   const renderRow = (items: typeof visible, cols: number) => (
-    <section className={`grid-cols-1 ${gridBase} ${colsClass(cols)} mt-4 flex `}>
+    <section className={`flex justify-center gap-5`}>
       {items.map((r) => (
         <button
           key={r.id}
@@ -66,7 +66,7 @@ export const RelatedPortal = ({show, page, title}: Props) => {
             <img
               src={r.posterUrl}
               alt={`${r.id} `}
-              className={`${page === true ? "" : "w-[250px] md:h-[200px] md:w-[150px]"}  object-center object-fit`}
+              className="w-[250px] md:h-[200px] md:w-[150px]  object-center object-fit"
             />
           </article>
         </button>
