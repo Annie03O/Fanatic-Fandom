@@ -6999,10 +6999,12 @@ export const dramaSeries: Show[] = [
     related: [
       {
         id: "beverly-hills-90210",
+        title: "Beverly Hills, 90210",
         posterUrl: "https://static1.colliderimages.com/wordpress/wp-content/uploads/sharedimages/2024/04/beverly-hills-90210-tv-show-poster.jpg?q=49&fit=contain&w=480&dpr=2",
       },
       {
         id: "models-inc.",
+        title: "Models, Inc",
         posterUrl: "https://m.media-amazon.com/images/M/MV5BZWRmYjFhMDgtN2RiNS00NjI5LTkzNjctMTY2NjI4ZTI5NGQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       },
     ],
