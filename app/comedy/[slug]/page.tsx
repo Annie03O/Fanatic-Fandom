@@ -3,12 +3,9 @@ import { comedySeriesWithSlug } from "@/app/functions/WithSlug/comedySeriesWithS
 
 
 export function generateStaticParams() {
-    return comedySeriesWithSlug.items.flatMap((series) =>
-        series.mainCharacters.map((character) => ({
-            slug: series.slug,
-            id: character.id,
-        }))
-    );
+    return comedySeriesWithSlug.items.map((series) => ({
+        slug: series.slug,
+    }));
 }
 
 
