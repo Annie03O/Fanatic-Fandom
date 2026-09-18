@@ -2950,6 +2950,15 @@ export const kidsSeries: Show[] = [
         id: "good-luck-charlie", 
         title: "Good Luck Charlie",
         posterUrl: "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/good_luck_charlie.png",
+        creator: [
+          "Phil Baker",
+          "Drew Vaupen",
+        ],
+        themeSong: '"Hang in there baby" by Bridger Mendler',
+        composer: [
+          "Stephen R. Phillips",
+          "Tim P."
+        ],
         mainCharacters: [
           {
             id: "teddy-duncan",
@@ -3056,6 +3065,325 @@ export const kidsSeries: Show[] = [
             character: "PJ Duncan",
           },
         ],
+        seasons: [
+          {
+            id: "good-luck-charlie-season-1",
+            posterUrl: "https://lumiere-a.akamaihd.net/v1/images/p_goodluckcharlie_19881_a60703ac.jpeg?region=0%2C0%2C540%2C810",
+            seasonNumber: 1,
+            mainCast: [
+              {
+                actor: "Bridgit Mendler",
+                character: "Teddy Duncan",
+              },
+              {
+                actor: "Leigh-Allyn Baker",
+                character: "Amy Duncan",
+              },
+              {
+                actor: "Bradley Steven Perry",
+                character: "Gabe Duncan",
+              },
+              {
+                actor: "Mia Talerico",
+                character: "Charlie Duncan",
+              },
+              {
+                actor: "Eric Allan Kramer",
+                character: "Bob Duncan",
+              },
+              {
+                actor: "Jason Dolley",
+                character: "PJ Duncan",
+              },
+            ], 
+            recurring: [
+              { 
+                actor: "Raven Goodwin",
+                character: "Ivy Wentz"
+              },
+              { 
+                actor: "Micah Williams",
+                character: "Emmett Heglin"
+              },
+              { 
+                actor: "Shane Harper",
+                character: "Spencer Walsh",
+              },
+              { 
+                actor: "Patricia Belcher",
+                character: "Mrs. Dabney"
+              },
+              { 
+                actor: "Samantha Boscarino",
+                character: "Skyler"
+              },
+              { 
+                actor: "G. Hannelius",
+                character: "Jo Keener"
+              },
+              { 
+                actor: "William Allen Young",
+                character: "Harry Wentz"
+              },
+              { 
+                actor: "Ellia English",
+                character: "Mary Lou Wentz"
+              },
+            ],
+            episodeCount: 26,
+            premiereEpisode: "Sunny Date",
+            finaleEpisode: "Driving Mrs. Dabney",
+            premiereDate: "April 4, 2010",
+            finaleDate: "January 30, 2011",
+            nextSeason: {
+              id: "good-luck-charlie-season-2",
+              seasonNumber: 2,
+            },
+            network: "Disney Channel",
+          },
+          {
+            id: "good-luck-charlie-season-2",
+            posterUrl: "https://images.justwatch.com/poster/175403206/s718/season-2.jpg",
+            seasonNumber: 2,
+            mainCast: [
+              {
+                actor: "Bridgit Mendler",
+                character: "Teddy Duncan",
+              },
+              {
+                actor: "Leigh-Allyn Baker",
+                character: "Amy Duncan",
+              },
+              {
+                actor: "Bradley Steven Perry",
+                character: "Gabe Duncan",
+              },
+              {
+                actor: "Mia Talerico",
+                character: "Charlie Duncan",
+              },
+              {
+                actor: "Eric Allan Kramer",
+                character: "Bob Duncan",
+              },
+              {
+                actor: "Jason Dolley",
+                character: "PJ Duncan",
+              },
+            ],
+            recurring: [
+              { 
+                actor: "Raven Goodwin",
+                character: "Ivy Wentz"
+              },
+              { 
+                actor: "Micah Williams",
+                character: "Emmett Heglin"
+              },
+              { 
+                actor: "Shane Harper",
+                character: "Spencer Walsh",
+              },
+              { 
+                actor: "Patricia Belcher",
+                character: "Mrs. Dabney"
+              },
+              { 
+                actor: "Samantha Boscarino",
+                character: "Skyler"
+              },
+              { 
+                actor: "G. Hannelius",
+                character: "Jo Keener"
+              },
+              { 
+                actor: "William Allen Young",
+                character: "Harry Wentz"
+              },
+              { 
+                actor: "Ellia English",
+                character: "Mary Lou Wentz"
+              },
+            ], 
+            episodeCount: 30,
+            premiereEpisode: "Charlie is 2!",
+            finaleEpisode: "Teddy on Ice",
+            premiereDate: "February 20, 2011",
+            finaleDate: "November 27, 2011",
+            previousSeason: {
+              id: "good-luck-charlie-season-1",
+              seasonNumber: 1,
+            },
+            nextSeason: {
+              id: "good-luck-charlie-season-3",
+              seasonNumber: 3,
+            },
+            network: "Disney Channel",
+          },
+          {
+            id: "good-luck-charlie-season-3",
+            posterUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa13frz2cWm2fl_3q-_am6zZh9GRMZA7uZjOzXjeSOaw&s=10",
+            seasonNumber: 3,
+            mainCast: [
+              {
+                actor: "Bridgit Mendler",
+                character: "Teddy Duncan",
+              },
+              {
+                actor: "Leigh-Allyn Baker",
+                character: "Amy Duncan",
+              },
+              {
+                actor: "Bradley Steven Perry",
+                character: "Gabe Duncan",
+              },
+              {
+                actor: "Mia Talerico",
+                character: "Charlie Duncan",
+              },
+              {
+                actor: "Eric Allan Kramer",
+                character: "Bob Duncan",
+              },
+              {
+                actor: "Jason Dolley",
+                character: "PJ Duncan",
+              },
+            ], 
+             recurring: [
+              { 
+                actor: "Raven Goodwin",
+                character: "Ivy Wentz"
+              },
+              { 
+                actor: "Micah Williams",
+                character: "Emmett Heglin"
+              },
+              { 
+                actor: "Shane Harper",
+                character: "Spencer Walsh",
+              },
+              { 
+                actor: "Patricia Belcher",
+                character: "Mrs. Dabney"
+              },              { 
+                actor: "William Allen Young",
+                character: "Harry Wentz"
+              },
+              { 
+                actor: "Ellia English",
+                character: "Mary Lou Wentz"
+              },
+            ], 
+            episodeCount:23,
+            premiereEpisode: "Make room for the baby",
+            finaleEpisode: "All Fall Down",
+            premiereDate: "May 6, 2012",
+            finaleDate: "January 20, 2013",
+            previousSeason: {
+              id: "good-luck-charlie-season-2",
+              seasonNumber: 2,
+            },
+            nextSeason: {
+              id: "good-luck-charlie-season-4",
+              seasonNumber: 4,
+            },
+            network: "Disney Channel",
+          },
+          {
+            id: "good-luck-charlie-season-4",
+            posterUrl: "https://images.justwatch.com/poster/175403205/s718/season-4.jpg",
+            mainCast: [
+              {
+                actor: "Bridgit Mendler",
+                character: "Teddy Duncan",
+              },
+              {
+                actor: "Leigh-Allyn Baker",
+                character: "Amy Duncan",
+              },
+              {
+                actor: "Bradley Steven Perry",
+                character: "Gabe Duncan",
+              },
+              {
+                actor: "Mia Talerico",
+                character: "Charlie Duncan",
+              },
+              {
+                actor: "Eric Allan Kramer",
+                character: "Bob Duncan",
+              },
+              {
+                actor: "Jason Dolley",
+                character: "PJ Duncan",
+              },
+            ], 
+            recurring: [
+              { 
+                actor: "Raven Goodwin",
+                character: "Ivy Wentz"
+              },
+              { 
+                actor: "Micah Williams",
+                character: "Emmett Heglin"
+              },
+              { 
+                actor: "Shane Harper",
+                character: "Spencer Walsh",
+              },
+              { 
+                actor: "Patricia Belcher",
+                character: "Mrs. Dabney"
+              },
+              { 
+                actor: "Samantha Boscarino",
+                character: "Skyler"
+              },
+              { 
+                actor: "William Allen Young",
+                character: "Harry Wentz"
+              },
+              { 
+                actor: "Ellia English",
+                character: "Mary Lou Wentz"
+              },
+            ], 
+            seasonNumber: 4,
+            episodeCount:24,
+            premiereEpisode: "Duncan Dream House",
+            finaleEpisode: "Good Bye Charlie",
+            premiereDate: "April 18, 2013",
+            finaleDate: "February 16th, 2014",
+            previousSeason: {
+              id: "good-luck-charlie-season-3",
+              seasonNumber: 3,
+            },
+            network: "Disney Channel",
+          },
+        ],
+        soundtrack: [
+          {
+            id: "good-luck-charlie-soundtrack-season-1",
+            noSeason: 1,
+            noImage: true,
+          },
+          {
+            id: "good-luck-charlie-soundtrack-season-2",
+            noSeason: 2,
+            noImage: true,
+          },
+          {
+            id: "good-luck-charlie-soundtrack-season-3",
+            noSeason: 3,
+            noImage: true,
+          },
+          {
+            id: "good-luck-charlie-soundtrack-season-4",
+            noSeason: 4,
+            noImage: true,
+          },
+        ],
         country: "United States",
         firstAirDate: "April 4, 2010",
         lastAirDate: "February 16, 2014",
@@ -3064,6 +3392,13 @@ export const kidsSeries: Show[] = [
         plot: "The Duncan family navigates the ups and downs of family life while raising their youngest daughter, Charlie. The show follows the family's adventures and challenges as they try to balance work, school, and personal lives.",
         numberOfSeasons: 4,
         numberOfEpisodes: 97,
+        executive: [
+          "Dan Staley",
+          "Phil Baker",
+          "Drew Vaupen",
+        ],
+        producer: "Pixie Wespiser",
+        prodCompanies: "It's a Laugh Productions",
         tags: ["Comedy", "Family", "Drama"],
         network: ["Disney Channel"],
         related: [

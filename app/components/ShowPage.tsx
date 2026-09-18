@@ -11,6 +11,7 @@ import RelatedPortal from "./RelatedPortal";
 import { EpisodeBreakdown } from "./Seasons/Episodes/EpisodeBreakdown";
 import { useState } from "react";
 import { SoundtrackBreakDown } from "./Music/SoundtrackBreakdown";
+import { crimeSeriesWithSlug } from "../functions/WithSlug/crimeSeriesWithSlug";
 
 type ShowPageProps = {
     genre: "drama" | "kids" | "crime" | "comedy";
@@ -29,12 +30,15 @@ const ShowPage = ({genre}: ShowPageProps) => {
 
     } else if (genre === "kids") {
         series = kidsSeriesWithSlug.items.find((s) => s.slug === slug)
+    } else if (genre === "crime") {
+        series = crimeSeriesWithSlug.items.find((s) => s.slug === slug)
     }
     
     const cast = series?.cast ?? [];
     const related = series?.related?.[0];
     const relatedShow = related as { title?: string; id?: string } | undefined;
     const seasons = series?.seasons ?? [];
+    const movies = series?.movies ?? [];
     const episodes = seasons.length === 1
         ? (seasons[0]?.episodeBreakdown ?? [])
         : [];
@@ -66,7 +70,7 @@ const ShowPage = ({genre}: ShowPageProps) => {
                                       </>
                                   ) : (
                                     <section className="flex flex-col">
-                                      <SeasonsPortals show={series} page={false} />
+                                      {seasons.length > 0 ?  <SeasonsPortals show={series} page={false} /> : movies ? "" : ""}
                                       <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true} />
                                     </section>
                                   )}

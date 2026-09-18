@@ -4,7 +4,7 @@ import { comedySeriesWithSlug } from "@/app/functions/WithSlug/comedySeriesWithS
 
 export function generateStaticParams() {
     return comedySeriesWithSlug.items.flatMap((series) =>
-        series.mainCharacters.map((character) => ({
+    (series.mainCharacters ?? []).map((character) => ({
             slug: series.slug,
             id: character.id,
         }))

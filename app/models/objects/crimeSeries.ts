@@ -2,10 +2,111 @@ import { Show } from "../types/Show";
 
 export const crimeSeries: Show[] = [
 {
-    id: "johan-falk",
-    title:" Johan Falk ",
+    id: "johan-falk-franchise",
+    title:" Johan Falk (Franchise)",
     country: "Sweden",
     language: "Swedish",
+    mainCharacters: [
+       {
+           id: "johan-Falk",
+           firstName: "Johan",
+           lastName: "Falk",
+           imageUrl: "https://johanfalkfilmer.se/wp-content/uploads/2024/11/large_a319fc7515f9d9c5223fb900707c22e3-eklund-edited.jpg",
+           actor: "Jakob Eklund",
+           promo: true,
+       },
+       {
+            id: "frank-wagner",
+            firstName: "Frank", 
+            lastName: "Wagner",
+            imageUrl: "https://i.pinimg.com/564x/66/d1/a6/66d1a642a6e132cba6aa8de4741f8176.jpg",
+            actor: "Joel Kinnaman",
+            promo: true,
+       },
+       {
+           id: "patrik-agrell",
+           firstName: "Patrik",
+           lastName: "Agrell",
+           imageUrl: "https://pbs.twimg.com/profile_images/1279207464613928963/Jc55dVq0_400x400.jpg",
+           actor: "Mikael Tornving",
+           promo: true,
+       },
+       { 
+           id: "sophie-nordh",
+           firstName: "Sophie",
+           lastName: "Nordh",
+           imageUrl: "https://static.bonniernews.se/images/1c/92/1c92b88f645f4382aedda5354ef62362/838@40.jpg",
+           actor: "Meliz Karlge",
+           promo: true,
+
+       },
+       {
+           id: "seth-rydell",
+           firstName: "Seth",
+           lastName: "Rydell",
+           imageUrl: "https://www.magasinetparagraf.se/wp-content/uploads/content/portratt/gangledaren-som-polisinformator/NarbildGronTrojaStaende.jpg",
+           actor: "Jens Hultén",
+           promo: true,
+       },
+       {
+            id: "dick-jorgensen",
+            firstName: "Dick", 
+            lastName: "Jörgensen",
+            imageUrl: "https://image.pmgstatic.com/cache/resized/w663/files/images/film/photos/000/314/314286_63b080.jpg",
+            actor: "André Sjöberg",
+            promo: true,
+       },
+       {
+           id: "lasse-karlsson",     
+           firstName: "Lars", 
+           lastName: "Karlsson",
+           imageUrl: "https://static.bonniernews.se/images/ef/26/ef26b96a3b7e4aee9abfe0cd4e336a11/1300@90.jpg",
+           actor:   "Henrik Norlén",
+           promo: true,
+       },
+       {
+           id:        "helen-falk",
+           firstName: "Helén",
+           lastName:   "Falk",
+           imageUrl: "https://cdn.moviepilot.de/files/39b5f2b97834996ed8cefee52521be072a89fafffb136edc8773bd53febd/copyright/GSI-Spezialeinheit-Goeteborg-Gegen-die-Zeit-2.jpg",
+           actor:      "Marie Richardson",
+           promo: true,
+       },
+    ],
+    cast: [
+        {
+            actor:     "Jakob Eklund",
+            character: "Johan Falk",
+       },
+       {
+            actor:    "Joel Kinnaman",
+            character:"Frank Wagner",
+       },
+       {
+            actor:     "Mikael Tornving",
+            character: "Patrik Agrell",
+       },
+       { 
+            actor:     "Meliz Karlge",
+            character: "Sophie Nordh",
+       },
+       {
+            actor:     "Jens Hultén",
+            character: "Seth Rydell",
+       },
+       {
+            actor:    "André Sjöberg",
+            character:"Dick Jörgensen",
+       },
+       {
+            actor:     "Henrik Norlén",
+            character: "Lasse Karlsson",
+       },
+       {
+            actor:    "Marie Richardson",
+            character:"Helén Falk",
+       },
+    ],
     prodLocation: ["Sweden"],
     posterUrl: "https://image.tmdb.org/t/p/original/qRhEJUcOVtgMEno5LEkZZ190vDy.jpg",
     firstAirDate: "October 29, 1999",
