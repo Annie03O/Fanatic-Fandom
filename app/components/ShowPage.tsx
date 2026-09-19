@@ -12,6 +12,7 @@ import { EpisodeBreakdown } from "./Seasons/Episodes/EpisodeBreakdown";
 import { useState } from "react";
 import { SoundtrackBreakDown } from "./Music/SoundtrackBreakdown";
 import { crimeSeriesWithSlug } from "../functions/WithSlug/crimeSeriesWithSlug";
+import { MoviePortal } from "./Seasons/MoviePortal";
 
 type ShowPageProps = {
     genre: "drama" | "kids" | "crime" | "comedy";
@@ -56,8 +57,8 @@ const ShowPage = ({genre}: ShowPageProps) => {
                 <section className=" flex flex-col-reverse md:flex-row border w-full ">
                     <section className="grid grid-cols-8 col-start-1 row-start-1 row-span-10 border h-fit md:col-span-8 w-full">
                        <section className="col-start-1  md:row-start-1 col-span-8">
-                          <h2>Plot</h2>
-                          <span>{series.plot}</span>
+                          <h2 className="text-3xl">Plot</h2>
+                          <span className="block w-2/3">{series.plot}</span>
                        </section>
                        <section className="col-start-1 lg:row-start-3 lg:row-span-5 col-span-10 lg:col-span-4 w-full bg-blue-200 flex flex-col justify-center items-center gap-3">
                           <CharacterPortals genre={genre} show={series} page={false}/>
@@ -70,7 +71,7 @@ const ShowPage = ({genre}: ShowPageProps) => {
                                       </>
                                   ) : (
                                     <section className="flex flex-col">
-                                      {seasons.length > 0 ?  <SeasonsPortals show={series} page={false} /> : movies ? "" : ""}
+                                      {seasons.length > 0 ?  <SeasonsPortals show={series} page={false} /> : movies.length > 0 ? <MoviePortal show={series} page={false} genre={genre}/> : ""}
                                       <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true} />
                                     </section>
                                   )}
