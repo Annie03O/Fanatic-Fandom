@@ -65,7 +65,7 @@ export const comedySeries:Show[] = [
       firstAirDate: "2009",
       lastAirDate: "2015",          
       plot: "The absurd antics of an Indiana town's public officials as they pursue sundry projects to make their city a better place.",
-      creators:[
+      creator:[
         "Greg Daniels",
         "Michael Schur"
       ],
@@ -546,23 +546,31 @@ tags: ["Sitcom"]
         
     }, 
         {
-            character: "Robin Scherbatsky",
+            id: "robin-scherbatsky",
+            firstName: "Robin",
+            lastName: "Scherbatsky",
             actor: "Cobie Smulders",
         
     }, 
         {
+            id: "barney-stinson",
+            firstName: "Barney",
+            lastName: "Stinson",
             actor: "Neil Patrick Harris",
-            character: "Barney Stinson"
         
     }, 
         {
+            id: "lily-aldrin",
+            firstName: "Lily",
+            lastName:"Aldrin",
             actor: "Alyson Hannigan",
-            character: "Lily Aldrin",
         
     }, 
         {
+            id: "marshall-eriksen",
+            firstName: "Marshall",
+            lastName: "Eriksen",
             actor: "Jason Segel",
-            character: "Marshall Eriksen"
         
     },
     ],
@@ -585,7 +593,7 @@ tags: ["Sitcom"]
         }, 
         {
             actor: "Jason Segel",
-            character: "Marshall Eriksen"
+            character: "Marshhall Eriksen"
         },
     ],
     tags: ["Sitcom"]
