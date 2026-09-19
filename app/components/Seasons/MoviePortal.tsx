@@ -1,0 +1,164 @@
+"use client";
+
+import { useParams, useRouter } from "next/navigation";
+import type { Show } from "../../models/types/Show";
+import { getTwoRowSeasLayout as getTwoRowLayout } from "../../functions/getTwoRowSeasLayout";
+
+type Props = { 
+  show: Show; 
+  page: boolean;
+  genre: "drama" | "crime" | "kids" | "comedy"
+ };
+
+export const MoviePortal = ({ show, page, genre }: Props) => {
+  const { slug } = useParams<{ slug: string }>();
+  const router = useRouter();
+
+  const movies = show?.movies ?? [];
+  // På startsidan: visa max 8 om det finns fler än 10
+  const visible =
+    page === false && movies.length > 10 ? movies.slice(0, 6) : movies
+
+  const pushMovie = (id: string) => router.push(`/${genre}/${slug}/movies/${id}`);
+
+  const colsClass = (n: number) => {
+    const cols = Math.max(1, Math.min(5, n)); // clamp 1..8
+    return cols === 2
+      ? "md:grid-cols-2"
+      : cols === 3
+      ? "md:grid-cols-3"
+      : cols === 4
+      ? "md:grid-cols-2 lg:grid-cols-4"
+      : cols === 5
+      ? "md:grid-cols-5"
+      : cols === 6
+      ? "md:grid-cols-6"
+      : cols === 8
+      ? "md:grid-cols-8"
+      : "";
+  };
+
+  const gridBase = "grid gap-4 justify-items-center";
+
+  const hasseason = visible.some((s) => s.season != null);
+
+  const groups = hasseason
+    ? ([
+        {
+          key: 1,
+          title: "Season 1",
+          items: visible.filter((s) => s.season === 1),
+        },
+        {
+          key: 2,
+          title: "Season 2",
+          items: visible.filter((s) => s.season === 2),
+        },
+        {
+          key: 3,
+          title: "Season 3",
+          items: visible.filter((s) => s.season === 3),
+        },
+      ] as const).filter((g) => g.items.length > 0)
+    : null;
+
+  // Renderar en grid-rad
+  const renderRow = (items: typeof visible, cols: number) => (
+    <section className={`grid-cols-1 ${gridBase} ${colsClass(cols)} mt-4`}>
+      {items.map((s) => (
+        <button
+          key={s.base.id}
+          type="button"
+          onClick={() => pushMovie(s.base.id!)}
+          className="border w-fit"
+        >
+          <article className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative"}>
+            
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={s.base.posterUrl}
+              alt={`${s.base.title} `}
+              className={`${page === true ? "h-[250px] w-[200px]" : "w-[250px] md:h-[200px] md:w-[150px]"} object-cover object-center`}
+            />
+          </article>
+         </button>
+      ))}
+    </section>
+  );
+
+  const renderGridFor = (items: typeof visible) => {
+    const layout = getTwoRowLayout(items.length);
+
+    console.log("items:", items.length);
+    console.log("layout:", layout);
+
+
+    const top = items.slice(0, layout.splitAt);
+
+    const middle =
+      layout.rows === 3 ? items.slice(layout.splitAt, layout.splitAt2) : [];
+
+    const bottom =
+      layout.rows === 3
+        ? items.slice(layout.splitAt2)
+        : layout.rows === 2
+        ? items.slice(layout.splitAt)
+        : [];
+
+    return (
+      <>
+        {/* TOP */}
+        {top.length > 0 && renderRow(top, layout.topCols)}
+
+        {/* MIDDLE */}
+        {layout.rows === 3 &&
+          middle.length > 0 &&
+          renderRow(middle, layout.middleCols)}
+
+        {/* BOTTOM */}
+        {layout.rows === 2 && bottom.length > 0 && renderRow(bottom, layout.bottomCols)}
+        {layout.rows === 3 && bottom.length > 0 && renderRow(bottom, layout.bottomCols)}
+      </>
+    );
+  };
+
+  return (
+    <section className={page ? "w-full flex flex-col justify-center items-center" : " border w-full"}>
+      <section
+        className={
+          page
+            ? "w-[90%] flex flex-col justify-center items-center"
+            : "w-full border flex flex-col justify-center items-center"
+        }
+      >
+        <h1 className="text-5xl text-center">The movies</h1>
+
+        {/* Om season finns: rendera gruppvis */}
+        { groups ? (
+          <section className="w-[60%] mt-6 flex flex-wrap gap-8">
+            {groups.map((g) => (
+              <section key={String(g.key)} className="w-full">
+                <h1 className="text-center text-4xl">{g.title}</h1>
+                {renderGridFor(g.items)}
+              </section>
+            ))}
+          </section>) : (
+          // Annars: rendera som vanligt
+          renderGridFor(visible)
+        )}
+
+        {/* VIEW ALL */}
+        <section className="flex items-center justify-center mt-4">
+          {page === false && movies.length > 10 ? (
+            <button
+              className="underline"
+              onClick={() => router.push(`/${genre}/${slug}/movies`)}
+            >
+              View All Movies
+            </button>
+          ) : null}
+        </section>
+      </section>
+    </section>
+  );
+};
