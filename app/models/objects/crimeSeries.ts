@@ -4,6 +4,7 @@ export const crimeSeries: Show[] = [
 {
     id: "johan-falk-franchise",
     title:" Johan Falk (Franchise)",
+    plot: "The overarching plot centers on Falk transitioning from a standard and frustrated street/national-intervention cop into a key member of GSI (Gruppen För Särskilda) or Gothenburg's special operations unit for organized crime). Throughout 20 films released between 1999 and 2015, the narrative tracks the collision between institutional law enforcement and sophisticated transnational mafia syndicates, Eastern European gangs, and local Swedish organized crime.",
     country: "Sweden",
     language: "Swedish",
     mainCharacters: [
@@ -72,6 +73,224 @@ export const crimeSeries: Show[] = [
            actor:      "Marie Richardson",
            promo: true,
        },
+    ],
+    movies: [
+      	{
+            base: {
+                id: "johan-falk-gsi–gruppen-for-sarskilda-insatser",
+                title: "Johan Falk: GSI – Gruppen för särskilda insatser",
+                posterUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIxZDl4Z0BQzYQKPYIAg7wook4XHzTF4YYwEb1OFLZVA&s=10",
+                director: "Anders Nilsson",	
+                writtenBy: ["Anders Nilsson", "Joakim Hansson"], 
+                firstAirDate: "June 26, 2009",
+                country: "Sweden",
+                language: "Swedish",
+            },
+            number: 1,
+            season: 1,
+        },
+        {
+            base: {
+                id: "johan-falk-vapenbröder",
+                title: "Johan Falk: Vapenbröder",
+                posterUrl: "https://www.filmtipset.se/uploads/2020/oko3cguzxe6qudpb.jpg",	
+                director: "Anders Nilsson",	
+                writtenBy: ["Anders Nilsson", "Joakim Hansson"],	
+                firstAirDate: "September 23, 2009",
+            },
+            number: 2,
+            season: 1,
+        },
+        {
+            base: {
+                id: "johan-falk-national-target",
+                title: "Johan Falk: National Target",
+                posterUrl: "https://m.media-amazon.com/images/M/MV5BYTIyMzc4Y2QtNzk3ZC00Y2I4LThkOTktNWE5M2QyMmRjMGM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+                director: "Richard Holm",	
+                writtenBy: "Björn Carlström",	
+                firstAirDate: "October 7, 2009",
+            },
+            number: 3,
+            season: 1,
+        },
+        {
+            base: {
+                id: "johan-falk-leo-gaut",	
+                title: "Johan Falk: Leo Gaut",
+                posterUrl: "https://i-viaplay-com.akamaized.net/viaplay-prod/728/576/1460135300-d9e6a60b83566f1597d4e67d9e0aa23071c09061_SE.jpg?width=400&height=600",
+                director: "Richard Holm",	
+                writtenBy: "Fredrik T Olsson",	
+                firstAirDate: "October 7, 2009",
+            },
+            number: 4,
+            season: 1.
+        },
+        {
+        	base: {
+                id: "johan-falk-operation-naktergal",	
+                title: "Johan Falk: Operation Näktergal",
+                posterUrl: "https://www.filmtipset.se/uploads/2020/8p7ivov3ezyd4j1s.jpg",
+                director: "Daniel Lind Lagerlöf",	
+                writtenBy: "Stefan Karlsson",	
+                firstAirDate: "November 4, 2009",  
+            },
+            number: 5,
+            season: 1,
+        },
+        {
+        	base: {
+                id: "johan-falk-de-fredlösa",	
+                title: "Johan Falk: De fredlösa",
+                posterUrl: "https://m.media-amazon.com/images/M/MV5BMTE2ZDUxZmQtNDI1Ny00YjM1LWJlMGMtNmNlNjFlYzI3NmRjXkEyXkFqcGc@._V1_.jpg",
+                director: "Daniel Lind Lagerlöf",	
+                writtenBy: "Fredrik T Olsson",	
+                firstAirDate: "November 4, 2009",
+            },
+            number: 6,
+            season: 1,
+        },
+        { 
+            base: { 
+                id: "johan falk-spelets-regler",
+                title: "Johan Falk: Spelets regler",
+                posterUrl: "https://m.media-amazon.com/images/M/MV5BMjQyM2M0MDEtODk5NC00YjE3LWE5NWYtNjc2ZjRmZDEzODUzXkEyXkFqcGc@._V1_.jpg",	
+                director: "Charlotte Brändström",	
+                writtenBy: [
+                    "Tage Åström", 
+                    "Viking Johansson"
+                ],
+                firstAirDate: "September 26, 2012",
+            },
+            number: 7,
+            season: 2,
+        },
+        { 
+            base: { 
+                id: "johan-falk-de-107-patrioterna",
+                title: "Johan Falk: De 107 patrioterna",
+                posterUrl: "https://c3687.eu-central-1.linodeobjects.com/2023/02/johan-falk-de-107-patrioterna.jpg",
+                director: "Anders Nilsson",	
+                writtenBy: [
+                    "Anders Nilsson", 
+                    "Joakim Hansson"
+                ],	
+                firstAirDate: "October 10, 2012",
+            },
+            number: 8,
+            season: 2,
+        },
+        { 
+            base: { 
+                id: "johan-falk-alla-råns-moder",
+                title: "Johan Falk: Alla råns moder",	
+                posterUrl: "https://m.media-amazon.com/images/M/MV5BYTFjMmM3NGItMWFhYi00MGY4LWE3NTAtNGZhMDYyNjFkMGY5XkEyXkFqcGc@._V1_.jpg",
+                director: "Anders Nilsson",	
+                writtenBy: "Tage Åström",	
+                firstAirDate: "October 24, 2012",
+            },
+            number: 9,
+            season: 2,
+            },
+            { 
+                base: { 
+                    id:"johan-falk-organizatsija-karayan",
+                    title: "Johan Falk: Organizatsija Karayan",	
+                    posterUrl: "https://www.kulturdelen.com/wp-content/uploads/2012/11/Johan-Falk-10.jpg",
+                    director: "Richard Holm",	
+                    writtenBy: "Viking Johansson",	
+                    firstAirDate: "November 7, 2012",
+                },
+                number: 10,
+                season: 2,
+            },
+           { 
+            base: { 
+                id: "johan-falk-barninfiltratören",
+                title: "Johan Falk: Barninfiltratören",
+                posterUrl: "https://m.media-amazon.com/images/M/MV5BMjQyM2M0MDEtODk5NC00YjE3LWE5NWYtNjc2ZjRmZDEzODUzXkEyXkFqcGc@._V1_.jpg",
+                director: "Richard Holm",	
+                writtenBy: "Viking Johansson",	
+                firstAirDate: "November 21, 2012",
+            },
+            number: 11,
+            season: 2,
+            },
+           { 
+                base: { 
+                    id: "johan-falk-kodnamn-lisa",
+                    title: "Johan Falk: Kodnamn Lisa",	
+                    posterUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1RAigbSLfW741EQhVLqZqxyMvIFPBwrDSjdXtpNe-ynSmWrragXHwuP8&s=10",
+                    director: "Charlotte Brändström",	
+                    writtenBy: [
+                        "Anders Nilsson", 
+                        "Viking Johansson"
+                    ],	
+                    firstAirDate: "March 15, 2013",
+                },
+                number: 12,
+                season: 2,
+            },
+                {
+                    base: {	
+                        id: "Johan Falk: Ur askan i elden",	
+                        posterUrl: "https://jamesbond007.se/content/produkter/Jens-Hulten-Johan-Falk-Ur-askan-i-elden-2015.jpg",
+                        director: "Richard Holm",
+                        writtenBy: "Anders Nilsson	Viking Johansson",	
+                        firstAirDate: "June 29, 2015"
+                    },
+                    number: 13,	
+                    season: 3,
+                },
+                {
+                    base: {	
+                        id: "Johan Falk: Tyst diplomati",	
+                        posterUrl: "https://m.media-amazon.com/images/M/MV5BZDc5YWRiMDktZDJmMS00MTBiLTg5OWMtMDBlNTgxNGZhMDIwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+                        director: "Peter Lindmark",	
+                        writtenBy: [
+                            "Richard Holm", 
+                            "Tage Åström",
+                        ],	
+                        firstAirDate: "July 13, 2015"
+                    },
+                    number: 14,	
+                    season: 3,
+                },
+               {
+                    base: {	
+                        id: "Johan Falk: Blodsdiamanter",	
+                        posterUrl: "https://www.cafe.se/app/uploads/2025/06/img_7885.jpeg",
+                        director: "Peter Lindmark",
+                        writtenBy: "Peter Lindmark",	
+                        firstAirDate: "July 27, 2015"
+                    },
+                    number: 15,	
+                    season: 3,
+                },
+               {
+                    base: {	
+                        id: "Johan Falk: Lockdown",	
+                        posterUrl: "https://jamesbond007.se/content/produkter/Jens-Hulten-Johan-Falk-Lockdown-2015.jpg",
+                        director: "Richard Holm",	
+                        writtenBy: [
+                            "Richard Holm",
+                            "Tage Åström"
+                        ],
+                        firstAirDate: "August 10, 2015"
+                    },
+                    number: 16,	
+                    season: 3,
+                },
+                {
+                base: {	
+                    id: "Johan Falk: Slutet",	
+                    posterUrl: "https://i-viaplay-com.akamaized.net/viaplay-prod/852/580/20216244_cover_GE-1440141352257.jpg?width=400&height=600",
+                    director: ["Richard Holm"],
+                    writtenBy: "Viking Johansson",
+                    firstAirDate: "August 24, 2015"
+                },
+                number: 17,	
+                season: 3,
+                }
     ],
     cast: [
         {
