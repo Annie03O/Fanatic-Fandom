@@ -7,7 +7,7 @@ export type EpisodeBreakdown = {
     altEpisodeTitle?: string; 
     plot: string;   
     director: string;
-    writer: string | string[];
+    writtenBy: string | string[];
     releaseDate: string;
     usViewers: number;
 }

@@ -1422,8 +1422,6 @@ export const kidsSeries: Show[] = [
             imageUrl: "https://static.wikia.nocookie.net/pennyonmars/images/9/94/Vicky-1.png/revision/latest/smart/width/250/height/250?cb=20200312174713",
             promo: true,
             actor: "Kira Malou",
-            transparent: true,
-            bgColor: "#2596be",
           },
           {
             id: "martha-patel", 

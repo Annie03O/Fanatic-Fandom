@@ -21,11 +21,11 @@ export type Show = {
   tags: string[];
   mainCharacters: Character[];
   cast: CastMember[];
-  movies?: Pick<Show, "posterUrl" | "id"| "title" | "plot" | "country" | "language" | "firstAirDate" | "lastAirDate" | "status" | "cast" | "director" | "creator" | "prodCompanies" | "basedOn" | "adapter" | "writtenBy" | "producer" | "soundtrack" >[];  // for shows that have movies instead of seasons, like "The Hunger Games"
+  movies?: Movie[];  // for shows that have movies instead of seasons, like "The Hunger Games"
   seasons?: Season[];
   creator: string[] | string;
-  director: string[];
-  writtenBy: string[];
+  director: string[] | string;
+  writtenBy: string[] | string;
   adapter?: string[];
   basedOn?: boolean;
   narrator?: string[]; 
@@ -40,3 +40,9 @@ export type Show = {
   related?: (Pick<Show, "id" | "posterUrl"> & { title?: string })[];
   soundtrack: Soundtrack[];
 };
+
+type Movie = {
+  base: Pick<Show, "posterUrl" | "id"| "title" | "plot" | "country" | "language" | "firstAirDate"  | "status" | "cast" | "director" | "creator" | "prodCompanies" | "basedOn" | "adapter" | "writtenBy" | "producer" | "soundtrack" | "director"  >;
+  season: number;
+  number: number;
+}
