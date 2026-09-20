@@ -15,7 +15,7 @@ export type Show = {
   lastAirDate: string;
   status: string;          // ex "ended", "running"
   language: string | string[];       // ex "English", "Swedish"
-  plot: string;
+  plot: string | string[];
   numberOfSeasons: number;
   numberOfEpisodes: number;
   tags: string[];
