@@ -3,6 +3,7 @@
 import { useParams, useRouter } from "next/navigation";
 import type { Show } from "../../models/types/Show";
 import { getTwoRowSeasLayout as getTwoRowLayout } from "../../functions/getTwoRowSeasLayout";
+import { toRouteSlug } from "../../functions/toRouteSlug";
 
 type Props = { 
   show: Show; 
@@ -69,7 +70,7 @@ export const MoviePortal = ({ show, page, genre }: Props) => {
         <button
           key={s.base.id}
           type="button"
-          onClick={() => pushMovie(s.base.id!)}
+          onClick={() => pushMovie(toRouteSlug(s.base.id))}
           className="border w-fit"
         >
           <article className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative"}>

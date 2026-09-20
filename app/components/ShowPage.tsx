@@ -12,7 +12,7 @@ import { EpisodeBreakdown } from "./Seasons/Episodes/EpisodeBreakdown";
 import { useState } from "react";
 import { SoundtrackBreakDown } from "./Music/SoundtrackBreakdown";
 import { crimeSeriesWithSlug } from "../functions/WithSlug/crimeSeriesWithSlug";
-import { MoviePortal } from "./Seasons/MoviePortal";
+import { MoviePortal } from "./Movies/MoviePortal";
 
 type ShowPageProps = {
     genre: "drama" | "kids" | "crime" | "comedy";

@@ -1,4 +1,4 @@
-import { MoviePortal } from "@/app/components/Seasons/MoviePortal";
+import { MoviePortal } from "@/app/components/Movies/MoviePortal";
 import { crimeSeriesWithSlug } from "@/app/functions/WithSlug/crimeSeriesWithSlug";
 
 export function generateStaticParams() {
