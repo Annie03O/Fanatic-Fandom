@@ -29,7 +29,7 @@ export const EpisodeBreakdown = ({episode, page} : Props) => {
                                           <li className="w-1/5 flex justify-center items-center gap-2">{episode.seasonNumber}</li>
                                           <li className="w-1/5 flex justify-center items-center gap-2">{episode.episodeNumber}</li>
                                           <li className="w-1/5 flex justify-center items-center gap-2"> {episode.director}</li>
-                                          <li className="w-1/5 flex justify-center items-center gap-2">{episode.writer}</li>
+                                          <li className="w-1/5 flex justify-center items-center gap-2">{episode.writtenBy}</li>
                                          </ul>
                                       </section>
                                       <section className="w-full h-[200px] border flex">
