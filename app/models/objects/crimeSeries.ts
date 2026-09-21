@@ -89,9 +89,15 @@ export const crimeSeries: Show[] = [
                 firstAirDate: "June 26, 2009",
                 country: "Sweden",
                 language: "Swedish",
+                nextMovie: {
+                    id: "johan-falk-vapenbröder",
+                    title: "Johan Falk: Vapenbröder",
+                 
+                },
             },
             number: 1,
             season: 1,
+
         },
         {
             base: {

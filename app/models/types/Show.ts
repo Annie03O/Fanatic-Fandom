@@ -4,6 +4,7 @@ import { Season } from "./Season";
 import { CastMember } from "./dramaSeriesEntry"; 
 import { Character } from "./Character";
 import { Soundtrack } from "./Soundtrack";
+import { Movie } from "./Movie";
 
 export type Show = {
   id: string;
@@ -41,8 +42,3 @@ export type Show = {
   soundtrack: Soundtrack[];
 };
 
-type Movie = {
-  base: Pick<Show, "posterUrl" | "id"| "title" | "plot" | "country" | "language" | "firstAirDate"  | "status" | "cast" | "director" | "creator" | "prodCompanies" | "basedOn" | "adapter" | "writtenBy" | "producer" | "soundtrack" | "director"  >;
-  season: number;
-  number: number;
-}

@@ -3,7 +3,12 @@ import { Show } from "../../models/types/Show";
 import { dramaSeriesWithSlug } from "../WithSlug/dramaSeriesWithSlug";
 
 // type guard så .filter inte blir (InfoField | null)[]
-const isInfoField = (v: InfoField | null): v is InfoField => v !== null;
+const isInfoField = (v: unknown): v is InfoField => {
+  if (!v || typeof v !== "object") return false;
+
+  const field = v as { label?: unknown; info?: unknown };
+  return typeof field.label === "string" && field.info !== undefined;
+};
 
 export function convertToSeriesInfobox(show?: Show) {
   if (!show) return null; // <- skydd (fixar "reading cast" om du råkar skicka undefined)
