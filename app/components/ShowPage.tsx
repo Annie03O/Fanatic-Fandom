@@ -13,6 +13,7 @@ import { useState } from "react";
 import { SoundtrackBreakDown } from "./Music/SoundtrackBreakdown";
 import { crimeSeriesWithSlug } from "../functions/WithSlug/crimeSeriesWithSlug";
 import { MoviePortal } from "./Movies/MoviePortal";
+import { comedySeriesWithSlug } from "../functions/WithSlug/comedySeriesWithSlug";
 
 type ShowPageProps = {
     genre: "drama" | "kids" | "crime" | "comedy";
@@ -33,6 +34,8 @@ const ShowPage = ({genre}: ShowPageProps) => {
         series = kidsSeriesWithSlug.items.find((s) => s.slug === slug)
     } else if (genre === "crime") {
         series = crimeSeriesWithSlug.items.find((s) => s.slug === slug)
+    } else if (genre === "comedy") {
+        series = comedySeriesWithSlug.items.find((s) => s.slug === slug)
     }
     
     const cast = series?.cast ?? [];
