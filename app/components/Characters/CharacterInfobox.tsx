@@ -1,7 +1,7 @@
 "use client";
 import { convertToCharacterInfobox } from "../../functions/Convert/convertToCharacterInfobox";
 import type { Character } from "../../models/types/Character";
-import type { Education, Occupation } from "@/app/models/types/Occupation";
+import type {  Occupation } from "@/app/models/types/Occupation";
 
 type Props = { character: Character };
 
@@ -10,7 +10,7 @@ const isOccupation = (v: unknown): v is Occupation =>
   !!v && typeof v === "object" && "title" in v && "started" in v;
 
 // Education typically has "place" (and not "title")
-const isEducation = (v: unknown): v is Education =>
+const isEducation = (v: unknown): v is Occupation =>
   !!v && typeof v === "object" && "place" in v && "started" in v;
 
 export const CharacterInfobox = ({ character }: Props) => {
