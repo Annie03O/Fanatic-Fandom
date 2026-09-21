@@ -32,7 +32,11 @@ export function getTwoRowLayout(count: number): Layout {
       rows: 1, topCols: 5, splitAt: count 
     };
   }
-
+  if (count === 22) {
+    return {
+      rows: 2, topCols: 4, bottomCols: 6, splitAt: 4 
+    };
+  }
   if (count === 23) {
     return {
       rows: 2, topCols: 5, bottomCols: 6, splitAt: 5 
@@ -47,6 +51,9 @@ export function getTwoRowLayout(count: number): Layout {
 
   if (count === 34) return {
     rows: 2, topCols: 4, bottomCols: 5, splitAt: 4
+  };
+  if (count === 43) return {
+    rows: 2, topCols: 3, bottomCols: 5, splitAt: 3
   };
 
   // Fallback: 2 rader så jämnt som möjligt

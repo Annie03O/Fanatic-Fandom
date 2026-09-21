@@ -14,9 +14,10 @@ import { SoundtrackBreakDown } from "./Music/SoundtrackBreakdown";
 import { crimeSeriesWithSlug } from "../functions/WithSlug/crimeSeriesWithSlug";
 import { MoviePortal } from "./Movies/MoviePortal";
 import { comedySeriesWithSlug } from "../functions/WithSlug/comedySeriesWithSlug";
+import { fantasySeriesWithSlug } from "../functions/WithSlug/fantasySeriesWithSlug";
 
 type ShowPageProps = {
-    genre: "drama" | "kids" | "crime" | "comedy";
+    genre: "drama" | "kids" | "crime" | "comedy" | "fantasy";
 }
 
 const ShowPage = ({genre}: ShowPageProps) => {
@@ -36,6 +37,8 @@ const ShowPage = ({genre}: ShowPageProps) => {
         series = crimeSeriesWithSlug.items.find((s) => s.slug === slug)
     } else if (genre === "comedy") {
         series = comedySeriesWithSlug.items.find((s) => s.slug === slug)
+    } else if (genre === "fantasy") {
+        series = fantasySeriesWithSlug.items.find((s) => s.slug === slug)
     }
     
     const cast = series?.cast ?? [];

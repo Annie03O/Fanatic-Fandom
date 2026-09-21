@@ -8,3 +8,4 @@ export const comedySeriesWithSlug = {
     slug: toRouteSlug(series.title),
   })),
 };
+

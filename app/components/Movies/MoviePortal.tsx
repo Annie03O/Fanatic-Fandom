@@ -8,7 +8,7 @@ import { toRouteSlug } from "../../functions/toRouteSlug";
 type Props = { 
   show: Show; 
   page: boolean;
-  genre: "drama" | "crime" | "kids" | "comedy"
+  genre: "drama" | "crime" | "kids" | "comedy" | "fantasy"
  };
 
 export const MoviePortal = ({ show, page, genre }: Props) => {

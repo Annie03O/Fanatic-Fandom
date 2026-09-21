@@ -8,7 +8,7 @@ import { useRef } from "react";
 type Props = {
     show: Show;
     page: boolean;
-    genre?: "drama" | "kids" | "crime" | "comedy";
+    genre?: "drama" | "kids" | "crime" | "comedy" | "fantasy";
     type: "album" | "soundtrack";
 }
 const SoundtrackPortals = ({show, page, genre, type}: Props) => {

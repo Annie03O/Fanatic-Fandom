@@ -7,7 +7,7 @@ import {  getTwoRowLayout } from "../../functions/getTwoRowLayout";
 type Props = { 
   show: Show; 
   page: boolean;
-  genre?: "drama" | "kids" | "crime" | "comedy"; 
+  genre?: "drama" | "kids" | "crime" | "comedy" | "fantasy"; 
 };
 
 
@@ -244,6 +244,7 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
                 genre === "kids" ? `kids` :
                 genre === "crime" ? `crime` :
                 genre === "comedy" ? `comedy` :
+                genre === "fantasy" ? `fantasy` :
                 `drama`
               }/${slug}/characters`)}
             >

@@ -28,6 +28,10 @@ const navItems: NavItem[] = [
     label: "Comedy", 
     href: "/comedy" 
   },
+  {
+    label: "Fantasy",
+    href: "/fantasy",
+  },
 
   { 
     label: "About", 
