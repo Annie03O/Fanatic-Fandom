@@ -10,7 +10,7 @@ export function getTwoRowSeasLayout(count: number): Layout {
 
   if (count <= 8) return { rows: 1, topCols: 4, splitAt: count };
 
-  if (count === 9) return { rows: 2, topCols: 4, bottomCols: 5, splitAt: 4 };
+  if (count === 9) return { rows: 1, topCols: 3, splitAt: count };
 
   if (count === 10) return { rows: 2, topCols: 2, splitAt: 2,  bottomCols: 4 };
 
