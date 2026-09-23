@@ -19,7 +19,7 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
   console.log("show", show);
   
 
-  const mainChars = show?.mainCharacters.filter((c) => c.promo === true) ?? [];
+  const mainChars = (show?.mainCharacters ?? []).filter((c) => c.promo === true);
 
   console.log("mainChars", mainChars);
   

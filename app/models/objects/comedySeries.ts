@@ -938,6 +938,6 @@ tags: ["Sitcom"]
     firstAirDate: "September 22, 1987",
     lastAirDate: "May 23, 1995",
     plot: "Danny, a widower talk-show host, has three daughters (D.J., Stephanie, and Michelle). Lucky for him, his brother-in-law Jesse, a true Elvis super-freak, and best friend Joey, a struggling comic, help him raise the girls. A sitcom about a really full house: by the last season, nine people and a dog live under the same roof.",
-    tags: ["Sitcom", "Comedy", "Drama"]
+    tags: ["Sitcom", "Comedy", ]
 }
 ]

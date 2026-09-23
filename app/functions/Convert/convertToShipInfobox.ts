@@ -1,6 +1,6 @@
 import { InfoField } from "../../models/types/Infobox";
 import { Relationship } from "../../models/types/Relationship";
-import { dramaSeriesWithSlug } from "../WithSlug/dramaSeriesWithSlug";
+import { allSeriesWithSlug } from "../WithSlug/allSeriesWithSlug";
 
 const isInfoField = (x: InfoField | null): x is InfoField => x !== null;
 
@@ -23,7 +23,7 @@ export function convertToShipInfobox(ship: Relationship) {
 }
 
 export const dramaSeriesWithInfobox = {
-  items: dramaSeriesWithSlug.items.map((show) => ({
+  items: allSeriesWithSlug.items.map((show) => ({
     ...show,
     characters: (show.mainCharacters ?? []).map((c) => (c.relationships)),
   })),

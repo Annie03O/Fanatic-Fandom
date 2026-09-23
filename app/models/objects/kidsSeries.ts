@@ -535,11 +535,11 @@ export const kidsSeries: Show[] = [
           "Adrián Suar",
           "Fernando Blanco",
         ],
-        tags: [
-          "Drama", 
+        tags:  [ "Kids", 
           "Romance", 
           "Music", 
-          "Telenovela"
+          "Telenovela",
+          "Drama"
         ],
         network: [
           "Disney Channel Latin America"
@@ -924,7 +924,7 @@ export const kidsSeries: Show[] = [
         prodLocation: [
           "Buenos Aries, Argentina"
         ],
-        tags: [
+        tags:  [ "Kids", 
           "Drama", 
           "Romance", 
           "Music", 
@@ -1112,7 +1112,7 @@ export const kidsSeries: Show[] = [
         prodCompanies: ["It's a Laugh Productions"],
         numberOfSeasons: 4,
         numberOfEpisodes: 106,
-        tags: ["Comedy", "Fantasy", "Family"],
+        tags:  [ "Kids", "Comedy", "Fantasy", "Family"],
         network: ["Disney Channel"],
         related: [
           { 
@@ -1274,10 +1274,10 @@ export const kidsSeries: Show[] = [
             noSeason: 4, 
           },
         ],
-        tags: [
+        tags:  [ "Kids", 
           "Comedy", 
           "Music", 
-          "Drama"
+          
         ],
         executive: [
           "Kevin Kopelow", 
@@ -1563,7 +1563,7 @@ export const kidsSeries: Show[] = [
         ],
         numberOfSeasons: 3,
         numberOfEpisodes: 39,
-        tags: ["Drama", "Music", "Romance",],
+        tags:  [ "Kids", "Drama", "Music", "Romance",],
         network: ["Rai Gulp", "Disney Channel Italy"],
         related: [
           {
@@ -1738,7 +1738,7 @@ export const kidsSeries: Show[] = [
         plot: "The Suite Life on Deck is a spin-off of The Suite Life of Zack & Cody. The show follows the adventures of twin brothers Zack and Cody Martin as they attend high school on a cruise ship called the SS Tipton. Along with their friends, they navigate the challenges of teenage life while traveling the world.",
         numberOfSeasons: 3,
         numberOfEpisodes: 71,
-        tags: ["Comedy", "Family", "Drama"],
+        tags:  [ "Kids", "Comedy", "Family", ],
         executive: [
           "Pamela Eells O'Connell",
           "Irene Dreayer",
@@ -1938,7 +1938,7 @@ export const kidsSeries: Show[] = [
         ],
         numberOfSeasons: 4,
         numberOfEpisodes: 80,
-        tags: ["Comedy", "Family", "Drama", "Music"],
+        tags:  [ "Kids", "Comedy", "Family", , "Music"],
         executive: [
           "John D. Beck",
           "Ron Hart",
@@ -2576,7 +2576,7 @@ export const kidsSeries: Show[] = [
             noImage: false,
           },
         ],
-        tags: ["Drama", "Music", "Romance", "Telenovela"],
+        tags:  [ "Kids", "Drama", "Music", "Romance", "Telenovela"],
         executive: "Diego Carabelli",
         producer: [
           "Adrián Suar",
@@ -2929,7 +2929,7 @@ export const kidsSeries: Show[] = [
           "Michael Poryes Productions",
         ],
         prodLocation: ["Los Angeles, California"],
-        tags: ["Comedy", "Music", "Family", "Drama"],
+        tags:  [ "Kids", "Comedy", "Music", "Family", ],
         network: ["Disney Channel"],
         related: [
           {
@@ -3397,7 +3397,7 @@ export const kidsSeries: Show[] = [
         ],
         producer: "Pixie Wespiser",
         prodCompanies: "It's a Laugh Productions",
-        tags: ["Comedy", "Family", "Drama"],
+        tags:  [ "Kids", "Comedy", "Family", ],
         network: ["Disney Channel"],
         related: [
           { 
@@ -3424,7 +3424,7 @@ export const kidsSeries: Show[] = [
         plot: "K.C. Cooper is a high school student who becomes a spy for a secret government organization. She must balance her double life as a student and a spy while keeping her family safe from danger.",
         numberOfSeasons: 3,
         numberOfEpisodes: 75,
-        tags: ["Comedy", "Action", "Family", "Drama"],
+        tags:  [ "Kids", "Comedy", "Action", "Family", ],
         network: ["Disney Channel"],
     },
     {
@@ -3439,7 +3439,7 @@ export const kidsSeries: Show[] = [
         plot: "Shake It Up follows the lives of two best friends, CeCe Jones and Rocky Blue, who land their dream jobs as backup dancers on a local dance show called 'Shake It Up Chicago.' The series showcases their adventures in the world of dance, friendship, and growing up.",
         numberOfSeasons: 3,
         numberOfEpisodes: 75,
-        tags: ["Comedy", "Music", "Dance", "Drama"],
+        tags:  [ "Kids", "Comedy", "Music", "Dance", ],
         network: ["Disney Channel"],
         related: ["Shake It Up: Made in Japan"],
     },
@@ -3455,7 +3455,7 @@ export const kidsSeries: Show[] = [
         plot: "Talented Midwestern girl Sonny wins a nationwide talent search and is moving to Los Angeles to star in a popular TV series. Her home life and work life are documented along with her adjustment to life in the spotlight.",
         numberOfSeasons: 2,
         numberOfEpisodes: 47,
-        tags: ["Comedy", "Family", "Drama"],
+        tags:  [ "Kids", "Comedy", "Family", ],
         network: ["Disney Channel"],
         related: ["So Random!"],
     },
@@ -3471,7 +3471,7 @@ export const kidsSeries: Show[] = [
         plot: "A group of students at East High School stage a production of High School Musical, while navigating their own personal dramas and relationships.",
         numberOfSeasons: 4,
         numberOfEpisodes: 38,
-        tags: ["Comedy", "Drama", "Music", "Romance", ],
+        tags:  [ "Kids", "Comedy", , "Music", "Romance", ],
         network: ["Disney+"],  
         related: ["High School Musical", "High School Musical 2", "High School Musical 3: Senior Year"],
     },
@@ -3487,7 +3487,7 @@ export const kidsSeries: Show[] = [
         plot: "Twin brothers, Brady and Boomer, discover they are the heirs to the throne of the island of Kinkow. They must learn to rule the island while dealing with various challenges and adventures.",
         numberOfSeasons: 3,
         numberOfEpisodes: 67,
-        tags: ["Comedy", "Adventure", "Fantasy", "Drama"],
+        tags:  [ "Kids", "Comedy", "Adventure", "Fantasy", ],
         network: ["Disney XD"],
     },
     {
@@ -3502,7 +3502,7 @@ export const kidsSeries: Show[] = [
         plot: "Jack, Jerry, Milton, and Kim are four misfit teens who train in martial arts at the Bobby Wasabi Martial Arts Academy. They must work together to overcome challenges and protect their dojo from various threats.",
         numberOfSeasons: 4,
         numberOfEpisodes: 86,
-        tags: ["Comedy", "Action", "Family", "Drama"],
+        tags:  [ "Kids", "Comedy", "Action", "Family", ],
         network: ["Disney XD"],  
     },
     {
@@ -3517,7 +3517,7 @@ export const kidsSeries: Show[] = [
         plot: "The Jonas Brothers star as themselves in this comedy series, which follows their lives as they navigate fame, friendship, and family while pursuing their music careers.",
         numberOfSeasons: 2,
         numberOfEpisodes: 34,
-        tags: ["Comedy", "Music", "Family", "Drama"],
+        tags:  [ "Kids", "Comedy", "Music", "Family", ],
         network: ["Disney Channel"],
     },
     {
@@ -3532,7 +3532,7 @@ export const kidsSeries: Show[] = [
         plot: "The Lodge is a British teen drama series that follows the life of a teenage girl named Skye who moves to a remote lodge in the countryside to live with her father. She navigates the challenges of her new life, including friendships, romance, and family dynamics.",
         numberOfSeasons: 2,
         numberOfEpisodes: 25,
-        tags: ["Drama", "Romance", "Music"],
+        tags:  [ "Kids", , "Romance", "Music"],
         network: ["Disney Channel UK"],  
     },
     {
@@ -3562,7 +3562,7 @@ export const kidsSeries: Show[] = [
         plot: "The Suite Life of Zack and Cody is a comedy series that follows the lives of twin brothers Zack and Cody Martin, who live in the Tipton Hotel with their mother, who works as a lounge singer. The show explores their adventures and misadventures as they navigate life in the hotel, school, and friendships.",
         numberOfSeasons: 3,
         numberOfEpisodes: 87,
-        tags: ["Comedy", "Family", "Drama"],
+        tags:  [ "Kids", "Comedy", "Family", ],
         executive: [
           "Danny Kallis",
           "Irene Dreayer",
@@ -3605,7 +3605,7 @@ export const kidsSeries: Show[] = [
         plot: "A.N.T. Farm is a comedy series that follows the lives of three gifted middle school students, Chyna, Olive, and Fletcher, who are part of the Advanced Natural Talents (A.N.T.) program at Webster High School. The show explores their adventures, friendships, and challenges as they navigate life in a school for talented students.",
         numberOfSeasons: 3,
         numberOfEpisodes: 62,   
-        tags: ["Comedy", "Family", "Drama", "Music"],
+        tags:  [ "Kids", "Comedy", "Family", , "Music"],
         network: ["Disney Channel"],
     },
     {
@@ -3620,7 +3620,7 @@ export const kidsSeries: Show[] = [
         plot: "I Didn't Do It is a comedy series that follows the lives of five high school friends, Lindy, Logan, Jasmine, Garrett, and Delia, as they navigate the challenges of teenage life. The show explores their adventures, friendships, and misadventures as they deal with school, relationships, and family.",
         numberOfSeasons: 2,
         numberOfEpisodes: 39,
-        tags: ["Comedy", "Family", "Drama"],
+        tags:  [ "Kids", "Comedy", "Family", ],
         network: ["Disney Channel"],
     },
     {
@@ -3635,7 +3635,7 @@ export const kidsSeries: Show[] = [
         plot: "Girl Meets World follows Riley Matthews, the preteen daughter of Cory and Topanga Matthews, as she navigates middle school, family life, and growing up in New York City alongside her rebellious best friend Maya Hart. Cory serves as her history teacher, blending school lessons with life advice.",
         numberOfSeasons: 3,
         numberOfEpisodes: 72,
-        tags: ["Comedy", "Family", "Drama"],
+        tags:  [ "Kids", "Comedy", "Family", ],
         network: ["Disney Channel"],
         related: ["Boy Meets World"],
     },
@@ -3651,7 +3651,7 @@ export const kidsSeries: Show[] = [
         plot: "Alex and Co. is an Italian teen drama series that follows the lives of a group of high school students who form a band. The show explores their friendships, romances, and challenges as they navigate the ups and downs of teenage life while pursuing their passion for music.",
         numberOfSeasons: 3,
         numberOfEpisodes: 55,
-        tags: ["Drama", "Music", "Romance"],
+        tags:  [ "Kids", "Drama", "Music", "Romance"],
         network: ["Disney Channel Italy"],
         related: ["Penny on M.A.R.S", "Alex & Co: The Movie"],
     },

@@ -1,5 +1,5 @@
 import { InfoField } from "../../models/types/Infobox";
-import { dramaSeriesWithSlug } from "../WithSlug/dramaSeriesWithSlug";
+import { allSeriesWithSlug } from "../WithSlug/allSeriesWithSlug";
 import { Soundtrack } from "@/app/models/types/Soundtrack";
 
 // type guard så .filter inte blir (InfoField | null)[]
@@ -51,7 +51,7 @@ export function convertToSoundtrackInfobox(soundtrack?: Soundtrack) {
 // Om du vill bygga listan:
 // (filtrera bort null ifall något skulle vara trasigt)
 export const dramaSeriesWithInfobox = {
-  items: dramaSeriesWithSlug.items
+  items: allSeriesWithSlug.items
     .map((item) => (isSoundtrack(item) ? convertToSoundtrackInfobox(item) : null))
     .filter(
       (s): s is NonNullable<ReturnType<typeof convertToSoundtrackInfobox>> =>

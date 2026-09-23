@@ -1,6 +1,6 @@
 import { Relationship } from "../../models/types/Relationship";
 
-export function formatRomance(ship: Relationship): string | null {
+ function formatShip(ship: Relationship): string | null {
   if (ship.type !== "Romantic" && !(ship.type === "Friendship" && ship.romantic)) return null;
 
   if (ship.romantic === "Crush")  return `${ship.name} (Crush)`;
@@ -38,4 +38,12 @@ export function formatRomance(ship: Relationship): string | null {
   }
 
   return ship.name ? `${ship.name} (Romance)` : null;
+}
+
+export function formatRomance(ship: Relationship) {
+  const formatted = formatShip(ship);
+
+  if (!formatted || ship.dead !== true || !ship.name) return formatted;
+
+  return formatted.replace(ship.name, `${ship.name} †`);
 }

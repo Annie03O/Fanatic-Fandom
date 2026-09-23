@@ -351,7 +351,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p527401_b_v8_ao.jpg",
     firstAirDate: "January 14, 2005",
     lastAirDate: "October 23, 2013",
-    tags: ["Crime", "Drama", "Mystery"],
+    tags: ["Crime",  "Mystery"],
 },
 {
     id: "beck",
@@ -362,7 +362,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://resizing.flixster.com/U23XP3plq2jdUYjihAh_y8I2_Js=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8998638_b_v8_ae.jpg",
     firstAirDate: "June 27, 1997",
     lastAirDate: "TBA",
-    tags: ["Crime", "Drama", "Mystery"],
+    tags: ["Crime",  "Mystery"],
 },
 {
     id: "the-sandhamn-murders",
@@ -373,7 +373,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BY2FhMzY2NGMtMDk1Yy00ODE2LWJjODItNTAzNmY3NzU4ZTA2XkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "December 20, 2010",
     lastAirDate: "TBA",
-    tags: ["Crime", "Drama", "Mystery"],
+    tags: ["Crime",  "Mystery"],
 },
 {
     id: "rebecka-martinsson-series",
@@ -384,7 +384,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BODM0MDZlYzYtMjZiMC00MDM4LTg4YzctYzIzOTcxM2I4NmNkXkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "March 8, 2017",
     lastAirDate: "TBA",
-    tags: ["Crime", "Drama", "Mystery"],
+    tags: ["Crime",  "Mystery"],
 },
 {
     id: "backstrom",
@@ -395,7 +395,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BNDEzZjUxYzctNzNmNS00YTFkLWFmZmUtMjk5YWVkOTE2ODMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "March 23, 2020",
     lastAirDate: "TBA",
-    tags: ["Crime", "Drama", "Mystery"],
+    tags: ["Crime",  "Mystery"],
 },
 {
     id: "the-bridge",
@@ -406,7 +406,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://nfimageservice.azureedge.net/image/27ef27f6-7679-4d51-9869-fae44f24edf1?width=400",
     firstAirDate: "September 21, 2011",
     lastAirDate: "February 18, 2018",
-    tags: ["Crime", "Drama", "Mystery"],
+    tags: ["Crime",  "Mystery"],
 },
 {
     id: "maria-wern-series",
@@ -417,7 +417,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BZTcxMjNjMzMtZWRhMC00YjJlLTg1MDEtMjVlMmYxNTZjOGU1XkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "September 16, 2008",
     lastAirDate: "TBA",
-    tags: ["Crime", "Drama", "Mystery"],
+    tags: ["Crime",  "Mystery"],
 },
 {
     id: "califate",
@@ -428,7 +428,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BYjU0NWQ4NjYtOGQ3OS00OGU5LWE3YmEtOTBkM2Q5NGQzY2ZjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "January 12, 2020",
     lastAirDate: "February 9, 2020",
-    tags: ["Crime", "Drama", "Thriller"],
+    tags: ["Crime",  "Thriller"],
 },
 {
     id: "the-glass-dome",
@@ -439,7 +439,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://c3687.eu-central-1.linodeobjects.com/2023/12/glaskupan-poster.webp",
     firstAirDate: "April 5, 2025",
     lastAirDate: "TBA",
-    tags: ["Crime", "Drama", "Mystery"],
+    tags: ["Crime",  "Mystery"],
 },
 {
     id: "a-nearly-normal-family",
@@ -450,7 +450,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://www.moviezine.se/wp-content/uploads/2025/02/large_605e1e955a076981a4f2217b02f3b15c-zRvD6BUjHSkV1Mqizvi8M5oyY1e.jpg",
     firstAirDate: "November 24,, 2023",
     lastAirDate: "TBA",
-    tags: ["Crime", "Drama", "Thriller"],
+    tags: ["Crime",  "Thriller"],
 },
 {
     id: "blind-spot",
@@ -461,7 +461,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://image.tmdb.org/t/p/w500/mGdCkmhg2fuaiFmwxdPm4zTFB2r.jpg",
     firstAirDate: "January 24, 2025",
     lastAirDate: "TBA",
-    tags: ["Crime", "Drama", "Thriller"],
+    tags: ["Crime",  "Thriller"],
 },
 {
     id: "the-are-murders",
@@ -470,7 +470,7 @@ export const crimeSeries: Show[] = [
     language: "Swedish",
     prodLocation: ["Sweden"],
     firstAirDate: "February 6, 2025",
-    tags: ["Crime", "Drama", "Mystery"],
+    tags: ["Crime",  "Mystery"],
     posterUrl: "https://c3687.eu-central-1.linodeobjects.com/2025/01/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vNjVhMWVjZDctMzBmYi00NjZmLWJkZDYtMDJmNjg3NmJhYWQ0LmpwZw.jpeg"
 },
 {
@@ -483,7 +483,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMTI2ODZjNmMtYTdhMS00YWE2LThhNjctNzcxYzI5NDc0NzM5XkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "November 11, 2021",  
     lastAirDate: "March 18, 2025", 
-    tags: ["Crime", "Drama", "Mystery"],
+    tags: ["Crime",  "Mystery"],
 },
 {
     id: "riding-in-darkness",
@@ -495,7 +495,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://www.moviezine.se/wp-content/uploads/2025/02/large_f396b5cf3fc0ec57b0b3727d9a5f1063-download_20_1.jpg",
     firstAirDate: "October 31, 2022",   
     lastAirDate: "TBA",
-    tags: ["Crime", "Drama", "Mystery"],
+    tags: ["Crime",  "Mystery"],
 },
 {
     id: "quicksand",
@@ -506,7 +506,7 @@ export const crimeSeries: Show[] = [
     prodLocation: ["Sweden"],
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMmU1MTk1MWMtMDYzZC00OTU5LWI5YmUtMTk0NWRjMDdiYmExXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "April 5, 2019",  
-    tags: ["Crime", "Drama", "Thriller"],
+    tags: ["Crime",  "Thriller"],
 },
 {
     id: "irene-huss-series",
@@ -517,7 +517,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BOTUwMzdhOGItZTY1Ni00Y2Y4LWJlNjQtMWY0MTI4MzAxY2Y0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "August 17, 2007",
     lastAirDate: "April 20, 2013",
-    tags: ["Crime", "Drama", "Mystery"],
+    tags: ["Crime",  "Mystery"],
 },
 {
     id: "Annika Bengtzon",
@@ -528,7 +528,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/I/81M+k8q9aeL._AC_UF894,1000_QL80_.jpg",
     firstAirDate: "March 2, 2012",
     lastAirDate: "August 29, 2012",
-    tags: ["Crime", "Drama", "Mystery"],
+    tags: ["Crime",  "Mystery"],
 },
 {
     id: "honor",
@@ -540,7 +540,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://i-viaplay-com.akamaized.net/editorial-media/editorial_pages/keyart/keyart-publish/series-heder/se/portrait/f03b447fb73d4f66afc86cb1b7fee9c5.jpg",
     firstAirDate: "August 30, 2019",
     lastAirDate: "TBA",
-    tags: ["Crime", "Drama"],
+    tags: ["Crime" ],
 },
 {
     id: "mother-goose",
@@ -552,7 +552,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMTUwMjc0NDYwNV5BMl5BanBnXkFtZTgwOTU2MjEwODE@._V1_.jpg",
     firstAirDate: "November 26, 2015",
     lastAirDate: "October 1, 2025",
-    tags: ["Crime", "Drama", "Mystery"],
+    tags: ["Crime",  "Mystery"],
 },
 {
     id: "100-code",
@@ -563,7 +563,7 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BNTcxYTViYTMtNjZlYy00YmRiLWI2MDYtZjUzZWJlODdhNmY5XkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "May 14, 2015",
     lastAirDate: "July 30, 2015",
-    tags: ["Crime", "Drama", "Mystery"],
+    tags: ["Crime",  "Mystery"],
 },
 {
     id: "21-jump-street",
@@ -613,7 +613,7 @@ export const crimeSeries: Show[] = [
     lastAirDate: "March 28, 2017",
     tags: [
         "Police procedural",
-        "Drama"
+        
     ]
 }, 
 
@@ -852,7 +852,7 @@ export const crimeSeries: Show[] = [
     firstAirDate: "March 23, 1997",
     lastAirDate: "TBA",
     tags: [
-        "Drama",
+        
         "Detective",
         "Mystery thriller",
     ]

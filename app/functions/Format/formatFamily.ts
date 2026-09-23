@@ -1,7 +1,8 @@
 import { Relationship } from "../../models/types/Relationship";
 
-export function formatFamily(ship: Relationship) {
-    // FAMILY
+function formatFamilyRelation(ship: Relationship) {
+
+  // FAMILY
   if (ship.type === "Family") {
     // SIBLING
     if (ship.family === "Sibling") {
@@ -111,4 +112,12 @@ export function formatFamily(ship: Relationship) {
     return "Family";
   }
 
+}
+
+export function formatFamily(ship: Relationship) {
+  const formatted = formatFamilyRelation(ship);
+
+  if (!formatted || ship.dead !== true || !ship.name) return formatted;
+
+  return formatted.replace(ship.name, `${ship.name} †`);
 }

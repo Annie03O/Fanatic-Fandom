@@ -1,9 +1,9 @@
 import Character from "@/app/components/Characters/Character";
-import { dramaSeriesWithSlug } from "@/app/functions/WithSlug/dramaSeriesWithSlug";
+import { allSeriesWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
 
 
 export function generateStaticParams() {
-    return dramaSeriesWithSlug.items.flatMap((series) =>
+    return allSeriesWithSlug.items.flatMap((series) =>
     (series.mainCharacters ?? []).map((character) => ({
             slug: series.slug,
             id: character.id,

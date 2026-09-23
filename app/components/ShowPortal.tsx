@@ -1,5 +1,10 @@
 import Link from "next/link";
 import { Show } from "../models/types/Show";
+import { comedySeries } from "../models/objects/comedySeries";
+import { crimeSeries } from "../models/objects/crimeSeries";
+import { dramaSeries } from "../models/objects/dramaSeries";
+import { fantasySeries } from "../models/objects/fantasySeries";
+import { kidsSeries } from "../models/objects/kidsSeries";
 
 type Props = {
     show: Show; 
@@ -9,7 +14,7 @@ type Props = {
 
 export const ShowPortal = ({show, genre, title}: Props) => {  
   const tags = show.tags?.slice(0, 3) ?? [];
-    
+ 
     return (
           <Link key={genre} href={`/${genre}/${title}`} >
             <section className="flex justify-center items-center ">

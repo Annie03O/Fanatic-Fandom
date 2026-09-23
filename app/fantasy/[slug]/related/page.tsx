@@ -1,6 +1,6 @@
 "use client"
 import RelatedPortal from "@/app/components/RelatedPortal";
-import { dramaSeriesWithSlug } from "@/app/functions/WithSlug/dramaSeriesWithSlug";
+import { allSeriesWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
 import { fantasySeriesWithSlug } from "@/app/functions/WithSlug/fantasySeriesWithSlug";
 import { useParams } from "next/navigation";
 

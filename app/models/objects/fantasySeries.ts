@@ -721,6 +721,7 @@ export const fantasySeries: Show[] = [
       "Adventure",
       "Martial arts",
       "Supernatural",
+      "Fantasy"
     ]
   },
   {
@@ -732,6 +733,7 @@ export const fantasySeries: Show[] = [
       "Comedy",
       "Science fiction",
       "Action-adventure",
+      "Fantasy"
     ]
   },
   {
@@ -1033,7 +1035,7 @@ export const fantasySeries: Show[] = [
     firstAirDate:"2005", 
     lastAirDate: "2020",
     tags: [ 	
-      "Dark fantasy",
+      "Fantasy",
       "Action-adventure",
       "Melodrama",
     ]
@@ -1046,7 +1048,7 @@ export const fantasySeries: Show[] = [
     lastAirDate: "2023",
     tags: [
       "Action",
-      "Dark fantasy",
+      "Fantasy",
       "Post-apocalyptic",
     ]
   },
@@ -1057,7 +1059,7 @@ export const fantasySeries: Show[] = [
     firstAirDate: "2008",
     lastAirDate: "2012",
     tags: [
-      	"Medieval fantasy",
+      	"Fantasy",
         "Adventure",
     ]
   },
@@ -1073,7 +1075,7 @@ export const fantasySeries: Show[] = [
     status: "Ended",
     numberOfSeasons: 5,
     numberOfEpisodes: 42,
-    tags: ["drama", "netflix", "teens", "mystery"],
+    tags: ["drama", "fantasy", "netflix", "teens", "mystery"],
     plot: "When a boy vanishes in a small town, his friends uncover secret experiments, supernatural forces, and a mysterious girl with powers—opening a doorway to another world.",
     mainCharacters: [
       {
@@ -1388,7 +1390,7 @@ export const fantasySeries: Show[] = [
     network: ["Netflix"],
     related: [
       {
-        id: "Stranger Things: Tales from '85",
+        id: "stranger-things-tales-from-85",
         posterUrl: "https://m.media-amazon.com/images/M/MV5BMWU5NzgzY2QtNDVjZS00NDFkLThmMzctNTIzZmY5ZWYxZTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
       }, 
       ],
@@ -1402,6 +1404,7 @@ export const fantasySeries: Show[] = [
       "Science fiction",
       "Horror",
       "Mystery",
+      "Fantasy"
     ],
   },
   {
@@ -1416,7 +1419,13 @@ export const fantasySeries: Show[] = [
     status: "Ended",
     numberOfSeasons: 10,
     numberOfEpisodes: 218,
-    tags: ["drama", "superhero", "high-school", "origin-story"],
+    tags: [
+      "drama", 
+      "superhero", 
+      "high-school", 
+      "origin-story",
+      "Fantasy"
+    ],
     plot: "A teenage Clark Kent grows up in Smallville, learning to control his emerging powers while protecting the people he loves and facing threats that hint at his larger destiny.",
     mainCharacters: [
       {
@@ -1781,6 +1790,7 @@ export const fantasySeries: Show[] = [
     tags: [ 	
       "Superhero",
       "Drama",
+      "Fantasy"
     ]
   },
   {
@@ -1795,6 +1805,7 @@ export const fantasySeries: Show[] = [
       "Political",
       "Science fiction",
       "Superhero",
+      "Fantasy"
     ]
   },
   {
@@ -1809,6 +1820,7 @@ export const fantasySeries: Show[] = [
       "Drama",
       "Mystery",
       "Superhero",
+      "Fantasy"
     ]
   },
   {
@@ -1826,6 +1838,7 @@ export const fantasySeries: Show[] = [
       "Supernatural",
       "Survival",
       "Thriller",
+      "Fantasy"
     ]
   },
   {
@@ -1850,6 +1863,7 @@ export const fantasySeries: Show[] = [
       "Drama",
       "Science fiction",
       "Paranormal fiction",
+      "Fantasy"
     ]
 },
   {
@@ -1871,7 +1885,13 @@ export const fantasySeries: Show[] = [
     id: "the-vampire-diaries",
     title: "The Vampire Diaries",
     plot: "A teen girl’s life is turned upside down when two vampire brothers return to her town, pulling her into a world of supernatural politics, romance, and danger.",
-    tags: ["Supernatural", "Teen drama", "Romance", "Drama"],
+    tags: [
+      "Supernatural", 
+      "Teen drama", 
+      "Romance", 
+      "Drama",
+      "Fantasy"
+    ],
     firstAirDate: "September 10, 2009",
     lastAirDate: "March 10, 2017",
     status: "Ended",
@@ -2218,7 +2238,13 @@ export const fantasySeries: Show[] = [
     status: "Airing",
     numberOfSeasons: 2,
     numberOfEpisodes: 16,
-    tags: ["drama", "netflix", "academy", "dark-comedy"],
+    tags: [
+      "drama", 
+      "Fantasy", 
+      "netflix", 
+      "academy", 
+      "dark-comedy"
+    ],
     plot: "Wednesday Addams enrolls at Nevermore Academy and investigates a string of murders while navigating friendships, rivalries, and her own emerging psychic abilities.",
     mainCharacters: [
       {
@@ -2417,6 +2443,7 @@ export const fantasySeries: Show[] = [
       "Political thriller",
       "Spy thriller",
       "Science fiction",
+      "Fantasy"
     ],
   },
   {
@@ -2441,9 +2468,10 @@ export const fantasySeries: Show[] = [
     firstAirDate: "2014",
     lastAirDate: "2019",
     tags: [
-      "Crime drama",
+      "Crime",
       "Action",
       "Superhero",
+     "Fantasy" 
     ]
     
    },
@@ -2451,7 +2479,13 @@ export const fantasySeries: Show[] = [
     id: "buffy-the-vampire-slayer",
     title: "Buffy the Vampire Slayer",
     plot: "A high school student discovers she is the Chosen One, destined to fight vampires and demons. Balancing school, friendships, and saving the world becomes her everyday reality.",
-    tags: ["Supernatural", "Teen drama", "Horror", "Comedy-drama"],
+    tags: [
+      "Supernatural", 
+      "Fantasy", 
+      "Teen drama", 
+      "Horror", 
+      "Drama"
+    ],
     firstAirDate: "March 10, 1997",
     lastAirDate: "May 20, 2003",
     status: "Ended",
@@ -2753,128 +2787,158 @@ export const fantasySeries: Show[] = [
   {
     id:"the-witcher", 
     title: "The Witcher", 
-    firstAirDate: "2019"
+    firstAirDate: "2019",
+    lastAirDate: "TBA",
+    posterUrl: "https://kureansiklopedi.com/_next/image?url=https%3A%2F%2Fcdn.t3pedia.org%2Fmedia%2Fuploads%2F2025%2F06%2F11%2FS9Q1PL4UCeJ23OI6x7aOWm0AYLe1YsP6.jpg&w=1280&q=75",
+    tags: [	
+      "Action", 
+      "Adventure",
+      "Fantasy", 
+      "Drama"
+    ],
  },
   {
     id:"spider-noir", 
     title: "Spider-Noir", 
-    firstAirDate: "2026"
+    firstAirDate: "2026",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BYjU3NjEwNTItMzc1Mi00Y2QyLTljNDItOTQ4YjU4NjZjN2EyXkEyXkFqcGc@._V1_.jpg",
+    tags: [
+      "Fantasy"
+    ]
   },
   {
     id:"it-welcome-to-derry",
     title:  "IT: Welcome to Derry", 
-    firstAirDate: "2025"
+    firstAirDate: "2025",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BZWE0ZWM1MjUtNmYzYS00NzU3LTkxYmQtNmI3NTc0ZTY1NmVlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    tags: [
+      "Fantasy"
+    ]
  },
   {
     id:"3-body-problem", 
     title: "3 Body Problem", 
-    firstAirDate: "2024"
+    firstAirDate: "2024",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMDdkYWZiZWYtMzA0Yi00NzNlLThkODktY2Q3N2NjN2ExZmMwXkEyXkFqcGc@._V1_.jpg",
+    tags: [
+      "Fantasy"
+    ]
   },
   {
     id:"true-blood",
     title: "True Blood", 
     firstAirDate: "2008", 
-    lastAirDate: "2014"
+    lastAirDate: "2014",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BZGViZTA1ODktNmMyYy00YjBmLWFkMjgtMTYxNjgzMjEyODlkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    tags: [
+      "Fantasy"
+    ]
   },
   {
     id:"the-mandalorian",
     title: "The Mandalorian", 
     firstAirDate: "2019", 
-    lastAirDate: "2023"
+    lastAirDate: "2023",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BNjgxZGM0OWUtZGY1MS00MWRmLTk2N2ItYjQyZTI1OThlZDliXkEyXkFqcGc@._V1_.jpg",
+    tags: [
+      "Fantasy"
+    ]
   },
-  {
-    id:"the-boroughs", 
-    title: "The Boroughs", 
-    firstAirDate: "2026"
-  },
-  {
-    id:"ghosts", 
-    title: "Ghosts", 
-    firstAirDate: "2021"
-  },
-  {
-    id:"the-leftovers",
-    title: "The Leftovers",
-    firstAirDate: "2014", 
-    lastAirDate: "2017"
-  },
-  {
-    id:"daredevil-born-again",
-    title:  "Daredevil: Born Again", 
-    firstAirDate: "2025",
-  },
-  {
-    id:"bleach", 
-    title: "Bleach", 
-    firstAirDate: "2004", 
-    lastAirDate: "2012"
-  },
-  {
-    id:"death-note", 
-    title: "Death Note", 
-    firstAirDate: "2006", 
-    lastAirDate: "2007"},
   {
     id:"lucifer",
     title: "Lucifer", 
+    posterUrl: "https://resizing.flixster.com/PYMILH2RwjmJ3uCZyBAEDihOIG4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjI3OTYxMS53ZWJw",
     firstAirDate: "2016", 
-    lastAirDate: "2021"
-  },
-  {
-    id:"arcane", 
-    title: "Arcane", 
-    firstAirDate: "2021", 
-    lastAirDate: "2024"
-  },
-  {
-    id:"one-piece-live-action", 
-    lastAirDate: "One Piece", 
-    firstAirDate: "2023",
+    lastAirDate: "2021",
+    tags: [
+      "Fantasy"
+    ],
   },
   {
     id:"hunter-x-hunter", 
     title: "Hunter X Hunter",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BNDBiMzMyMWItNDFkYy00MjBmLTk2ZDAtYmE2N2U4YzFlZDRmXkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "2011", 
-    lastAirDate: "2014"
+    lastAirDate: "2014",
+    tags: [
+      "Adventure",
+      "Fantasy",
+      "Martial arts",
+    ],
   },
   {
     id:"stranger-things-tales-from-85", 
     title: "Stranger Things: Tales from '85", 
-    firstAirDate: "2026"
+    firstAirDate: "2026",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMWU5NzgzY2QtNDVjZS00NDFkLThmMzctNTIzZmY5ZWYxZTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    tags: [
+      "Fantasy"
+    ]
   },
   {
     id:"fullmetal-alchemist-brotherhood", 
     title: "Fullmetal Alchemist: Brotherhood", 
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMzNiODA5NjYtYWExZS00OTc4LTg3N2ItYWYwYTUyYmM5MWViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "2009", 
-    lastAirDate: "2010"
+    lastAirDate: "2010",
+    tags: [	
+      "Adventure",
+      "Dark fantasy",
+      "Steampunk",
+    ],
   },
   {
     id:"talamasca-the-secret-order", 
     title: "Talamasca: The Secret Order", 
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BN2NiMGI3ZDEtNWU3ZC00ZmFhLWJiNDgtOTNmM2FkNDFkMDljXkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "2025", 
-    lastAirDate: "2026"
+    lastAirDate: "2026",
+    tags: [
+      "Horror",
+      "Supernatural",
+      "Spy thriller",
+      "Drama",
+      "Fantasy"
+    ]
   },
   {
     id:"avatar-the-last-airbender", 
     title: "Avatar: The Last Airbender", 
-    firstAirDate: "2024",
+    firstAirDate: "2005",
+    lastAirDate: "2008",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMDMwMThjYWYtY2Q2OS00OGM2LTlkODQtNDJlZTZmMjAyYmFhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    tags: [
+      "Action-adventure",
+      "Comedy drama",
+      "Fantasy",
+      "Coming-of-age",
+      "Kids"
+    ],
+    network: "Nickelodeon",
  },
   {
     id:"demon-slayer", 
     title: "Demon Slayer: Kimetsu no Yaiba", 
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate:"2019", 
     lastAirDate: "2024",
-  },
-  {
-    id:"the-good-place",
-    title: "The Good Place",
-    firstAirDate: "2016", 
-    lastAirDate: "2020"
+    tags: [
+      "Adventure",
+      "Dark fantasy",
+      "Martial arts",
+    ]
   },
   {
     id:"the-twilight-zone",
     title: "The Twilight Zone",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BYjkyZmRmYmMtYTg5Zi00MjA0LTliYmQtMDU0NzBiZDcxNzA0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "1959", 
-    lastAirDate: "1964"
+    lastAirDate: "1964",
+    tags: [
+      "Anthology",
+      "Fantasy",
+      "Horror",
+      "Science fiction",
+    ]
   },
 ];
