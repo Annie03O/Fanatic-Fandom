@@ -10,7 +10,7 @@ export const CrimePage = () => {
         .filter((i) => i.tags?.some((tag) => tag.toLowerCase() === "crime"))
         .map((i) => {
       
-        return <ShowPortal key={i.slug} show={i} title={i.slug} genre="crime"/>
+        return <ShowPortal key={i.slug} show={i} title={i.slug} genre={i.genre}/>
       })}
     </article>
   );

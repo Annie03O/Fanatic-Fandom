@@ -693,7 +693,8 @@ export const fantasySeries: Show[] = [
     network: "HBO",
     firstAirDate: "April 17, 2011", 
     lastAirDate: "May 19, 2019",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Action",
       "Adventure",
       "Fantasy",
@@ -717,7 +718,8 @@ export const fantasySeries: Show[] = [
     title: "Bleach: Thousand-Year Blood War", 
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMjgyM2QzMjAtOGZjOS00OGFkLTkxZGYtMDJjZGM5MzIzYmM3XkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "2022",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Adventure",
       "Martial arts",
       "Supernatural",
@@ -729,7 +731,8 @@ export const fantasySeries: Show[] = [
     title: "Stuart Fails to Save the Universe", 
     posterUrl: "https://resizing.flixster.com/OcTqg5V8FXrBe_dEBrcNbwsLAp4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNmIxNDdhYzYtMGY3ZS00NTc4LWIwY2QtMjYzY2VjMDE5MmM4LmpwZw==",
     firstAirDate: "2026",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Comedy",
       "Science fiction",
       "Action-adventure",
@@ -741,7 +744,8 @@ export const fantasySeries: Show[] = [
     title: "House of the Dragon", 
     posterUrl: "https://m.media-amazon.com/images/M/MV5BOWU2ZDA0M2EtNWEyYy00MWUwLWI4NjAtYzkxMDFjYzZkNGFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "2022",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Action",
       "Adventure",
       "Fantasy",
@@ -752,7 +756,8 @@ export const fantasySeries: Show[] = [
     id: "teen-wolf",
     title: "Teen Wolf",
     plot: "After being bitten by a werewolf, a shy teen gains new abilities and is drawn into supernatural conflicts. With his friends, he tries to protect his town while keeping his new life a secret.",
-    tags: ["Supernatural", "Teen drama", "Mystery", "Thriller"],
+    genre: "fantasy",
+tags: ["Supernatural", "Teen drama", "Mystery", "Thriller"],
     firstAirDate: "June 5, 2011",
     lastAirDate: "September 24, 2017",
     status: "Ended",
@@ -1034,7 +1039,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMzJhNDk0MGUtMWI0YS00ZGFmLWE3OTktZTMwNjhlZjExNWZhXkEyXkFqcGc@._V1_.jpg",
     firstAirDate:"2005", 
     lastAirDate: "2020",
-    tags: [ 	
+    genre: "fantasy",
+tags: [ 	
       "Fantasy",
       "Action-adventure",
       "Melodrama",
@@ -1046,7 +1052,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/I/81NCTgKhW9L._AC_UF1000,1000_QL80_.jpg",
     firstAirDate:"2013", 
     lastAirDate: "2023",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Action",
       "Fantasy",
       "Post-apocalyptic",
@@ -1058,7 +1065,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BNmI5NDgyZmQtNDc3YS00Mjg0LThmMzEtZjcyNzczOTJlYWY4XkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "2008",
     lastAirDate: "2012",
-    tags: [
+    genre: "fantasy",
+tags: [
       	"Fantasy",
         "Adventure",
     ]
@@ -1075,7 +1083,8 @@ export const fantasySeries: Show[] = [
     status: "Ended",
     numberOfSeasons: 5,
     numberOfEpisodes: 42,
-    tags: ["drama", "fantasy", "netflix", "teens", "mystery"],
+    genre: "fantasy",
+tags: ["drama", "fantasy", "netflix", "teens", "mystery"],
     plot: "When a boy vanishes in a small town, his friends uncover secret experiments, supernatural forces, and a mysterious girl with powers—opening a doorway to another world.",
     mainCharacters: [
       {
@@ -1400,7 +1409,8 @@ export const fantasySeries: Show[] = [
     title: "From", 
     posterUrl: "https://m.media-amazon.com/images/M/MV5BNDAwNDljNWEtNWE1Zi00YjFlLWEzM2UtY2E3ZTM1MTcxMTcyXkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "2022",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Science fiction",
       "Horror",
       "Mystery",
@@ -1419,7 +1429,8 @@ export const fantasySeries: Show[] = [
     status: "Ended",
     numberOfSeasons: 10,
     numberOfEpisodes: 218,
-    tags: [
+    genre: "fantasy",
+tags: [
       "drama", 
       "superhero", 
       "high-school", 
@@ -1772,7 +1783,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMTc4M2JmYmEtMjJhOC00MmRlLThhZDEtMWRhZTZiNTI0ZDZhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "2014",
     lastAirDate: "2026",
-    tags: [
+    genre: "fantasy",
+tags: [
       	
       "Historical fantasy",
       "Drama",
@@ -1787,7 +1799,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMjI3ODU0OTQ1MV5BMl5BanBnXkFtZTgwNzI0MTQ2MzE@._V1_.jpg",
     firstAirDate: "2006", 
     lastAirDate: "2010",
-    tags: [ 	
+    genre: "fantasy",
+tags: [ 	
       "Superhero",
       "Drama",
       "Fantasy"
@@ -1799,7 +1812,8 @@ export const fantasySeries: Show[] = [
     firstAirDate: "2015",
     lastAirDate: "2021",
     posterUrl: "https://m.media-amazon.com/images/M/MV5BZGM4MzY3NzYtYjViZS00MmE4LTgxZmMtNTZkNDM5MDIwMDg1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Action",
       "Drama",
       "Political",
@@ -1814,7 +1828,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BNjRlNjNlY2YtYzQxNS00ZTUzLTkwMTQtMjM0YjZlOWQwZmFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "2012",
     lastAirDate: "2020",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Action",
       "Crime",
       "Drama",
@@ -1829,7 +1844,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BZmZhY2ViYzYtMTQ0NS00NDcyLWIxZTYtMGUyODE0NDA0NmNkXkEyXkFqcGc@._V1_.jpg", 
     firstAirDate: "2004", 
     lastAirDate:"2010",
-    tags: [	
+    genre: "fantasy",
+tags: [	
       "Adventure",
       "Hybrid",
       "Mystery",
@@ -1847,7 +1863,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BZDgwNTcwYmMtNjVmNi00NDdkLTllY2MtYmQ4MTM3ZThjZTllXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "2014", 
     lastAirDate:"2026",
-    tags: [	
+    genre: "fantasy",
+tags: [	
       "Adventure",
       "Drama",
       "Fantasy",
@@ -1859,7 +1876,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMWVlMmE1MmEtNjhjMC00MDdmLWIzZGMtNjc1YTZmNDc2MWExXkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "2008",
     lastAirDate: "2013",
-    tags: [ 	
+    genre: "fantasy",
+tags: [ 	
       "Drama",
       "Science fiction",
       "Paranormal fiction",
@@ -1872,7 +1890,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://image.tmdb.org/t/p/original/iOptnt1QHi6bIHmOq6adnZTV0bU.jpg",
     firstAirDate: "2011",
     lastAirDate: "2017",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Occult detective fiction",
       "Police procedural",
       "Horror",
@@ -1885,7 +1904,8 @@ export const fantasySeries: Show[] = [
     id: "the-vampire-diaries",
     title: "The Vampire Diaries",
     plot: "A teen girl’s life is turned upside down when two vampire brothers return to her town, pulling her into a world of supernatural politics, romance, and danger.",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Supernatural", 
       "Teen drama", 
       "Romance", 
@@ -2238,7 +2258,8 @@ export const fantasySeries: Show[] = [
     status: "Airing",
     numberOfSeasons: 2,
     numberOfEpisodes: 16,
-    tags: [
+    genre: "fantasy",
+tags: [
       "drama", 
       "Fantasy", 
       "netflix", 
@@ -2436,7 +2457,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://static.wikia.nocookie.net/starwars/images/6/6e/AndorPosterFull.jpg/revision/latest?cb=20220802224227",
     firstAirDate: "2022", 
     lastAirDate: "2025",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Action-adventure",
       "Drama",
       "Dystopia",
@@ -2452,7 +2474,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BYzA2YjM2ZWQtYTZhMS00OTI3LTlhYzQtZjBiZWZkMDdlNjA5XkEyXkFqcGc@._V1_.jpg",
     firstAirDate:"2021", 
     lastAirDate: "2023",
-    tags: [ 	
+    genre: "fantasy",
+tags: [ 	
       "Action-adventure",
       "Crime thriller",
       "Fantasy",
@@ -2467,7 +2490,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://static.wikia.nocookie.net/marvel_dc/images/b/bc/Gotham_TV_Series_002.jpg/revision/latest?cb=20241117144251",
     firstAirDate: "2014",
     lastAirDate: "2019",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Crime",
       "Action",
       "Superhero",
@@ -2479,7 +2503,8 @@ export const fantasySeries: Show[] = [
     id: "buffy-the-vampire-slayer",
     title: "Buffy the Vampire Slayer",
     plot: "A high school student discovers she is the Chosen One, destined to fight vampires and demons. Balancing school, friendships, and saving the world becomes her everyday reality.",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Supernatural", 
       "Fantasy", 
       "Teen drama", 
@@ -2790,7 +2815,8 @@ export const fantasySeries: Show[] = [
     firstAirDate: "2019",
     lastAirDate: "TBA",
     posterUrl: "https://kureansiklopedi.com/_next/image?url=https%3A%2F%2Fcdn.t3pedia.org%2Fmedia%2Fuploads%2F2025%2F06%2F11%2FS9Q1PL4UCeJ23OI6x7aOWm0AYLe1YsP6.jpg&w=1280&q=75",
-    tags: [	
+    genre: "fantasy",
+tags: [	
       "Action", 
       "Adventure",
       "Fantasy", 
@@ -2802,7 +2828,8 @@ export const fantasySeries: Show[] = [
     title: "Spider-Noir", 
     firstAirDate: "2026",
     posterUrl: "https://m.media-amazon.com/images/M/MV5BYjU3NjEwNTItMzc1Mi00Y2QyLTljNDItOTQ4YjU4NjZjN2EyXkEyXkFqcGc@._V1_.jpg",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Fantasy"
     ]
   },
@@ -2811,7 +2838,8 @@ export const fantasySeries: Show[] = [
     title:  "IT: Welcome to Derry", 
     firstAirDate: "2025",
     posterUrl: "https://m.media-amazon.com/images/M/MV5BZWE0ZWM1MjUtNmYzYS00NzU3LTkxYmQtNmI3NTc0ZTY1NmVlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Fantasy"
     ]
  },
@@ -2820,7 +2848,8 @@ export const fantasySeries: Show[] = [
     title: "3 Body Problem", 
     firstAirDate: "2024",
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMDdkYWZiZWYtMzA0Yi00NzNlLThkODktY2Q3N2NjN2ExZmMwXkEyXkFqcGc@._V1_.jpg",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Fantasy"
     ]
   },
@@ -2830,7 +2859,8 @@ export const fantasySeries: Show[] = [
     firstAirDate: "2008", 
     lastAirDate: "2014",
     posterUrl: "https://m.media-amazon.com/images/M/MV5BZGViZTA1ODktNmMyYy00YjBmLWFkMjgtMTYxNjgzMjEyODlkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Fantasy"
     ]
   },
@@ -2840,7 +2870,8 @@ export const fantasySeries: Show[] = [
     firstAirDate: "2019", 
     lastAirDate: "2023",
     posterUrl: "https://m.media-amazon.com/images/M/MV5BNjgxZGM0OWUtZGY1MS00MWRmLTk2N2ItYjQyZTI1OThlZDliXkEyXkFqcGc@._V1_.jpg",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Fantasy"
     ]
   },
@@ -2850,7 +2881,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://resizing.flixster.com/PYMILH2RwjmJ3uCZyBAEDihOIG4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjI3OTYxMS53ZWJw",
     firstAirDate: "2016", 
     lastAirDate: "2021",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Fantasy"
     ],
   },
@@ -2860,7 +2892,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BNDBiMzMyMWItNDFkYy00MjBmLTk2ZDAtYmE2N2U4YzFlZDRmXkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "2011", 
     lastAirDate: "2014",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Adventure",
       "Fantasy",
       "Martial arts",
@@ -2871,7 +2904,8 @@ export const fantasySeries: Show[] = [
     title: "Stranger Things: Tales from '85", 
     firstAirDate: "2026",
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMWU5NzgzY2QtNDVjZS00NDFkLThmMzctNTIzZmY5ZWYxZTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Fantasy"
     ]
   },
@@ -2881,7 +2915,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMzNiODA5NjYtYWExZS00OTc4LTg3N2ItYWYwYTUyYmM5MWViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "2009", 
     lastAirDate: "2010",
-    tags: [	
+    genre: "fantasy",
+tags: [	
       "Adventure",
       "Dark fantasy",
       "Steampunk",
@@ -2893,7 +2928,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BN2NiMGI3ZDEtNWU3ZC00ZmFhLWJiNDgtOTNmM2FkNDFkMDljXkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "2025", 
     lastAirDate: "2026",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Horror",
       "Supernatural",
       "Spy thriller",
@@ -2907,7 +2943,8 @@ export const fantasySeries: Show[] = [
     firstAirDate: "2005",
     lastAirDate: "2008",
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMDMwMThjYWYtY2Q2OS00OGM2LTlkODQtNDJlZTZmMjAyYmFhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Action-adventure",
       "Comedy drama",
       "Fantasy",
@@ -2922,7 +2959,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMWU1OGEwNmQtNGM3MS00YTYyLThmYmMtN2FjYzQzNzNmNTE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate:"2019", 
     lastAirDate: "2024",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Adventure",
       "Dark fantasy",
       "Martial arts",
@@ -2934,7 +2972,8 @@ export const fantasySeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BYjkyZmRmYmMtYTg5Zi00MjA0LTliYmQtMDU0NzBiZDcxNzA0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "1959", 
     lastAirDate: "1964",
-    tags: [
+    genre: "fantasy",
+tags: [
       "Anthology",
       "Fantasy",
       "Horror",

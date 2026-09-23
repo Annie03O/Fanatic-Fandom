@@ -14,7 +14,7 @@ export const ComedyPage = () => {
               .map((i) => {
       
         
-        return <ShowPortal key={i.slug} show={i} genre="comedy" title={i.slug}/>
+        return <ShowPortal key={i.slug} show={i} genre={i.genre} title={i.slug}/>
       })}
     </article>
   );

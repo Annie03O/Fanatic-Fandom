@@ -340,7 +340,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://image.tmdb.org/t/p/original/qRhEJUcOVtgMEno5LEkZZ190vDy.jpg",
     firstAirDate: "October 29, 1999",
     lastAirDate: "TBA",
-    tags: ["Crime", "Action", "Thriller"],
+    genre: "crime",
+tags: ["Crime", "Action", "Thriller"],
 },
 {
     id: "wallander",
@@ -351,7 +352,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p527401_b_v8_ao.jpg",
     firstAirDate: "January 14, 2005",
     lastAirDate: "October 23, 2013",
-    tags: ["Crime",  "Mystery"],
+    genre: "crime",
+tags: ["Crime",  "Mystery"],
 },
 {
     id: "beck",
@@ -362,7 +364,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://resizing.flixster.com/U23XP3plq2jdUYjihAh_y8I2_Js=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8998638_b_v8_ae.jpg",
     firstAirDate: "June 27, 1997",
     lastAirDate: "TBA",
-    tags: ["Crime",  "Mystery"],
+    genre: "crime",
+tags: ["Crime",  "Mystery"],
 },
 {
     id: "the-sandhamn-murders",
@@ -373,7 +376,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BY2FhMzY2NGMtMDk1Yy00ODE2LWJjODItNTAzNmY3NzU4ZTA2XkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "December 20, 2010",
     lastAirDate: "TBA",
-    tags: ["Crime",  "Mystery"],
+    genre: "crime",
+tags: ["Crime",  "Mystery"],
 },
 {
     id: "rebecka-martinsson-series",
@@ -384,7 +388,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BODM0MDZlYzYtMjZiMC00MDM4LTg4YzctYzIzOTcxM2I4NmNkXkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "March 8, 2017",
     lastAirDate: "TBA",
-    tags: ["Crime",  "Mystery"],
+    genre: "crime",
+tags: ["Crime",  "Mystery"],
 },
 {
     id: "backstrom",
@@ -395,7 +400,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BNDEzZjUxYzctNzNmNS00YTFkLWFmZmUtMjk5YWVkOTE2ODMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "March 23, 2020",
     lastAirDate: "TBA",
-    tags: ["Crime",  "Mystery"],
+    genre: "crime",
+tags: ["Crime",  "Mystery"],
 },
 {
     id: "the-bridge",
@@ -406,7 +412,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://nfimageservice.azureedge.net/image/27ef27f6-7679-4d51-9869-fae44f24edf1?width=400",
     firstAirDate: "September 21, 2011",
     lastAirDate: "February 18, 2018",
-    tags: ["Crime",  "Mystery"],
+    genre: "crime",
+tags: ["Crime",  "Mystery"],
 },
 {
     id: "maria-wern-series",
@@ -417,7 +424,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BZTcxMjNjMzMtZWRhMC00YjJlLTg1MDEtMjVlMmYxNTZjOGU1XkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "September 16, 2008",
     lastAirDate: "TBA",
-    tags: ["Crime",  "Mystery"],
+    genre: "crime",
+tags: ["Crime",  "Mystery"],
 },
 {
     id: "califate",
@@ -428,7 +436,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BYjU0NWQ4NjYtOGQ3OS00OGU5LWE3YmEtOTBkM2Q5NGQzY2ZjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "January 12, 2020",
     lastAirDate: "February 9, 2020",
-    tags: ["Crime",  "Thriller"],
+    genre: "crime",
+tags: ["Crime",  "Thriller"],
 },
 {
     id: "the-glass-dome",
@@ -439,7 +448,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://c3687.eu-central-1.linodeobjects.com/2023/12/glaskupan-poster.webp",
     firstAirDate: "April 5, 2025",
     lastAirDate: "TBA",
-    tags: ["Crime",  "Mystery"],
+    genre: "crime",
+tags: ["Crime",  "Mystery"],
 },
 {
     id: "a-nearly-normal-family",
@@ -450,7 +460,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://www.moviezine.se/wp-content/uploads/2025/02/large_605e1e955a076981a4f2217b02f3b15c-zRvD6BUjHSkV1Mqizvi8M5oyY1e.jpg",
     firstAirDate: "November 24,, 2023",
     lastAirDate: "TBA",
-    tags: ["Crime",  "Thriller"],
+    genre: "crime",
+tags: ["Crime",  "Thriller"],
 },
 {
     id: "blind-spot",
@@ -461,7 +472,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://image.tmdb.org/t/p/w500/mGdCkmhg2fuaiFmwxdPm4zTFB2r.jpg",
     firstAirDate: "January 24, 2025",
     lastAirDate: "TBA",
-    tags: ["Crime",  "Thriller"],
+    genre: "crime",
+tags: ["Crime",  "Thriller"],
 },
 {
     id: "the-are-murders",
@@ -470,7 +482,8 @@ export const crimeSeries: Show[] = [
     language: "Swedish",
     prodLocation: ["Sweden"],
     firstAirDate: "February 6, 2025",
-    tags: ["Crime",  "Mystery"],
+    genre: "crime",
+tags: ["Crime",  "Mystery"],
     posterUrl: "https://c3687.eu-central-1.linodeobjects.com/2025/01/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vNjVhMWVjZDctMzBmYi00NjZmLWJkZDYtMDJmNjg3NmJhYWQ0LmpwZw.jpeg"
 },
 {
@@ -483,7 +496,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMTI2ODZjNmMtYTdhMS00YWE2LThhNjctNzcxYzI5NDc0NzM5XkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "November 11, 2021",  
     lastAirDate: "March 18, 2025", 
-    tags: ["Crime",  "Mystery"],
+    genre: "crime",
+tags: ["Crime",  "Mystery"],
 },
 {
     id: "riding-in-darkness",
@@ -495,7 +509,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://www.moviezine.se/wp-content/uploads/2025/02/large_f396b5cf3fc0ec57b0b3727d9a5f1063-download_20_1.jpg",
     firstAirDate: "October 31, 2022",   
     lastAirDate: "TBA",
-    tags: ["Crime",  "Mystery"],
+    genre: "crime",
+tags: ["Crime",  "Mystery"],
 },
 {
     id: "quicksand",
@@ -506,7 +521,8 @@ export const crimeSeries: Show[] = [
     prodLocation: ["Sweden"],
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMmU1MTk1MWMtMDYzZC00OTU5LWI5YmUtMTk0NWRjMDdiYmExXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "April 5, 2019",  
-    tags: ["Crime",  "Thriller"],
+    genre: "crime",
+tags: ["Crime",  "Thriller"],
 },
 {
     id: "irene-huss-series",
@@ -517,7 +533,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BOTUwMzdhOGItZTY1Ni00Y2Y4LWJlNjQtMWY0MTI4MzAxY2Y0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "August 17, 2007",
     lastAirDate: "April 20, 2013",
-    tags: ["Crime",  "Mystery"],
+    genre: "crime",
+tags: ["Crime",  "Mystery"],
 },
 {
     id: "Annika Bengtzon",
@@ -528,7 +545,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/I/81M+k8q9aeL._AC_UF894,1000_QL80_.jpg",
     firstAirDate: "March 2, 2012",
     lastAirDate: "August 29, 2012",
-    tags: ["Crime",  "Mystery"],
+    genre: "crime",
+tags: ["Crime",  "Mystery"],
 },
 {
     id: "honor",
@@ -540,7 +558,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://i-viaplay-com.akamaized.net/editorial-media/editorial_pages/keyart/keyart-publish/series-heder/se/portrait/f03b447fb73d4f66afc86cb1b7fee9c5.jpg",
     firstAirDate: "August 30, 2019",
     lastAirDate: "TBA",
-    tags: ["Crime" ],
+    genre: "crime",
+tags: ["Crime" ],
 },
 {
     id: "mother-goose",
@@ -552,7 +571,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMTUwMjc0NDYwNV5BMl5BanBnXkFtZTgwOTU2MjEwODE@._V1_.jpg",
     firstAirDate: "November 26, 2015",
     lastAirDate: "October 1, 2025",
-    tags: ["Crime",  "Mystery"],
+    genre: "crime",
+tags: ["Crime",  "Mystery"],
 },
 {
     id: "100-code",
@@ -563,7 +583,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BNTcxYTViYTMtNjZlYy00YmRiLWI2MDYtZjUzZWJlODdhNmY5XkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "May 14, 2015",
     lastAirDate: "July 30, 2015",
-    tags: ["Crime",  "Mystery"],
+    genre: "crime",
+tags: ["Crime",  "Mystery"],
 },
 {
     id: "21-jump-street",
@@ -574,7 +595,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BODZkMjEzM2EtYzQwNi00ZmVjLWI3MTQtMzVkYThhYzM1YzYyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "October 13, 1990",
     lastAirDate: "April 27, 1991",
-    tags: ["Police Crime Drama",],
+    genre: "crime",
+tags: ["Police Crime Drama",],
 }, 
 
 {
@@ -585,7 +607,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://static.wikia.nocookie.net/9-1-1/images/a/a0/9-1-1_S8_Poster_6.jpg/revision/latest?cb=20241207022846",
     firstAirDate: "January 3, 2018",
     lastAirDate: "TBA",
-    tags: ["Procedural drama"],
+    genre: "crime",
+tags: ["Procedural drama"],
 }, 
 
 {
@@ -594,7 +617,8 @@ export const crimeSeries: Show[] = [
     country: "USA",
     language: "English",
     posterUrl: "https://i.ebayimg.com/images/g/NmUAAOSw-5pjBjKW/s-l1200.jpg",
-    tags: [	 
+    genre: "crime",
+tags: [	 
         "Police procedural", 
         "Thriller", 
         "Crime drama", 
@@ -611,7 +635,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMjA3ODMxMzM5NF5BMl5BanBnXkFtZTgwMDM1NjU0OTE@._V1_FMjpg_UX1000_.jpg",
     firstAirDate: "September 13, 2005",
     lastAirDate: "March 28, 2017",
-    tags: [
+    genre: "crime",
+tags: [
         "Police procedural",
         
     ]
@@ -625,7 +650,8 @@ export const crimeSeries: Show[] = [
     firstAirDate: "March 9, 2009",
     lastAirDate: "March 16, 2016",
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMjM2NjU0ODU0NF5BMl5BanBnXkFtZTgwMDAwMzg5NjE@._V1_.jpg",
-    tags: [        	
+    genre: "crime",
+tags: [        	
         "Mystery",
         "Police procedural",
         "Crime",
@@ -641,7 +667,8 @@ export const crimeSeries: Show[] = [
     firstAirDate: "January 8, 2014",
     lastAirDate: "TBA",
     posterUrl: "https://m.media-amazon.com/images/M/MV5BZTJjNWVlNmEtNWZhMS00Yzk3LTg5NjctMTU5N2IxMGYxOTUxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    tags: [      	
+    genre: "crime",
+tags: [      	
         "Action",
         "Police procedural",
         "Crime drama",
@@ -656,7 +683,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://image.tmdb.org/t/p/original/i5hmoRjHNWady4AtAGICTUXknKH.jpg",
     firstAirDate: "October 6, 2000",
     lastAirDate: "September 27, 2015",
-    tags: [
+    genre: "crime",
+tags: [
         "Police procedural",
         "Crime drama",
     ]    
@@ -670,7 +698,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BNTE5ZGI2N2UtYmFiMi00ZGIxLWI1ZTMtYWJkZDYxNDZiOTQwXkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "October 1, 2006",
     lastAirDate: "September 22, 2013",
-    tags: [   	
+    genre: "crime",
+tags: [   	
         "Crime",
         "Psychological thriller",
         "Mystery",
@@ -688,7 +717,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15528078_b_v8_aa.jpg",
     firstAirDate: "September 25, 2018",
     lastAirDate: "TBA",
-    tags: [
+    genre: "crime",
+tags: [
         "Crime drama",
         "Police procedural",
         "Action",
@@ -703,7 +733,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BYmU1Y2Y4ZmMtYjJhYy00M2FiLWJiYWQtNmU2NGUwYjM1NGRkXkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "September 20, 2010",
     lastAirDate: "April 3, 2020",
-    tags: [
+    genre: "crime",
+tags: [
         "Police procedural",
         "Action drama",
     ]
@@ -717,7 +748,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BMzgzYmZkZjctMmY3Yi00NWQwLTkxNGItNGNmYWMyZDQyNjViXkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "September 13, 1990",
     lastAirDate: "May 24, 2010",
-    tags: [
+    genre: "crime",
+tags: [
         "Police procedural",
         "Legal drama",
         "Mystery",
@@ -732,7 +764,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BNmViZjE1MjEtZjRlZC00MWMzLTg0ODItYjI1ODZiNzk5YzBiXkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "4 May 2010",
     lastAirDate: "4 January 2019",
-    tags: [
+    genre: "crime",
+tags: [
         "Crime drama",
         "Police procedural",
         "Psychological thriller",
@@ -747,7 +780,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://image.tmdb.org/t/p/original/f7YhjleQpDS1iYXFXb3rgv5zYa5.jpg",
     firstAirDate: "January 7, 2013",
     lastAirDate: "October 24, 2016",
-    tags: [
+    genre: "crime",
+tags: [
         "Detective",
         "Mystery",
         "Crime",
@@ -769,7 +803,8 @@ export const crimeSeries: Show[] = [
     ],
     posterUrl: "https://image.tmdb.org/t/p/original/j61dmzEq4aRWJZk5tPyjzpHj8T2.jpg",
     firstAirDate: "26 March 2026",
-    tags: [      	
+    genre: "crime",
+tags: [      	
         "Mystery",
         "Crime drama",
         "Nordic Noir",
@@ -784,7 +819,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7893926_b_v11_ac.jpg",
     firstAirDate: "December 11, 1980",
     lastAirDate: "May 1, 1988",
-    tags: ["Crime Drama"],
+    genre: "crime",
+tags: ["Crime Drama"],
 },  
 
 {
@@ -795,7 +831,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://image.tmdb.org/t/p/original/fsClSFESKTNWovjNGXVeLE4I3DF.jpg",
     firstAirDate: "September 23, 2015",
     lastAirDate: "June 19, 2017",
-    tags: ["Psychological thriller"],
+    genre: "crime",
+tags: ["Psychological thriller"],
 }, 
 
 {
@@ -806,7 +843,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BYjIxZTRjYWItMzE3ZC00OTU3LTljYzctZGMzYTkxMjk2NTE0XkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "September 23, 2003",
     lastAirDate: "TBA",
-    tags: [
+    genre: "crime",
+tags: [
         "Military",
         "Action",
         "Police procedural",
@@ -821,7 +859,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://static.wikia.nocookie.net/the-rookie/images/0/0c/Season7poster.jpg/revision/latest?cb=20250325035318",
     firstAirDate: "October 16, 2018",
     lastAirDate: "TBA",
-    tags: [
+    genre: "crime",
+tags: [
         "Police procedural",
         "Crime drama",
         "Action",
@@ -836,7 +875,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14158903_b_v12_bc.jpg",
     firstAirDate: "November 2, 2017",
     lastAirDate: "May 16, 2025",
-    tags: [
+    genre: "crime",
+tags: [
         "Action thriller",
         "Crime drama",
         "Police procedural",
@@ -851,7 +891,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://m.media-amazon.com/images/M/MV5BY2U5MzA2MjctMTIzMS00ZjYxLTljMmMtNDkzZjY4YTQ0MTJiXkEyXkFqcGc@._V1_.jpg",
     firstAirDate: "March 23, 1997",
     lastAirDate: "TBA",
-    tags: [
+    genre: "crime",
+tags: [
         
         "Detective",
         "Mystery thriller",
@@ -865,7 +906,8 @@ export const crimeSeries: Show[] = [
     posterUrl: "https://i-viaplay-com.akamaized.net/viaplay-prod/474/376/WhiteCollar_cover_GE.jpg?width=400&height=600",
     firstAirDate: "October 23, 2009",
     lastAirDate: "December 18, 2014",
-    tags: [
+    genre: "crime",
+tags: [
         "Police procedural",
         "Comedy drama",
     ]

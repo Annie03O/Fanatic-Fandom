@@ -13,7 +13,7 @@ export const FantasyPage = () => {
               .filter((i) => i.tags?.some((tag) => tag.toLowerCase() === "fantasy" || tag.toLowerCase() === "dark fantasy"))
               .map((i) => {
         
-        return <ShowPortal show={i} genre="fantasy" title={i.slug}/>
+        return <ShowPortal show={i} genre={i.genre} title={i.slug}/>
       })}
     </article>
   );

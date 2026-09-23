@@ -13,7 +13,7 @@ export const TeenPage = () => {
         .filter((i) => i.tags?.some((tag) => tag.toLowerCase() === "drama" || tag.toLowerCase() === "teen drama" || tag.toLowerCase() === "soap opera"))
         .map((i) => {
         
-          return <ShowPortal key={i.slug} show={i} genre="drama" title={i.slug}/>
+          return <ShowPortal key={i.slug} show={i} genre={i.genre} title={i.slug}/>
         })}
     </article>
   );

@@ -40,5 +40,6 @@ export type Show = {
   network: string[] | string;
   related?: (Pick<Show, "id" | "posterUrl"> & { title?: string })[];
   soundtrack: Soundtrack[];
+  genre: "drama" | "kids" | "crime" | "comedy" | "fantasy"
 };
 

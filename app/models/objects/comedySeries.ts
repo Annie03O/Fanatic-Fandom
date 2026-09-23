@@ -344,7 +344,8 @@ export const comedySeries:Show[] = [
             "Universal Television",
         ],
         network: "NBC",
-        tags: [
+        genre: "comedy",
+tags: [
             "Mockumentary",
             "Sitcom",
             "Workplace comedy",
@@ -388,7 +389,8 @@ export const comedySeries:Show[] = [
             },
         ],
         network: "NBC",
-        tags: ["Sitcom"]
+        genre: "comedy",
+tags: ["Sitcom"]
     },
     { 
       id: "parks-and-recreation",
@@ -412,7 +414,8 @@ export const comedySeries:Show[] = [
             actor: "Nick Offerman"
         }
     ],
-    tags: [
+    genre: "comedy",
+tags: [
         "Sitcom",
         "Mockumentary",
         "Political satire",
@@ -437,7 +440,8 @@ export const comedySeries:Show[] = [
         },
     ],
     network: "NBC",
-    tags: [
+    genre: "comedy",
+tags: [
         "Sitcom",
         "Surreal humor",
         "Satire",
@@ -463,7 +467,8 @@ export const comedySeries:Show[] = [
         },
     ],
     network: "NBC",
-    tags: [	
+    genre: "comedy",
+tags: [	
         "Family sitcom",
         "Comedy-drama",
     ]
@@ -505,6 +510,7 @@ export const comedySeries:Show[] = [
         actor: "D'Arcy Carden",
      },
     ],
+    genre: "comedy",
     tags: [
         "Comedy",
         "Philosophical fiction",
@@ -550,6 +556,7 @@ export const comedySeries:Show[] = [
         },
     ],
     network: "Fox",
+    genre: "comedy",
     tags: [
         "Sitcom",
         "Romantic comedy",
@@ -592,7 +599,8 @@ export const comedySeries:Show[] = [
             actor: "Leanna Creel",
         },
     ],
-    tags: ["Teen Sitcom"]
+    genre: "comedy",
+tags: ["Teen Sitcom"]
 },
 {
     id: "the-big-bang-theory",
@@ -628,7 +636,8 @@ export const comedySeries:Show[] = [
             actor: "Kunal Nayyar",
         },
     ],
-    tags: ["Sitcom"]
+    genre: "comedy",
+tags: ["Sitcom"]
 },
 {
     id: "scrubs",
@@ -661,7 +670,8 @@ export const comedySeries:Show[] = [
            actor: "Kerry Bishé",
         },
     ], 
-    tags: ["Sitcom"]
+    genre: "comedy",
+tags: ["Sitcom"]
 },
 {
     id: "friends",
@@ -699,7 +709,8 @@ export const comedySeries:Show[] = [
         }
     ],
     network: "NBC",
-    tags: ["Sitcom"]
+    genre: "comedy",
+tags: ["Sitcom"]
 },
 { 
     id: "brooklyn-nine-nine",
@@ -723,7 +734,8 @@ export const comedySeries:Show[] = [
            actor: "Terry Crews",
         },
     ],
-    tags: [
+    genre: "comedy",
+tags: [
         "Workplace comedy",
         "Sitcom",
         "Police procedural",
@@ -754,7 +766,8 @@ export const comedySeries:Show[] = [
            actor: "Michael Gross",
         },
     ],
-    tags: ["Sitcom"]
+    genre: "comedy",
+tags: ["Sitcom"]
 },
 {
    id: "family-matters",
@@ -797,6 +810,7 @@ export const comedySeries:Show[] = [
         actor: "Kellie Shanygne Williams"
     } 
 ],
+genre: "comedy",
 tags: ["Sitcom"]
 },
 {
@@ -831,7 +845,8 @@ tags: ["Sitcom"]
             actor: "Rhea Perlman",
         },
     ], 
-    tags: ["Comedy"]
+    genre: "comedy",
+tags: ["Comedy"]
 },
 {
     id:"that-70s-show",
@@ -856,7 +871,8 @@ tags: ["Sitcom"]
             actor: "Mila Kunis",
         },
     ],
-    tags: ["Teen Sitcom"]
+    genre: "comedy",
+tags: ["Teen Sitcom"]
 },
 {
     id: "how-i-met-your-mother",
@@ -928,7 +944,8 @@ tags: ["Sitcom"]
             character: "Marshhall Eriksen"
         },
     ],
-    tags: ["Sitcom"]
+    genre: "comedy",
+tags: ["Sitcom"]
 },
 {
     id: "full-house",
@@ -938,6 +955,7 @@ tags: ["Sitcom"]
     firstAirDate: "September 22, 1987",
     lastAirDate: "May 23, 1995",
     plot: "Danny, a widower talk-show host, has three daughters (D.J., Stephanie, and Michelle). Lucky for him, his brother-in-law Jesse, a true Elvis super-freak, and best friend Joey, a struggling comic, help him raise the girls. A sitcom about a really full house: by the last season, nine people and a dog live under the same roof.",
-    tags: ["Sitcom", "Comedy", ]
+    genre: "comedy",
+tags: ["Sitcom", "Comedy", ]
 }
 ]

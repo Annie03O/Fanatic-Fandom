@@ -9,7 +9,7 @@ const KidsPage = () => {
     return (
          <article className="flex flex-wrap gap-10 items-center justify-center">
             {allSeriesWithSlug.items
-                          .filter((i) => i.tags?.some((tag) => tag.toLowerCase() === "kids" || tag.toLowerCase() === "sitcom" ))
+                          .filter((i) => i.tags?.some((tag) => tag.toLowerCase() === "kids"  ))
                           .map((i) => {
                   
                 return <ShowPortal key={i.slug} show={i} genre="kids" title={i.slug} />
