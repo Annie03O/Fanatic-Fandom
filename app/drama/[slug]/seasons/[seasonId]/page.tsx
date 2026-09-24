@@ -5,10 +5,12 @@ import { notFound } from "next/navigation";
 
 export function generateStaticParams() {
     return allSeriesWithSlug.items.flatMap((series) =>
-        (series.seasons ?? []).map((season) => ({
-            slug: series.slug,
-            seasonId: season.id,
-        }))
+    (series.seasons ?? [])
+      .filter((season) => typeof season.id === "string" && season.id.length > 0)
+      .map((season) => ({
+        slug: series.slug,
+        seasonId: season.id,
+      }))
     );
 }
 

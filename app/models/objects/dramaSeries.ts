@@ -1,3 +1,4 @@
+import { write } from "fs";
 import { Show } from "../types/Show";
 
 export const dramaSeries: Show[] = [
@@ -3278,7 +3279,7 @@ export const dramaSeries: Show[] = [
             episodeTitle: ["One on One"],
             imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483740739727/PPCBS_BEVERLYHILLS90210_004_UHD_V1_3654535_1920x1080.jpg",
             director: "Artie Mandelberg",
-            writtenBy: "Charles Rosin",
+            writtenBy: "Charles Rosin", 
             plot: "When Brandon and Steve try out for the basketball team, Brandon learns that the school recruits minority students from out of the district in order to boost their stats and is forced to make a difficult choice in order to secure a spot on the team and make his father proud. Meanwhile, Brenda decides to take driver’s education again, but fails twice and ends up losing Brandon’s car when trying to pick Kelly up from a bad date.",
             releaseDate: "November 1, 1990",
             usViewers: 8.1,
@@ -3326,7 +3327,7 @@ export const dramaSeries: Show[] = [
             episodeTitle: ["The Gentle Art of Listening"],
             imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483744323756/PPCBS_BEVERLYHILLS90210_009_UHD_V1_3654704_1920x1080.jpg",
             director: "Dan Attias",
-            writtenBy: "Charles Rosin",
+            writtenBy:  "Charles Rosin", 
             plot: "As the students of West Beverly get pumped for Grudge Week against Beverly Hills High, Brenda grows annoyed by her friends' lack of school spirit. She volunteers for a teen crisis hotline and violates the rules when she takes an after-hours call from a date-rape victim, who is still in danger. Meanwhile, Brandon thinks that a sexy older woman named Nina is attracted to him and makes preparations to have sex with her. Brandon is also followed around school by a lovesick freshman girl to his annoyance.",
             releaseDate: "December 6, 1990",
             usViewers: 8.0,
@@ -3390,8 +3391,8 @@ export const dramaSeries: Show[] = [
             imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483743811579/PPCBS_BEVERLYHILLS90210_015_UHD_V1_3654614_1920x1080.jpg",
             director: "Dan Attias",
             writtenBy: [
-              "Story by : Carmen Sternwood & Charles Rosin",
-              "Teleplay by : Charles Rosin",
+              "Story by : Carmen Sternwood & Charles Rosin", 
+              "Teleplay by :Charles Rosin", 
             ],
             plot: "The Walshes let Carla, their maid’s niece, use their address so that she can attend West Beverly High. Brandon immediately develops an attraction towards her while wondering what she's hiding. Jim hosts a party for his new client, a sportswear designer. Brandon explodes with anger when he finds Carla waitressing and being used as cheap labor. Also, David tries to get MC Hammer to perform at the school dance.",
             releaseDate: "February 14, 1991",
@@ -3417,7 +3418,7 @@ export const dramaSeries: Show[] = [
             imageUrl: "https://i.pinimg.com/564x/99/af/08/99af08f52289e1c990afcdffa0fc12c0.jpg",
             director: "Paul Schneider",
             writtenBy: [
-              "Charles Rosin",
+              "Charles Rosin", 
               "Karen Rosin"
             ],
             plot: "Brandon accidentally lands a role on a hit TV show and develops a flirtation with the star, Lydia Leeds. Things go great at first, but he soon realizes that showbiz isn't as glamorous as it appears. Meanwhile, Brenda is jealous of Brandon's sudden fame and gets in over her head when she takes over for him at the Peach Pit. Enter Laverne.",
@@ -3470,7 +3471,7 @@ export const dramaSeries: Show[] = [
             episodeTitle: ["Spring Training"],
             imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483742787540/PPCBS_BEVERLYHILLS90210_020_UHD_V1_3654639_1920x1080.jpg",
             director: "Burt Brickenhoff",
-            writtenBy: "Charles Rosin",
+            writtenBy: "Charles Rosin", 
             plot: "When Jim hurts his back, Brandon teams up with Steve to coach his little league baseball team and has trouble disciplining the entitled players. Meanwhile, Brenda develops a bond with a stray dog and makes a desperate plea to convince her family to let her keep him.",
             releaseDate: "April 25, 1991",
             usViewers: 10.5,
@@ -3610,7 +3611,7 @@ export const dramaSeries: Show[] = [
             episodeNumber:2,
             plot: "Working at the Beach Club, Brandon meets Jerry Ratinger who hires him as a driver for his wife, but learns some shocking information on the job. Meanwhile, Brenda decides to attend summer school with Donna and Andrea in order to get her mind off Dylan.",
             director: "Daniel Attias",
-            writtenBy: "Charles Rosin",
+            writtenBy: "Charles Rosin", 
             releaseDate: "July 18, 1991",
             usViewers: 16.0,
           },
@@ -3681,8 +3682,11 @@ export const dramaSeries: Show[] = [
             seasonNumber: 2,
             episodeNumber:8,
             plot: "School is back in session for the students of West Beverly and new student Emily Valentine makes a big splash with the guys, especially Brandon and Dylan. The girls don't exactly take well to the interloper, especially jealous Brenda, who realizes she might want Dylan back after all. Meanwhile, Scott returns from Oklahoma and finds his friendship with newly-popular David considerably cooled.",
-            director: "Daniel Attias",
-            writtenBy: "Steve Wasserman & Jessica Klein",
+            director:  "Daniel Attias",
+            writtenBy: [
+              "Steve Wasserman",
+              "Jessica Klein"
+            ],
             releaseDate: "September 12, 1991",
             usViewers:17.7,
           },
@@ -3694,7 +3698,10 @@ export const dramaSeries: Show[] = [
             episodeNumber: 9,
             plot: "The Blaze finds a new staff photographer, Robinson Ash III, who is delighted about getting the job, but not as thrilled with his welcome to Beverly Hills. Meanwhile, the Walshes try out a new home alarm system, which is more hindrance than help.",
             director: "Charles Braverman",
-            writtenBy: "Charles Rosin & Judi Ann Mason",
+            writtenBy: [ 
+              "Charles Rosin", 
+              "Judi Ann Mason"
+            ],
             releaseDate: "September 19, 1991",
             usViewers:19.0,
           },
@@ -3757,7 +3764,10 @@ export const dramaSeries: Show[] = [
             episodeNumber:14,
             plot: "During Scott's surprise 16th-birthday party, an accidental shooting turns fatal. Meanwhile, Andrea grows jealous of Brandon's attention to Emily, and the gang grieves after a sudden death.",
             director: "Daniel Attias",
-            writtenBy: "Karen Rosin & Charles Rosin",
+            writtenBy: [
+              "Karen Rosin",
+              "Charles Rosin"
+            ], 
             releaseDate: "November 7, 1991",
             usViewers:22.3,
           },
@@ -3831,7 +3841,7 @@ export const dramaSeries: Show[] = [
             seasonNumber: 2,
             episodeNumber:20,
             plot: "Brandon goes undercover for The Blaze, hoping to expose steroid use within the athletics team. Unfortunately, his exposé threatens to shine light on more than a corrupt athletics department. Meanwhile, Brenda's minor car accident becomes a major problem for Jim.",
-            director: "David Carson",
+            director:  "David Carson", 
             writtenBy: [
               "Story by : Douglas Brooks West",
               "Teleplay by : Charles Rosin & Jonathan Roberts",
@@ -3847,7 +3857,7 @@ export const dramaSeries: Show[] = [
             episodeNumber: 21,
             plot: "Andrea heads up an initiative to introduce condoms into the school and the controversial issue leads to problems among the tight-knit group of friends. Some support, some oppose, and some, like Donna's mother, just use the issue to further their own desires. Meanwhile, Jackie has startling news for her own daughter.",
             director: "Daniel Attias",
-            writtenBy: "Karen Rosin & Charles Rosin",
+            writtenBy: "Karen Rosin & Charles Rosin", 
             releaseDate: "February 6, 1992",
             usViewers: 19.0,
           },
@@ -3871,7 +3881,10 @@ export const dramaSeries: Show[] = [
             episodeNumber:23,
             plot: "Dylan and Brenda's relationship is put to the test when a friend from Dylan's past shows up and starts leaning on Dylan more and more. Brenda is tempted by a cute college boy, especially since Dylan is paying more attention to his old friend than he is her. Meanwhile, Nat purchases a karaoke machine for the Peach Pit which is an initial success, but the novelty quickly wears off.",
             director: "Daniel Attias",
-            writtenBy: "Steve Wasserman & Jessica Klein",
+            writtenBy: [
+              "Steve Wasserman",
+              "Jessica Klein"
+            ],
             releaseDate: "February 27, 1992",
             usViewers:21.3,
           },
@@ -3882,8 +3895,11 @@ export const dramaSeries: Show[] = [
             seasonNumber: 2,
             episodeNumber:24,
             plot: "When a mall development project places the future of The Peach Pit in jeopardy, Brandon stages a protest in the hopes of saving his favorite hang-out from demolition. Meanwhile, the teens attend a college party, but Brandon forgets to dress according to theme.",
-            director: "Daniel Attias",
-            writtenBy: "Larry Barber & Paul Barber",
+            director:  "Daniel Attias",
+            writtenBy: [
+              "Larry Barber",
+              "Paul Barber"
+            ],
             releaseDate: "March 19, 1992",
             usViewers:17.2,
           },
@@ -3897,7 +3913,7 @@ export const dramaSeries: Show[] = [
             director: "Bradley Gross",
             writtenBy: [
               "Story by : Jonathan Lemkin",
-              "Teleplay by : Darren Star & Charles Rosin & Karen Rosin & Jonathan Lemkin",
+              "Teleplay by : Darren Star & Charles Rosin &  Karen Rosin & Jonathan Lemkin",
             ],
             releaseDate: "April 2, 1992",
             usViewers:20.2,
@@ -3952,14 +3968,490 @@ export const dramaSeries: Show[] = [
       {
         id: "beverly-hills-season-3",
         title: "Beverly Hills, 90210, Season 3",
+        plot: "The finish line is in sight for the Walsh twins and their friends as they begin their senior year, but there are still plenty of challenges in the road that will keep everyone on their toes before they toss the caps.",
         seasonNumber: 3,
+        episodeCount: 30,
+        episodeBreakdown: [
+           {
+            id:	"misery-loves-company-90210",
+            episodeTitle: "Misery Loves Company",
+            imageUrl: "https://static.wikia.nocookie.net/90210/images/5/5b/301brylan.png/revision/latest?cb=20200811211954",
+            seasonNumber: 3,
+            episodeNumber: 1,
+            director:	 "Jeffrey Melman",	
+            writtenBy: [ 
+              "Steve Wasserman",  
+              "Jessica Klein",
+            ],	
+            releaseDate: "July 15, 1992",	
+            plot: "Brandon returns to work for the summer at the Beverly Hills Beach Club, with Andrea now working there as the child-care supervisor. Meanwhile, Brenda defies her parents and continues to secretly see Dylan behind everyone's back. When Brenda gets caught in the act when Jim and Cindy run into Brenda with Dylan at the beach club, she runs away and into Dylan's house.",
+            usViewers: 16.7,
+           },
+           	{
+              id: "the-twins-the-trustee-and-the-very-big-trip",
+              seasonNumber: 3,
+              episodeNumber: 2,	
+              episodeTitle: "The Twins, the Trustee, and the Very Big Trip",
+              imageUrl: "https://static.wikia.nocookie.net/90210/images/e/e3/302brylankiss.png/revision/latest?cb=20220125220359",
+              director: "David Carson", 
+	            writtenBy: "Charles Rosin", 
+	            releaseDate: "July 22, 1992",	
+              usViewers: 15.8,
+              plot: "Brenda and Dylan find that their living arrangements are too close for comfort but Brenda is too stubborn to admit she's unhappy. Kelly decides to bail on her trip to Paris for the summer, deciding instead to stay home with her newborn sister. Jim decides to send Brenda in Kelly's place and puts pressure on Dylan to encourage her to take the overseas trip.",
+          },
+          { 
+            id: "too-little-too-late-paris-75001",
+            seasonNumber: 3,
+            episodeNumber:	3,
+            episodeTitle: "Too Little, Too Late",
+            altEpisodeTitle: "Paris 75001",
+            imageUrl: "https://m.media-amazon.com/images/M/MV5BMTQ0OTA4NDEwOV5BMl5BanBnXkFtZTgwMjI3Mjg5MjE@._V1_.jpg",
+            director: "Daniel Attias",
+	          writtenBy: [
+              "Maria Semple & Jonathan Roberts (Too Little, Too Late)",
+              "Karen Rosin (Paris 75001)",
+            ],
+            releaseDate:	"July 29, 1992",
+            usViewers: 13.2,
+            plot: "Brenda and Donna adjust to living in Paris but Brenda's French isn't as good as she thinks it is, and the girls end up eating some questionable food at La Champagne. Andrea counsels a deaf child who has difficulty adjusting to summer camp. Meanwhile, Dylan and Kelly flirt with each other and Brandon becomes jealous of Andrea's new boyfriend.",
+          },          
+          {
+            id: "sex-lies-and-volleyball",
+            seasonNumber: 3,
+            episodeNumber: 4,	
+            episodeTitle: "Sex, Lies and Volleyball",
+            altEpisodeTitle: "Photo Fini",
+            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809862/PPCBS_BEVERLYHILLS90210_054_UHD_3404158_1920x1080.jpg",
+            director: "Jeffrey Melman",
+	          writtenBy: [
+              "Chris Brancato & Kenneth Biller (Sex, Lies and Volleyball)",
+              "Karen Rosin (Photo Fini)",
+            ],	
+            releaseDate: "August 5, 1992",	
+            usViewers: 13.2,
+            plot: "Donna feels left out because Brenda and her classmates can speak fluent French. Donna embarks on a modeling career. Steve finds the perfect partner for both romance and volleyball. Kelly and Dylan team up for the volleyball tournament and also spend an afternoon babysitting baby Erin together. Meanwhile, David meets a young girl, Nikki, who expresses an interest in both his music and him."
+          },
+          {          
+            id: "shooting-star",
+            seasonNumber: 3,
+            episodeNumber: 5,
+            episodeTitle:"Shooting Star",
+            altEpisodeTitle: "American in Paris",	
+            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39812467/PPCBS_BEVERLYHILLS90210_055_UHD_3404164_1920x1080.jpg",
+            director: "Daniel Attias",
+	          writtenBy: [
+              "Steve Wasserman & Jessica Klein (Shooting Star)",
+              "Karen Rosin (American in Paris)"
+            ],	
+            releaseDate: "August 12, 1992",	
+            usViewers:	16.2,
+            plot: "Kelly and Dylan spend a romantic afternoon jet skiing in the waves at Paradise Cove. Brenda develops a crush on a young American named Rick (Dean Cain), who mistakes her for a native Parisian. Meanwhile, Brandon tries to help a homeless war veteran, David hires Steve to manage his music career, and Andrea becomes frantic when Cameron, her deaf camper, goes missing.",
+         },
+         {	
+            id: "castles-in-the-sand",
+            seasonNumber: 3,
+            episodeNumber: 6,	
+            episodeTitle: "Castles in the Sand",	
+            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39807960/PPCBS_BEVERLYHILLS90210_056_UHD_3404160_1920x1080.jpg",
+            director: "Paul Lazarus",	
+            writtenBy: "Ann Donahue",	
+            releaseDate: "August 19, 1992",	
+            usViewers: 17.1,
+            plot: "Brenda and Donna return from Paris and are welcomed home with a big party. Brandon grows annoyed with Brooke's constant racist comments and their relationship suffers. Meanwhile, Steve schmoozes the beach club into giving David a chance to show off his musical talents to all of the Beverly Hills elite. Kelly and Dylan decide to not tell Brenda about their summer fling and keep it as a secret.",
+         },           
+         {
+            id: "a-song-of-myself",
+            seasonNumber: 3,
+            episodeNumber: 7,
+            episodeTitle:	"A Song of Myself",	
+            imageUrl: "https://thumbnails.cbsig.net/_x/w400/CBS_Production_Entertainment_VMS/2012/09/07/39811367/PPCBS_BEVERLYHILLS90210_057_UHD_3404166_1920x1080.jpg",
+            director: "Jeffrey Melman",
+	          writtenBy: [
+              "Chris Brancato", 
+              "Kenneth Biller",
+            ],	
+            releaseDate: "September 9, 1992",	
+            usViewers: 16.6,
+            plot: "It's the beginning of senior year at West Beverly for the gang (sans David). Andrea accuses the new English teacher and Blaze faculty advisor, Gil Meyers, of sexism, when he names Brandon the new editor of the paper. David's summer fling, Nikki enrolls at school, and becomes fast friends with Donna. Meanwhile, Brenda and Steve become \"senior buddies\" to two incoming freshmen, and Brenda finds herself paired with Sue Scanlon, whose brother's death, Scott Scanlon, has had no small impact on the girl. Kelly becomes depressed due to constantly seeing Brenda and Dylan together.",
+         },           
+         {   
+            id: "the-back-story",
+            seasonNumber: 3,
+            episodeNumber: 8,	
+            episodeTitle: "The Back Story",	
+            imageUrl: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2012/09/07/39813587/PPCBS_BEVERLYHILLS90210_058_UHD_3404162_1920x1080.jpg",
+            director: "Bradley M. Gross",	
+            writtenBy: "Karen Rosin",
+	          releaseDate: "September 16, 1992",	
+            usViewers: 14.3,
+            plot: "Beth Nielson, from the tabloid television show Back Story is in town, and she enlists the help of Brenda to make a documentary about West Beverly High. A naive Brenda agrees to be interviewed, not realizing how the show will twist her words and take them out of context. Meanwhile, a West Beverly alum offers Steve a \"legacy key\" to the school, which will give him unfettered access to the school's computers.",
+         },
+         {           
+            id: "highwire",
+            seasonNumber: 3,
+            episodeNumber: 9,
+            episodeTitle:	"Highwire",	
+            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39807858/PPCBS_BEVERLYHILLS90210_059_UHD_3404159_1920x1080.jpg",
+            director: "Bethany Rooney",
+            writtenBy: "Star Frohman",
+	          releaseDate: "September 23, 1992",
+            usViewers:	16.2,
+            plot: "With graduation on the horizon, the teens of West Beverly are stressed about where to go to college. The Walshes announce only one twin can go to an out-of-state college, which leads to some major fighting between the siblings. Kelly loses it when David walks in on her in the shower. Meanwhile, Steve gives more thought to using the legacy key, and Brenda feels Dylan slipping away.",
+         },           
+        {
+            id: "home-and-away",
+            seasonNumber: 3,
+            episodeNumber: 10,
+            episodeTitle:	"Home and Away",	
+            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809721/PPCBS_BEVERLYHILLS90210_060_UHD_3404163_1920x1080.jpg",
+            director:  "Jack Bender",
+	          writtenBy: "Chip Johannessen",
+	          releaseDate: "October 7, 1992",	
+            usViewers: 15.6,
+            plot: "When two students from rival school Shaw High are shot to death by gang members during a football game, West Beverly decides to forfeit their own game against Shaw's team. Brandon meets a journalist from Shaw, and the two reporters decide to use the power of the press to put a stop to the violence. Kelly hopes to see her father again. Meanwhile, Sue Scanlon starts showing an interest in David, which irritates Donna but pleases David. Dylan invites Kelly to go to the Pigskin Prom with him and Brenda."
+        },
+        {
+            id: "a-presumption-of-innocence",
+            seasonNumber: 3,
+            episodeNumber: 11,	
+            episodeTitle: "A Presumption of Innocence",	
+            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2015/09/12/524068419599/PPCBS_BEVERLYHILLS90210_061_UHD_3404262_1920x1080.jpg",
+            director:  "Bethany Rooney",
+            writtenBy:"Karen Rosin",
+            releaseDate:	"October 21, 1992",	
+            usViewers: 16.4,
+            plot: "Sue Scanlon accuses Gil Meyers of sexual misconduct, which leads to his suspension. Andrea offers her support to the misguided teen and finds there's more to the story than Sue is telling. After surfing in polluted waters, Dylan contracts both an infection and a desire to help clean up the bay.",
+        },            
+        {  
+          id: "destiny-rides-again",
+          seasonNumber: 3,
+          episodeNumber: 12,	
+          episodeTitle: "Destiny Rides Again",	
+          imageUrl: "https://static.wikia.nocookie.net/90210/images/9/96/312.png/revision/latest?cb=20210930005653",
+          director:  "Christopher Hibler",	
+          writtenBy:[
+            "Steve Wasserman",
+            "Jessica Klein",
+          ],
+          releaseDate: "November 4, 1992",	
+          usViewers: 19.9,
+          plot: "During a trip to the video store, Brenda runs into Rick (Dean Cain), her fling from Paris. She goes out with Rick behind Dylan's back, but acts indignant when Dylan reveals to her that he had his own summer fling. Tragedy literally strikes Andrea when she's seriously injured in a hit-and-run accident. Nikki gets tickets to a televised AIDS benefit, and she and Brandon are interviewed by Rosie O'Donnell on the air. David and Donna consider sleeping together, and Steve puts his education in jeopardy when he decides to use the legacy key. Meanwhile, Kelly decides to step aside from her friends and concentrate on herself but doesn't expect to see Dylan with a proposition that will change their lives forever.",
+        }, 
+        {
+          id: "rebel-with-a-cause",
+          seasonNumber: 3,
+          episodeNumber: 13,	
+          episodeTitle: "Rebel with a Cause",	
+          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809740/PPCBS_BEVERLYHILLS90210_063_UHD_3404253_1920x1080.jpg",
+          director: "Daniel Attias",
+	        writtenBy: "Star Frohman",
+	        releaseDate: "November 11, 1992",	
+          usViewers:	19.7,
+          plot: "Brenda assures Dylan that he's free to date whomever he likes but when she and Rick (Dean Cain) run into him and Kelly, Brenda reevaluates her position. Steve and Herbert grow apprehensive as the police show up at West Beverly to investigate their crime. Meanwhile, Andrea is released from the hospital but has to use a wheelchair.",
+        },        
+        {
+          id: "wild-horses",
+          seasonNumber: 3,
+          episodeNumber: 14,	
+          episodeTitle: "Wild Horses",
+          imageUrl: "https://static.wikia.nocookie.net/90210/images/2/27/314.jpg/revision/latest?cb=20180501142230",
+          director:	"Bobby Roth",	
+          writtenBy: [
+            "Chris Brancato",
+            "Kenneth Biller"
+          ],
+          releaseDate:	"November 18, 1992",	
+          usViewers: 16.9,
+          plot: "Unable to deal with all the drama at home, Dylan hits the road and meets a beautiful ranch owner named Anne, whose free-spirited life is very appealing to him. Back in Beverly Hills, the investigation surrounding the computer break-in continues, and a fearful Steve puts pressure on Herbert to take the heat. Kelly and Brenda get into a fight for Dylan. While Brandon and Nikki run into Nikki's ex-boyfriend Dennis \"Diesel\" Stone who likes to abuse women when he doesn't get his way. He slaps Nikki in the face after she calls him Dennis instead of Diesel. He tries to go further until Brandon intervenes and punches Diesel in the face saving Nikki, then both Brandon and Nikki leave Diesel's house and then goes back to Walsh's house to put ice on his bruised hand.",
+        },            
+        {
+          id: "the-kindness-of-strangers",
+          seasonNumber: 3,
+          episodeNumber: 15,	
+          episodeTitle: "The Kindness of Strangers",
+          imageUrl: "https://static.wikia.nocookie.net/90210/images/d/df/315.png/revision/latest?cb=20231212123412",
+          director:	"Richard Lang",	
+          writtenBy: [
+            "Steve Wasserman", 
+            "Jessica Klein",
+          ],	
+          releaseDate: "November 25, 1992",	
+          usViewers: 16.2,
+          plot: "Brandon encounters Jack Canner, the homeless war veteran he met over the summer, and invites him to join his family for Thanksgiving. Unfortunately, father Jim takes offense to the war vet's political choices. Meanwhile, Steve's mother goes to bat for him at school, and works to have his expulsion reversed. Dylan returns to Beverly Hills and greets both Brenda and Kelly with kisses.",
+        },
+        {
+          id: "it's-a-totally-happening-life",
+          seasonNumber: 3,
+          episodeNumber: 16,	
+          episodeTitle: "It's a Totally Happening Life",
+          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809782/PPCBS_BEVERLYHILLS90210_067_UHD_3404256_1920x1080.jpg",
+          director:	"Richard Lang",	
+          writtenBy: [
+            "Karen Rosin",
+            "Charles Rosin"
+          ], 
+	        releaseDate: "December 16, 1992",	
+          usViewers: 15.8,
+          plot: "In a nod to It's a Wonderful Life, two guardian angels, Clarence and Miriam, watch over the gang and protect them from a bus crash that threatens to kill them all. Meanwhile, Andrea gets accepted to Yale, Cindy catches Brandon and Nikki in bed, and Dylan is ordered to choose between Brenda and Kelly by New Year's Eve. David decides that he will takes extra courses so he can graduate early with his friends.",
+        },            
+        {
+          id: "the-game-is-chicken",
+          seasonNumber: 3,
+          episodeNumber: 17,
+          episodeTitle:	"The Game Is Chicken",	
+          imageUrl: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2012/09/07/39813041/PPCBS_BEVERLYHILLS90210_066_UHD_3404251_1920x1080.jpg",
+          director: "Jack Bender",
+          writtenBy: "Chip Johannessen",
+	        releaseDate: "January 6, 1993",	
+          usViewers: 16.2,
+          plot: "Steve and Brandon get involved in the world of high-stakes drag racing, and their dangerous endeavor leads them to the very person who might be responsible for Andrea's accident. David's determination to graduate early means he has little time to work in the D.J. booth. Meanwhile, Brenda and Kelly agree to a double date with two Princeton men, only to find that their dates are not exactly the stuff dreams are made of.",
+        },            
+        {          
+          id: "midlife-now-What?",
+          seasonNumber: 3,
+          episodeNumber: 18,
+          episodeTitle:	"Midlife... Now What?",	
+          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809787/PPCBS_BEVERLYHILLS90210_068_UHD_3404259_1920x1080.jpg",
+          director: "Robert Becker",	
+          writtenBy: "Lana Freistat Melman",	
+          releaseDate: "January 13, 1993",	
+          usViewers: 16.6,
+          plot: "Looking for a little primping and pampering, the girls of West Beverly head out to a Montecito Spa for the weekend. Jackie and Cindy come too, and both women fear their husbands may not be staying faithful to them. Kelly worries that her mother's insecurity may lead her back to drugs, and begins to feel insecure herself. Meanwhile, Brandon delves even further into gambling, and Dylan's romantic problems seem unimportant when he learns his father is being released from prison.",
+        },            
+        {
+          id: "back-in-the-high-life-again",
+          seasonNumber: 3,
+          episodeNumber: 19,
+          episodeTitle:	"Back in the High Life Again",
+          imageUrl: "https://thumbnails.cbsig.net/_x/w400/CBS_Production_Entertainment_VMS/2012/09/07/39807918/PPCBS_BEVERLYHILLS90210_051_UHD_3404157_1920x1080.jpg",
+          director:	"Bill D'Elia",	
+          writtenBy: [
+            "Steve Wasserman", 
+            "Jessica Klein"
+          ],	
+          releaseDate: "January 27, 1993",
+          plot: "Jack McKay decides to throw a party at the Bel Age hotel to celebrate his early release from prison. Dylan invites both Brenda and Kelly and eventually chooses Kelly over Brenda. Mel and Jackie's marriage crumbles, leaving David afraid that he'll no longer have access to his baby sister. Dylan and Kelly incur Brenda's rage when they tell her about their summer fling and she cuts them both out of her life.",
+        },            
+        {
+          id: "parental-guidance-recommended",
+          seasonNumber: 3,
+          episodeNumber: 20,	
+          episodeTitle: "Parental Guidance Recommended",	
+          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39811319/PPCBS_BEVERLYHILLS90210_070_UHD_3404257_1920x1080.jpg",
+          director: "Gwen Arner",	
+          writtenBy: "Chip Johannessen",
+        	releaseDate: "February 3, 1993",
+          usViewers:	16.6,
+          plot: "Iris McKay arrives in town to discuss dissolving Dylan's trust fund with Jim. She's against the idea but Dylan and Jack lay the pressure on hard. Iris also takes time to meet with Brenda, who is depressed over losing both Dylan and Kelly. Meanwhile, David and Steve meet after school with Curtis Bray, the famous but sleazy and debauched owner of Icon Records, with a demo tape to get a recording contract for David. However, Steve is shown to be a poor negotiator, and his sycopathic treatment of David visibly annoys Bray, who privately offers David a record with Icon Records, but only if he fires Steve. David decides to accept the deal, but Steve takes the news very badly and ends both his business and friendship with David. Elsewhere, Brandon is enjoying the high life, as he continues to place large bets.",
+        },            
+        {
+          id: "dead-end",
+          seasonNumber: 3,
+          episodeNumber:	21,	
+          episodeTitle: "Dead End",	
+          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2015/09/12/524068419600/PPCBS_BEVERLYHILLS90210_071_UHD_3385471_1920x1080.jpg",
+          director: "Jeff Melman",	
+          writtenBy: "Star Frohman", 
+          releaseDate: "February 10, 1993",	
+          usViewers: 19.7,
+          plot: "Jack and Dylan begin a new life together, living aboard a yacht with Dylan's enormous trust fund at their disposal. On the surface everything seems perfect, but Jack has some dangerous enemies. So does Brandon, whose unpaid gambling debts lead to some frightening visit and threat from his bookie, Duke, over a $500 debt. Meanwhile, Andrea and Jordan go on a date, Dylan and Kelly consummate their relationship, and Brenda and Donna take a self-defense class.",
+        },            
+       { 
+          id: "the-child-is-father-to-the-man",
+          seasonNumber: 3,
+          episodeNumber: 22,	
+          episodeTitle: "The Child Is Father to the Man",	
+          imageUrl: "https://static.wikia.nocookie.net/90210/images/8/84/322.png/revision/latest?cb=20220630004208",
+          director: "James Whitmore Jr.",
+          writtenBy: [
+            "Karen Rosin",
+            "Charles Rosin"
+          ], 
+	        releaseDate: "February 17, 1993",	
+          usViewers: 18.7,
+          plot: "In the wake of his father's death, Dylan grapples with his personal demons while trying to elude the reporters camping out on his lawn. Dylan eventually learns the shocking truth about his father and about his fiancee Christine when she and a few FBI agents private tell Dylan about Jack's undercover work in trying to arrest a mobster associate of Jack's. Kelly feels uncomfortable when Brenda invites Dylan to stay with the Walshes. David postpones a recording session at Icon Records to attend Jack McKay's funeral and arrives just in time to find Dylan about to take a drink. Meanwhile, Brandon's losing streak continues as his gambling addiction spirals out of control.",
+        },
+        {            
+          id: "duke's-bad-boy",
+          seasonNumber: 3,
+          episodeNumber: 23,
+          episodeTitle:	"Duke's Bad Boy",	
+          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/28/2483822659896/PPCBS_BEVERLYHILLS90210_073_UHD_V1_3656848_1920x1080.jpg",
+          director: "Robert Becker",	
+          writtenBy: "Jessica Klein",	
+          releaseDate: "March 3, 1993",	
+          usViewers: 16.0,
+          plot: "Brandon's out of control gambling debts are mounting up and his bookie, Duke, is getting impatient and wants $1,500 of losses paid up by the end of the week, or else.... Brandon goes to extreme lengths to pay his bill by hiring another bookie at school to place bets, and his desperation leads to violence. Kelly feels that Dylan is slipping away from her, and her insecurity leads to an unhealthy obsession with her appearance. Meanwhile, David's hack of a recording manager Serge, continues to ignore David's hip-hop music style and insists that David can to better by making him record a trite ballard. David goes along with it. But Curtis Bray does not like the new tune and outright fires David from Icon Records. Elsewhere, Andrea convinces a depressed Dylan to write a story about his experience with loss.",
+        },            
+        {
+          id: "perfectly-perfect",
+          seasonNumber: 3,
+          episodeNumber: 24,	
+          episodeTitle: "Perfectly Perfect",	
+          imageUrl: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2012/09/07/39812064/PPCBS_BEVERLYHILLS90210_074_UHD_3385466_1920x1080.jpg",
+          director: "Bethany Rooney",
+          writtenBy: "Gillian Horvath",
+          releaseDate:	"March 24, 1993",
+          usViewers: 19.1,
+          plot: "Kelly's obsession with her weight leads to an addiction to diet pills that puts her health in imminent danger. Her friends plan a surprise party for her 18th birthday but the pills make her so paranoid that she thinks everyone is against her. Meanwhile, Brandon and Steve compete on a televised dating show for a date with the lovely Celeste Lundy.",
+        },            
+        {
+          id: "senior-poll",
+          seasonNumber: 3,
+          episodeNumber:	25,	
+          episodeTitle: "Senior Poll",	
+          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39812095/PPCBS_BEVERLYHILLS90210_075_UHD_3385467_1920x1080.jpg",
+          director: "Christopher Hibler",	
+          writtenBy: "Chip Johannessen",
+	        releaseDate: "April 7, 1993",	
+          usViewers:	15.0,
+          plot: "Senior superlatives are being awarded at West Beverly and most of the gang wins an award. Kelly wins Most Beautiful but instead of lending her a much needed confidence boost, the award leads her to believe that everyone judges her solely by her looks. Brenda feels left out that she didn't win a superlative and decides to apply to the University of Minnesota. Meanwhile, Steve and Brandon attend a Lakers basketball game, where Steve gets the chance to win $10,000.",
+        },        
+        {
+          id: "she-came-in-through-the-bathroom-window",
+          seasonNumber: 3,
+          episodeNumber: 26,	
+          episodeTitle: "She Came in Through the Bathroom Window",	
+          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39811714/PPCBS_BEVERLYHILLS90210_076_UHD_3385468_1920x1080.jpg",
+          director: "Jason Priestley",	
+          writtenBy: "Ken Stringer",	
+          releaseDate: "April 28, 1993",
+          usViewers:	14.4,
+          plot: "It's Senior Ditch Day and the girls along with David, decide to spend it at Magic Mountain. What is supposed to be a fun day turns into a nightmare when Kelly's wallet is stolen and Donna is mugged. Meanwhile, Brandon encounters problems of his own when he has to cover for Nat by working at the Peach Pit, and his car is stolen by a clever female con artist who dupes both Dylan and Steve into tagging along with her to help search for Burt Reynolds to appease a tour group.",
+        },            
+        {
+          id: "a-night-to-remember-90210-episode",
+          seasonNumber: 3,
+          episodeNumber: 27,
+          episodeTitle:	"A Night to Remember",
+          imageUrl: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2015/09/12/524408899964/PPCBS_BEVERLYHILLS90210_077_UHD_3385472_1920x1080.jpg",
+          director:	"Richard Lang",
+          writtenBy: [
+            "Steve Wasserman",
+            "Jessica Klein"
+          ],
+          releaseDate:	"May 5, 1993",	
+          usViewers: 17.0,
+          plot: "The students of West Beverly are horrified to learn that the school board has pushed through a measure that will bar any student found drunk at the prom from graduation. Everyone scrambles for dates, and the Walsh twins find themselves dateless. Meanwhile, Mel Silver serves champagne at a pre-prom gathering, leaving waif-like Donna vulnerable to its effects.",
+        },            
+        {
+          id: "something-in-the-air",
+          seasonNumber: 3,
+          episodeNumber: 28,
+          episodeTitle:	"Something in the Air",	
+          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39811210/PPCBS_BEVERLYHILLS90210_078_UHD_3385481_1920x1080.jpg",
+          director: "James Whitmore Jr.",	
+          writtenBy: [
+            "Steve Wasserman", 
+            "Jessica Klein"
+          ],
+          releaseDate: "May 12, 1993",	
+          usViewers: 16.9,
+          plot: "Donna must attend a disciplinary hearing regarding her activity at prom night and is denied participation in commencement ceremonies. Her own mother refuses to stand by her, but Brandon and the others go to bat for their friend. At Gil Meyers suggestion, they planned a school wide finals walk-out and a mass demonstration in front of the school board.",
+        },            
+        {    
+          id: "commencement",
+          seasonNumber: 3,
+          episodeNumber: [
+            29,
+            30
+          ],
+          episodeTitle:	"Commencement",	
+          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/29/2484191811878/PPCBS_BEVERLYHILLS90210_079_1_UHD_V1_3666747_1920x1080.jpg",
+          director: "Daniel Attias",
+	        writtenBy: [
+            "Karen Rosin", 
+            "Charles Rosin"
+          ], 
+	        releaseDate: "May 19, 1993",	
+          usViewers: 22.2,	
+          plot: "As graduation approaches, the gang of West Beverly make their final decisions about the future while reminiscing about the past. Brandon is sad when Brenda announces her decision to attend the University of Minnesota. Andrea worries that she'll have to turn down Yale. Meanwhile, Mrs. Teasley finds out about Steve's anonymous donation. Dylan's hippie mother, Iris, pays another unannounced and unwelcome visit.",
+          }
+],
+        mainCast: [
+          { 
+            actor: "Jason Priestley", 
+            character: "Brandon Walsh"
+          },
+          { 
+            actor: "Shannen Doherty", 
+            character: "Brenda Walsh"
+          },
+          { 
+            actor: "Jennie Garth", 
+            character: "Kelly Taylor"
+          },
+          { 
+            actor: "Ian Ziering", 
+            character: "Steve Sanders"
+          },
+          { 
+            actor: "Gabrielle Carteris", 
+            character: "Andrea Zuckerman"
+          },
+          { 
+            actor: "Luke Perry", 
+            character: "Dylan McKay"
+          },
+          { 
+            actor: "Brian Austin Green", 
+            character: "David Silver"
+          },
+          { 
+            actor: "Tori Spelling", 
+            character: "Donna Martin"
+          },
+          { 
+            actor: "Carol Potter", 
+            character: "Cindy Walsh"
+          },
+          { 
+            actor: "James Eckhouse", 
+            character: "Jim Walsh"
+          },
+        ],
+        recurring: [
+          {
+            actor: "Joe E. Tata",
+            character: "Nat Bussichio",
+          },
+          {
+            actor: "Ann Gillespie",
+            character: "Jackie Taylor"
+          },
+          {
+            actor: "Dana Barron",
+            character: "Nikki Witt"
+          },
+          {
+            actor: "Denise Dowse",
+            character: "Vice Principal Yvonne Teasley"
+          },
+          {
+            actor: "Mark Kiely", 
+            character: "Gil Meyers"
+          },
+          {
+            actor: "Josh Taylor", 
+            character: "Jack McKay"
+          },
+        ],
         premiereDate:  "July 15, 1992" ,
         finaleDate:  "May 29, 1993" ,
         premiereEpisode: "Misery Loves Company",
         finaleEpisode: "Commencement",
         posterUrl:
           "https://m.media-amazon.com/images/I/71ZkY5U6yQL._AC_SY679_.jpg",
-        episodeCount: 30,
+          network: "Fox",
+        previousSeason: {
+          id: "beverly-hills-90210-season-2",
+          seasonNumber: 2,
+        },
+        nextSeason: {
+          id: "beverly-hills-90210-season-4",
+          seasonNumber: 4,
+        }
+          
       },
       {
         id: "beverly-hills-season-4",
@@ -4972,6 +5464,154 @@ export const dramaSeries: Show[] = [
         imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/8f/43/a7/8f43a7e1-d828-64f6-a504-f576ab2a9586/BeverlyHills90310_S03_CoverArt_3000x3000.png/400x400bb.jpg",  
         noSeason: 3,
         noImage: false,
+        songs: [
+          {
+            episodeTitle: "Misery Loves Company",
+            song:	[
+              {
+                id: "summertime-blues-eddie-cochran",
+                title: "summertime blues",
+                artist:	"EDDIE COCHRAN",	
+              }, 
+              {
+                id: "working-in-the-coalmine-lee-dorsey",
+                title: "working in the coalmine",
+                artist: "LEE DORSEY",
+              },
+              {
+                id: "98.6-degrees-keith",
+                title: "98.6 Degrees",
+                artist: "KEITH",
+              },
+             ],
+          }, 
+          {
+            episodeTitle: "The Twins, The Trustee And The Very Big Trip"
+          }, 
+          { 
+            episodeTitle: "Too Little, Too Late/Paris 75001",
+          },
+          {
+            episodeTitle: "Shooting Star/American in Paris",
+            song: [
+              {              
+                id: "damn-i-wish-i-was-your-lover-sophie-b.-hawkins",
+                title:  "Damn I Wish I Was Your Lover",
+                artist: "Sophie B. Hawkins"
+              },
+              {
+                id: "forbidden-places-meat-puppets",
+                title: "Forbidden Places",
+                artist: "Meat Puppets",
+              },
+              {
+                id: "precious-brian-austin-green",
+                title:  "Precious",
+                artist: "Brian Austin Green",
+              },
+              {
+                id: "funny-how-time-slips-away-willie-nelson",
+                title:  "Funny How Time Slips Away (1962 Version)",
+                artist: "Willie Nelson",
+              }
+            ], 
+          },
+          {
+            episodeTitle: "Castles in the Sand",
+            song: [
+              {
+                id: "dancin-chris-isaak",  
+                title: "Dancin'",
+                artist: "Chris Isaak"
+              },
+              {
+                id: "be-my-love-brian-austin-green",
+                title: "Be My Love",
+                artist: "Brian Austin Green",  
+              }
+            ],
+          },
+          {
+            episodeTitle: "A Song of Myself",
+            song: [	
+              {
+                id: "live-and-learn-joe-public",
+                title: "live and learn",
+                artist:	"JOE PUBLIC"	          
+              },
+              {
+                id: "wishing-on-a-star-the-cover-girls",
+                title: "wishing on a star",
+                artist:	"THE COVER GIRLS",	  
+              },
+              {
+                id: "your-love-chic",
+                title: "your love",
+                artist:	"CHIC"	                  
+              },
+              {
+                id: "pushin'-too-hard-the-seeds",
+                title: "pushin' too hard",	
+                artist: "THE SEEDS",         
+              },
+            ],
+          },
+          {
+            episodeTitle: "The Back Story",
+            song:	[
+              {
+                id: "why-do-fools-fall-in-love?-frankie-lymon-&-the-teenagers",
+                title: "why do fools fall in love?",
+                artist:	"FRANKIE LYMON & THE TEENAGERS"	
+              },
+              {
+                id: "so-very-hard-to-go-tower-of-power",
+                title: "so very hard to go",
+                artist:	"TOWER OF POWER"
+              },
+              {
+                id: "baby-baby-baby-tlc",
+                title: "baby-baby-baby",
+                artist:	"TLC"
+              },
+              {
+                id: "like-to-get-to-know-you-spanky-&-our-gang",
+                title: "like to get to know you",
+                artist:	"SPANKY & OUR GANG",
+              },
+            ],
+          },
+          {
+            episodeTitle: "Highwire",
+            song:	[
+              {
+                id: "venus-frankie-avalon",
+                title: "venus",
+                artist:	"FRANKIE AVALON",
+              },	
+              {
+                id: "oogum-boogum-song-brenton-wood",
+                title: "oogum boogum song",
+                artist:	"BRENTON WOOD"
+              },
+            ],
+          },
+          {
+            episodeTitle: "Home and Away",	
+            song: [
+              {
+                id: "the-message-sofia-shinas",
+                title: "the message",
+                artist:	"SOFIA SHINAS",
+              },
+              {
+                id: "let-me-be-your-baby-geoffrey-williams",
+                title: "let me be your baby",
+                artist:	"GEOFFREY WILLIAMS"              
+              },
+            ]
+          }
+        ]
       },
       {
         id: "beverly-hills-90210-soundtrack-s4",
@@ -5028,7 +5668,7 @@ export const dramaSeries: Show[] = [
     executive: [
       "Aaron Spelling",
       "E. Duke Vincent",
-      "Charles Rosin",
+       "Charles Rosin", 
       "Darren Star",
       "Steve Wasserman",
       "Jessica Klein",
@@ -5062,7 +5702,7 @@ export const dramaSeries: Show[] = [
       "Jon Paré",
       "Doug Steinberg",
       "Richard Gollance",
-      "Chip Johannessen",
+       "Chip Johannessen",
       "Phil Savath",
       "Michael Cassutt",
       "Jonathan Roberts",
