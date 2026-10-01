@@ -5,7 +5,10 @@ import { allSeriesWithSlug } from "../../functions/WithSlug/allSeriesWithSlug";
 import { SeasonInfobox } from "./SeasonInfobox";
 import { EpisodeBreakdown } from "./Episodes/EpisodeBreakdown";
 
-function Season() {
+type Props = {
+  genre:  Genre;
+};
+function Season({genre}: Props) {
   const { slug, seasonId } = useParams<{ slug: string; seasonId: string }>();
 
 
@@ -13,7 +16,6 @@ function Season() {
   const series = allSeriesWithSlug.items.find((s) => s.slug === slug);
 
   if (!series) return <section>Series not found</section>;
-
 
   console.log(seasonId);
   
@@ -27,22 +29,22 @@ function Season() {
 
   if (!season) return <section>Season not found, {season}</section>;
 
-
+  
   return (
-    <main className="flex flex-col justify-center items-center ">
-                <article className="bg-black md:w-[90%] p-1 flex flex-col ">            
+    <main className="flex flex-col justify-center items-center text-[#d1c3e3] md:w-[70%]">
+                <article className="bg-black  p-1 flex flex-col">            
                     <h1 className="text-4xl">{season.title}</h1>
-                    <section className=" flex flex-col-reverse md:flex-row border w-full ">
+                    <section className=" flex flex-col-reverse md:flex-row  w-full pl-2">
                         <section className="w-full flex flex-col gap-2">
                            <section className="w-[75%]">
                               <h2 className="text-3xl">Plot</h2>
                               <span>{season.plot}</span>
                            </section>
-                           <section className="w-full border">
+                           <section className="w-full">
                             <section className="text-left w-full flex relative items-center border-b">
                               <h2 className="text-3xl left-2">Episodes</h2>
                             </section>
-                              <section  className="h-[1050px] overflow-y-scroll">
+                              <section  className="h-1/10 overflow-y-scroll mr-2">
                                 {season.episodeBreakdown.map((i) => (
                                   <EpisodeBreakdown episode={i}/>
                                 )
@@ -50,8 +52,8 @@ function Season() {
                               </section>
                            </section>
                         </section>
-                        <section className="border md:w-[50%] lg:w-[20%]">
-                             <SeasonInfobox season={season}/>
+                        <section className="border md:w-[50%] lg:w-[30%]">
+                             <SeasonInfobox season={season} genre={genre} slug={slug} />
                         </section>
                            
                     </section>

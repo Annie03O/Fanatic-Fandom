@@ -1,6 +1,6 @@
 "use client";
 import { convertToSoundtrackInfobox } from "@/app/functions/Convert/convertToSoundtrackInfobox";
-import { Soundtrack } from "@/app/models/types/Soundtrack";
+import { Soundtrack } from "@/app/models/types/music/Soundtrack";
 
 type Props = { soundtrack: Soundtrack };
 

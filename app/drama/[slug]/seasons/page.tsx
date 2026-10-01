@@ -22,7 +22,7 @@ export default function AllSeasonsPage({genre}: Props) {
     return (
       <div className="flex flex-col  items-center bg-black w-[90%] min-h-[1000px]"> 
         
-        <SeasonsPortals show={series} page={true}/>
+        <SeasonsPortals genre={genre} show={series} page={true}/>
       </div>
     )
 }

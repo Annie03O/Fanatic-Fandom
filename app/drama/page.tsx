@@ -1,13 +1,13 @@
 "use client";
 
 import { allSeriesWithSlug } from "../functions/WithSlug/allSeriesWithSlug";;
-import ShowPortal from "../components/ShowPortal";
+import ShowPortal from "../components/Show/ShowPortal";
 
 
 
 export const TeenPage = () => {
   return (
-      <article className="flex flex-wrap gap-10 items-center justify-center">
+      <article className="flex flex-wrap bg-black w-[90%] p-2 gap-10 items-center justify-center">
      
       {allSeriesWithSlug.items
         .filter((i) => i.tags?.some((tag) => tag.toLowerCase() === "drama" || tag.toLowerCase() === "teen drama" || tag.toLowerCase() === "soap opera"))

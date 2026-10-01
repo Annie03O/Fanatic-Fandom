@@ -1,5 +1,5 @@
-import { Character } from "../../models/types/Character";
-import { Relationship } from "../../models/types/Relationship";
+import { Character } from "../../models/types/characters/Character";
+import { Relationship } from "../../models/types/structure/Relationship";
 export function formatMaritalStatus(
   character: Character,
   romanticShip?: Relationship

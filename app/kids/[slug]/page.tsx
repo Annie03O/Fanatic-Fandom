@@ -1,4 +1,4 @@
-import ShowPage from "@/app/components/ShowPage";
+import ShowPage from "@/app/components/Show/ShowPage";
 import { kidsSeriesWithSlug } from "@/app/functions/WithSlug/kidsSeriesWithSlug";
 
 

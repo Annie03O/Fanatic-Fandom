@@ -1,7 +1,7 @@
 import { CharacterArc } from "./CharacterArc";
-import { EpisodeBreakdown } from "./EpisodeBreakdown";
+import { EpisodeBreakdown } from "../seasons/episode/EpisodeBreakdown";
 import { Occupation } from "./Occupation";
-import { Relationship } from "./Relationship";
+import { Relationship } from "../structure/Relationship";
 
 export type Character = {
     id: string;

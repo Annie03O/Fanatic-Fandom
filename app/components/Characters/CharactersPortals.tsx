@@ -1,13 +1,13 @@
 "use client";
 
 import { useParams, useRouter } from "next/navigation";
-import type { Show } from "../../models/types/Show";
+import type { Show } from "../../models/types/structure/Show";
 import {  getTwoRowLayout } from "../../functions/getTwoRowLayout";
 
 type Props = { 
   show: Show; 
   page: boolean;
-  genre?: "drama" | "kids" | "crime" | "comedy" | "fantasy"; 
+  genre: Genre; 
 };
 
 
@@ -147,7 +147,7 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
           key={c.id}
           type="button"
           onClick={() => pushCharacter(c.id!)}
-          className={`border w-fit bg-white` }
+          className={`border w-fit bg-white shadow-xl shadow-gray-600 hover:shadow-none hover:rounded-2xl overflow-hidden ring-2 ring-[#d1c3e3]` }
         >
           <article className="w-fit flex flex-col-reverse relative ">
             <h2 className={`text-2xl text-center bg-black ${page === false ? "absolute  w-full" : ""}`}>
@@ -157,7 +157,7 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
             <img
               src={c.imageUrl}
               alt={`${c.firstName} ${c.lastName}`}
-                         className={`${page === true ? "h-[250px] w-[200px]" : "w-[250px] md:h-[200px] md:w-[150px]"} object-cover object-center `}
+                         className={`${page === true ? "h-[250px] w-[200px]" : "w-[250px] md:h-[160px] md:w-[120px]"} object-cover object-center `}
  />
           </article>
         </button>

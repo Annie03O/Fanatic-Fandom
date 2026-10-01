@@ -1,8 +1,8 @@
-import { Education } from "./Occupation";
+import { Occupation } from "../../characters/Occupation";
 
 export type InfoField = {
   label: string;
-  info: string | string[] | Education[];
+  info: string | string[] | Occupation[];
 } | null;
 
 export type Infobox = {

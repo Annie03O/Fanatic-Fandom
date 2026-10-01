@@ -1,5 +1,5 @@
-import { Movie } from "@/app/models/types/Movie";
-import { InfoField } from "../../models/types/Infobox";
+import { Movie } from "@/app/models/types/structure/Movie";
+import { InfoField } from "../../models/types/structure/layouts/Infobox";
 
 import { allSeriesWithSlug } from "../WithSlug/allSeriesWithSlug";
 

@@ -29,7 +29,7 @@ export const CrimePage = () => {
                                 {i.tags.map((t, idx) => (
                                     <span
                                         key={`${t}-${idx}`}
-                                        className="bg-black text-white rounded-lg whitespace-nowrap px-2 py-0.5"
+                                        className="bg-black text-[#d1c3e3] rounded-lg whitespace-nowrap px-2 py-0.5"
                                     >   
                                         {t}
                                     </span>

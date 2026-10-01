@@ -1,6 +1,6 @@
 "use client";
 import { useState, useMemo } from "react";
-import { Character } from "@/app/models/types/Character";
+import { Character } from "@/app/models/types/characters/Character";
 
 
 export const CharacterArc = ({ character }: { character: Character }) => {
@@ -29,11 +29,12 @@ export const CharacterArc = ({ character }: { character: Character }) => {
       };
     
       return (
-        <section className="flex flex-col gap-10 ">
+        <section className="flex flex-col border-gray-600 gap-10 text-black p-2 w-[90%]">
+
           {/* Dropdown */}
-          <div className="flex flex-col gap-2 top-2 relative">
+          <div className="flex flex-col  gap-2 top-2 relative">
             <select
-              className="w-fit rounded-md border bg-black px-3 py-2"
+              className="w-fit rounded-md border bg-[#f2e8ff] px-3 py-2"
               value={selectedSeason ?? ""}
               onChange={(e) => {
                 const v = e.target.value;
@@ -48,14 +49,14 @@ export const CharacterArc = ({ character }: { character: Character }) => {
               ))}
             </select>
           </div>
-    
+          <section className="flex flex-col gap-3 bg-[#f2e8ff] rounded-md p-2 inset-shadow-sm inset-shadow-gray-400">
           {/* Render */}
           {visibleArcs.map((arc) => {
             const season = arc.seasonNumber;
             const isExpanded = expandedBySeason[season] ?? false;
     
             return (
-              <section key={season} className="flex flex-col gap-3 ">
+              <section key={season} className="flex flex-col gap-3 border-b border-gray-600 p-2 ">
                 <h2 className="text-2xl font-semibold">Season {season} {arc.toSeason ? "-" + arc.toSeason : ""}</h2>
                <div className="flex flex-col gap-2  scrollbar-thin overflow-auto ">
                       {arc.summary.map((summary, index) => (
@@ -67,6 +68,7 @@ export const CharacterArc = ({ character }: { character: Character }) => {
               </section>
             );
           })}
+          </section>
         </section>
       );
     };

@@ -1,14 +1,13 @@
 "use client";
 
-import ShowPortal from "../components/ShowPortal";
+import ShowPortal from "../components/Show/ShowPortal";
 import { allSeriesWithSlug } from "../functions/dramaSeriesTop50WithSlug";
-import { comedySeriesWithSlug } from "../functions/WithSlug/comedySeriesWithSlug";
 
 
 
 export const ComedyPage = () => {
   return (
-     <article className="flex flex-wrap gap-10 items-center justify-center">
+     <article className="flex flex-wrap gap-10 items-center justify-center bg-black p-3">
             {allSeriesWithSlug.items
               .filter((i) => i.tags?.some((tag) => tag.toLowerCase() === "comedy" || tag.toLowerCase() === "sitcom" ))
               .map((i) => {

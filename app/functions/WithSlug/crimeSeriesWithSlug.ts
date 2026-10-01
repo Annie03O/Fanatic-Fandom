@@ -1,4 +1,4 @@
-import { Show } from "@/app/models/types/Show";
+import { Show } from "@/app/models/types/structure/Show";
 import { crimeSeries } from "../../models/objects/crimeSeries";
 import { toRouteSlug } from "../toRouteSlug";
 

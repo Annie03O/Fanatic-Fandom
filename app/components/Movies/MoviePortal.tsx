@@ -1,7 +1,7 @@
 "use client";
 
 import { useParams, useRouter } from "next/navigation";
-import type { Show } from "../../models/types/Show";
+import type { Show } from "../../models/types/structure/Show";
 import { getTwoRowSeasLayout as getTwoRowLayout } from "../../functions/getTwoRowSeasLayout";
 import { toRouteSlug } from "../../functions/toRouteSlug";
 

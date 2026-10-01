@@ -1,14 +1,9 @@
 import Link from "next/link";
-import { Show } from "../models/types/Show";
-import { comedySeries } from "../models/objects/comedySeries";
-import { crimeSeries } from "../models/objects/crimeSeries";
-import { dramaSeries } from "../models/objects/dramaSeries";
-import { fantasySeries } from "../models/objects/fantasySeries";
-import { kidsSeries } from "../models/objects/kidsSeries";
+import { Show } from "../../models/types/structure/Show";
 
 type Props = {
     show: Show; 
-    genre: string;
+    genre:  Genre;
     title: string;
 }
 
@@ -18,7 +13,7 @@ export const ShowPortal = ({show, genre, title}: Props) => {
     return (
           <Link key={genre} href={`/${genre}/${title}`} >
             <section className="flex justify-center items-center ">
-              <article className="w-[300px] h-[555px] border rounded-xl bg-purple-300 flex flex-col justify-center gap-2">
+              <article className="w-[300px] h-[555px] border rounded-xl bg-purple-300 hover:bg-purple-400 flex flex-col justify-center gap-2 shadow-xl shadow-gray-600 hover:shadow-none hover:rounded-2xl">
                 <h1 className="text-xl whitespace-nowrap text-center">
                   {show.title}</h1>
                   
@@ -48,7 +43,7 @@ export const ShowPortal = ({show, genre, title}: Props) => {
                           .map((t, idx) => (
                             <span
                               key={`${t}-${idx}`}
-                              className="bg-black text-white rounded-lg whitespace-nowrap px-2 py-0.5"
+                              className="bg-black text-[#d1c3e3] rounded-lg whitespace-nowrap px-2 py-0.5"
                             >
                               {t}
                             </span>
@@ -56,7 +51,7 @@ export const ShowPortal = ({show, genre, title}: Props) => {
                           tags.map((t, idx) => (
                             <span
                               key={`${t}-${idx}`}
-                              className="bg-black text-white rounded-lg whitespace-nowrap px-2 py-0.5"
+                              className="bg-black text-[#d1c3e3] rounded-lg whitespace-nowrap px-2 py-0.5"
                             >
                               {t}
                             </span>

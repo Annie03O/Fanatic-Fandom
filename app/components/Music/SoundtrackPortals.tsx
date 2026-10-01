@@ -1,14 +1,14 @@
 "use client"
 
 import { getTwoRowLayout } from "@/app/functions/getTwoRowLayout";
-import { Show } from "@/app/models/types/Show"
+import { Show } from "@/app/models/types/structure/Show"
 import { useParams, useRouter } from "next/navigation";
 import { useRef } from "react";
 
 type Props = {
     show: Show;
     page: boolean;
-    genre?: "drama" | "kids" | "crime" | "comedy" | "fantasy";
+    genre: Genre;
     type: "album" | "soundtrack";
 }
 const SoundtrackPortals = ({show, page, genre, type}: Props) => {
@@ -54,16 +54,21 @@ console.log("SeasonsPortals renders:", renders.current);
           key={s.id}
           type="button"
           onClick={() => pushSoundtrack(s.id!)}
-          className="text-lg hover:text-xl border w-fit rounded-2xl hover:rounded-3xl hover:border-2 hover:bg-gray-300"
+          className="text-lg hover:text-xl  w-fit rounded-2xl hover:rounded-3xl hover:border-2 hover:bg-gray-300 shadow-lg shadow-gray-400/90 hover:scale-105 trshadow-xl shadow-gray-600 ring-2 ring-[#d1c3e3]ansition-all duration-300 ease-in-out ring-2 overflow-hidden"
         >
-          <article className={page === true ? "w-fit flex flex-col " : "flex w-[120px] h-[120px] flex-col-reverse relative justify-center "}>
+          <section className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative md:w-[100px]"}>
             
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            
-             { s.noImage === true ? <section>Season {s.noSeason} Soundtrack</section> :
-              <img className="object-cover object-center rounded-xl" src={s.imgUrl} alt="" />
-             }
-          </article>
+            <img
+              src={s.imgUrl}
+              alt={`${s.noSeason} `}
+              className={` object-cover object-center blur-xs hover:blur-none transition-all duration-300 ease-in-out`}
+            />
+            <section className={`text-2xl text-center text-[#d1c3e3] flex flex-col items-center justify-center h-full text-4xl text-shadow-lg text-shadow-gray-600 hover:hidden border-2 border-black
+               ${page === false ? "absolute  w-full" : ""}`}>
+              {s.noSeason != null ? s.noSeason : s.noSeason}
+            </section>
+          </section>
         </button>
       ))}
     </section>
@@ -102,12 +107,12 @@ console.log("SeasonsPortals renders:", renders.current);
   };
 
   return (
-    <section className={page ? "w-full flex flex-col justify-center items-center" : " border w-full"}>
+    <section className={page ? "w-full flex flex-col justify-center items-center" : " w-full"}>
       <section
         className={
           page
             ? "w-[90%]"
-            : "w-full border flex flex-col justify-center items-center"
+            : "w-full  flex flex-col justify-center items-center"
         }
       >
         <h1 className="text-3xl text-center">Soundtrack</h1>
@@ -122,7 +127,7 @@ console.log("SeasonsPortals renders:", renders.current);
         <section className="flex items-center justify-center mt-4">
           {page === false && soundtrack.length > 10 ? (
             <button
-              className="underline"
+              className="underline "
               onClick={() => router.push(`/drama/${slug}/soundtrack`)}
             >
               View All Seasons

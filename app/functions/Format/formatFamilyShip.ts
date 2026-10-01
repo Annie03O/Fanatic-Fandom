@@ -1,4 +1,4 @@
-import { Relationship } from "../../models/types/Relationship";
+import { Relationship } from "../../models/types/structure/Relationship";
 
 export function formatFamilyShip(ship: Relationship) {
     // FAMILY

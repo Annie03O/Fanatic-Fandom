@@ -5,7 +5,7 @@ import { fantasySeriesWithSlug } from "@/app/functions/WithSlug/fantasySeriesWit
 import { useParams } from "next/navigation";
 
 type Props = {
-  genre: "drama" | "kids" | "crime" | "comedy" | "fantasy";
+  genre:  Genre;
 }
 
 export default function AllSeasonsPage({genre}: Props) {

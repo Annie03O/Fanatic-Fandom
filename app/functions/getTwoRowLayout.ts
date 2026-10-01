@@ -1,4 +1,4 @@
-import { Layout } from "../models/types/Layout";
+import { Layout } from "../models/types/structure/layouts/Layout";
 
 
 export function getTwoRowLayout(count: number): Layout {

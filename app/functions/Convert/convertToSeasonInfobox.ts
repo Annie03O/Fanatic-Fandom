@@ -1,5 +1,5 @@
-import { Season } from "@/app/models/types/Season";
-import { InfoField } from "../../models/types/Infobox";
+import { Season } from "@/app/models/types/seasons/Season";
+import { InfoField } from "../../models/types/structure/layouts/Infobox";
 import { allSeriesWithSlug } from "../WithSlug/allSeriesWithSlug";
 
 // type guard så .filter inte blir (InfoField | null)[]

@@ -1,5 +1,5 @@
-import { InfoField } from "../../models/types/Infobox";
-import { Show } from "../../models/types/Show";
+import { InfoField } from "../../models/types/structure/layouts/Infobox";
+import { Show } from "../../models/types/structure/Show";
 import { allSeriesWithSlug } from "../WithSlug/allSeriesWithSlug";
 
 // type guard så .filter inte blir (InfoField | null)[]

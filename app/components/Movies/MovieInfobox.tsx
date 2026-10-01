@@ -1,5 +1,5 @@
 "use client";
-import { Movie } from "@/app/models/types/Movie";
+import { Movie } from "@/app/models/types/structure/Movie";
 import { convertToMoviesInfobox } from "@/app/functions/Convert/convertToMoviesInfobox";
 
 interface Props {

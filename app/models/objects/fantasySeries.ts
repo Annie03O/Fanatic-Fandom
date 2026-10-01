@@ -1,4 +1,4 @@
-import { Show } from "../types/Show";
+import { Show } from "../types/structure/Show";
 
 
 export const fantasySeries: Show[] = [

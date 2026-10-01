@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { kidsSeriesWithSlug } from "../functions/WithSlug/kidsSeriesWithSlug";
 import chunk from "../functions/Layout/chunk";
-import ShowPage from "../components/ShowPage";
-import ShowPortal from "../components/ShowPortal";
+import ShowPage from "../components/Show/ShowPage";
+import ShowPortal from "../components/Show/ShowPortal";
 import { allSeriesWithSlug } from "../functions/dramaSeriesTop50WithSlug";
 
 const KidsPage = () => {
     return (
-         <article className="flex flex-wrap gap-10 items-center justify-center">
+         <article className="flex flex-wrap gap-10 items-center justify-center bg-black p-3">
             {allSeriesWithSlug.items
                           .filter((i) => i.tags?.some((tag) => tag.toLowerCase() === "kids"  ))
                           .map((i) => {

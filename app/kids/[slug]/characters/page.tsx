@@ -1,7 +1,7 @@
 "use client"
 import { CharacterPortals } from "@/app/components/Characters/CharactersPortals";
 import { kidsSeriesWithSlug } from "@/app/functions/WithSlug/kidsSeriesWithSlug";
-import { Show } from "@/app/models/types/Show";
+import { Show } from "@/app/models/types/structure/Show";
 import { useParams } from "next/navigation";
 
 type Props = {

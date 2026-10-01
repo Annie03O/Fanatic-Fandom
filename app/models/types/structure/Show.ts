@@ -1,9 +1,9 @@
 
 
-import { Season } from "./Season";
-import { CastMember } from "./dramaSeriesEntry"; 
-import { Character } from "./Character";
-import { Soundtrack } from "./Soundtrack";
+import { Season } from "../seasons/Season";
+import { CastMember } from "./CastMember"; 
+import { Character } from "../characters/Character";
+import { Soundtrack } from "../music/Soundtrack";
 import { Movie } from "./Movie";
 
 export type Show = {

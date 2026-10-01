@@ -1,7 +1,7 @@
 "use client"
 
 import { useParams, useRouter } from "next/navigation"
-import { Show } from "../models/types/Show";
+import { Show } from "../models/types/structure/Show";
 import { useRef } from "react";
 import { getTwoRowLayout } from "../functions/getTwoRowLayout";
 import { toRouteSlug } from "../functions/toRouteSlug";
@@ -58,15 +58,15 @@ export const RelatedPortal = ({show, page, title}: Props) => {
           key={r.id}
           type="button"
           onClick={() => pushRelated(r)}
-          className="border w-fit "
+          className="border w-fit shadow-xl shadow-gray-600 ring-2 ring-[#d1c3e3]"
         >
-          <article className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative h-[200px] w-[150px]"}>
+          <article className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative h-[200px] w-[150px] "}>
             
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={r.posterUrl}
               alt={`${r.id} `}
-              className="w-[250px] md:h-[200px] md:w-[150px]  object-center object-fit"
+              className="w-[250px] md:h-[145px] md:w-[100px]  object-center object-fit"
             />
           </article>
         </button>

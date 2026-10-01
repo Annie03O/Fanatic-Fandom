@@ -1,6 +1,6 @@
-import { CastMember } from "./dramaSeriesEntry";
+import { CastMember } from "./CastMember";
 import { Show } from "./Show";
-import { Soundtrack } from "./Soundtrack";
+import { Soundtrack } from "../music/Soundtrack";
 
 export type Movie = {
   base: {

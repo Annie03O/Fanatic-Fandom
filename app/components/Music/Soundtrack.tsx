@@ -20,15 +20,14 @@ function Soundtrack() {
 
 
 return (
-    <main key={series.id} className="flex flex-col justify-center items-center ">
-                <section key={soundtrack.id} className="bg-black md:w-[90%] p-1 flex flex-col ">            
+    <main key={series.id} className="flex flex-col  ">
+                <section key={soundtrack.id} className="bg-black md:w-full p-1 flex flex-col ">            
                     
                     <h1 className="text-4xl">Music from {series.title} (Season {soundtrack.noSeason})</h1>
                     <section key={slug} className=" flex flex-col-reverse md:flex-row border w-full ">
                         <section className="w-full flex flex-col gap-2">
-                           <section className="w-[75%]">
-                              <h2 className="text-3xl">Soundtrack</h2>
-                              <section className="bg-white text-black text-xl">
+                           <section className="w-full">
+                              <section className="bg-[#d1c3e3] text-black text-xl">
                                 <SoundtrackBreakDown songs={soundtrack.songs}/>
                               </section>
                            </section>
@@ -36,7 +35,7 @@ return (
                             
                            </section>
                         </section>
-                         <section className="border md:w-[50%] lg:w-[20%]">
+                         <section className="border md:w-[50%] lg:w-[23%]">
                             <SoundtrackInfobox soundtrack={soundtrack}/>
                         </section> 
                            

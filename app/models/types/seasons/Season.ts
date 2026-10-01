@@ -1,5 +1,5 @@
-import { EpisodeBreakdown } from "./EpisodeBreakdown";
-import { CastMember } from "./dramaSeriesEntry";
+import { EpisodeBreakdown } from "./episode/EpisodeBreakdown";
+import { CastMember } from "../structure/CastMember";
 
 export type Season = {
   id: string;

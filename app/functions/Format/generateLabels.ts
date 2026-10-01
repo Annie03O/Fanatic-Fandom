@@ -1,4 +1,4 @@
-import { Relationship } from "@/app/models/types/Relationship";
+import { Relationship } from "@/app/models/types/structure/Relationship";
 
 export const generateLabel = (i: Relationship): string => {
  

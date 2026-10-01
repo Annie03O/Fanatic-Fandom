@@ -1,4 +1,5 @@
-import { Header } from "./components/Header";
+import { Header } from "./components/Layout/Header";
+import { SideBar } from "./components/Layout/SideBar";
 import { Footer } from "./Footer";
 // CSS is processed by Next.js; TypeScript may not have a declaration for it.
 // @ts-expect-error Next.js handles this side-effect stylesheet import.
@@ -19,8 +20,14 @@ export default function RootLayout({
     <html lang="en">
       <body>
       <Header/>
-       <main className="flex justify-center items-center">
+       <main className="flex justify-center items-stretch">
+         <section className="w-fit shrink-0 hidden md:flex flex-col items-stretch">
+          <SideBar side="left"/>
+          </section>
          {children}
+         <section className="w-fit shrink-0 hidden md:flex flex-col items-stretch">
+          <SideBar side="right"/>
+          </section>
         </main>
       <Footer/>
       </body>

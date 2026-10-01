@@ -1,7 +1,7 @@
 "use client";
 import { convertToCharacterInfobox } from "../../functions/Convert/convertToCharacterInfobox";
-import type { Character } from "../../models/types/Character";
-import type {  Occupation } from "@/app/models/types/Occupation";
+import type { Character } from "../../models/types/characters/Character";
+import type {  Occupation } from "@/app/models/types/characters/Occupation";
 
 type Props = { character: Character };
 
@@ -25,7 +25,7 @@ export const CharacterInfobox = ({ character }: Props) => {
       : characterWithInfobox.firstName;
 
   return (
-    <section>
+    <section className="flex flex-col justify-content items-center gap-3 bg-[#f2e8ff] text-black  shadow-sm shadow-gray-400">
       <h2 className="text-3xl text-center">{displayName}</h2>
 
       <img
@@ -34,14 +34,14 @@ export const CharacterInfobox = ({ character }: Props) => {
         className="w-full h-auto"
       />
 
-      <section className="border text-md mt-3">
+      <section className="text-md w-[98%]">
         {box.fields.map((item) => {
           if (!item) return null;
 
           return (
             <section
               key={item.label}
-              className="grid grid-cols-10 gap-2 p-2 border-b"
+              className="grid grid-cols-10 gap-2 p-2 border-b  border-gray-400"
             >
               <span className="col-span-3 font-semibold">{item.label}</span>
 

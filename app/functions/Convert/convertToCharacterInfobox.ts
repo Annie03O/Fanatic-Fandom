@@ -1,6 +1,6 @@
-import { Character } from "../../models/types/Character";
-import { InfoField } from "../../models/types/Infobox";
-import { Relationship } from "../../models/types/Relationship";
+import { Character } from "../../models/types/characters/Character";
+import { InfoField } from "../../models/types/structure/layouts/Infobox";
+import { Relationship } from "../../models/types/structure/Relationship";
 import { formatFamily } from "../Format/formatFamily";
 import { formatFriendship } from "../Format/formatFriendShip";
 import { formatMaritalStatus } from "../Format/formatMaritalStatus";

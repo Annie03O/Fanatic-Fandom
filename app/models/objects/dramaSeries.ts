@@ -1,5 +1,5 @@
 import { write } from "fs";
-import { Show } from "../types/Show";
+import { Show } from "../types/structure/Show";
 
 export const dramaSeries: Show[] = [
   {
@@ -5610,7 +5610,62 @@ export const dramaSeries: Show[] = [
                 artist:	"GEOFFREY WILLIAMS"              
               },
             ]
-          }
+          },
+          {
+            episodeTitle: "A Presumption of Innocence",	
+            song: [
+              {
+                id: "you-really-got-me",
+                title: "you really got me",
+                artist:	"THE KINKS"
+              },
+              {
+                id: "why",
+                title: "why",
+                artist:	"CATHY DENNIS",	
+              },
+              {
+                id: "dance",
+                title: "dance",	
+                artist: "JOMANDA"
+              },
+              {
+                id: "saving forever for you",
+                title: "saving forever for you",	
+                artist: "SHANICE",	
+              },
+              {
+                id: "on-the-other-hand",
+                title: "on the other hand",	
+                artist: "RANDY TRAVIS"
+              },
+              {
+                id: "mercy-mercy-me",
+                title: "mercy mercy me",
+                artist:	"MARVIN GAYE"
+              },
+            ],
+          }, 
+          {
+             episodeTitle: "Destiny Rides Again",
+             song:	[
+              {
+                id: "i-wanna-love-you",
+                title: "i wanna love you",
+                artist:	"JADE",
+              },
+              {
+                id: "time-to-be-lovers",
+                title: "time to be lovers",
+                artist:	"MICHAEL MCDONALD & CHAKA KHAN",
+              },
+              {
+                id: "needles and pins",
+                title: "needles and pins",
+                artist:	"THE SEARCHERS",
+              },
+            ],
+          }  
         ]
       },
       {

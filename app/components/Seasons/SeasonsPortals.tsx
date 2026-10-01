@@ -1,21 +1,25 @@
 "use client";
 
 import { useParams, useRouter } from "next/navigation";
-import type { Show } from "../../models/types/Show";
+import type { Show } from "../../models/types/structure/Show";
 import { getTwoRowSeasLayout as getTwoRowLayout } from "../../functions/getTwoRowSeasLayout";
 
-type Props = { show: Show; page: boolean };
+type Props = { 
+  show: Show; 
+  page: boolean;
+  genre:  Genre; 
+};
 
-export const SeasonsPortals = ({ show, page }: Props) => {
+export const SeasonsPortals = ({ show, page, genre }: Props) => {
   const { slug } = useParams<{ slug: string }>();
   const router = useRouter();
 
   const seasons = show?.seasons ?? [];
   // På startsidan: visa max 8 om det finns fler än 10
   const visible =
-    page === false && seasons.length > 10 ? seasons.slice(0, 8) : seasons
+    page === false && seasons.length > 6 ? seasons.slice(0, 6) : seasons
 
-  const pushSeason = (id: string) => router.push(`/drama/${slug}/seasons/${id}`);
+  const pushSeason = (id: string) => router.push(`/${genre}/${slug}/seasons/${id}`);
 
   const colsClass = (n: number) => {
     const cols = Math.max(1, Math.min(5, n)); // clamp 1..8
@@ -71,18 +75,22 @@ export const SeasonsPortals = ({ show, page }: Props) => {
           key={s.id}
           type="button"
           onClick={() => pushSeason(s.id!)}
-          className="border w-fit"
+          className="w-fit shadow-xl shadow-gray-600 ring-2 ring-[#d1c3e3]"
         >
-          <article className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative"}>
+          <section className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative"}>
             
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={s.posterUrl}
               alt={`${s.title} `}
-              className={`${page === true ? "h-[250px] w-[200px]" : "w-[250px] md:h-[200px] md:w-[150px]"} object-cover object-center`}
+              className={`${page === true ? "h-[250px] w-[200px]" : "w-full md:h-[145px] md:w-[100px]"} object-cover object-center blur-xs hover:blur-none transition-all duration-300 ease-in-out`}
             />
-          </article>
-          <section className="text-lg">Season {s.seasonNumber}</section>
+            <section className={`text-2xl text-center text-[#d1c3e3] flex flex-col items-center justify-center h-full text-4xl text-shadow-lg text-shadow-gray-600 hover:hidden border-2 border-black
+               ${page === false ? "absolute  w-full" : ""}`}>
+              {s.seasonNumber != null ? s.seasonNumber : s.title}
+            </section>
+          </section>
+          
         </button>
       ))}
     </section>
@@ -125,12 +133,12 @@ export const SeasonsPortals = ({ show, page }: Props) => {
   };
 
   return (
-    <section className={page ? "w-full flex flex-col justify-center items-center" : " border w-full"}>
+    <section className={page ? "w-full flex flex-col justify-center items-center" : "w-full"}>
       <section
         className={
           page
             ? "w-[90%]"
-            : "w-full border flex flex-col justify-center items-center"
+            : "w-full  flex flex-col justify-center items-center"
         }
       >
         <h1 className="text-3xl text-center">The Seasons</h1>
@@ -139,7 +147,7 @@ export const SeasonsPortals = ({ show, page }: Props) => {
         { groups ? (
           <section className="w-full mt-6 flex flex-col gap-8">
             {groups.map((g) => (
-              <section key={String(g.key)} className="w-full">
+              <section key={String(g.key)} className="w-full ">
                 {renderGridFor(g.items)}
               </section>
             ))}
@@ -150,7 +158,7 @@ export const SeasonsPortals = ({ show, page }: Props) => {
 
         {/* VIEW ALL */}
         <section className="flex items-center justify-center mt-4">
-          {page === false && seasons.length > 10 ? (
+          {page === false && seasons.length > 6 ? (
             <button
               className="underline"
               onClick={() => router.push(`/drama/${slug}/seasons`)}

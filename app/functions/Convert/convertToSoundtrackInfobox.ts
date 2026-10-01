@@ -1,6 +1,6 @@
-import { InfoField } from "../../models/types/Infobox";
+import { InfoField } from "../../models/types/structure/layouts/Infobox";
 import { allSeriesWithSlug } from "../WithSlug/allSeriesWithSlug";
-import { Soundtrack } from "@/app/models/types/Soundtrack";
+import { Soundtrack } from "@/app/models/types/music/Soundtrack";
 
 // type guard så .filter inte blir (InfoField | null)[]
 const isInfoField = (v: InfoField | null): v is InfoField => v !== null;

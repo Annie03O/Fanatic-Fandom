@@ -1,4 +1,4 @@
-import { Relationship } from "../../models/types/Relationship";
+import { Relationship } from "../../models/types/structure/Relationship";
 
 export function formatFriends(ship: Relationship): string | null {
   if (ship.type !== "Friendship") return null;

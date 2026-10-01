@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { ShipCard } from "./ShipCard";
-import { Relationship } from "@/app/models/types/Relationship";
+import { Relationship } from "@/app/models/types/structure/Relationship";
 
 type Props = {
   relationships: Relationship[];
@@ -39,7 +39,7 @@ export const RelationshipsSection = ({ relationships }: Props) => {
   ];
 
   return (
-    <section className="flex flex-col gap-6">
+    <section className="flex w-[90%] flex-col gap-6">
       {sections.map(({ key, title }) => {
         // OBS: om du vill kräva card===true, behåll första raden.
         // Om du misstänker att Romance saknar card, använd den andra raden istället (debug).
@@ -49,8 +49,8 @@ export const RelationshipsSection = ({ relationships }: Props) => {
         if (items.length === 0) return null;
 
         return (
-          <section key={key}>
-            <h2 className="text-3xl">{title}</h2>
+          <section key={key} className="flex flex-col gap-3  w-[90%] p-2">
+            <h2 className="text-3xl border-b border-gray-600">{title}</h2>
 
             <section key={title} className="mt-3 flex flex-col gap-3">
               {items.map((r) => (

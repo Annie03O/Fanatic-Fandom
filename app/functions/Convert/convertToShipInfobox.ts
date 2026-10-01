@@ -1,5 +1,5 @@
-import { InfoField } from "../../models/types/Infobox";
-import { Relationship } from "../../models/types/Relationship";
+import { InfoField } from "../../models/types/structure/layouts/Infobox";
+import { Relationship } from "../../models/types/structure/Relationship";
 import { allSeriesWithSlug } from "../WithSlug/allSeriesWithSlug";
 
 const isInfoField = (x: InfoField | null): x is InfoField => x !== null;

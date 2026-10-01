@@ -1,7 +1,7 @@
-import { Episode } from "./Episode";
+import { Episode } from "../seasons/episode/Episode";
 
 export type Song = {
-    id?: string;
+    id: string;
     title: string;
     artist: string;
     url?: string;

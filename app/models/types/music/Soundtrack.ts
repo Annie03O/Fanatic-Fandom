@@ -1,5 +1,4 @@
 import Soundtrack from "@/app/components/Music/Soundtrack";
-import { Episode } from "./Episode";
 import { Song } from "./Song";
 
 export type Soundtrack = {
