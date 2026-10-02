@@ -55,6 +55,10 @@ export function getTwoRowLayout(count: number): Layout {
   if (count === 43) return {
     rows: 2, topCols: 3, bottomCols: 5, splitAt: 3
   };
+   if (count === 53) return {
+    rows: 2, topCols: 3, bottomCols: 5, splitAt: 3
+  };
+
 
   // Fallback: 2 rader så jämnt som möjligt
   const splitAt = Math.ceil(count / 2);

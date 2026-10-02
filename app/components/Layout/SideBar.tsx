@@ -7,6 +7,8 @@ import { SidebarItem } from "@/app/models/types/structure/layouts/SidebarItem";
 import { shows } from "@/app/models/objects/shows";
 import { characters } from "@/app/models/objects/characters";
 import { seasons } from "@/app/models/objects/seasons";
+import { seriesBeta } from "@/app/models/objects/allSeries";
+import { toRouteSlug } from "@/app/functions/toRouteSlug";
 
 type Props = {
   side: "left" | "right";
@@ -17,8 +19,17 @@ export const SideBar = ({ side }: Props) => {
 
   useEffect(() => {
     const timeout = window.setTimeout(() => {
-      setItems(pickRandom([...shows, ...characters, ...seasons], 10));
-    }, 0);
+      setItems(
+        pickRandom(
+          seriesBeta.map((show) => ({
+            id: show.id,
+            label: show.title,
+            context: show.genre,
+            image: show.posterUrl,
+            href: `/${show.genre}/${toRouteSlug(show.title)}`,
+
+          })), 10));
+    },);
 
     return () => window.clearTimeout(timeout);
   }, []);

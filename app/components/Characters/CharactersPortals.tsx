@@ -28,8 +28,8 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
   const visible =
     page === false && mainChars.length > 9 ? mainChars.slice(0, 8) : mainChars;
 
-  const pushCharacter = (id: string) => router.push(
-    `/${genre}/${slug}/characters/${id}`);
+  // const pushCharacter = (id: string) => router.push(
+  //   `/${genre}/${slug}/characters/${id}`);
 
   const colsClass = (n: number) => {
     const cols = Math.max(1, Math.min(8, n)); // clamp 1..8
@@ -40,7 +40,7 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
       : cols === 3
       ? "md:grid-cols-3"
       : cols === 4
-      ? "md:grid-cols-2 lg:grid-cols-4"
+      ? "grid-cols-2 min-[1700px]:grid-cols-4"
       : cols === 5
       ? "md:grid-cols-5"
       : cols === 6
@@ -146,8 +146,8 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
         <button
           key={c.id}
           type="button"
-          onClick={() => pushCharacter(c.id!)}
-          className={`border w-fit bg-white shadow-xl shadow-gray-600 hover:shadow-none hover:rounded-2xl overflow-hidden ring-2 ring-[#d1c3e3]` }
+          // onClick={() => pushCharacter(c.id!)}
+          className={`border w-fit bg-white shadow-xl shadow-gray-600 overflow-hidden ring-2 ring-[#d1c3e3]` }
         >
           <article className="w-fit flex flex-col-reverse relative ">
             <h2 className={`text-2xl text-center bg-black ${page === false ? "absolute  w-full" : ""}`}>
@@ -198,12 +198,12 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
   };
 
   return (
-    <section className={page ? "w-full flex flex-col justify-center items-center" : "w-full"}>
+    <section className={page ? "w-full flex flex-col items-center bg-black" : "w-full"}>
       <section
         className={
           page
-            ? "w-[90%]"
-            : "w-full bordezr flex flex-col justify-center items-center"
+            ? "w-[90%] mt-4"
+            : "w-full flex flex-col justify-center items-center"
         }
       >
         <h1 className="text-3xl text-center">Meet the characters</h1>

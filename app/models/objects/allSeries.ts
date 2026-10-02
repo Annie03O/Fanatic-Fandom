@@ -8,4 +8,4 @@ export const allSeries = comedySeries.concat(crimeSeries, dramaSeries, fantasySe
 
 export const seriesBeta = allSeries.filter(i => i.mainCharacters && i.seasons && i.soundtrack);
 
-
+console.log(seriesBeta.length);

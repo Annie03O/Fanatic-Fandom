@@ -19,14 +19,14 @@ export const SeasonsPortals = ({ show, page, genre }: Props) => {
   const visible =
     page === false && seasons.length > 6 ? seasons.slice(0, 6) : seasons
 
-  const pushSeason = (id: string) => router.push(`/${genre}/${slug}/seasons/${id}`);
+  //const pushSeason = (id: string) => router.push(`/${genre}/${slug}/seasons/${id}`);
 
   const colsClass = (n: number) => {
     const cols = Math.max(1, Math.min(5, n)); // clamp 1..8
     return cols === 2
       ? "md:grid-cols-2"
       : cols === 3
-      ? "md:grid-cols-3"
+      ? "grid-cols-2 min-[1700px]:grid-cols-3"
       : cols === 4
       ? "md:grid-cols-2 lg:grid-cols-4"
       : cols === 5
@@ -74,7 +74,7 @@ export const SeasonsPortals = ({ show, page, genre }: Props) => {
         <button
           key={s.id}
           type="button"
-          onClick={() => pushSeason(s.id!)}
+          //onClick={() => pushSeason(s.id!)}
           className="w-fit shadow-xl shadow-gray-600 ring-2 ring-[#d1c3e3]"
         >
           <section className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative"}>
@@ -83,9 +83,9 @@ export const SeasonsPortals = ({ show, page, genre }: Props) => {
             <img
               src={s.posterUrl}
               alt={`${s.title} `}
-              className={`${page === true ? "h-[250px] w-[200px]" : "w-full md:h-[145px] md:w-[100px]"} object-cover object-center blur-xs hover:blur-none transition-all duration-300 ease-in-out`}
+              className={`${page === true ? "h-[250px] w-[200px]" : "w-full md:h-[145px] md:w-[100px]"} object-cover object-center blur-xs  transition-all duration-300 ease-in-out`}
             />
-            <section className={`text-2xl text-center text-[#d1c3e3] flex flex-col items-center justify-center h-full text-4xl text-shadow-lg text-shadow-gray-600 hover:hidden border-2 border-black
+            <section className={`text-2xl text-center text-[#d1c3e3] flex flex-col items-center justify-center h-full text-4xl text-shadow-lg text-shadow-gray-600  border-2 border-black
                ${page === false ? "absolute  w-full" : ""}`}>
               {s.seasonNumber != null ? s.seasonNumber : s.title}
             </section>

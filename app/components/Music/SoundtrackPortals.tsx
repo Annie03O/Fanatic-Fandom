@@ -25,7 +25,7 @@ renders.current += 1;
 console.log("SeasonsPortals renders:", renders.current);
 
 
-  const pushSoundtrack = (id: string) => router.push(`/drama/${slug}/soundtrack/${id}`);
+  //const pushSoundtrack = (id: string) => router.push(`/drama/${slug}/soundtrack/${id}`);
 
   const colsClass = (n: number) => {
     const cols = Math.max(1, Math.min(5, n)); // clamp 1..8
@@ -53,8 +53,8 @@ console.log("SeasonsPortals renders:", renders.current);
         <button
           key={s.id}
           type="button"
-          onClick={() => pushSoundtrack(s.id!)}
-          className="text-lg hover:text-xl  w-fit rounded-2xl hover:rounded-3xl hover:border-2 hover:bg-gray-300 shadow-lg shadow-gray-400/90 hover:scale-105 trshadow-xl shadow-gray-600 ring-2 ring-[#d1c3e3]ansition-all duration-300 ease-in-out ring-2 overflow-hidden"
+          //onClick={() => pushSoundtrack(s.id!)}
+          className="text-lg hover:text-xl  w-fit rounded-2xl  shadow-lg shadow-gray-400/90 shadow-xl shadow-gray-600 ring-2 ring-[#d1c3e3]ansition-all duration-300 ease-in-out ring-2 overflow-hidden"
         >
           <section className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative md:w-[100px]"}>
             
@@ -62,9 +62,9 @@ console.log("SeasonsPortals renders:", renders.current);
             <img
               src={s.imgUrl}
               alt={`${s.noSeason} `}
-              className={` object-cover object-center blur-xs hover:blur-none transition-all duration-300 ease-in-out`}
+              className={` object-cover object-center blur-xs  transition-all duration-300 ease-in-out`}
             />
-            <section className={`text-2xl text-center text-[#d1c3e3] flex flex-col items-center justify-center h-full text-4xl text-shadow-lg text-shadow-gray-600 hover:hidden border-2 border-black
+            <section className={`text-2xl text-center text-[#d1c3e3] flex flex-col items-center justify-center h-full text-4xl text-shadow-lg text-shadow-gray-600 border-2 border-black
                ${page === false ? "absolute  w-full" : ""}`}>
               {s.noSeason != null ? s.noSeason : s.noSeason}
             </section>

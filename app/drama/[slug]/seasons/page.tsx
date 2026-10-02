@@ -1,28 +1,27 @@
-"use client"
 import { SeasonsPortals } from "@/app/components/Seasons/SeasonsPortals";
 import { seriesBetaWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
-import { useParams } from "next/navigation";
 
-type Props = {
-  genre: "drama" | "kids" | "crime" | "comedy";
+export function generateStaticParams() {
+  return seriesBetaWithSlug.items.map((series) => ({
+    slug: series.slug,
+  }));
 }
 
-export default function AllSeasonsPage({genre}: Props) {
-        const {slug} = useParams<{slug: string}>();
-    
-    const series = seriesBetaWithSlug.items.find((s) => s.slug === slug)
-    const cast = series?.cast ?? [];
+type Props = {
+  params: Promise<{
+    slug: string;
+  }>;
+};
 
-    console.log("series", series);
-    
+export default async function AllSeasonsPage({ params }: Props) {
+  const { slug } = await params;
+  const series = seriesBetaWithSlug.items.find((item) => item.slug === slug);
 
-    if (!series) return <section>Series not found</section>
-        
-    
-    return (
-      <div className="flex flex-col  items-center bg-black w-[90%] min-h-[1000px]"> 
-        
-        <SeasonsPortals genre={genre} show={series} page={true}/>
-      </div>
-    )
+  if (!series) return <section>Series not found</section>;
+
+  return (
+    <div className="flex flex-col items-center bg-black w-[90%] min-h-[1000px]">
+      <SeasonsPortals genre="drama" show={series} page={true} />
+    </div>
+  );
 }

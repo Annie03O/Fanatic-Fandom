@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { usePathname } from "next/navigation";
+import SearchFilter from "./SearchFilter";
 
 type NavItem = { label: string; href: string };
 
@@ -11,37 +12,32 @@ const navItems: NavItem[] = [
     label: "Home", 
     href: "/" 
   },
+  // { 
+  //   label: "Drama", 
+  //   href: "/drama" 
+  // },
+
+  // { 
+  //   label: "Kids", 
+  //   href: "/kids" 
+  // },
+  // { 
+  //   label: "Crime", 
+  //   href: "/crime" 
+  // },
+  // { 
+  //   label: "Comedy", 
+  //   href: "/comedy" 
+  // },
+  // {
+  //   label: "Fantasy",
+  //   href: "/fantasy",
+  // },
   { 
-    label: "Drama", 
-    href: "/drama" 
+    label: "All Series", 
+    href: "/series" 
   },
 
-  { 
-    label: "Kids", 
-    href: "/kids" 
-  },
-  { 
-    label: "Crime", 
-    href: "/crime" 
-  },
-  { 
-    label: "Comedy", 
-    href: "/comedy" 
-  },
-  {
-    label: "Fantasy",
-    href: "/fantasy",
-  },
-
-  { 
-    label: "About", 
-    href: "/about" 
-  },
-
-  { 
-    label: "Contact", 
-    href: "/contact" 
-  },
 ];
 
 const cx = (...classes: Array<string | false | undefined>) =>
@@ -79,6 +75,7 @@ export function Header() {
         >
           FanaticFandom
         </Link>
+              <SearchFilter/>
 
         {/* Desktop nav */}
         <ul className="hidden items-center gap-6 md:flex ">
