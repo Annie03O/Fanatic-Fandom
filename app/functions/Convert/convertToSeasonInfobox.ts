@@ -1,6 +1,6 @@
 import { Season } from "@/app/models/types/seasons/Season";
 import { InfoField } from "../../models/types/structure/layouts/Infobox";
-import { allSeriesWithSlug } from "../WithSlug/allSeriesWithSlug";
+import { seriesBetaWithSlug } from "\.\./WithSlug/allSeriesWithSlug";
 
 // type guard så .filter inte blir (InfoField | null)[]
 const isInfoField = (v: InfoField | null): v is InfoField => v !== null;
@@ -123,7 +123,7 @@ export function convertToSeasonInfobox(season?: Season) {
 // Om du vill bygga listan:
 // (filtrera bort null ifall något skulle vara trasigt)
 export const dramaSeriesWithInfobox = {
-  items: allSeriesWithSlug.items
+  items: seriesBetaWithSlug.items
     .map((item) => (isSeason(item) ? convertToSeasonInfobox(item) : null))
     .filter(
       (s): s is NonNullable<ReturnType<typeof convertToSeasonInfobox>> =>

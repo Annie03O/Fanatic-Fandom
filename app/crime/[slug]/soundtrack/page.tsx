@@ -1,12 +1,12 @@
 "use client"
 import  SoundtrackPortals  from "@/app/components/Music/SoundtrackPortals"
-import { allSeriesWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
+import { seriesBetaWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
 import { useParams } from "next/navigation";
 
 export default function AllSoundtrack()  {
     const {slug} = useParams<{slug: string}>();
         
-        const series = allSeriesWithSlug.items.find((s) => s.slug === slug)
+        const series = seriesBetaWithSlug.items.find((s) => s.slug === slug)
         
         console.log("series", series);
         

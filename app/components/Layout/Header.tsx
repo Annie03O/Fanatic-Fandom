@@ -70,7 +70,7 @@ export function Header() {
 
   return (
     <header className="w-full border-b bg-black">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 text-[#d1c3e3] md:px-6">
         {/* Logo */}
         <Link
           href="/"

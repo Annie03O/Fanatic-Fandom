@@ -1,6 +1,6 @@
 "use client"
 import RelatedPortal from "@/app/components/RelatedPortal";
-import { allSeriesWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
+import { seriesBetaWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
 import { useParams } from "next/navigation";
 
 type Props = {
@@ -10,7 +10,7 @@ type Props = {
 export default function AllRelatedPage({genre}: Props) {
         const {slug} = useParams<{slug: string}>();
     
-    const series = allSeriesWithSlug.items.find((s) => s.slug === slug)
+    const series = seriesBetaWithSlug.items.find((s) => s.slug === slug)
     const cast = series?.cast ?? [];
 
     console.log("series", series);

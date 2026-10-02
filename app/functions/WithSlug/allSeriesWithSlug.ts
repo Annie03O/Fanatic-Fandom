@@ -1,7 +1,7 @@
 import { Show } from "@/app/models/types/structure/Show";
 import { dramaSeries } from "../../models/objects/dramaSeries";
 import { toRouteSlug } from "../toRouteSlug";
-import { allSeries } from "@/app/models/objects/allSeries";
+import { seriesBeta } from "@/app/models/objects/allSeries";
 
 type RelatedShowWithSlug = NonNullable<Show["related"]>[number] & {
   slug: string;
@@ -21,8 +21,8 @@ const mapShow = (show: Show): Show & { slug: string; related?: RelatedShowWithSl
   related: show.related?.map(mapRelated),
 });
 
-export const allSeriesWithSlug = {
-  ...allSeries,
-  items: allSeries.map(mapShow),
+export const seriesBetaWithSlug = {
+  ...seriesBeta,
+  items: seriesBeta.map(mapShow),
 };
 

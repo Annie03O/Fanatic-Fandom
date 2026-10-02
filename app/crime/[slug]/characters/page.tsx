@@ -1,6 +1,6 @@
 "use client"
 import { CharacterPortals } from "@/app/components/Characters/CharactersPortals";
-import { allSeriesWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
+import { seriesBetaWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
 import { Show } from "@/app/models/types/structure/Show";
 import { useParams } from "next/navigation";
 
@@ -11,7 +11,7 @@ type Props = {
 export default function AllCharacterPage({genre}: Props) {
         const {slug} = useParams<{slug: string}>();
     
-    const series = allSeriesWithSlug.items.find((s) => s.slug === slug)
+    const series = seriesBetaWithSlug.items.find((s) => s.slug === slug)
     const cast = series?.cast ?? [];
 
     console.log("series", series);

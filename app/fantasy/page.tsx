@@ -1,6 +1,6 @@
 "use client";
 import ShowPortal from "../components/Show/ShowPortal";
-import { allSeriesWithSlug } from "../functions/dramaSeriesTop50WithSlug";
+import { seriesBetaWithSlug } from "../functions/dramaSeriesTop50WithSlug";
 import { fantasySeriesWithSlug } from "../functions/WithSlug/fantasySeriesWithSlug";
 
 
@@ -9,7 +9,7 @@ export const FantasyPage = () => {
   return (
     <article className="flex flex-wrap gap-10 items-center justify-center bg-black p-3">
      
-            {allSeriesWithSlug.items
+            {seriesBetaWithSlug.items
               .filter((i) => i.tags?.some((tag) => tag.toLowerCase() === "fantasy" || tag.toLowerCase() === "dark fantasy"))
               .map((i) => {
         

@@ -1,7 +1,7 @@
 import { Movie } from "@/app/models/types/structure/Movie";
 import { InfoField } from "../../models/types/structure/layouts/Infobox";
 
-import { allSeriesWithSlug } from "../WithSlug/allSeriesWithSlug";
+import { seriesBetaWithSlug } from "\.\./WithSlug/allSeriesWithSlug";
 
 // type guard så .filter inte blir (InfoField | null)[]
 const isInfoField = (v: unknown): v is InfoField => {
@@ -76,14 +76,14 @@ export function convertToMoviesInfobox(movie: Movie) {
 }
 
 const isMovie = (
-  show: (typeof allSeriesWithSlug.items)[number],
+  show: (typeof seriesBetaWithSlug.items)[number],
 ): show is (typeof show & Movie) =>
   "base" in show && "season" in show && "number" in show;
 
 // Om du vill bygga listan:
 // (filtrera bort null ifall något skulle vara trasigt)
 export const dramaMoviesWithInfobox = {
-  items: allSeriesWithSlug.items
+  items: seriesBetaWithSlug.items
     .filter(isMovie)
     .map(convertToMoviesInfobox)
     .filter((s): s is Movie & { infobox: any } => Boolean(s)),

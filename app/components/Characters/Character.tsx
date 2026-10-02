@@ -1,7 +1,7 @@
 "use client";
 
 import { useParams } from "next/navigation";
-import { allSeriesWithSlug } from "../../functions/WithSlug/allSeriesWithSlug";
+import { seriesBetaWithSlug } from "../../functions/WithSlug/allSeriesWithSlug";
 import { CharacterInfobox } from "./CharacterInfobox";; 
 import { Relationship } from "@/app/models/types/structure/Relationship";
 import { RelationshipsSection } from "../Relationships/RelationshipsSection"; 
@@ -11,8 +11,8 @@ function Character() {
   const { slug, id } = useParams<{ slug: string; id: string }>();
 
 
-  // allSeriesWithSlug är { ...dramaSeries, items: [...] }
-  const series = allSeriesWithSlug.items.find((s) => s.slug === slug);
+  // seriesBetaWithSlug är { ...dramaSeries, items: [...] }
+  const series = seriesBetaWithSlug.items.find((s) => s.slug === slug);
 
   if (!series) return <section>Series not found</section>;
 

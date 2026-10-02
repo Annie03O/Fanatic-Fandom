@@ -1,6 +1,6 @@
 "use client"
 import { CharacterPortals } from "../Characters/CharactersPortals";
-import { allSeriesWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
+import { seriesBetaWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
 import { kidsSeriesWithSlug } from "@/app/functions/WithSlug/kidsSeriesWithSlug";
 import { useParams } from "next/navigation";
 import { SeasonsPortals } from "../Seasons/SeasonsPortals";
@@ -29,7 +29,7 @@ const ShowPage = ({genre}: ShowPageProps) => {
     let series: Show | undefined;
     if (genre === "drama") {
 
-        series = allSeriesWithSlug.items.find((s) => s.slug === slug || s.id === slug)
+        series = seriesBetaWithSlug.items.find((s) => s.slug === slug || s.id === slug)
 
     } else if (genre === "kids") {
         series = kidsSeriesWithSlug.items.find((s) => s.slug === slug)

@@ -1,9 +1,9 @@
 import ShowPage from "@/app/components/Show/ShowPage";
-import { allSeriesWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
+import { seriesBetaWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
 
 
 export function generateStaticParams() {
-    return allSeriesWithSlug.items.flatMap((series) => [
+    return seriesBetaWithSlug.items.flatMap((series) => [
         { slug: series.slug },
         ...(series.id === series.slug ? [] : [{ slug: series.id }]),
     ]);

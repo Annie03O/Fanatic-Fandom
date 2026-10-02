@@ -1,6 +1,6 @@
 import { InfoField } from "../../models/types/structure/layouts/Infobox";
 import { Show } from "../../models/types/structure/Show";
-import { allSeriesWithSlug } from "../WithSlug/allSeriesWithSlug";
+import { seriesBetaWithSlug } from "\.\./WithSlug/allSeriesWithSlug";
 
 // type guard så .filter inte blir (InfoField | null)[]
 const isInfoField = (v: unknown): v is InfoField => {
@@ -78,7 +78,7 @@ export function convertToSeriesInfobox(show?: Show) {
 // Om du vill bygga listan:
 // (filtrera bort null ifall något skulle vara trasigt)
 export const dramaSeriesWithInfobox = {
-  items: allSeriesWithSlug.items
+  items: seriesBetaWithSlug.items
     .map(convertToSeriesInfobox)
     .filter((s): s is Show & { infobox: any } => Boolean(s)),
 };
