@@ -26,10 +26,10 @@ export const BreadcrumpNav = () => {
                : ""
             }
             <ol className="flex gap-2">
-                <li>
+               { pathname === "/" ? <li>
                     <Link href="/">Home</Link>
-                </li>
-                {segments.map((segment, index) => {
+                </li> :
+                segments.map((segment, index) => {
                     const href = `/${segments.slice(0, index + 1).join("/")}`;
                     const label = decodeURIComponent(segment)
                         .replace(/[_-]+/g, " ")
@@ -37,12 +37,14 @@ export const BreadcrumpNav = () => {
 
                     return (
                         <li key={href} className="flex gap-2">
-                            <span aria-hidden="true">/</span>
                             {index === segments.length - 1 ? (
                                 <span aria-current="page">{label}</span>
+                                
                             ) : (
                                 <Link href={href}>{label}</Link>
                             )}
+                            <span aria-hidden="true">/</span>
+
                         </li>
                     );
                 })}
