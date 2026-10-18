@@ -20,7 +20,7 @@ export const BreadcrumpNav = () => {
         <nav aria-label="Breadcrumb" className="ml-2 flex gap-2 justify-start w-full">
             {
                pathname !== "/" 
-               ? <button className=" w-fit hover:underline" onClick={handleBackClick}>
+               ? <button className=" w-fit hover:underline cursor-pointer" onClick={handleBackClick}>
                     <FontAwesomeIcon icon={faArrowLeft}/>
                </button> 
                : ""

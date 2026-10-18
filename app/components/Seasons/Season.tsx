@@ -17,9 +17,6 @@ function Season({genre}: Props) {
 
   if (!series) return <section>Series not found</section>;
 
-  console.log(seasonId);
-  
-
   // Variant A: om mainCharacters ligger direkt på serien
   const season = series.seasons?.find((s) => s.id === seasonId);
 
@@ -31,8 +28,8 @@ function Season({genre}: Props) {
 
   
   return (
-    <main className="flex flex-col justify-center items-center text-[#d1c3e3] md:w-[70%]">
-                <article className="  p-1 flex flex-col">            
+    <article key={seasonId} className="flex flex-col justify-center items-center text-[#d1c3e3] w-full">
+                <section className="w-full p-1 flex flex-col">            
                     <h1 className="text-4xl">{season.title}</h1>
                     <section className=" flex flex-col-reverse md:flex-row  w-full pl-2">
                         <section className="w-full flex flex-col gap-2">
@@ -46,7 +43,7 @@ function Season({genre}: Props) {
                             </section>
                               <section  className="h-1/10 overflow-y-scroll mr-2">
                                 {season.episodeBreakdown.map((i) => (
-                                  <EpisodeBreakdown episode={i}/>
+                                  <EpisodeBreakdown key={i.id} episode={i}/>
                                 )
                                 )}
                               </section>
@@ -57,8 +54,8 @@ function Season({genre}: Props) {
                         </section>
                            
                     </section>
-                </article>
-            </main>
+                </section>
+            </article>
     
   );
 }

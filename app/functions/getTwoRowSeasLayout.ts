@@ -2,7 +2,8 @@ import { Layout } from "../models/types/structure/layouts/Layout";
 
 export function getTwoRowSeasLayout(count: number): Layout {
   
-  if (count === 1 || count === 3 || count === 2 || count === 4) return { rows: 1, topCols: count, splitAt: count };
+  if (count === 1 || count === 3 || count === 2 ) return { rows: 1, topCols: count, splitAt: count };
+  if (count === 4) return {rows: 2, topCols: 2, bottomCols: 2, splitAt: 2 }
   if (count === 5) return { rows: 2, topCols: 2, bottomCols: 3, splitAt: 2 };
   if (count === 6) return { rows: 1, topCols: 3,  splitAt: count };
 

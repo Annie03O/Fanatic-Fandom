@@ -341,7 +341,7 @@ export const crimeSeries: Show[] = [
     firstAirDate: "October 29, 1999",
     lastAirDate: "TBA",
     genre: "crime",
-tags: ["Crime", "Action", "Thriller"],
+    tags: ["Crime", "Action", "Thriller"],
 },
 {
     id: "wallander",

@@ -4,13 +4,9 @@ import { Song } from "./Song";
 export type Soundtrack = {
     id: string;
     type: "soundtrack" | "album";
-    songs: EpisodeSongInfo[];
+    songs: Song[];
     imgUrl?: string;
     noSeason?: number;
     noImage: boolean;
 }
 
-export type EpisodeSongInfo = {
-    episodeTitle: string;
-    song?: Song[];
-}

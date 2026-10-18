@@ -3235,6 +3235,48 @@ export const dramaSeries: Show[] = [
             plot: "Minnesota natives Brandon and Brenda Walsh begin attending West Beverly Hills High, and experience culture shock when they become exposed to the glamour, wealth, and privilege that their new classmates possess. Following a romantic date, Brandon accidentally spreads a rumor about him sleeping with a notorious party girl. Brenda uses a fake ID to get into a nightclub and passes herself off as a college student when she begins dating a young lawyer. Two freshmen students named David and Scott attempt to navigate their way through the social scene at school.",
             releaseDate: "October 4, 1990",
             usViewers: 11.0,
+            soundtrack: [
+                  {
+                  id: "i-want-your-love-transvision-vamp",
+                  title: "I Want Your Love",
+                  artist: "Transvision Vamp",
+                },
+                {
+                  id: "all-i-want-is-everything-jellyfish",
+                  title: "all i want is everything",
+                  artist: "JELLYFISH",
+                },
+                {
+                  id: "attacked-by-monsters-meat-puppets",
+                  title: "attacked by monsters",
+                  artist: "MEAT PUPPETS",
+                },
+                {
+                  id: "paradise-meat-puppets",
+                  title: "paradise",
+                  artist: "MEAT PUPPETS",
+                },
+                {
+                  id: "nobody-rides-for-free-climate-of-crises",
+                  title: "Nobody Rides For Free",	
+                  artist: "Climate of Crisis",
+                },
+                {
+                  id: "the-motion-of-love-gene-loves-jezebel",
+                  title: "the motion of love",
+                  artist: "GENE LOVES JEZEBEL",
+                },
+                {
+                  id: "clear-to-you-the-innocence-mission",
+                  title: "Clear to You",
+                  artist: "THE INNOCENCE MISSION",
+                },
+                {
+                  id: "wild-in-the-streets-garland-jeffreys",
+                  title: "wild in the streets",
+                  artist: "GARLAND JEFFREYS",	
+                },
+            ],
           },
           {
             id: "the-green-room",
@@ -3247,6 +3289,23 @@ export const dramaSeries: Show[] = [
             plot: "Brandon meets and befriends Dylan McKay, a brooding classmate. As they continue to spend time together, Brandon learns that Dylan's bad-boy act masks a hidden life that few people ever see. The beach is the place to be at for the West Bev students and also where Brenda sees Kelly's true colors. Steve's mother convinces him to talk to David after mistakenly thinking that his father is a wealthy TV show producer.",
             releaseDate: "October 11, 1990",
             usViewers: 10.2,
+            soundtrack: [
+              {
+                id: "word-to-the-mutha!",
+                title: "Word To The Mutha!",
+                artist: "Bell Biv Devoe",
+              },
+              {
+                id: "monday-monday",
+                title: "Monday Monday",
+                artist: "The Mamas and Papas",
+              },
+              {
+                id: "surf-crazy",
+                title: "Surf Crazy",
+                artist: "Jan Berry and Dean Torrence"
+              },
+            ],
           },
           {
             id: "every-dream-has-its-price-(tag)",
@@ -3259,6 +3318,24 @@ export const dramaSeries: Show[] = [
             plot: "Brenda goes shopping with Kelly and her wild friend Tiffany and wishes that she had their kind of money. Unbeknownst to her, Tiffany is a shoplifter and when they get arrested, Brenda begins losing her mother's trust. Meanwhile, Brandon gets a job at a trendy restaurant where his boss treats him horribly and pays the minority employees less than minimum wage. Cindy grows uncomfortable when Jim hires a maid.",
             releaseDate: "October 18, 1990",
             usViewers: 7.8,
+            soundtrack: [
+              {
+                title: "Town Without Pity",
+                artist: "Gene Pitney",
+              },
+              {
+                title: "dirty cash (money talks)",
+                artist: "THE ADVENTURES OF STEVIE V"
+              },
+              {
+                title: "mt [the 77s cover]",
+                artist: "ZOPPI",
+              },
+              {
+                title: "let the good times roll",
+                artist: "LOUIS JORDAN & HIS TYMPANY FIVE",
+              },
+            ],
           },
           {
             id: "the-first-time",
@@ -3271,6 +3348,31 @@ export const dramaSeries: Show[] = [
             plot: "Brandon is excited when Sheryl, his ex-girlfriend from Minneapolis visits. When Sheryl meets Dylan, she becomes aroused by his money and glamour, making Brandon jealous and violent. Brenda develops a crush on her algebra teacher and is disappointed to find out that he has a wife and children that she has agreed to babysit. Cindy worries about Brandon losing his virginity and nags Jim to have the sex talk with him.",
             releaseDate: "October 25, 1990",
             usViewers: 7.6,
+            soundtrack: [
+              {
+                id: "shock-wave",
+                title: "shock wave",
+                artist: "KIPPER JONES",
+              },
+              {
+                id: "dreamlike-state",
+                title: "Dreamlike State",
+                artist: "Erasure",
+              },
+              {
+                id: "in-the-mood",
+                title: "in the mood",	
+                artist: "GLENN MILLER & HIS ORCHESTRA",
+              },
+              {
+                title: "i wanna be rich",
+                artist: "CALLOWAY",
+              },
+              {
+                title: "hippychick",
+                artist: "SO:HO"
+              },
+            ],
           },
           {
             id: "one-on-one",
@@ -3283,6 +3385,24 @@ export const dramaSeries: Show[] = [
             plot: "When Brandon and Steve try out for the basketball team, Brandon learns that the school recruits minority students from out of the district in order to boost their stats and is forced to make a difficult choice in order to secure a spot on the team and make his father proud. Meanwhile, Brenda decides to take driver’s education again, but fails twice and ends up losing Brandon’s car when trying to pick Kelly up from a bad date.",
             releaseDate: "November 1, 1990",
             usViewers: 8.1,
+            soundtrack: [
+              {
+                title: "Ooops Up",
+                artist: "Snap!",
+              },
+              {
+                title: "the way you do the things you do",	
+                artist: "THE TEMPTATIONS",
+              },
+              {
+                title: "turn it on salvador",	
+                artist: "TOY MATINEE",
+              },
+              {
+                title: "just the way it is, baby",
+                artist: "THE REMBRANDTS",
+              },
+            ],
           },
           {
             id: "higher-education",
@@ -3295,6 +3415,16 @@ export const dramaSeries: Show[] = [
             plot: "An unreasonable history teacher makes his students' lives miserable by using an infamous steep grading curve and when Brandon learns that Steve gets A's by stealing exams before the test, he decides to follow suit. Brenda and Kelly vie for Dylan's attention and when he states that he prefers blondes, Brenda grows insecure and decides to dye her hair but the result is horrifying.",
             releaseDate: "November 15, 1990",
             usViewers: 7.6,
+            soundtrack: [
+              {
+                title: "Policy of Truth",
+                artist: "Depeche Mode"
+              },
+              {
+                title: "bedspring kiss",
+                artist: "JELLYFISH "
+             },
+            ],
           },
           {
             id: "perfect-mom",
@@ -3307,6 +3437,12 @@ export const dramaSeries: Show[] = [
             plot: "Brenda takes her mother for granted when she begins idolizing Kelly's cool mother, but unbeknownst to her, inside the Taylor household lies a dark secret as Jackie relapses and starts abusing drugs and alcohol all the while Kelly's pleas for help go unnoticed. Andrea joins Brenda and Cindy in the 15th Annual West Beverly High Fashion Show. David uses his video camera in order to sneak a peek at Kelly in the fashion show dressing room.",
             releaseDate: "November 22, 1990",
             usViewers: 6.6,
+            soundtrack: [
+              {
+                title: "star",
+                artist: "ERASURE",
+              }
+            ]
           },
           {
             id: "the-17-year-itch",
@@ -3319,6 +3455,20 @@ export const dramaSeries: Show[] = [
             plot: "Following their disappointing seventeenth wedding anniversary, Cindy feels like the intimacy is lost between her and Jim and engages in an emotional affair with her old college boyfriend who has moved to town, scaring Brenda into thinking her parents are headed for divorce. Meanwhile, Brenda and Brandon participate in a UCLA study on twins. Also, David wants to be the new school DJ.",
             releaseDate: "November 29, 1990",
             usViewers: 6.2,
+            soundtrack: [
+              {
+                title: "love generation",	
+                artist: "SO:HO"	
+              },
+              {
+                title: "being cool",	
+                artist: "DJAVAN",	
+              },
+              {
+                title: "heart shaped world",
+                artist:	"CHRIS ISAAK"
+              },
+          ]
           },
           {
             id: "the-gentle-art-of-listening",
@@ -3331,6 +3481,24 @@ export const dramaSeries: Show[] = [
             plot: "As the students of West Beverly get pumped for Grudge Week against Beverly Hills High, Brenda grows annoyed by her friends' lack of school spirit. She volunteers for a teen crisis hotline and violates the rules when she takes an after-hours call from a date-rape victim, who is still in danger. Meanwhile, Brandon thinks that a sexy older woman named Nina is attracted to him and makes preparations to have sex with her. Brandon is also followed around school by a lovesick freshman girl to his annoyance.",
             releaseDate: "December 6, 1990",
             usViewers: 8.0,
+            soundtrack: [
+              {
+                title: "Get Up (Before The Night Is Over)",	
+                artist: "TECHNOTRONIC",
+              },
+              {
+                title: "chocolate",	
+                artist: "THE TIME",	
+              },
+              {
+                title: "since i met you baby",	
+                artist: "IVORY JOE HUNTER",
+              },
+              {
+                title: "devil or angel",	
+                artist: "THE CLOVERS",
+              },
+            ],
           },
           {
             id: "isn't-it-romantic?",
@@ -3343,6 +3511,20 @@ export const dramaSeries: Show[] = [
             plot: "Brenda and Dylan start dating, causing differing opinions in the Walsh house. When sex becomes an option, Brenda learns that he may be too intense for her. Dylan's father arrives back to the hotel and criticizes Dylan. Brenda falls for Dylan a lot more when she learns about how bad his estranged relationship with his father is. Dylan finds out his father will be indicted for tax and securities fraud. As a result, Dylan stands up Brenda for a date. Brenda is heartbroken. Meanwhile, the gang begins Sex Education in Health Class and Scott has trouble getting his mother to sign the consent form. Steve attempts to hook up with Stacy Sloan, the class' speaker. Later on, everyone attends an AIDS seminar and listens to Stacy's speech based on her own experience and condition.",
             releaseDate: "January 3, 1991",
             usViewers: 7.7,
+            soundtrack: [
+              {
+                title: "Lily Was Here",
+                artist:	"Candy Dulfer"
+              },
+              {
+                title: "doin' the do",
+                artist:	"BETTY BOO"	
+              },
+              {
+                title: "She's Like the Wind (feat. Wendy Fraser)",	
+                artist: "Patrick Swayze",
+              },
+             ],
           },
           {
             id: "b.y.o.b",
@@ -3355,6 +3537,20 @@ export const dramaSeries: Show[] = [
             plot: "The Walsh twins feel pressured by their peers to drink alcohol. Brandon grows tired of being the responsible twin. When the siblings throw a house party, he goes too far, and puts himself and the lives of others in danger when he drives drunk and gets into a car accident. Meanwhile, after their last drunken hook-up, Kelly grows annoyed by Steve's advances. David does his best to get closer to Kelly. Jim and Cindy go away to Palm Springs for a retreat and are forced to deal with an annoying couple.",
             releaseDate: "January 10, 1991",
             usViewers: 9.1,
+            soundtrack: [
+              {
+                title: "So Hard",	
+                artist: "PET SHOP",
+              },
+              {
+                title: "goddess",	
+                artist: "SO:HO",	
+              },
+              {
+                title: "don't you love me",	
+                artist: "49ERS",
+              },
+            ]  ,
           },
           {
             id: "one-man-and-a-baby",
@@ -3370,6 +3566,20 @@ export const dramaSeries: Show[] = [
             plot: "Brandon gets an unexpected taste of fatherhood when he starts dating a scholarly senior with Ivy League ambition named Melissa and then has to baby-sit her infant son while she has a college interview. Brenda and Kelly win a radio contest and get skydiving lessons. Her parents refuse to allow her to go but she goes anyway.",
             releaseDate: "January 24, 1991",
             usViewers: 9.9,
+            soundtrack: [
+              {
+                title: "baby love",	
+                artist: "THE SUPREMES",
+              },
+              {
+                title: "joey",	
+                artist: "CONCRETE BLONDE",
+              },
+              {
+                title: "Wicked Game",
+                artist:	"Chris Isaak",
+              },
+            ],
           },
           {
             id: "slumber-party",
@@ -3382,6 +3592,16 @@ export const dramaSeries: Show[] = [
             plot: "Brenda invites Kelly, Donna, Andrea and Kelly's rude friend, Amanda, over for a 'night of female bonding' but Amanda causes tension within the group when she forces the girls to reveal their deepest secrets. Meanwhile, Brandon and Steve go out and pick up two girls who show their true colors when they steal Steve's car. Also, David and Scott sneak outside the slumber party in order to take lewd pictures of the girls.",
             releaseDate: "January 31, 1991",
             usViewers: 11.0,
+            soundtrack: [
+              {
+                title: "streets in paradise",
+                artist: "VIXEN"
+              },
+              {
+                title: "money, money",	
+                artist: "TOMMY JAMES & THE SHONDELLS"
+              },
+            ],
           },
           {
             id: "east-side-story",
@@ -3397,6 +3617,20 @@ export const dramaSeries: Show[] = [
             plot: "The Walshes let Carla, their maid’s niece, use their address so that she can attend West Beverly High. Brandon immediately develops an attraction towards her while wondering what she's hiding. Jim hosts a party for his new client, a sportswear designer. Brandon explodes with anger when he finds Carla waitressing and being used as cheap labor. Also, David tries to get MC Hammer to perform at the school dance.",
             releaseDate: "February 14, 1991",
             usViewers: 9.9,
+            soundtrack: [
+              {
+                title: "let's go deeper",
+                artist:	"MC HAMMER",
+              },	
+              {
+                title: "i like you",
+                artist:	"CULTURE BEAT"
+              },	
+             {
+              title: "deep down",
+              artist:	"DEBBIE GIBSON",
+             },
+           ],
           },
           {
             id: "a-fling-in-palm-springs",
@@ -3409,6 +3643,20 @@ export const dramaSeries: Show[] = [
             plot: "The students of West Beverly head to Palm Springs for President's Day Weekend. Thinking that his grandparents are on a cruise, David invites Steve, Kelly, and Donna to stay at their house, but David is soon in for a shock when he finds out what is waiting for them. Brenda and Dylan make plans to finally have sex, but Brenda gets lost trying to find Dylan’s hotel and ends up seeing him with another girl. Steve asks Kelly to give their relationship another chance. Back in Beverly Hills, Brandon meets a young boy at the Peach Pit and discovers the reason he hangs around at the restaurant all day.",
             releaseDate: "February 21, 1991",
             usViewers: 10.3,
+            soundtrack: [
+               {
+                title: "apples, peaches, pumpkin pie",
+                artist:	"JAY & THE TECHNIQUES",
+              },
+              {
+                title: "la bamba",
+                artist:	"RITCHIE VALENS",
+              },
+              {
+                title: "tequila",
+                artist: "THE CHAMPS",
+              }
+            ]
           },
           {
             id: "fame-is-where-you-find-it",
@@ -3424,6 +3672,20 @@ export const dramaSeries: Show[] = [
             plot: "Brandon accidentally lands a role on a hit TV show and develops a flirtation with the star, Lydia Leeds. Things go great at first, but he soon realizes that showbiz isn't as glamorous as it appears. Meanwhile, Brenda is jealous of Brandon's sudden fame and gets in over her head when she takes over for him at the Peach Pit. Enter Laverne.",
             releaseDate: "February 28, 1991",
             usViewers: 10.0,
+            soundtrack: [
+              {
+                title: "sally go 'round the roses",	
+                artist: "THE JAYNETTS",
+              },
+              {
+                title: "finger poppin' time",
+                artist:	"HANK BALLARD & THE MIDNIGHTERS",
+              },
+              {
+                title: "it's my party",	
+                artist: "LESLEY GORE",
+              },
+          ],
           },
           {
             id: "stand-(up)-and-deliver",
@@ -3436,6 +3698,16 @@ export const dramaSeries: Show[] = [
             plot: "Brenda feels out of touch with her surroundings and decides to drop out of school and house-sit for her new and mature friend, Sky. She later finds out the adult world isn't what it's cracked up to be. Meanwhile, Brandon runs for junior class president and enlists Andrea and Kelly's help for his campaign.",
             releaseDate: "March 7, 1991",
             usViewers: 9.5,
+            soundtrack: [
+              {
+                title: "merry go round",
+                artist: "THE REPLACEMENTS",	
+              },
+              {
+                title: "hippychick",
+                artist: "SO:HO",
+              },
+            ],
           },
           {
             id: "it's-only-a-test",
@@ -3448,6 +3720,12 @@ export const dramaSeries: Show[] = [
             plot: "The West Beverly juniors are panicked by the upcoming SATs, but then everything gets put into perspective when Brenda finds a lump in her breast and faces a test no one can prepare for. Meanwhile, Andrea and Steve decide to study for the upcoming test together, and as the night continues, they end up kissing.",
             releaseDate: "March 28, 1991",
             usViewers: 12.8,
+            soundtrack: [
+              {
+                title: "just the way it is, baby",
+                artist:	"THE REMBRANDTS",
+              }
+            ]	
           },
           {
             id: "april-is-the-crulest-month",
@@ -3463,6 +3741,16 @@ export const dramaSeries: Show[] = [
             plot: "Brandon interviews Roger Azarian (Matthew Perry), the school's tennis star, and when he reads his dark and twisted screenplay, Brandon worries that the events in it might come true. Meanwhile, everyone is thrilled by their SAT results except for Donna, who got low SAT scores and begins acting out, unaware that she has a learning disability.",
             releaseDate: "April 11, 1991",
             usViewers: 11.3,
+            soundtrack: [
+              {
+                title: "Month	would i lie to you?",	
+                artist: "EURYTHMICS",
+              },	
+              {
+                title: "doin' the do",	
+                artist: "BETTY BOO",
+              },
+            ]
           },
           {
             id: "spring-training",
@@ -3475,6 +3763,7 @@ export const dramaSeries: Show[] = [
             plot: "When Jim hurts his back, Brandon teams up with Steve to coach his little league baseball team and has trouble disciplining the entitled players. Meanwhile, Brenda develops a bond with a stray dog and makes a desperate plea to convince her family to let her keep him.",
             releaseDate: "April 25, 1991",
             usViewers: 10.5,
+            soundtrack: []
           },
           {
             id: "spring-dance",
@@ -3487,6 +3776,32 @@ export const dramaSeries: Show[] = [
             plot: "West Beverly prepares for the annual Spring Dance and Kelly, preoccupied with being named Spring Princess and asks Brandon to be her date, which stirs up romantic feelings. Jealous, Steve gets drunk and lashes out at everyone, revealing a deep family secret. Andrea is not going to the dance and is upset when she finds out that Brandon is going with Kelly. Brenda finally loses her virginity to Dylan in their hotel room. David enters a contest to win the first dance with the Spring Princess. Donna has trouble moving in her dress. Andrea shows up at the dance and has a good time. Brandon tells Kelly that he thinks of her as a sister.",
             releaseDate: "May 9, 1991",
             usViewers: 12.9,
+            soundtrack: [
+              {
+                title: "the best i can't",	
+                artist: "THE RAVE-UPS", 
+              },	
+              {
+                title: "you can't hurry love",	
+                artist: "THE SUPREMES",
+              },	
+              {
+                title: "tinker tommy",	
+                artist: "THE RAVE-UPS",
+              },	
+              { 
+                title: "she says (come around)",
+                artist:	"THE RAVE-UPS",
+              },	
+              { 
+                title: "smile",	
+                artist: "THE RAVE-UPS",
+              },
+              { 
+                title: "if it was (a matter of mind)",	
+                artist: "THE RAVE-UPS"
+              },	
+            ],
           },
           {
             id: "home-again",
@@ -3499,6 +3814,16 @@ export const dramaSeries: Show[] = [
             plot: "Jim gets a job promotion which means that the Walsh family is moving back to Minneapolis. Saddened by the news, Brandon and Brenda prepare to say goodbye to the friends they've made this past year. Brenda worries that her relationship with Dylan won't survive long distance. Brandon contemplates sleeping with Andrea after she offers herself as a going-away present. The gang throws a going away party for Brandon and Brenda at The Peach Pit. Jim decides not to move his family after all.",
             releaseDate: "May 9, 1991",
             usViewers: 15.0,
+            soundtrack: [
+              {
+                title: "deep down",
+                artist:	"DEBBIE GIBSON",
+              },
+              {
+                title: "celebrate me home",
+                artist:	"KENNY LOGGINS"
+              },	
+            ],
           },
         ],
         premiereDate: "October 4th, 1990",
@@ -3602,6 +3927,28 @@ export const dramaSeries: Show[] = [
             writtenBy: "Darren Starr",
             releaseDate: "July 11, 1991",
             usViewers: 19.1,
+            soundtrack: [
+            {
+              title: "Rockin' Robin",
+              artist: "Bobby Day",
+            },
+            {  
+              title: "Tell It Like It Is",
+              artist: "Aaron Neville"
+            },
+            {  
+              title: "Wake Up Little Susie",
+              artist: "The Everly Brothers",
+            },
+            {
+              title: "Losing My Religion",
+              artist: "R.E.M."
+            },
+            {
+              title: "droppin' like flies",
+              artist:	"SHEILA", 
+            }
+            ],
           },
           {
             id: "the-party-fish",
@@ -3614,6 +3961,20 @@ export const dramaSeries: Show[] = [
             writtenBy: "Charles Rosin", 
             releaseDate: "July 18, 1991",
             usViewers: 16.0,
+            soundtrack: [
+              {
+                title: "The Goodbye Look",
+                artist: "Donald Fagen",
+              },
+              {
+                title: "Maxine", 
+                artist: "Donald Fagen",
+              },
+              {  
+                title: "The Other Side Of Summer",
+                artist: "Elvis Costello",
+              },
+            ],
           },
           {
             id: "summer-storm",
@@ -3626,6 +3987,20 @@ export const dramaSeries: Show[] = [
             writtenBy: "Steve Wasserman & Jessica Klein",
             releaseDate: "July 25, 1991",
             usViewers: 18.1,
+            soundtrack: [
+              {
+                title: "You Are the Everything",
+                artist: "R.E.M."
+              },
+              {
+                title: "I Don't Get Much Sleep Anymore",
+                artist: "Chris Luke",
+              },
+              {
+                title: "My Body Says Yes",
+                artist: "Titiyo"
+              }            
+            ],
           },
           {
             id: "anaconda",
@@ -3638,6 +4013,16 @@ export const dramaSeries: Show[] = [
             writtenBy: "Jonathan Roberts",
             releaseDate: "August 1, 1991",
             usViewers: 15.4,
+            soundtrack: [
+              {
+                title: "What I Like About You",
+                artist: "The Romantics",
+              },
+              {
+                title: "You've Got That Thing",
+                artist: "Bobby Short"
+              },
+            ],
           },
           {
             id: "play-it-again,-david",
@@ -3650,10 +4035,16 @@ export const dramaSeries: Show[] = [
             writtenBy: "Sherri Ziff",
             releaseDate: "August 8, 1991",
             usViewers: 17.4,
+            soundtrack: [
+              {
+                title: "Summertime",
+                artist: "The Troggs",
+              }
+            ],
           },
           {
             id: "pass/not-pass",
-            episodeTitle: "Pass,Not Pass",
+            episodeTitle: "Pass, Not Pass",
             imageUrl: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2019/07/03/1562690627955/PPCBS_BEVERLYHILLS90210_028_UHD_3408614_1920x1080.jpg",
             seasonNumber: 2,
             episodeNumber: 6,
@@ -3662,6 +4053,32 @@ export const dramaSeries: Show[] = [
             writtenBy: "Allison Adler",
             releaseDate: "August 15, 1991",
             usViewers: 16.1,
+            soundtrack: [
+              {
+                title: "Little Bitty Pretty One",
+                artist: "Thurston Harris",
+              },
+              {
+                title: "Joyride",
+                artist: "Roxette",
+              },
+              {
+                title: "A Summer Song",
+                artist: "Chad and Jeremy",
+              },
+              {
+                title: "Gone Ridin'",
+                artist: "Chris Isaak",
+              },
+              {
+                title: "Sweet Talkin' Guy",
+                artist: "The Chiffons",
+              },
+              {
+                title: "hukilau",	
+                artist: "CHARLES KAIPO"
+              }
+            ],
           },
           {
             id: "camping-trip",
@@ -3674,6 +4091,7 @@ export const dramaSeries: Show[] = [
             writtenBy: "Karen Rosin",
             releaseDate: "August 29, 1991",
             usViewers:17.0,
+            soundtrack: [],
           },
           {
             id: "wild-fire",
@@ -3689,6 +4107,32 @@ export const dramaSeries: Show[] = [
             ],
             releaseDate: "September 12, 1991",
             usViewers:17.7,
+            soundtrack: [
+              {
+                title: "Addicted to Love",
+                artist: "Robert Palmer"
+              },
+              {
+                title: "Mercedes Benz",
+                artist: "Christine Elise"
+              },
+              {
+                title: "Breaking Up Is Hard to Do",
+                artist: "Christine Elise, Tori Spelling, Jennie Garth and Shannen Doherty",
+              },
+              {  
+                title: "Teenage Mutant Kung-Fu Chickens",
+                artist: "Ray Stevens"
+              },
+              {
+                title: "Leader of the Pack",
+                artist: "The Shangri-Las",
+              },
+              {
+                title: "Wicked Game",
+                artist: "Chris Isaak"
+              }
+            ],
           },
           {
             id: "ashes-to-ashes",
@@ -3704,6 +4148,20 @@ export const dramaSeries: Show[] = [
             ],
             releaseDate: "September 19, 1991",
             usViewers:19.0,
+            soundtrack: [
+              {
+                title: "who's schoolin' who?",	
+                artist: "SCHOOLLY D",
+              },
+              {
+                title: "All Right Now",
+                artist: "Free"
+              },
+              {
+                title: "Concrete Jungle",
+                artist: "Sway & King Tech"    
+              },
+            ],
           },
           {
             id: "necessity-is-a-mother",
@@ -3716,6 +4174,20 @@ export const dramaSeries: Show[] = [
             writtenBy: "Steve Wasserman & Jessica Klein",
             releaseDate: "September 26, 1991",
             usViewers:16.5,
+            soundtrack: [
+              {
+                title: "the forecast (calls for pain)",
+                artist: "THE ROBERT CRAY BAND",
+              },
+              {
+                title: "mother-in-law",	
+                artist: "ERNIE K. DOE"
+              },
+              {
+                title: "born under a bad sign",
+                artist:	"ALBERT KING",
+              },
+            ],
           },
           {
             id: "leading-from-the-heart",
@@ -3728,6 +4200,20 @@ export const dramaSeries: Show[] = [
             writtenBy: "Darren Starr",
             releaseDate: "October 10, 1991",
             usViewers:15.9,
+            soundtrack: [
+              {
+                title: "romantic",
+                artist: "KARYN WHITE",	        
+              },
+              {
+                title: "he's got it goin' on",
+                artist:	"ICY BLU",
+              	},
+              {
+                title: "crazy",	
+                artist: "SEAL",
+              },
+            ],
           },
           {
             id: "down-and-out-(of-district)-in-beverly-hills",
@@ -3743,6 +4229,32 @@ export const dramaSeries: Show[] = [
             ],
             releaseDate: "October 17, 1991",
             usViewers:15.0,
+            soundtrack: [	
+                {
+                  title: "radio song",
+                  artist:	"R.E.M.",
+                },
+                {
+                  title: "build me up buttercup",
+                  artist:	"THE FOUNDATIONS",	
+                },
+                {
+                  title: "shiny happy people",
+                  artist:	"R.E.M.",	
+                },
+                {
+                  title: "losing my religion",
+                  artist:	"R.E.M.",
+                },
+                {
+                  title: "over and over",
+                  artist:	"BOBBY DAY",
+                },
+                {
+                  title: "I'll Turn to Stone",
+                  artist: "The Four Tops",
+                },
+             ],
           },
           {
             id: "halloween",
@@ -3755,6 +4267,28 @@ export const dramaSeries: Show[] = [
             writtenBy: "Jonathan Roberts",
             releaseDate: "October 31, 1991",
             usViewers:16.6,
+            soundtrack: [	
+              {
+                title: "sweet sweet baby",
+                artist:	"ERASURE",	
+              },
+              {
+                title: "romantic",
+                artist:	"KARYN WHITE",	    
+              },
+              {
+                title: "lily was here", 
+                artist: "CANDY DULFER",
+              },
+              {
+                title: "24/7",
+                artist:	"DINO",	                
+              },
+              {
+                title: "monster mash",	
+                artist: "BOBBY 'BORIS' PICKETT",
+              },
+            ],
           },
           {
             id: "the-next-50-years",
@@ -3770,6 +4304,32 @@ export const dramaSeries: Show[] = [
             ], 
             releaseDate: "November 7, 1991",
             usViewers:22.3,
+            soundtrack: [
+              {
+                title: "This Is My Country",
+                artist: "WBHS Choir"
+              },
+              {
+                title: "Somewhere",
+                artist: "WBHS Choir"
+              },
+              {
+                title: "Friends in Low Places",
+                artist: "Garth Brooks"
+              },
+              {
+                title: "Work It Out",
+                artist: "Monie Love"
+              },
+              {
+                title: "In Your Room",
+                artist: "The Bangles"
+              },
+              {
+                title: "knockin' on heaven's door",
+                artist:	"BOOTLEG ROCKS!",
+              },
+            ],
           },
           {
             id: "u4ea",
@@ -3782,6 +4342,28 @@ export const dramaSeries: Show[] = [
             writtenBy: "Allison Adler",
             releaseDate: "November 14, 1991",
             usViewers:20.8,
+            soundtrack: [	
+              {
+                title:  "come inside",
+                artist:	"THOMPSON TWINS",	
+              },
+              {
+                title: "dominion",
+                artist:	"SISTERS OF MERCY",	
+              },
+              {
+                title: "the beginning",
+                artist:	"SEAL"
+              },
+              {
+                title: "go! (club remix)",	
+                artist: "TONES ON TAIL"
+              },
+              {
+                title: "don't fight it, feel it (scat mix)",
+                artist:	"PRIMAL SCREAM"
+              },
+            ],
           },
           {
             id: "my-desperate-valentine",
@@ -3794,6 +4376,12 @@ export const dramaSeries: Show[] = [
             writtenBy: "Micheal Swerdlick",
             releaseDate: "November 21, 1991",
             usViewers:28.7,
+            soundtrack: [
+              {
+                title: "baby i'm yours",
+                artist:	"BARBARA LEWIS",
+              },
+            ],
           },
           {
             id: "chuckie's-back",
@@ -3809,6 +4397,32 @@ export const dramaSeries: Show[] = [
             ],
             releaseDate: "December 12, 1991",
             usViewers: 18.2,
+            soundtrack:  [  
+              {
+                title: "Donna",
+                artist: "Ritchie Valens"
+              },
+              {
+                title: "Have Yourself a Merry Little Christmas",
+                artist: "Frank Sinatra",
+              },
+              {
+                title: "Jingle Bell Rock",
+                artist: "Bobby Helms",
+              },
+              {
+                title:  "Hey Donna",
+                artist: "Rythm Syndicate",
+              },
+              {
+                title:  "I Adore Mi Amor",
+                artist: "Color Me Badd",
+              },
+              {
+                title:  "2000 Miles",
+                artist: "The Pretenders",
+              },
+           ]
           },
           {
             id: "a-walsh-family-christmas",
@@ -3821,6 +4435,40 @@ export const dramaSeries: Show[] = [
             writtenBy: "Darren Starr",
             releaseDate: "December 19, 1991",
             usViewers:22.6,
+            soundtrack: [
+              {  
+                title:  "White Christmas",
+                artist: "Bing Crosby",
+              },
+              {
+                title:  "Jingle Bells",
+                artist: "James Pierpont",
+              },  
+              {  
+                title:  "Joy to the World",
+                artist: "Lowell Mason",
+              },  
+              {  
+                title:  "Christmas is the Time To Say I Love You",
+                artist: "Billy Squier",
+              },
+              {
+                title:  "Blue Christmas",
+                artist: "Elvis Presley",
+              },
+              {
+                title:  "Deck the Halls",
+                artist: "Traditional",
+              },
+              { 
+                title:  "We Wish You a Merry Christmas",
+                artist: "Joe E. Tata and the Neighborhood Carolers",
+              },  
+              {
+                title: "White Christmas",
+                artist: "The Cast of Beverly Hills, 90210"
+              }
+            ]
           },
           {
             id: "fire-and-ice",
@@ -3833,6 +4481,16 @@ export const dramaSeries: Show[] = [
             writtenBy: "Carl Sautter",
             releaseDate: "January 9, 1992",
             usViewers:19.6,
+            soundtrack: [
+                {
+                  title: "(I've had) The Time of My Life",
+                  artist: "Bill Medley & Jennifer Warnes",
+                },
+                {
+                  title:" judy in disguise (with glasses)",
+                  artist:	"JOHN FRED & HIS PLAYBOY BAND",
+                },
+           ], 
           },
           {
             id: "a-competitive-edge",
@@ -3848,6 +4506,20 @@ export const dramaSeries: Show[] = [
             ],
             releaseDate: "January 23, 1992",
             usViewers:18.7,
+            soundtrack: [
+              {
+                title: "games people play",
+                artist:	"JOE SOUTH"
+              },
+              {
+                title: "dancing in the street", 
+                artist: "The Mamas and The Papas",
+              },	
+              {
+                title: "backfield in motion",
+                artist:	"MEL & TIM",
+              },  
+            ],
           },
           {
             id: "everybody's-talkin'-'bout-it",
@@ -3860,6 +4532,16 @@ export const dramaSeries: Show[] = [
             writtenBy: "Karen Rosin & Charles Rosin", 
             releaseDate: "February 6, 1992",
             usViewers: 19.0,
+            soundtrack: [
+              {
+                title: "i want you",
+                artist:	"JODY WATLEY",
+              },
+              {
+                title: "the birds and the bees",
+                artist:	"JEWEL AKENS",
+              },	
+            ],
           },
           {
             id: "and-baby-makes-five",
@@ -3872,6 +4554,16 @@ export const dramaSeries: Show[] = [
             writtenBy: "Steve Wasserman & Jessica Klein",
             releaseDate: "February 13, 1992",
             usViewers:16.7,
+            soundtrack: [  
+               {
+                  title: "all 4 love",
+                  artist:	"COLOR ME BADD",
+                },
+               {
+                title: "do you believe in magic?",
+                artist:	"THE LOVIN' SPOONFUL",
+              }
+             ]
           },
           {
             id: "cardio-funk",
@@ -3887,6 +4579,12 @@ export const dramaSeries: Show[] = [
             ],
             releaseDate: "February 27, 1992",
             usViewers:21.3,
+            soundtrack: [
+              {
+                title:  "We Want the Funk",
+                artist: "Gerardo",
+              },
+            ]
           },
           {
             id: "the-pit-and-the-pendulum",
@@ -3902,10 +4600,28 @@ export const dramaSeries: Show[] = [
             ],
             releaseDate: "March 19, 1992",
             usViewers:17.2,
+            soundtrack: [
+              {
+                title:  "don't get around much anymore",
+                artist: "NAT KING COLE",
+              },
+              {
+                title:  "blue suede shoes",
+                artist: "CARL PERKINS",
+              },
+              {
+                title:  "lady blue",
+                artist: "LEON RUSSELL",
+              },
+              {
+                title:  "the sun ain't gonna shine anymore",
+                artist: "THE WALKER BROTHERS",
+              },
+            ],
           },
           {
             id: "meeting-mr.-pony",
-            episodeTitle: "Meeting Mr. Ponny",
+            episodeTitle: "Meeting Mr. Pony",
             imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39811139/PPCBS_BEVERLYHILLS90210_047_UHD_3436413_1920x1080.jpg",
             seasonNumber: 2,
             episodeNumber:25,
@@ -3917,6 +4633,16 @@ export const dramaSeries: Show[] = [
             ],
             releaseDate: "April 2, 1992",
             usViewers:20.2,
+            soundtrack: [
+              {
+                title: "mountain of love",
+                artist:	"JOHNNY RIVERS",
+              },	
+              {
+                title: "let the good times roll",	
+                artist: "SHIRLEY & LEE",
+              }
+            ], 
           },
           {
             id: "things-to-do-on-a-rainy-day",
@@ -3929,6 +4655,19 @@ export const dramaSeries: Show[] = [
             writtenBy: "Jonathan Roberts & Maria Semple",
             releaseDate: "April 23, 1992",
             usViewers:19.5,
+            soundtrack: [
+              {
+                title: "i adore mi amor",
+                artist:	"COLOR ME BADD"
+              },
+              {
+                title: "all 4 love",
+                artist: "COLOR ME BADD"},
+              {
+                title: "i wanna sex you up",	
+                artist: "COLOR ME BADD"
+              },
+            ],
           },
           {
             id: "mexican-standoff",
@@ -3941,6 +4680,16 @@ export const dramaSeries: Show[] = [
             writtenBy: "Steve Wasserman & Jessica Klein",
             releaseDate: "April 30, 1992",
             usViewers:15.8,
+            soundtrack: [
+              {
+                title: "i love to love you",	
+                artist: "JOHNNY 'GUITAR' WATSON",
+              },
+              {
+                title: "runaway",
+                artist:	"DEL SHANNON",
+              }
+            ]
           },
           {
             id: "wedding-bell-blues",
@@ -3953,6 +4702,16 @@ export const dramaSeries: Show[] = [
             writtenBy: "Darren Starr",
             releaseDate: "May 7, 1992",
             usViewers:21.4,
+            soundtrack: [
+              {
+                title: "wedding bell blues",
+                artist:	"THE 5TH DIMENSION",
+              },	
+              {
+                title: "bye bye love",
+                artist:	"THE EVERLY BROTHERS",
+              },
+            ],
           },
         ],
         network: "Fox",
@@ -3986,6 +4745,23 @@ export const dramaSeries: Show[] = [
             releaseDate: "July 15, 1992",	
             plot: "Brandon returns to work for the summer at the Beverly Hills Beach Club, with Andrea now working there as the child-care supervisor. Meanwhile, Brenda defies her parents and continues to secretly see Dylan behind everyone's back. When Brenda gets caught in the act when Jim and Cindy run into Brenda with Dylan at the beach club, she runs away and into Dylan's house.",
             usViewers: 16.7,
+            soundtrack: [
+              {
+                id: "summertime-blues-eddie-cochran",
+                title: "summertime blues",
+                artist:	"EDDIE COCHRAN",	
+              }, 
+              {
+                id: "working-in-the-coalmine-lee-dorsey",
+                title: "working in the coalmine",
+                artist: "LEE DORSEY",
+              },
+              {
+                id: "98.6-degrees-keith",
+                title: "98.6 Degrees",
+                artist: "KEITH",
+              },
+             ],
            },
            	{
               id: "the-twins-the-trustee-and-the-very-big-trip",
@@ -3998,6 +4774,7 @@ export const dramaSeries: Show[] = [
 	            releaseDate: "July 22, 1992",	
               usViewers: 15.8,
               plot: "Brenda and Dylan find that their living arrangements are too close for comfort but Brenda is too stubborn to admit she's unhappy. Kelly decides to bail on her trip to Paris for the summer, deciding instead to stay home with her newborn sister. Jim decides to send Brenda in Kelly's place and puts pressure on Dylan to encourage her to take the overseas trip.",
+              soundtrack: []
           },
           { 
             id: "too-little-too-late-paris-75001",
@@ -4014,6 +4791,7 @@ export const dramaSeries: Show[] = [
             releaseDate:	"July 29, 1992",
             usViewers: 13.2,
             plot: "Brenda and Donna adjust to living in Paris but Brenda's French isn't as good as she thinks it is, and the girls end up eating some questionable food at La Champagne. Andrea counsels a deaf child who has difficulty adjusting to summer camp. Meanwhile, Dylan and Kelly flirt with each other and Brandon becomes jealous of Andrea's new boyfriend.",
+            soundtrack: []
           },          
           {
             id: "sex-lies-and-volleyball",
@@ -4029,7 +4807,8 @@ export const dramaSeries: Show[] = [
             ],	
             releaseDate: "August 5, 1992",	
             usViewers: 13.2,
-            plot: "Donna feels left out because Brenda and her classmates can speak fluent French. Donna embarks on a modeling career. Steve finds the perfect partner for both romance and volleyball. Kelly and Dylan team up for the volleyball tournament and also spend an afternoon babysitting baby Erin together. Meanwhile, David meets a young girl, Nikki, who expresses an interest in both his music and him."
+            plot: "Donna feels left out because Brenda and her classmates can speak fluent French. Donna embarks on a modeling career. Steve finds the perfect partner for both romance and volleyball. Kelly and Dylan team up for the volleyball tournament and also spend an afternoon babysitting baby Erin together. Meanwhile, David meets a young girl, Nikki, who expresses an interest in both his music and him.",
+            soundtrack: []
           },
           {          
             id: "shooting-star",
@@ -4046,6 +4825,28 @@ export const dramaSeries: Show[] = [
             releaseDate: "August 12, 1992",	
             usViewers:	16.2,
             plot: "Kelly and Dylan spend a romantic afternoon jet skiing in the waves at Paradise Cove. Brenda develops a crush on a young American named Rick (Dean Cain), who mistakes her for a native Parisian. Meanwhile, Brandon tries to help a homeless war veteran, David hires Steve to manage his music career, and Andrea becomes frantic when Cameron, her deaf camper, goes missing.",
+            soundtrack: [
+              {              
+                id: "damn-i-wish-i-was-your-lover-sophie-b.-hawkins",
+                title:  "Damn I Wish I Was Your Lover",
+                artist: "Sophie B. Hawkins"
+              },
+              {
+                id: "forbidden-places-meat-puppets",
+                title: "Forbidden Places",
+                artist: "Meat Puppets",
+              },
+              {
+                id: "precious-brian-austin-green",
+                title:  "Precious",
+                artist: "Brian Austin Green",
+              },
+              {
+                id: "funny-how-time-slips-away-willie-nelson",
+                title:  "Funny How Time Slips Away (1962 Version)",
+                artist: "Willie Nelson",
+              }
+            ], 
          },
          {	
             id: "castles-in-the-sand",
@@ -4058,6 +4859,18 @@ export const dramaSeries: Show[] = [
             releaseDate: "August 19, 1992",	
             usViewers: 17.1,
             plot: "Brenda and Donna return from Paris and are welcomed home with a big party. Brandon grows annoyed with Brooke's constant racist comments and their relationship suffers. Meanwhile, Steve schmoozes the beach club into giving David a chance to show off his musical talents to all of the Beverly Hills elite. Kelly and Dylan decide to not tell Brenda about their summer fling and keep it as a secret.",
+            soundtrack: [
+              {
+                id: "dancin-chris-isaak",  
+                title: "Dancin'",
+                artist: "Chris Isaak"
+              },
+              {
+                id: "be-my-love-brian-austin-green",
+                title: "Be My Love",
+                artist: "Brian Austin Green",  
+              }
+            ],
          },           
          {
             id: "a-song-of-myself",
@@ -4073,6 +4886,28 @@ export const dramaSeries: Show[] = [
             releaseDate: "September 9, 1992",	
             usViewers: 16.6,
             plot: "It's the beginning of senior year at West Beverly for the gang (sans David). Andrea accuses the new English teacher and Blaze faculty advisor, Gil Meyers, of sexism, when he names Brandon the new editor of the paper. David's summer fling, Nikki enrolls at school, and becomes fast friends with Donna. Meanwhile, Brenda and Steve become \"senior buddies\" to two incoming freshmen, and Brenda finds herself paired with Sue Scanlon, whose brother's death, Scott Scanlon, has had no small impact on the girl. Kelly becomes depressed due to constantly seeing Brenda and Dylan together.",
+            soundtrack: [	
+              {
+                id: "live-and-learn-joe-public",
+                title: "live and learn",
+                artist:	"JOE PUBLIC"	          
+              },
+              {
+                id: "wishing-on-a-star-the-cover-girls",
+                title: "wishing on a star",
+                artist:	"THE COVER GIRLS",	  
+              },
+              {
+                id: "your-love-chic",
+                title: "your love",
+                artist:	"CHIC"	                  
+              },
+              {
+                id: "pushin'-too-hard-the-seeds",
+                title: "pushin' too hard",	
+                artist: "THE SEEDS",         
+              },
+            ],
          },           
          {   
             id: "the-back-story",
@@ -4085,6 +4920,28 @@ export const dramaSeries: Show[] = [
 	          releaseDate: "September 16, 1992",	
             usViewers: 14.3,
             plot: "Beth Nielson, from the tabloid television show Back Story is in town, and she enlists the help of Brenda to make a documentary about West Beverly High. A naive Brenda agrees to be interviewed, not realizing how the show will twist her words and take them out of context. Meanwhile, a West Beverly alum offers Steve a \"legacy key\" to the school, which will give him unfettered access to the school's computers.",
+            soundtrack: [
+              {
+                id: "why-do-fools-fall-in-love?-frankie-lymon-&-the-teenagers",
+                title: "why do fools fall in love?",
+                artist:	"FRANKIE LYMON & THE TEENAGERS"	
+              },
+              {
+                id: "so-very-hard-to-go-tower-of-power",
+                title: "so very hard to go",
+                artist:	"TOWER OF POWER"
+              },
+              {
+                id: "baby-baby-baby-tlc",
+                title: "baby-baby-baby",
+                artist:	"TLC"
+              },
+              {
+                id: "like-to-get-to-know-you-spanky-&-our-gang",
+                title: "like to get to know you",
+                artist:	"SPANKY & OUR GANG",
+              },
+            ],
          },
          {           
             id: "highwire",
@@ -4097,6 +4954,18 @@ export const dramaSeries: Show[] = [
 	          releaseDate: "September 23, 1992",
             usViewers:	16.2,
             plot: "With graduation on the horizon, the teens of West Beverly are stressed about where to go to college. The Walshes announce only one twin can go to an out-of-state college, which leads to some major fighting between the siblings. Kelly loses it when David walks in on her in the shower. Meanwhile, Steve gives more thought to using the legacy key, and Brenda feels Dylan slipping away.",
+            soundtrack: [
+              {
+                id: "venus-frankie-avalon",
+                title: "venus",
+                artist:	"FRANKIE AVALON",
+              },	
+              {
+                id: "oogum-boogum-song-brenton-wood",
+                title: "oogum boogum song",
+                artist:	"BRENTON WOOD"
+              },
+            ],
          },           
         {
             id: "home-and-away",
@@ -4108,7 +4977,19 @@ export const dramaSeries: Show[] = [
 	          writtenBy: "Chip Johannessen",
 	          releaseDate: "October 7, 1992",	
             usViewers: 15.6,
-            plot: "When two students from rival school Shaw High are shot to death by gang members during a football game, West Beverly decides to forfeit their own game against Shaw's team. Brandon meets a journalist from Shaw, and the two reporters decide to use the power of the press to put a stop to the violence. Kelly hopes to see her father again. Meanwhile, Sue Scanlon starts showing an interest in David, which irritates Donna but pleases David. Dylan invites Kelly to go to the Pigskin Prom with him and Brenda."
+            plot: "When two students from rival school Shaw High are shot to death by gang members during a football game, West Beverly decides to forfeit their own game against Shaw's team. Brandon meets a journalist from Shaw, and the two reporters decide to use the power of the press to put a stop to the violence. Kelly hopes to see her father again. Meanwhile, Sue Scanlon starts showing an interest in David, which irritates Donna but pleases David. Dylan invites Kelly to go to the Pigskin Prom with him and Brenda.",
+            soundtrack:  [
+              {
+                id: "the-message-sofia-shinas",
+                title: "the message",
+                artist:	"SOFIA SHINAS",
+              },
+              {
+                id: "let-me-be-your-baby-geoffrey-williams",
+                title: "let me be your baby",
+                artist:	"GEOFFREY WILLIAMS"              
+              },
+            ]
         },
         {
             id: "a-presumption-of-innocence",
@@ -4121,6 +5002,38 @@ export const dramaSeries: Show[] = [
             releaseDate:	"October 21, 1992",	
             usViewers: 16.4,
             plot: "Sue Scanlon accuses Gil Meyers of sexual misconduct, which leads to his suspension. Andrea offers her support to the misguided teen and finds there's more to the story than Sue is telling. After surfing in polluted waters, Dylan contracts both an infection and a desire to help clean up the bay.",
+            soundtrack: [
+              {
+                id: "you-really-got-me",
+                title: "you really got me",
+                artist:	"THE KINKS"
+              },
+              {
+                id: "why",
+                title: "why",
+                artist:	"CATHY DENNIS",	
+              },
+              {
+                id: "dance",
+                title: "dance",	
+                artist: "JOMANDA"
+              },
+              {
+                id: "saving forever for you",
+                title: "saving forever for you",	
+                artist: "SHANICE",	
+              },
+              {
+                id: "on-the-other-hand",
+                title: "on the other hand",	
+                artist: "RANDY TRAVIS"
+              },
+              {
+                id: "mercy-mercy-me",
+                title: "mercy mercy me",
+                artist:	"MARVIN GAYE"
+              },
+            ], 
         },            
         {  
           id: "destiny-rides-again",
@@ -4136,6 +5049,23 @@ export const dramaSeries: Show[] = [
           releaseDate: "November 4, 1992",	
           usViewers: 19.9,
           plot: "During a trip to the video store, Brenda runs into Rick (Dean Cain), her fling from Paris. She goes out with Rick behind Dylan's back, but acts indignant when Dylan reveals to her that he had his own summer fling. Tragedy literally strikes Andrea when she's seriously injured in a hit-and-run accident. Nikki gets tickets to a televised AIDS benefit, and she and Brandon are interviewed by Rosie O'Donnell on the air. David and Donna consider sleeping together, and Steve puts his education in jeopardy when he decides to use the legacy key. Meanwhile, Kelly decides to step aside from her friends and concentrate on herself but doesn't expect to see Dylan with a proposition that will change their lives forever.",
+          soundtrack: [
+              {
+                id: "i-wanna-love-you",
+                title: "i wanna love you",
+                artist:	"JADE",
+              },
+              {
+                id: "time-to-be-lovers",
+                title: "time to be lovers",
+                artist:	"MICHAEL MCDONALD & CHAKA KHAN",
+              },
+              {
+                id: "needles and pins",
+                title: "needles and pins",
+                artist:	"THE SEARCHERS",
+              },
+            ],
         }, 
         {
           id: "rebel-with-a-cause",
@@ -4148,6 +5078,20 @@ export const dramaSeries: Show[] = [
 	        releaseDate: "November 11, 1992",	
           usViewers:	19.7,
           plot: "Brenda assures Dylan that he's free to date whomever he likes but when she and Rick (Dean Cain) run into him and Kelly, Brenda reevaluates her position. Steve and Herbert grow apprehensive as the police show up at West Beverly to investigate their crime. Meanwhile, Andrea is released from the hospital but has to use a wheelchair.",
+          soundtrack: [
+            {         
+              title: "The Shoop Shoop Song (It's In His Kiss)",
+              artist: "Betty Everett",
+            },
+            {
+              title:  "You Were On My Mind",
+              artist: "We Five",
+            },
+            {
+              title: "Great Balls Of Fire",
+              artist: "Jerry Lee Lewis"
+            }
+          ]
         },        
         {
           id: "wild-horses",
@@ -4163,6 +5107,20 @@ export const dramaSeries: Show[] = [
           releaseDate:	"November 18, 1992",	
           usViewers: 16.9,
           plot: "Unable to deal with all the drama at home, Dylan hits the road and meets a beautiful ranch owner named Anne, whose free-spirited life is very appealing to him. Back in Beverly Hills, the investigation surrounding the computer break-in continues, and a fearful Steve puts pressure on Herbert to take the heat. Kelly and Brenda get into a fight for Dylan. While Brandon and Nikki run into Nikki's ex-boyfriend Dennis \"Diesel\" Stone who likes to abuse women when he doesn't get his way. He slaps Nikki in the face after she calls him Dennis instead of Diesel. He tries to go further until Brandon intervenes and punches Diesel in the face saving Nikki, then both Brandon and Nikki leave Diesel's house and then goes back to Walsh's house to put ice on his bruised hand.",
+          soundtrack: [
+            {
+              title: "the right kind of love",
+              artist:	"JEREMY JORDAN",	
+            },
+            {
+              title: "different eyes",	
+              artist: "TREASON",
+            },
+            {
+              title: "i just wanna be your friend",
+              artist:	"PUCK AND NATTY"
+            },
+          ]
         },            
         {
           id: "the-kindness-of-strangers",
@@ -4178,6 +5136,7 @@ export const dramaSeries: Show[] = [
           releaseDate: "November 25, 1992",	
           usViewers: 16.2,
           plot: "Brandon encounters Jack Canner, the homeless war veteran he met over the summer, and invites him to join his family for Thanksgiving. Unfortunately, father Jim takes offense to the war vet's political choices. Meanwhile, Steve's mother goes to bat for him at school, and works to have his expulsion reversed. Dylan returns to Beverly Hills and greets both Brenda and Kelly with kisses.",
+          soundtrack: []
         },
         {
           id: "it's-a-totally-happening-life",
@@ -4193,6 +5152,28 @@ export const dramaSeries: Show[] = [
 	        releaseDate: "December 16, 1992",	
           usViewers: 15.8,
           plot: "In a nod to It's a Wonderful Life, two guardian angels, Clarence and Miriam, watch over the gang and protect them from a bus crash that threatens to kill them all. Meanwhile, Andrea gets accepted to Yale, Cindy catches Brandon and Nikki in bed, and Dylan is ordered to choose between Brenda and Kelly by New Year's Eve. David decides that he will takes extra courses so he can graduate early with his friends.",
+          soundtrack: [
+            {
+              title: "time to be lovers",	
+              artist: "MICHAEL MCDONALD & CHAKA KHAN"	
+            },
+            {
+              title: "jingle bell rock",
+              artist: "BOBBY HELMS"	
+            },
+            {
+              title: "little st. nick",
+              artist: "Beach Boys"
+            },
+            {
+              title: "Different Eyes",
+              artist: "Treason"
+            },
+            {
+              title: "Saving Forever For You",
+              artist: "Shanice"
+            }
+          ]
         },            
         {
           id: "the-game-is-chicken",
@@ -4205,6 +5186,44 @@ export const dramaSeries: Show[] = [
 	        releaseDate: "January 6, 1993",	
           usViewers: 16.2,
           plot: "Steve and Brandon get involved in the world of high-stakes drag racing, and their dangerous endeavor leads them to the very person who might be responsible for Andrea's accident. David's determination to graduate early means he has little time to work in the D.J. booth. Meanwhile, Brenda and Kelly agree to a double date with two Princeton men, only to find that their dates are not exactly the stuff dreams are made of.",
+          soundtrack: [
+            {
+              title: "bend time back around",
+              artist: "PAULA ABDUL"	
+            },
+            {
+              title: "got 2 have u",
+              artist: "COLOR ME BADD"
+            },
+            {
+              title: "all the way to heaven",
+              artist:"JODY WATLEY"	
+            },
+            {
+              title: "let me be your baby",
+              artist: "GEOFFREY WILLIAMS"	
+            },
+            {
+              title: "crystal blue persuasion",
+              artist: "TOMMY JAMES & THE SHONDELLS"	
+            },
+            {
+              title: "she's not there",
+              artist: "THE ZOMBIES"	
+            },
+            {
+              title: "walk on the wild side",
+              artist: "LOU REED",
+            },
+            {
+              title: "stand by me",
+              artist: "BEN E. KING"
+            },
+            {
+              title: "The Right Kind of Love",
+              artist: "Jeremy Jordan"
+            }
+          ]
         },            
         {          
           id: "midlife-now-What?",
@@ -4217,6 +5236,16 @@ export const dramaSeries: Show[] = [
           releaseDate: "January 13, 1993",	
           usViewers: 16.6,
           plot: "Looking for a little primping and pampering, the girls of West Beverly head out to a Montecito Spa for the weekend. Jackie and Cindy come too, and both women fear their husbands may not be staying faithful to them. Kelly worries that her mother's insecurity may lead her back to drugs, and begins to feel insecure herself. Meanwhile, Brandon delves even further into gambling, and Dylan's romantic problems seem unimportant when he learns his father is being released from prison.",
+          soundtrack: [ 
+            {
+              title: "rhythm is a dancer",
+              artist:	"SNAP!"	
+            },
+            {
+              title: "did you ever had to make up your mind?",
+              artist:	"THE LOVIN' SPOONFUL"
+            },
+          ]
         },            
         {
           id: "back-in-the-high-life-again",
@@ -4231,6 +5260,24 @@ export const dramaSeries: Show[] = [
           ],	
           releaseDate: "January 27, 1993",
           plot: "Jack McKay decides to throw a party at the Bel Age hotel to celebrate his early release from prison. Dylan invites both Brenda and Kelly and eventually chooses Kelly over Brenda. Mel and Jackie's marriage crumbles, leaving David afraid that he'll no longer have access to his baby sister. Dylan and Kelly incur Brenda's rage when they tell her about their summer fling and she cuts them both out of her life.",
+          soundtrack: [
+            {
+              title: "come go with me",	
+              artist: "THE DEL-VIKINGS"	
+            },
+            {
+              title: "the right kind of love",
+              artist: "JEREMY JORDAN"
+            },
+            {
+              title: "all the way to heaven",
+              artist: "JODY WATLEY"
+            },
+            {
+              title: "too many ways to fall",
+              artist:	"ARC ANGELS",
+            },
+          ]
         },            
         {
           id: "parental-guidance-recommended",
@@ -4243,6 +5290,28 @@ export const dramaSeries: Show[] = [
         	releaseDate: "February 3, 1993",
           usViewers:	16.6,
           plot: "Iris McKay arrives in town to discuss dissolving Dylan's trust fund with Jim. She's against the idea but Dylan and Jack lay the pressure on hard. Iris also takes time to meet with Brenda, who is depressed over losing both Dylan and Kelly. Meanwhile, David and Steve meet after school with Curtis Bray, the famous but sleazy and debauched owner of Icon Records, with a demo tape to get a recording contract for David. However, Steve is shown to be a poor negotiator, and his sycopathic treatment of David visibly annoys Bray, who privately offers David a record with Icon Records, but only if he fires Steve. David decides to accept the deal, but Steve takes the news very badly and ends both his business and friendship with David. Elsewhere, Brandon is enjoying the high life, as he continues to place large bets.",
+          soundtrack: [
+            {
+              title: "losing my religion",
+              artist: "R.E.M."	
+            },
+            {
+              title: "kansas city",
+              artist: "WILBERT HARRISON"
+            },
+            {
+              title: "action speaks louder than words",
+              artist: "TARA KEMP",	
+            },
+            {
+              title: "so you want to be a rock 'n' roll star",
+              artist:	"THE BYRDS"
+            },
+            {
+              title: "out of control",
+              artist: "SKEW SISKIN"
+            },
+          ]
         },            
         {
           id: "dead-end",
@@ -4255,6 +5324,24 @@ export const dramaSeries: Show[] = [
           releaseDate: "February 10, 1993",	
           usViewers: 19.7,
           plot: "Jack and Dylan begin a new life together, living aboard a yacht with Dylan's enormous trust fund at their disposal. On the surface everything seems perfect, but Jack has some dangerous enemies. So does Brandon, whose unpaid gambling debts lead to some frightening visit and threat from his bookie, Duke, over a $500 debt. Meanwhile, Andrea and Jordan go on a date, Dylan and Kelly consummate their relationship, and Brenda and Donna take a self-defense class.",
+          soundtrack: [
+           	{
+              title: "all the way to heaven",
+              artist: "JODY WATLEY"	
+            },
+            {
+              title: "overjoyed",
+              artist: "NONA GAYE"	
+            },
+            {
+              title: "living in the U.S.A.",
+              artist:	"STEVE MILLER BAND"
+            },
+            {
+              title: "tutti frutti",
+              artist: "LITTLE RICHARD" 
+            },
+          ]
         },            
        { 
           id: "the-child-is-father-to-the-man",
@@ -4270,6 +5357,20 @@ export const dramaSeries: Show[] = [
 	        releaseDate: "February 17, 1993",	
           usViewers: 18.7,
           plot: "In the wake of his father's death, Dylan grapples with his personal demons while trying to elude the reporters camping out on his lawn. Dylan eventually learns the shocking truth about his father and about his fiancee Christine when she and a few FBI agents private tell Dylan about Jack's undercover work in trying to arrest a mobster associate of Jack's. Kelly feels uncomfortable when Brenda invites Dylan to stay with the Walshes. David postpones a recording session at Icon Records to attend Jack McKay's funeral and arrives just in time to find Dylan about to take a drink. Meanwhile, Brandon's losing streak continues as his gambling addiction spirals out of control.",
+          soundtrack: [
+            {
+              title: "can't cry hard enough",
+              artist:	"WILLIAMS BROTHERS"
+            },
+            {
+              title: "Take Me Out to the Ball Game",
+              artist: "Josh Taylor and Luke Perry"
+            },
+            {
+              title: "Love Is",
+              artist: "Vanessa Williams and Brian McKnight"
+            }
+          ]
         },
         {            
           id: "duke's-bad-boy",
@@ -4282,6 +5383,20 @@ export const dramaSeries: Show[] = [
           releaseDate: "March 3, 1993",	
           usViewers: 16.0,
           plot: "Brandon's out of control gambling debts are mounting up and his bookie, Duke, is getting impatient and wants $1,500 of losses paid up by the end of the week, or else.... Brandon goes to extreme lengths to pay his bill by hiring another bookie at school to place bets, and his desperation leads to violence. Kelly feels that Dylan is slipping away from her, and her insecurity leads to an unhealthy obsession with her appearance. Meanwhile, David's hack of a recording manager Serge, continues to ignore David's hip-hop music style and insists that David can to better by making him record a trite ballard. David goes along with it. But Curtis Bray does not like the new tune and outright fires David from Icon Records. Elsewhere, Andrea convinces a depressed Dylan to write a story about his experience with loss.",
+          soundtrack: [
+            {
+              title: "jimmy olsen's blues",	
+              artist: "SPIN DOCTORS"	
+            },
+            {
+              title: "midnight rider",
+              artist:	"THE ALLMAN BROTHERS BAND"
+            },
+            {
+              title: "shake me, wake me (when it's over)",
+              artist:	"FOUR TOPS"
+            },
+          ],
         },            
         {
           id: "perfectly-perfect",
@@ -4294,6 +5409,20 @@ export const dramaSeries: Show[] = [
           releaseDate:	"March 24, 1993",
           usViewers: 19.1,
           plot: "Kelly's obsession with her weight leads to an addiction to diet pills that puts her health in imminent danger. Her friends plan a surprise party for her 18th birthday but the pills make her so paranoid that she thinks everyone is against her. Meanwhile, Brandon and Steve compete on a televised dating show for a date with the lovely Celeste Lundy.",
+          soundtrack: [
+            {
+              title: "hold on i'm comin'",
+              artist: "SAM & DAVE"	
+            },
+            {
+              title: "land of 1000 dances",
+              artist: "WILSON PICKETT"
+            },
+            {
+              title: "let me be your baby",
+              artist:	"GEOFFREY WILLIAMS"
+            },
+          ]
         },            
         {
           id: "senior-poll",
@@ -4306,6 +5435,20 @@ export const dramaSeries: Show[] = [
 	        releaseDate: "April 7, 1993",	
           usViewers:	15.0,
           plot: "Senior superlatives are being awarded at West Beverly and most of the gang wins an award. Kelly wins Most Beautiful but instead of lending her a much needed confidence boost, the award leads her to believe that everyone judges her solely by her looks. Brenda feels left out that she didn't win a superlative and decides to apply to the University of Minnesota. Meanwhile, Steve and Brandon attend a Lakers basketball game, where Steve gets the chance to win $10,000.",
+          soundtrack: [
+            {
+              title: "never aim to please",
+              artist: "BASH & POP"
+            },
+            {
+              title: "man on the moon",
+              artist:	"R.E.M."	
+            },
+            {
+              title: "humpin' around",
+              artist: "BOBBY BROWN"
+            },
+          ]
         },        
         {
           id: "she-came-in-through-the-bathroom-window",
@@ -4318,6 +5461,20 @@ export const dramaSeries: Show[] = [
           releaseDate: "April 28, 1993",
           usViewers:	14.4,
           plot: "It's Senior Ditch Day and the girls along with David, decide to spend it at Magic Mountain. What is supposed to be a fun day turns into a nightmare when Kelly's wallet is stolen and Donna is mugged. Meanwhile, Brandon encounters problems of his own when he has to cover for Nat by working at the Peach Pit, and his car is stolen by a clever female con artist who dupes both Dylan and Steve into tagging along with her to help search for Burt Reynolds to appease a tour group.",
+          soundtrack: [
+            {
+              title: "take five",
+              artist:	"DAVE BRUBECK",
+            },
+            {
+              title: "dream baby (how long must i dream)",
+              artist:	"ROY ORBISON",
+            },
+            {
+              title: "dirty water",
+              artist:	"THE STANDELLS",
+            },
+          ]
         },            
         {
           id: "a-night-to-remember-90210-episode",
@@ -4333,6 +5490,36 @@ export const dramaSeries: Show[] = [
           releaseDate:	"May 5, 1993",	
           usViewers: 17.0,
           plot: "The students of West Beverly are horrified to learn that the school board has pushed through a measure that will bar any student found drunk at the prom from graduation. Everyone scrambles for dates, and the Walsh twins find themselves dateless. Meanwhile, Mel Silver serves champagne at a pre-prom gathering, leaving waif-like Donna vulnerable to its effects.",
+          soundtrack: [
+            {
+              title: "time to be lovers",
+              artist:	"MICHAEL MCDONALD & CHAKA KHAN",
+            },
+            {
+              title: "start choppin'",
+              artist: "DINOSAUR JR."	
+            },
+            {
+              title: "spill the wine",
+              artist: "ERIC BURDON & WAR"	
+            },
+            {
+              title: "action speaks louder than words",
+              artist: "TARA KEMP"
+            },
+            {
+              title: "why",
+              artist: "CATHY DENNIS & D-MOB"
+            },
+            {
+              title: "moments of love",
+              artist: "CATHY DENNIS"	
+            },
+            {
+              title: "touch me (all night long)",
+              artist:	"CATHY DENNIS"
+            },
+          ]
         },            
         {
           id: "something-in-the-air",
@@ -4348,6 +5535,20 @@ export const dramaSeries: Show[] = [
           releaseDate: "May 12, 1993",	
           usViewers: 16.9,
           plot: "Donna must attend a disciplinary hearing regarding her activity at prom night and is denied participation in commencement ceremonies. Her own mother refuses to stand by her, but Brandon and the others go to bat for their friend. At Gil Meyers suggestion, they planned a school wide finals walk-out and a mass demonstration in front of the school board.",
+          soundtrack: [
+            {
+              title: "tip of my tongue",
+              artist:	"DIESEL"
+            },
+            {
+              title: "be-bop-a-lula",
+              artist:	"GENE VINCENT"
+            },
+            {
+              title: "saturday in the park",
+              artist: "CHICAGO"
+            },
+          ]
         },            
         {    
           id: "commencement",
@@ -4366,8 +5567,22 @@ export const dramaSeries: Show[] = [
 	        releaseDate: "May 19, 1993",	
           usViewers: 22.2,	
           plot: "As graduation approaches, the gang of West Beverly make their final decisions about the future while reminiscing about the past. Brandon is sad when Brenda announces her decision to attend the University of Minnesota. Andrea worries that she'll have to turn down Yale. Meanwhile, Mrs. Teasley finds out about Steve's anonymous donation. Dylan's hippie mother, Iris, pays another unannounced and unwelcome visit.",
+          soundtrack: [
+            {
+              title: "school's out",	
+              artist: "ALICE COOPER"	
+            },
+            {
+              title: "louie louie",
+              artist:	"THE KINGSMEN"
+            },
+            {
+              title: "blood is thicker than water",	
+              artist: "THE TRIPLETS"
+            }
+          ]
           }
-],
+        ],
         mainCast: [
           { 
             actor: "Jason Priestley", 
@@ -4456,6 +5671,474 @@ export const dramaSeries: Show[] = [
       {
         id: "beverly-hills-season-4",
         seasonNumber: 4,
+        plot: "This season finds the Walsh Twins and friends have finished high school, and begin their freshmen year at California University, but quickly learn that college life comes with their own set of challenges.",
+        mainCast: [
+          { 
+            actor: "Jason Priestley", 
+            character: "Brandon Walsh"
+          },
+          { 
+            actor: "Shannen Doherty", 
+            character: "Brenda Walsh"
+          },
+          { 
+            actor: "Jennie Garth", 
+            character: "Kelly Taylor"
+          },
+          { 
+            actor: "Ian Ziering", 
+            character: "Steve Sanders"
+          },
+          { 
+            actor: "Gabrielle Carteris", 
+            character: "Andrea Zuckerman Vasquez"
+          },
+          { 
+            actor: "Luke Perry", 
+            character: "Dylan McKay"
+          },
+          { 
+            actor: "Brian Austin Green", 
+            character: "David Silver"
+          },
+          { 
+            actor: "Tori Spelling", 
+            character: "Donna Martin"
+          },
+          { 
+            actor: "Carol Potter", 
+            character: "Cindy Walsh"
+          },
+          { 
+            actor: "James Eckhouse", 
+            character: "Jim Walsh"
+          },
+        ],
+        recurring: [
+          {
+            actor: "Joe E. Tata",
+            character: "Nat Bussichio"
+          },
+          {
+            actor: "Ann Gillespie",
+            character: "Jackie Taylor"
+          },
+          {
+            actor: "David Gail",
+            character: "Stuart Carson"
+          },
+          {
+            actor: "Paul Johansson",
+            character: "John Sears"
+          },
+          {
+            actor: "Dina Meyer",
+            character: "Lucinda Nicholson"
+          },
+          {
+            actor: "Mark Damon Espinoza",
+            character: "Jesse Vasquez"
+          },
+          {
+            actor: "Christine Elise",
+            character: "Emily Valentine"
+          },
+          {
+            actor: "Kerrie Keane",
+            character: "Suzanne Steele"
+          },
+          {
+            actor: "Kathleen Robertson",
+            character: "Clare Arnold"
+          },
+          {
+            actor: "Mark Kiely",
+            character: "Gil Meyers"
+          },
+          {
+            actor: "Katherine Cannon",
+            character: "Felice Martin"
+          },
+          {
+            actor: "Michael Durrell",
+            character: "John Martin"
+          },
+          {
+            actor: "Jennifer Grant",
+            character: "Celeste Lundy"
+          },
+          {
+            actor: "Ryan Brown",
+            character: "Morton Muntz"
+          },
+          {
+            actor: "Noley Thornton",
+            character: "Erica McKay"
+          },
+          {
+            actor: "Nicholas Pryor",
+            character: "Milton Arnold"
+          },
+          {
+            actor: "Tracy Middendorf",
+            character: "Laura Kingman"
+          },
+        ],
+        episodeBreakdown: [
+          {
+            id: "so-long-farewell-auf-wiedersehen-goodbye",
+            seasonNumber: 4,
+            episodeNumber: 1,
+            episodeTitle: "So Long, Farewell, Auf Wiedersehen, Goodbye",
+            imageUrl: "",
+            director: "Bill D'Elia",
+            writtenBy: "Charles Rosin",
+            releaseDate: "September 8, 1993",
+            plot: "After the summer break, everyone prepares for university life. After working all summer at the Beverly Hills Beach Club, Brenda leaves Los Angeles to go to college in Minnesota and finds that her old friends now see her differently. Meanwhile, David and Donna seek out some affordable housing on the beach. As college approaches, Steve finally got off the wait list and accepted into C.U. and Brandon finishes his last day on the job of the Peach Pit. Steve and Brandon rent a beach front house in Malibu for the final two weeks of the summer, and they get a surprise visit from Steve's former girlfriend Jill Fleming, which makes Celeste jealous. Kelly returns from a two-month trip to Europe, without Dylan, who has been rejected from Berkeley. Also, Andrea frets with Gil Meyers over her deciding to stay in California to go to college.",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 2,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 3,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 4,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 5,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 6,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 7,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 8,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 9,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 10,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 11,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 12,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 13,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 14,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 15,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 16,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 17,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 18,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 19,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 20,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 21,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 22,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 23,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 24,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 25,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 26,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 27,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 28,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 29,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 30,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 31,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+          {
+            id: "",
+            seasonNumber: 4,
+            episodeNumber: 32,
+            episodeTitle: "",
+            imageUrl: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+            plot: "",
+          },
+ 
+        ],
         premiereDate:  "September 8, 1993" ,
         finaleDate:  "May 25, 1994" ,
         premiereEpisode: "So Long, Farewell, Auf Wiedersehen, Goodbye",
@@ -4463,6 +6146,7 @@ export const dramaSeries: Show[] = [
         title: "Beverly Hills, 90210, Season 4",
         posterUrl: "https://m.media-amazon.com/images/I/51GnJ8xVnYL._AC_.jpg",
         episodeCount: 32,
+        network: "Fox",
       },
       {
         id: "beverly-hills-season-5",
@@ -4539,1133 +6223,13 @@ export const dramaSeries: Show[] = [
     ],
     soundtrack: [
       {
-        id: "beverly-hills-90210-soundtrack-s1",
-        type: "soundtrack",
-        imgUrl: "https://play-lh.googleusercontent.com/bLaFwaaFhgC0EaHjxMXY4na390kB-FZ7ZqD1LzDMzwhz5dtXtxTj075raYPi76fFIHn8bbQ3V3O7LhlWpw",  
-        noSeason: 1,
-        noImage: false,
-        songs: [
-         { 
-          episodeTitle: "Class of Beverly Hills",
-          song: [
-            {
-            id: "i-want-your-love-transvision-vamp",
-            title: "I Want Your Love",
-            artist: "Transvision Vamp",
-          },
-          {
-            id: "all-i-want-is-everything-jellyfish",
-            title: "all i want is everything",
-            artist: "JELLYFISH",
-          },
-          {
-            id: "attacked-by-monsters-meat-puppets",
-            title: "attacked by monsters",
-            artist: "MEAT PUPPETS",
-          },
-          {
-            id: "paradise-meat-puppets",
-            title: "paradise",
-            artist: "MEAT PUPPETS",
-          },
-          {
-            id: "nobody-rides-for-free-climate-of-crises",
-            title: "Nobody Rides For Free",	
-            artist: "Climate of Crisis",
-          },
-          {
-            id: "the-motion-of-love-gene-loves-jezebel",
-            title: "the motion of love",
-            artist: "GENE LOVES JEZEBEL",
-          },
-          {
-            id: "clear-to-you-the-innocence-mission",
-            title: "Clear to You",
-            artist: "THE INNOCENCE MISSION",
-          },
-          {
-            id: "wild-in-the-streets-garland-jeffreys",
-            title: "wild in the streets",
-            artist: "GARLAND JEFFREYS",	
-          },
-        ]
-        
-        },
-        {
-            episodeTitle: "The Green Room",
-            song: [
-              {
-                title: "Word To The Mutha!",
-                artist: "Bell Biv Devoe",
-              },
-              {
-                title: "Monday Monday",
-                artist: "The Mamas and Papas",
-              },
-              {
-                title: "Surf Crazy",
-                artist: "Jan Berry and Dean Torrence"
-              },
-            ],
-          },
-          {
-            episodeTitle: "Every Dream Has Its Price (Tag)",
-            song: [
-              {
-                title: "Town Without Pity",
-                artist: "Gene Pitney",
-              },
-              {
-                title: "dirty cash (money talks)",
-                artist: "THE ADVENTURES OF STEVIE V"
-              },
-              {
-                title: "mt [the 77s cover]",
-                artist: "ZOPPI",
-              },
-              {
-                title: "let the good times roll",
-                artist: "LOUIS JORDAN & HIS TYMPANY FIVE",
-              },
-            ],
-          },
-          {
-            episodeTitle: "The First Time",
-            song: [
-              {
-                title: "shock wave",
-                artist: "KIPPER JONES",
-              },
-              {
-                title: "Dreamlike State",
-                artist: "Erasure",
-              },
-              {
-                title: "in the mood",	
-                artist: "GLENN MILLER & HIS ORCHESTRA",
-              },
-              {
-                title: "i wanna be rich",
-                artist: "CALLOWAY",
-              },
-              {
-                title: "hippychick",
-                artist: "SO:HO"
-              },
-            ],
-          },
-          {
-            episodeTitle: "One on One",
-            song: [
-              {
-                title: "Ooops Up",
-                artist: "Snap!",
-              },
-              {
-                title: "the way you do the things you do",	
-                artist: "THE TEMPTATIONS",
-              },
-              {
-                title: "turn it on salvador",	
-                artist: "TOY MATINEE",
-              },
-              {
-                title: "just the way it is, baby",
-                artist: "THE REMBRANDTS",
-              },
-            ],
-          },
-          {
-            episodeTitle: "Higher Education",
-            song: [
-              {
-                title: "Policy of Truth",
-                artist: "Depeche Mode"
-              },
-              {
-                title: "bedspring kiss",
-                artist: "JELLYFISH "
-             },
-            ],
-          },
-          {
-             episodeTitle: "Perfect Mom",	
-             song: [
-              {
-                title: "star",
-                artist: "ERASURE",
-              }
-            ]
-          },
-          {
-            episodeTitle: "The 17-Year Itch",	
-            song: [
-              {
-                title: "love generation",	
-                artist: "SO:HO"	
-              },
-              {
-                title: "being cool",	
-                artist: "DJAVAN",	
-              },
-              {
-                title: "heart shaped world",
-                artist:	"CHRIS ISAAK"
-              },
-          ]
-          },
-          {
-            episodeTitle: "The Gentle Art of Listening",	
-            song: [
-              {
-                title: "Get Up (Before The Night Is Over)",	
-                artist: "TECHNOTRONIC",
-              },
-              {
-                title: "chocolate",	
-                artist: "THE TIME",	
-              },
-              {
-                title: "since i met you baby",	
-                artist: "IVORY JOE HUNTER",
-              },
-              {
-                title: "devil or angel",	
-                artist: "THE CLOVERS",
-              },
-            ],
-          },
-          {
-             episodeTitle: "Isn't It Romantic?",	
-             song: [
-              {
-                title: "Lily Was Here",
-                artist:	"Candy Dulfer"
-              },
-              {
-                title: "doin' the do",
-                artist:	"BETTY BOO"	
-              },
-              {
-                title: "She's Like the Wind (feat. Wendy Fraser)",	
-                artist: "Patrick Swayze",
-              },
-             ],
-          },
-          {
-            episodeTitle: "B.Y.O.B.",	
-            song: [
-              {
-                title: "So Hard",	
-                artist: "PET SHOP",
-              },
-              {
-                title: "goddess",	
-                artist: "SO:HO",	
-              },
-              {
-                title: "don't you love me",	
-                artist: "49ERS",
-              },
-            ]  
-          },
-          {
-             episodeTitle: "One Man And A Baby",	
-             song: [
-              {
-                title: "baby love",	
-                artist: "THE SUPREMES",
-              },
-              {
-                title: "joey",	
-                artist: "CONCRETE BLONDE",
-              },
-              {
-                title: "Wicked Game",
-                artist:	"Chris Isaak",
-              },
-            ],
-          },
-          {
-            episodeTitle: "Slumber Party",	
-            song: [
-              {
-                title: "streets in paradise",
-                artist: "VIXEN"
-              },
-              {
-                title: "mony, mony",	
-                artist: "TOMMY JAMES & THE SHONDELLS"
-              },
-            ],
-          },
-          {
-            episodeTitle: "East Side Story",	
-            song:[
-              {
-                title: "let's go deeper",
-                artist:	"MC HAMMER",
-              },	
-              {
-                title: "i like you",
-                artist:	"CULTURE BEAT"
-              },	
-             {
-              title: "deep down",
-              artist:	"DEBBIE GIBSON",
-             },
-           ],
-          },      
-          {
-            episodeTitle: "A Fling In Palm Springs",	
-            song: [
-              {
-                title: "apples, peaches, pumpkin pie",
-                artist:	"JAY & THE TECHNIQUES",
-              },
-              {
-                title: "la bamba",
-                artist:	"RITCHIE VALENS",
-              },
-              {
-                title: "tequila",
-                artist: "THE CHAMPS",
-              },
-            ],
-          },
-        {
-          episodeTitle: "Fame Is Where You Find It",
-          song:	[
-            {
-              title: "sally go 'round the roses",	
-              artist: "THE JAYNETTS",
-            },
-            {
-              title: "finger poppin' time",
-              artist:	"HANK BALLARD & THE MIDNIGHTERS",
-            },
-            {
-              title: "it's my party",	
-              artist: "LESLEY GORE",
-            },
-          ]
-      },
-      {
-        episodeTitle: "Stand (Up) and Deliver",	
-        song: [
-          {
-            title: "merry go round",
-            artist: "THE REPLACEMENTS",	
-          },
-          {
-            title: "hippychick",
-            artist: "SO:HO",
-          },
-        ],
-      },
-      {
-        episodeTitle: "It's Only A Test",	
-        song: [
-          {
-            title: "just the way it is, baby",
-            artist:	"THE REMBRANDTS",
-          }
-        ]	
-      },
-      {
-        episodeTitle: "April Is The Cruelest",
-        song: [
-          {
-            title: "Month	would i lie to you?",	
-            artist: "EURYTHMICS",
-          },	
-          {
-            title: "doin' the do",	
-            artist: "BETTY BOO",
-          },
-        ]
-      },
-      {
-        episodeTitle: "Spring Training",
-      },
-      {
-        episodeTitle: "Spring Dance",	
-        song: [
-          {
-            title: "the best i can't",	
-            artist: "THE RAVE-UPS", 
-          },	
-          {
-            title: "you can't hurry love",	
-            artist: "THE SUPREMES",
-          },	
-          {
-            title: "tinker tommy",	
-            artist: "THE RAVE-UPS",
-          },	
-          { 
-            title: "she says (come around)",
-            artist:	"THE RAVE-UPS",
-          },	
-          { 
-            title: "smile",	
-            artist: "THE RAVE-UPS",
-          },
-          { 
-            title: "if it was (a matter of mind)",	
-            artist: "THE RAVE-UPS"
-          },	
-        ],
-        },
-      {
-        episodeTitle: "Home Again",
-        song:	[
-          {
-            title: "deep down",
-            artist:	"DEBBIE GIBSON",
-          },
-          {
-            title: "celebrate me home",
-            artist:	"KENNY LOGGINS"
-          },	
-          ],
-      },
-        ],
-      },
-      {
-        id: "beverly-hills-90210-soundtrack-s2",
-        type: "soundtrack",
-        imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/19/5e/6d/195e6d25-689c-be3b-8afc-ba6cb85aad85/BeverlyHills90210_S02_CoverArt_3000x3000.png/400x400bb.jpg",  
-        noSeason: 2,
-        noImage: false,
-        songs: [
-          {
-            episodeTitle: "Beach Blanket Brandon",
-            song: [
-            {
-              title: "Rockin' Robin",
-              artist: "Bobby Day",
-            },
-            {  
-              title: "Tell It Like It Is",
-              artist: "Aaron Neville"
-            },
-            {  
-              title: "Wake Up Little Susie",
-              artist: "The Everly Brothers",
-            },
-            {
-              title: "Losing My Religion",
-              artist: "R.E.M."
-            },
-            {
-              title: "droppin' like flies",
-              artist:	"SHEILA", 
-            }
-            ],
-          },
-          {
-            episodeTitle: "The Party Fish",
-            song: [
-              {
-                title: "The Goodbye Look",
-                artist: "Donald Fagen",
-              },
-              {
-                title: "Maxine", 
-                artist: "Donald Fagen",
-              },
-              {  
-                title: "The Other Side Of Summer",
-                artist: "Elvis Costello",
-              },
-            ],
-          },
-          {
-            episodeTitle: "Summer Storm",
-            song: [
-              {
-                title: "You Are the Everything",
-                artist: "R.E.M."
-              },
-              {
-                title: "I Don't Get Much Sleep Anymore",
-                artist: "Chris Luke",
-              },
-              {
-                title: "My Body Says Yes",
-                artist: "Titiyo"
-              }            
-            ],
-          },
-          {
-            episodeTitle: "Anaconda",
-            song: [
-              {
-                title: "What I Like About You",
-                artist: "The Romantics",
-              },
-              {
-                title: "You've Got That Thing",
-                artist: "Bobby Short"
-              },
-            ],
-          },
-          {
-            episodeTitle: "Play It Again, David",
-            song: [
-              {
-                title: "Summertime",
-                artist: "The Troggs",
-              }
-            ],
-          },
-          {
-            episodeTitle: "Pass, Not Pass",
-            song: [
-              {
-                title: "Little Bitty Pretty One",
-                artist: "Thurston Harris",
-              },
-              {
-                title: "Joyride",
-                artist: "Roxette",
-              },
-              {
-                title: "A Summer Song",
-                artist: "Chad and Jeremy",
-              },
-              {
-                title: "Gone Ridin'",
-                artist: "Chris Isaak",
-              },
-              {
-                title: "Sweet Talkin' Guy",
-                artist: "The Chiffons",
-              },
-              {
-                title: "hukilau",	
-                artist: "CHARLES KAIPO"
-              }
-            ],
-          },
-          {
-            episodeTitle: "Camping Trip",
-          },
-          {
-            episodeTitle: "Wildfire",
-            song: [
-              {
-                title: "Addicted to Love",
-                artist: "Robert Palmer"
-              },
-              {
-                title: "Mercedes Benz",
-                artist: "Christine Elise"
-              },
-              {
-                title: "Breaking Up Is Hard to Do",
-                artist: "Christine Elise, Tori Spelling, Jennie Garth and Shannen Doherty",
-              },
-              {  
-                title: "Teenage Mutant Kung-Fu Chickens",
-                artist: "Ray Stevens"
-              },
-              {
-                title: "Leader of the Pack",
-                artist: "The Shangri-Las",
-              },
-              {
-                title: "Wicked Game",
-                artist: "Chris Isaak"
-              }
-            ],
-          },
-          {
-            episodeTitle: "Ashes To Ashes",	
-            song: [
-              {
-                title: "who's schoolin' who?",	
-                artist: "SCHOOLLY D",
-              },
-              {
-                title: "All Right Now",
-                artist: "Free"
-              },
-              {
-                title: "Concrete Jungle",
-                artist: "Sway & King Tech"    
-              },
-            ],
-          },
-          {
-            episodeTitle: "Necessity Is a Mother",	
-            song: [
-              {
-                title: "the forecast (calls for pain)",
-                artist: "THE ROBERT CRAY BAND",
-              },
-              {
-                title: "mother-in-law",	
-                artist: "ERNIE K. DOE"
-              },
-              {
-                title: "born under a bad sign",
-                artist:	"ALBERT KING",
-              },
-            ],
-          },
-          {
-            episodeTitle: "Leading From The Heart",
-            song:	[
-              {
-                title: "romantic",
-                artist: "KARYN WHITE",	        
-              },
-              {
-                title: "he's got it goin' on",
-                artist:	"ICY BLU",
-              	},
-              {
-                title: "crazy",	
-                artist: "SEAL",
-              },
-            ],
-          },
-          {
-             episodeTitle: "Down and Out of District in Beverly Hills",
-             song: [	
-                {
-                  title: "radio song",
-                  artist:	"R.E.M.",
-                },
-                {
-                  title: "build me up buttercup",
-                  artist:	"THE FOUNDATIONS",	
-                },
-                {
-                  title: "shiny happy people",
-                  artist:	"R.E.M.",	
-                },
-                {
-                  title: "losing my religion",
-                  artist:	"R.E.M.",
-                },
-                {
-                  title: "over and over",
-                  artist:	"BOBBY DAY",
-                },
-                {
-                  title: "I'll Turn to Stone",
-                  artist: "The Four Tops",
-                },
-             ],
-          },
-          {
-            episodeTitle: "Halloween",
-            song: [	
-              {
-                title: "sweet sweet baby",
-                artist:	"ERASURE",	
-              },
-              {
-                title: "romantic",
-                artist:	"KARYN WHITE",	    
-              },
-              {
-                title: "lily was here", 
-                artist: "CANDY DULFER",
-              },
-              {
-                title: "24/7",
-                artist:	"DINO",	                
-              },
-              {
-                title: "monster mash",	
-                artist: "BOBBY 'BORIS' PICKETT",
-              },
-            ],
-          },
-          {
-            episodeTitle: "The Next Fifty Years",
-            song: [
-              {
-                title: "This Is My Country",
-                artist: "WBHS Choir"
-              },
-              {
-                title: "Somewhere",
-                artist: "WBHS Choir"
-              },
-              {
-                title: "Friends in Low Places",
-                artist: "Garth Brooks"
-              },
-              {
-                title: "Work It Out",
-                artist: "Monie Love"
-              },
-              {
-                title: "In Your Room",
-                artist: "The Bangles"
-              },
-              {
-                title: "knockin' on heaven's door",
-                artist:	"BOOTLEG ROCKS!",
-              },
-            ],
-          },
-          {
-            episodeTitle: "U4EA",
-            song: [	
-              {
-                title:  "come inside",
-                artist:	"THOMPSON TWINS",	
-              },
-              {
-                title: "dominion",
-                artist:	"SISTERS OF MERCY",	
-              },
-              {
-                title: "the beginning",
-                artist:	"SEAL"
-              },
-              {
-                title: "go! (club remix)",	
-                artist: "TONES ON TAIL"
-              },
-              {
-                title: "don't fight it, feel it (scat mix)",
-                artist:	"PRIMAL SCREAM"
-              },
-            ],
-          },
-          {
-             episodeTitle: "My Desperate Valentine",	
-             song: [
-              {
-                title: "baby i'm yours",
-                artist:	"BARBARA LEWIS",
-              },
-            ],
-          },
-          {
-            episodeTitle: "Chuckie's Back",
-            song: [
-              {
-                title: "Donna",
-                artist: "Ritchie Valens"
-              },
-              {
-                title: "Have Yourself a Merry Little Christmas",
-                artist: "Frank Sinatra",
-              },
-              {
-                title: "Jingle Bell Rock",
-                artist: "Bobby Helms",
-              },
-              {
-                title:  "Hey Donna",
-                artist: "Rythm Syndicate",
-              },
-              {
-                title:  "I Adore Mi Amor",
-                artist: "Color Me Badd",
-              },
-              {
-                title:  "2000 Miles",
-                artist: "The Pretenders",
-              },
-            ]
-          },
-          {
-            episodeTitle: "A Walsh Family Christmas",
-            song: [
-              {  
-                title:  "White Christmas",
-                artist: "Bing Crosby",
-              },
-              {
-                title:  "Jingle Bells",
-                artist: "James Pierpont",
-              },  
-              {  
-                title:  "Joy to the World",
-                artist: "Lowell Mason",
-              },  
-              {  
-                title:  "Christmas is the Time To Say I Love You",
-                artist: "Billy Squier",
-              },
-              {
-                title:  "Blue Christmas",
-                artist: "Elvis Presley",
-              },
-              {
-                title:  "Deck the Halls",
-                artist: "Traditional",
-              },
-              { 
-                title:  "We Wish You a Merry Christmas",
-                artist: "Joe E. Tata and the Neighborhood Carolers",
-              },  
-              {
-                title: "White Christmas",
-                artist: "The Cast of Beverly Hills, 90210"
-              }
-            ]
-          },
-          {
-           episodeTitle: "Fire and Ice",
-           song: [
-                {
-                  title: "(I've had) The Time of My Life",
-                  artist: "Bill Medley & Jennifer Warnes",
-                },
-                {
-                  title:" judy in disguise (with glasses)",
-                  artist:	"JOHN FRED & HIS PLAYBOY BAND",
-                },
-           ], 
-          },
-          {
-            episodeTitle: "A Competitive Edge",	
-            song: [
-              {
-                title: "games people play",
-                artist:	"JOE SOUTH"
-              },
-              {
-                title: "dancing in the street", 
-                artist: "The Mamas and The Papas",
-              },	
-              {
-                title: "backfield in motion",
-                artist:	"MEL & TIM",
-              },  
-            ],
-          },
-          {
-            episodeTitle: "Everybody's Talkin' 'Bout It	",
-            song: [
-              {
-                title: "i want you",
-                artist:	"JODY WATLEY",
-              },
-              {
-                title: "the birds and the bees",
-                artist:	"JEWEL AKENS",
-              },	
-            ],
-          },
-          {
-             episodeTitle: "And Baby Makes Five",	
-             song:[  
-               {
-                  title: "all 4 love",
-                  artist:	"COLOR ME BADD",
-                },
-               {
-                title: "do you believe in magic?",
-                artist:	"THE LOVIN' SPOONFUL",
-              }
-             ]
-            },
-          {
-            episodeTitle: "Cardio-Funk",
-            song: [
-              {
-                title:  "We Want the Funk",
-                artist: "Gerardo",
-              },
-            ]
-          },
-          {
-            episodeTitle: "The Pit and the Pendulum",	
-            song: [
-              {
-                title:  "don't get around much anymore",
-                artist: "NAT KING COLE",
-              },
-              {
-                title:  "blue suede shoes",
-                artist: "CARL PERKINS",
-              },
-              {
-                title:  "lady blue",
-                artist: "LEON RUSSELL",
-              },
-              {
-                title:  "the sun ain't gonna shine anymore",
-                artist: "THE WALKER BROTHERS",
-              },
-            ],
-          },
-          {
-            episodeTitle: "Meeting Mr. Pony",	
-            song: [
-              {
-                title: "mountain of love",
-                artist:	"JOHNNY RIVERS",
-              },	
-              {
-                title: "let the good times roll",	
-                artist: "SHIRLEY & LEE",
-              }
-            ], 
-          },
-          {
-             episodeTitle: "Things To Do On A Rainy Day",	
-             song: [
-              {
-                title: "i adore mi amor",
-                artist:	"COLOR ME BADD"
-              },
-              {
-                title: "all 4 love",
-                artist: "COLOR ME BADD"},
-              {
-                title: "i wanna sex you up",	
-                artist: "COLOR ME BADD"
-              },
-            ],
-          },
-          {
-            episodeTitle: "Mexican Standoff",
-            song: [
-              {
-                title: "i love to love you",	
-                artist: "JOHNNY 'GUITAR' WATSON",
-              },
-              {
-                title: "runaway",
-                artist:	"DEL SHANNON",
-              }
-            ]
-          },
-          {
-            episodeTitle: "Wedding Bell Blues",	
-            song: [
-              {
-                title: "wedding bell blues",
-                artist:	"THE 5TH DIMENSION",
-              },	
-              {
-                title: "bye bye love",
-                artist:	"THE EVERLY BROTHERS",
-              },
-            ],
-          }
-        ],
-      },
-      {
         id: "beverly-hills-90210-soundtrack-s3",
         type: "soundtrack",
         imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/8f/43/a7/8f43a7e1-d828-64f6-a504-f576ab2a9586/BeverlyHills90310_S03_CoverArt_3000x3000.png/400x400bb.jpg",  
         noSeason: 3,
         noImage: false,
         songs: [
-          {
-            episodeTitle: "Misery Loves Company",
-            song:	[
-              {
-                id: "summertime-blues-eddie-cochran",
-                title: "summertime blues",
-                artist:	"EDDIE COCHRAN",	
-              }, 
-              {
-                id: "working-in-the-coalmine-lee-dorsey",
-                title: "working in the coalmine",
-                artist: "LEE DORSEY",
-              },
-              {
-                id: "98.6-degrees-keith",
-                title: "98.6 Degrees",
-                artist: "KEITH",
-              },
-             ],
-          }, 
-          {
-            episodeTitle: "The Twins, The Trustee And The Very Big Trip"
-          }, 
-          { 
-            episodeTitle: "Too Little, Too Late/Paris 75001",
-          },
-          {
-            episodeTitle: "Shooting Star/American in Paris",
-            song: [
-              {              
-                id: "damn-i-wish-i-was-your-lover-sophie-b.-hawkins",
-                title:  "Damn I Wish I Was Your Lover",
-                artist: "Sophie B. Hawkins"
-              },
-              {
-                id: "forbidden-places-meat-puppets",
-                title: "Forbidden Places",
-                artist: "Meat Puppets",
-              },
-              {
-                id: "precious-brian-austin-green",
-                title:  "Precious",
-                artist: "Brian Austin Green",
-              },
-              {
-                id: "funny-how-time-slips-away-willie-nelson",
-                title:  "Funny How Time Slips Away (1962 Version)",
-                artist: "Willie Nelson",
-              }
-            ], 
-          },
-          {
-            episodeTitle: "Castles in the Sand",
-            song: [
-              {
-                id: "dancin-chris-isaak",  
-                title: "Dancin'",
-                artist: "Chris Isaak"
-              },
-              {
-                id: "be-my-love-brian-austin-green",
-                title: "Be My Love",
-                artist: "Brian Austin Green",  
-              }
-            ],
-          },
-          {
-            episodeTitle: "A Song of Myself",
-            song: [	
-              {
-                id: "live-and-learn-joe-public",
-                title: "live and learn",
-                artist:	"JOE PUBLIC"	          
-              },
-              {
-                id: "wishing-on-a-star-the-cover-girls",
-                title: "wishing on a star",
-                artist:	"THE COVER GIRLS",	  
-              },
-              {
-                id: "your-love-chic",
-                title: "your love",
-                artist:	"CHIC"	                  
-              },
-              {
-                id: "pushin'-too-hard-the-seeds",
-                title: "pushin' too hard",	
-                artist: "THE SEEDS",         
-              },
-            ],
-          },
-          {
-            episodeTitle: "The Back Story",
-            song:	[
-              {
-                id: "why-do-fools-fall-in-love?-frankie-lymon-&-the-teenagers",
-                title: "why do fools fall in love?",
-                artist:	"FRANKIE LYMON & THE TEENAGERS"	
-              },
-              {
-                id: "so-very-hard-to-go-tower-of-power",
-                title: "so very hard to go",
-                artist:	"TOWER OF POWER"
-              },
-              {
-                id: "baby-baby-baby-tlc",
-                title: "baby-baby-baby",
-                artist:	"TLC"
-              },
-              {
-                id: "like-to-get-to-know-you-spanky-&-our-gang",
-                title: "like to get to know you",
-                artist:	"SPANKY & OUR GANG",
-              },
-            ],
-          },
-          {
-            episodeTitle: "Highwire",
-            song:	[
-              {
-                id: "venus-frankie-avalon",
-                title: "venus",
-                artist:	"FRANKIE AVALON",
-              },	
-              {
-                id: "oogum-boogum-song-brenton-wood",
-                title: "oogum boogum song",
-                artist:	"BRENTON WOOD"
-              },
-            ],
-          },
-          {
-            episodeTitle: "Home and Away",	
-            song: [
-              {
-                id: "the-message-sofia-shinas",
-                title: "the message",
-                artist:	"SOFIA SHINAS",
-              },
-              {
-                id: "let-me-be-your-baby-geoffrey-williams",
-                title: "let me be your baby",
-                artist:	"GEOFFREY WILLIAMS"              
-              },
-            ]
-          },
-          {
-            episodeTitle: "A Presumption of Innocence",	
-            song: [
-              {
-                id: "you-really-got-me",
-                title: "you really got me",
-                artist:	"THE KINKS"
-              },
-              {
-                id: "why",
-                title: "why",
-                artist:	"CATHY DENNIS",	
-              },
-              {
-                id: "dance",
-                title: "dance",	
-                artist: "JOMANDA"
-              },
-              {
-                id: "saving forever for you",
-                title: "saving forever for you",	
-                artist: "SHANICE",	
-              },
-              {
-                id: "on-the-other-hand",
-                title: "on the other hand",	
-                artist: "RANDY TRAVIS"
-              },
-              {
-                id: "mercy-mercy-me",
-                title: "mercy mercy me",
-                artist:	"MARVIN GAYE"
-              },
-            ],
-          }, 
-          {
-             episodeTitle: "Destiny Rides Again",
-             song:	[
-              {
-                id: "i-wanna-love-you",
-                title: "i wanna love you",
-                artist:	"JADE",
-              },
-              {
-                id: "time-to-be-lovers",
-                title: "time to be lovers",
-                artist:	"MICHAEL MCDONALD & CHAKA KHAN",
-              },
-              {
-                id: "needles and pins",
-                title: "needles and pins",
-                artist:	"THE SEARCHERS",
-              },
-            ],
-          }  
+           
         ]
       },
       {

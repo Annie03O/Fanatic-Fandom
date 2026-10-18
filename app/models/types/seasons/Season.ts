@@ -20,4 +20,4 @@ export type Season = {
   network: string | string[];
   previousSeason?: Pick<Season, "id" | "seasonNumber">;
   nextSeason?: Pick<Season, "id" | "seasonNumber">;
-};
+  };

@@ -1,3 +1,6 @@
+import { Song } from "../../music/Song";
+import { Soundtrack } from "../../music/Soundtrack";
+
 export type EpisodeBreakdown = {
     id: string;
     imageUrl: string;
@@ -10,4 +13,5 @@ export type EpisodeBreakdown = {
     writtenBy: string | string[];
     releaseDate: string;
     usViewers?: number;
+    soundtrack: Soundtrack[] | Song[];
 }

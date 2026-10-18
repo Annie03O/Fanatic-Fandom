@@ -25,7 +25,7 @@ renders.current += 1;
 console.log("SeasonsPortals renders:", renders.current);
 
 
-  //const pushSoundtrack = (id: string) => router.push(`/drama/${slug}/soundtrack/${id}`);
+  const pushSoundtrack = (id: string) => router.push(`/drama/${slug}/soundtrack/${id}`);
 
   const colsClass = (n: number) => {
     const cols = Math.max(1, Math.min(5, n)); // clamp 1..8
@@ -53,7 +53,7 @@ console.log("SeasonsPortals renders:", renders.current);
         <button
           key={s.id}
           type="button"
-          //onClick={() => pushSoundtrack(s.id!)}
+          onClick={() => pushSoundtrack(s.id!)}
           className="text-lg hover:text-xl  w-fit rounded-2xl  shadow-lg shadow-gray-400/90 shadow-xl shadow-gray-600 ring-2 ring-[#d1c3e3]ansition-all duration-300 ease-in-out ring-2 overflow-hidden"
         >
           <section className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative md:w-[100px]"}>

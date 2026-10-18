@@ -28,8 +28,6 @@ async function SeasonPage({ params }: Props) {
 
   if (!series || !season) notFound();
 
-  return (
-    <Season/>
-  );
+  return <Season genre={series.genre} />;
 }
 export default SeasonPage;

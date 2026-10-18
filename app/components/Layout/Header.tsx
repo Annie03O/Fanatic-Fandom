@@ -16,31 +16,26 @@ const navItems: NavItem[] = [
     label: "Home", 
     href: "/" 
   },
-  // { 
-  //   label: "Drama", 
-  //   href: "/drama" 
-  // },
-
-  // { 
-  //   label: "Kids", 
-  //   href: "/kids" 
-  // },
-  // { 
-  //   label: "Crime", 
-  //   href: "/crime" 
-  // },
-  // { 
-  //   label: "Comedy", 
-  //   href: "/comedy" 
-  // },
-  // {
-  //   label: "Fantasy",
-  //   href: "/fantasy",
-  // },
-  { 
-    label: "All Series", 
-    href: "/series" 
-  },
+   { 
+     label: "Drama", 
+     href: "/drama" 
+   },
+   { 
+     label: "Kids", 
+     href: "/kids" 
+   },
+   { 
+     label: "Crime", 
+     href: "/crime" 
+   },
+   { 
+     label: "Comedy", 
+     href: "/comedy" 
+   },
+   {
+     label: "Fantasy",
+     href: "/fantasy",
+   },
 
 ];
 
