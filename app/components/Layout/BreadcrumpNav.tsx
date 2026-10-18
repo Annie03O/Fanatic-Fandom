@@ -19,6 +19,9 @@ export const BreadcrumpNav = () => {
     return (
         <nav aria-label="Breadcrumb" className="ml-2 flex gap-2 justify-start w-full">
             {
+                pathname === "/" ? <title>Home</title> : ""
+            }
+            {
                pathname !== "/" 
                ? <button className=" w-fit hover:underline cursor-pointer" onClick={handleBackClick}>
                     <FontAwesomeIcon icon={faArrowLeft}/>
@@ -37,6 +40,9 @@ export const BreadcrumpNav = () => {
 
                     return (
                         <li key={href} className="flex gap-2">
+                            <title>{
+                                 label
+                            }</title>
                             {index === segments.length - 1 ? (
                                 <span aria-current="page">{label}</span>
                                 
