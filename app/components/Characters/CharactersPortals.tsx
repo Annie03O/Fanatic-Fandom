@@ -15,14 +15,9 @@ type Props = {
 export const CharacterPortals = ({ show, page, genre }: Props) => {
   const { slug } = useParams<{ slug: string }>();
   const router = useRouter();
-
-  console.log("show", show);
-  
-
+ 
   const mainChars = (show?.mainCharacters ?? []).filter((c) => c.promo === true);
-
-  console.log("mainChars", mainChars);
-  
+ 
   
   // På startsidan: visa max 8 om det finns fler än 10
   const visible =
@@ -198,7 +193,7 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
   };
 
   return (
-    <section className={page ? "w-full flex flex-col items-center bg-black" : "w-full"}>
+    <section className={page ? "w-full flex flex-col items-center " : "w-full"}>
       <section
         className={
           page
@@ -212,9 +207,9 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
         { classGroups ? (
           <section className="w-full mt-6 flex flex-col gap-8 justify-center items-center">
             {classGroups.map((g) => (
-              <section key={String(g.key)} className="w-full ">
+              <section key={String(g.key)} className="w-full">
                 <h2 className="text-2xl font-semibold text-center mb-2">
-                  {g.title}
+                  {g.title} 
                 </h2>
                 {renderGridFor(g.items)}
               </section>

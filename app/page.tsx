@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen w-full bg-black text-[#d1c3e3]">
+    <main className="min-h-screen w-full  text-[#d1c3e3]">
       <section className="mx-auto flex max-w-7xl flex-col items-center px-6 py-20 text-center ">
         <p className="mb-3 text-sm uppercase tracking-[0.3em] ">
           Welcome to Fanatic Fandom

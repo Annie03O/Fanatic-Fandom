@@ -21,7 +21,7 @@ function Soundtrack() {
 
 return (
     <main key={series.id} className="flex flex-col  ">
-                <section key={soundtrack.id} className="bg-black md:w-full p-1 flex flex-col ">            
+                <section key={soundtrack.id} className=" md:w-full p-1 flex flex-col ">            
                     
                     <h1 className="text-4xl">Music from {series.title} (Season {soundtrack.noSeason})</h1>
                     <section key={slug} className=" flex flex-col-reverse md:flex-row border w-full ">

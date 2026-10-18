@@ -4,8 +4,12 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { usePathname } from "next/navigation";
 import SearchFilter from "./SearchFilter";
+import { BreadcrumpNav } from "./BreadcrumpNav";
 
 type NavItem = { label: string; href: string };
+type Genre = "drama" | "comedy" | "kids" | "fantasy" | "crime";
+
+const genres: Genre[] = ["drama", "comedy", "kids", "fantasy", "crime"];
 
 const navItems: NavItem[] = [
   { 
@@ -46,6 +50,9 @@ const cx = (...classes: Array<string | false | undefined>) =>
 export function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const genre = genres.find(
+    (item) => pathname === `/${item}` || pathname.startsWith(`/${item}/`)
+  );
 
   // Stäng på ESC
   useEffect(() => {
@@ -64,6 +71,7 @@ export function Header() {
 
   const items = useMemo(() => navItems, []);
 
+
   return (
     <header className="w-full border-b bg-black">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 text-[#d1c3e3] md:px-6">
@@ -75,7 +83,7 @@ export function Header() {
         >
           FanaticFandom
         </Link>
-              <SearchFilter/>
+              <SearchFilter genre={genre} />
 
         {/* Desktop nav */}
         <ul className="hidden items-center gap-6 md:flex ">
@@ -127,7 +135,7 @@ export function Header() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden border-t bg-black">
+        <div className="md:hidden border-t">
           <ul className="mx-auto flex max-w-6xl flex-col px-4 py-3">
             {items.map((item) => {
               const active = pathname === item.href;
@@ -137,8 +145,8 @@ export function Header() {
                     href={item.href}
                     onClick={() => setOpen(false)}
                     className={cx(
-                      "block rounded-md px-3 py-2 text-sm font-medium hover:bg-black/5",
-                      active && "bg-black/5"
+                      "block rounded-md px-3 py-2 text-sm font-medium hover:/5",
+                      active && "/5"
                     )}
                   >
                     {item.label}

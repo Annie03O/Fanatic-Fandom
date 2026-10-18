@@ -1,3 +1,4 @@
+import { BreadcrumpNav } from "./components/Layout/BreadcrumpNav";
 import { Header } from "./components/Layout/Header";
 import { SideBar } from "./components/Layout/SideBar";
 import { Footer } from "./Footer";
@@ -24,7 +25,12 @@ export default function RootLayout({
          <section className="w-fit shrink-0 hidden md:flex flex-col items-stretch">
           <SideBar side="left"/>
           </section>
-         {children}
+          <article className="w-full flex flex-col justify-center items-center bg-black text-[#d1c3e3]">
+            <BreadcrumpNav/>
+              <section className="w-[95%] h-full">
+                {children}
+              </section>
+            </article>
          <section className="w-fit shrink-0 hidden md:flex flex-col items-stretch">
           <SideBar side="right"/>
           </section>

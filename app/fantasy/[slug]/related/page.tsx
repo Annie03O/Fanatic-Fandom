@@ -20,7 +20,7 @@ export default function AllRelatedPage({genre}: Props) {
         
     
     return (
-      <div className="flex flex-col  items-center bg-black w-[90%] min-h-[1000px]"> 
+      <div className="flex flex-col  items-center  w-[90%] min-h-[1000px]"> 
         
         <RelatedPortal title={series.title} show={series} page={true}/>
       </div>

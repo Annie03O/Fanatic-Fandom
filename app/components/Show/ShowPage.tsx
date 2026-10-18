@@ -57,12 +57,12 @@ const ShowPage = ({genre}: ShowPageProps) => {
 
     return (
         <main className="flex flex-col ">
-            <article className="bg-black text-[#d1c3e3] md:w-full p-1 flex flex-col">            
+            <article className=" text-[#d1c3e3] md:w-full p-1 flex flex-col">            
                 
                 <h1 className="text-4xl">{series.title}</h1>
-                <section className=" flex flex-col-reverse md:flex-row w-full ">
+                <section className="flex flex-col-reverse md:flex-row w-full ml-2">
                     <section className="grid grid-cols-12 col-start-1 col-span-12 row-start-1 row-span-10  h-fit  w-full">
-                       <section className="col-start-1  md:row-start-1 col-span-10">
+                       <section className="col-start-1 md:row-start-1 col-span-10">
                           <h2 className="text-3xl">Plot</h2>
                           <span className="block">{series.plot}</span>
                        </section>

@@ -7,3 +7,6 @@ export const shows = catalog.map(({ show, genre }) => ({
         image: show.posterUrl,
         href: `/${genre}/${show.slug}`,
       }));
+
+
+

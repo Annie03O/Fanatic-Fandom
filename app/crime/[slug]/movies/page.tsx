@@ -22,7 +22,7 @@ export default async function AllMoviesPage({ params }: Props) {
         
     
     return (
-      <div className="flex flex-col  items-center bg-black w-[90%] min-h-[1000px]"> 
+      <div className="flex flex-col  items-center  w-[90%] min-h-[1000px]"> 
         
         <MoviePortal show={series} page={true} genre="crime"/>
       </div>

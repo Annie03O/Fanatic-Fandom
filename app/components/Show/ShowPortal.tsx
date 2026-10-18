@@ -12,7 +12,7 @@ export const ShowPortal = ({show, genre, title}: Props) => {
  
     return (
           <Link key={genre} href={`/${genre}/${title}`} >
-            <section className="flex justify-center items-center ">
+            <section className="flex justify-center items-center text-black">
               <article className="w-[300px] h-[555px] border rounded-xl bg-purple-300 hover:bg-purple-400 flex flex-col justify-center gap-2 shadow-xl shadow-gray-600 hover:shadow-none hover:rounded-2xl">
                 <h1 className="text-xl whitespace-nowrap text-center">
                   {show.title}</h1>

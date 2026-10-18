@@ -5,7 +5,7 @@ import { seriesBetaWithSlug } from "../functions/dramaSeriesTop50WithSlug";
 
 export const CrimePage = () => {
   return (
-     <article className="flex flex-wrap gap-10 items-center justify-center bg-black p-3">
+     <article className="flex flex-wrap gap-10 items-center justify-center  p-3">
       {seriesBetaWithSlug.items
         .filter((i) => i.tags?.some((tag) => tag.toLowerCase() === "crime"))
         .map((i) => {
