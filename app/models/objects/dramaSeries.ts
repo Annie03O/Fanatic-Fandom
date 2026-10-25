@@ -1,5 +1,6 @@
 import { write } from "fs";
 import { Show } from "../types/structure/Show";
+import { KELLY_TAYLOR_ID, BRANDON_WALSH_ID, BRENDA_WALSH_ID, DYLAN_MCKAY_ID, DONNA_MARTIN_ID, CU, WestBev, BrandonBrenda_ID, BRENDA_WALSH_NAME, BrandonJim_ID, BRANDON_WALSH_NAME, JIM_WALSH_NAME, BrandonCindy_ID, CINDY_WALSH_NAME, DYLAN_MCKAY_NAME, BrandonDylan_ID, beverlyHillsS1Ep2Title, BrandonKelly_ID, KELLY_TAYLOR_NAME, beverlyHillsS4Ep32Title, beverlyHillsS5Ep21Title, beverlyHillsS7Ep26Title, beverlyHillsS8Ep20Title, beverlyHillsS5Ep20Title, beverlyHillsS5Ep30Title, beverlyHillsS8Ep16Title, beverlyHillsS9Ep2Title, BrandonAndrea_ID, ANDREA_ZUCKERMAN_ID, STEVE_SANDERS_NAME, STEVE_SANDERS_ID, VALERIE_MALONE_NAME, CLARE_ARNOLD_NAME, DAVID_SILVER_NAME, DONNA_MARTIN_NAME, BrendaCindy_ID, BrendaDylan_ID, BrendaKelly_ID, BrendaDonna_ID, ANDREA_ZUCKERMAN_NAME, beverlyHillsS1Ep1Title, TONI_MARCHETTE_NAME, DylanToni_ID, beverlyHillsS6Ep3Title, beverlyHillsS6Ep10Title, beverlyHillsS1Ep10Title, beverlyHillsS2Ep2Title, beverlyHillsS6Ep31Title, beverlyHillsS2Ep8Title, beverlyHillsS2Ep1Title, beverlyHillsS3Ep12Title, beverlyHillsS5Ep1Title, beverlyHillsS9Ep8Title, beverlyHillsS2Ep26Title, DylanJim_ID, DylanKelly_ID, beverlyHillsS3Ep19Title, beverlyHillsS4Ep1Title, beverlyHillsS4Ep2Title, DylanDavid_ID, DylanAndrea_ID, DylanGina_ID, GINA_KINCAID_NAME, GINA_KINCAID_ID, DylanValerie_ID, EMILY_VALENTINE_NAME, JACK_MCKAY_NAME, IRIS_MCKAY_NAME, ERICA_MCKAY_NAME, beverlyHillsSeriesFinaleTitle, DonnaKelly_ID, beverlyHillsS3Ep24Title, KellyJackie_ID, JACKIE_TAYLOR_NAME, SAMMY_TAYLOR_NAME, ERIN_SILVER_NAME, MEL_SILVER_NAME, DavidKelly_ID, JOHN_MARTIN_NAME, FELICE_MARTIN_NAME, BOBBI_KINCAID_NAME, SHEILA_SILVER_NAME, DonnaDavid_ID, beverlyHillsS6Ep32Title, beverlyHillsS2Ep17Title, beverlyHillsS4Ep21Title, beverlyHillsS7Ep11Title, beverlyHillsS7Ep21Title, beverlyHillsS10Ep24Title, beverlyHillsS4E15Title, beverlyHillsS7Ep2Title, beverlyHillsS7Ep19Title, beverlyHillsS8Ep10Title, beverlyHillsS6Ep8Title, beverlyHillsS6Ep15Title, beverlyHillsS6Ep21Title, beverlyHillsS6Ep30Title, SAMANTHA_SANDERS_NAME, RUSH_SANDERS_NAME, MADELINE_SANDERS_NAME, RYAN_SANDERS_NAME, AUSTIN_SANDERS_NAME, JANET_SOSNA_NAME, SteveValerie_ID, SteveJanet_ID, beverlyHillsS9Ep16Title, beverlyHillsS7Ep9Title, beverlyHillsS7Ep6Title, beverlyHillsS7Ep32Title, JESSE_VASQUEZ_NAME, VALERIE_MALONE_ID, PeachPitAfterDark, DavidValerie_ID, NOAH_HUNTER_NAME, COLIN_ROBBINS_NAME, BrandonValerie_ID, RAY_PRUIT_NAME, JESSE_VASQUEZ_ID, SCOTT_SCANLON_ID, CLARE_ARNOLD_ID, CARLY_REYNOLDS_ID, JANET_SOSNA_ID, NOAH_HUNTER_ID, beverlyHillsS1Ep3Title, CaitlinAdamsName, AmySpiesName, beverlyHillsS1Ep7Title, DanAttiasName, CharlesRosinName, JordanBuddeName, SOHOArtist, DarrenStarName, TheSupremesArtist, ChrisIsakArtist, KarenRosinName, CINDY_WALSH_ID, CharlesBravermanName, SteveWassermanName, JessicaKleinName, TheRaveUpArtist } from "./variables/beverly-hills";
 
 export const dramaSeries: Show[] = [
   {
@@ -19,7 +20,7 @@ export const dramaSeries: Show[] = [
     tags: ["Teen Drama", "high-school", "classic", "soap", "culture-icon"],
     mainCharacters: [
       {
-        id: "brandon-walsh",
+        id: BRANDON_WALSH_ID,
         firstName: "Brandon",
         lastName: "Walsh",
         gender: "M",
@@ -113,7 +114,7 @@ export const dramaSeries: Show[] = [
         occupation: [
           {started: "1998", hasEnded: false, title: "News reporter", place: "New York Chronicle (D.C. Bureau)"},
           {started: "1997", hasEnded: true, ended: "1998", title: "Editor", place: "The Beverly Beat"},
-          {started: "1994", hasEnded: true, ended: "1995", title: "Interim Student Body President", place:"California University"},
+          {started: "1994", hasEnded: true, ended: "1995", title: "Interim Student Body President", place:CU},
           {started: "1993", hasEnded: true, ended: "1994", title: "Student Body Representative", place: "California University Educational Task Force"},
           {started: "1990", hasEnded: true, ended: "1993", title: "Waiter", place: "Peach Pit"},
           {started: "1992", hasEnded: true, ended: "1993", title: "Co-Editor", place: "The Blaze"},
@@ -121,13 +122,13 @@ export const dramaSeries: Show[] = [
         ], 
         education: [
           {
-            place: "Californa Universty", 
+            place: CU, 
             hasEnded: true,
             started: "1993",
             ended: "1997"
           }, 
           {
-            place: "West Beverly High School",
+            place: WestBev,
             hasEnded: true,
             started: "1990",
             ended: "1993"
@@ -138,9 +139,9 @@ export const dramaSeries: Show[] = [
         nationality: "American",
         relationships: [ 
           {
-            id: "brandon-brenda",
+            id: BrandonBrenda_ID,
             type: "Family",
-            name: "Brenda Walsh",
+            name: BRENDA_WALSH_NAME,
             twin: true,
             family: "Sibling", 
             description: [
@@ -153,39 +154,39 @@ export const dramaSeries: Show[] = [
             card: true
           },
           {
-            id: "brandon-jim",
+            id: BrandonJim_ID,
             type: "Family", 
-            name: "Jim Walsh",
+            name: JIM_WALSH_NAME,
             family: "Parent",
             typeOfFamily: "Biological", 
             imgUrl: "https://m.media-amazon.com/images/M/MV5BMTgxMTIxNzk0NF5BMl5BanBnXkFtZTgwOTMyMDYzMzE@._V1_.jpg",
             gender: "M"   
           },
           {
-            id: "brandon-cindy",
+            id: BrandonCindy_ID,
             type: "Family", 
             typeOfFamily: "Biological",
-            name: "Cindy Walsh",
+            name: CINDY_WALSH_NAME,
             family: "Parent", 
             imgUrl: "https://m.media-amazon.com/images/M/MV5BMTgxMTIxNzk0NF5BMl5BanBnXkFtZTgwOTMyMDYzMzE@._V1_.jpg",   
             gender: "F"
           },
           {
-            id: "brandon-dylan",
+            id: BrandonDylan_ID,
             type: "Friendship", 
-            name: "Dylan McKay",
+            name: DYLAN_MCKAY_NAME,
             kindOfFriendship: "Best Friend",
             description: ["Brandon meets Dylan when Dylan defends Scott to two bullies in tech class. Brandon initiates contact with Dylan and they start up a friendship that is almost like a brotherhood. They fight, make up, are there for each other in extreme and regular situations and share a grounded view on life, Dylan a more spiritual and open-minded old soul to Brandon's curious, head-first enthusiasm. Together with Brenda they form an inseparable trio, who support and protect one another while growing up in ritzy Beverly Hills. Brandon, at times, feels left out or separated from Dylan due to Dylan's wealth, even as they start college, jealous of the opportunities money affords Dylan easily. Dylan longs for the steady family dynamic Brandon has always enjoyed and considers Brandon's parents his own surrogate parents, until Jim rejects him. Even Dylan's chaotic relationship with Kelly and Brandon's later romance with her does not destroy their close bond and Brandon serves as Dylan's best man at his wedding to Antonia."], 
             shortDesc: "Brandon and Dylan form a close, brother-like friendship. They support each other through many ups and downs and remain loyal companions throughout the series.",
             imgUrl: "https://preview.redd.it/dylan-or-brandon-v0-f18ogb5s1tgf1.jpg?width=640&crop=smart&auto=webp&s=650dc28ab37697c92ac28c726b9b6efed67586ff",
             gender: "M",
             card: true,
-            started: ["The Green Room"] 
+            started: [beverlyHillsS1Ep2Title] 
           },
           {
-            id: "brandon-kelly",
+            id: BrandonKelly_ID,
             type: "Romantic", 
-            name: "Kelly Taylor",
+            name: KELLY_TAYLOR_NAME,
             romantic: "Ex-Fiancé",
             description: ["Brandon Walsh and Kelly Taylor’s relationship in Beverly Hills, 90210 is one of the show's most complex and emotional romances. They start off as friends when the Walsh family first arrives in Beverly Hills. Kelly immediately finds Brandon attractive, but he initially doesn’t return her romantic interest. Over time, as part of the West Beverly group, they grow closer and their connection deepens.", 
               "Their romantic relationship eventually begins after Kelly’s previous relationship with Dylan McKay ends. Dating brings its own challenges, including obstacles like Kelly’s trauma from a house fire, Brandon’s brief infidelity with Emily Valentine, and Kelly’s involvement with a cult.In college, Brandon proposes to Kelly when Dylan offers her a trip around the world — a decision point that highlights just how tangled their feelings are. Kelly initially turns down both offers but later admits she would’ve chosen Brandon, wanting to protect his friendship with Dylan. As adults, things become even more complicated.", 
@@ -195,8 +196,8 @@ export const dramaSeries: Show[] = [
             imgUrl: "https://preview.redd.it/what-are-your-overall-thoughts-on-kelly-brandon-as-a-couple-v0-c2ytczlw9x5e1.jpg?width=640&crop=smart&auto=webp&s=84b3360ce1589c89f297d59a05fa03c5d409999e",
             gender: "F",
             card: true,
-            started: ["Mr. Walsh Goes to Washington: Part 2", "Stormy Weather", "The Long Goodbye", "Cupid's Arrow"],
-            ended: ["You Gotta Have Heart", "Hello Life, Goodbye Beverly Hills", "Illegal Tender", "Budget Arrow"]   
+            started: [beverlyHillsS4Ep32Title, beverlyHillsS5Ep21Title, beverlyHillsS7Ep26Title, beverlyHillsS8Ep20Title],
+            ended: [beverlyHillsS5Ep20Title, beverlyHillsS5Ep30Title, beverlyHillsS8Ep16Title, beverlyHillsS9Ep2Title],   
              
           },
           {          
@@ -206,7 +207,7 @@ export const dramaSeries: Show[] = [
             gender: "",
             shortDesc: "In season 7 Brandon and Kelly find out that Kelly was pregnant without realizing, but unfortunately miscarried.",
             dead: true,
-            secondParent: "Kelly Taylor"
+            secondParent: KELLY_TAYLOR_NAME
           },
           {
             name: "Paula Beevis",
@@ -250,16 +251,16 @@ export const dramaSeries: Show[] = [
             gender: "M"
           },
           {
-            id: "brandon-andrea",
+            id: BrandonAndrea_ID,
             type: "Friendship", 
-            name: "Andrea Zuckerman",
+            name: ANDREA_ZUCKERMAN_NAME,
             kindOfFriendship: "Best Friend",
             description: ["Brandon and Andrea meet at The Blaze, which becomes the scene of many heated debates between the two of moral issues concerning the paper, always underpinned by their mutual, undeniable attraction which neither ever find the right time to truly act on. While Andrea is first considered a social outcast and Brandon quickly befriends 'in-crowd' people such as rich boy Steve Sanders and revered, rich loner Dylan McKay, the focus early on is how Andrea has an obvious crush on Brandon, but it goes both ways.", "Brandon is the first to spontaneously kiss Andrea and both are incredibly jealous of their respective significant others. Brandon, particularly, often seems to have trouble expressing how he really feels about Andrea. The pairing seems to be bandied about quite a bit, with a bunch of near-misses in them finally getting together. It is not stated, but one can speculate that the two never did get together due to the necessity of the pregnancy storyline[1], and possibly Carteris's departure from the show a year following that."], 
             shortDesc: "Brandon and Andrea meet while working at The Blaze, where they often debate moral issues, revealing both tension and mutual attraction. Although Andrea is initially seen as an outsider and Brandon becomes part of the popular crowd, they develop strong feelings for each other. Brandon is the first to kiss Andrea, and both show jealousy over each other’s relationships. Despite several near-romantic moments, Brandon struggles to express his true feelings. Ultimately, they never fully pursue a relationship, likely due to changing storylines and Andrea’s later departure.",
             imgUrl: "https://i.pinimg.com/736x/7d/f1/2a/7df12a7436ee9452ffc1866f963c8d9e.jpg",   
             gender: "F",
             card: true, 
-            started: ["Class of Beverly Hills"], 
+            started: [beverlyHillsS1Ep1Title], 
           
           },
           {
@@ -353,45 +354,45 @@ export const dramaSeries: Show[] = [
             gender: "F"
             },
             {
-              name: "Steve Sanders",
+              name: STEVE_SANDERS_NAME,
               type: "Friendship",
               kindOfFriendship: "Close",
               gender: "M"
             },
             {
-              name: "Valerie Malone",
+              name: VALERIE_MALONE_NAME,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "F"
             },
             {
-              name: "Clare Arnold",
+              name: CLARE_ARNOLD_NAME,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "F"
             },
             {
-              name: "David Silver",
+              name: DAVID_SILVER_NAME,
               type: "Friendship",
               kindOfFriendship: "Close",
               gender: "F" 
             },
             {
-              name: "Donna Martin",
+              name: DONNA_MARTIN_NAME,
               type: "Friendship",
               kindOfFriendship: "Close",
               gender: "F" 
             },
           ],  
           actor: "Jason Priestly",
-          firstEpisode: "Class of Beverly Hills",
-          lastEpisode: "Ode to Joy",
+          firstEpisode: beverlyHillsS1Ep1Title,
+          lastEpisode: beverlyHillsSeriesFinaleTitle,
           episodeCount: "244",
             
            
         },
       {
-        id: "brenda-walsh",
+        id: BRENDA_WALSH_ID,
         firstName: "Brenda",
         lastName: "Walsh",
         imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZqEXsN_yS6oHvCE5s5gFA8_NUamsBmFORM4N16UY9phr0eNlSso5yp3AF&s=10",
@@ -492,13 +493,13 @@ export const dramaSeries: Show[] = [
             ended: "1997"
           }, 
           {
-            place: "Californa Universty", 
+            place: CU, 
             hasEnded: true,
             started: "1993",
             ended: "1994"
           }, 
           {
-            place: "West Beverly High School",
+            place: WestBev,
             hasEnded: true,
             started: "1990",
             ended: "1993"
@@ -509,9 +510,9 @@ export const dramaSeries: Show[] = [
         nationality: "American",
         relationships: [ 
           {
-            id: "brandon-brenda",
+            id: BrandonBrenda_ID,
             type: "Family",
-            name: "Brandon Walsh",
+            name: BRANDON_WALSH_NAME,
             twin: true,
             family: "Sibling", 
             description: ["Brenda and Brandon Walsh are twin siblings who move with their parents from Minneapolis to Beverly Hills at the beginning of Beverly Hills, 90210. From the start, their relationship is shown as close and supportive, with Brandon often acting as Brenda’s confidant and grounding influence. Brandon plays a stabilizing role in Brenda’s life as she struggles to adjust to the new social dynamics of Beverly Hills, develop friendships, and navigate her romantic relationships. Brenda openly tells Brandon at one point that he is her best friend, and Brandon expresses that he hopes they always remain that close. Though the show focuses more heavily on Brenda’s own storylines—especially her high-profile romance with Dylan McKay and the accompanying family tensions—her bond with Brandon remains a consistent part of her character arc. Brandon cares deeply for Brenda, supports her through personal ups and downs, and is there for her during major moments in the early seasons. Overall, their relationship is portrayed as a strong familial bond rather than a romantic one, grounded in mutual support, shared experience as newcomers in Beverly Hills, and brother-sister loyalty."], 
@@ -523,22 +524,22 @@ export const dramaSeries: Show[] = [
           {
             id: "branda-jim",
             type: "Family", 
-            name: "Jim Walsh",
+            name: JIM_WALSH_NAME,
             family: "Parent", 
             imgUrl: "https://i.ytimg.com/vi/NXUDF9riTw0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD-4g_yL3AQK8ZUcpTGo3hbyDQqsQ",
             gender: "M"   
           },
           {
-            id: "brandon-cindy",
+            id: BrendaCindy_ID,
             type: "Family", 
-            name: "Cindy Walsh",
+            name: CINDY_WALSH_NAME,
             family: "Parent", 
             gender: "F"
           },
           {
-            id: "brenda-dylan",
+            id: BrendaDylan_ID,
             type: "Romantic", 
-            name: "Dylan McKay",
+            name: DYLAN_MCKAY_NAME,
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             description: ["Brenda Walsh and Dylan McKay’s relationship is one of the most iconic and emotionally intense romances in Beverly Hills, 90210. They begin dating in Season 1 after forming a strong connection as fellow outsiders—Brenda as the sensitive newcomer from Minnesota and Dylan as the troubled, rebellious loner. Their early relationship is passionate, loyal, and deeply romantic, with both seeing each other as their first true love.",
               "During their early years together, Brenda and Dylan become inseparable. Brenda is devoted and idealistic, while Dylan finds emotional safety and stability with her for the first time in his life. Their bond is strengthened through shared vulnerability, including Dylan’s struggles with his family, wealth, and abandonment issues. Brenda often acts as his emotional anchor, while Dylan gives Brenda confidence and a sense of being truly chosen.",
@@ -554,9 +555,9 @@ export const dramaSeries: Show[] = [
             card: true   
           },
           {
-            id: "brenda-kelly",
+            id: BrendaKelly_ID,
             type: "Friendship", 
-            name: "Kelly Taylor",
+            name: KELLY_TAYLOR_NAME,
             kindOfFriendship: "Normal",
             current: "Friendship", 
             description: ["When Brenda Walsh first arrives in Beverly Hills, Kelly Taylor quickly becomes one of her closest friends and social guides. As a popular and socially confident student, Kelly helps Brenda adjust to the school’s culture, fashion, and social expectations. In return, Brenda offers Kelly emotional warmth, sincerity, and a sense of groundedness that she had often lacked. During the early seasons, their friendship is affectionate, loyal, and almost sister-like. They share secrets, support each other through romantic problems, and consistently defend one another. At this stage, their bond is built on trust, admiration, and genuine emotional closeness.",
@@ -570,8 +571,8 @@ export const dramaSeries: Show[] = [
             imgUrl: "https://i.pinimg.com/236x/be/64/e3/be64e3edbddc1ba66c52a43d63b3ce4e.jpg",
             gender: "F",
             card: true,
-            started: ["Class of Beverly Hills", "Perfectly Perfect"],
-            ended: ["Back in The High Life Again"]   
+            started: [beverlyHillsS1Ep1Title, beverlyHillsS3Ep24Title],
+            ended: [beverlyHillsS3Ep19Title]   
           },
           {
             name: "Paula Beevis",
@@ -614,9 +615,9 @@ export const dramaSeries: Show[] = [
             gender: "M"
           },
           {
-            id: "brenda-donna",
+            id: BrendaDonna_ID,
             type: "Friendship", 
-            name: "Donna Martin",
+            name: DONNA_MARTIN_NAME,
             kindOfFriendship: "Best Friend",
             description: ["When Brenda Walsh first arrives in Beverly Hills, Donna Martin becomes one of her earliest and most reliable friends. Unlike Kelly, who introduces Brenda to the school’s social hierarchy, Donna offers immediate kindness and emotional safety. She welcomes Brenda without judgment and treats her with warmth and sincerity. From the beginning, their bond is built on trust, gentleness, and mutual support rather than popularity or competition. Donna’s calm, non-confrontational nature balances Brenda’s emotional intensity, creating a friendship based on comfort and understanding.",
               "During the early seasons, Brenda and Donna develop a quiet but meaningful closeness. They often confide in each other about romantic struggles, family problems, and personal insecurities. Donna consistently acts as a listener and emotional anchor for Brenda, especially during moments of heartbreak involving Dylan and conflict with Kelly. In return, Brenda encourages Donna to be more confident and assertive, helping her express her feelings and stand up for herself. Their friendship functions as a safe space where both can be vulnerable without fear of judgment.",
@@ -680,45 +681,45 @@ export const dramaSeries: Show[] = [
           
           },
             {
-              name: "Steve Sanders",
+              name: STEVE_SANDERS_NAME,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "M"
             },
             
             {
-              name: "Andrea Zuckerman",
+              name: ANDREA_ZUCKERMAN_NAME,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "F"
             },
             {
-              name: "Valerie Malone",
+              name: VALERIE_MALONE_NAME,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "F"
             },
             {
-              name: "David Silver",
+              name: DAVID_SILVER_NAME,
               type: "Friendship",
               kindOfFriendship: "Close",
               gender: "F" 
             },
             {
-              name: "Donna Martin",
+              name: DONNA_MARTIN_NAME,
               type: "Friendship",
               kindOfFriendship: "Close",
               gender: "F" 
             },
           ],  
           actor: "Shannen Doherty",
-          firstEpisode: "Class of Beverly Hills",
-          lastEpisode: "Mr. Walsh Goes to Washington: Part 2",
+          firstEpisode: beverlyHillsS1Ep1Title,
+          lastEpisode: beverlyHillsS4Ep32Title,
           episodeCount: "112",
        
       },
       {
-        id: "dylan-mckay",
+        id: DYLAN_MCKAY_ID,
         firstName: "Dylan",
         lastName: "McKay",
         imageUrl: "https://decider.com/wp-content/uploads/2015/10/luke-perry.png",
@@ -795,13 +796,13 @@ export const dramaSeries: Show[] = [
         ], 
         education: [
           {
-            place: "Californa Universty", 
+            place: CU, 
             hasEnded: true,
             started: "1993",
             ended: "1995"
           }, 
           {
-            place: "West Beverly High School",
+            place: WestBev,
             hasEnded: true,
             started: "1989",
             ended: "1993"
@@ -814,18 +815,18 @@ export const dramaSeries: Show[] = [
         relationships: [ 
           {          
             type: "Family",
-            name: "Sammy Taylor",
+            name: SAMMY_TAYLOR_NAME,
             family: "Child",
             shortDesc: "Sammy is Dylan's son that he had with Kelly between the original show and the 90210 reboot. He and Sammy doesn't have that much of a relationship.",
             imgUrl: "https://lthumb.lisimg.com/985/697985.jpg?width=280&sharpen=true",   
             gender: "M",
             card: true,
-            secondParent: "Kelly Taylor"
+            secondParent: KELLY_TAYLOR_NAME
           },
           {
-            id: "brenda-toni",
+            id: DylanToni_ID,
             type: "Romantic", 
-            name: "Toni Marchette",
+            name: TONI_MARCHETTE_NAME,
             romantic: "Wife/Husband",
             dead: true,
             description: [
@@ -841,13 +842,13 @@ export const dramaSeries: Show[] = [
             imgUrl: "https://decider.com/wp-content/uploads/2016/11/90210-dylan-toni.jpg?quality=75&strip=all&w=1156",
             gender: "F",
             card: true,
-            started: ["Isn't It Romantic?", "Wildfire", " Mr. Walsh Goes to Washington: Part 2", "You Say It's Your Birthday: Part 1" ],
-            ended: ["Beach Blanket Brandon", "Destiny Rides Again", " What I Did on My Summer Vacation and Other Stories", "Sometime before 'I'm Back Because'"],
+            started: [beverlyHillsS6Ep3Title],
+            ended: [beverlyHillsS6Ep10Title],
           },
           {
-            id: "brenda-dylan",
+            id: BrendaDylan_ID,
             type: "Romantic", 
-            name: "Brenda Walsh",
+            name: BRENDA_WALSH_NAME,
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             description: ["Brenda Walsh and Dylan McKay’s relationship is one of the most iconic and emotionally intense romances in Beverly Hills, 90210. They begin dating in Season 1 after forming a strong connection as fellow outsiders—Brenda as the sensitive newcomer from Minnesota and Dylan as the troubled, rebellious loner. Their early relationship is passionate, loyal, and deeply romantic, with both seeing each other as their first true love.",
               "During their early years together, Brenda and Dylan become inseparable. Brenda is devoted and idealistic, while Dylan finds emotional safety and stability with her for the first time in his life. Their bond is strengthened through shared vulnerability, including Dylan’s struggles with his family, wealth, and abandonment issues. Brenda often acts as his emotional anchor, while Dylan gives Brenda confidence and a sense of being truly chosen.",
@@ -861,13 +862,23 @@ export const dramaSeries: Show[] = [
             imgUrl: "https://images.thenightly.com.au/publication/C-15357729/4a64633fafee9720bc48102d50d2441598c162c4.jpg?imwidth=810",
             gender: "F",
             card: true,
-            started: ["Isn't It Romantic?", "Wildfire", " Mr. Walsh Goes to Washington: Part 2", "You Say It's Your Birthday: Part 1" ],
-            ended: ["Beach Blanket Brandon", "Destiny Rides Again", " What I Did on My Summer Vacation and Other Stories", "Sometime before 'I'm Back Because'"],
+            started: [
+              beverlyHillsS1Ep10Title, 
+              beverlyHillsS2Ep8Title , 
+              beverlyHillsS4Ep32Title, 
+              beverlyHillsS6Ep31Title 
+            ],
+            ended: [
+              beverlyHillsS2Ep1Title, 
+              beverlyHillsS3Ep12Title, 
+              beverlyHillsS5Ep1Title, 
+              `Sometime before '${beverlyHillsS9Ep8Title}'`
+            ],
           },
           {
-            id: "brandon-dylan",
+            id: BrandonDylan_ID,
             type: "Friendship", 
-            name: "Brandon Walsh",
+            name: BRANDON_WALSH_NAME,
             kindOfFriendship: "Best Friend",
             description: ["Brandon meets Dylan when Dylan defends Scott to two bullies in tech class. Brandon initiates contact with Dylan and they start up a friendship that is almost like a brotherhood. They fight, make up, are there for each other in extreme and regular situations and share a grounded view on life, Dylan a more spiritual and open-minded old soul to Brandon's curious, head-first enthusiasm. Together with Brenda they form an inseparable trio, who support and protect one another while growing up in ritzy Beverly Hills. Brandon, at times, feels left out or separated from Dylan due to Dylan's wealth, even as they start college, jealous of the opportunities money affords Dylan easily. Dylan longs for the steady family dynamic Brandon has always enjoyed and considers Brandon's parents his own surrogate parents, until Jim rejects him. Even Dylan's chaotic relationship with Kelly and Brandon's later romance with her does not destroy their close bond and Brandon serves as Dylan's best man at his wedding to Antonia."], 
             shortDesc: "Brandon and Dylan form a close, brother-like friendship. They support each other through many ups and downs and remain loyal companions throughout the series.",
@@ -876,9 +887,9 @@ export const dramaSeries: Show[] = [
             card: true   
           },
           {
-            id: "dylan-jim",
+            id: DylanJim_ID,
             type: "Friendship", 
-            name: "Jim Walsh",
+            name: JIM_WALSH_NAME,
             kindOfFriendship: "Father Figure", 
             imgUrl: "https://preview.redd.it/what-are-your-overall-thoughts-on-jim-walsh-v0-zyu07zznrv5b1.png?auto=webp&s=377065de82b2b67221ec6a6d1ea6f1e2d350992f",
             gender: "M", 
@@ -893,9 +904,9 @@ export const dramaSeries: Show[] = [
             ]   
           }, 
           {
-            id: "dylan-kelly",
+            id: DylanKelly_ID,
             type: "Romantic", 
-            name: "Kelly Taylor",
+            name: KELLY_TAYLOR_NAME,
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             description: [
               "Dylan and Kelly’s relationship develops gradually and becomes one of the show’s central emotional storylines. Although Dylan initially dates Brenda, he begins forming a close emotional bond with Kelly in Season 2. Their shared sensitivity and mutual understanding draw them together, leading to a secret romantic relationship. This betrayal deeply hurts Brenda and permanently alters the dynamics of the friend group. From the beginning, Dylan and Kelly’s love is marked by guilt, secrecy, and emotional conflict.",
@@ -909,14 +920,19 @@ export const dramaSeries: Show[] = [
             imgUrl: "https://i.pinimg.com/564x/5e/1e/66/5e1e6678e372a3be9cc976852634c406.jpg",
             gender: "F",
             card: true,
-            started: ["Mr. Walsh Goes to Washington: Part 2", "Stormy Weather", "The Long Goodbye", "Cupid's Arrow"],
-            ended: ["You Gotta Have Heart", "Hello Life, Goodbye Beverly Hills", "Illegal Tender", "Budget Arrow"]   
+            started: [
+              beverlyHillsS3Ep19Title, 
+              beverlyHillsS4Ep2Title
+            ],
+            ended: [
+              beverlyHillsS4Ep1Title
+            ]   
              
           },
           {
-            id: "dylan-david",
+            id: DylanDavid_ID,
             type: "Friendship", 
-            name: "David Silver",
+            name: DAVID_SILVER_NAME,
             kindOfFriendship: "Close",
             description: [
               "Dylan and David’s relationship begins in Season 1 with clear differences in personality and social status. Dylan is introduced as a mysterious, independent loner, while David is younger, insecure, and eager to fit in. Early on, they do not interact much, and Dylan initially views David as immature and somewhat annoying. Their bond is limited, mainly existing through their shared connections to the friend group.",
@@ -930,12 +946,12 @@ export const dramaSeries: Show[] = [
             imgUrl: "https://i.pinimg.com/originals/93/1c/c9/931cc9a3a150744a6dca071e2a44086b.jpg",   
             gender: "M",
             card: true, 
-            started: ["Class of Beverly Hills"], 
+            started: [beverlyHillsS1Ep1Title], 
           },
           {
-            id: "dylan-andrea",
+            id: DylanAndrea_ID,
             type: "Friendship", 
-            name: "Andrea Zuckerman",
+            name: ANDREA_ZUCKERMAN_NAME,
             kindOfFriendship: "Close",
             description: [
               "Dylan and Andrea’s relationship is one of the most subtle and thoughtful dynamics in Beverly Hills, 90210. Unlike many other relationships in the series, their bond is never driven by romance or physical attraction. Instead, it develops through shared values, emotional honesty, and intellectual connection.",
@@ -950,11 +966,11 @@ export const dramaSeries: Show[] = [
             imgUrl: "https://s-media-cache-ak0.pinimg.com/736x/df/41/76/df417651bbb1568f5652743177f55196--luke-perry-beverly-hills-.jpg",   
             gender: "F",
             card: true, 
-            started: ["Things To Do On A Rainy Day"], 
+            started: [beverlyHillsS2Ep26Title], 
           },
           {
-            id: "dylan-gina",
-            name: "Gina Kincaid",
+            id: DylanGina_ID,
+            name: GINA_KINCAID_NAME, 
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             imgUrl: "https://preview.redd.it/thoughts-on-dylan-gina-v0-zj1v3rx7mjeb1.jpg?width=640&crop=smart&auto=webp&s=ac6e65d31e9634756ace5047491e9ea7bd086326",
@@ -973,8 +989,8 @@ export const dramaSeries: Show[] = [
             gender: "F"
           },
           {
-            id: "dylan-valerie",
-            name: "Valerie Malone",
+            id: DylanValerie_ID,
+            name: VALERIE_MALONE_NAME,
             type: "Romantic",
             romantic: "Fling",
             gender: "F",
@@ -1001,7 +1017,7 @@ export const dramaSeries: Show[] = [
             gender: "F"
           },
           {
-            name: "Emily Valentine",
+            name: EMILY_VALENTINE_NAME,
             type: "Romantic",
             romantic: "One Date",
             gender: "F"
@@ -1013,19 +1029,19 @@ export const dramaSeries: Show[] = [
             gender: "F"
           },
             {
-              name: "Steve Sanders",
+              name: STEVE_SANDERS_NAME,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "M"
             },
             {
-              name: "Donna Martin",
+              name: DONNA_MARTIN_NAME,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "F" 
             },
             {
-              name: "Jack McKay",
+              name: JACK_MCKAY_NAME,
               type: "Family",
               family: "Parent",
               gender: "M",
@@ -1044,7 +1060,7 @@ export const dramaSeries: Show[] = [
               card: true, 
             },
             {
-              name: "Iris McKay",
+              name: IRIS_MCKAY_NAME,
               type: "Family",
               family: "Parent",
               gender: "F",
@@ -1062,7 +1078,7 @@ export const dramaSeries: Show[] = [
               card: true, 
             },
             {
-              name: "Erica McKay",
+              name: ERICA_MCKAY_NAME,
               type: "Family",
               family: "Sibling",
               half: "Paternal",
@@ -1089,13 +1105,13 @@ export const dramaSeries: Show[] = [
             }
           ],  
           actor: "Luke Perry",
-          firstEpisode: "The Green Room",
-          lastEpisode: "Ode to Joy",
+          firstEpisode: beverlyHillsS1Ep2Title,
+          lastEpisode: beverlyHillsSeriesFinaleTitle,
           episodeCount: "194",
            
       },
       {
-        id: "kelly-taylor",
+        id: KELLY_TAYLOR_ID,
         firstName: "Kelly",
         lastName: "Taylor",
         imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Kelly90210S3.jpg/250px-Kelly90210S3.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
@@ -1201,13 +1217,13 @@ export const dramaSeries: Show[] = [
         hairColor: ["Blonde"],
         education: [
           {
-            place: "Californa Universty", 
+            place: CU, 
             hasEnded: true,
             started: "1993",
             ended: "1997"
           }, 
           {
-            place: "West Beverly High School",
+            place: WestBev,
             hasEnded: true,
             started: "1990",
             ended: "1993"
@@ -1219,9 +1235,9 @@ export const dramaSeries: Show[] = [
         relationships: [ 
           
           {
-            id: "donna-kelly",
+            id: DonnaKelly_ID,
             type: "Friendship", 
-            name: "Donna Martin",
+            name: DONNA_MARTIN_NAME,
             kindOfFriendship: "Best Friend", 
             imgUrl: "https://m.media-amazon.com/images/M/MV5BNTM5MjhhNWYtMWRlOC00YzgzLWFkMTQtZDNkZTA5YWViYjIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
             shortDesc: "Kelly Taylor and Donna Martin share one of the most loyal and enduring friendships in Beverly Hills, 90210. From high school through adulthood, they support each other through family problems, romantic struggles, and personal crises. Donna provides emotional stability and unconditional loyalty, while Kelly encourages Donna’s confidence and independence. Largely free from betrayal, their bond matures over time into a respectful and lasting connection built on trust, empathy, and mutual support.",
@@ -1237,9 +1253,9 @@ export const dramaSeries: Show[] = [
             gender: "F"   
           },
           {
-            id: "brenda-kelly",
+            id: BrendaKelly_ID,
             type: "Friendship", 
-            name: "Brenda Walsh",
+            name: BRENDA_WALSH_NAME,
             kindOfFriendship: "Normal",
             current: "Friendship", 
             description: ["When Brenda Walsh first arrives in Beverly Hills, Kelly Taylor quickly becomes one of her closest friends and social guides. As a popular and socially confident student, Kelly helps Brenda adjust to the school’s culture, fashion, and social expectations. In return, Brenda offers Kelly emotional warmth, sincerity, and a sense of groundedness that she had often lacked. During the early seasons, their friendship is affectionate, loyal, and almost sister-like. They share secrets, support each other through romantic problems, and consistently defend one another. At this stage, their bond is built on trust, admiration, and genuine emotional closeness.",
@@ -1253,13 +1269,16 @@ export const dramaSeries: Show[] = [
             imgUrl: "https://i.pinimg.com/236x/be/64/e3/be64e3edbddc1ba66c52a43d63b3ce4e.jpg",
             gender: "F",
             card: true,
-            started: ["Class of Beverly Hills", "Perfectly Perfect"],
-            ended: ["Back in The High Life Again"]   
+            started: [
+              beverlyHillsS1Ep1Title, 
+              beverlyHillsS3Ep24Title
+            ],
+            ended: [beverlyHillsS3Ep19Title]   
           },
           {
-            id: "kelly-jackie",
+            id: KellyJackie_ID,
             type: "Family", 
-            name: "Jackie Taylor",
+            name: JACKIE_TAYLOR_NAME,
             family: "Parent",
             typeOfFamily: "Biological", 
             imgUrl: "https://images.squarespace-cdn.com/content/v1/5b01f654365f02faae6e97a5/1527227323314-JV21L40WKEB63X19BKKN/tumblr_inline_ngbhwnjNOO1qeo68j.jpg?format=1500w",   
@@ -1276,9 +1295,9 @@ export const dramaSeries: Show[] = [
             card: true
           },
           {
-            id: "dylan-kelly",
+            id: DylanKelly_ID,
             type: "Romantic", 
-            name: "Dylan McKay",
+            name: DYLAN_MCKAY_NAME,
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             description: [
               "Dylan and Kelly’s relationship develops gradually and becomes one of the show’s central emotional storylines. Although Dylan initially dates Brenda, he begins forming a close emotional bond with Kelly in Season 2. Their shared sensitivity and mutual understanding draw them together, leading to a secret romantic relationship. This betrayal deeply hurts Brenda and permanently alters the dynamics of the friend group. From the beginning, Dylan and Kelly’s love is marked by guilt, secrecy, and emotional conflict.",
@@ -1292,14 +1311,14 @@ export const dramaSeries: Show[] = [
             imgUrl: "https://i.pinimg.com/564x/5e/1e/66/5e1e6678e372a3be9cc976852634c406.jpg",
             gender: "M",
             card: true,
-            started: ["Mr. Walsh Goes to Washington: Part 2", "Stormy Weather", "The Long Goodbye", "Cupid's Arrow"],
-            ended: ["You Gotta Have Heart", "Hello Life, Goodbye Beverly Hills", "Illegal Tender", "Budget Arrow"]   
+            started: [beverlyHillsS4Ep32Title, beverlyHillsS5Ep21Title, beverlyHillsS7Ep26Title, beverlyHillsS8Ep20Title],
+            ended: [beverlyHillsS5Ep20Title, beverlyHillsS5Ep30Title, beverlyHillsS8Ep16Title, "Budget Arrow"]   
              
           },
           {
-            id: "brandon-kelly",
+            id: BrandonKelly_ID,
             type: "Romantic", 
-            name: "Brandon Walsh",
+            name: BRANDON_WALSH_NAME,
             romantic: "Ex-Fiancé",
             description: ["Brandon Walsh and Kelly Taylor’s relationship in Beverly Hills, 90210 is one of the show's most complex and emotional romances. They start off as friends when the Walsh family first arrives in Beverly Hills. Kelly immediately finds Brandon attractive, but he initially doesn’t return her romantic interest. Over time, as part of the West Beverly group, they grow closer and their connection deepens.", 
               "Their romantic relationship eventually begins after Kelly’s previous relationship with Dylan McKay ends. Dating brings its own challenges, including obstacles like Kelly’s trauma from a house fire, Brandon’s brief infidelity with Emily Valentine, and Kelly’s involvement with a cult.In college, Brandon proposes to Kelly when Dylan offers her a trip around the world — a decision point that highlights just how tangled their feelings are. Kelly initially turns down both offers but later admits she would’ve chosen Brandon, wanting to protect his friendship with Dylan. As adults, things become even more complicated.", 
@@ -1309,20 +1328,20 @@ export const dramaSeries: Show[] = [
             imgUrl: "https://preview.redd.it/what-are-your-overall-thoughts-on-kelly-brandon-as-a-couple-v0-c2ytczlw9x5e1.jpg?width=640&crop=smart&auto=webp&s=84b3360ce1589c89f297d59a05fa03c5d409999e",
             gender: "F",
             card: true,
-            started: ["Mr. Walsh Goes to Washington: Part 2", "Stormy Weather", "The Long Goodbye", "Cupid's Arrow"],
-            ended: ["You Gotta Have Heart", "Hello Life, Goodbye Beverly Hills", "Illegal Tender", "Budget Arrow"]   
+            started: [beverlyHillsS4Ep32Title, beverlyHillsS5Ep21Title, beverlyHillsS7Ep26Title, beverlyHillsS8Ep20Title],
+            ended: [beverlyHillsS5Ep20Title, beverlyHillsS5Ep30Title, beverlyHillsS8Ep16Title, "Budget Arrow"]   
              
           },
           {          
             type: "Family",
-            name: "Sammy Taylor",
+            name: SAMMY_TAYLOR_NAME,
             family: "Child", 
             typeOfFamily: "Biological",
             shortDesc: "Sammy is Dylan's son that he had with Kelly between the original show and the 90210 reboot. He and Sammy doesn't have that much of a relationship.",
             imgUrl: "https://lthumb.lisimg.com/985/697985.jpg?width=280&sharpen=true",   
             gender: "M",
             card: true,
-            secondParent: "Dylan McKay"
+            secondParent: DYLAN_MCKAY_NAME
           },
           {          
             name: "Unborn baby",
@@ -1333,36 +1352,36 @@ export const dramaSeries: Show[] = [
             shortDesc: "In season 7 Brandon and Kelly find out that Kelly was pregnant without realizing, but unfortunately miscarried.",
             dead: true,
             card: true,
-            secondParent: "Brandon Walsh"
+            secondParent: BRANDON_WALSH_NAME
           },
           {
             type: "Friendship", 
-            name: "Andrea Zuckerman",
+            name: ANDREA_ZUCKERMAN_NAME,
             kindOfFriendship: "Normal",
             gender: "F",
             
           },
             {
-              name: "Steve Sanders",
+              name: STEVE_SANDERS_NAME,
               type: "Friendship",
               romantic: "Ex-Boyfriend/Ex-Girlfriend",
               kindOfFriendship: "Close",
               gender: "M"
             },
             {
-              name: "Valerie Malone",
+              name: VALERIE_MALONE_NAME,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "F"
             },
             {
-              name: "Clare Arnold",
+              name: CLARE_ARNOLD_NAME,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "F"
             },
             {
-              name: "Erin Silver",
+              name: ERIN_SILVER_NAME,
               type: "Family",
               family: "Sibling",
               half: "Maternal",
@@ -1380,15 +1399,15 @@ export const dramaSeries: Show[] = [
               gender: "F" 
             },
             {
-              name: "Mel Silver",
+              name: MEL_SILVER_NAME,
               type: "Family",
               family: "Parent", 
               typeOfFamily: "Step",
               gender: "M"
             },
             {
-              id: "david-kelly",
-              name: "David Silver",
+              id: DavidKelly_ID,
+              name: DAVID_SILVER_NAME,
               type: "Family",
               family: "Sibling",
               typeOfFamily: "Step",
@@ -1426,13 +1445,13 @@ export const dramaSeries: Show[] = [
             }
           ],  
           actor: "Jennie Garth",
-          firstEpisode: "Class of Beverly Hills",
-          lastEpisode: "Ode to Joy",
+          firstEpisode: beverlyHillsS1Ep1Title,
+          lastEpisode: beverlyHillsSeriesFinaleTitle,
           episodeCount: "244",
           gender: "F",
         },
       {
-        id: "donna-martin",
+        id: DONNA_MARTIN_ID,
         firstName: "Donna",
         middleName: "Marie",
         lastName: "Martin",
@@ -1451,13 +1470,13 @@ export const dramaSeries: Show[] = [
         ],
         education: [
           {
-            place: "Californa Universty", 
+            place: CU, 
             hasEnded: true,
             started: "1993",
             ended: "1997"
           }, 
           {
-            place: "West Beverly High School",
+            place: WestBev,
             hasEnded: true,
             started: "1989",
             ended: "1993"
@@ -1582,20 +1601,20 @@ export const dramaSeries: Show[] = [
            //Family
            {
             type: "Family",
-            name: "John Martin",
+            name: JOHN_MARTIN_NAME,
             family: "Parent",
             typeOfFamily: "Biological",
             gender: "M",
            },
            {
             type: "Family",
-            name: "Felice Martin",
+            name: FELICE_MARTIN_NAME,
             family: "Parent",
             typeOfFamily: "Biological",
             gender: "F",
            },
            {
-            name: "Bobbi Kincaid",
+            name: BOBBI_KINCAID_NAME,
             type: "Family",
             typeOfFamily: "Biological",
             extended: true,
@@ -1605,42 +1624,42 @@ export const dramaSeries: Show[] = [
           },
            {
             type: "Family",
-            name: "Gina Kincaid",
+            name: GINA_KINCAID_NAME,
             family: "Sibling",
             half: "Paternal",
             gender: "F",
            },
            {
             type: "Family",
-            name: "Mel Silver",
+            name: MEL_SILVER_NAME,
             typeOfFamily: "In-Law",
             family: "Parent",
             gender: "M",
            },
            {
             type: "Family",
-            name: "Jackie Taylor",
+            name: JACKIE_TAYLOR_NAME,
             typeOfFamily: "In-Law",
             family: "Parent",
             gender: "F",
            },
            {
             type: "Family",
-            name: "Sheila Silver",
+            name: SHEILA_SILVER_NAME,
             typeOfFamily: "In-Law",
             family: "Parent",
             gender: "F",
            },
            {
             type: "Family",
-            name: "Jackie Taylor",
+            name: JACKIE_TAYLOR_NAME,
             typeOfFamily: "In-Law",
             family: "Parent",
             gender: "F",
            },
            {
             type: "Family",
-            name: "Kelly Taylor",
+            name: KELLY_TAYLOR_NAME,
             typeOfFamily: "In-Law",
             family: "Sibling",
             gender: "F",
@@ -1654,27 +1673,27 @@ export const dramaSeries: Show[] = [
           },
            //Romances
            {
-            id: "david-donna",
+            id: DonnaDavid_ID,
             type: "Romantic",
             romantic: "Wife/Husband",
-            name: "David Silver",
+            name: DAVID_SILVER_NAME,
             shortDesc: "Donna reluctantly begins dating an interested David, who's still considered a bit geeky by the gang. Donna is also well aware of David's infatuation with Kelly Taylor. However, she slowly realises that she's falling for David and makes their relationship public at a Christmas party in her junior year in high school. They date for the rest of high school and into their freshman year of college. David claims to love Donna, but wants to have sex, so instead of breaking up with her he cheats on her. Donna is heartbroken and moves on, although it's difficult. She eventually finds love in other serious relationships, while David, who still loves her, is forced to watch her be happy with others, knowing what he did. Although he also has other relationships, he wants to be with Donna and they rekindle their romance a few times. They finally end up together and get married when they are 26.",
             imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTWkeHw1THHx8grGj_Zq3Ew890W8MtlzXLFFaULGUJ6nbYsH3m_TVCTltg&s=10",
             gender: "M",
             started: [
-              "Chuckie's Back",
-              "Addicted To Love",
-              "You Say It's Your Birthday: Part 2",
-              "If I Had A Hammer",
-              "Straight Shooter",
-              "Love is Blind",
+              beverlyHillsS2Ep17Title,
+              beverlyHillsS4Ep21Title,
+              beverlyHillsS6Ep32Title,
+              beverlyHillsS7Ep11Title,
+              beverlyHillsS7Ep21Title,
+              beverlyHillsS10Ep24Title,
             ],
             ended: [
-              "Somewhere In The World It's Christmas",
-              "Mr. Walsh Goes to Washington: Part 2",
-              "Here We Go Again",
-              "My Funny Valentine",
-              "Child of the Night",
+              beverlyHillsS4E15Title,
+              beverlyHillsS4Ep32Title,
+              beverlyHillsS7Ep2Title,
+              beverlyHillsS7Ep19Title,
+              beverlyHillsS8Ep10Title,
             ],
             card: true,
            },
@@ -1686,14 +1705,14 @@ export const dramaSeries: Show[] = [
            },
            {
             type: "Romantic",
-            name: "Noah Hunter",
+            name: NOAH_HUNTER_NAME,
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             imgUrl: "https://www.televisionofyore.com/uploads/9/3/0/3/9303799/8-25-inside_orig.jpeg",
             shortDesc: "Noah was a rebound relationship after Donna broke up with David the second time. The two were together through much of the 8th, 9th and 10th seasons with Noah sleeping with Val one drunken (and drugged) night and Donna briefly being torn between Noah and Wayne, a man she met in her store. Ultimately she and Noah break up near the end of the series, paving the way for a David/Donna reconciliation.",
             card: true,
             gender: "M",
             started: [
-              "Child of the night",
+              beverlyHillsS8Ep10Title,
               "A Fine Mess",
             ],
             ended: [
@@ -1703,7 +1722,7 @@ export const dramaSeries: Show[] = [
            },
            {
             type: "Romantic",
-            name: "Ray Pruit",
+            name: RAY_PRUIT_NAME,
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             gender: "M",
             shortDesc: "Ray was somewhat of a rebound relationship with David. Donna seemed to love him (and stated that she did) but Ray was very manipulative and controlling - he hated her friends and wanted to monopolize all of her time. His actions later became somewhat abusive culminating in him (somewhat accidentally) pushing her down some stairs and hurting her arm. While Ray seemed to get a handle on his anger issues and the two tried to make their relationship work, when Donna found out he slept with Val she ends things permanently.",
@@ -1758,9 +1777,9 @@ export const dramaSeries: Show[] = [
 
            //Friendships
           {
-            id: "donna-kelly",
+            id: DonnaKelly_ID,
             type: "Friendship", 
-            name: "Kelly Taylor",
+            name: KELLY_TAYLOR_NAME,
             kindOfFriendship: "Best Friend", 
             imgUrl: "https://m.media-amazon.com/images/M/MV5BNTM5MjhhNWYtMWRlOC00YzgzLWFkMTQtZDNkZTA5YWViYjIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
             shortDesc: "Kelly Taylor and Donna Martin share one of the most loyal and enduring friendships in Beverly Hills, 90210. From high school through adulthood, they support each other through family problems, romantic struggles, and personal crises. Donna provides emotional stability and unconditional loyalty, while Kelly encourages Donna’s confidence and independence. Largely free from betrayal, their bond matures over time into a respectful and lasting connection built on trust, empathy, and mutual support.",
@@ -1776,9 +1795,9 @@ export const dramaSeries: Show[] = [
             gender: "F"   
           },
           {
-            id: "brenda-donna",
+            id: BrendaDonna_ID,
             type: "Friendship", 
-            name: "Brenda Walsh",
+            name: BRENDA_WALSH_NAME,
             kindOfFriendship: "Best Friend",
             description: ["When Brenda Walsh first arrives in Beverly Hills, Donna Martin becomes one of her earliest and most reliable friends. Unlike Kelly, who introduces Brenda to the school’s social hierarchy, Donna offers immediate kindness and emotional safety. She welcomes Brenda without judgment and treats her with warmth and sincerity. From the beginning, their bond is built on trust, gentleness, and mutual support rather than popularity or competition. Donna’s calm, non-confrontational nature balances Brenda’s emotional intensity, creating a friendship based on comfort and understanding.",
               "During the early seasons, Brenda and Donna develop a quiet but meaningful closeness. They often confide in each other about romantic struggles, family problems, and personal insecurities. Donna consistently acts as a listener and emotional anchor for Brenda, especially during moments of heartbreak involving Dylan and conflict with Kelly. In return, Brenda encourages Donna to be more confident and assertive, helping her express her feelings and stand up for herself. Their friendship functions as a safe space where both can be vulnerable without fear of judgment.",
@@ -1796,19 +1815,19 @@ export const dramaSeries: Show[] = [
 
           { 
             type: "Friendship",
-            name: "Clare Arnold",
+            name: CLARE_ARNOLD_NAME,
             kindOfFriendship: "Close",
             gender: "M",
           },
           { 
             type: "Friendship",
-            name: "Steve Sanders",
+            name: STEVE_SANDERS_NAME,
             kindOfFriendship: "Normal",
             gender: "M",
           },
           { 
             type: "Friendship",
-            name: "Andrea Zuckerman",
+            name: ANDREA_ZUCKERMAN_NAME,
             kindOfFriendship: "Normal",
             gender: "M",
           }
@@ -1819,11 +1838,11 @@ export const dramaSeries: Show[] = [
         promo: true,
         actor: "Tori Spelling",
         episodeCount: "291",
-        firstEpisode: "Class of Beverly Hills",
-        lastEpisode: "Ode to Joy",
+        firstEpisode: beverlyHillsS1Ep1Title,
+        lastEpisode: beverlyHillsSeriesFinaleTitle,
       },
       {
-        id: "david-silver",
+        id: DAVID_SILVER_ID,
         firstName: "David",
         lastName: "Silver",
         birthday: "August 1975",
@@ -1835,13 +1854,13 @@ export const dramaSeries: Show[] = [
         personality: "David starts out as an ambitious freshman, eager in every sense of the word; to create a name for himself at West Beverly, be it through his music or by dating the most popular girl in school with whom he is infatuated: Kelly Taylor. Though irritating Kelly and Steve at first, after a while he slowly becomes friendly with the gang and ends up graduating a year early to be with his friends and longtime girlfriend, Donna. David proceeds to delve into his music and DJ interests in college, but has trouble with drug abuse. He also has an unsteady moral compass and cheats on Donna because he wants to have sex.",
         education: [
           { 
-           place: "West Beverly",
+           place: WestBev,
            hasEnded: true,
            started: "1990",
            ended: "1993", 
           },
           { 
-            place: "California University",
+            place: CU,
             hasEnded: true,
             started: "1993",
             ended: "1997", 
@@ -1934,14 +1953,14 @@ export const dramaSeries: Show[] = [
         relationships: [
           {
             type: "Family",
-            name: "Mel Silver",
+            name: MEL_SILVER_NAME,
             typeOfFamily: "Biological",
             family: "Parent",
             gender: "M",
           },
           {
             type: "Family",
-            name: "Sheila Silver",
+            name: SHEILA_SILVER_NAME,
             typeOfFamily: "Biological",
             family: "Parent",
             gender: "F",
@@ -1955,14 +1974,14 @@ export const dramaSeries: Show[] = [
           },
           {
             type: "Family",
-            name: "Kelly Taylor",
+            name: KELLY_TAYLOR_NAME,
             family: "Sibling",
             typeOfFamily: "Step",
             gender: "F",
           },
           {
             type: "Family",
-            name: "Erin Silver",
+            name: ERIN_SILVER_NAME,
             family: "Sibling",
             half: "Paternal",
             typeOfFamily: "Half",
@@ -1987,52 +2006,52 @@ export const dramaSeries: Show[] = [
             gender: "F"
           },
           {
-            id: "david-donna",
+            id: DonnaDavid_ID,
             type: "Romantic",
             romantic: "Wife/Husband",
-            name: "Donna Martin",
+            name: DONNA_MARTIN_NAME,
             shortDesc: "David began dating Donna Martin in the second season of the show; the two went to a dance as friends but left as a couple. When the issue of sex eventually arose, Donna informed David that she intended to remain a virgin for the foreseeable future. As a result, David eventually cheated on Donna with Ariel Hunter in Season 4, which split them up for a long time. At the show's conclusion, a reunited David and Donna were married with several of their loved ones in attendance.",
             imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTWkeHw1THHx8grGj_Zq3Ew890W8MtlzXLFFaULGUJ6nbYsH3m_TVCTltg&s=10",
             gender: "F",
             started: [
-              "Chuckie's Back",
-              "Addicted To Love",
-              "You Say It's Your Birthday: Part 2",
-              "If I Had A Hammer",
-              "Straight Shooter",
-              "Love is Blind",
+              beverlyHillsS2Ep17Title,
+              beverlyHillsS4Ep21Title,
+              beverlyHillsS6Ep32Title,
+              beverlyHillsS7Ep11Title,
+              beverlyHillsS7Ep21Title,
+              beverlyHillsS10Ep24Title
             ],
             ended: [
-              "Somewhere In The World It's Christmas",
-              "Mr. Walsh Goes to Washington: Part 2",
-              "Here We Go Again",
-              "My Funny Valentine",
-              "Child of the Night",
+              beverlyHillsS4E15Title,
+              beverlyHillsS4Ep32Title,
+              beverlyHillsS7Ep2Title,
+              beverlyHillsS7Ep19Title,
+              beverlyHillsS8Ep10Title,
             ],
             card: true,
            },
            {
-            id: "david-valerie",
+            id: DavidValerie_ID,
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
-            name: "Valerie Malone",
+            name: VALERIE_MALONE_NAME,
             shortDesc: "David and Val had an on-again/off-again relationship from their junior year at college, but after their first relationship (ending when Val volunteered David to sleep with her former friend who was blackmailing her) they could never make it work again. They eventually become best friends until Val leaves Beverly Hills in 1998.",
             imgUrl: "https://i.redd.it/valerie-malone-wins-davids-love-interests-v0-b59b9j2kggtd1.jpg?width=750&format=pjpg&auto=webp&s=8dd4af13de20712e7df9b6f99b74e6c30d47d3e0",
             gender: "F",
             started: [
-              "Halloween VI",
-              "Ready or Not"
+              beverlyHillsS6Ep8Title,
+              beverlyHillsS6Ep15Title
             ],
             ended: [
-              "Bleeding Hearts",
-              "The Fundamental Things Aplly"
+              beverlyHillsS6Ep21Title,
+              beverlyHillsS6Ep30Title
             ],
             card: true,
            },
            {
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
-            name: "Clare Arnold",
+            name: CLARE_ARNOLD_NAME,
             gender: "F",
             shortDesc: "David and Clare start dating their sophomore year in college after meeting in a Media Studies class. They have a fun and light relationship, mostly based on sex. They eventually start fighting a lot and break up when they both admit to having feelings for someone else; Clare for Brandon, David for Donna. They reunite for a while at the end of the year, but Clare breaks up with David during the summer before their junior year. They stay friendly afterwards as part of the gang.",
             imgUrl: "https://static.wikia.nocookie.net/90210/images/8/8e/524clavid.png/revision/latest/scale-to-width-down/250?cb=20211003014552",
@@ -2083,13 +2102,13 @@ export const dramaSeries: Show[] = [
             {
               type: "Romantic",
               romantic: "Crush",
-              name: "Kelly Taylor",
+              name: KELLY_TAYLOR_NAME,
               gender: "F",
             },
             {
-              id: "dylan-david",
+              id: DylanDavid_ID,
               type: "Friendship", 
-              name: "Dylan McKay",
+              name: DYLAN_MCKAY_NAME,
               kindOfFriendship: "Close",
               description: [
                 "Dylan and David’s relationship begins in Season 1 with clear differences in personality and social status. Dylan is introduced as a mysterious, independent loner, while David is younger, insecure, and eager to fit in. Early on, they do not interact much, and Dylan initially views David as immature and somewhat annoying. Their bond is limited, mainly existing through their shared connections to the friend group.",
@@ -2103,11 +2122,11 @@ export const dramaSeries: Show[] = [
               imgUrl: "https://i.pinimg.com/originals/93/1c/c9/931cc9a3a150744a6dca071e2a44086b.jpg",   
               gender: "M",
               card: true, 
-              started: ["Class of Beverly Hills"], 
+              started: [beverlyHillsS1Ep1Title], 
             },
             {
-              id: "david-kelly",
-              name: "Kelly Taylor",
+              id: DavidKelly_ID,
+              name: KELLY_TAYLOR_NAME,
               type: "Family",
               family: "Sibling",
               typeOfFamily: "Step",
@@ -2125,25 +2144,25 @@ export const dramaSeries: Show[] = [
             },
             {
               type: "Friendship",
-              name: "Brandon Walsh",
+              name: BRANDON_WALSH_NAME,
               kindOfFriendship: "Close",
               gender: "M",
             },
             {
               type: "Friendship",
-              name: "Brenda Walsh",
+              name: BRENDA_WALSH_NAME,
               kindOfFriendship: "Normal",
               gender: "M",
             },
             {
               type: "Friendship",
-              name: "Steve Sanders",
+              name: STEVE_SANDERS_NAME,
               kindOfFriendship: "Normal",
               gender: "M",
             },
             {
               id: "david-scott",
-              name: "Scott Scanlon",
+              name: SCOTT_SCANLON_NAME,
               type: "Friendship",
               kindOfFriendship: "Normal",
               started: ["Before Class of Beverly Hills"],
@@ -2158,13 +2177,13 @@ export const dramaSeries: Show[] = [
         posterUrl:
           "https://image.gala.de/20405798/t/BO/v16/w960/r0/-/beverly-hills08--4761426-.jpg",
         promo: true,
-        firstEpisode: "Class of Beverly Hills",
-        lastEpisode: "Ode to Joy",
+        firstEpisode: beverlyHillsS1Ep1Title,
+        lastEpisode: beverlyHillsSeriesFinaleTitle,
         episodeCount: "293",
         actor: "Brian Austin Green"
       },
       {
-        id: "steve-sanders",
+        id: STEVE_SANDERS_ID,
         firstName: "Steve",
         lastName: "Sanders",
         birthday: "May 15, 1975, Beverly Hills",
@@ -2195,13 +2214,13 @@ export const dramaSeries: Show[] = [
         ],
         education: [
           {
-            place: "West Beverly",
+            place: WestBev,
             started: "1989",
             ended: "1993",
             hasEnded: true,
           },
           {
-            place: "California University",
+            place: CU,
             started: "1993",
             ended: "1997",
             hasEnded: true,
@@ -2366,7 +2385,7 @@ export const dramaSeries: Show[] = [
             typeOfFamily: "Adoptive",
             adopted: true,
             family: "Parent",
-            name: "Samantha Sanders",
+            name: SAMANTHA_SANDERS_NAME,
             gender: "F",
             card: true,
             shortDesc: "A former star of a hit family series, Samantha is very much at the center of attention at the Sanders Mansion, where she lives with her son. She is a single mother, as Rush is rarely around until Steve is an adult and although she's mostly focused on image and her life of glamour, she later proves to Steve that she loves him and has his best interest at heart.",
@@ -2386,35 +2405,35 @@ export const dramaSeries: Show[] = [
             type: "Family",
             typeOfFamily: "Biological",
             family: "Parent",
-            name: "Rush Sanders",
+            name: RUSH_SANDERS_NAME,
             gender: "M",
             card: true,
             shortDesc: "It was revealed years after Steve searched for Karen that Steve's adoption was true of only one parent, as Rush is indeed his biological father. With this information in the open, Steve and Rush finally began settling their differences for good. Rush would later help Steve start up a publication with Brandon.",
             imgUrl: "https://www.hollywoodreporter.com/wp-content/uploads/2019/03/tsdbehi_ec445-h_2019.jpg",
           },
           {
+            name: "Al Brown",
             type: "Family",
             typeOfFamily: "Biological",
             adopted: true,
             ifExtended: "Maternal",
             extended: true,
             family: "Grandparent",
-            name: "Al Brown",
             gender: "M",
             card: true,
             shortDesc: "When looking for Karen, Steve tracks her down to Al's diner only for him to divulge that Karen has passed away. Shortly Al reveals that he is her father, and for the first time ever, Steve meets his grandparent. Together, Steve and Al visit Karen's grave and Steve asks to keep in touch with his newfound grandfather.",
             imgUrl: "https://static.wikia.nocookie.net/90210/images/b/b3/AlBrown.jpg/revision/latest?cb=20160825024036",
           },
           {
+            name: MADELINE_SANDERS_NAME,
             type: "Family",
             typeOfFamily: "Biological",
             family: "Child",
-            name: "Madeline Sanders",
             gender: "F",
           },
           {
+            name: RYAN_SANDERS_NAME,
             type: "Family",
-            name: "Ryan Sanders",
             typeOfFamily: "Half",
             family: "Sibling",
             half: "Paternal",
@@ -2422,7 +2441,7 @@ export const dramaSeries: Show[] = [
           },
           {
             type: "Family",
-            name: "Austin Sanders",
+            name: AUSTIN_SANDERS_NAME,
             typeOfFamily: "Half",
             family: "Sibling",
             half: "Paternal",
@@ -2436,19 +2455,20 @@ export const dramaSeries: Show[] = [
             gender: "M",
           },
           {
+            id: SteveJanet_ID,
+            name: JANET_SOSNA_NAME,
             type: "Romantic",
             romantic: "Wife/Husband",
-            name: "Janet Sosna",
             gender: "F",
             shortDesc: "Steve finally met 'the one' in Janet Sosna, an emotionally guarded woman who worked on the Beverly Beat publication and initially wanted a merely sexual relationship with him. In time, however, the pair would come to realize and acknowledge their true feelings, and developed a deeper bond that resulted in marriage and the birth of their daughter, Madeline. Thus, Steve concluded the series as a loving husband and father.",
             card: true,
             imgUrl: "https://i.pinimg.com/736x/b6/c4/6c/b6c46c923f8fd4387520bb72d419cee2.jpg",
-            started: ["Survival Skills"]
+            started: [beverlyHillsS9Ep16Title]
           },
           {
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
-            name: "Kelly Taylor",
+            name: KELLY_TAYLOR_NAME,
             gender: "F",
             shortDesc: "Steve and Kelly dated for about a year their freshman year of high school, but Steve bragged about sleeping with Kelly, which caused her to break up with him. It is also implied that Steve's generally conceited, careless attitude at the time was what led Kelly to leave him. After an acrimonious split, the two spend a lot of time together due to their respective friendships with the Walsh twins, and eventually their meanness toward one another fades into friendly bickering. This is also a result of Kelly apologising to Steve for not being a better friend to him, when he realised he was adopted, as Kelly was the only person he told. Eventually, they grow closer and become great friends, to the point where Steve wants to start something up, but the timing is off as Kelly at this point is with Brandon. Despite this, the two would remain close friends well into their adult lives.",
             card: true,
@@ -2459,33 +2479,34 @@ export const dramaSeries: Show[] = [
           { 
             type: "Romantic",
             romantic: "Dated",
-            name: "Carly Reynolds",
+            name: CARLY_REYNOLDS_NAME,
             gender: "F",
           },
           {
-            id: "steve-valerie",
-            name: "Valerie Malone",
+            id: SteveValerie_ID,
+            name: VALERIE_MALONE_NAME,
             type: "Romantic",
             romantic: "Fling",
             shortDesc: "Steve asks Valerie out almost the moment she arrives in Beverly Hills. As she puts on a front for everyone, Steve believes her to just be a nice girl, while Valerie schemes to use Steve solely for his money. They go on a few dates, but Steve eventually catches her at a strung-out Dylan's house. Valerie tries to make amends with Steve, who agrees to be cordial as a favour to Brandon. When Steve starts up the After Dark and arranges parties, Valerie wants to help out, but Steve is hesitant, assuming there's a catch. Valerie admits there is: she wants another shot with Steve. He reluctantly agrees to have her help out with the party and they almost have sex there, interrupted by the fire. Following the fire, Valerie offers Steve to lie to give him an alibi and Steve ends their temporary fling. They remain cordial with Steve, but always cautious about Valerie. In their junior year, Steve moves into the Walsh house with Brandon and Valerie. He and Valerie eventually become friends, and at their college graduation party, they sleep together.",
             imgUrl: "https://i.pinimg.com/474x/c0/60/c0/c060c0f506962444fee8e432da664956.jpg",
             card: true,
+            gender: "F",
            },
           { 
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
-            name: "Clare Arnold",
+            name: CLARE_ARNOLD_NAME,
             gender: "F",
             shortDesc: "Clare and Steve first meet through Brandon, and Steve finds her intriguing due to Brandon's stories about her. They later get on each others nerves and bicker a lot, but start spending time together when Clare tutors Steve in math. Despite their bickering, they get to know each other and eventually end up on a blind date thanks to their respective anonymous online dating profiles. In spite of themselves, they feel a raw animal attraction to one another and end up sleeping together. Steve is less than enthusiastic about any relationship, but they can't stay away from each other and eventually start dating. While starting out casual, they eventually develop real feelings for each other, and Steve becomes insecure when meeting Clare's dad, feeling like he's not good enough for Clare because he doesn't think he's smart enough. Clare, however, thinks Steve is smart and encourages him to believe more in himself. In turn, Steve mellows out Clare's tendency to want to control everything. Their romance is tested when Clare's childhood friend, Prince Carl, the son of her late mother's best friend, comes to town to declare his intention to win Clare's heart. In the end, Clare tells him that she loves Steve. Clare and Steve go through a rough patch their senior year, breaking up for a while where Clare dates one of Steve's frat bros, Dick Harrison. Despite their differences, they miss each other and eventually reunite. When Clare's father decides to relocate to Paris, Clare goes with him and breaks up with Steve, who is heartbroken.",
             card: true,
             imgUrl: "https://preview.redd.it/steve-clare-v0-kpyzc3boitdb1.jpg?width=640&crop=smart&auto=webp&s=8122a3653d31e22f223daa1eed0511e345f3c361",
             started: [
-              "Halloween VI",
-              "Loser Takes All"
+              beverlyHillsS6Ep8Title,
+              beverlyHillsS7Ep9Title,
             ],
             ended: [
-              "Housewarming",
-              "Graduation Day: Part 2"
+              beverlyHillsS7Ep6Title,
+              beverlyHillsS7Ep32Title
             ],
           },
           {
@@ -2507,38 +2528,38 @@ export const dramaSeries: Show[] = [
             type: "Romantic",
             current: "Friendship",
             romantic: "Kissed",
-            name: "Andrea Zuckerman",
+            name: ANDREA_ZUCKERMAN_NAME,
             gender: "F",
             kindOfFriendship: "Normal",
           },
           {
             type: "Friendship",
             kindOfFriendship: "Best Friend",
-            name: "Brandon Walsh",
+            name: BRANDON_WALSH_NAME,
             gender: "M",  
           },
           {
             type: "Friendship",
             kindOfFriendship: "Normal",
-            name: "Donna Martin",
+            name: DONNA_MARTIN_NAME,
+            gender: "F",
+          },
+          {
+            name: DAVID_SILVER_NAME,
+            type: "Friendship",
+            kindOfFriendship: "Normal",
             gender: "F",
           },
           {
             type: "Friendship",
             kindOfFriendship: "Normal",
-            name: "David Silver",
-            gender: "F",
-          },
-          {
-            type: "Friendship",
-            kindOfFriendship: "Normal",
-           name: "Dylan McKay",
+           name: DYLAN_MCKAY_NAME,
             gender: "M",
           },
           {
             type: "Friendship",
             kindOfFriendship: "Normal",
-            name: "Brenda Walsh",
+            name: BRENDA_WALSH_NAME,
             gender: "F",
           },
         ],
@@ -2547,12 +2568,12 @@ export const dramaSeries: Show[] = [
           "https://i.pinimg.com/originals/31/ea/6d/31ea6d5b5b8001d2b20dba33abe1a441.jpg",
         promo: true,
         actor: "Ian Ziering",
-        firstEpisode: "Class of Beverly Hills",
-        lastEpisode: "Ode to Joy",
+        firstEpisode: beverlyHillsS1Ep1Title,
+        lastEpisode: beverlyHillsSeriesFinaleTitle,
         episodeCount: "290",
       },
       {
-        id: "andrea-zuckerman",
+        id: ANDREA_ZUCKERMAN_ID,
         firstName: "Andrea",
         lastName: "Zuckerman",
         birthday: "1974, Van Nuys, CA",
@@ -2575,13 +2596,13 @@ export const dramaSeries: Show[] = [
         ],
         education: [
           {
-            place: "West Beverly",
+            place: WestBev,
             started: "1989",
             ended: "1993",
             hasEnded: true,
           },
           {
-            place: "California University",
+            place: CU,
             started: "1993",
             ended: "1995",
             hasEnded: true,
@@ -2696,13 +2717,13 @@ export const dramaSeries: Show[] = [
           type: "Family",
           typeOfFamily: "Biological",
           family: "Child",
-          secondParent: "Jesse Vasquez",
+          secondParent: JESSE_VASQUEZ_NAME,
           gender: "F",
         },
          {
-            id: "brandon-andrea",
+            id: BrandonAndrea_ID,
             type: "Friendship", 
-            name: "Brandon Walsh",
+            name: BRANDON_WALSH_NAME,
             kindOfFriendship: "Best Friend",
             romantic: "Hook-Up",
             current: "Friendship",
@@ -2711,11 +2732,11 @@ export const dramaSeries: Show[] = [
             imgUrl: "https://i.pinimg.com/736x/7d/f1/2a/7df12a7436ee9452ffc1866f963c8d9e.jpg",   
             gender: "F",
             card: true, 
-            started: ["Class of Beverly Hills"], 
+            started: [beverlyHillsS1Ep1Title], 
           
           },
           {
-            name: "Jesse Vasquez",
+            name: JESSE_VASQUEZ_NAME,
             type: "Romantic",
             romantic: "Ex-Wife/Ex-Husband",
             shortDesc: "Andrea meets Jesse at the Walsh's 20th wedding anniversary, leading to a romance and subsequent marriage after she becomes pregnant. Jesse struggles with the pressures surrounding the birth of their daughter, Hannah, and their relationship becomes troubled, especially when he cheats while away on business. Confessing their infidelities leads to a crisis, but with Dylan's encouragement, they reconcile. Eventually, they leave Beverly Hills, but at a reunion five years later, Andrea announces their divorce. The series concludes with Andrea attending David and Donna's wedding as a presumed divorcée.",
@@ -2771,15 +2792,15 @@ export const dramaSeries: Show[] = [
             gender: "M",
           },
           {
-            name: "Steve Sanders",
+            name: STEVE_SANDERS_NAME,
             type: "Romantic",
             romantic: "Hook-Up",
             gender: "M",
           },
           {
-            id: "dylan-andrea",
+            id: DylanAndrea_ID,
             type: "Friendship", 
-            name: "Dylan McKay",
+            name: DYLAN_MCKAY_NAME,
             kindOfFriendship: "Close",
             description: [
               "Dylan and Andrea’s relationship is one of the most subtle and thoughtful dynamics in Beverly Hills, 90210. Unlike many other relationships in the series, their bond is never driven by romance or physical attraction. Instead, it develops through shared values, emotional honesty, and intellectual connection.",
@@ -2794,28 +2815,28 @@ export const dramaSeries: Show[] = [
             imgUrl: "https://s-media-cache-ak0.pinimg.com/736x/df/41/76/df417651bbb1568f5652743177f55196--luke-perry-beverly-hills-.jpg",   
             gender: "F",
             card: true, 
-            started: ["Things To Do On A Rainy Day"], 
+            started: [beverlyHillsS2Ep26Title], 
           },
           {
-            name: "Brenda Walsh",
+            name: BRENDA_WALSH_NAME,
             type: "Friendship",
             kindOfFriendship: "Normal",
             gender: "F",
           },
           {
-            name: "Kelly Taylor",
+            name: KELLY_TAYLOR_NAME,
             type: "Friendship",
             kindOfFriendship: "Normal",
             gender: "F",
           },
           {
-            name: "Donna Martin",
+            name: DONNA_MARTIN_NAME,
             type: "Friendship",
             kindOfFriendship: "Normal",
             gender: "F",
           },
           {
-            name: "David Silver",
+            name: DAVID_SILVER_NAME,
             type: "Friendship",
             kindOfFriendship: "Normal",
             gender: "F",
@@ -2823,11 +2844,11 @@ export const dramaSeries: Show[] = [
         ],
         actor: "Gabrielle Carteris",
         episodeCount: "141",
-        firstEpisode: "Class of Beverly Hills",
-        lastEpisode: "Ode to Joy",
+        firstEpisode: beverlyHillsS1Ep1Title,
+        lastEpisode: beverlyHillsSeriesFinaleTitle,
       },
       {
-        id: "valerie-malone",
+        id: VALERIE_MALONE_ID,
         firstName: "Valerie",
         lastName: "Malone",
         eyeColor: "Blue",
@@ -2836,7 +2857,7 @@ export const dramaSeries: Show[] = [
         personality: "Valerie is a cunning, smart, daring and strong woman, who is very capable, but was molested by her father, which has left her traumatised and unable to trust people. Valerie moves to Beverly Hills after her father dies, to live with her old family friends the Walshes. She deals with this trauma by manipulating situations and people, alienating them in the process all the while, in reality, she looks for comfort and security in her life. Though she considers Brandon a close friend, she never tells him what happened to her and has trouble making friends in Beverly Hills, except when it comes to Steve Sanders.",
         education: [
           {
-            place: "California University",
+            place: CU,
             started: "1994",
             ended: "1997",
             hasEnded: true,
@@ -2844,7 +2865,7 @@ export const dramaSeries: Show[] = [
         ],
         occupation: [
           {
-             place: "Peach Pit After Dark",
+             place: PeachPitAfterDark,
              title: "Owner",
              started: "1996",
              hasEnded: false,
@@ -2885,25 +2906,25 @@ export const dramaSeries: Show[] = [
             gender: "M",
           },
           {
-            id: "david-valerie",
+            id: DavidValerie_ID,
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
-            name: "David Silver",
+            name: DAVID_SILVER_NAME,
             shortDesc: "David and Val had an on-again/off-again relationship from their junior year at college, but after their first relationship (ending when Val volunteered David to sleep with her former friend who was blackmailing her) they could never make it work again. They eventually become best friends until Val leaves Beverly Hills in 1998.",
             imgUrl: "https://i.redd.it/valerie-malone-wins-davids-love-interests-v0-b59b9j2kggtd1.jpg?width=750&format=pjpg&auto=webp&s=8dd4af13de20712e7df9b6f99b74e6c30d47d3e0",
             gender: "M",
             started: [
-              "Halloween VI",
-              "Ready or Not"
+              beverlyHillsS6Ep8Title,
+              beverlyHillsS6Ep15Title
             ],
             ended: [
-              "Bleeding Hearts",
+              beverlyHillsS6Ep21Title,
               "The Fundamental Things Aplly"
             ],
             card: true,
            },
            {
-            name: "Noah Hunter",
+            name: NOAH_HUNTER_NAME,
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             gender: "M",
@@ -2915,8 +2936,8 @@ export const dramaSeries: Show[] = [
             gender: "M"
            },
            {
-            id: "steve-valerie",
-            name: "Steve Sanders",
+            id: SteveValerie_ID,
+            name: STEVE_SANDERS_NAME,
             type: "Romantic",
             romantic: "Fling",
             shortDesc: "Steve asks Valerie out almost the moment she arrives in Beverly Hills. As she puts on a front for everyone, Steve believes her to just be a nice girl, while Valerie schemes to use Steve solely for his money. They go on a few dates, but Steve eventually catches her at a strung-out Dylan's house. Valerie tries to make amends with Steve, who agrees to be cordial as a favour to Brandon. When Steve starts up the After Dark and arranges parties, Valerie wants to help out, but Steve is hesitant, assuming there's a catch. Valerie admits there is: she wants another shot with Steve. He reluctantly agrees to have her help out with the party and they almost have sex there, interrupted by the fire. Following the fire, Valerie offers Steve to lie to give him an alibi and Steve ends their temporary fling. They remain cordial with Steve, but always cautious about Valerie. In their junior year, Steve moves into the Walsh house with Brandon and Valerie. He and Valerie eventually become friends, and at their college graduation party, they sleep together.",
@@ -2949,7 +2970,7 @@ export const dramaSeries: Show[] = [
             gender: "M",
           },
            {
-            name: "Colin Robbins",
+            name: COLIN_ROBBINS_NAME,
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             gender: "M",
@@ -2958,8 +2979,8 @@ export const dramaSeries: Show[] = [
             card: true,
           },
            {
-            id: "brandon-valerie",
-            name: "Brandon Walsh",
+            id: BrandonValerie_ID,
+            name: BRANDON_WALSH_NAME,
             type: "Romantic",
             romantic: "Kissed",
             gender: "M",
@@ -2968,7 +2989,7 @@ export const dramaSeries: Show[] = [
             card: true,
           },
            {
-            name: "Ray Pruit",
+            name: RAY_PRUIT_NAME,
             type: "Romantic",
             romantic: "Affair",
             gender: "M",
@@ -2978,8 +2999,8 @@ export const dramaSeries: Show[] = [
 
           },
            {
-            id: "dylan-valerie",
-            name: "Dylan McKay",
+            id: DylanValerie_ID,
+            name: DYLAN_MCKAY_NAME,
             type: "Romantic",
             romantic: "Fling",
             gender: "M",
@@ -2988,19 +3009,19 @@ export const dramaSeries: Show[] = [
             card: true,
           },
           {
-            name:"Brenda Walsh",
+            name:BRENDA_WALSH_NAME,
             type: "Friendship",
             kindOfFriendship: "Normal",
             gender: "F"
           },
           {
-            name:"Clare Arnold",
+            name:CLARE_ARNOLD_NAME,
             type: "Friendship",
             kindOfFriendship: "Normal",
             gender: "F"
           },
           {
-            name:"Donna Martin",
+            name:DONNA_MARTIN_NAME,
             type: "Friendship",
             kindOfFriendship: "Normal",
             gender: "F"
@@ -3090,12 +3111,12 @@ export const dramaSeries: Show[] = [
         posterUrl: "https://imgix.billedbladet.dk/2022-11-08/megaetsdbehiec086_200801-2.jpg?auto=format,compress&fit=min&crop=faces,entropy",
         promo: true,
         actor: "Tiffani Thiessen",
-        firstEpisode: "What I Did on My Summer Vacation and Other Stories",
-        lastEpisode: "Ode to Joy",
+        firstEpisode: beverlyHillsS5Ep1Title,
+        lastEpisode: beverlyHillsSeriesFinaleTitle,
         episodeCount: "136",
       },
       {
-        id: "scott-scanlon",
+        id: SCOTT_SCANLON_ID,
         firstName: "Scott",
         lastName: "Scanlon",
         imageUrl: "https://m.media-amazon.com/images/M/MV5BNDQzOTJjZGYtZTM2ZS00YzFhLThmOWMtMTI1ZGQxMTFmZDJlXkEyXkFqcGc@._V1_.jpg",
@@ -3103,7 +3124,7 @@ export const dramaSeries: Show[] = [
         promo: true,
       },
       {
-        id: "claire-arnold",
+        id: CLARE_ARNOLD_ID,
         firstName: "Claire",
         lastName: "Arnold",
         imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFfLrTmFxUeW87ntyC2Bg9YK_kbyCEZ5F0IQ0ERPD02pjdH0IVRoBEg9hr&s=10",
@@ -3111,7 +3132,7 @@ export const dramaSeries: Show[] = [
         promo: true,
       },
       {
-        id: "jesse-vasquez",
+        id: JESSE_VASQUEZ_ID,
         firstName: "Jesse",
         lastName: "Vasquez",
         imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2AQTnXilh1TQORSI7THbCbTMNiVQB52mG7-e5ZTIkvW0bPTKyBrOOWkg&s=10",
@@ -3119,7 +3140,7 @@ export const dramaSeries: Show[] = [
         promo: true,
       },
       {
-        id: "carly-reynolds",
+        id: CARLY_REYNOLDS_ID,
         firstName: "Carly",
         lastName: "Reynolds",
         imageUrl: "https://www.soapsworld.de/cms/wp-content/uploads/rollenbilder/beverly-hills-90210/hilary-swank-300x200.jpg",
@@ -3127,7 +3148,7 @@ export const dramaSeries: Show[] = [
         promo: true,
       },
       {
-        id: "janet-sosna",
+        id: JANET_SOSNA_ID,
         firstName: "Janet",
         lastName: "Sosna",
         imageUrl: "https://preview.redd.it/matt-appearing-on-the-show-wins-worst-thing-a-character-has-v0-gvq24e52rk3e1.jpg?width=451&format=pjpg&auto=webp&s=89baf17e1c2aefade7df9cce8b8ef3c4198f2ac3",
@@ -3135,7 +3156,7 @@ export const dramaSeries: Show[] = [
         promo: true,
       },
       {
-        id: "gina-kincaid",
+        id: GINA_KINCAID_ID,
         firstName: "Gina",
         lastName: "Kincaid",
         imageUrl: "https://www.televisionofyore.com/uploads/9/3/0/3/9303799/9-22-inside_orig.jpeg",
@@ -3143,7 +3164,7 @@ export const dramaSeries: Show[] = [
         promo: true,
       },
       {
-        id: "noah-hunter",
+        id: NOAH_HUNTER_ID,
         firstName: "Noah",
         lastName: "Hunter",
         imageUrl:
@@ -3160,10 +3181,10 @@ export const dramaSeries: Show[] = [
       },
     ],
     cast: [
-      { actor: "Jason Priestley", character: "Brandon Walsh", creditOrder: 1 },
-      { actor: "Shannen Doherty", character: "Brenda Walsh", creditOrder: 2 },
-      { actor: "Jennie Garth", character: "Kelly Taylor", creditOrder: 3 },
-      { actor: "Luke Perry", character: "Dylan McKay", creditOrder: 4 },
+      { actor: "Jason Priestley", character: BRANDON_WALSH_NAME, creditOrder: 1 },
+      { actor: "Shannen Doherty", character: BRENDA_WALSH_NAME, creditOrder: 2 },
+      { actor: "Jennie Garth", character: KELLY_TAYLOR_NAME, creditOrder: 3 },
+      { actor: "Luke Perry", character: DYLAN_MCKAY_NAME, creditOrder: 4 },
     ],
     seasons: [
       {
@@ -3174,47 +3195,47 @@ export const dramaSeries: Show[] = [
         mainCast: [
           { 
             actor: "Jason Priestley", 
-            character: "Brandon Walsh"
+            character: BRANDON_WALSH_NAME
           },
           { 
             actor: "Shannen Doherty", 
-            character: "Brenda Walsh"
+            character: BRENDA_WALSH_NAME
           },
           { 
             actor: "Jennie Garth", 
-            character: "Kelly Taylor"
+            character: KELLY_TAYLOR_NAME
           },
           { 
             actor: "Ian Ziering", 
-            character: "Steve Sanders"
+            character: STEVE_SANDERS_NAME
           },
           { 
             actor: "Gabrielle Carteris", 
-            character: "Andrea Zuckerman"
+            character: ANDREA_ZUCKERMAN_NAME
           },
           { 
             actor: "Luke Perry", 
-            character: "Dylan McKay"
+            character: DYLAN_MCKAY_NAME
           },
           { 
             actor: "Brian Austin Green", 
-            character: "David Silver"
+            character: DAVID_SILVER_NAME
           },
           { 
             actor: "Douglas Emerson", 
-            character: "Scott Scanlon"
+            character: SCOTT_SCANLON_NAME
           },
           { 
             actor: "Tori Spelling", 
-            character: "Donna Martin"
+            character: DONNA_MARTIN_NAME
           },
           { 
             actor: "Carol Potter", 
-            character: "Cindy Walsh"
+            character: CINDY_WALSH_NAME
           },
           { 
             actor: "James Eckhouse", 
-            character: "Jim Walsh"
+            character: JIM_WALSH_NAME
           },
         ],
         recurring: [
@@ -3228,10 +3249,14 @@ export const dramaSeries: Show[] = [
             id: "class-of-beverly-hills",
             seasonNumber: 1,
             episodeNumber: 1,
-            imageUrl: "https://m.media-amazon.com/images/M/MV5BZTdhZmUxYTYtNjMyZS00NWNkLTk4YTAtN2IzODcyZWMyYmNkXkEyXkFqcGc@._V1_.jpg",
-            episodeTitle: ["Class of Beverly Hills"],
+            episodeImageUrl: {
+              src: "https://m.media-amazon.com/images/M/MV5BZTdhZmUxYTYtNjMyZS00NWNkLTk4YTAtN2IzODcyZWMyYmNkXkEyXkFqcGc@._V1_.jpg",
+              alt: "Image of Brenda sitting in her car in the school parking lot.",
+              characterId: BRENDA_WALSH_ID,
+            },
+            episodeTitle: [beverlyHillsS1Ep1Title],
             director: "Tim Hunter",
-            writtenBy: "Darren Star",
+            writtenBy: DarrenStarName,
             plot: "Minnesota natives Brandon and Brenda Walsh begin attending West Beverly Hills High, and experience culture shock when they become exposed to the glamour, wealth, and privilege that their new classmates possess. Following a romantic date, Brandon accidentally spreads a rumor about him sleeping with a notorious party girl. Brenda uses a fake ID to get into a nightclub and passes herself off as a college student when she begins dating a young lawyer. Two freshmen students named David and Scott attempt to navigate their way through the social scene at school.",
             releaseDate: "October 4, 1990",
             usViewers: 11.0,
@@ -3282,8 +3307,12 @@ export const dramaSeries: Show[] = [
             id: "the-green-room",
             seasonNumber: 1,
             episodeNumber: 2,
-            imageUrl: "https://m.media-amazon.com/images/M/MV5BMTUwNDM0NDQ1NV5BMl5BanBnXkFtZTgwMDk3Mzg3MjE@._V1_.jpg",
-            episodeTitle: ["The Green Room"],
+            episodeImageUrl: {
+              src: "https://m.media-amazon.com/images/M/MV5BMTUwNDM0NDQ1NV5BMl5BanBnXkFtZTgwMDk3Mzg3MjE@._V1_.jpg",
+              alt: "Dylan sitting on the steps to West Beverly.",
+              characterId: DYLAN_MCKAY_ID,
+            },
+            episodeTitle: [beverlyHillsS1Ep2Title],
             director: "Micheal Uno",
             writtenBy: "David Stenn",
             plot: "Brandon meets and befriends Dylan McKay, a brooding classmate. As they continue to spend time together, Brandon learns that Dylan's bad-boy act masks a hidden life that few people ever see. The beach is the place to be at for the West Bev students and also where Brenda sees Kelly's true colors. Steve's mother convinces him to talk to David after mistakenly thinking that his father is a wealthy TV show producer.",
@@ -3311,10 +3340,14 @@ export const dramaSeries: Show[] = [
             id: "every-dream-has-its-price-(tag)",
             seasonNumber: 1,
             episodeNumber: 3,
-            imageUrl: "https://static.wikia.nocookie.net/90210/images/e/ea/103brenkelly.png/revision/latest/thumbnail/width/360/height/360?cb=20220114122554",
-            episodeTitle: ["Every Dream Has Its Price (Tag)"],
-            director: "Caitlin Adams",
-            writtenBy: "Amy Spies",
+            episodeImageUrl: {
+              src: "https://static.wikia.nocookie.net/90210/images/e/ea/103brenkelly.png/revision/latest/thumbnail/width/360/height/360?cb=20220114122554",
+              alt: "Kelly and Brenda standing by the lockers in the hallway at West Beverly High",
+              characterId: [BRENDA_WALSH_ID, KELLY_TAYLOR_ID]
+            },
+            episodeTitle: [beverlyHillsS1Ep3Title],
+            director: CaitlinAdamsName,
+            writtenBy: AmySpiesName,
             plot: "Brenda goes shopping with Kelly and her wild friend Tiffany and wishes that she had their kind of money. Unbeknownst to her, Tiffany is a shoplifter and when they get arrested, Brenda begins losing her mother's trust. Meanwhile, Brandon gets a job at a trendy restaurant where his boss treats him horribly and pays the minority employees less than minimum wage. Cindy grows uncomfortable when Jim hires a maid.",
             releaseDate: "October 18, 1990",
             usViewers: 7.8,
@@ -3342,9 +3375,13 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 4,
             episodeTitle: ["The First Time"],
-            imageUrl: "https://resizing.flixster.com/ZGJpjb2ExZ0tHzeguz-BDbacDRY=/fit-in/352x330/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p1265603_e_h11_ac.jpg",
+            episodeImageUrl: {
+              src: "https://resizing.flixster.com/ZGJpjb2ExZ0tHzeguz-BDbacDRY=/fit-in/352x330/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p1265603_e_h11_ac.jpg",
+              alt: "Brandon's ex-girlfriend, Sheryl is sitting at a table smiling", 
+              characterId: "sheryl-beverly-hills-90210",
+            },
             director: "Bethany Rooney",
-            writtenBy: "Darren Star",
+            writtenBy: DarrenStarName,
             plot: "Brandon is excited when Sheryl, his ex-girlfriend from Minneapolis visits. When Sheryl meets Dylan, she becomes aroused by his money and glamour, making Brandon jealous and violent. Brenda develops a crush on her algebra teacher and is disappointed to find out that he has a wife and children that she has agreed to babysit. Cindy worries about Brandon losing his virginity and nags Jim to have the sex talk with him.",
             releaseDate: "October 25, 1990",
             usViewers: 7.6,
@@ -3370,7 +3407,7 @@ export const dramaSeries: Show[] = [
               },
               {
                 title: "hippychick",
-                artist: "SO:HO"
+                artist: SOHOArtist
               },
             ],
           },
@@ -3379,9 +3416,13 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 5,
             episodeTitle: ["One on One"],
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483740739727/PPCBS_BEVERLYHILLS90210_004_UHD_V1_3654535_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483740739727/PPCBS_BEVERLYHILLS90210_004_UHD_V1_3654535_1920x1080.jpg",
+              alt: "Kelly, Donna and Brenda are talking at school.",
+              characterId: [BRENDA_WALSH_ID, KELLY_TAYLOR_ID, "donna-martin"],
+            },
             director: "Artie Mandelberg",
-            writtenBy: "Charles Rosin", 
+            writtenBy: CharlesRosinName, 
             plot: "When Brandon and Steve try out for the basketball team, Brandon learns that the school recruits minority students from out of the district in order to boost their stats and is forced to make a difficult choice in order to secure a spot on the team and make his father proud. Meanwhile, Brenda decides to take driver’s education again, but fails twice and ends up losing Brandon’s car when trying to pick Kelly up from a bad date.",
             releaseDate: "November 1, 1990",
             usViewers: 8.1,
@@ -3409,9 +3450,13 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 6,
             episodeTitle: ["Higher Education"],
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39833649/PPCBS_BEVERLYHILLS90210_006_UHD_3378273_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39833649/PPCBS_BEVERLYHILLS90210_006_UHD_3378273_1920x1080.jpg",
+              alt: "Brenda is at school in the courtyard with puffy, light-brown hair.",
+              characterId: BRENDA_WALSH_ID,
+            },
             director: "Artie Mandelberg",
-            writtenBy: "Jordan Budde",
+            writtenBy: JordanBuddeName,
             plot: "An unreasonable history teacher makes his students' lives miserable by using an infamous steep grading curve and when Brandon learns that Steve gets A's by stealing exams before the test, he decides to follow suit. Brenda and Kelly vie for Dylan's attention and when he states that he prefers blondes, Brenda grows insecure and decides to dye her hair but the result is horrifying.",
             releaseDate: "November 15, 1990",
             usViewers: 7.6,
@@ -3430,10 +3475,14 @@ export const dramaSeries: Show[] = [
             id: "perfect-mom",
             seasonNumber: 1,
             episodeNumber: 7,
-            episodeTitle: ["Perfect Mom"],
-            imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9OCN5nmt3qXI5RntF3GEy7rfQ_ggJrFDR_k9v7-nxhnAyfCeirjCnMQuo&s=10",
+            episodeTitle: [beverlyHillsS1Ep7Title],
+            episodeImageUrl: {
+              src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9OCN5nmt3qXI5RntF3GEy7rfQ_ggJrFDR_k9v7-nxhnAyfCeirjCnMQuo&s=10",
+              alt: "Kelly is standing in a crowd looking upset. Mrs. Walsh is standing behind her with a horrifed expression on her face.",
+              characterId: [KELLY_TAYLOR_ID]
+            },
             director: "Bethany Rooney",
-            writtenBy: "Darren Star",
+            writtenBy: DarrenStarName,
             plot: "Brenda takes her mother for granted when she begins idolizing Kelly's cool mother, but unbeknownst to her, inside the Taylor household lies a dark secret as Jackie relapses and starts abusing drugs and alcohol all the while Kelly's pleas for help go unnoticed. Andrea joins Brenda and Cindy in the 15th Annual West Beverly High Fashion Show. David uses his video camera in order to sneak a peek at Kelly in the fashion show dressing room.",
             releaseDate: "November 22, 1990",
             usViewers: 6.6,
@@ -3449,16 +3498,20 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 8,
             episodeTitle: ["The 17 Year Itch"],
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483742787553/PPCBS_BEVERLYHILLS90210_008_UHD_V1_3654630_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483742787553/PPCBS_BEVERLYHILLS90210_008_UHD_V1_3654630_1920x1080.jpg",
+              alt: "Brenda and Brandon are sitting at a table with name signs",
+              characterId: [BRENDA_WALSH_ID, BRANDON_WALSH_ID]
+            },
             director: "Jefferson Kibee",
-            writtenBy: "Amy Spies",
+            writtenBy: AmySpiesName,
             plot: "Following their disappointing seventeenth wedding anniversary, Cindy feels like the intimacy is lost between her and Jim and engages in an emotional affair with her old college boyfriend who has moved to town, scaring Brenda into thinking her parents are headed for divorce. Meanwhile, Brenda and Brandon participate in a UCLA study on twins. Also, David wants to be the new school DJ.",
             releaseDate: "November 29, 1990",
             usViewers: 6.2,
             soundtrack: [
               {
                 title: "love generation",	
-                artist: "SO:HO"	
+                artist: SOHOArtist	
               },
               {
                 title: "being cool",	
@@ -3466,7 +3519,7 @@ export const dramaSeries: Show[] = [
               },
               {
                 title: "heart shaped world",
-                artist:	"CHRIS ISAAK"
+                artist:	ChrisIsakArtist
               },
           ]
           },
@@ -3475,9 +3528,17 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 9,
             episodeTitle: ["The Gentle Art of Listening"],
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483744323756/PPCBS_BEVERLYHILLS90210_009_UHD_V1_3654704_1920x1080.jpg",
-            director: "Dan Attias",
-            writtenBy:  "Charles Rosin", 
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483744323756/PPCBS_BEVERLYHILLS90210_009_UHD_V1_3654704_1920x1080.jpg",
+              alt: "Steve, Dylan and Brandon are talking outside of school",
+              characterId: [
+                BRANDON_WALSH_ID,
+                DYLAN_MCKAY_ID,
+                STEVE_SANDERS_ID
+              ]
+            },
+            director: DanAttiasName,
+            writtenBy:  CharlesRosinName, 
             plot: "As the students of West Beverly get pumped for Grudge Week against Beverly Hills High, Brenda grows annoyed by her friends' lack of school spirit. She volunteers for a teen crisis hotline and violates the rules when she takes an after-hours call from a date-rape victim, who is still in danger. Meanwhile, Brandon thinks that a sexy older woman named Nina is attracted to him and makes preparations to have sex with her. Brandon is also followed around school by a lovesick freshman girl to his annoyance.",
             releaseDate: "December 6, 1990",
             usViewers: 8.0,
@@ -3504,10 +3565,17 @@ export const dramaSeries: Show[] = [
             id: "isn't-it-romantic?",
             seasonNumber: 1,
             episodeNumber: 10,
-            episodeTitle: ["Isn't it Romantic?"],
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483750467758/PPCBS_BEVERLYHILLS90210_010_UHD_V1_3654555_1920x1080.jpg",
+            episodeTitle: [beverlyHillsS1Ep10Title],
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483750467758/PPCBS_BEVERLYHILLS90210_010_UHD_V1_3654555_1920x1080.jpg",
+              alt: "Brenda and Brandon are outside the house. Brandon is looking confused at Brenda.",
+              characterId: [
+                BRENDA_WALSH_ID,
+                BRANDON_WALSH_ID,
+              ],
+            },
             director: "Nancy Malone",
-            writtenBy: "Karen Rosin",
+            writtenBy: KarenRosinName,
             plot: "Brenda and Dylan start dating, causing differing opinions in the Walsh house. When sex becomes an option, Brenda learns that he may be too intense for her. Dylan's father arrives back to the hotel and criticizes Dylan. Brenda falls for Dylan a lot more when she learns about how bad his estranged relationship with his father is. Dylan finds out his father will be indicted for tax and securities fraud. As a result, Dylan stands up Brenda for a date. Brenda is heartbroken. Meanwhile, the gang begins Sex Education in Health Class and Scott has trouble getting his mother to sign the consent form. Steve attempts to hook up with Stacy Sloan, the class' speaker. Later on, everyone attends an AIDS seminar and listens to Stacy's speech based on her own experience and condition.",
             releaseDate: "January 3, 1991",
             usViewers: 7.7,
@@ -3531,9 +3599,16 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 11,
             episodeTitle: ["B.Y.O.B"],
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483744835513/PPCBS_BEVERLYHILLS90210_011_UHD_V1_3654601_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483744835513/PPCBS_BEVERLYHILLS90210_011_UHD_V1_3654601_1920x1080.jpg",
+              alt: "Dylan and Brenda are in the hallway. Dylan is leaning over Brenda gazing into her eyes.",
+              characterId: [
+                BRENDA_WALSH_ID,
+                DYLAN_MCKAY_ID
+              ],
+            },
             director: "Miles Watkins",
-            writtenBy: "Jordan Budde",
+            writtenBy: JordanBuddeName,
             plot: "The Walsh twins feel pressured by their peers to drink alcohol. Brandon grows tired of being the responsible twin. When the siblings throw a house party, he goes too far, and puts himself and the lives of others in danger when he drives drunk and gets into a car accident. Meanwhile, after their last drunken hook-up, Kelly grows annoyed by Steve's advances. David does his best to get closer to Kelly. Jim and Cindy go away to Palm Springs for a retreat and are forced to deal with an annoying couple.",
             releaseDate: "January 10, 1991",
             usViewers: 9.1,
@@ -3544,7 +3619,7 @@ export const dramaSeries: Show[] = [
               },
               {
                 title: "goddess",	
-                artist: "SO:HO",	
+                artist: SOHOArtist,	
               },
               {
                 title: "don't you love me",	
@@ -3557,11 +3632,19 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 12,
             episodeTitle: ["One Man and a Baby"],
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483739203809/PPCBS_BEVERLYHILLS90210_012_UHD_V1_3654582_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483739203809/PPCBS_BEVERLYHILLS90210_012_UHD_V1_3654582_1920x1080.jpg",
+              alt: "Brenda, Brandon and Kelly are all sitting on Brenda's bed. Brandon is making a phone call while the girls are staring at him with excitement.",
+              characterId: [
+                BRANDON_WALSH_ID,
+                BRENDA_WALSH_ID,
+                KELLY_TAYLOR_ID
+              ]
+            },
             director: "Burt Brinckerhoff",
             writtenBy: [
-              "Darren Star",
-              "Amy Spies"
+              DarrenStarName,
+              AmySpiesName
             ],
             plot: "Brandon gets an unexpected taste of fatherhood when he starts dating a scholarly senior with Ivy League ambition named Melissa and then has to baby-sit her infant son while she has a college interview. Brenda and Kelly win a radio contest and get skydiving lessons. Her parents refuse to allow her to go but she goes anyway.",
             releaseDate: "January 24, 1991",
@@ -3569,7 +3652,7 @@ export const dramaSeries: Show[] = [
             soundtrack: [
               {
                 title: "baby love",	
-                artist: "THE SUPREMES",
+                artist: TheSupremesArtist,
               },
               {
                 title: "joey",	
@@ -3577,7 +3660,7 @@ export const dramaSeries: Show[] = [
               },
               {
                 title: "Wicked Game",
-                artist:	"Chris Isaak",
+                artist:	ChrisIsakArtist,
               },
             ],
           },
@@ -3586,9 +3669,13 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 13,
             episodeTitle: ["Slumber Party"],
-            imageUrl: "https://static.wikia.nocookie.net/90210/images/f/f8/Normal_PDVD_344.jpg/revision/latest?cb=20101030232411",
-            director: "Charles Braverman",
-            writtenBy: "Darren Star",
+            episodeImageUrl: {
+              src: "https://static.wikia.nocookie.net/90210/images/f/f8/Normal_PDVD_344.jpg/revision/latest?cb=20101030232411",
+              alt: "Kelly is crying while telling the girls about her first time",
+              characterId: [KELLY_TAYLOR_ID],
+            },
+            director: CharlesBravermanName,
+            writtenBy: DarrenStarName,
             plot: "Brenda invites Kelly, Donna, Andrea and Kelly's rude friend, Amanda, over for a 'night of female bonding' but Amanda causes tension within the group when she forces the girls to reveal their deepest secrets. Meanwhile, Brandon and Steve go out and pick up two girls who show their true colors when they steal Steve's car. Also, David and Scott sneak outside the slumber party in order to take lewd pictures of the girls.",
             releaseDate: "January 31, 1991",
             usViewers: 11.0,
@@ -3608,11 +3695,15 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 14,
             episodeTitle: ["East Side Story"],
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483743811579/PPCBS_BEVERLYHILLS90210_015_UHD_V1_3654614_1920x1080.jpg",
-            director: "Dan Attias",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483743811579/PPCBS_BEVERLYHILLS90210_015_UHD_V1_3654614_1920x1080.jpg",
+              alt: "Brandon is hugging the niece of the family's maid, Carla.",
+              characterId: BRANDON_WALSH_ID,
+            },
+            director: DanAttiasName,
             writtenBy: [
-              "Story by : Carmen Sternwood & Charles Rosin", 
-              "Teleplay by :Charles Rosin", 
+              `Story by : Carmen Sternwood & ${CharlesRosinName}`, 
+              `Teleplay by : ${CharlesRosinName}`, 
             ],
             plot: "The Walshes let Carla, their maid’s niece, use their address so that she can attend West Beverly High. Brandon immediately develops an attraction towards her while wondering what she's hiding. Jim hosts a party for his new client, a sportswear designer. Brandon explodes with anger when he finds Carla waitressing and being used as cheap labor. Also, David tries to get MC Hammer to perform at the school dance.",
             releaseDate: "February 14, 1991",
@@ -3637,9 +3728,16 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 15,
             episodeTitle: ["A Fling in Palm Spring"],
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483744323866/PPCBS_BEVERLYHILLS90210_016_UHD_V1_3654685_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483744323866/PPCBS_BEVERLYHILLS90210_016_UHD_V1_3654685_1920x1080.jpg",
+              alt: "Dylan and Brenda are laying in sun chairs at night talking outside the hotel.",
+              characterId: [
+                BRENDA_WALSH_ID,
+                DYLAN_MCKAY_ID
+              ],
+            },
             director: "Jefferson Kibbee",
-            writtenBy: "Jordan Budde",
+            writtenBy: JordanBuddeName,
             plot: "The students of West Beverly head to Palm Springs for President's Day Weekend. Thinking that his grandparents are on a cruise, David invites Steve, Kelly, and Donna to stay at their house, but David is soon in for a shock when he finds out what is waiting for them. Brenda and Dylan make plans to finally have sex, but Brenda gets lost trying to find Dylan’s hotel and ends up seeing him with another girl. Steve asks Kelly to give their relationship another chance. Back in Beverly Hills, Brandon meets a young boy at the Peach Pit and discovers the reason he hangs around at the restaurant all day.",
             releaseDate: "February 21, 1991",
             usViewers: 10.3,
@@ -3663,11 +3761,15 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 16,
             episodeTitle: ["Fame is Where You Find It"],
-            imageUrl: "https://i.pinimg.com/564x/99/af/08/99af08f52289e1c990afcdffa0fc12c0.jpg",
+            episodeImageUrl: {
+              src: "https://i.pinimg.com/564x/99/af/08/99af08f52289e1c990afcdffa0fc12c0.jpg",
+              alt: "Dressed as a waitress, Brenda is singing 'It's My Party', using a whisk as a mic.",
+              characterId: BRENDA_WALSH_ID,
+            },
             director: "Paul Schneider",
             writtenBy: [
-              "Charles Rosin", 
-              "Karen Rosin"
+              CharlesRosinName, 
+              KarenRosinName
             ],
             plot: "Brandon accidentally lands a role on a hit TV show and develops a flirtation with the star, Lydia Leeds. Things go great at first, but he soon realizes that showbiz isn't as glamorous as it appears. Meanwhile, Brenda is jealous of Brandon's sudden fame and gets in over her head when she takes over for him at the Peach Pit. Enter Laverne.",
             releaseDate: "February 28, 1991",
@@ -3692,9 +3794,13 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 17,
             episodeTitle: ["Stand (Up) and Deliver"],
-            imageUrl: "https://cfm.yidio.com/images/tv/176/2398/episode-image-400x225.jpg",
+            episodeImageUrl: {
+              src: "https://cfm.yidio.com/images/tv/176/2398/episode-image-400x225.jpg",
+              alt: "Brandon is looking sad while talking to Kelly",
+              characterId: BRANDON_WALSH_ID,
+            },
             director: "Burt Brickenhoff",
-            writtenBy: "Amy Spies",
+            writtenBy: AmySpiesName,
             plot: "Brenda feels out of touch with her surroundings and decides to drop out of school and house-sit for her new and mature friend, Sky. She later finds out the adult world isn't what it's cracked up to be. Meanwhile, Brandon runs for junior class president and enlists Andrea and Kelly's help for his campaign.",
             releaseDate: "March 7, 1991",
             usViewers: 9.5,
@@ -3705,7 +3811,7 @@ export const dramaSeries: Show[] = [
               },
               {
                 title: "hippychick",
-                artist: "SO:HO",
+                artist: SOHOArtist,
               },
             ],
           },
@@ -3714,9 +3820,16 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 18,
             episodeTitle: ["It's Only A Test"],
-            imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTBxzqFYGcPprVopzEijkPDCcONQ-gjvNuK8ESSSLfk9458hDhLtiUTJbA&s=10",
-            director: "Charles Braverman",
-            writtenBy: "Darren Star",
+            episodeImageUrl: {
+              src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTBxzqFYGcPprVopzEijkPDCcONQ-gjvNuK8ESSSLfk9458hDhLtiUTJbA&s=10",
+              alt: "Cindy is looking nervous at Brenda's doctor's apoitment",
+              characterId: [
+                BRENDA_WALSH_ID,
+                CINDY_WALSH_ID,
+              ]
+            },
+            director: CharlesBravermanName,
+            writtenBy: DarrenStarName,
             plot: "The West Beverly juniors are panicked by the upcoming SATs, but then everything gets put into perspective when Brenda finds a lump in her breast and faces a test no one can prepare for. Meanwhile, Andrea and Steve decide to study for the upcoming test together, and as the night continues, they end up kissing.",
             releaseDate: "March 28, 1991",
             usViewers: 12.8,
@@ -3732,11 +3845,18 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 19,
             episodeTitle: ["April is the Crulest Month"],
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483742787940/PPCBS_BEVERLYHILLS90210_019_UHD_V1_3654705_1920x1080.jpg",
-            director: "Dan Attias",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483742787940/PPCBS_BEVERLYHILLS90210_019_UHD_V1_3654705_1920x1080.jpg",
+              alt: "Brandon is talking to the proffessional tennis player, Roger Azarian (played by Matthew Perry), because he wants to interview him for the school news paper.",
+              characterId: [
+                BRANDON_WALSH_ID
+              ],
+
+            },
+            director: DanAttiasName,
             writtenBy: [
-              "Steve Wasserman",
-              "Jessica Klein"
+              SteveWassermanName,
+              JessicaKleinName
             ],
             plot: "Brandon interviews Roger Azarian (Matthew Perry), the school's tennis star, and when he reads his dark and twisted screenplay, Brandon worries that the events in it might come true. Meanwhile, everyone is thrilled by their SAT results except for Donna, who got low SAT scores and begins acting out, unaware that she has a learning disability.",
             releaseDate: "April 11, 1991",
@@ -3757,9 +3877,16 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 20,
             episodeTitle: ["Spring Training"],
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483742787540/PPCBS_BEVERLYHILLS90210_020_UHD_V1_3654639_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483742787540/PPCBS_BEVERLYHILLS90210_020_UHD_V1_3654639_1920x1080.jpg",
+              alt: "Brandon and Steve are at the baseball court. Brandon is dressed in baseball clothes.",
+              characterId: [
+                BRANDON_WALSH_ID,
+                STEVE_SANDERS_ID,
+              ],
+            },
             director: "Burt Brickenhoff",
-            writtenBy: "Charles Rosin", 
+            writtenBy: CharlesRosinName, 
             plot: "When Jim hurts his back, Brandon teams up with Steve to coach his little league baseball team and has trouble disciplining the entitled players. Meanwhile, Brenda develops a bond with a stray dog and makes a desperate plea to convince her family to let her keep him.",
             releaseDate: "April 25, 1991",
             usViewers: 10.5,
@@ -3770,36 +3897,43 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 21,
             episodeTitle: ["Spring Dance"],
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/29/2484089411525/PPCBS_BEVERLYHILLS90210_022_UHD_V1_3662446_1920x1080.jpg",
-            director: "Darren Star",
-            writtenBy: "Darren Star",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/29/2484089411525/PPCBS_BEVERLYHILLS90210_022_UHD_V1_3662446_1920x1080.jpg",
+              alt: "At the Walsh House, Kelly is adjusting Brandon's suit as they get ready for the spring dance.",
+              characterId: [
+                BRANDON_WALSH_ID,
+                KELLY_TAYLOR_ID,
+              ]
+            },
+            director: DarrenStarName,
+            writtenBy: DarrenStarName,
             plot: "West Beverly prepares for the annual Spring Dance and Kelly, preoccupied with being named Spring Princess and asks Brandon to be her date, which stirs up romantic feelings. Jealous, Steve gets drunk and lashes out at everyone, revealing a deep family secret. Andrea is not going to the dance and is upset when she finds out that Brandon is going with Kelly. Brenda finally loses her virginity to Dylan in their hotel room. David enters a contest to win the first dance with the Spring Princess. Donna has trouble moving in her dress. Andrea shows up at the dance and has a good time. Brandon tells Kelly that he thinks of her as a sister.",
             releaseDate: "May 9, 1991",
             usViewers: 12.9,
             soundtrack: [
               {
                 title: "the best i can't",	
-                artist: "THE RAVE-UPS", 
+                artist: TheRaveUpArtist, 
               },	
               {
                 title: "you can't hurry love",	
-                artist: "THE SUPREMES",
+                artist: TheSupremesArtist,
               },	
               {
                 title: "tinker tommy",	
-                artist: "THE RAVE-UPS",
+                artist: TheRaveUpArtist,
               },	
               { 
                 title: "she says (come around)",
-                artist:	"THE RAVE-UPS",
+                artist:	TheRaveUpArtist,
               },	
               { 
                 title: "smile",	
-                artist: "THE RAVE-UPS",
+                artist: TheRaveUpArtist,
               },
               { 
                 title: "if it was (a matter of mind)",	
-                artist: "THE RAVE-UPS"
+                artist: TheRaveUpArtist
               },	
             ],
           },
@@ -3808,9 +3942,16 @@ export const dramaSeries: Show[] = [
             seasonNumber: 1,
             episodeNumber: 22,
             episodeTitle: ["Home Again"], 
-            imageUrl: "https://www.televisionofyore.com/uploads/9/3/0/3/9303799/3753458_orig.jpeg",
-            director: "Charles Braverman",
-            writtenBy: "Amy Spies",
+            episodeImageUrl: {
+              src: "https://www.televisionofyore.com/uploads/9/3/0/3/9303799/3753458_orig.jpeg",
+              alt: "Brandon and Brenda are walking on the beach with their arms around each other.",
+              characterId: [
+                BRANDON_WALSH_ID,
+                BRENDA_WALSH_ID,
+              ]
+            },
+            director: CharlesBravermanName,
+            writtenBy: AmySpiesName,
             plot: "Jim gets a job promotion which means that the Walsh family is moving back to Minneapolis. Saddened by the news, Brandon and Brenda prepare to say goodbye to the friends they've made this past year. Brenda worries that her relationship with Dylan won't survive long distance. Brandon contemplates sleeping with Andrea after she offers herself as a going-away present. The gang throws a going away party for Brandon and Brenda at The Peach Pit. Jim decides not to move his family after all.",
             releaseDate: "May 9, 1991",
             usViewers: 15.0,
@@ -3828,7 +3969,7 @@ export const dramaSeries: Show[] = [
         ],
         premiereDate: "October 4th, 1990",
         finaleDate:  "May 9, 1991" ,
-        premiereEpisode: "Class of Beverly Hills",
+        premiereEpisode: beverlyHillsS1Ep1Title,
         finaleEpisode: "Home Again",
         posterUrl:
           "https://images.justwatch.com/poster/8617904/s718/season-1.%7Bformat%7D",
@@ -3847,43 +3988,43 @@ export const dramaSeries: Show[] = [
         mainCast: [
           { 
             actor: "Jason Priestley", 
-            character: "Brandon Walsh"
+            character: BRANDON_WALSH_NAME
           },
           { 
             actor: "Shannen Doherty", 
-            character: "Brenda Walsh"
+            character: BRENDA_WALSH_NAME
           },
           { 
             actor: "Jennie Garth", 
-            character: "Kelly Taylor"
+            character: KELLY_TAYLOR_NAME
           },
           { 
             actor: "Ian Ziering", 
-            character: "Steve Sanders"
+            character: STEVE_SANDERS_NAME
           },
           { 
             actor: "Gabrielle Carteris", 
-            character: "Andrea Zuckerman"
+            character: ANDREA_ZUCKERMAN_NAME
           },
           { 
             actor: "Luke Perry", 
-            character: "Dylan McKay"
+            character: DYLAN_MCKAY_NAME
           },
           { 
             actor: "Brian Austin Green", 
-            character: "David Silver"
+            character: DAVID_SILVER_NAME
           },
           { 
             actor: "Tori Spelling", 
-            character: "Donna Martin"
+            character: DONNA_MARTIN_NAME
           },
           { 
             actor: "Carol Potter", 
-            character: "Cindy Walsh"
+            character: CINDY_WALSH_NAME
           },
           { 
             actor: "James Eckhouse", 
-            character: "Jim Walsh"
+            character: JIM_WALSH_NAME
           },
         ],
         recurring: [
@@ -3893,11 +4034,11 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Douglas Emerson",
-            character: "Scott Scanlon",
+            character: SCOTT_SCANLON_NAME,
           },
           {
             actor: "Christine Elise",
-            character: "Emily Valentine",
+            character: EMILY_VALENTINE_NAME,
           },
           {
             actor: "Denise Dowse",
@@ -3910,7 +4051,7 @@ export const dramaSeries: Show[] = [
         ],
         premiereDate:  "July 11, 1991" ,
         finaleDate:  "May 7, 1992" ,
-        premiereEpisode: "Beach Blanket Brandon",
+        premiereEpisode: beverlyHillsS2Ep1Title,
         finaleEpisode: "Wedding Bell Blues",
         title: "Beverly Hills, 90210, Season 2",
         posterUrl: "https://m.media-amazon.com/images/I/51JsDec4+LL._AC_.jpg",
@@ -3918,12 +4059,12 @@ export const dramaSeries: Show[] = [
         episodeBreakdown: [
           {
             id: "beach-blanket-brandon",
-            episodeTitle: "Beach Blanket Brandon",
+            episodeTitle: beverlyHillsS2Ep1Title,
             imageUrl: "https://leavingcertirishnotes.wordpress.com/wp-content/uploads/2015/08/beachblanket.jpg",
             seasonNumber: 2,
             episodeNumber:1,
             plot: "With their Sophomore year over, Brenda has a life changing development. Meanwhile, Brandon wants to earn enough money to buy a new car and has to make a difficult decision with his job at the Peach.",
-            director: "Charles Braverman",
+            director: CharlesBravermanName,
             writtenBy: "Darren Starr",
             releaseDate: "July 11, 1991",
             usViewers: 19.1,
@@ -3958,7 +4099,7 @@ export const dramaSeries: Show[] = [
             episodeNumber:2,
             plot: "Working at the Beach Club, Brandon meets Jerry Ratinger who hires him as a driver for his wife, but learns some shocking information on the job. Meanwhile, Brenda decides to attend summer school with Donna and Andrea in order to get her mind off Dylan.",
             director: "Daniel Attias",
-            writtenBy: "Charles Rosin", 
+            writtenBy: CharlesRosinName, 
             releaseDate: "July 18, 1991",
             usViewers: 16.0,
             soundtrack: [
@@ -3983,7 +4124,7 @@ export const dramaSeries: Show[] = [
             seasonNumber: 2,
             episodeNumber:3,
             plot: "When Jack McKay is indicted on income tax evasion, Dylan goes out surfing in dangerous waters and is injured in a storm. The Walsh family take him to the hospital, but Jim is upset when he catches Brenda kissing Dylan. Meanwhile, Donna and David are dismayed to be partnered up in drama class to perform a scene from Romeo and Juliet. Kelly falls for a handsome volleyball player who likes her but for some reason won't have sex with her.",
-            director: "Charles Braverman",
+            director: CharlesBravermanName,
             writtenBy: "Steve Wasserman & Jessica Klein",
             releaseDate: "July 25, 1991",
             usViewers: 18.1,
@@ -4031,7 +4172,7 @@ export const dramaSeries: Show[] = [
             seasonNumber: 2,
             episodeNumber: 5,
             plot: "When Andrea persuades Brandon to hang out with a young boy, they discover a possible case of child abuse. David's dad and Kelly's mom meet and start dating when Jackie breaks a tooth, much to David's delight and Kelly's chagrin. Meanwhile, Brenda can't keep thoughts of Dylan out of her mind while he is in Hawaii.",
-            director: "Charles Braverman",
+            director: CharlesBravermanName,
             writtenBy: "Sherri Ziff",
             releaseDate: "August 8, 1991",
             usViewers: 17.4,
@@ -4068,7 +4209,7 @@ export const dramaSeries: Show[] = [
               },
               {
                 title: "Gone Ridin'",
-                artist: "Chris Isaak",
+                artist: ChrisIsakArtist,
               },
               {
                 title: "Sweet Talkin' Guy",
@@ -4088,7 +4229,7 @@ export const dramaSeries: Show[] = [
             episodeNumber:7,
             plot: "The gang decide to go on a parent-free camping trip, but neither weather nor cabin meets their expectations. The newlyweds honeymooning next door share their problems with the teens. Meanwhile, Dylan's drinking problem returns, but not before he works to save Brandon's life as he dangles helplessly over a cliff.",
             director: "Jeff Melman",
-            writtenBy: "Karen Rosin",
+            writtenBy: KarenRosinName,
             releaseDate: "August 29, 1991",
             usViewers:17.0,
             soundtrack: [],
@@ -4102,14 +4243,14 @@ export const dramaSeries: Show[] = [
             plot: "School is back in session for the students of West Beverly and new student Emily Valentine makes a big splash with the guys, especially Brandon and Dylan. The girls don't exactly take well to the interloper, especially jealous Brenda, who realizes she might want Dylan back after all. Meanwhile, Scott returns from Oklahoma and finds his friendship with newly-popular David considerably cooled.",
             director:  "Daniel Attias",
             writtenBy: [
-              "Steve Wasserman",
-              "Jessica Klein"
+              SteveWassermanName,
+              JessicaKleinName
             ],
             releaseDate: "September 12, 1991",
             usViewers:17.7,
             soundtrack: [
               {
-                title: "Addicted to Love",
+                title: beverlyHillsS4Ep21Title,
                 artist: "Robert Palmer"
               },
               {
@@ -4130,7 +4271,7 @@ export const dramaSeries: Show[] = [
               },
               {
                 title: "Wicked Game",
-                artist: "Chris Isaak"
+                artist: ChrisIsakArtist
               }
             ],
           },
@@ -4141,9 +4282,9 @@ export const dramaSeries: Show[] = [
             seasonNumber: 2,
             episodeNumber: 9,
             plot: "The Blaze finds a new staff photographer, Robinson Ash III, who is delighted about getting the job, but not as thrilled with his welcome to Beverly Hills. Meanwhile, the Walshes try out a new home alarm system, which is more hindrance than help.",
-            director: "Charles Braverman",
+            director: CharlesBravermanName,
             writtenBy: [ 
-              "Charles Rosin", 
+              CharlesRosinName, 
               "Judi Ann Mason"
             ],
             releaseDate: "September 19, 1991",
@@ -4222,7 +4363,7 @@ export const dramaSeries: Show[] = [
             seasonNumber: 2,
             episodeNumber:12,
             plot: "Andrea's success in a teen journalism competition exposes the fact that she may be living out of district, which is further complicated by her grandmother's refusal to lie about her living situation. Meanwhile, Steve's new girlfriend may be more interested in his money than in him.",
-            director: "Charles Braverman",
+            director: CharlesBravermanName,
             writtenBy: [
               "Story by : Karen Rosin & Allison Adler",
               "Teleplay by : Karen Rosin",
@@ -4299,8 +4440,8 @@ export const dramaSeries: Show[] = [
             plot: "During Scott's surprise 16th-birthday party, an accidental shooting turns fatal. Meanwhile, Andrea grows jealous of Brandon's attention to Emily, and the gang grieves after a sudden death.",
             director: "Daniel Attias",
             writtenBy: [
-              "Karen Rosin",
-              "Charles Rosin"
+              KarenRosinName,
+              CharlesRosinName
             ], 
             releaseDate: "November 7, 1991",
             usViewers:22.3,
@@ -4338,7 +4479,7 @@ export const dramaSeries: Show[] = [
             seasonNumber: 2,
             episodeNumber:15,
             plot: "The gang heads out to a 'not-so-legal' underground club, and Emily introduces Brandon to the world of drugs. Brandon's car goes through another stage in its life cycle. Meanwhile, Steve and Andrea have an adventurous night together.",
-            director: "Charles Braverman",
+            director: CharlesBravermanName,
             writtenBy: "Allison Adler",
             releaseDate: "November 14, 1991",
             usViewers:20.8,
@@ -4385,7 +4526,7 @@ export const dramaSeries: Show[] = [
           },
           {
             id: "chuckie's-back",
-            episodeTitle: "Chuckie's Back",
+            episodeTitle: beverlyHillsS2Ep17Title,
             imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39820504/PPCBS_BEVERLYHILLS90210_039_UHD_3378540_1920x1080.jpg",
             seasonNumber: 2,
             episodeNumber: 17,
@@ -4574,8 +4715,8 @@ export const dramaSeries: Show[] = [
             plot: "Dylan and Brenda's relationship is put to the test when a friend from Dylan's past shows up and starts leaning on Dylan more and more. Brenda is tempted by a cute college boy, especially since Dylan is paying more attention to his old friend than he is her. Meanwhile, Nat purchases a karaoke machine for the Peach Pit which is an initial success, but the novelty quickly wears off.",
             director: "Daniel Attias",
             writtenBy: [
-              "Steve Wasserman",
-              "Jessica Klein"
+              SteveWassermanName,
+              JessicaKleinName
             ],
             releaseDate: "February 27, 1992",
             usViewers:21.3,
@@ -4646,7 +4787,7 @@ export const dramaSeries: Show[] = [
           },
           {
             id: "things-to-do-on-a-rainy-day",
-            episodeTitle: "Things to Do on a Rainy Day",
+            episodeTitle: beverlyHillsS2Ep26Title,
             imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2019/07/09/1568063043967/PPCBS_BEVERLYHILLS90210_048_UHD_3409105_1920x1080.jpg",
             seasonNumber: 2,
             episodeNumber:26,
@@ -4739,8 +4880,8 @@ export const dramaSeries: Show[] = [
             episodeNumber: 1,
             director:	 "Jeffrey Melman",	
             writtenBy: [ 
-              "Steve Wasserman",  
-              "Jessica Klein",
+              SteveWassermanName,  
+              JessicaKleinName,
             ],	
             releaseDate: "July 15, 1992",	
             plot: "Brandon returns to work for the summer at the Beverly Hills Beach Club, with Andrea now working there as the child-care supervisor. Meanwhile, Brenda defies her parents and continues to secretly see Dylan behind everyone's back. When Brenda gets caught in the act when Jim and Cindy run into Brenda with Dylan at the beach club, she runs away and into Dylan's house.",
@@ -4770,7 +4911,7 @@ export const dramaSeries: Show[] = [
               episodeTitle: "The Twins, the Trustee, and the Very Big Trip",
               imageUrl: "https://static.wikia.nocookie.net/90210/images/e/e3/302brylankiss.png/revision/latest?cb=20220125220359",
               director: "David Carson", 
-	            writtenBy: "Charles Rosin", 
+	            writtenBy: CharlesRosinName, 
 	            releaseDate: "July 22, 1992",	
               usViewers: 15.8,
               plot: "Brenda and Dylan find that their living arrangements are too close for comfort but Brenda is too stubborn to admit she's unhappy. Kelly decides to bail on her trip to Paris for the summer, deciding instead to stay home with her newborn sister. Jim decides to send Brenda in Kelly's place and puts pressure on Dylan to encourage her to take the overseas trip.",
@@ -4863,7 +5004,7 @@ export const dramaSeries: Show[] = [
               {
                 id: "dancin-chris-isaak",  
                 title: "Dancin'",
-                artist: "Chris Isaak"
+                artist: ChrisIsakArtist
               },
               {
                 id: "be-my-love-brian-austin-green",
@@ -4916,7 +5057,7 @@ export const dramaSeries: Show[] = [
             episodeTitle: "The Back Story",	
             imageUrl: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2012/09/07/39813587/PPCBS_BEVERLYHILLS90210_058_UHD_3404162_1920x1080.jpg",
             director: "Bradley M. Gross",	
-            writtenBy: "Karen Rosin",
+            writtenBy: KarenRosinName,
 	          releaseDate: "September 16, 1992",	
             usViewers: 14.3,
             plot: "Beth Nielson, from the tabloid television show Back Story is in town, and she enlists the help of Brenda to make a documentary about West Beverly High. A naive Brenda agrees to be interviewed, not realizing how the show will twist her words and take them out of context. Meanwhile, a West Beverly alum offers Steve a \"legacy key\" to the school, which will give him unfettered access to the school's computers.",
@@ -4998,7 +5139,7 @@ export const dramaSeries: Show[] = [
             episodeTitle: "A Presumption of Innocence",	
             imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2015/09/12/524068419599/PPCBS_BEVERLYHILLS90210_061_UHD_3404262_1920x1080.jpg",
             director:  "Bethany Rooney",
-            writtenBy:"Karen Rosin",
+            writtenBy:KarenRosinName,
             releaseDate:	"October 21, 1992",	
             usViewers: 16.4,
             plot: "Sue Scanlon accuses Gil Meyers of sexual misconduct, which leads to his suspension. Andrea offers her support to the misguided teen and finds there's more to the story than Sue is telling. After surfing in polluted waters, Dylan contracts both an infection and a desire to help clean up the bay.",
@@ -5039,12 +5180,12 @@ export const dramaSeries: Show[] = [
           id: "destiny-rides-again",
           seasonNumber: 3,
           episodeNumber: 12,	
-          episodeTitle: "Destiny Rides Again",	
+          episodeTitle: beverlyHillsS3Ep12Title,	
           imageUrl: "https://static.wikia.nocookie.net/90210/images/9/96/312.png/revision/latest?cb=20210930005653",
           director:  "Christopher Hibler",	
           writtenBy:[
-            "Steve Wasserman",
-            "Jessica Klein",
+            SteveWassermanName,
+            JessicaKleinName,
           ],
           releaseDate: "November 4, 1992",	
           usViewers: 19.9,
@@ -5130,8 +5271,8 @@ export const dramaSeries: Show[] = [
           imageUrl: "https://static.wikia.nocookie.net/90210/images/d/df/315.png/revision/latest?cb=20231212123412",
           director:	"Richard Lang",	
           writtenBy: [
-            "Steve Wasserman", 
-            "Jessica Klein",
+            SteveWassermanName, 
+            JessicaKleinName,
           ],	
           releaseDate: "November 25, 1992",	
           usViewers: 16.2,
@@ -5146,8 +5287,8 @@ export const dramaSeries: Show[] = [
           imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809782/PPCBS_BEVERLYHILLS90210_067_UHD_3404256_1920x1080.jpg",
           director:	"Richard Lang",	
           writtenBy: [
-            "Karen Rosin",
-            "Charles Rosin"
+            KarenRosinName,
+            CharlesRosinName
           ], 
 	        releaseDate: "December 16, 1992",	
           usViewers: 15.8,
@@ -5251,12 +5392,12 @@ export const dramaSeries: Show[] = [
           id: "back-in-the-high-life-again",
           seasonNumber: 3,
           episodeNumber: 19,
-          episodeTitle:	"Back in the High Life Again",
+          episodeTitle:	beverlyHillsS3Ep19Title,
           imageUrl: "https://thumbnails.cbsig.net/_x/w400/CBS_Production_Entertainment_VMS/2012/09/07/39807918/PPCBS_BEVERLYHILLS90210_051_UHD_3404157_1920x1080.jpg",
           director:	"Bill D'Elia",	
           writtenBy: [
-            "Steve Wasserman", 
-            "Jessica Klein"
+            SteveWassermanName, 
+            JessicaKleinName
           ],	
           releaseDate: "January 27, 1993",
           plot: "Jack McKay decides to throw a party at the Bel Age hotel to celebrate his early release from prison. Dylan invites both Brenda and Kelly and eventually chooses Kelly over Brenda. Mel and Jackie's marriage crumbles, leaving David afraid that he'll no longer have access to his baby sister. Dylan and Kelly incur Brenda's rage when they tell her about their summer fling and she cuts them both out of her life.",
@@ -5351,8 +5492,8 @@ export const dramaSeries: Show[] = [
           imageUrl: "https://static.wikia.nocookie.net/90210/images/8/84/322.png/revision/latest?cb=20220630004208",
           director: "James Whitmore Jr.",
           writtenBy: [
-            "Karen Rosin",
-            "Charles Rosin"
+            KarenRosinName,
+            CharlesRosinName
           ], 
 	        releaseDate: "February 17, 1993",	
           usViewers: 18.7,
@@ -5379,7 +5520,7 @@ export const dramaSeries: Show[] = [
           episodeTitle:	"Duke's Bad Boy",	
           imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/28/2483822659896/PPCBS_BEVERLYHILLS90210_073_UHD_V1_3656848_1920x1080.jpg",
           director: "Robert Becker",	
-          writtenBy: "Jessica Klein",	
+          writtenBy: JessicaKleinName,	
           releaseDate: "March 3, 1993",	
           usViewers: 16.0,
           plot: "Brandon's out of control gambling debts are mounting up and his bookie, Duke, is getting impatient and wants $1,500 of losses paid up by the end of the week, or else.... Brandon goes to extreme lengths to pay his bill by hiring another bookie at school to place bets, and his desperation leads to violence. Kelly feels that Dylan is slipping away from her, and her insecurity leads to an unhealthy obsession with her appearance. Meanwhile, David's hack of a recording manager Serge, continues to ignore David's hip-hop music style and insists that David can to better by making him record a trite ballard. David goes along with it. But Curtis Bray does not like the new tune and outright fires David from Icon Records. Elsewhere, Andrea convinces a depressed Dylan to write a story about his experience with loss.",
@@ -5402,7 +5543,7 @@ export const dramaSeries: Show[] = [
           id: "perfectly-perfect",
           seasonNumber: 3,
           episodeNumber: 24,	
-          episodeTitle: "Perfectly Perfect",	
+          episodeTitle: beverlyHillsS3Ep24Title,	
           imageUrl: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2012/09/07/39812064/PPCBS_BEVERLYHILLS90210_074_UHD_3385466_1920x1080.jpg",
           director: "Bethany Rooney",
           writtenBy: "Gillian Horvath",
@@ -5484,8 +5625,8 @@ export const dramaSeries: Show[] = [
           imageUrl: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2015/09/12/524408899964/PPCBS_BEVERLYHILLS90210_077_UHD_3385472_1920x1080.jpg",
           director:	"Richard Lang",
           writtenBy: [
-            "Steve Wasserman",
-            "Jessica Klein"
+            SteveWassermanName,
+            JessicaKleinName
           ],
           releaseDate:	"May 5, 1993",	
           usViewers: 17.0,
@@ -5529,8 +5670,8 @@ export const dramaSeries: Show[] = [
           imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39811210/PPCBS_BEVERLYHILLS90210_078_UHD_3385481_1920x1080.jpg",
           director: "James Whitmore Jr.",	
           writtenBy: [
-            "Steve Wasserman", 
-            "Jessica Klein"
+            SteveWassermanName, 
+            JessicaKleinName
           ],
           releaseDate: "May 12, 1993",	
           usViewers: 16.9,
@@ -5561,8 +5702,8 @@ export const dramaSeries: Show[] = [
           imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/29/2484191811878/PPCBS_BEVERLYHILLS90210_079_1_UHD_V1_3666747_1920x1080.jpg",
           director: "Daniel Attias",
 	        writtenBy: [
-            "Karen Rosin", 
-            "Charles Rosin"
+            KarenRosinName, 
+            CharlesRosinName
           ], 
 	        releaseDate: "May 19, 1993",	
           usViewers: 22.2,	
@@ -5586,43 +5727,43 @@ export const dramaSeries: Show[] = [
         mainCast: [
           { 
             actor: "Jason Priestley", 
-            character: "Brandon Walsh"
+            character: BRANDON_WALSH_NAME
           },
           { 
             actor: "Shannen Doherty", 
-            character: "Brenda Walsh"
+            character: BRENDA_WALSH_NAME
           },
           { 
             actor: "Jennie Garth", 
-            character: "Kelly Taylor"
+            character: KELLY_TAYLOR_NAME
           },
           { 
             actor: "Ian Ziering", 
-            character: "Steve Sanders"
+            character: STEVE_SANDERS_NAME
           },
           { 
             actor: "Gabrielle Carteris", 
-            character: "Andrea Zuckerman"
+            character: ANDREA_ZUCKERMAN_NAME
           },
           { 
             actor: "Luke Perry", 
-            character: "Dylan McKay"
+            character: DYLAN_MCKAY_NAME
           },
           { 
             actor: "Brian Austin Green", 
-            character: "David Silver"
+            character: DAVID_SILVER_NAME
           },
           { 
             actor: "Tori Spelling", 
-            character: "Donna Martin"
+            character: DONNA_MARTIN_NAME
           },
           { 
             actor: "Carol Potter", 
-            character: "Cindy Walsh"
+            character: CINDY_WALSH_NAME
           },
           { 
             actor: "James Eckhouse", 
-            character: "Jim Walsh"
+            character: JIM_WALSH_NAME
           },
         ],
         recurring: [
@@ -5632,7 +5773,7 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Ann Gillespie",
-            character: "Jackie Taylor"
+            character: JACKIE_TAYLOR_NAME
           },
           {
             actor: "Dana Barron",
@@ -5648,7 +5789,7 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Josh Taylor", 
-            character: "Jack McKay"
+            character: JACK_MCKAY_NAME
           },
         ],
         premiereDate:  "July 15, 1992" ,
@@ -5675,19 +5816,19 @@ export const dramaSeries: Show[] = [
         mainCast: [
           { 
             actor: "Jason Priestley", 
-            character: "Brandon Walsh"
+            character: BRANDON_WALSH_NAME
           },
           { 
             actor: "Shannen Doherty", 
-            character: "Brenda Walsh"
+            character: BRENDA_WALSH_NAME
           },
           { 
             actor: "Jennie Garth", 
-            character: "Kelly Taylor"
+            character: KELLY_TAYLOR_NAME
           },
           { 
             actor: "Ian Ziering", 
-            character: "Steve Sanders"
+            character: STEVE_SANDERS_NAME
           },
           { 
             actor: "Gabrielle Carteris", 
@@ -5695,23 +5836,23 @@ export const dramaSeries: Show[] = [
           },
           { 
             actor: "Luke Perry", 
-            character: "Dylan McKay"
+            character: DYLAN_MCKAY_NAME
           },
           { 
             actor: "Brian Austin Green", 
-            character: "David Silver"
+            character: DAVID_SILVER_NAME
           },
           { 
             actor: "Tori Spelling", 
-            character: "Donna Martin"
+            character: DONNA_MARTIN_NAME
           },
           { 
             actor: "Carol Potter", 
-            character: "Cindy Walsh"
+            character: CINDY_WALSH_NAME
           },
           { 
             actor: "James Eckhouse", 
-            character: "Jim Walsh"
+            character: JIM_WALSH_NAME
           },
         ],
         recurring: [
@@ -5721,7 +5862,7 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Ann Gillespie",
-            character: "Jackie Taylor"
+            character: JACKIE_TAYLOR_NAME
           },
           {
             actor: "David Gail",
@@ -5737,11 +5878,11 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Mark Damon Espinoza",
-            character: "Jesse Vasquez"
+            character: JESSE_VASQUEZ_NAME
           },
           {
             actor: "Christine Elise",
-            character: "Emily Valentine"
+            character: EMILY_VALENTINE_NAME
           },
           {
             actor: "Kerrie Keane",
@@ -5749,7 +5890,7 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Kathleen Robertson",
-            character: "Clare Arnold"
+            character: CLARE_ARNOLD_NAME
           },
           {
             actor: "Mark Kiely",
@@ -5757,11 +5898,11 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Katherine Cannon",
-            character: "Felice Martin"
+            character: FELICE_MARTIN_NAME
           },
           {
             actor: "Michael Durrell",
-            character: "John Martin"
+            character: JOHN_MARTIN_NAME
           },
           {
             actor: "Jennifer Grant",
@@ -5773,7 +5914,7 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Noley Thornton",
-            character: "Erica McKay"
+            character: ERICA_MCKAY_NAME
           },
           {
             actor: "Nicholas Pryor",
@@ -5789,10 +5930,10 @@ export const dramaSeries: Show[] = [
             id: "so-long-farewell-auf-wiedersehen-goodbye",
             seasonNumber: 4,
             episodeNumber: 1,
-            episodeTitle: "So Long, Farewell, Auf Wiedersehen, Goodbye",
+            episodeTitle: beverlyHillsS4Ep1Title,
             imageUrl: "",
             director: "Bill D'Elia",
-            writtenBy: "Charles Rosin",
+            writtenBy: CharlesRosinName,
             releaseDate: "September 8, 1993",
             plot: "After the summer break, everyone prepares for university life. After working all summer at the Beverly Hills Beach Club, Brenda leaves Los Angeles to go to college in Minnesota and finds that her old friends now see her differently. Meanwhile, David and Donna seek out some affordable housing on the beach. As college approaches, Steve finally got off the wait list and accepted into C.U. and Brandon finishes his last day on the job of the Peach Pit. Steve and Brandon rent a beach front house in Malibu for the final two weeks of the summer, and they get a surprise visit from Steve's former girlfriend Jill Fleming, which makes Celeste jealous. Kelly returns from a two-month trip to Europe, without Dylan, who has been rejected from Berkeley. Also, Andrea frets with Gil Meyers over her deciding to stay in California to go to college.",
           },
@@ -6141,7 +6282,7 @@ export const dramaSeries: Show[] = [
         ],
         premiereDate:  "September 8, 1993" ,
         finaleDate:  "May 25, 1994" ,
-        premiereEpisode: "So Long, Farewell, Auf Wiedersehen, Goodbye",
+        premiereEpisode: beverlyHillsS4Ep1Title,
         finaleEpisode: "Mr. Walsh Goes to Washington",
         title: "Beverly Hills, 90210, Season 4",
         posterUrl: "https://m.media-amazon.com/images/I/51GnJ8xVnYL._AC_.jpg",
@@ -6153,7 +6294,7 @@ export const dramaSeries: Show[] = [
         seasonNumber: 5,
         premiereDate:  "September 7, 1994" ,
         finaleDate:  "May 24, 1995" ,
-        premiereEpisode: "What I Did on My Summer Vacation and Other Stories",
+        premiereEpisode: beverlyHillsS5Ep1Title,
         finaleEpisode: "P.S. I Love You",
         title: "Beverly Hills, 90210, Season 5",
         posterUrl:
@@ -6214,7 +6355,7 @@ export const dramaSeries: Show[] = [
         premiereDate:  "September 08, 1999" ,
         finaleDate:  "May 17, 2000" ,
         premiereEpisode: "The Phantom Menace",
-        finaleEpisode: "Ode to Joy",
+        finaleEpisode: beverlyHillsSeriesFinaleTitle,
         title: "Beverly Hills, 90210, Season 10",
         posterUrl:
           "https://m.media-amazon.com/images/I/91g2KJw6fQL._AC_UF894,1000_QL80_.jpg",
@@ -6287,10 +6428,10 @@ export const dramaSeries: Show[] = [
     executive: [
       "Aaron Spelling",
       "E. Duke Vincent",
-       "Charles Rosin", 
-      "Darren Star",
-      "Steve Wasserman",
-      "Jessica Klein",
+       CharlesRosinName, 
+      DarrenStarName,
+      SteveWassermanName,
+      JessicaKleinName,
       "Paul Waigner",
       "Larry Mollin",
       "Jason Priestley",
@@ -6306,9 +6447,9 @@ export const dramaSeries: Show[] = [
       "Aaron Spelling",
       "Kenneth Miller",
       "Christopher J. Connolly",
-      "Steve Wasserman",
-      "Jessica Klein",
-      "Darren Star",
+      SteveWassermanName,
+      JessicaKleinName,
+      DarrenStarName,
       "John Eisendrath",
       "Larry Mollin",
       "Jason Priestley",
@@ -6694,15 +6835,15 @@ export const dramaSeries: Show[] = [
         recurring: [
           {
             actor: "Jennie Garth",
-            character: "Kelly Taylor",
+            character: KELLY_TAYLOR_NAME,
           },
           {
             actor: "Ian Ziering",
-            character: "Steve Sanders",
+            character: STEVE_SANDERS_NAME,
           },
           {
             actor: "Brian Austin Green",
-            character: "David Silver",
+            character: DAVID_SILVER_NAME,
           },
           {
             actor: "Deborah Adair", 
@@ -7776,7 +7917,7 @@ export const dramaSeries: Show[] = [
     executive: [
       "Aaron Spelling",
       "E. Duke Vincent",
-      "Darren Star",
+      DarrenStarName,
       "Frank South",
       "Charles Pratt, Jr.",
       "Carol Mendelsohn",
@@ -7865,7 +8006,7 @@ tags: ["Teen drama", "Drama"],
         promo: true,
       },
       {
-        id: "erin-silver",
+        id: ERIN_SILVER_ID,
         label: "Silver",
         firstName: "Erin",
         lastName: "Silver",
@@ -7937,7 +8078,7 @@ tags: ["Teen drama", "Drama"],
       { actor: "AnnaLynne McCord", character: "Naomi Clark" },
       { actor: "Dustin Milligan", character: "Ethan Ward" },
       { actor: "Ryan Eggold", character: "Ryan Matthews" },
-      { actor: "Jessica Stroup", character: "Erin Silver" },
+      { actor: "Jessica Stroup", character: ERIN_SILVER_NAME },
       { actor: "Michael Steger", character: "Navid Shirazi" },
       { actor: "Jessica Walter", character: "Tabitha Wilson" },
       { actor: "Jessica Lowndes", character: "Adrianna-Tate-Duncan" },
@@ -17711,7 +17852,7 @@ tags: ["drama", "family", "teen-siblings"],
         seasonNumber: 2,
         premiereDate:  "September 27, 1995" ,
         finaleDate:  "1996-03-27" ,
-        premiereEpisode: "Ready or Not",
+        premiereEpisode: beverlyHillsS6Ep15Title,
         finaleEpisode: "Spring Breaks: Part 1 & 2",
         title: "Party of Five, Season 2",
         posterUrl:

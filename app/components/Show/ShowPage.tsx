@@ -1,6 +1,6 @@
 "use client"
 import { CharacterPortals } from "../Characters/CharactersPortals";
-import { seriesBetaWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
+import { allSeriesWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
 import { kidsSeriesWithSlug } from "@/app/functions/WithSlug/kidsSeriesWithSlug";
 import { useParams } from "next/navigation";
 import { SeasonsPortals } from "../Seasons/SeasonsPortals";
@@ -8,13 +8,13 @@ import { SeriesInfobox as Infobox } from "./SeriesInfobox";
 import { Show } from "../../models/types/structure/Show";
 import SoundtrackPortals from "../Music/SoundtrackPortals";
 import RelatedPortal from "../RelatedPortal";
-import { EpisodeBreakdown } from "../Seasons/Episodes/EpisodeBreakdown";
 import { useState } from "react";
 import { SoundtrackBreakDown } from "../Music/SoundtrackBreakdown";
 import { crimeSeriesWithSlug } from "../../functions/WithSlug/crimeSeriesWithSlug";
 import { MoviePortal } from "../Movies/MoviePortal";
 import { comedySeriesWithSlug } from "../../functions/WithSlug/comedySeriesWithSlug";
 import { fantasySeriesWithSlug } from "../../functions/WithSlug/fantasySeriesWithSlug";
+import { EpisodeBreakdownComponent } from "@/app/models/objects/EpisodeBreakdownComponent";
 
 type ShowPageProps = {
     genre:  Genre;
@@ -29,7 +29,7 @@ const ShowPage = ({genre}: ShowPageProps) => {
     let series: Show | undefined;
     if (genre === "drama") {
 
-        series = seriesBetaWithSlug.items.find((s) => s.slug === slug || s.id === slug)
+        series = allSeriesWithSlug.items.find((s) => s.slug === slug || s.id === slug)
 
     } else if (genre === "kids") {
         series = kidsSeriesWithSlug.items.find((s) => s.slug === slug)
@@ -45,6 +45,9 @@ const ShowPage = ({genre}: ShowPageProps) => {
     const related = series?.related?.[0];
     const relatedShow = related as { title?: string; id?: string } | undefined;
     const seasons = series?.seasons ?? [];
+    const season = seasons.find((s) => s.id);
+    if (seasons === undefined) return console.error("Season is undefined");
+    
     const movies = series?.movies ?? [];
     const episodes = seasons.length === 1
         ? (seasons[0]?.episodeBreakdown ?? [])
@@ -91,7 +94,11 @@ const ShowPage = ({genre}: ShowPageProps) => {
                         </span>
                         <section className={`${showEpisodes === false ? " h-1/3 overflow-y-scroll" : "block"} border-b`}>
                             {episodes.map((episode) => (
-                                <EpisodeBreakdown key={episode.id} episode={episode} />
+                                <EpisodeBreakdownComponent
+                                  key={episode.id}
+                                  season={season!}
+                                  episode={episode}
+                                />
                             ))}
                         </section>
                         <span className="flex gap-3 items-center">

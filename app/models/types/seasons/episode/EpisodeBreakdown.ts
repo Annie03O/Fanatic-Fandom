@@ -1,9 +1,10 @@
 import { Song } from "../../music/Song";
 import { Soundtrack } from "../../music/Soundtrack";
+import { Image } from "../../structure/Image";
 
 export type EpisodeBreakdown = {
     id: string;
-    imageUrl: string;
+    episodeImageUrl: Image;
     seasonNumber: number;
     episodeNumber: number | number[];
     episodeTitle: string[] | string;

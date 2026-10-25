@@ -1,7 +1,7 @@
 "use client";
 
 import ShowPortal from "../components/Show/ShowPortal";
-import { seriesBetaWithSlug } from "../functions/dramaSeriesTop50WithSlug";
+import { allSeriesWithSlug } from "../functions/dramaSeriesTop50WithSlug";
 
 
 
@@ -9,7 +9,7 @@ export const TeenPage = () => {
   return (
       <article className="flex flex-wrap w-[90%] p-2 gap-10 items-center justify-center">
      
-      {seriesBetaWithSlug.items
+      {allSeriesWithSlug.items
         .filter((i) => i.tags?.some((tag) => tag.toLowerCase() === "drama" || tag.toLowerCase() === "teen drama" || tag.toLowerCase() === "soap opera"))
         .map((i) => {
         

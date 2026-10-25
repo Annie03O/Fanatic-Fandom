@@ -1,6 +1,6 @@
 "use client"
 
-import { seriesBetaWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
+import { allSeriesWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
 import { useParams } from "next/navigation";
 import { SoundtrackInfobox } from "./SoundtrackInfobox";
 import { SoundtrackBreakDown } from "./SoundtrackBreakdown";
@@ -8,7 +8,7 @@ import { SoundtrackBreakDown } from "./SoundtrackBreakdown";
 function Soundtrack() {
  const { slug,  soundtrackId} = useParams<{slug: string, soundtrackId: string}>();
 
- const series = seriesBetaWithSlug.items.find((s) => s.slug === slug);
+ const series = allSeriesWithSlug.items.find((s) => s.slug === slug);
 
  if (!series) return <section>Series not found</section>;
 

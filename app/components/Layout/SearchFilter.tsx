@@ -95,6 +95,7 @@ function SearchFilter({ genre, subPage }: Props) {
                     placeholder="Search..."
                     value={searchInput}
                     onChange={handleSearchChange}
+                    suppressHydrationWarning
                 />
 
                 <button type="submit" className="w-[100px] bg-purple-300 hover:bg-purple-400 text-white border rounded-lg">

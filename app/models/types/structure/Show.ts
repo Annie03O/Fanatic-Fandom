@@ -24,6 +24,7 @@ export type Show = {
   cast: CastMember[];
   movies?: Movie[];  // for shows that have movies instead of seasons, like "The Hunger Games"
   seasons?: Season[];
+  soundtrack?: Soundtrack[];
   creator: string[] | string;
   director: string[] | string;
   writtenBy: string[] | string;

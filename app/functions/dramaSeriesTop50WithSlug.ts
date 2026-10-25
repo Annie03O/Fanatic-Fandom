@@ -2,7 +2,7 @@
 import { seriesBeta } from "../models/objects/allSeries";
 import { toRouteSlug } from "./toRouteSlug";
 
-export const seriesBetaWithSlug = {
+export const allSeriesWithSlug = {
   ...seriesBeta,
   items: seriesBeta.map((s) => ({
     ...s,

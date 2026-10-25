@@ -21,7 +21,7 @@ export type Character = {
     single?: boolean;
     occupation?: Occupation[];
     education?: Occupation[]; 
-    nationality?: string;
+    nationality?: "American" | "Norwegian" | "Mexican" | "Argentinian" | "Hispanic" | "Swedish";
     goesByNickname?: boolean;
     personality?: string;
     relationships?: Relationship[];

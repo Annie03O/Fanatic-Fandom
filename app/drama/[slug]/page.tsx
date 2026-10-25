@@ -1,9 +1,10 @@
+import { createElement, type ComponentType } from "react";
 import ShowPage from "@/app/components/Show/ShowPage";
-import { seriesBetaWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
+import { allSeriesWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
 
 
 export function generateStaticParams() {
-    return seriesBetaWithSlug.items.flatMap((series) => [
+    return allSeriesWithSlug.items.flatMap((series) => [
         { slug: series.slug },
         ...(series.id === series.slug ? [] : [{ slug: series.id }]),
     ]);
@@ -11,7 +12,10 @@ export function generateStaticParams() {
 
 
 function TeenPage() {
-    return <ShowPage genre="drama" />;
+    return createElement(
+        ShowPage as unknown as ComponentType<{ genre: "drama" }>,
+        { genre: "drama" },
+    );
 }
 
 export default TeenPage;

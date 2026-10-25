@@ -1,15 +1,34 @@
 "use client"
 
-import { EpisodeBreakdown as Episode } from "@/app/models/types/seasons/episode/EpisodeBreakdown"
 import { useState } from "react";
+import { toggleImage } from "@/app/functions/toggleImage";
+import { ModalComponent } from "@/app/models/objects/ModalComponent";
+import { createImages } from "@/app/models/objects/images";
+import { Season } from "@/app/models/types/seasons/Season";
+import type { EpisodeBreakdown as Episode } from "@/app/models/types/seasons/episode/EpisodeBreakdown";
 
 type Props = {
+    season: Season;
     episode: Episode;
     page?: boolean;
 }
 
-export const EpisodeBreakdown = ({episode, page} : Props) => {
+const EpisodeBreakdown = ({season, episode} : Props) => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [chooseImage, setChooseImage] = useState("");
     
+    const images = createImages(season).filter(
+      (image): image is {src: string; alt: string; characterId: string | string[]} => Boolean(image),
+    );
+
+    if (episode === undefined) return console.error("Couldn't find episode for EpisodeBreakdown");
+    console.log(episode);
+    
+    if (episode.episodeImageUrl.src === undefined) return console.error("imageUrl property  is", episode.episodeImageUrl);
+    if (episode.episodeImageUrl.src === undefined) return console.error("Couldn't find src for image");
+    
+    
+
 
     return <section className="flex flex-col border-b p-2 text-[#d1c3e3]">
                <section>
@@ -35,10 +54,36 @@ export const EpisodeBreakdown = ({episode, page} : Props) => {
                 <section className="w-full h-[200px] border flex">
                   <span className="w-4/5 p-1">{episode.plot}</span>
                   <section className="h-full border flex  w-1/5  overflow-hidden ">
-                    <img className="  flex   object-cover object-center" src={episode.imageUrl} alt="" />
+                    {episode.episodeImageUrl.src.trim() ? (
+                      
+                      <button
+                        type="button"
+                        className="cursor-pointer"
+                        onClick={() => {
+                          toggleImage(episode.episodeImageUrl.src, setChooseImage);
+                          setIsModalOpen(true);
+                        }}
+                        aria-label={`View ${season.title ?? `Season ${season.seasonNumber}`} poster`}
+                      >
+                         <img className="flex object-cover object-center" src={episode.episodeImageUrl.src} alt={episode.episodeImageUrl.alt} />
+                      </button>
+                    ) : null}
                   </section>
                 </section>
+                {isModalOpen && episode.episodeImageUrl.src ? (
+        <ModalComponent
+          toggleImage={setChooseImage}
+          images={images}
+          imgUrl={chooseImage}
+          title={season.title ?? `Season ${season.seasonNumber}`}
+          onClose={() => setIsModalOpen(false)}
+          type="Episode"
+          id={episode.id}
+        />
+      ) : null}
                  
                </section>
                                   </section>
 }
+
+export default EpisodeBreakdown;

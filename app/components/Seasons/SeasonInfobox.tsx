@@ -2,28 +2,42 @@
 import { Season } from "@/app/models/types/seasons/Season";
 import { convertToSeasonInfobox } from "@/app/functions/Convert/convertToSeasonInfobox";
 import Link from "next/link";
+import { Dispatch, SetStateAction, useState } from "react";
+import { ModalComponent } from "@/app/models/objects/ModalComponent";
+import { Image } from "@/app/models/types/structure/Image";
+import { Box } from "@/app/models/types/structure/Box";
+
 
 type Props = { 
   season: Season 
   genre:  Genre;
   slug: string;
+  images: Image[];
+  toggleImage: (imgUrl: string) => void;
+  chosenImage: string;
+  posterUrl: string;
+  openModal: () => void;
+  box: Box;
+  isModalOpen: boolean;
+  setIsModalOpen: Dispatch<SetStateAction<boolean>>;
 };
 
 
-export const SeasonInfobox = ({ season, genre, slug }: Props) => {
+export const SeasonInfobox = ({ season, genre, slug, images, toggleImage, chosenImage, posterUrl, openModal, box, isModalOpen, setIsModalOpen }: Props) => {
   
-  const seasonWithInfobox = convertToSeasonInfobox(season);
-  const box = seasonWithInfobox?.infobox;
-
-  if (!box) return null;
-
-
   return (
     <section className="flex flex-col justify-content items-center gap-3 bg-[#d1c3e3] text-black shadow-2xl  shadow-gray-600 ring-2 ring-[#d1c3e3]">
       <h2 className="text-2xl text-center">Season {season.seasonNumber}</h2>
-
-      <img className="w-full h-auto" src={box.posterSrc} alt={box.name} />
-
+      {posterUrl ? (
+        <button
+          type="button"
+          className="cursor-pointer"
+          onClick={openModal}
+          aria-label={`View ${season.title ?? `Season ${season.seasonNumber}`} poster`}
+        >
+          <img className="w-full h-auto" src={posterUrl} alt={box.name ?? ""} />
+        </button>
+      ) : null}
       <section className="border-t border-gray-400 text-lg">
         {box.fields.map((f) => (
           <section className="grid grid-cols-2 w-full p-1" key={f!.label}>
@@ -66,6 +80,18 @@ export const SeasonInfobox = ({ season, genre, slug }: Props) => {
           <section className={`w-full flex justify-end`}> Season {season.nextSeason?.seasonNumber}</section>
         </section>
       </section>
+      {isModalOpen && posterUrl ? (
+        <ModalComponent
+          toggleImage={toggleImage}
+          images={images}
+          imgUrl={chosenImage}
+          title={season.title ?? `Season ${season.seasonNumber}`}
+          onClose={() => setIsModalOpen(false)}
+          id={season.id}
+          type="Season"
+        
+        />
+      ) : null}
     </section>
   );
 };

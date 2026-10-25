@@ -12,7 +12,7 @@ export const Movie = () => {
 
     if (!moviesList) return <section>MovieList not found</section>;
 
-    const movie = moviesList.movies?.find((m) => toRouteSlug(m.base.id) === movieId)
+    const movie = moviesList.movies?.find((m) => toRouteSlug(m.id) === movieId)
 
     if (!movie) return <section>Movie not found</section>;
 

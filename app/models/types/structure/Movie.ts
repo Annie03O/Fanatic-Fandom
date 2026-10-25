@@ -3,8 +3,8 @@ import { Show } from "./Show";
 import { Soundtrack } from "../music/Soundtrack";
 
 export type Movie = {
+  id: string;
   base: {
-    id: string;
     posterUrl: string;
     title: string;
     plot?: string | string[];

@@ -1,8 +1,8 @@
 import { SeasonsPortals } from "@/app/components/Seasons/SeasonsPortals";
-import { seriesBetaWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
+import { allSeriesWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
 
 export function generateStaticParams() {
-  return seriesBetaWithSlug.items.map((series) => ({
+  return allSeriesWithSlug.items.map((series) => ({
     slug: series.slug,
   }));
 }
@@ -15,7 +15,7 @@ type Props = {
 
 export default async function AllSeasonsPage({ params }: Props) {
   const { slug } = await params;
-  const series = seriesBetaWithSlug.items.find((item) => item.slug === slug);
+  const series = allSeriesWithSlug.items.find((item) => item.slug === slug);
 
   if (!series) return <section>Series not found</section>;
 
