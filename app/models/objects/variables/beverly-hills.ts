@@ -89,6 +89,7 @@
 
     // Reacurring
         // Names
+            export var EMILY_VALENTINE_ID = "emily-valentine";
             export var EMILY_VALENTINE_NAME = "Emily Valentine";
             
             // Dylan's family
@@ -157,7 +158,9 @@
 
     //Romances
     export var BrendaDylan_ID = "brenda-dylan";
+
     export var BrandonKelly_ID = "brandon-kelly";
+    export var BrandonEmily_ID = "brandon-emily";
 
     export var DylanKelly_ID = "dylan-kelly";
     export var DylanToni_ID = "dylan-toni";
@@ -333,6 +336,15 @@
         export var SteveWassermanName = "Steve Wasserman";
 
         export var JessicaKleinName = "Jessica Klein";
+
+        export var JonathanRobertsName = "Jonathan Roberts";
+
+        export var JeffMelmanName = "Jeff Melman";
+
+        export var JeffersonKibbeeName = "Jefferson Kibbee";
+
+        export var BradleyGrossName = "Bradley Gross";
+
     
     // Artists
         export var SOHOArtist = "SO:HO"
@@ -343,3 +355,8 @@
 
         export var TheRaveUpArtist = "THE RAVE-UPS";
 
+        export var REMArtist = "R.E.M"
+
+        export var ERASUREArtist =  "ERASURE";
+
+        export var ColorMeBaddArtist = "Color Me Badd";

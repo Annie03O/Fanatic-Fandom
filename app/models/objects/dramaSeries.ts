@@ -1,6 +1,6 @@
 import { write } from "fs";
 import { Show } from "../types/structure/Show";
-import { KELLY_TAYLOR_ID, BRANDON_WALSH_ID, BRENDA_WALSH_ID, DYLAN_MCKAY_ID, DONNA_MARTIN_ID, CU, WestBev, BrandonBrenda_ID, BRENDA_WALSH_NAME, BrandonJim_ID, BRANDON_WALSH_NAME, JIM_WALSH_NAME, BrandonCindy_ID, CINDY_WALSH_NAME, DYLAN_MCKAY_NAME, BrandonDylan_ID, beverlyHillsS1Ep2Title, BrandonKelly_ID, KELLY_TAYLOR_NAME, beverlyHillsS4Ep32Title, beverlyHillsS5Ep21Title, beverlyHillsS7Ep26Title, beverlyHillsS8Ep20Title, beverlyHillsS5Ep20Title, beverlyHillsS5Ep30Title, beverlyHillsS8Ep16Title, beverlyHillsS9Ep2Title, BrandonAndrea_ID, ANDREA_ZUCKERMAN_ID, STEVE_SANDERS_NAME, STEVE_SANDERS_ID, VALERIE_MALONE_NAME, CLARE_ARNOLD_NAME, DAVID_SILVER_NAME, DONNA_MARTIN_NAME, BrendaCindy_ID, BrendaDylan_ID, BrendaKelly_ID, BrendaDonna_ID, ANDREA_ZUCKERMAN_NAME, beverlyHillsS1Ep1Title, TONI_MARCHETTE_NAME, DylanToni_ID, beverlyHillsS6Ep3Title, beverlyHillsS6Ep10Title, beverlyHillsS1Ep10Title, beverlyHillsS2Ep2Title, beverlyHillsS6Ep31Title, beverlyHillsS2Ep8Title, beverlyHillsS2Ep1Title, beverlyHillsS3Ep12Title, beverlyHillsS5Ep1Title, beverlyHillsS9Ep8Title, beverlyHillsS2Ep26Title, DylanJim_ID, DylanKelly_ID, beverlyHillsS3Ep19Title, beverlyHillsS4Ep1Title, beverlyHillsS4Ep2Title, DylanDavid_ID, DylanAndrea_ID, DylanGina_ID, GINA_KINCAID_NAME, GINA_KINCAID_ID, DylanValerie_ID, EMILY_VALENTINE_NAME, JACK_MCKAY_NAME, IRIS_MCKAY_NAME, ERICA_MCKAY_NAME, beverlyHillsSeriesFinaleTitle, DonnaKelly_ID, beverlyHillsS3Ep24Title, KellyJackie_ID, JACKIE_TAYLOR_NAME, SAMMY_TAYLOR_NAME, ERIN_SILVER_NAME, MEL_SILVER_NAME, DavidKelly_ID, JOHN_MARTIN_NAME, FELICE_MARTIN_NAME, BOBBI_KINCAID_NAME, SHEILA_SILVER_NAME, DonnaDavid_ID, beverlyHillsS6Ep32Title, beverlyHillsS2Ep17Title, beverlyHillsS4Ep21Title, beverlyHillsS7Ep11Title, beverlyHillsS7Ep21Title, beverlyHillsS10Ep24Title, beverlyHillsS4E15Title, beverlyHillsS7Ep2Title, beverlyHillsS7Ep19Title, beverlyHillsS8Ep10Title, beverlyHillsS6Ep8Title, beverlyHillsS6Ep15Title, beverlyHillsS6Ep21Title, beverlyHillsS6Ep30Title, SAMANTHA_SANDERS_NAME, RUSH_SANDERS_NAME, MADELINE_SANDERS_NAME, RYAN_SANDERS_NAME, AUSTIN_SANDERS_NAME, JANET_SOSNA_NAME, SteveValerie_ID, SteveJanet_ID, beverlyHillsS9Ep16Title, beverlyHillsS7Ep9Title, beverlyHillsS7Ep6Title, beverlyHillsS7Ep32Title, JESSE_VASQUEZ_NAME, VALERIE_MALONE_ID, PeachPitAfterDark, DavidValerie_ID, NOAH_HUNTER_NAME, COLIN_ROBBINS_NAME, BrandonValerie_ID, RAY_PRUIT_NAME, JESSE_VASQUEZ_ID, SCOTT_SCANLON_ID, CLARE_ARNOLD_ID, CARLY_REYNOLDS_ID, JANET_SOSNA_ID, NOAH_HUNTER_ID, beverlyHillsS1Ep3Title, CaitlinAdamsName, AmySpiesName, beverlyHillsS1Ep7Title, DanAttiasName, CharlesRosinName, JordanBuddeName, SOHOArtist, DarrenStarName, TheSupremesArtist, ChrisIsakArtist, KarenRosinName, CINDY_WALSH_ID, CharlesBravermanName, SteveWassermanName, JessicaKleinName, TheRaveUpArtist } from "./variables/beverly-hills";
+import { KELLY_TAYLOR_ID, BRANDON_WALSH_ID, BRENDA_WALSH_ID, DYLAN_MCKAY_ID, DONNA_MARTIN_ID, CU, WestBev, BrandonBrenda_ID, BRENDA_WALSH_NAME, BrandonJim_ID, BRANDON_WALSH_NAME, JIM_WALSH_NAME, BrandonCindy_ID, CINDY_WALSH_NAME, DYLAN_MCKAY_NAME, BrandonDylan_ID, beverlyHillsS1Ep2Title, BrandonKelly_ID, KELLY_TAYLOR_NAME, beverlyHillsS4Ep32Title, beverlyHillsS5Ep21Title, beverlyHillsS7Ep26Title, beverlyHillsS8Ep20Title, beverlyHillsS5Ep20Title, beverlyHillsS5Ep30Title, beverlyHillsS8Ep16Title, beverlyHillsS9Ep2Title, BrandonAndrea_ID, ANDREA_ZUCKERMAN_ID, STEVE_SANDERS_NAME, STEVE_SANDERS_ID, VALERIE_MALONE_NAME, CLARE_ARNOLD_NAME, DAVID_SILVER_NAME, DONNA_MARTIN_NAME, BrendaCindy_ID, BrendaDylan_ID, BrendaKelly_ID, BrendaDonna_ID, ANDREA_ZUCKERMAN_NAME, beverlyHillsS1Ep1Title, TONI_MARCHETTE_NAME, DylanToni_ID, beverlyHillsS6Ep3Title, beverlyHillsS6Ep10Title, beverlyHillsS1Ep10Title, beverlyHillsS2Ep2Title, beverlyHillsS6Ep31Title, beverlyHillsS2Ep8Title, beverlyHillsS2Ep1Title, beverlyHillsS3Ep12Title, beverlyHillsS5Ep1Title, beverlyHillsS9Ep8Title, beverlyHillsS2Ep26Title, DylanJim_ID, DylanKelly_ID, beverlyHillsS3Ep19Title, beverlyHillsS4Ep1Title, beverlyHillsS4Ep2Title, DylanDavid_ID, DylanAndrea_ID, DylanGina_ID, GINA_KINCAID_NAME, GINA_KINCAID_ID, DylanValerie_ID, EMILY_VALENTINE_NAME, JACK_MCKAY_NAME, IRIS_MCKAY_NAME, ERICA_MCKAY_NAME, beverlyHillsSeriesFinaleTitle, DonnaKelly_ID, beverlyHillsS3Ep24Title, KellyJackie_ID, JACKIE_TAYLOR_NAME, SAMMY_TAYLOR_NAME, ERIN_SILVER_NAME, MEL_SILVER_NAME, DavidKelly_ID, JOHN_MARTIN_NAME, FELICE_MARTIN_NAME, BOBBI_KINCAID_NAME, SHEILA_SILVER_NAME, DonnaDavid_ID, beverlyHillsS6Ep32Title, beverlyHillsS2Ep17Title, beverlyHillsS4Ep21Title, beverlyHillsS7Ep11Title, beverlyHillsS7Ep21Title, beverlyHillsS10Ep24Title, beverlyHillsS4E15Title, beverlyHillsS7Ep2Title, beverlyHillsS7Ep19Title, beverlyHillsS8Ep10Title, beverlyHillsS6Ep8Title, beverlyHillsS6Ep15Title, beverlyHillsS6Ep21Title, beverlyHillsS6Ep30Title, SAMANTHA_SANDERS_NAME, RUSH_SANDERS_NAME, MADELINE_SANDERS_NAME, RYAN_SANDERS_NAME, AUSTIN_SANDERS_NAME, JANET_SOSNA_NAME, SteveValerie_ID, SteveJanet_ID, beverlyHillsS9Ep16Title, beverlyHillsS7Ep9Title, beverlyHillsS7Ep6Title, beverlyHillsS7Ep32Title, JESSE_VASQUEZ_NAME, VALERIE_MALONE_ID, PeachPitAfterDark, DavidValerie_ID, NOAH_HUNTER_NAME, COLIN_ROBBINS_NAME, BrandonValerie_ID, RAY_PRUIT_NAME, JESSE_VASQUEZ_ID, SCOTT_SCANLON_ID, CLARE_ARNOLD_ID, CARLY_REYNOLDS_ID, JANET_SOSNA_ID, NOAH_HUNTER_ID, beverlyHillsS1Ep3Title, CaitlinAdamsName, AmySpiesName, beverlyHillsS1Ep7Title, DanAttiasName, CharlesRosinName, JordanBuddeName, SOHOArtist, DarrenStarName, TheSupremesArtist, ChrisIsakArtist, KarenRosinName, CINDY_WALSH_ID, CharlesBravermanName, SteveWassermanName, JessicaKleinName, TheRaveUpArtist, REMArtist, JonathanRobertsName, DAVID_SILVER_ID, JeffMelmanName, JeffersonKibbeeName, BradleyGrossName, ERASUREArtist, EMILY_VALENTINE_ID, BrandonEmily_ID, ColorMeBaddArtist } from "./variables/beverly-hills";
 
 export const dramaSeries: Show[] = [
   {
@@ -1017,6 +1017,7 @@ export const dramaSeries: Show[] = [
             gender: "F"
           },
           {
+            id: BrandonEmily_ID,
             name: EMILY_VALENTINE_NAME,
             type: "Romantic",
             romantic: "One Date",
@@ -3252,7 +3253,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://m.media-amazon.com/images/M/MV5BZTdhZmUxYTYtNjMyZS00NWNkLTk4YTAtN2IzODcyZWMyYmNkXkEyXkFqcGc@._V1_.jpg",
               alt: "Image of Brenda sitting in her car in the school parking lot.",
-              characterId: BRENDA_WALSH_ID,
+              pageId: BRENDA_WALSH_ID,
             },
             episodeTitle: [beverlyHillsS1Ep1Title],
             director: "Tim Hunter",
@@ -3310,7 +3311,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://m.media-amazon.com/images/M/MV5BMTUwNDM0NDQ1NV5BMl5BanBnXkFtZTgwMDk3Mzg3MjE@._V1_.jpg",
               alt: "Dylan sitting on the steps to West Beverly.",
-              characterId: DYLAN_MCKAY_ID,
+              pageId: DYLAN_MCKAY_ID,
             },
             episodeTitle: [beverlyHillsS1Ep2Title],
             director: "Micheal Uno",
@@ -3343,7 +3344,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://static.wikia.nocookie.net/90210/images/e/ea/103brenkelly.png/revision/latest/thumbnail/width/360/height/360?cb=20220114122554",
               alt: "Kelly and Brenda standing by the lockers in the hallway at West Beverly High",
-              characterId: [BRENDA_WALSH_ID, KELLY_TAYLOR_ID]
+              pageId: [BRENDA_WALSH_ID, KELLY_TAYLOR_ID]
             },
             episodeTitle: [beverlyHillsS1Ep3Title],
             director: CaitlinAdamsName,
@@ -3378,7 +3379,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://resizing.flixster.com/ZGJpjb2ExZ0tHzeguz-BDbacDRY=/fit-in/352x330/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p1265603_e_h11_ac.jpg",
               alt: "Brandon's ex-girlfriend, Sheryl is sitting at a table smiling", 
-              characterId: "sheryl-beverly-hills-90210",
+              pageId: "sheryl-beverly-hills-90210",
             },
             director: "Bethany Rooney",
             writtenBy: DarrenStarName,
@@ -3394,7 +3395,7 @@ export const dramaSeries: Show[] = [
               {
                 id: "dreamlike-state",
                 title: "Dreamlike State",
-                artist: "Erasure",
+                artist: ERASUREArtist,
               },
               {
                 id: "in-the-mood",
@@ -3419,7 +3420,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483740739727/PPCBS_BEVERLYHILLS90210_004_UHD_V1_3654535_1920x1080.jpg",
               alt: "Kelly, Donna and Brenda are talking at school.",
-              characterId: [BRENDA_WALSH_ID, KELLY_TAYLOR_ID, "donna-martin"],
+              pageId: [BRENDA_WALSH_ID, KELLY_TAYLOR_ID, "donna-martin"],
             },
             director: "Artie Mandelberg",
             writtenBy: CharlesRosinName, 
@@ -3453,7 +3454,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39833649/PPCBS_BEVERLYHILLS90210_006_UHD_3378273_1920x1080.jpg",
               alt: "Brenda is at school in the courtyard with puffy, light-brown hair.",
-              characterId: BRENDA_WALSH_ID,
+              pageId: BRENDA_WALSH_ID,
             },
             director: "Artie Mandelberg",
             writtenBy: JordanBuddeName,
@@ -3479,7 +3480,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9OCN5nmt3qXI5RntF3GEy7rfQ_ggJrFDR_k9v7-nxhnAyfCeirjCnMQuo&s=10",
               alt: "Kelly is standing in a crowd looking upset. Mrs. Walsh is standing behind her with a horrifed expression on her face.",
-              characterId: [KELLY_TAYLOR_ID]
+              pageId: [KELLY_TAYLOR_ID]
             },
             director: "Bethany Rooney",
             writtenBy: DarrenStarName,
@@ -3489,7 +3490,7 @@ export const dramaSeries: Show[] = [
             soundtrack: [
               {
                 title: "star",
-                artist: "ERASURE",
+                artist: ERASUREArtist,
               }
             ]
           },
@@ -3501,7 +3502,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483742787553/PPCBS_BEVERLYHILLS90210_008_UHD_V1_3654630_1920x1080.jpg",
               alt: "Brenda and Brandon are sitting at a table with name signs",
-              characterId: [BRENDA_WALSH_ID, BRANDON_WALSH_ID]
+              pageId: [BRENDA_WALSH_ID, BRANDON_WALSH_ID]
             },
             director: "Jefferson Kibee",
             writtenBy: AmySpiesName,
@@ -3531,7 +3532,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483744323756/PPCBS_BEVERLYHILLS90210_009_UHD_V1_3654704_1920x1080.jpg",
               alt: "Steve, Dylan and Brandon are talking outside of school",
-              characterId: [
+              pageId: [
                 BRANDON_WALSH_ID,
                 DYLAN_MCKAY_ID,
                 STEVE_SANDERS_ID
@@ -3569,7 +3570,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483750467758/PPCBS_BEVERLYHILLS90210_010_UHD_V1_3654555_1920x1080.jpg",
               alt: "Brenda and Brandon are outside the house. Brandon is looking confused at Brenda.",
-              characterId: [
+              pageId: [
                 BRENDA_WALSH_ID,
                 BRANDON_WALSH_ID,
               ],
@@ -3602,7 +3603,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483744835513/PPCBS_BEVERLYHILLS90210_011_UHD_V1_3654601_1920x1080.jpg",
               alt: "Dylan and Brenda are in the hallway. Dylan is leaning over Brenda gazing into her eyes.",
-              characterId: [
+              pageId: [
                 BRENDA_WALSH_ID,
                 DYLAN_MCKAY_ID
               ],
@@ -3635,7 +3636,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483739203809/PPCBS_BEVERLYHILLS90210_012_UHD_V1_3654582_1920x1080.jpg",
               alt: "Brenda, Brandon and Kelly are all sitting on Brenda's bed. Brandon is making a phone call while the girls are staring at him with excitement.",
-              characterId: [
+              pageId: [
                 BRANDON_WALSH_ID,
                 BRENDA_WALSH_ID,
                 KELLY_TAYLOR_ID
@@ -3672,7 +3673,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://static.wikia.nocookie.net/90210/images/f/f8/Normal_PDVD_344.jpg/revision/latest?cb=20101030232411",
               alt: "Kelly is crying while telling the girls about her first time",
-              characterId: [KELLY_TAYLOR_ID],
+              pageId: [KELLY_TAYLOR_ID],
             },
             director: CharlesBravermanName,
             writtenBy: DarrenStarName,
@@ -3698,7 +3699,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483743811579/PPCBS_BEVERLYHILLS90210_015_UHD_V1_3654614_1920x1080.jpg",
               alt: "Brandon is hugging the niece of the family's maid, Carla.",
-              characterId: BRANDON_WALSH_ID,
+              pageId: BRANDON_WALSH_ID,
             },
             director: DanAttiasName,
             writtenBy: [
@@ -3731,12 +3732,12 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483744323866/PPCBS_BEVERLYHILLS90210_016_UHD_V1_3654685_1920x1080.jpg",
               alt: "Dylan and Brenda are laying in sun chairs at night talking outside the hotel.",
-              characterId: [
+              pageId: [
                 BRENDA_WALSH_ID,
                 DYLAN_MCKAY_ID
               ],
             },
-            director: "Jefferson Kibbee",
+            director: JeffersonKibbeeName,
             writtenBy: JordanBuddeName,
             plot: "The students of West Beverly head to Palm Springs for President's Day Weekend. Thinking that his grandparents are on a cruise, David invites Steve, Kelly, and Donna to stay at their house, but David is soon in for a shock when he finds out what is waiting for them. Brenda and Dylan make plans to finally have sex, but Brenda gets lost trying to find Dylan’s hotel and ends up seeing him with another girl. Steve asks Kelly to give their relationship another chance. Back in Beverly Hills, Brandon meets a young boy at the Peach Pit and discovers the reason he hangs around at the restaurant all day.",
             releaseDate: "February 21, 1991",
@@ -3764,7 +3765,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://i.pinimg.com/564x/99/af/08/99af08f52289e1c990afcdffa0fc12c0.jpg",
               alt: "Dressed as a waitress, Brenda is singing 'It's My Party', using a whisk as a mic.",
-              characterId: BRENDA_WALSH_ID,
+              pageId: BRENDA_WALSH_ID,
             },
             director: "Paul Schneider",
             writtenBy: [
@@ -3797,7 +3798,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://cfm.yidio.com/images/tv/176/2398/episode-image-400x225.jpg",
               alt: "Brandon is looking sad while talking to Kelly",
-              characterId: BRANDON_WALSH_ID,
+              pageId: BRANDON_WALSH_ID,
             },
             director: "Burt Brickenhoff",
             writtenBy: AmySpiesName,
@@ -3823,7 +3824,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTBxzqFYGcPprVopzEijkPDCcONQ-gjvNuK8ESSSLfk9458hDhLtiUTJbA&s=10",
               alt: "Cindy is looking nervous at Brenda's doctor's apoitment",
-              characterId: [
+              pageId: [
                 BRENDA_WALSH_ID,
                 CINDY_WALSH_ID,
               ]
@@ -3848,7 +3849,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483742787940/PPCBS_BEVERLYHILLS90210_019_UHD_V1_3654705_1920x1080.jpg",
               alt: "Brandon is talking to the proffessional tennis player, Roger Azarian (played by Matthew Perry), because he wants to interview him for the school news paper.",
-              characterId: [
+              pageId: [
                 BRANDON_WALSH_ID
               ],
 
@@ -3880,7 +3881,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483742787540/PPCBS_BEVERLYHILLS90210_020_UHD_V1_3654639_1920x1080.jpg",
               alt: "Brandon and Steve are at the baseball court. Brandon is dressed in baseball clothes.",
-              characterId: [
+              pageId: [
                 BRANDON_WALSH_ID,
                 STEVE_SANDERS_ID,
               ],
@@ -3900,7 +3901,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/29/2484089411525/PPCBS_BEVERLYHILLS90210_022_UHD_V1_3662446_1920x1080.jpg",
               alt: "At the Walsh House, Kelly is adjusting Brandon's suit as they get ready for the spring dance.",
-              characterId: [
+              pageId: [
                 BRANDON_WALSH_ID,
                 KELLY_TAYLOR_ID,
               ]
@@ -3945,7 +3946,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://www.televisionofyore.com/uploads/9/3/0/3/9303799/3753458_orig.jpeg",
               alt: "Brandon and Brenda are walking on the beach with their arms around each other.",
-              characterId: [
+              pageId: [
                 BRANDON_WALSH_ID,
                 BRENDA_WALSH_ID,
               ]
@@ -4060,12 +4061,19 @@ export const dramaSeries: Show[] = [
           {
             id: "beach-blanket-brandon",
             episodeTitle: beverlyHillsS2Ep1Title,
-            imageUrl: "https://leavingcertirishnotes.wordpress.com/wp-content/uploads/2015/08/beachblanket.jpg",
+            episodeImageUrl: {
+              src: "https://leavingcertirishnotes.wordpress.com/wp-content/uploads/2015/08/beachblanket.jpg",
+              alt: "Brandon is at the beach, shirtless, talking to the general manager of the Beverly Hills Beach Club, Henry Thomas, while holding a towel.",
+              pageId: [
+                BRANDON_WALSH_ID,
+                "henry-thomas",
+              ],
+            },
             seasonNumber: 2,
             episodeNumber:1,
             plot: "With their Sophomore year over, Brenda has a life changing development. Meanwhile, Brandon wants to earn enough money to buy a new car and has to make a difficult decision with his job at the Peach.",
             director: CharlesBravermanName,
-            writtenBy: "Darren Starr",
+            writtenBy: DarrenStarName,
             releaseDate: "July 11, 1991",
             usViewers: 19.1,
             soundtrack: [
@@ -4083,7 +4091,7 @@ export const dramaSeries: Show[] = [
             },
             {
               title: "Losing My Religion",
-              artist: "R.E.M."
+              artist: REMArtist
             },
             {
               title: "droppin' like flies",
@@ -4094,11 +4102,17 @@ export const dramaSeries: Show[] = [
           {
             id: "the-party-fish",
             episodeTitle: "The Party Fish",
-            imageUrl: "https://m.media-amazon.com/images/M/MV5BMzZjYzY5NzgtNWJiYi00OGJlLWIxOWMtN2NkYjk2NTcyNmYwXkEyXkFqcGc@._V1_.jpg",
+            episodeImageUrl: {
+              src: "https://m.media-amazon.com/images/M/MV5BMzZjYzY5NzgtNWJiYi00OGJlLWIxOWMtN2NkYjk2NTcyNmYwXkEyXkFqcGc@._V1_.jpg",
+              alt: "Brandon is dressed in golf attire, while talking to Jerry Ratinger wife.",
+              pageId: [
+                BRANDON_WALSH_ID,
+              ],
+            },
             seasonNumber: 2,
             episodeNumber:2,
             plot: "Working at the Beach Club, Brandon meets Jerry Ratinger who hires him as a driver for his wife, but learns some shocking information on the job. Meanwhile, Brenda decides to attend summer school with Donna and Andrea in order to get her mind off Dylan.",
-            director: "Daniel Attias",
+            director: DanAttiasName,
             writtenBy: CharlesRosinName, 
             releaseDate: "July 18, 1991",
             usViewers: 16.0,
@@ -4120,18 +4134,28 @@ export const dramaSeries: Show[] = [
           {
             id: "summer-storm",
             episodeTitle: "Summer Storm",
-            imageUrl: "https://static.wikia.nocookie.net/90210/images/f/fd/203kylekellydate.png/revision/latest?cb=20231204005457",
+            episodeImageUrl: {
+              src: "https://static.wikia.nocookie.net/90210/images/f/fd/203kylekellydate.png/revision/latest?cb=20231204005457",
+              alt: "Kelly is at the beach at night with Kyle. They are looking at each other daringly.",
+              pageId: [
+                KELLY_TAYLOR_ID,
+                "kyle-conners",
+              ],
+            },
             seasonNumber: 2,
             episodeNumber:3,
             plot: "When Jack McKay is indicted on income tax evasion, Dylan goes out surfing in dangerous waters and is injured in a storm. The Walsh family take him to the hospital, but Jim is upset when he catches Brenda kissing Dylan. Meanwhile, Donna and David are dismayed to be partnered up in drama class to perform a scene from Romeo and Juliet. Kelly falls for a handsome volleyball player who likes her but for some reason won't have sex with her.",
             director: CharlesBravermanName,
-            writtenBy: "Steve Wasserman & Jessica Klein",
+            writtenBy: [
+              SteveWassermanName,
+              JessicaKleinName
+            ],
             releaseDate: "July 25, 1991",
             usViewers: 18.1,
             soundtrack: [
               {
                 title: "You Are the Everything",
-                artist: "R.E.M."
+                artist: REMArtist
               },
               {
                 title: "I Don't Get Much Sleep Anymore",
@@ -4146,12 +4170,19 @@ export const dramaSeries: Show[] = [
           {
             id: "anaconda",
             episodeTitle: "Anaconda",
-            imageUrl: "https://90sflashback.wordpress.com/wp-content/uploads/2011/09/anaconda.jpg",
+            episodeImageUrl: {
+              src: "https://90sflashback.wordpress.com/wp-content/uploads/2011/09/anaconda.jpg",
+              alt: "Brenda and Donna at the poker game. Brenda is wearing a golden dress while Donna is wearing a dark blue dress with glitter. ",
+              pageId: [
+                BRENDA_WALSH_ID,
+                DONNA_MARTIN_ID
+              ]
+            },
             seasonNumber: 2,
             episodeNumber:4,
             plot: "Jim suggests that Dylan visit his mother in Hawaii. Steve and Brandon organize after-dark poker games at the beach club, and the teens enjoy dressing up like high rollers of the past. But when a burglary occurs, their scheme is exposed and a penniless Dylan is fingered as the prime suspect. Meanwhile, Brenda and Donna go sunbathing hoping for the perfect tan, but a sleepy Brenda gets a case of sun-poisoning.",
-            director: "Daniel Attias",
-            writtenBy: "Jonathan Roberts",
+            director: DanAttiasName,
+            writtenBy: JonathanRobertsName,
             releaseDate: "August 1, 1991",
             usViewers: 15.4,
             soundtrack: [
@@ -4168,7 +4199,14 @@ export const dramaSeries: Show[] = [
           {
             id: "play-it-again,-david",
             episodeTitle: "Play it Again, David",
-            imageUrl: "https://www.rollingstone.com/wp-content/uploads/2019/08/beverly-hills-90210.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39820100/PPCBS_BEVERLYHILLS90210_027_UHD_3378359_1920x1080.jpg",
+              alt: "Kelly is at the hospital visiting her mom. Next to her is Mel Silver.",
+              pageId: [
+                KELLY_TAYLOR_ID,
+                "mel-silver"
+              ],
+            },
             seasonNumber: 2,
             episodeNumber: 5,
             plot: "When Andrea persuades Brandon to hang out with a young boy, they discover a possible case of child abuse. David's dad and Kelly's mom meet and start dating when Jackie breaks a tooth, much to David's delight and Kelly's chagrin. Meanwhile, Brenda can't keep thoughts of Dylan out of her mind while he is in Hawaii.",
@@ -4186,11 +4224,19 @@ export const dramaSeries: Show[] = [
           {
             id: "pass/not-pass",
             episodeTitle: "Pass, Not Pass",
-            imageUrl: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2019/07/03/1562690627955/PPCBS_BEVERLYHILLS90210_028_UHD_3408614_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2019/07/03/1562690627955/PPCBS_BEVERLYHILLS90210_028_UHD_3408614_1920x1080.jpg",
+              alt: "Kelly, Donna and Steve are sitting on a porch, smiling.", 
+              pageId: [
+                KELLY_TAYLOR_ID,
+                DONNA_MARTIN_ID,
+                STEVE_SANDERS_ID,
+              ]         
+            },
             seasonNumber: 2,
             episodeNumber: 6,
             plot: "Brandon has finally saved enough money to get his dream car and buys it against his father's advice; unfortunately it breaks down mere minutes after leaving the dealership. Angry and disappointed with his son's impetuous decision, Jim debates over whether to help him. Meanwhile, both Brenda and Andrea develop feelings for their acting teacher, sparking a physical altercation between the girls when he shows interest in Andrea.",
-            director: "Jefferson Kibbee",
+            director: JeffersonKibbeeName,
             writtenBy: "Allison Adler",
             releaseDate: "August 15, 1991",
             usViewers: 16.1,
@@ -4224,11 +4270,23 @@ export const dramaSeries: Show[] = [
           {
             id: "camping-trip",
             episodeTitle: "Camping Trip",
-            imageUrl: "https://static.wikia.nocookie.net/90210/images/5/52/207gang.png/revision/latest?cb=20170202234117",
+            episodeImageUrl: {
+              src: "https://static.wikia.nocookie.net/90210/images/5/52/207gang.png/revision/latest?cb=20170202234117",
+              alt: "The gang are all standing by the car, getting ready to go on the camping trip. Dylan has his arms wrapped around Brenda and Andrea. He is kissing Andrea on her head.",
+              pageId: [
+                BRENDA_WALSH_ID,
+                DYLAN_MCKAY_ID,
+                ANDREA_ZUCKERMAN_ID,
+                DAVID_SILVER_ID,
+                KELLY_TAYLOR_ID,
+                DONNA_MARTIN_ID,
+                DylanAndrea_ID
+              ]
+            },
             seasonNumber: 2,
             episodeNumber:7,
             plot: "The gang decide to go on a parent-free camping trip, but neither weather nor cabin meets their expectations. The newlyweds honeymooning next door share their problems with the teens. Meanwhile, Dylan's drinking problem returns, but not before he works to save Brandon's life as he dangles helplessly over a cliff.",
-            director: "Jeff Melman",
+            director: JeffMelmanName,
             writtenBy: KarenRosinName,
             releaseDate: "August 29, 1991",
             usViewers:17.0,
@@ -4237,11 +4295,22 @@ export const dramaSeries: Show[] = [
           {
             id: "wild-fire",
             episodeTitle: "Wild Fire",
-            imageUrl: "https://www.rollingstone.com/wp-content/uploads/2019/08/beverly-hills-90210.jpg",
+            episodeImageUrl: {
+              src: "https://www.rollingstone.com/wp-content/uploads/2019/08/beverly-hills-90210.jpg",
+              alt: "Brenda, Donna and Kelly are on stage at school singing 'Breaking Up Is Hard To Do'. They are all wearing matching black minidresses with backslick ponytails.",
+              pageId: [
+                BRENDA_WALSH_ID,
+                KELLY_TAYLOR_ID,
+                DONNA_MARTIN_ID,
+                BrendaKelly_ID,
+                DonnaKelly_ID,
+                BrendaDonna_ID,
+              ],
+            },
             seasonNumber: 2,
             episodeNumber:8,
             plot: "School is back in session for the students of West Beverly and new student Emily Valentine makes a big splash with the guys, especially Brandon and Dylan. The girls don't exactly take well to the interloper, especially jealous Brenda, who realizes she might want Dylan back after all. Meanwhile, Scott returns from Oklahoma and finds his friendship with newly-popular David considerably cooled.",
-            director:  "Daniel Attias",
+            director:  DanAttiasName,
             writtenBy: [
               SteveWassermanName,
               JessicaKleinName
@@ -4278,7 +4347,13 @@ export const dramaSeries: Show[] = [
           {
             id: "ashes-to-ashes",
             episodeTitle: "Ashes to Ashes",
-            imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5bs9zXBc1oN_7p3DT20YB20aUWzHVYdk3H57hSkwiit3zgV5nkQc1vVE&s=10",
+            episodeImageUrl: {
+              src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5bs9zXBc1oN_7p3DT20YB20aUWzHVYdk3H57hSkwiit3zgV5nkQc1vVE&s=10",
+              alt: "Sherice is talking to Brandon outside the Walsh house.",
+              pageId: [
+                "sherice-ashe",
+              ]
+            },
             seasonNumber: 2,
             episodeNumber: 9,
             plot: "The Blaze finds a new staff photographer, Robinson Ash III, who is delighted about getting the job, but not as thrilled with his welcome to Beverly Hills. Meanwhile, the Walshes try out a new home alarm system, which is more hindrance than help.",
@@ -4307,12 +4382,23 @@ export const dramaSeries: Show[] = [
           {
             id: "necessity-is-a-mother",
             episodeTitle: "Necessity is a Mother",
-            imageUrl: "https://m.media-amazon.com/images/M/MV5BODk4NDUxMTAxNl5BMl5BanBnXkFtZTgwMDE0NTIwMzE@._V1_.jpg",
+            episodeImageUrl: {
+              src: "https://m.media-amazon.com/images/M/MV5BODk4NDUxMTAxNl5BMl5BanBnXkFtZTgwMDE0NTIwMzE@._V1_.jpg",
+              alt: "Dylan and Brenda are standing in the Walsh kitchen next to each other.",
+              pageId: [
+                BRENDA_WALSH_ID,
+                DYLAN_MCKAY_ID,
+                BrendaDylan_ID
+              ],
+            },
             seasonNumber: 2,
             episodeNumber:10,
             plot: "Dylan's mother Iris makes a surprise visit to Beverly Hills, hoping to start fresh with her estranged son. Cindy hits it off with free-spirited Iris, but the strain of his mother's reappearance drives Dylan back to the bottle. Later Dylan and Iris reconcile and she tells him that she had left because his father drove her away and paid her a lot of money to stay out of his life. She took the money but never kept a penny of it, and now she's decided to give it to Dylan; she'll place it in a trust and ask Jim to look after it. Brandon decides to take Dylan to an A.A. meeting. Donna and Steve experiment with the stock market, and Donna turns out to have a surprising knack for picking successful stocks.",
-            director: "Jefferso Kibbee",
-            writtenBy: "Steve Wasserman & Jessica Klein",
+            director: JeffersonKibbeeName,
+            writtenBy: [
+              SteveWassermanName,
+              JessicaKleinName
+            ],
             releaseDate: "September 26, 1991",
             usViewers:16.5,
             soundtrack: [
@@ -4333,12 +4419,21 @@ export const dramaSeries: Show[] = [
           {
             id: "leading-from-the-heart",
             episodeTitle: "Leading from the Heart",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39820056/PPCBS_BEVERLYHILLS90210_033_UHD_3378362_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39820056/PPCBS_BEVERLYHILLS90210_033_UHD_3378362_1920x1080.jpg",
+              alt: "Brenda, Kelly, Brandon and Bobby are riding in a car",
+              pageId: [
+                BRENDA_WALSH_ID,
+                BRANDON_WALSH_ID,
+                KELLY_TAYLOR_ID,
+                "bobby-walsh",
+              ],
+            },
             seasonNumber: 2,
             episodeNumber:11,
             plot: "A cute Walsh cousin who uses a wheelchair visits. He and Kelly hit it off, but Brenda isn't happy, since she's sure fickle Kelly will soon lose interest. Meanwhile, Brenda finally gets her driver's license, and David develops feelings for Donna.",
-            director: "Daniel Attias",
-            writtenBy: "Darren Starr",
+            director: DanAttiasName,
+            writtenBy: DarrenStarName,
             releaseDate: "October 10, 1991",
             usViewers:15.9,
             soundtrack: [
@@ -4359,21 +4454,29 @@ export const dramaSeries: Show[] = [
           {
             id: "down-and-out-(of-district)-in-beverly-hills",
             episodeTitle: "Down and Out (of District) in Beverly Hills",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39820580/PPCBS_BEVERLYHILLS90210_034_UHD_3378369_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39820580/PPCBS_BEVERLYHILLS90210_034_UHD_3378369_1920x1080.jpg",
+              alt: "Brandon, Dylan and Nat are sitting at the diner talking.",
+              pageId: [
+                BRANDON_WALSH_ID,
+                DYLAN_MCKAY_ID,
+                "nat-bussichio"
+              ],
+            },
             seasonNumber: 2,
             episodeNumber:12,
             plot: "Andrea's success in a teen journalism competition exposes the fact that she may be living out of district, which is further complicated by her grandmother's refusal to lie about her living situation. Meanwhile, Steve's new girlfriend may be more interested in his money than in him.",
             director: CharlesBravermanName,
             writtenBy: [
-              "Story by : Karen Rosin & Allison Adler",
-              "Teleplay by : Karen Rosin",
+              `Story by : ${KarenRosinName} & Allison Adler`,
+              `Teleplay by : ${KarenRosinName}`,
             ],
             releaseDate: "October 17, 1991",
             usViewers:15.0,
             soundtrack: [	
                 {
                   title: "radio song",
-                  artist:	"R.E.M.",
+                  artist:	REMArtist,
                 },
                 {
                   title: "build me up buttercup",
@@ -4381,11 +4484,11 @@ export const dramaSeries: Show[] = [
                 },
                 {
                   title: "shiny happy people",
-                  artist:	"R.E.M.",	
+                  artist:	REMArtist,	
                 },
                 {
                   title: "losing my religion",
-                  artist:	"R.E.M.",
+                  artist:	REMArtist,
                 },
                 {
                   title: "over and over",
@@ -4400,18 +4503,28 @@ export const dramaSeries: Show[] = [
           {
             id: "halloween",
             episodeTitle: "Halloween",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39817447/PPCBS_BEVERLYHILLS90210_035_UHD_3378365_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39817447/PPCBS_BEVERLYHILLS90210_035_UHD_3378365_1920x1080.jpg",
+              alt: "Dylan, Brenda and Donna are at the costume party, looking chocked.",
+              pageId: [
+                BRENDA_WALSH_ID,
+                DYLAN_MCKAY_ID,
+                DONNA_MARTIN_ID,
+                BrendaDonna_ID,
+                BrendaDylan_ID,
+              ],
+            },
             seasonNumber: 2,
             episodeNumber:13,
             plot: "Brandon and Emily take her two young cousins trick-or-treaing but lose them along the way. David and Scott decide to take part in an annual egg fight, a Halloween tradition for the former best friends. Meanwhile, Kelly narrowly escapes a sexual assault at a party.",
             director: "Micheal Katleman",
-            writtenBy: "Jonathan Roberts",
+            writtenBy: JonathanRobertsName,
             releaseDate: "October 31, 1991",
             usViewers:16.6,
             soundtrack: [	
               {
                 title: "sweet sweet baby",
-                artist:	"ERASURE",	
+                artist:	ERASUREArtist,	
               },
               {
                 title: "romantic",
@@ -4434,11 +4547,19 @@ export const dramaSeries: Show[] = [
           {
             id: "the-next-50-years",
             episodeTitle: "The Next 50 Years",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/12/2451028035782/PPCBS_BEVERLYHILLS90210_036_UHD_3371584_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/12/2451028035782/PPCBS_BEVERLYHILLS90210_036_UHD_3371584_1920x1080.jpg",
+              alt: "David and Scott are in the courtyard looking at something",
+              pageId: [
+                DAVID_SILVER_ID,
+                SCOTT_SCANLON_ID,
+                "david-scott"
+              ]
+            },
             seasonNumber: 2,
             episodeNumber:14,
             plot: "During Scott's surprise 16th-birthday party, an accidental shooting turns fatal. Meanwhile, Andrea grows jealous of Brandon's attention to Emily, and the gang grieves after a sudden death.",
-            director: "Daniel Attias",
+            director: DanAttiasName,
             writtenBy: [
               KarenRosinName,
               CharlesRosinName
@@ -4475,7 +4596,15 @@ export const dramaSeries: Show[] = [
           {
             id: "u4ea",
             episodeTitle: "U4EA",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39817478/PPCBS_BEVERLYHILLS90210_037_UHD_3378538_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39817478/PPCBS_BEVERLYHILLS90210_037_UHD_3378538_1920x1080.jpg",
+              alt: "Brandon is standing in the hallway with his arm around Emily.",
+              pageId: [
+                BRANDON_WALSH_ID,
+                EMILY_VALENTINE_ID,
+                BrandonEmily_ID
+              ]
+            },
             seasonNumber: 2,
             episodeNumber:15,
             plot: "The gang heads out to a 'not-so-legal' underground club, and Emily introduces Brandon to the world of drugs. Brandon's car goes through another stage in its life cycle. Meanwhile, Steve and Andrea have an adventurous night together.",
@@ -4509,11 +4638,19 @@ export const dramaSeries: Show[] = [
           {
             id: "my-desperate-valentine",
             episodeTitle: "My Desperate Valentine",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39814987/PPCBS_BEVERLYHILLS90210_038_UHD_3378552_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39814987/PPCBS_BEVERLYHILLS90210_038_UHD_3378552_1920x1080.jpg",
+              alt: "Brandon is talking to Emily in the hallway",
+              pageId: [
+                BRANDON_WALSH_ID,
+                EMILY_VALENTINE_ID,
+                BrandonEmily_ID
+              ]
+            },
             seasonNumber: 2,
             episodeNumber:16,
             plot: "Emily's desperate desire to win back Brandon's affection spirals into a twisted obsession that puts the entire Walsh family at risk. Meanwhile, Brenda worries that she and Dylan spend too much time making out and urges him to attend cultural events with her.",
-            director: "Jeff Melman",
+            director: JeffMelmanName,
             writtenBy: "Micheal Swerdlick",
             releaseDate: "November 21, 1991",
             usViewers:28.7,
@@ -4527,14 +4664,21 @@ export const dramaSeries: Show[] = [
           {
             id: "chuckie's-back",
             episodeTitle: beverlyHillsS2Ep17Title,
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39820504/PPCBS_BEVERLYHILLS90210_039_UHD_3378540_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39820504/PPCBS_BEVERLYHILLS90210_039_UHD_3378540_1920x1080.jpg",
+              alt: "Steve is looking annoyed, talking to his mom about Chuckie.",
+              pageId: [
+                STEVE_SANDERS_ID,
+                "samantha-sanders",
+              ],
+            },
             seasonNumber: 2,
             episodeNumber: 17,
             plot: "Samantha Sanders is elated when producers approach her to do a reunion show of her old sitcom; the only problem is that she needs Steve to befriend her TV son Chuckie, which proves difficult. A fight with Chuckie and a suspension from school peak his desire to find his birth parents. Meanwhile, Donna decides to attend the dance with David, despite him being a sophomore.",
-            director: "Bradley Gross",
+            director: BradleyGrossName,
             writtenBy: [
-              "Story by : Steve Wasserman & Jessica Klein & Michael Swerdlick",
-              "Teleplay by : Steve Wasserman & Jessica Klein",
+              `Story by : ${SteveWassermanName} & ${JessicaKleinName} & Michael Swerdlick`,
+              `Teleplay by : ${SteveWassermanName} & ${JessicaKleinName}`,
             ],
             releaseDate: "December 12, 1991",
             usViewers: 18.2,
@@ -4557,7 +4701,7 @@ export const dramaSeries: Show[] = [
               },
               {
                 title:  "I Adore Mi Amor",
-                artist: "Color Me Badd",
+                artist: ColorMeBaddArtist,
               },
               {
                 title:  "2000 Miles",
@@ -4568,12 +4712,22 @@ export const dramaSeries: Show[] = [
           {
             id: "a-walsh-family-christmas",
             episodeTitle: "A Walsh Family Christmas",
-            imageUrl: "https://m.media-amazon.com/images/M/MV5BNjczZTg2ODgtYWY1MC00NDRiLTk4MjYtZDRmMzk4NWQzZmZkXkEyXkFqcGc@._V1_.jpg",
+            episodeImageUrl: {
+              src: "https://m.media-amazon.com/images/M/MV5BNjczZTg2ODgtYWY1MC00NDRiLTk4MjYtZDRmMzk4NWQzZmZkXkEyXkFqcGc@._V1_.jpg",
+              alt: "Brandon, Dylan, Brenda, Donna and Kelly are standing in front of the Christmas tree in the Walsh family's living room.",
+              pageId: [
+                BRANDON_WALSH_ID,
+                BRENDA_WALSH_ID,
+                DYLAN_MCKAY_ID,
+                DONNA_MARTIN_ID,
+                KELLY_TAYLOR_ID,
+              ]
+            },
             seasonNumber: 2,
             episodeNumber:18,
             plot: "Steve arrives in New Mexico and meets his grandfather, who tells him his birth mother's fate. Meanwhile, the Walshes enjoy everyone's company at Casa Walsh, including Santa. Dylan revives his relationship with his father by visiting him in jail.",
-            director: "Darren Starr",
-            writtenBy: "Darren Starr",
+            director: DarrenStarName,
+            writtenBy: DarrenStarName,
             releaseDate: "December 19, 1991",
             usViewers:22.6,
             soundtrack: [
@@ -4614,11 +4768,18 @@ export const dramaSeries: Show[] = [
           {
             id: "fire-and-ice",
             episodeTitle: "Fire and Ice",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39816493/PPCBS_BEVERLYHILLS90210_041_UHD_3378539_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39816493/PPCBS_BEVERLYHILLS90210_041_UHD_3378539_1920x1080.jpg",
+              alt: "Brandon is at the ice hockey rink, dressed in gear, talking to Trisha Kinney.",
+              pageId: [
+                BRANDON_WALSH_ID,
+                "trisha-kinney",
+              ],
+            },
             seasonNumber: 2,
             episodeNumber:19,
             plot: "While preparing for an ice-hockey match Brandon meets Trish, a career figure-skater with Olympic aspirations. Sparks fly, but romance and skating don't mix. Meanwhile, Brenda finds that sales can be a backstabbing business when her own boss starts stealing her commissions.",
-            director: "Jeff Melman",
+            director: JeffMelmanName,
             writtenBy: "Carl Sautter",
             releaseDate: "January 9, 1992",
             usViewers:19.6,
@@ -4636,14 +4797,18 @@ export const dramaSeries: Show[] = [
           {
             id: "a-competitive-edge",
             episodeTitle: "A Competitive Edge",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39810260/PPCBS_BEVERLYHILLS90210_043_UHD_3378554_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39810260/PPCBS_BEVERLYHILLS90210_043_UHD_3378554_1920x1080.jpg",
+              alt: "Steve is at the gym talking to a guy.",
+              pageId: STEVE_SANDERS_ID
+            },
             seasonNumber: 2,
             episodeNumber:20,
             plot: "Brandon goes undercover for The Blaze, hoping to expose steroid use within the athletics team. Unfortunately, his exposé threatens to shine light on more than a corrupt athletics department. Meanwhile, Brenda's minor car accident becomes a major problem for Jim.",
             director:  "David Carson", 
             writtenBy: [
               "Story by : Douglas Brooks West",
-              "Teleplay by : Charles Rosin & Jonathan Roberts",
+              `Teleplay by : ${CharlesRosinName} & ${JonathanRobertsName}`,
             ],
             releaseDate: "January 23, 1992",
             usViewers:18.7,
@@ -4669,7 +4834,7 @@ export const dramaSeries: Show[] = [
             seasonNumber: 2,
             episodeNumber: 21,
             plot: "Andrea heads up an initiative to introduce condoms into the school and the controversial issue leads to problems among the tight-knit group of friends. Some support, some oppose, and some, like Donna's mother, just use the issue to further their own desires. Meanwhile, Jackie has startling news for her own daughter.",
-            director: "Daniel Attias",
+            director: DanAttiasName,
             writtenBy: "Karen Rosin & Charles Rosin", 
             releaseDate: "February 6, 1992",
             usViewers: 19.0,
@@ -4687,18 +4852,28 @@ export const dramaSeries: Show[] = [
           {
             id: "and-baby-makes-five",
             episodeTitle: "And Baby Makes Five",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39807766/PPCBS_BEVERLYHILLS90210_045_UHD_3378553_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39807766/PPCBS_BEVERLYHILLS90210_045_UHD_3378553_1920x1080.jpg",
+              alt: "David and his dad are at the hospital looking at something.",
+              pageId: [
+                DAVID_SILVER_ID,
+                MEL_SILVER_NAME
+              ]
+            },
             seasonNumber: 2,
             episodeNumber:22,
             plot: "Kelly's decision to confide in her friends about her mother's pregnancy wreaks major havoc in Mel and Jackie's relationship. Mel was unaware that Jackie's pregnant and he was planning on asking her to marry him. Brenda looks forward to a romantic Valentine's Day with Dylan, who has an unusual evening planned for them. Meanwhile, Andrea displays an amazing knack for picking winning horses during a trip to the race track with Nat.",
             director: "Bill D'Elia",
-            writtenBy: "Steve Wasserman & Jessica Klein",
+            writtenBy: [
+              SteveWassermanName,
+              JessicaKleinName
+            ],
             releaseDate: "February 13, 1992",
             usViewers:16.7,
             soundtrack: [  
                {
                   title: "all 4 love",
-                  artist:	"COLOR ME BADD",
+                  artist:	ColorMeBaddArtist,
                 },
                {
                 title: "do you believe in magic?",
@@ -4713,7 +4888,7 @@ export const dramaSeries: Show[] = [
             seasonNumber: 2,
             episodeNumber:23,
             plot: "Dylan and Brenda's relationship is put to the test when a friend from Dylan's past shows up and starts leaning on Dylan more and more. Brenda is tempted by a cute college boy, especially since Dylan is paying more attention to his old friend than he is her. Meanwhile, Nat purchases a karaoke machine for the Peach Pit which is an initial success, but the novelty quickly wears off.",
-            director: "Daniel Attias",
+            director: DanAttiasName,
             writtenBy: [
               SteveWassermanName,
               JessicaKleinName
@@ -4734,7 +4909,7 @@ export const dramaSeries: Show[] = [
             seasonNumber: 2,
             episodeNumber:24,
             plot: "When a mall development project places the future of The Peach Pit in jeopardy, Brandon stages a protest in the hopes of saving his favorite hang-out from demolition. Meanwhile, the teens attend a college party, but Brandon forgets to dress according to theme.",
-            director:  "Daniel Attias",
+            director:  DanAttiasName,
             writtenBy: [
               "Larry Barber",
               "Paul Barber"
@@ -4767,7 +4942,7 @@ export const dramaSeries: Show[] = [
             seasonNumber: 2,
             episodeNumber:25,
             plot: "During a late night, after-hours study session, the Peach Pit is robbed and Brenda is there to face the robber. She puts on a brave front for friends and family, but secretly suffers from night terrors and flashbacks.",
-            director: "Bradley Gross",
+            director: BradleyGrossName,
             writtenBy: [
               "Story by : Jonathan Lemkin",
               "Teleplay by : Darren Star & Charles Rosin &  Karen Rosin & Jonathan Lemkin",
@@ -4793,32 +4968,43 @@ export const dramaSeries: Show[] = [
             episodeNumber:26,
             plot: "When a popular R&B band comes to town, the gang tries to win tickets over the radio, but their efforts do not pan out. Music lover David finds out which hotel the band is staying at and the group decides to play groupies for a day by tracking them down at their hotel. Unfortunately, Donna finds more than the band when she catches her mother in a compromising position. Meanwhile, the guys (sans David) decide to hire a stripper for the evening, but their plans are foiled when Andrea barges into their private party.",
             director: "Bethany Rooney",
-            writtenBy: "Jonathan Roberts & Maria Semple",
+            writtenBy: "${JonathanRobertsName} & Maria Semple",
             releaseDate: "April 23, 1992",
             usViewers:19.5,
             soundtrack: [
               {
                 title: "i adore mi amor",
-                artist:	"COLOR ME BADD"
+                artist:	ColorMeBaddArtist
               },
               {
                 title: "all 4 love",
-                artist: "COLOR ME BADD"},
+                artist: ColorMeBaddArtist},
               {
                 title: "i wanna sex you up",	
-                artist: "COLOR ME BADD"
+                artist: ColorMeBaddArtist
               },
             ],
           },
           {
             id: "mexican-standoff",
             episodeTitle: "Mexican Standoff",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/12/2451029571540/PPCBS_BEVERLYHILLS90210_049_UHD_V1_3428893_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/12/2451029571540/PPCBS_BEVERLYHILLS90210_049_UHD_V1_3428893_1920x1080.jpg",
+              alt: "Dylan and Brenda are sitting in Dylan's car outside of the resort",
+              pageId: [
+                BRENDA_WALSH_ID,
+                DYLAN_MCKAY_ID,
+                BrendaDylan_ID
+              ]
+            },
             seasonNumber: 2,
             episodeNumber:27,
             plot: "Brenda and Dylan plan a trip to Mexico, but their plans are foiled when Jim forbids her to go. She sneaks off anyway, but trouble at customs alerts her father to her disobedience. Meanwhile, Kelly hits it off with one of the men building her mother's wedding canopy, while Donna frets over her parents' marital problems.",
-            director: "Bradley Gross",
-            writtenBy: "Steve Wasserman & Jessica Klein",
+            director: BradleyGrossName,
+            writtenBy: [
+              SteveWassermanName,
+              JessicaKleinName
+            ],
             releaseDate: "April 30, 1992",
             usViewers:15.8,
             soundtrack: [
@@ -4840,7 +5026,7 @@ export const dramaSeries: Show[] = [
             episodeNumber:28,
             plot: "Jim goes to Mexico to fetch Brenda and forbids her from seeing Dylan... permanently. When plumbing problems force Jackie to cancel her wedding, the Walshes offer to host it at their house. Donna mopes because as Kelly's mother prepares for her nuptials, her own parents are mulling divorce. Meanwhile, Andrea nurses hurt feelings when her wedding invitation fails to arrive.",
             director: "Charles Baverman",
-            writtenBy: "Darren Starr",
+            writtenBy: DarrenStarName,
             releaseDate: "May 7, 1992",
             usViewers:21.4,
             soundtrack: [
@@ -4924,9 +5110,9 @@ export const dramaSeries: Show[] = [
             episodeTitle: "Too Little, Too Late",
             altEpisodeTitle: "Paris 75001",
             imageUrl: "https://m.media-amazon.com/images/M/MV5BMTQ0OTA4NDEwOV5BMl5BanBnXkFtZTgwMjI3Mjg5MjE@._V1_.jpg",
-            director: "Daniel Attias",
+            director: DanAttiasName,
 	          writtenBy: [
-              "Maria Semple & Jonathan Roberts (Too Little, Too Late)",
+              "Maria Semple & ${JonathanRobertsName} (Too Little, Too Late)",
               "Karen Rosin (Paris 75001)",
             ],
             releaseDate:	"July 29, 1992",
@@ -4958,7 +5144,7 @@ export const dramaSeries: Show[] = [
             episodeTitle:"Shooting Star",
             altEpisodeTitle: "American in Paris",	
             imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39812467/PPCBS_BEVERLYHILLS90210_055_UHD_3404164_1920x1080.jpg",
-            director: "Daniel Attias",
+            director: DanAttiasName,
 	          writtenBy: [
               "Steve Wasserman & Jessica Klein (Shooting Star)",
               "Karen Rosin (American in Paris)"
@@ -5214,7 +5400,7 @@ export const dramaSeries: Show[] = [
           episodeNumber: 13,	
           episodeTitle: "Rebel with a Cause",	
           imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809740/PPCBS_BEVERLYHILLS90210_063_UHD_3404253_1920x1080.jpg",
-          director: "Daniel Attias",
+          director: DanAttiasName,
 	        writtenBy: "Star Frohman",
 	        releaseDate: "November 11, 1992",	
           usViewers:	19.7,
@@ -5334,7 +5520,7 @@ export const dramaSeries: Show[] = [
             },
             {
               title: "got 2 have u",
-              artist: "COLOR ME BADD"
+              artist: ColorMeBaddArtist
             },
             {
               title: "all the way to heaven",
@@ -5434,7 +5620,7 @@ export const dramaSeries: Show[] = [
           soundtrack: [
             {
               title: "losing my religion",
-              artist: "R.E.M."	
+              artist: REMArtist	
             },
             {
               title: "kansas city",
@@ -5460,7 +5646,7 @@ export const dramaSeries: Show[] = [
           episodeNumber:	21,	
           episodeTitle: "Dead End",	
           imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2015/09/12/524068419600/PPCBS_BEVERLYHILLS90210_071_UHD_3385471_1920x1080.jpg",
-          director: "Jeff Melman",	
+          director: JeffMelmanName,	
           writtenBy: "Star Frohman", 
           releaseDate: "February 10, 1993",	
           usViewers: 19.7,
@@ -5583,7 +5769,7 @@ export const dramaSeries: Show[] = [
             },
             {
               title: "man on the moon",
-              artist:	"R.E.M."	
+              artist:	REMArtist	
             },
             {
               title: "humpin' around",
@@ -5700,7 +5886,7 @@ export const dramaSeries: Show[] = [
           ],
           episodeTitle:	"Commencement",	
           imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/29/2484191811878/PPCBS_BEVERLYHILLS90210_079_1_UHD_V1_3666747_1920x1080.jpg",
-          director: "Daniel Attias",
+          director: DanAttiasName,
 	        writtenBy: [
             KarenRosinName, 
             CharlesRosinName
@@ -6423,7 +6609,7 @@ export const dramaSeries: Show[] = [
         noImage: false,
       },
     ],
-    creator: ["Darren Starr"],
+    creator: [DarrenStarName],
     composer: ["John E. Davis"],
     executive: [
       "Aaron Spelling",
@@ -6465,7 +6651,7 @@ export const dramaSeries: Show[] = [
        "Chip Johannessen",
       "Phil Savath",
       "Michael Cassutt",
-      "Jonathan Roberts",
+      JonathanRobertsName,
       "Dan DJ Birnbaum",
       "Matt Dearborn",
       "Sigurjon Sighvatsson",
@@ -6509,7 +6695,7 @@ export const dramaSeries: Show[] = [
     title: "Melrose Place",
     plot: "Set in an apartment block in the West Hollywood district of Los Angeles, Melrose Place was originally a spin-off from Beverly Hills 90210, but when its initial formula of looking at the lives of a group of well-meaning, attractive 20-somethings failed to get high ratings, writers introduced conflict in the form of less moral characters (notably Amanda Woodward played by Heather Locklear). Ratings improved, and storylines became more and more outrageous: characters coming back from the dead, multiple personalities, a bomb destroying the apartment complex. By the end of Season 4, story-lines appeared to tend towards being more 'grounded', however.",
     posterUrl:  "https://m.media-amazon.com/images/M/MV5BNTJmYmVkYTAtNDkxNC00MDMzLTk4OTgtNDYxNzRkMGNmMDFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", 
-    creator: ["Darren Starr"],
+    creator: [DarrenStarName],
     mainCharacters: [
       {
         id: "jane-mancini",
@@ -8149,7 +8335,7 @@ tags: ["Teen drama", "Drama"],
       },
     ],
     basedOn: true,
-    creator: ["Darren Starr"],
+    creator: [DarrenStarName],
     adapter: ["Rob Thomas", "Gabe Sachs", "Jeff Judah"],
     composer: ["Liz Phair", "Marc Dauer", "Evan Frankfort"],
     executive: [
@@ -17968,7 +18154,7 @@ tags: ["drama", "family", "teen-siblings"],
       "P. K. Simonds",
       "Bruce J. Nachbar",
       "Steven Robman",
-      "Daniel Attias",
+      DanAttiasName,
       "Ian Biederman",
       "Allan Heinberg",
     ],

@@ -43,7 +43,7 @@ function Season({genre, season}: Props) {
 
   if (!season) return <section>Season not found, {season}</section>;
   const images = createImages(season).filter(
-    (image): image is { src: string; alt: string; characterId: string | string[] } => Boolean(image),
+    (image): image is { src: string; alt: string; pageId: string | string[] } => Boolean(image),
   );
   
   return (

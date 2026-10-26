@@ -18,7 +18,7 @@ const EpisodeBreakdown = ({season, episode} : Props) => {
     const [chooseImage, setChooseImage] = useState("");
     
     const images = createImages(season).filter(
-      (image): image is {src: string; alt: string; characterId: string | string[]} => Boolean(image),
+      (image): image is {src: string; alt: string; pageId: string | string[]} => Boolean(image),
     );
 
     if (episode === undefined) return console.error("Couldn't find episode for EpisodeBreakdown");

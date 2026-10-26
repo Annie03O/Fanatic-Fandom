@@ -16,7 +16,7 @@ export const createImages = (season: Season) => {
               ? episode.episodeTitle.join(", ")
               : episode.episodeTitle,
             episode,
-            characterId: episode.episodeImageUrl.characterId
+            pageId: episode.episodeImageUrl.pageId
             
           }]
         : []
