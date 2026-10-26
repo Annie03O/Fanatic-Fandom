@@ -2,121 +2,121 @@
     //Main
         // From season 1
             // Brandon
-                export var BRANDON_WALSH_ID = "brandon-walsh";
-                export var BRANDON_WALSH_NAME = "Brandon Walsh";
+                export var BrandonWalshID = "brandon-walsh";
+                export var BrandonWalshName = "Brandon Walsh";
 
             // Brenda
-                export var BRENDA_WALSH_ID = "brenda-walsh";
-                export var BRENDA_WALSH_NAME = "Brenda Walsh";
+                export var BrendaWalshID = "brenda-walsh";
+                export var BrendaWalshName = "Brenda Walsh";
 
             // Kelly
-                export var KELLY_TAYLOR_ID="kelly-taylor";
-                export var KELLY_TAYLOR_NAME = "Kelly Taylor"; 
+                export var KellyTaylorID="kelly-taylor";
+                export var KellyTaylorName = "Kelly Taylor"; 
 
             // Donna
-                export var DONNA_MARTIN_ID = "donna-martin";
-                export var DONNA_MARTIN_NAME = "Donna Martin";
+                export var DonnaMartinID = "donna-martin";
+                export var DonnaMartinName = "Donna Martin";
 
             // Dylan
-                export var DYLAN_MCKAY_NAME = "Dylan McKay";
-                export var DYLAN_MCKAY_ID = "dylan-mckay";
+                export var DylanMcKayID = "dylan-mckay";
+                export var DylanMcKayName = "Dylan McKay";
 
             // Steve
-                export var STEVE_SANDERS_NAME = "Steve Sanders";
-                export var STEVE_SANDERS_ID = "steve-sanders";
+                export var SteveSandersID = "steve-sanders";
+                export var SteveSandersName = "Steve Sanders";
 
             // David
-                export var DAVID_SILVER_NAME = "David Silver";
-                export var DAVID_SILVER_ID = "david-silver";
+                export var DavidSilverID = "david-silver";
+                export var DavidSilverName = "David Silver";
 
             // Andrea
-                export var ANDREA_ZUCKERMAN_NAME = "Andrea Zuckerman";
-                export var ANDREA_ZUCKERMAN_ID = "andrea-zuckerman";
+                export var AndreaZuckermanName = "Andrea Zuckerman";
+                export var AndreaZuckermanID = "andrea-zuckerman";
 
             // Jim
-                export var JIM_WALSH_NAME = "Jim Walsh";
-                export var JIM_WALSH_ID = "jim-walsh";
+                export var JimWalshID = "jim-walsh";
+                export var JimWalshName = "Jim Walsh";
 
             // Cindy
-                export var CINDY_WALSH_NAME = "Cindy Walsh";
-                export var CINDY_WALSH_ID = "cindy-walsh";
+                export var CindyWalshID = "cindy-walsh";
+                export var CindyWalshName = "Cindy Walsh";
 
             // Scott
-                export var SCOTT_SCANLON_ID = "scott-scanlon";
-                export var SCOTT_SCANLON_NAME = "Scott Scanlon";
+                export var ScottScanlonID = "scott-scanlon";
+                export var ScottScanlonName = "Scott Scanlon";
         
         
         // From season 5
             // Valerie
-                export var VALERIE_MALONE_ID = "valerie-malone";
-                export var VALERIE_MALONE_NAME = "Valerie Malone";
+                export var ValerieMaloneID = "valerie-malone";
+                export var ValerieMaloneName = "Valerie Malone";
 
             // Clare
-                export var CLARE_ARNOLD_ID = "clare-arnold";
-                export var CLARE_ARNOLD_NAME = "Clare Arnold";
+                export var ClareArnoldID = "clare-arnold";
+                export var ClareArnoldName = "Clare Arnold";
 
             // Jesse
-               export var JESSE_VASQUEZ_ID = "jesse-vasquez";
-               export var JESSE_VASQUEZ_NAME = "Jesse Vasquez";
+               export var JesseVasquezID = "jesse-vasquez";
+               export var JesseVasquezName = "Jesse Vasquez";
 
             // Colin
-                export var COLIN_ROBBINS_ID = "colin_robbins"
-                export var COLIN_ROBBINS_NAME = "Colin Robbins"
+                export var ColinRobbinsID = "colin_robbins"
+                export var ColinRobbinsName = "Colin Robbins"
             
             // Gina
-                export var GINA_KINCAID_ID = "gina-kincaid";
-                export var GINA_KINCAID_NAME = "Gina Kincaid";
+                export var GinaKincaidID = "gina-kincaid";
+                export var GinaKincaidName = "Gina Kincaid";
         
             // Janet
-                export var JANET_SOSNA_ID = "janet-sosna";
-                export var JANET_SOSNA_NAME = "Janet Sosna";
+                export var JanetSosnaID = "janet-sosna";
+                export var JanetSosnaName = "Janet Sosna";
 
             // Noah
-                export var NOAH_HUNTER_ID = "noah-hunter";
-                export var NOAH_HUNTER_NAME = "Noah Hunter"
+                export var NoahHunterID = "noah-hunter";
+                export var NoahHunterName = "Noah Hunter"
 
             // Ray
-                export var RAY_PRUIT_ID = "ray-pruit";
-                export var RAY_PRUIT_NAME = "Ray Pruit";
+                export var RayPruitID = "ray-pruit";
+                export var RayPruitName = "Ray Pruit";
 
             // Carly
-                export var CARLY_REYNOLDS_ID = "carly-reynolds"
-                export var CARLY_REYNOLDS_NAME = "Carly Reynolds"
+                export var CarlyReynoldsID = "carly-reynolds"
+                export var CarlyReynoldsName = "Carly Reynolds"
 
             // Matt
-                export var MATT_DURNING_ID = "matt-durning";
-                export var MATT_DURNING_NAME = "Matt Durning";
+                export var MattDurningID = "matt-durning";
+                export var MattDurningName = "Matt Durning";
 
     // Reacurring
         // Names
-            export var EMILY_VALENTINE_ID = "emily-valentine";
-            export var EMILY_VALENTINE_NAME = "Emily Valentine";
+            export var EmilyValentineID = "emily-valentine";
+            export var EmilyValentineName = "Emily Valentine";
             
             // Dylan's family
-              export var JACK_MCKAY_NAME = "Jack McKay";
-              export var IRIS_MCKAY_NAME = "Iris McKay";
-              export var ERICA_MCKAY_NAME = "Erica McKay";
-              export var TONI_MARCHETTE_NAME = "Toni Marchette";
+              export var JackMcKayName = "Jack McKay";
+              export var IrisMcKayName = "Iris McKay";
+              export var EricaMcKayName = "Erica McKay";
+              export var ToniMarchetteName = "Toni Marchette";
         
         
             // Kelly/David's family
-                export var JACKIE_TAYLOR_NAME = "Jackie Taylor";
-                export var ERIN_SILVER_NAME = "Erin Silver";
-                export var MEL_SILVER_NAME = "Mel Silver";
-                export var SHEILA_SILVER_NAME  =  "Sheila Silver";
-                export var SAMMY_TAYLOR_NAME = "Sammy Taylor";
+                export var JackieTaylorName = "Jackie Taylor";
+                export var ErinSilverName = "Erin Silver";
+                export var MelSilverName = "Mel Silver";
+                export var SheilaSilverName  =  "Sheila Silver";
+                export var SammyTaylorName = "Sammy Taylor";
         
             
             // Donna's parents
-                export var JOHN_MARTIN_NAME = "John Martin";
-                export var FELICE_MARTIN_NAME = "Felice Martin";
+                export var JohnMartinName = "John Martin";
+                export var FeliceMartinName = "Felice Martin";
         
             // Steve's family
-                export var SAMANTHA_SANDERS_NAME = "Samantha Sanders";
-                export var RUSH_SANDERS_NAME = "Rush Sanders";
-                export var MADELINE_SANDERS_NAME = "Madeline Sanders";
-                export var RYAN_SANDERS_NAME = "Ryan Sanders";
-                export var AUSTIN_SANDERS_NAME = "Austin Sanders";
+                export var SamanthaSandersName = "Samantha Sanders";
+                export var RushSandersName = "Rush Sanders";
+                export var MadelineSandersName = "Madeline Sanders";
+                export var RyanSandersName = "Ryan Sanders";
+                export var AustinSandersName = "Austin Sanders";
 
 
 // Locations
@@ -143,8 +143,9 @@
     //Friendships 
         export var BrandonDylan_ID = "brandon-dylan";
         export var BrandonAndrea_ID = "brandon-andrea";
+        export var BrandonSteve_ID = "brandon-steve"        
         export var BrandonValerie_ID = "brandon-valerie"
-
+        
         export var BrendaKelly_ID = "brenda-kelly";
         export var BrendaDonna_ID = "brenda-donna";
 
@@ -316,47 +317,58 @@
         // Finally
         export var beverlyHillsSeriesFinaleTitle = "Ode to Joy";
 
+    // Cast 
+    export var JasonPriestleyName = "Jason Priestley";
+    export var ShannenDohertyName = "Shannen Doherty";
+    export var BrianAustinGreenName = "Brian Austin Green";
+
+
     // Crew
-        export var DarrenStarName = "Darren Star";
-
-        export var CaitlinAdamsName = "Caitlin Adams";
-
         export var AmySpiesName = "Amy Spies";
-
-        export var DanAttiasName = "Dan Attias"
-
+    
+        export var BradleyGrossName = "Bradley Gross";
+        export var BethanyRooneyName = "Bethany Rooney";        
+        export var BillDEliaName = "Bill D'Elia";
+        
+        export var CaitlinAdamsName = "Caitlin Adams";
+        export var CharlesBravermanName = "Charles Braverman";
         export var CharlesRosinName = "Charles Rosin"
-
-        export var KarenRosinName = "Karen Rosin";
-
+        export var ChipJohannessenName = "Chip Johannessen"
+        export var ChrisBrancatoName = "Chris Brancato";
+        
+        export var DanAttiasName = "Dan Attias"
+        export var DarrenStarName = "Darren Star";
+        
+        export var JessicaKleinName = "Jessica Klein";
+        export var JeffersonKibbeeName = "Jefferson Kibbee";
+        export var JeffMelmanName = "Jeff Melman";
+        export var JonathanRobertsName = "Jonathan Roberts";
         export var JordanBuddeName = "Jordan Budde";
 
-        export var CharlesBravermanName = "Charles Braverman";
 
+        export var KarenRosinName = "Karen Rosin";
+        export var KennethBillerName = "Kenneth Biller";
+
+        export var RichardLangName = "Richard Lang";
+
+
+        export var StarFrohmanName = "Star Frohman"
         export var SteveWassermanName = "Steve Wasserman";
 
-        export var JessicaKleinName = "Jessica Klein";
 
-        export var JonathanRobertsName = "Jonathan Roberts";
-
-        export var JeffMelmanName = "Jeff Melman";
-
-        export var JeffersonKibbeeName = "Jefferson Kibbee";
-
-        export var BradleyGrossName = "Bradley Gross";
-
-    
-    // Artists
-        export var SOHOArtist = "SO:HO"
-
-        export var theSupremesArtist = "THE SUPREMES";
-
+        // Artists
         export var ChrisIsakArtist = "Chris Isaak";
-
-        export var TheRaveUpArtist = "THE RAVE-UPS";
-
-        export var REMArtist = "R.E.M"
+        export var ColorMeBaddArtist = "Color Me Badd";
 
         export var ERASUREArtist =  "ERASURE";
 
-        export var ColorMeBaddArtist = "Color Me Badd";
+        export var GeoffreyWilliamsArtist = "GEOFFREY WILLIAMS";
+
+        export var MeatPuppetsArtist = "Meat Puppets"
+
+        export var SOHOArtist = "SO:HO"
+
+        export var theSupremesArtist = "THE SUPREMES";
+        export var TheRaveUpArtist = "THE RAVE-UPS";
+
+        export var REMArtist = "R.E.M"

@@ -1,6 +1,5 @@
-import { write } from "fs";
 import { Show } from "../types/structure/Show";
-import { KELLY_TAYLOR_ID, BRANDON_WALSH_ID, BRENDA_WALSH_ID, DYLAN_MCKAY_ID, DONNA_MARTIN_ID, CU, WestBev, BrandonBrenda_ID, BRENDA_WALSH_NAME, BrandonJim_ID, BRANDON_WALSH_NAME, JIM_WALSH_NAME, BrandonCindy_ID, CINDY_WALSH_NAME, DYLAN_MCKAY_NAME, BrandonDylan_ID, beverlyHillsS1Ep2Title, BrandonKelly_ID, KELLY_TAYLOR_NAME, beverlyHillsS4Ep32Title, beverlyHillsS5Ep21Title, beverlyHillsS7Ep26Title, beverlyHillsS8Ep20Title, beverlyHillsS5Ep20Title, beverlyHillsS5Ep30Title, beverlyHillsS8Ep16Title, beverlyHillsS9Ep2Title, BrandonAndrea_ID, ANDREA_ZUCKERMAN_ID, STEVE_SANDERS_NAME, STEVE_SANDERS_ID, VALERIE_MALONE_NAME, CLARE_ARNOLD_NAME, DAVID_SILVER_NAME, DONNA_MARTIN_NAME, BrendaCindy_ID, BrendaDylan_ID, BrendaKelly_ID, BrendaDonna_ID, ANDREA_ZUCKERMAN_NAME, beverlyHillsS1Ep1Title, TONI_MARCHETTE_NAME, DylanToni_ID, beverlyHillsS6Ep3Title, beverlyHillsS6Ep10Title, beverlyHillsS1Ep10Title, beverlyHillsS2Ep2Title, beverlyHillsS6Ep31Title, beverlyHillsS2Ep8Title, beverlyHillsS2Ep1Title, beverlyHillsS3Ep12Title, beverlyHillsS5Ep1Title, beverlyHillsS9Ep8Title, beverlyHillsS2Ep26Title, DylanJim_ID, DylanKelly_ID, beverlyHillsS3Ep19Title, beverlyHillsS4Ep1Title, beverlyHillsS4Ep2Title, DylanDavid_ID, DylanAndrea_ID, DylanGina_ID, GINA_KINCAID_NAME, GINA_KINCAID_ID, DylanValerie_ID, EMILY_VALENTINE_NAME, JACK_MCKAY_NAME, IRIS_MCKAY_NAME, ERICA_MCKAY_NAME, beverlyHillsSeriesFinaleTitle, DonnaKelly_ID, beverlyHillsS3Ep24Title, KellyJackie_ID, JACKIE_TAYLOR_NAME, SAMMY_TAYLOR_NAME, ERIN_SILVER_NAME, MEL_SILVER_NAME, DavidKelly_ID, JOHN_MARTIN_NAME, FELICE_MARTIN_NAME, BOBBI_KINCAID_NAME, SHEILA_SILVER_NAME, DonnaDavid_ID, beverlyHillsS6Ep32Title, beverlyHillsS2Ep17Title, beverlyHillsS4Ep21Title, beverlyHillsS7Ep11Title, beverlyHillsS7Ep21Title, beverlyHillsS10Ep24Title, beverlyHillsS4E15Title, beverlyHillsS7Ep2Title, beverlyHillsS7Ep19Title, beverlyHillsS8Ep10Title, beverlyHillsS6Ep8Title, beverlyHillsS6Ep15Title, beverlyHillsS6Ep21Title, beverlyHillsS6Ep30Title, SAMANTHA_SANDERS_NAME, RUSH_SANDERS_NAME, MADELINE_SANDERS_NAME, RYAN_SANDERS_NAME, AUSTIN_SANDERS_NAME, JANET_SOSNA_NAME, SteveValerie_ID, SteveJanet_ID, beverlyHillsS9Ep16Title, beverlyHillsS7Ep9Title, beverlyHillsS7Ep6Title, beverlyHillsS7Ep32Title, JESSE_VASQUEZ_NAME, VALERIE_MALONE_ID, PeachPitAfterDark, DavidValerie_ID, NOAH_HUNTER_NAME, COLIN_ROBBINS_NAME, BrandonValerie_ID, RAY_PRUIT_NAME, JESSE_VASQUEZ_ID, SCOTT_SCANLON_ID, CLARE_ARNOLD_ID, CARLY_REYNOLDS_ID, JANET_SOSNA_ID, NOAH_HUNTER_ID, beverlyHillsS1Ep3Title, CaitlinAdamsName, AmySpiesName, beverlyHillsS1Ep7Title, DanAttiasName, CharlesRosinName, JordanBuddeName, SOHOArtist, DarrenStarName, TheSupremesArtist, ChrisIsakArtist, KarenRosinName, CINDY_WALSH_ID, CharlesBravermanName, SteveWassermanName, JessicaKleinName, TheRaveUpArtist, REMArtist, JonathanRobertsName, DAVID_SILVER_ID, JeffMelmanName, JeffersonKibbeeName, BradleyGrossName, ERASUREArtist, EMILY_VALENTINE_ID, BrandonEmily_ID, ColorMeBaddArtist } from "./variables/beverly-hills";
+import { KellyTaylorID, BrandonWalshID, BrendaWalshID, DylanMcKayID, DonnaMartinID, CU, WestBev, BrandonBrenda_ID, BrendaWalshName, BrandonJim_ID, BrandonWalshName, JimWalshName, BrandonCindy_ID, CindyWalshName, DylanMcKayName, BrandonDylan_ID, beverlyHillsS1Ep2Title, BrandonKelly_ID, KellyTaylorName, beverlyHillsS4Ep32Title, beverlyHillsS5Ep21Title, beverlyHillsS7Ep26Title, beverlyHillsS8Ep20Title, beverlyHillsS5Ep20Title, beverlyHillsS5Ep30Title, beverlyHillsS8Ep16Title, beverlyHillsS9Ep2Title, BrandonAndrea_ID, AndreaZuckermanID, SteveSandersName, SteveSandersID, ValerieMaloneName, ClareArnoldName, DavidSilverName, DonnaMartinName, BrendaCindy_ID, BrendaDylan_ID, BrendaKelly_ID, BrendaDonna_ID, AndreaZuckermanName, beverlyHillsS1Ep1Title, ToniMarchetteName, DylanToni_ID, beverlyHillsS6Ep3Title, beverlyHillsS6Ep10Title, beverlyHillsS1Ep10Title, beverlyHillsS2Ep2Title, beverlyHillsS6Ep31Title, beverlyHillsS2Ep8Title, beverlyHillsS2Ep1Title, beverlyHillsS3Ep12Title, beverlyHillsS5Ep1Title, beverlyHillsS9Ep8Title, beverlyHillsS2Ep26Title, DylanJim_ID, DylanKelly_ID, beverlyHillsS3Ep19Title, beverlyHillsS4Ep1Title, beverlyHillsS4Ep2Title, DylanDavid_ID, DylanAndrea_ID, DylanGina_ID, GinaKincaidName, GinaKincaidID, DylanValerie_ID, EmilyValentineName, JackMcKayName, IrisMcKayName, EricaMcKayName, beverlyHillsSeriesFinaleTitle, DonnaKelly_ID, beverlyHillsS3Ep24Title, KellyJackie_ID, JackieTaylorName, SammyTaylorName, ErinSilverName, MelSilverName, DavidKelly_ID, JohnMartinName, FeliceMartinName, BOBBI_KINCAIDName, SheilaSilverName, DonnaDavid_ID, beverlyHillsS6Ep32Title, beverlyHillsS2Ep17Title, beverlyHillsS4Ep21Title, beverlyHillsS7Ep11Title, beverlyHillsS7Ep21Title, beverlyHillsS10Ep24Title, beverlyHillsS4E15Title, beverlyHillsS7Ep2Title, beverlyHillsS7Ep19Title, beverlyHillsS8Ep10Title, beverlyHillsS6Ep8Title, beverlyHillsS6Ep15Title, beverlyHillsS6Ep21Title, beverlyHillsS6Ep30Title, SamanthaSandersName, RushSandersName, MadelineSandersName, RyanSandersName, AustinSandersName, JanetSosnaName, SteveValerie_ID, SteveJanet_ID, beverlyHillsS9Ep16Title, beverlyHillsS7Ep9Title, beverlyHillsS7Ep6Title, beverlyHillsS7Ep32Title, JesseVasquezName, ValerieMaloneID, PeachPitAfterDark, DavidValerie_ID, NOAH_HUNTERName, ColinRobbinsName, BrandonValerie_ID, RAY_PRUITName, JesseVasquez_ID, ScottScanlonID, ClareArnoldID, CARLY_REYNOLDS_ID, JanetSosnaID, NoahHunterID, beverlyHillsS1Ep3Title, CaitlinAdamsName, AmySpiesName, beverlyHillsS1Ep7Title, DanAttiasName, CharlesRosinName, JordanBuddeName, SOHOArtist, DarrenStarName, TheSupremesArtist, ChrisIsakArtist, KarenRosinName, CindyWalshID, CharlesBravermanName, SteveWassermanName, JessicaKleinName, TheRaveUpArtist, REMArtist, JonathanRobertsName, DavidSilverID, JeffMelmanName, JeffersonKibbeeName, BradleyGrossName, ERASUREArtist, EMILY_VALENTINE_ID, BrandonEmily_ID, ColorMeBaddArtist, JimWalshID, BethanyRooneyName, ChrisBrancatoName, KennethBillerName, MeatPuppetsArtist, BrianAustinGreenName, ChipJohannessenName, GeoffreyWilliamsArtist, StarFrohmanName, RichardLangName, BrandonSteve_ID, BillDEliaName, JasonPriestleyName, ShannenDohertyName } from "./variables/beverly-hills";
 
 export const dramaSeries: Show[] = [
   {
@@ -20,7 +19,7 @@ export const dramaSeries: Show[] = [
     tags: ["Teen Drama", "high-school", "classic", "soap", "culture-icon"],
     mainCharacters: [
       {
-        id: BRANDON_WALSH_ID,
+        id: BrandonWalshID,
         firstName: "Brandon",
         lastName: "Walsh",
         gender: "M",
@@ -141,7 +140,7 @@ export const dramaSeries: Show[] = [
           {
             id: BrandonBrenda_ID,
             type: "Family",
-            name: BRENDA_WALSH_NAME,
+            name: BrendaWalshName,
             twin: true,
             family: "Sibling", 
             description: [
@@ -156,7 +155,7 @@ export const dramaSeries: Show[] = [
           {
             id: BrandonJim_ID,
             type: "Family", 
-            name: JIM_WALSH_NAME,
+            name: JimWalshName,
             family: "Parent",
             typeOfFamily: "Biological", 
             imgUrl: "https://m.media-amazon.com/images/M/MV5BMTgxMTIxNzk0NF5BMl5BanBnXkFtZTgwOTMyMDYzMzE@._V1_.jpg",
@@ -166,7 +165,7 @@ export const dramaSeries: Show[] = [
             id: BrandonCindy_ID,
             type: "Family", 
             typeOfFamily: "Biological",
-            name: CINDY_WALSH_NAME,
+            name: CindyWalshName,
             family: "Parent", 
             imgUrl: "https://m.media-amazon.com/images/M/MV5BMTgxMTIxNzk0NF5BMl5BanBnXkFtZTgwOTMyMDYzMzE@._V1_.jpg",   
             gender: "F"
@@ -174,7 +173,7 @@ export const dramaSeries: Show[] = [
           {
             id: BrandonDylan_ID,
             type: "Friendship", 
-            name: DYLAN_MCKAY_NAME,
+            name: DylanMcKayName,
             kindOfFriendship: "Best Friend",
             description: ["Brandon meets Dylan when Dylan defends Scott to two bullies in tech class. Brandon initiates contact with Dylan and they start up a friendship that is almost like a brotherhood. They fight, make up, are there for each other in extreme and regular situations and share a grounded view on life, Dylan a more spiritual and open-minded old soul to Brandon's curious, head-first enthusiasm. Together with Brenda they form an inseparable trio, who support and protect one another while growing up in ritzy Beverly Hills. Brandon, at times, feels left out or separated from Dylan due to Dylan's wealth, even as they start college, jealous of the opportunities money affords Dylan easily. Dylan longs for the steady family dynamic Brandon has always enjoyed and considers Brandon's parents his own surrogate parents, until Jim rejects him. Even Dylan's chaotic relationship with Kelly and Brandon's later romance with her does not destroy their close bond and Brandon serves as Dylan's best man at his wedding to Antonia."], 
             shortDesc: "Brandon and Dylan form a close, brother-like friendship. They support each other through many ups and downs and remain loyal companions throughout the series.",
@@ -186,7 +185,7 @@ export const dramaSeries: Show[] = [
           {
             id: BrandonKelly_ID,
             type: "Romantic", 
-            name: KELLY_TAYLOR_NAME,
+            name: KellyTaylorName,
             romantic: "Ex-Fiancé",
             description: ["Brandon Walsh and Kelly Taylor’s relationship in Beverly Hills, 90210 is one of the show's most complex and emotional romances. They start off as friends when the Walsh family first arrives in Beverly Hills. Kelly immediately finds Brandon attractive, but he initially doesn’t return her romantic interest. Over time, as part of the West Beverly group, they grow closer and their connection deepens.", 
               "Their romantic relationship eventually begins after Kelly’s previous relationship with Dylan McKay ends. Dating brings its own challenges, including obstacles like Kelly’s trauma from a house fire, Brandon’s brief infidelity with Emily Valentine, and Kelly’s involvement with a cult.In college, Brandon proposes to Kelly when Dylan offers her a trip around the world — a decision point that highlights just how tangled their feelings are. Kelly initially turns down both offers but later admits she would’ve chosen Brandon, wanting to protect his friendship with Dylan. As adults, things become even more complicated.", 
@@ -207,7 +206,7 @@ export const dramaSeries: Show[] = [
             gender: "",
             shortDesc: "In season 7 Brandon and Kelly find out that Kelly was pregnant without realizing, but unfortunately miscarried.",
             dead: true,
-            secondParent: KELLY_TAYLOR_NAME
+            secondParent: KellyTaylorName
           },
           {
             name: "Paula Beevis",
@@ -253,7 +252,7 @@ export const dramaSeries: Show[] = [
           {
             id: BrandonAndrea_ID,
             type: "Friendship", 
-            name: ANDREA_ZUCKERMAN_NAME,
+            name: AndreaZuckermanName,
             kindOfFriendship: "Best Friend",
             description: ["Brandon and Andrea meet at The Blaze, which becomes the scene of many heated debates between the two of moral issues concerning the paper, always underpinned by their mutual, undeniable attraction which neither ever find the right time to truly act on. While Andrea is first considered a social outcast and Brandon quickly befriends 'in-crowd' people such as rich boy Steve Sanders and revered, rich loner Dylan McKay, the focus early on is how Andrea has an obvious crush on Brandon, but it goes both ways.", "Brandon is the first to spontaneously kiss Andrea and both are incredibly jealous of their respective significant others. Brandon, particularly, often seems to have trouble expressing how he really feels about Andrea. The pairing seems to be bandied about quite a bit, with a bunch of near-misses in them finally getting together. It is not stated, but one can speculate that the two never did get together due to the necessity of the pregnancy storyline[1], and possibly Carteris's departure from the show a year following that."], 
             shortDesc: "Brandon and Andrea meet while working at The Blaze, where they often debate moral issues, revealing both tension and mutual attraction. Although Andrea is initially seen as an outsider and Brandon becomes part of the popular crowd, they develop strong feelings for each other. Brandon is the first to kiss Andrea, and both show jealousy over each other’s relationships. Despite several near-romantic moments, Brandon struggles to express his true feelings. Ultimately, they never fully pursue a relationship, likely due to changing storylines and Andrea’s later departure.",
@@ -354,31 +353,31 @@ export const dramaSeries: Show[] = [
             gender: "F"
             },
             {
-              name: STEVE_SANDERS_NAME,
+              name: SteveSandersName,
               type: "Friendship",
               kindOfFriendship: "Close",
               gender: "M"
             },
             {
-              name: VALERIE_MALONE_NAME,
+              name: ValerieMaloneName,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "F"
             },
             {
-              name: CLARE_ARNOLD_NAME,
+              name: ClareArnoldName,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "F"
             },
             {
-              name: DAVID_SILVER_NAME,
+              name: DavidSilverName,
               type: "Friendship",
               kindOfFriendship: "Close",
               gender: "F" 
             },
             {
-              name: DONNA_MARTIN_NAME,
+              name: DonnaMartinName,
               type: "Friendship",
               kindOfFriendship: "Close",
               gender: "F" 
@@ -392,7 +391,7 @@ export const dramaSeries: Show[] = [
            
         },
       {
-        id: BRENDA_WALSH_ID,
+        id: BrendaWalshID,
         firstName: "Brenda",
         lastName: "Walsh",
         imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZqEXsN_yS6oHvCE5s5gFA8_NUamsBmFORM4N16UY9phr0eNlSso5yp3AF&s=10",
@@ -512,7 +511,7 @@ export const dramaSeries: Show[] = [
           {
             id: BrandonBrenda_ID,
             type: "Family",
-            name: BRANDON_WALSH_NAME,
+            name: BrandonWalshName,
             twin: true,
             family: "Sibling", 
             description: ["Brenda and Brandon Walsh are twin siblings who move with their parents from Minneapolis to Beverly Hills at the beginning of Beverly Hills, 90210. From the start, their relationship is shown as close and supportive, with Brandon often acting as Brenda’s confidant and grounding influence. Brandon plays a stabilizing role in Brenda’s life as she struggles to adjust to the new social dynamics of Beverly Hills, develop friendships, and navigate her romantic relationships. Brenda openly tells Brandon at one point that he is her best friend, and Brandon expresses that he hopes they always remain that close. Though the show focuses more heavily on Brenda’s own storylines—especially her high-profile romance with Dylan McKay and the accompanying family tensions—her bond with Brandon remains a consistent part of her character arc. Brandon cares deeply for Brenda, supports her through personal ups and downs, and is there for her during major moments in the early seasons. Overall, their relationship is portrayed as a strong familial bond rather than a romantic one, grounded in mutual support, shared experience as newcomers in Beverly Hills, and brother-sister loyalty."], 
@@ -524,7 +523,7 @@ export const dramaSeries: Show[] = [
           {
             id: "branda-jim",
             type: "Family", 
-            name: JIM_WALSH_NAME,
+            name: JimWalshName,
             family: "Parent", 
             imgUrl: "https://i.ytimg.com/vi/NXUDF9riTw0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD-4g_yL3AQK8ZUcpTGo3hbyDQqsQ",
             gender: "M"   
@@ -532,14 +531,14 @@ export const dramaSeries: Show[] = [
           {
             id: BrendaCindy_ID,
             type: "Family", 
-            name: CINDY_WALSH_NAME,
+            name: CindyWalshName,
             family: "Parent", 
             gender: "F"
           },
           {
             id: BrendaDylan_ID,
             type: "Romantic", 
-            name: DYLAN_MCKAY_NAME,
+            name: DylanMcKayName,
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             description: ["Brenda Walsh and Dylan McKay’s relationship is one of the most iconic and emotionally intense romances in Beverly Hills, 90210. They begin dating in Season 1 after forming a strong connection as fellow outsiders—Brenda as the sensitive newcomer from Minnesota and Dylan as the troubled, rebellious loner. Their early relationship is passionate, loyal, and deeply romantic, with both seeing each other as their first true love.",
               "During their early years together, Brenda and Dylan become inseparable. Brenda is devoted and idealistic, while Dylan finds emotional safety and stability with her for the first time in his life. Their bond is strengthened through shared vulnerability, including Dylan’s struggles with his family, wealth, and abandonment issues. Brenda often acts as his emotional anchor, while Dylan gives Brenda confidence and a sense of being truly chosen.",
@@ -557,7 +556,7 @@ export const dramaSeries: Show[] = [
           {
             id: BrendaKelly_ID,
             type: "Friendship", 
-            name: KELLY_TAYLOR_NAME,
+            name: KellyTaylorName,
             kindOfFriendship: "Normal",
             current: "Friendship", 
             description: ["When Brenda Walsh first arrives in Beverly Hills, Kelly Taylor quickly becomes one of her closest friends and social guides. As a popular and socially confident student, Kelly helps Brenda adjust to the school’s culture, fashion, and social expectations. In return, Brenda offers Kelly emotional warmth, sincerity, and a sense of groundedness that she had often lacked. During the early seasons, their friendship is affectionate, loyal, and almost sister-like. They share secrets, support each other through romantic problems, and consistently defend one another. At this stage, their bond is built on trust, admiration, and genuine emotional closeness.",
@@ -617,7 +616,7 @@ export const dramaSeries: Show[] = [
           {
             id: BrendaDonna_ID,
             type: "Friendship", 
-            name: DONNA_MARTIN_NAME,
+            name: DonnaMartinName,
             kindOfFriendship: "Best Friend",
             description: ["When Brenda Walsh first arrives in Beverly Hills, Donna Martin becomes one of her earliest and most reliable friends. Unlike Kelly, who introduces Brenda to the school’s social hierarchy, Donna offers immediate kindness and emotional safety. She welcomes Brenda without judgment and treats her with warmth and sincerity. From the beginning, their bond is built on trust, gentleness, and mutual support rather than popularity or competition. Donna’s calm, non-confrontational nature balances Brenda’s emotional intensity, creating a friendship based on comfort and understanding.",
               "During the early seasons, Brenda and Donna develop a quiet but meaningful closeness. They often confide in each other about romantic struggles, family problems, and personal insecurities. Donna consistently acts as a listener and emotional anchor for Brenda, especially during moments of heartbreak involving Dylan and conflict with Kelly. In return, Brenda encourages Donna to be more confident and assertive, helping her express her feelings and stand up for herself. Their friendship functions as a safe space where both can be vulnerable without fear of judgment.",
@@ -681,45 +680,45 @@ export const dramaSeries: Show[] = [
           
           },
             {
-              name: STEVE_SANDERS_NAME,
+              name: SteveSandersName,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "M"
             },
             
             {
-              name: ANDREA_ZUCKERMAN_NAME,
+              name: AndreaZuckermanName,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "F"
             },
             {
-              name: VALERIE_MALONE_NAME,
+              name: ValerieMaloneName,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "F"
             },
             {
-              name: DAVID_SILVER_NAME,
+              name: DavidSilverName,
               type: "Friendship",
               kindOfFriendship: "Close",
               gender: "F" 
             },
             {
-              name: DONNA_MARTIN_NAME,
+              name: DonnaMartinName,
               type: "Friendship",
               kindOfFriendship: "Close",
               gender: "F" 
             },
           ],  
-          actor: "Shannen Doherty",
+          actor: ShannenDohertyName,
           firstEpisode: beverlyHillsS1Ep1Title,
           lastEpisode: beverlyHillsS4Ep32Title,
           episodeCount: "112",
        
       },
       {
-        id: DYLAN_MCKAY_ID,
+        id: DylanMcKayID,
         firstName: "Dylan",
         lastName: "McKay",
         imageUrl: "https://decider.com/wp-content/uploads/2015/10/luke-perry.png",
@@ -815,18 +814,18 @@ export const dramaSeries: Show[] = [
         relationships: [ 
           {          
             type: "Family",
-            name: SAMMY_TAYLOR_NAME,
+            name: SammyTaylorName,
             family: "Child",
             shortDesc: "Sammy is Dylan's son that he had with Kelly between the original show and the 90210 reboot. He and Sammy doesn't have that much of a relationship.",
             imgUrl: "https://lthumb.lisimg.com/985/697985.jpg?width=280&sharpen=true",   
             gender: "M",
             card: true,
-            secondParent: KELLY_TAYLOR_NAME
+            secondParent: KellyTaylorName
           },
           {
             id: DylanToni_ID,
             type: "Romantic", 
-            name: TONI_MARCHETTE_NAME,
+            name: ToniMarchetteName,
             romantic: "Wife/Husband",
             dead: true,
             description: [
@@ -848,7 +847,7 @@ export const dramaSeries: Show[] = [
           {
             id: BrendaDylan_ID,
             type: "Romantic", 
-            name: BRENDA_WALSH_NAME,
+            name: BrendaWalshName,
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             description: ["Brenda Walsh and Dylan McKay’s relationship is one of the most iconic and emotionally intense romances in Beverly Hills, 90210. They begin dating in Season 1 after forming a strong connection as fellow outsiders—Brenda as the sensitive newcomer from Minnesota and Dylan as the troubled, rebellious loner. Their early relationship is passionate, loyal, and deeply romantic, with both seeing each other as their first true love.",
               "During their early years together, Brenda and Dylan become inseparable. Brenda is devoted and idealistic, while Dylan finds emotional safety and stability with her for the first time in his life. Their bond is strengthened through shared vulnerability, including Dylan’s struggles with his family, wealth, and abandonment issues. Brenda often acts as his emotional anchor, while Dylan gives Brenda confidence and a sense of being truly chosen.",
@@ -878,7 +877,7 @@ export const dramaSeries: Show[] = [
           {
             id: BrandonDylan_ID,
             type: "Friendship", 
-            name: BRANDON_WALSH_NAME,
+            name: BrandonWalshName,
             kindOfFriendship: "Best Friend",
             description: ["Brandon meets Dylan when Dylan defends Scott to two bullies in tech class. Brandon initiates contact with Dylan and they start up a friendship that is almost like a brotherhood. They fight, make up, are there for each other in extreme and regular situations and share a grounded view on life, Dylan a more spiritual and open-minded old soul to Brandon's curious, head-first enthusiasm. Together with Brenda they form an inseparable trio, who support and protect one another while growing up in ritzy Beverly Hills. Brandon, at times, feels left out or separated from Dylan due to Dylan's wealth, even as they start college, jealous of the opportunities money affords Dylan easily. Dylan longs for the steady family dynamic Brandon has always enjoyed and considers Brandon's parents his own surrogate parents, until Jim rejects him. Even Dylan's chaotic relationship with Kelly and Brandon's later romance with her does not destroy their close bond and Brandon serves as Dylan's best man at his wedding to Antonia."], 
             shortDesc: "Brandon and Dylan form a close, brother-like friendship. They support each other through many ups and downs and remain loyal companions throughout the series.",
@@ -889,7 +888,7 @@ export const dramaSeries: Show[] = [
           {
             id: DylanJim_ID,
             type: "Friendship", 
-            name: JIM_WALSH_NAME,
+            name: JimWalshName,
             kindOfFriendship: "Father Figure", 
             imgUrl: "https://preview.redd.it/what-are-your-overall-thoughts-on-jim-walsh-v0-zyu07zznrv5b1.png?auto=webp&s=377065de82b2b67221ec6a6d1ea6f1e2d350992f",
             gender: "M", 
@@ -906,7 +905,7 @@ export const dramaSeries: Show[] = [
           {
             id: DylanKelly_ID,
             type: "Romantic", 
-            name: KELLY_TAYLOR_NAME,
+            name: KellyTaylorName,
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             description: [
               "Dylan and Kelly’s relationship develops gradually and becomes one of the show’s central emotional storylines. Although Dylan initially dates Brenda, he begins forming a close emotional bond with Kelly in Season 2. Their shared sensitivity and mutual understanding draw them together, leading to a secret romantic relationship. This betrayal deeply hurts Brenda and permanently alters the dynamics of the friend group. From the beginning, Dylan and Kelly’s love is marked by guilt, secrecy, and emotional conflict.",
@@ -932,7 +931,7 @@ export const dramaSeries: Show[] = [
           {
             id: DylanDavid_ID,
             type: "Friendship", 
-            name: DAVID_SILVER_NAME,
+            name: DavidSilverName,
             kindOfFriendship: "Close",
             description: [
               "Dylan and David’s relationship begins in Season 1 with clear differences in personality and social status. Dylan is introduced as a mysterious, independent loner, while David is younger, insecure, and eager to fit in. Early on, they do not interact much, and Dylan initially views David as immature and somewhat annoying. Their bond is limited, mainly existing through their shared connections to the friend group.",
@@ -951,7 +950,7 @@ export const dramaSeries: Show[] = [
           {
             id: DylanAndrea_ID,
             type: "Friendship", 
-            name: ANDREA_ZUCKERMAN_NAME,
+            name: AndreaZuckermanName,
             kindOfFriendship: "Close",
             description: [
               "Dylan and Andrea’s relationship is one of the most subtle and thoughtful dynamics in Beverly Hills, 90210. Unlike many other relationships in the series, their bond is never driven by romance or physical attraction. Instead, it develops through shared values, emotional honesty, and intellectual connection.",
@@ -970,7 +969,7 @@ export const dramaSeries: Show[] = [
           },
           {
             id: DylanGina_ID,
-            name: GINA_KINCAID_NAME, 
+            name: GinaKincaidName, 
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             imgUrl: "https://preview.redd.it/thoughts-on-dylan-gina-v0-zj1v3rx7mjeb1.jpg?width=640&crop=smart&auto=webp&s=ac6e65d31e9634756ace5047491e9ea7bd086326",
@@ -990,7 +989,7 @@ export const dramaSeries: Show[] = [
           },
           {
             id: DylanValerie_ID,
-            name: VALERIE_MALONE_NAME,
+            name: ValerieMaloneName,
             type: "Romantic",
             romantic: "Fling",
             gender: "F",
@@ -1018,7 +1017,7 @@ export const dramaSeries: Show[] = [
           },
           {
             id: BrandonEmily_ID,
-            name: EMILY_VALENTINE_NAME,
+            name: EmilyValentineName,
             type: "Romantic",
             romantic: "One Date",
             gender: "F"
@@ -1030,19 +1029,19 @@ export const dramaSeries: Show[] = [
             gender: "F"
           },
             {
-              name: STEVE_SANDERS_NAME,
+              name: SteveSandersName,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "M"
             },
             {
-              name: DONNA_MARTIN_NAME,
+              name: DonnaMartinName,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "F" 
             },
             {
-              name: JACK_MCKAY_NAME,
+              name: JackMcKayName,
               type: "Family",
               family: "Parent",
               gender: "M",
@@ -1061,7 +1060,7 @@ export const dramaSeries: Show[] = [
               card: true, 
             },
             {
-              name: IRIS_MCKAY_NAME,
+              name: IrisMcKayName,
               type: "Family",
               family: "Parent",
               gender: "F",
@@ -1079,7 +1078,7 @@ export const dramaSeries: Show[] = [
               card: true, 
             },
             {
-              name: ERICA_MCKAY_NAME,
+              name: EricaMcKayName,
               type: "Family",
               family: "Sibling",
               half: "Paternal",
@@ -1112,7 +1111,7 @@ export const dramaSeries: Show[] = [
            
       },
       {
-        id: KELLY_TAYLOR_ID,
+        id: KellyTaylorID,
         firstName: "Kelly",
         lastName: "Taylor",
         imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Kelly90210S3.jpg/250px-Kelly90210S3.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
@@ -1238,7 +1237,7 @@ export const dramaSeries: Show[] = [
           {
             id: DonnaKelly_ID,
             type: "Friendship", 
-            name: DONNA_MARTIN_NAME,
+            name: DonnaMartinName,
             kindOfFriendship: "Best Friend", 
             imgUrl: "https://m.media-amazon.com/images/M/MV5BNTM5MjhhNWYtMWRlOC00YzgzLWFkMTQtZDNkZTA5YWViYjIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
             shortDesc: "Kelly Taylor and Donna Martin share one of the most loyal and enduring friendships in Beverly Hills, 90210. From high school through adulthood, they support each other through family problems, romantic struggles, and personal crises. Donna provides emotional stability and unconditional loyalty, while Kelly encourages Donna’s confidence and independence. Largely free from betrayal, their bond matures over time into a respectful and lasting connection built on trust, empathy, and mutual support.",
@@ -1256,7 +1255,7 @@ export const dramaSeries: Show[] = [
           {
             id: BrendaKelly_ID,
             type: "Friendship", 
-            name: BRENDA_WALSH_NAME,
+            name: BrendaWalshName,
             kindOfFriendship: "Normal",
             current: "Friendship", 
             description: ["When Brenda Walsh first arrives in Beverly Hills, Kelly Taylor quickly becomes one of her closest friends and social guides. As a popular and socially confident student, Kelly helps Brenda adjust to the school’s culture, fashion, and social expectations. In return, Brenda offers Kelly emotional warmth, sincerity, and a sense of groundedness that she had often lacked. During the early seasons, their friendship is affectionate, loyal, and almost sister-like. They share secrets, support each other through romantic problems, and consistently defend one another. At this stage, their bond is built on trust, admiration, and genuine emotional closeness.",
@@ -1279,7 +1278,7 @@ export const dramaSeries: Show[] = [
           {
             id: KellyJackie_ID,
             type: "Family", 
-            name: JACKIE_TAYLOR_NAME,
+            name: JackieTaylorName,
             family: "Parent",
             typeOfFamily: "Biological", 
             imgUrl: "https://images.squarespace-cdn.com/content/v1/5b01f654365f02faae6e97a5/1527227323314-JV21L40WKEB63X19BKKN/tumblr_inline_ngbhwnjNOO1qeo68j.jpg?format=1500w",   
@@ -1298,7 +1297,7 @@ export const dramaSeries: Show[] = [
           {
             id: DylanKelly_ID,
             type: "Romantic", 
-            name: DYLAN_MCKAY_NAME,
+            name: DylanMcKayName,
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             description: [
               "Dylan and Kelly’s relationship develops gradually and becomes one of the show’s central emotional storylines. Although Dylan initially dates Brenda, he begins forming a close emotional bond with Kelly in Season 2. Their shared sensitivity and mutual understanding draw them together, leading to a secret romantic relationship. This betrayal deeply hurts Brenda and permanently alters the dynamics of the friend group. From the beginning, Dylan and Kelly’s love is marked by guilt, secrecy, and emotional conflict.",
@@ -1319,7 +1318,7 @@ export const dramaSeries: Show[] = [
           {
             id: BrandonKelly_ID,
             type: "Romantic", 
-            name: BRANDON_WALSH_NAME,
+            name: BrandonWalshName,
             romantic: "Ex-Fiancé",
             description: ["Brandon Walsh and Kelly Taylor’s relationship in Beverly Hills, 90210 is one of the show's most complex and emotional romances. They start off as friends when the Walsh family first arrives in Beverly Hills. Kelly immediately finds Brandon attractive, but he initially doesn’t return her romantic interest. Over time, as part of the West Beverly group, they grow closer and their connection deepens.", 
               "Their romantic relationship eventually begins after Kelly’s previous relationship with Dylan McKay ends. Dating brings its own challenges, including obstacles like Kelly’s trauma from a house fire, Brandon’s brief infidelity with Emily Valentine, and Kelly’s involvement with a cult.In college, Brandon proposes to Kelly when Dylan offers her a trip around the world — a decision point that highlights just how tangled their feelings are. Kelly initially turns down both offers but later admits she would’ve chosen Brandon, wanting to protect his friendship with Dylan. As adults, things become even more complicated.", 
@@ -1335,14 +1334,14 @@ export const dramaSeries: Show[] = [
           },
           {          
             type: "Family",
-            name: SAMMY_TAYLOR_NAME,
+            name: SammyTaylorName,
             family: "Child", 
             typeOfFamily: "Biological",
             shortDesc: "Sammy is Dylan's son that he had with Kelly between the original show and the 90210 reboot. He and Sammy doesn't have that much of a relationship.",
             imgUrl: "https://lthumb.lisimg.com/985/697985.jpg?width=280&sharpen=true",   
             gender: "M",
             card: true,
-            secondParent: DYLAN_MCKAY_NAME
+            secondParent: DylanMcKayName
           },
           {          
             name: "Unborn baby",
@@ -1353,36 +1352,36 @@ export const dramaSeries: Show[] = [
             shortDesc: "In season 7 Brandon and Kelly find out that Kelly was pregnant without realizing, but unfortunately miscarried.",
             dead: true,
             card: true,
-            secondParent: BRANDON_WALSH_NAME
+            secondParent: BrandonWalshName
           },
           {
             type: "Friendship", 
-            name: ANDREA_ZUCKERMAN_NAME,
+            name: AndreaZuckermanName,
             kindOfFriendship: "Normal",
             gender: "F",
             
           },
             {
-              name: STEVE_SANDERS_NAME,
+              name: SteveSandersName,
               type: "Friendship",
               romantic: "Ex-Boyfriend/Ex-Girlfriend",
               kindOfFriendship: "Close",
               gender: "M"
             },
             {
-              name: VALERIE_MALONE_NAME,
+              name: ValerieMaloneName,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "F"
             },
             {
-              name: CLARE_ARNOLD_NAME,
+              name: ClareArnoldName,
               type: "Friendship",
               kindOfFriendship: "Normal",
               gender: "F"
             },
             {
-              name: ERIN_SILVER_NAME,
+              name: ErinSilverName,
               type: "Family",
               family: "Sibling",
               half: "Maternal",
@@ -1400,7 +1399,7 @@ export const dramaSeries: Show[] = [
               gender: "F" 
             },
             {
-              name: MEL_SILVER_NAME,
+              name: MelSilverName,
               type: "Family",
               family: "Parent", 
               typeOfFamily: "Step",
@@ -1408,7 +1407,7 @@ export const dramaSeries: Show[] = [
             },
             {
               id: DavidKelly_ID,
-              name: DAVID_SILVER_NAME,
+              name: DavidSilverName,
               type: "Family",
               family: "Sibling",
               typeOfFamily: "Step",
@@ -1452,7 +1451,7 @@ export const dramaSeries: Show[] = [
           gender: "F",
         },
       {
-        id: DONNA_MARTIN_ID,
+        id: DonnaMartinID,
         firstName: "Donna",
         middleName: "Marie",
         lastName: "Martin",
@@ -1602,20 +1601,20 @@ export const dramaSeries: Show[] = [
            //Family
            {
             type: "Family",
-            name: JOHN_MARTIN_NAME,
+            name: JohnMartinName,
             family: "Parent",
             typeOfFamily: "Biological",
             gender: "M",
            },
            {
             type: "Family",
-            name: FELICE_MARTIN_NAME,
+            name: FeliceMartinName,
             family: "Parent",
             typeOfFamily: "Biological",
             gender: "F",
            },
            {
-            name: BOBBI_KINCAID_NAME,
+            name: BOBBI_KINCAIDName,
             type: "Family",
             typeOfFamily: "Biological",
             extended: true,
@@ -1625,42 +1624,42 @@ export const dramaSeries: Show[] = [
           },
            {
             type: "Family",
-            name: GINA_KINCAID_NAME,
+            name: GinaKincaidName,
             family: "Sibling",
             half: "Paternal",
             gender: "F",
            },
            {
             type: "Family",
-            name: MEL_SILVER_NAME,
+            name: MelSilverName,
             typeOfFamily: "In-Law",
             family: "Parent",
             gender: "M",
            },
            {
             type: "Family",
-            name: JACKIE_TAYLOR_NAME,
+            name: JackieTaylorName,
             typeOfFamily: "In-Law",
             family: "Parent",
             gender: "F",
            },
            {
             type: "Family",
-            name: SHEILA_SILVER_NAME,
+            name: SheilaSilverName,
             typeOfFamily: "In-Law",
             family: "Parent",
             gender: "F",
            },
            {
             type: "Family",
-            name: JACKIE_TAYLOR_NAME,
+            name: JackieTaylorName,
             typeOfFamily: "In-Law",
             family: "Parent",
             gender: "F",
            },
            {
             type: "Family",
-            name: KELLY_TAYLOR_NAME,
+            name: KellyTaylorName,
             typeOfFamily: "In-Law",
             family: "Sibling",
             gender: "F",
@@ -1677,7 +1676,7 @@ export const dramaSeries: Show[] = [
             id: DonnaDavid_ID,
             type: "Romantic",
             romantic: "Wife/Husband",
-            name: DAVID_SILVER_NAME,
+            name: DavidSilverName,
             shortDesc: "Donna reluctantly begins dating an interested David, who's still considered a bit geeky by the gang. Donna is also well aware of David's infatuation with Kelly Taylor. However, she slowly realises that she's falling for David and makes their relationship public at a Christmas party in her junior year in high school. They date for the rest of high school and into their freshman year of college. David claims to love Donna, but wants to have sex, so instead of breaking up with her he cheats on her. Donna is heartbroken and moves on, although it's difficult. She eventually finds love in other serious relationships, while David, who still loves her, is forced to watch her be happy with others, knowing what he did. Although he also has other relationships, he wants to be with Donna and they rekindle their romance a few times. They finally end up together and get married when they are 26.",
             imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTWkeHw1THHx8grGj_Zq3Ew890W8MtlzXLFFaULGUJ6nbYsH3m_TVCTltg&s=10",
             gender: "M",
@@ -1706,7 +1705,7 @@ export const dramaSeries: Show[] = [
            },
            {
             type: "Romantic",
-            name: NOAH_HUNTER_NAME,
+            name: NOAH_HUNTERName,
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             imgUrl: "https://www.televisionofyore.com/uploads/9/3/0/3/9303799/8-25-inside_orig.jpeg",
             shortDesc: "Noah was a rebound relationship after Donna broke up with David the second time. The two were together through much of the 8th, 9th and 10th seasons with Noah sleeping with Val one drunken (and drugged) night and Donna briefly being torn between Noah and Wayne, a man she met in her store. Ultimately she and Noah break up near the end of the series, paving the way for a David/Donna reconciliation.",
@@ -1723,7 +1722,7 @@ export const dramaSeries: Show[] = [
            },
            {
             type: "Romantic",
-            name: RAY_PRUIT_NAME,
+            name: RAY_PRUITName,
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             gender: "M",
             shortDesc: "Ray was somewhat of a rebound relationship with David. Donna seemed to love him (and stated that she did) but Ray was very manipulative and controlling - he hated her friends and wanted to monopolize all of her time. His actions later became somewhat abusive culminating in him (somewhat accidentally) pushing her down some stairs and hurting her arm. While Ray seemed to get a handle on his anger issues and the two tried to make their relationship work, when Donna found out he slept with Val she ends things permanently.",
@@ -1780,7 +1779,7 @@ export const dramaSeries: Show[] = [
           {
             id: DonnaKelly_ID,
             type: "Friendship", 
-            name: KELLY_TAYLOR_NAME,
+            name: KellyTaylorName,
             kindOfFriendship: "Best Friend", 
             imgUrl: "https://m.media-amazon.com/images/M/MV5BNTM5MjhhNWYtMWRlOC00YzgzLWFkMTQtZDNkZTA5YWViYjIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
             shortDesc: "Kelly Taylor and Donna Martin share one of the most loyal and enduring friendships in Beverly Hills, 90210. From high school through adulthood, they support each other through family problems, romantic struggles, and personal crises. Donna provides emotional stability and unconditional loyalty, while Kelly encourages Donna’s confidence and independence. Largely free from betrayal, their bond matures over time into a respectful and lasting connection built on trust, empathy, and mutual support.",
@@ -1798,7 +1797,7 @@ export const dramaSeries: Show[] = [
           {
             id: BrendaDonna_ID,
             type: "Friendship", 
-            name: BRENDA_WALSH_NAME,
+            name: BrendaWalshName,
             kindOfFriendship: "Best Friend",
             description: ["When Brenda Walsh first arrives in Beverly Hills, Donna Martin becomes one of her earliest and most reliable friends. Unlike Kelly, who introduces Brenda to the school’s social hierarchy, Donna offers immediate kindness and emotional safety. She welcomes Brenda without judgment and treats her with warmth and sincerity. From the beginning, their bond is built on trust, gentleness, and mutual support rather than popularity or competition. Donna’s calm, non-confrontational nature balances Brenda’s emotional intensity, creating a friendship based on comfort and understanding.",
               "During the early seasons, Brenda and Donna develop a quiet but meaningful closeness. They often confide in each other about romantic struggles, family problems, and personal insecurities. Donna consistently acts as a listener and emotional anchor for Brenda, especially during moments of heartbreak involving Dylan and conflict with Kelly. In return, Brenda encourages Donna to be more confident and assertive, helping her express her feelings and stand up for herself. Their friendship functions as a safe space where both can be vulnerable without fear of judgment.",
@@ -1816,19 +1815,19 @@ export const dramaSeries: Show[] = [
 
           { 
             type: "Friendship",
-            name: CLARE_ARNOLD_NAME,
+            name: ClareArnoldName,
             kindOfFriendship: "Close",
             gender: "M",
           },
           { 
             type: "Friendship",
-            name: STEVE_SANDERS_NAME,
+            name: SteveSandersName,
             kindOfFriendship: "Normal",
             gender: "M",
           },
           { 
             type: "Friendship",
-            name: ANDREA_ZUCKERMAN_NAME,
+            name: AndreaZuckermanName,
             kindOfFriendship: "Normal",
             gender: "M",
           }
@@ -1843,7 +1842,7 @@ export const dramaSeries: Show[] = [
         lastEpisode: beverlyHillsSeriesFinaleTitle,
       },
       {
-        id: DAVID_SILVER_ID,
+        id: DavidSilverID,
         firstName: "David",
         lastName: "Silver",
         birthday: "August 1975",
@@ -1954,14 +1953,14 @@ export const dramaSeries: Show[] = [
         relationships: [
           {
             type: "Family",
-            name: MEL_SILVER_NAME,
+            name: MelSilverName,
             typeOfFamily: "Biological",
             family: "Parent",
             gender: "M",
           },
           {
             type: "Family",
-            name: SHEILA_SILVER_NAME,
+            name: SheilaSilverName,
             typeOfFamily: "Biological",
             family: "Parent",
             gender: "F",
@@ -1975,14 +1974,14 @@ export const dramaSeries: Show[] = [
           },
           {
             type: "Family",
-            name: KELLY_TAYLOR_NAME,
+            name: KellyTaylorName,
             family: "Sibling",
             typeOfFamily: "Step",
             gender: "F",
           },
           {
             type: "Family",
-            name: ERIN_SILVER_NAME,
+            name: ErinSilverName,
             family: "Sibling",
             half: "Paternal",
             typeOfFamily: "Half",
@@ -2010,7 +2009,7 @@ export const dramaSeries: Show[] = [
             id: DonnaDavid_ID,
             type: "Romantic",
             romantic: "Wife/Husband",
-            name: DONNA_MARTIN_NAME,
+            name: DonnaMartinName,
             shortDesc: "David began dating Donna Martin in the second season of the show; the two went to a dance as friends but left as a couple. When the issue of sex eventually arose, Donna informed David that she intended to remain a virgin for the foreseeable future. As a result, David eventually cheated on Donna with Ariel Hunter in Season 4, which split them up for a long time. At the show's conclusion, a reunited David and Donna were married with several of their loved ones in attendance.",
             imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTWkeHw1THHx8grGj_Zq3Ew890W8MtlzXLFFaULGUJ6nbYsH3m_TVCTltg&s=10",
             gender: "F",
@@ -2035,7 +2034,7 @@ export const dramaSeries: Show[] = [
             id: DavidValerie_ID,
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
-            name: VALERIE_MALONE_NAME,
+            name: ValerieMaloneName,
             shortDesc: "David and Val had an on-again/off-again relationship from their junior year at college, but after their first relationship (ending when Val volunteered David to sleep with her former friend who was blackmailing her) they could never make it work again. They eventually become best friends until Val leaves Beverly Hills in 1998.",
             imgUrl: "https://i.redd.it/valerie-malone-wins-davids-love-interests-v0-b59b9j2kggtd1.jpg?width=750&format=pjpg&auto=webp&s=8dd4af13de20712e7df9b6f99b74e6c30d47d3e0",
             gender: "F",
@@ -2052,7 +2051,7 @@ export const dramaSeries: Show[] = [
            {
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
-            name: CLARE_ARNOLD_NAME,
+            name: ClareArnoldName,
             gender: "F",
             shortDesc: "David and Clare start dating their sophomore year in college after meeting in a Media Studies class. They have a fun and light relationship, mostly based on sex. They eventually start fighting a lot and break up when they both admit to having feelings for someone else; Clare for Brandon, David for Donna. They reunite for a while at the end of the year, but Clare breaks up with David during the summer before their junior year. They stay friendly afterwards as part of the gang.",
             imgUrl: "https://static.wikia.nocookie.net/90210/images/8/8e/524clavid.png/revision/latest/scale-to-width-down/250?cb=20211003014552",
@@ -2103,13 +2102,13 @@ export const dramaSeries: Show[] = [
             {
               type: "Romantic",
               romantic: "Crush",
-              name: KELLY_TAYLOR_NAME,
+              name: KellyTaylorName,
               gender: "F",
             },
             {
               id: DylanDavid_ID,
               type: "Friendship", 
-              name: DYLAN_MCKAY_NAME,
+              name: DylanMcKayName,
               kindOfFriendship: "Close",
               description: [
                 "Dylan and David’s relationship begins in Season 1 with clear differences in personality and social status. Dylan is introduced as a mysterious, independent loner, while David is younger, insecure, and eager to fit in. Early on, they do not interact much, and Dylan initially views David as immature and somewhat annoying. Their bond is limited, mainly existing through their shared connections to the friend group.",
@@ -2127,7 +2126,7 @@ export const dramaSeries: Show[] = [
             },
             {
               id: DavidKelly_ID,
-              name: KELLY_TAYLOR_NAME,
+              name: KellyTaylorName,
               type: "Family",
               family: "Sibling",
               typeOfFamily: "Step",
@@ -2145,25 +2144,25 @@ export const dramaSeries: Show[] = [
             },
             {
               type: "Friendship",
-              name: BRANDON_WALSH_NAME,
+              name: BrandonWalshName,
               kindOfFriendship: "Close",
               gender: "M",
             },
             {
               type: "Friendship",
-              name: BRENDA_WALSH_NAME,
+              name: BrendaWalshName,
               kindOfFriendship: "Normal",
               gender: "M",
             },
             {
               type: "Friendship",
-              name: STEVE_SANDERS_NAME,
+              name: SteveSandersName,
               kindOfFriendship: "Normal",
               gender: "M",
             },
             {
               id: "david-scott",
-              name: SCOTT_SCANLON_NAME,
+              name: ScottScanlonName,
               type: "Friendship",
               kindOfFriendship: "Normal",
               started: ["Before Class of Beverly Hills"],
@@ -2181,10 +2180,10 @@ export const dramaSeries: Show[] = [
         firstEpisode: beverlyHillsS1Ep1Title,
         lastEpisode: beverlyHillsSeriesFinaleTitle,
         episodeCount: "293",
-        actor: "Brian Austin Green"
+        actor: BrianAustinGreenName
       },
       {
-        id: STEVE_SANDERS_ID,
+        id: SteveSandersID,
         firstName: "Steve",
         lastName: "Sanders",
         birthday: "May 15, 1975, Beverly Hills",
@@ -2386,7 +2385,7 @@ export const dramaSeries: Show[] = [
             typeOfFamily: "Adoptive",
             adopted: true,
             family: "Parent",
-            name: SAMANTHA_SANDERS_NAME,
+            name: SamanthaSandersName,
             gender: "F",
             card: true,
             shortDesc: "A former star of a hit family series, Samantha is very much at the center of attention at the Sanders Mansion, where she lives with her son. She is a single mother, as Rush is rarely around until Steve is an adult and although she's mostly focused on image and her life of glamour, she later proves to Steve that she loves him and has his best interest at heart.",
@@ -2406,7 +2405,7 @@ export const dramaSeries: Show[] = [
             type: "Family",
             typeOfFamily: "Biological",
             family: "Parent",
-            name: RUSH_SANDERS_NAME,
+            name: RushSandersName,
             gender: "M",
             card: true,
             shortDesc: "It was revealed years after Steve searched for Karen that Steve's adoption was true of only one parent, as Rush is indeed his biological father. With this information in the open, Steve and Rush finally began settling their differences for good. Rush would later help Steve start up a publication with Brandon.",
@@ -2426,14 +2425,14 @@ export const dramaSeries: Show[] = [
             imgUrl: "https://static.wikia.nocookie.net/90210/images/b/b3/AlBrown.jpg/revision/latest?cb=20160825024036",
           },
           {
-            name: MADELINE_SANDERS_NAME,
+            name: MadelineSandersName,
             type: "Family",
             typeOfFamily: "Biological",
             family: "Child",
             gender: "F",
           },
           {
-            name: RYAN_SANDERS_NAME,
+            name: RyanSandersName,
             type: "Family",
             typeOfFamily: "Half",
             family: "Sibling",
@@ -2442,7 +2441,7 @@ export const dramaSeries: Show[] = [
           },
           {
             type: "Family",
-            name: AUSTIN_SANDERS_NAME,
+            name: AustinSandersName,
             typeOfFamily: "Half",
             family: "Sibling",
             half: "Paternal",
@@ -2457,7 +2456,7 @@ export const dramaSeries: Show[] = [
           },
           {
             id: SteveJanet_ID,
-            name: JANET_SOSNA_NAME,
+            name: JanetSosnaName,
             type: "Romantic",
             romantic: "Wife/Husband",
             gender: "F",
@@ -2469,7 +2468,7 @@ export const dramaSeries: Show[] = [
           {
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
-            name: KELLY_TAYLOR_NAME,
+            name: KellyTaylorName,
             gender: "F",
             shortDesc: "Steve and Kelly dated for about a year their freshman year of high school, but Steve bragged about sleeping with Kelly, which caused her to break up with him. It is also implied that Steve's generally conceited, careless attitude at the time was what led Kelly to leave him. After an acrimonious split, the two spend a lot of time together due to their respective friendships with the Walsh twins, and eventually their meanness toward one another fades into friendly bickering. This is also a result of Kelly apologising to Steve for not being a better friend to him, when he realised he was adopted, as Kelly was the only person he told. Eventually, they grow closer and become great friends, to the point where Steve wants to start something up, but the timing is off as Kelly at this point is with Brandon. Despite this, the two would remain close friends well into their adult lives.",
             card: true,
@@ -2480,12 +2479,12 @@ export const dramaSeries: Show[] = [
           { 
             type: "Romantic",
             romantic: "Dated",
-            name: CARLY_REYNOLDS_NAME,
+            name: CARLY_REYNOLDSName,
             gender: "F",
           },
           {
             id: SteveValerie_ID,
-            name: VALERIE_MALONE_NAME,
+            name: ValerieMaloneName,
             type: "Romantic",
             romantic: "Fling",
             shortDesc: "Steve asks Valerie out almost the moment she arrives in Beverly Hills. As she puts on a front for everyone, Steve believes her to just be a nice girl, while Valerie schemes to use Steve solely for his money. They go on a few dates, but Steve eventually catches her at a strung-out Dylan's house. Valerie tries to make amends with Steve, who agrees to be cordial as a favour to Brandon. When Steve starts up the After Dark and arranges parties, Valerie wants to help out, but Steve is hesitant, assuming there's a catch. Valerie admits there is: she wants another shot with Steve. He reluctantly agrees to have her help out with the party and they almost have sex there, interrupted by the fire. Following the fire, Valerie offers Steve to lie to give him an alibi and Steve ends their temporary fling. They remain cordial with Steve, but always cautious about Valerie. In their junior year, Steve moves into the Walsh house with Brandon and Valerie. He and Valerie eventually become friends, and at their college graduation party, they sleep together.",
@@ -2496,7 +2495,7 @@ export const dramaSeries: Show[] = [
           { 
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
-            name: CLARE_ARNOLD_NAME,
+            name: ClareArnoldName,
             gender: "F",
             shortDesc: "Clare and Steve first meet through Brandon, and Steve finds her intriguing due to Brandon's stories about her. They later get on each others nerves and bicker a lot, but start spending time together when Clare tutors Steve in math. Despite their bickering, they get to know each other and eventually end up on a blind date thanks to their respective anonymous online dating profiles. In spite of themselves, they feel a raw animal attraction to one another and end up sleeping together. Steve is less than enthusiastic about any relationship, but they can't stay away from each other and eventually start dating. While starting out casual, they eventually develop real feelings for each other, and Steve becomes insecure when meeting Clare's dad, feeling like he's not good enough for Clare because he doesn't think he's smart enough. Clare, however, thinks Steve is smart and encourages him to believe more in himself. In turn, Steve mellows out Clare's tendency to want to control everything. Their romance is tested when Clare's childhood friend, Prince Carl, the son of her late mother's best friend, comes to town to declare his intention to win Clare's heart. In the end, Clare tells him that she loves Steve. Clare and Steve go through a rough patch their senior year, breaking up for a while where Clare dates one of Steve's frat bros, Dick Harrison. Despite their differences, they miss each other and eventually reunite. When Clare's father decides to relocate to Paris, Clare goes with him and breaks up with Steve, who is heartbroken.",
             card: true,
@@ -2529,24 +2528,24 @@ export const dramaSeries: Show[] = [
             type: "Romantic",
             current: "Friendship",
             romantic: "Kissed",
-            name: ANDREA_ZUCKERMAN_NAME,
+            name: AndreaZuckermanName,
             gender: "F",
             kindOfFriendship: "Normal",
           },
           {
             type: "Friendship",
             kindOfFriendship: "Best Friend",
-            name: BRANDON_WALSH_NAME,
+            name: BrandonWalshName,
             gender: "M",  
           },
           {
             type: "Friendship",
             kindOfFriendship: "Normal",
-            name: DONNA_MARTIN_NAME,
+            name: DonnaMartinName,
             gender: "F",
           },
           {
-            name: DAVID_SILVER_NAME,
+            name: DavidSilverName,
             type: "Friendship",
             kindOfFriendship: "Normal",
             gender: "F",
@@ -2554,13 +2553,13 @@ export const dramaSeries: Show[] = [
           {
             type: "Friendship",
             kindOfFriendship: "Normal",
-           name: DYLAN_MCKAY_NAME,
+           name: DylanMcKayName,
             gender: "M",
           },
           {
             type: "Friendship",
             kindOfFriendship: "Normal",
-            name: BRENDA_WALSH_NAME,
+            name: BrendaWalshName,
             gender: "F",
           },
         ],
@@ -2574,7 +2573,7 @@ export const dramaSeries: Show[] = [
         episodeCount: "290",
       },
       {
-        id: ANDREA_ZUCKERMAN_ID,
+        id: AndreaZuckermanID,
         firstName: "Andrea",
         lastName: "Zuckerman",
         birthday: "1974, Van Nuys, CA",
@@ -2718,13 +2717,13 @@ export const dramaSeries: Show[] = [
           type: "Family",
           typeOfFamily: "Biological",
           family: "Child",
-          secondParent: JESSE_VASQUEZ_NAME,
+          secondParent: JesseVasquezName,
           gender: "F",
         },
          {
             id: BrandonAndrea_ID,
             type: "Friendship", 
-            name: BRANDON_WALSH_NAME,
+            name: BrandonWalshName,
             kindOfFriendship: "Best Friend",
             romantic: "Hook-Up",
             current: "Friendship",
@@ -2737,7 +2736,7 @@ export const dramaSeries: Show[] = [
           
           },
           {
-            name: JESSE_VASQUEZ_NAME,
+            name: JesseVasquezName,
             type: "Romantic",
             romantic: "Ex-Wife/Ex-Husband",
             shortDesc: "Andrea meets Jesse at the Walsh's 20th wedding anniversary, leading to a romance and subsequent marriage after she becomes pregnant. Jesse struggles with the pressures surrounding the birth of their daughter, Hannah, and their relationship becomes troubled, especially when he cheats while away on business. Confessing their infidelities leads to a crisis, but with Dylan's encouragement, they reconcile. Eventually, they leave Beverly Hills, but at a reunion five years later, Andrea announces their divorce. The series concludes with Andrea attending David and Donna's wedding as a presumed divorcée.",
@@ -2793,7 +2792,7 @@ export const dramaSeries: Show[] = [
             gender: "M",
           },
           {
-            name: STEVE_SANDERS_NAME,
+            name: SteveSandersName,
             type: "Romantic",
             romantic: "Hook-Up",
             gender: "M",
@@ -2801,7 +2800,7 @@ export const dramaSeries: Show[] = [
           {
             id: DylanAndrea_ID,
             type: "Friendship", 
-            name: DYLAN_MCKAY_NAME,
+            name: DylanMcKayName,
             kindOfFriendship: "Close",
             description: [
               "Dylan and Andrea’s relationship is one of the most subtle and thoughtful dynamics in Beverly Hills, 90210. Unlike many other relationships in the series, their bond is never driven by romance or physical attraction. Instead, it develops through shared values, emotional honesty, and intellectual connection.",
@@ -2819,25 +2818,25 @@ export const dramaSeries: Show[] = [
             started: [beverlyHillsS2Ep26Title], 
           },
           {
-            name: BRENDA_WALSH_NAME,
+            name: BrendaWalshName,
             type: "Friendship",
             kindOfFriendship: "Normal",
             gender: "F",
           },
           {
-            name: KELLY_TAYLOR_NAME,
+            name: KellyTaylorName,
             type: "Friendship",
             kindOfFriendship: "Normal",
             gender: "F",
           },
           {
-            name: DONNA_MARTIN_NAME,
+            name: DonnaMartinName,
             type: "Friendship",
             kindOfFriendship: "Normal",
             gender: "F",
           },
           {
-            name: DAVID_SILVER_NAME,
+            name: DavidSilverName,
             type: "Friendship",
             kindOfFriendship: "Normal",
             gender: "F",
@@ -2849,7 +2848,7 @@ export const dramaSeries: Show[] = [
         lastEpisode: beverlyHillsSeriesFinaleTitle,
       },
       {
-        id: VALERIE_MALONE_ID,
+        id: ValerieMaloneID,
         firstName: "Valerie",
         lastName: "Malone",
         eyeColor: "Blue",
@@ -2910,7 +2909,7 @@ export const dramaSeries: Show[] = [
             id: DavidValerie_ID,
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
-            name: DAVID_SILVER_NAME,
+            name: DavidSilverName,
             shortDesc: "David and Val had an on-again/off-again relationship from their junior year at college, but after their first relationship (ending when Val volunteered David to sleep with her former friend who was blackmailing her) they could never make it work again. They eventually become best friends until Val leaves Beverly Hills in 1998.",
             imgUrl: "https://i.redd.it/valerie-malone-wins-davids-love-interests-v0-b59b9j2kggtd1.jpg?width=750&format=pjpg&auto=webp&s=8dd4af13de20712e7df9b6f99b74e6c30d47d3e0",
             gender: "M",
@@ -2925,7 +2924,7 @@ export const dramaSeries: Show[] = [
             card: true,
            },
            {
-            name: NOAH_HUNTER_NAME,
+            name: NOAH_HUNTERName,
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             gender: "M",
@@ -2938,7 +2937,7 @@ export const dramaSeries: Show[] = [
            },
            {
             id: SteveValerie_ID,
-            name: STEVE_SANDERS_NAME,
+            name: SteveSandersName,
             type: "Romantic",
             romantic: "Fling",
             shortDesc: "Steve asks Valerie out almost the moment she arrives in Beverly Hills. As she puts on a front for everyone, Steve believes her to just be a nice girl, while Valerie schemes to use Steve solely for his money. They go on a few dates, but Steve eventually catches her at a strung-out Dylan's house. Valerie tries to make amends with Steve, who agrees to be cordial as a favour to Brandon. When Steve starts up the After Dark and arranges parties, Valerie wants to help out, but Steve is hesitant, assuming there's a catch. Valerie admits there is: she wants another shot with Steve. He reluctantly agrees to have her help out with the party and they almost have sex there, interrupted by the fire. Following the fire, Valerie offers Steve to lie to give him an alibi and Steve ends their temporary fling. They remain cordial with Steve, but always cautious about Valerie. In their junior year, Steve moves into the Walsh house with Brandon and Valerie. He and Valerie eventually become friends, and at their college graduation party, they sleep together.",
@@ -2971,7 +2970,7 @@ export const dramaSeries: Show[] = [
             gender: "M",
           },
            {
-            name: COLIN_ROBBINS_NAME,
+            name: ColinRobbinsName,
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             gender: "M",
@@ -2981,7 +2980,7 @@ export const dramaSeries: Show[] = [
           },
            {
             id: BrandonValerie_ID,
-            name: BRANDON_WALSH_NAME,
+            name: BrandonWalshName,
             type: "Romantic",
             romantic: "Kissed",
             gender: "M",
@@ -2990,7 +2989,7 @@ export const dramaSeries: Show[] = [
             card: true,
           },
            {
-            name: RAY_PRUIT_NAME,
+            name: RAY_PRUITName,
             type: "Romantic",
             romantic: "Affair",
             gender: "M",
@@ -3001,7 +3000,7 @@ export const dramaSeries: Show[] = [
           },
            {
             id: DylanValerie_ID,
-            name: DYLAN_MCKAY_NAME,
+            name: DylanMcKayName,
             type: "Romantic",
             romantic: "Fling",
             gender: "M",
@@ -3010,19 +3009,19 @@ export const dramaSeries: Show[] = [
             card: true,
           },
           {
-            name:BRENDA_WALSH_NAME,
+            name:BrendaWalshName,
             type: "Friendship",
             kindOfFriendship: "Normal",
             gender: "F"
           },
           {
-            name:CLARE_ARNOLD_NAME,
+            name:ClareArnoldName,
             type: "Friendship",
             kindOfFriendship: "Normal",
             gender: "F"
           },
           {
-            name:DONNA_MARTIN_NAME,
+            name:DonnaMartinName,
             type: "Friendship",
             kindOfFriendship: "Normal",
             gender: "F"
@@ -3117,7 +3116,7 @@ export const dramaSeries: Show[] = [
         episodeCount: "136",
       },
       {
-        id: SCOTT_SCANLON_ID,
+        id: ScottScanlonID,
         firstName: "Scott",
         lastName: "Scanlon",
         imageUrl: "https://m.media-amazon.com/images/M/MV5BNDQzOTJjZGYtZTM2ZS00YzFhLThmOWMtMTI1ZGQxMTFmZDJlXkEyXkFqcGc@._V1_.jpg",
@@ -3125,7 +3124,7 @@ export const dramaSeries: Show[] = [
         promo: true,
       },
       {
-        id: CLARE_ARNOLD_ID,
+        id: ClareArnoldID,
         firstName: "Claire",
         lastName: "Arnold",
         imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFfLrTmFxUeW87ntyC2Bg9YK_kbyCEZ5F0IQ0ERPD02pjdH0IVRoBEg9hr&s=10",
@@ -3133,7 +3132,7 @@ export const dramaSeries: Show[] = [
         promo: true,
       },
       {
-        id: JESSE_VASQUEZ_ID,
+        id: JesseVasquez_ID,
         firstName: "Jesse",
         lastName: "Vasquez",
         imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2AQTnXilh1TQORSI7THbCbTMNiVQB52mG7-e5ZTIkvW0bPTKyBrOOWkg&s=10",
@@ -3149,7 +3148,7 @@ export const dramaSeries: Show[] = [
         promo: true,
       },
       {
-        id: JANET_SOSNA_ID,
+        id: JanetSosnaID,
         firstName: "Janet",
         lastName: "Sosna",
         imageUrl: "https://preview.redd.it/matt-appearing-on-the-show-wins-worst-thing-a-character-has-v0-gvq24e52rk3e1.jpg?width=451&format=pjpg&auto=webp&s=89baf17e1c2aefade7df9cce8b8ef3c4198f2ac3",
@@ -3157,7 +3156,7 @@ export const dramaSeries: Show[] = [
         promo: true,
       },
       {
-        id: GINA_KINCAID_ID,
+        id: GinaKincaidID,
         firstName: "Gina",
         lastName: "Kincaid",
         imageUrl: "https://www.televisionofyore.com/uploads/9/3/0/3/9303799/9-22-inside_orig.jpeg",
@@ -3165,7 +3164,7 @@ export const dramaSeries: Show[] = [
         promo: true,
       },
       {
-        id: NOAH_HUNTER_ID,
+        id: NoahHunterID,
         firstName: "Noah",
         lastName: "Hunter",
         imageUrl:
@@ -3182,10 +3181,10 @@ export const dramaSeries: Show[] = [
       },
     ],
     cast: [
-      { actor: "Jason Priestley", character: BRANDON_WALSH_NAME, creditOrder: 1 },
-      { actor: "Shannen Doherty", character: BRENDA_WALSH_NAME, creditOrder: 2 },
-      { actor: "Jennie Garth", character: KELLY_TAYLOR_NAME, creditOrder: 3 },
-      { actor: "Luke Perry", character: DYLAN_MCKAY_NAME, creditOrder: 4 },
+      { actor: JasonPriestleyName, character: BrandonWalshName, creditOrder: 1 },
+      { actor: ShannenDohertyName, character: BrendaWalshName, creditOrder: 2 },
+      { actor: "Jennie Garth", character: KellyTaylorName, creditOrder: 3 },
+      { actor: "Luke Perry", character: DylanMcKayName, creditOrder: 4 },
     ],
     seasons: [
       {
@@ -3195,48 +3194,48 @@ export const dramaSeries: Show[] = [
         plot: "The series follows fraternal twins, Brandon and Brenda Walsh as they move with their parents from Minneapolis, Minnesota to the lavish, and excess filled city of Beverly Hills, California and begin their Junior year at West Beverly Hills High School. At first glance, it seems like their rich classmates have it all, but as time goes on, they learn that not everything is what it seems.",
         mainCast: [
           { 
-            actor: "Jason Priestley", 
-            character: BRANDON_WALSH_NAME
+            actor: JasonPriestleyName, 
+            character: BrandonWalshName
           },
           { 
-            actor: "Shannen Doherty", 
-            character: BRENDA_WALSH_NAME
+            actor: ShannenDohertyName, 
+            character: BrendaWalshName
           },
           { 
             actor: "Jennie Garth", 
-            character: KELLY_TAYLOR_NAME
+            character: KellyTaylorName
           },
           { 
             actor: "Ian Ziering", 
-            character: STEVE_SANDERS_NAME
+            character: SteveSandersName
           },
           { 
             actor: "Gabrielle Carteris", 
-            character: ANDREA_ZUCKERMAN_NAME
+            character: AndreaZuckermanName
           },
           { 
             actor: "Luke Perry", 
-            character: DYLAN_MCKAY_NAME
+            character: DylanMcKayName
           },
           { 
-            actor: "Brian Austin Green", 
-            character: DAVID_SILVER_NAME
+            actor: BrianAustinGreenName, 
+            character: DavidSilverName
           },
           { 
             actor: "Douglas Emerson", 
-            character: SCOTT_SCANLON_NAME
+            character: ScottScanlonName
           },
           { 
             actor: "Tori Spelling", 
-            character: DONNA_MARTIN_NAME
+            character: DonnaMartinName
           },
           { 
             actor: "Carol Potter", 
-            character: CINDY_WALSH_NAME
+            character: CindyWalshName
           },
           { 
             actor: "James Eckhouse", 
-            character: JIM_WALSH_NAME
+            character: JimWalshName
           },
         ],
         recurring: [
@@ -3253,7 +3252,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://m.media-amazon.com/images/M/MV5BZTdhZmUxYTYtNjMyZS00NWNkLTk4YTAtN2IzODcyZWMyYmNkXkEyXkFqcGc@._V1_.jpg",
               alt: "Image of Brenda sitting in her car in the school parking lot.",
-              pageId: BRENDA_WALSH_ID,
+              pageId: BrendaWalshID,
             },
             episodeTitle: [beverlyHillsS1Ep1Title],
             director: "Tim Hunter",
@@ -3275,12 +3274,12 @@ export const dramaSeries: Show[] = [
                 {
                   id: "attacked-by-monsters-meat-puppets",
                   title: "attacked by monsters",
-                  artist: "MEAT PUPPETS",
+                  artist: MeatPuppetsArtist,
                 },
                 {
                   id: "paradise-meat-puppets",
                   title: "paradise",
-                  artist: "MEAT PUPPETS",
+                  artist: MeatPuppetsArtist,
                 },
                 {
                   id: "nobody-rides-for-free-climate-of-crises",
@@ -3311,7 +3310,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://m.media-amazon.com/images/M/MV5BMTUwNDM0NDQ1NV5BMl5BanBnXkFtZTgwMDk3Mzg3MjE@._V1_.jpg",
               alt: "Dylan sitting on the steps to West Beverly.",
-              pageId: DYLAN_MCKAY_ID,
+              pageId: DylanMcKayID,
             },
             episodeTitle: [beverlyHillsS1Ep2Title],
             director: "Micheal Uno",
@@ -3344,7 +3343,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://static.wikia.nocookie.net/90210/images/e/ea/103brenkelly.png/revision/latest/thumbnail/width/360/height/360?cb=20220114122554",
               alt: "Kelly and Brenda standing by the lockers in the hallway at West Beverly High",
-              pageId: [BRENDA_WALSH_ID, KELLY_TAYLOR_ID]
+              pageId: [BrendaWalshID, KellyTaylorID]
             },
             episodeTitle: [beverlyHillsS1Ep3Title],
             director: CaitlinAdamsName,
@@ -3381,7 +3380,7 @@ export const dramaSeries: Show[] = [
               alt: "Brandon's ex-girlfriend, Sheryl is sitting at a table smiling", 
               pageId: "sheryl-beverly-hills-90210",
             },
-            director: "Bethany Rooney",
+            director: BethanyRooneyName,
             writtenBy: DarrenStarName,
             plot: "Brandon is excited when Sheryl, his ex-girlfriend from Minneapolis visits. When Sheryl meets Dylan, she becomes aroused by his money and glamour, making Brandon jealous and violent. Brenda develops a crush on her algebra teacher and is disappointed to find out that he has a wife and children that she has agreed to babysit. Cindy worries about Brandon losing his virginity and nags Jim to have the sex talk with him.",
             releaseDate: "October 25, 1990",
@@ -3420,7 +3419,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483740739727/PPCBS_BEVERLYHILLS90210_004_UHD_V1_3654535_1920x1080.jpg",
               alt: "Kelly, Donna and Brenda are talking at school.",
-              pageId: [BRENDA_WALSH_ID, KELLY_TAYLOR_ID, "donna-martin"],
+              pageId: [BrendaWalshID, KellyTaylorID, "donna-martin"],
             },
             director: "Artie Mandelberg",
             writtenBy: CharlesRosinName, 
@@ -3454,7 +3453,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39833649/PPCBS_BEVERLYHILLS90210_006_UHD_3378273_1920x1080.jpg",
               alt: "Brenda is at school in the courtyard with puffy, light-brown hair.",
-              pageId: BRENDA_WALSH_ID,
+              pageId: BrendaWalshID,
             },
             director: "Artie Mandelberg",
             writtenBy: JordanBuddeName,
@@ -3480,9 +3479,9 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9OCN5nmt3qXI5RntF3GEy7rfQ_ggJrFDR_k9v7-nxhnAyfCeirjCnMQuo&s=10",
               alt: "Kelly is standing in a crowd looking upset. Mrs. Walsh is standing behind her with a horrifed expression on her face.",
-              pageId: [KELLY_TAYLOR_ID]
+              pageId: [KellyTaylorID]
             },
-            director: "Bethany Rooney",
+            director: BethanyRooneyName,
             writtenBy: DarrenStarName,
             plot: "Brenda takes her mother for granted when she begins idolizing Kelly's cool mother, but unbeknownst to her, inside the Taylor household lies a dark secret as Jackie relapses and starts abusing drugs and alcohol all the while Kelly's pleas for help go unnoticed. Andrea joins Brenda and Cindy in the 15th Annual West Beverly High Fashion Show. David uses his video camera in order to sneak a peek at Kelly in the fashion show dressing room.",
             releaseDate: "November 22, 1990",
@@ -3502,7 +3501,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483742787553/PPCBS_BEVERLYHILLS90210_008_UHD_V1_3654630_1920x1080.jpg",
               alt: "Brenda and Brandon are sitting at a table with name signs",
-              pageId: [BRENDA_WALSH_ID, BRANDON_WALSH_ID]
+              pageId: [BrendaWalshID, BrandonWalshID]
             },
             director: "Jefferson Kibee",
             writtenBy: AmySpiesName,
@@ -3533,9 +3532,9 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483744323756/PPCBS_BEVERLYHILLS90210_009_UHD_V1_3654704_1920x1080.jpg",
               alt: "Steve, Dylan and Brandon are talking outside of school",
               pageId: [
-                BRANDON_WALSH_ID,
-                DYLAN_MCKAY_ID,
-                STEVE_SANDERS_ID
+                BrandonWalshID,
+                DylanMcKayID,
+                SteveSandersID
               ]
             },
             director: DanAttiasName,
@@ -3571,8 +3570,8 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483750467758/PPCBS_BEVERLYHILLS90210_010_UHD_V1_3654555_1920x1080.jpg",
               alt: "Brenda and Brandon are outside the house. Brandon is looking confused at Brenda.",
               pageId: [
-                BRENDA_WALSH_ID,
-                BRANDON_WALSH_ID,
+                BrendaWalshID,
+                BrandonWalshID,
               ],
             },
             director: "Nancy Malone",
@@ -3604,8 +3603,8 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483744835513/PPCBS_BEVERLYHILLS90210_011_UHD_V1_3654601_1920x1080.jpg",
               alt: "Dylan and Brenda are in the hallway. Dylan is leaning over Brenda gazing into her eyes.",
               pageId: [
-                BRENDA_WALSH_ID,
-                DYLAN_MCKAY_ID
+                BrendaWalshID,
+                DylanMcKayID
               ],
             },
             director: "Miles Watkins",
@@ -3637,9 +3636,9 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483739203809/PPCBS_BEVERLYHILLS90210_012_UHD_V1_3654582_1920x1080.jpg",
               alt: "Brenda, Brandon and Kelly are all sitting on Brenda's bed. Brandon is making a phone call while the girls are staring at him with excitement.",
               pageId: [
-                BRANDON_WALSH_ID,
-                BRENDA_WALSH_ID,
-                KELLY_TAYLOR_ID
+                BrandonWalshID,
+                BrendaWalshID,
+                KellyTaylorID
               ]
             },
             director: "Burt Brinckerhoff",
@@ -3673,7 +3672,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://static.wikia.nocookie.net/90210/images/f/f8/Normal_PDVD_344.jpg/revision/latest?cb=20101030232411",
               alt: "Kelly is crying while telling the girls about her first time",
-              pageId: [KELLY_TAYLOR_ID],
+              pageId: [KellyTaylorID],
             },
             director: CharlesBravermanName,
             writtenBy: DarrenStarName,
@@ -3699,7 +3698,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483743811579/PPCBS_BEVERLYHILLS90210_015_UHD_V1_3654614_1920x1080.jpg",
               alt: "Brandon is hugging the niece of the family's maid, Carla.",
-              pageId: BRANDON_WALSH_ID,
+              pageId: BrandonWalshID,
             },
             director: DanAttiasName,
             writtenBy: [
@@ -3733,8 +3732,8 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483744323866/PPCBS_BEVERLYHILLS90210_016_UHD_V1_3654685_1920x1080.jpg",
               alt: "Dylan and Brenda are laying in sun chairs at night talking outside the hotel.",
               pageId: [
-                BRENDA_WALSH_ID,
-                DYLAN_MCKAY_ID
+                BrendaWalshID,
+                DylanMcKayID
               ],
             },
             director: JeffersonKibbeeName,
@@ -3765,7 +3764,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://i.pinimg.com/564x/99/af/08/99af08f52289e1c990afcdffa0fc12c0.jpg",
               alt: "Dressed as a waitress, Brenda is singing 'It's My Party', using a whisk as a mic.",
-              pageId: BRENDA_WALSH_ID,
+              pageId: BrendaWalshID,
             },
             director: "Paul Schneider",
             writtenBy: [
@@ -3798,7 +3797,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://cfm.yidio.com/images/tv/176/2398/episode-image-400x225.jpg",
               alt: "Brandon is looking sad while talking to Kelly",
-              pageId: BRANDON_WALSH_ID,
+              pageId: BrandonWalshID,
             },
             director: "Burt Brickenhoff",
             writtenBy: AmySpiesName,
@@ -3825,8 +3824,8 @@ export const dramaSeries: Show[] = [
               src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTBxzqFYGcPprVopzEijkPDCcONQ-gjvNuK8ESSSLfk9458hDhLtiUTJbA&s=10",
               alt: "Cindy is looking nervous at Brenda's doctor's apoitment",
               pageId: [
-                BRENDA_WALSH_ID,
-                CINDY_WALSH_ID,
+                BrendaWalshID,
+                CindyWalshID,
               ]
             },
             director: CharlesBravermanName,
@@ -3850,7 +3849,7 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483742787940/PPCBS_BEVERLYHILLS90210_019_UHD_V1_3654705_1920x1080.jpg",
               alt: "Brandon is talking to the proffessional tennis player, Roger Azarian (played by Matthew Perry), because he wants to interview him for the school news paper.",
               pageId: [
-                BRANDON_WALSH_ID
+                BrandonWalshID
               ],
 
             },
@@ -3882,8 +3881,8 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483742787540/PPCBS_BEVERLYHILLS90210_020_UHD_V1_3654639_1920x1080.jpg",
               alt: "Brandon and Steve are at the baseball court. Brandon is dressed in baseball clothes.",
               pageId: [
-                BRANDON_WALSH_ID,
-                STEVE_SANDERS_ID,
+                BrandonWalshID,
+                SteveSandersID,
               ],
             },
             director: "Burt Brickenhoff",
@@ -3902,8 +3901,8 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/29/2484089411525/PPCBS_BEVERLYHILLS90210_022_UHD_V1_3662446_1920x1080.jpg",
               alt: "At the Walsh House, Kelly is adjusting Brandon's suit as they get ready for the spring dance.",
               pageId: [
-                BRANDON_WALSH_ID,
-                KELLY_TAYLOR_ID,
+                BrandonWalshID,
+                KellyTaylorID,
               ]
             },
             director: DarrenStarName,
@@ -3947,8 +3946,8 @@ export const dramaSeries: Show[] = [
               src: "https://www.televisionofyore.com/uploads/9/3/0/3/9303799/3753458_orig.jpeg",
               alt: "Brandon and Brenda are walking on the beach with their arms around each other.",
               pageId: [
-                BRANDON_WALSH_ID,
-                BRENDA_WALSH_ID,
+                BrandonWalshID,
+                BrendaWalshID,
               ]
             },
             director: CharlesBravermanName,
@@ -3988,44 +3987,44 @@ export const dramaSeries: Show[] = [
         seasonNumber: 2,
         mainCast: [
           { 
-            actor: "Jason Priestley", 
-            character: BRANDON_WALSH_NAME
+            actor: JasonPriestleyName, 
+            character: BrandonWalshName
           },
           { 
-            actor: "Shannen Doherty", 
-            character: BRENDA_WALSH_NAME
+            actor: ShannenDohertyName, 
+            character: BrendaWalshName
           },
           { 
             actor: "Jennie Garth", 
-            character: KELLY_TAYLOR_NAME
+            character: KellyTaylorName
           },
           { 
             actor: "Ian Ziering", 
-            character: STEVE_SANDERS_NAME
+            character: SteveSandersName
           },
           { 
             actor: "Gabrielle Carteris", 
-            character: ANDREA_ZUCKERMAN_NAME
+            character: AndreaZuckermanName
           },
           { 
             actor: "Luke Perry", 
-            character: DYLAN_MCKAY_NAME
+            character: DylanMcKayName
           },
           { 
-            actor: "Brian Austin Green", 
-            character: DAVID_SILVER_NAME
+            actor: BrianAustinGreenName, 
+            character: DavidSilverName
           },
           { 
             actor: "Tori Spelling", 
-            character: DONNA_MARTIN_NAME
+            character: DonnaMartinName
           },
           { 
             actor: "Carol Potter", 
-            character: CINDY_WALSH_NAME
+            character: CindyWalshName
           },
           { 
             actor: "James Eckhouse", 
-            character: JIM_WALSH_NAME
+            character: JimWalshName
           },
         ],
         recurring: [
@@ -4035,11 +4034,11 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Douglas Emerson",
-            character: SCOTT_SCANLON_NAME,
+            character: ScottScanlonName,
           },
           {
             actor: "Christine Elise",
-            character: EMILY_VALENTINE_NAME,
+            character: EmilyValentineName,
           },
           {
             actor: "Denise Dowse",
@@ -4065,7 +4064,7 @@ export const dramaSeries: Show[] = [
               src: "https://leavingcertirishnotes.wordpress.com/wp-content/uploads/2015/08/beachblanket.jpg",
               alt: "Brandon is at the beach, shirtless, talking to the general manager of the Beverly Hills Beach Club, Henry Thomas, while holding a towel.",
               pageId: [
-                BRANDON_WALSH_ID,
+                BrandonWalshID,
                 "henry-thomas",
               ],
             },
@@ -4106,7 +4105,7 @@ export const dramaSeries: Show[] = [
               src: "https://m.media-amazon.com/images/M/MV5BMzZjYzY5NzgtNWJiYi00OGJlLWIxOWMtN2NkYjk2NTcyNmYwXkEyXkFqcGc@._V1_.jpg",
               alt: "Brandon is dressed in golf attire, while talking to Jerry Ratinger wife.",
               pageId: [
-                BRANDON_WALSH_ID,
+                BrandonWalshID,
               ],
             },
             seasonNumber: 2,
@@ -4138,7 +4137,7 @@ export const dramaSeries: Show[] = [
               src: "https://static.wikia.nocookie.net/90210/images/f/fd/203kylekellydate.png/revision/latest?cb=20231204005457",
               alt: "Kelly is at the beach at night with Kyle. They are looking at each other daringly.",
               pageId: [
-                KELLY_TAYLOR_ID,
+                KellyTaylorID,
                 "kyle-conners",
               ],
             },
@@ -4174,8 +4173,8 @@ export const dramaSeries: Show[] = [
               src: "https://90sflashback.wordpress.com/wp-content/uploads/2011/09/anaconda.jpg",
               alt: "Brenda and Donna at the poker game. Brenda is wearing a golden dress while Donna is wearing a dark blue dress with glitter. ",
               pageId: [
-                BRENDA_WALSH_ID,
-                DONNA_MARTIN_ID
+                BrendaWalshID,
+                DonnaMartinID
               ]
             },
             seasonNumber: 2,
@@ -4203,7 +4202,7 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39820100/PPCBS_BEVERLYHILLS90210_027_UHD_3378359_1920x1080.jpg",
               alt: "Kelly is at the hospital visiting her mom. Next to her is Mel Silver.",
               pageId: [
-                KELLY_TAYLOR_ID,
+                KellyTaylorID,
                 "mel-silver"
               ],
             },
@@ -4228,9 +4227,9 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2019/07/03/1562690627955/PPCBS_BEVERLYHILLS90210_028_UHD_3408614_1920x1080.jpg",
               alt: "Kelly, Donna and Steve are sitting on a porch, smiling.", 
               pageId: [
-                KELLY_TAYLOR_ID,
-                DONNA_MARTIN_ID,
-                STEVE_SANDERS_ID,
+                KellyTaylorID,
+                DonnaMartinID,
+                SteveSandersID,
               ]         
             },
             seasonNumber: 2,
@@ -4274,12 +4273,12 @@ export const dramaSeries: Show[] = [
               src: "https://static.wikia.nocookie.net/90210/images/5/52/207gang.png/revision/latest?cb=20170202234117",
               alt: "The gang are all standing by the car, getting ready to go on the camping trip. Dylan has his arms wrapped around Brenda and Andrea. He is kissing Andrea on her head.",
               pageId: [
-                BRENDA_WALSH_ID,
-                DYLAN_MCKAY_ID,
-                ANDREA_ZUCKERMAN_ID,
-                DAVID_SILVER_ID,
-                KELLY_TAYLOR_ID,
-                DONNA_MARTIN_ID,
+                BrendaWalshID,
+                DylanMcKayID,
+                AndreaZuckermanID,
+                DavidSilverID,
+                KellyTaylorID,
+                DonnaMartinID,
                 DylanAndrea_ID
               ]
             },
@@ -4299,9 +4298,9 @@ export const dramaSeries: Show[] = [
               src: "https://www.rollingstone.com/wp-content/uploads/2019/08/beverly-hills-90210.jpg",
               alt: "Brenda, Donna and Kelly are on stage at school singing 'Breaking Up Is Hard To Do'. They are all wearing matching black minidresses with backslick ponytails.",
               pageId: [
-                BRENDA_WALSH_ID,
-                KELLY_TAYLOR_ID,
-                DONNA_MARTIN_ID,
+                BrendaWalshID,
+                KellyTaylorID,
+                DonnaMartinID,
                 BrendaKelly_ID,
                 DonnaKelly_ID,
                 BrendaDonna_ID,
@@ -4386,8 +4385,8 @@ export const dramaSeries: Show[] = [
               src: "https://m.media-amazon.com/images/M/MV5BODk4NDUxMTAxNl5BMl5BanBnXkFtZTgwMDE0NTIwMzE@._V1_.jpg",
               alt: "Dylan and Brenda are standing in the Walsh kitchen next to each other.",
               pageId: [
-                BRENDA_WALSH_ID,
-                DYLAN_MCKAY_ID,
+                BrendaWalshID,
+                DylanMcKayID,
                 BrendaDylan_ID
               ],
             },
@@ -4423,9 +4422,9 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39820056/PPCBS_BEVERLYHILLS90210_033_UHD_3378362_1920x1080.jpg",
               alt: "Brenda, Kelly, Brandon and Bobby are riding in a car",
               pageId: [
-                BRENDA_WALSH_ID,
-                BRANDON_WALSH_ID,
-                KELLY_TAYLOR_ID,
+                BrendaWalshID,
+                BrandonWalshID,
+                KellyTaylorID,
                 "bobby-walsh",
               ],
             },
@@ -4458,8 +4457,8 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39820580/PPCBS_BEVERLYHILLS90210_034_UHD_3378369_1920x1080.jpg",
               alt: "Brandon, Dylan and Nat are sitting at the diner talking.",
               pageId: [
-                BRANDON_WALSH_ID,
-                DYLAN_MCKAY_ID,
+                BrandonWalshID,
+                DylanMcKayID,
                 "nat-bussichio"
               ],
             },
@@ -4507,9 +4506,9 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39817447/PPCBS_BEVERLYHILLS90210_035_UHD_3378365_1920x1080.jpg",
               alt: "Dylan, Brenda and Donna are at the costume party, looking chocked.",
               pageId: [
-                BRENDA_WALSH_ID,
-                DYLAN_MCKAY_ID,
-                DONNA_MARTIN_ID,
+                BrendaWalshID,
+                DylanMcKayID,
+                DonnaMartinID,
                 BrendaDonna_ID,
                 BrendaDylan_ID,
               ],
@@ -4551,8 +4550,8 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/12/2451028035782/PPCBS_BEVERLYHILLS90210_036_UHD_3371584_1920x1080.jpg",
               alt: "David and Scott are in the courtyard looking at something",
               pageId: [
-                DAVID_SILVER_ID,
-                SCOTT_SCANLON_ID,
+                DavidSilverID,
+                ScottScanlonID,
                 "david-scott"
               ]
             },
@@ -4600,7 +4599,7 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39817478/PPCBS_BEVERLYHILLS90210_037_UHD_3378538_1920x1080.jpg",
               alt: "Brandon is standing in the hallway with his arm around Emily.",
               pageId: [
-                BRANDON_WALSH_ID,
+                BrandonWalshID,
                 EMILY_VALENTINE_ID,
                 BrandonEmily_ID
               ]
@@ -4642,7 +4641,7 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39814987/PPCBS_BEVERLYHILLS90210_038_UHD_3378552_1920x1080.jpg",
               alt: "Brandon is talking to Emily in the hallway",
               pageId: [
-                BRANDON_WALSH_ID,
+                BrandonWalshID,
                 EMILY_VALENTINE_ID,
                 BrandonEmily_ID
               ]
@@ -4668,7 +4667,7 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39820504/PPCBS_BEVERLYHILLS90210_039_UHD_3378540_1920x1080.jpg",
               alt: "Steve is looking annoyed, talking to his mom about Chuckie.",
               pageId: [
-                STEVE_SANDERS_ID,
+                SteveSandersID,
                 "samantha-sanders",
               ],
             },
@@ -4716,11 +4715,11 @@ export const dramaSeries: Show[] = [
               src: "https://m.media-amazon.com/images/M/MV5BNjczZTg2ODgtYWY1MC00NDRiLTk4MjYtZDRmMzk4NWQzZmZkXkEyXkFqcGc@._V1_.jpg",
               alt: "Brandon, Dylan, Brenda, Donna and Kelly are standing in front of the Christmas tree in the Walsh family's living room.",
               pageId: [
-                BRANDON_WALSH_ID,
-                BRENDA_WALSH_ID,
-                DYLAN_MCKAY_ID,
-                DONNA_MARTIN_ID,
-                KELLY_TAYLOR_ID,
+                BrandonWalshID,
+                BrendaWalshID,
+                DylanMcKayID,
+                DonnaMartinID,
+                KellyTaylorID,
               ]
             },
             seasonNumber: 2,
@@ -4772,7 +4771,7 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39816493/PPCBS_BEVERLYHILLS90210_041_UHD_3378539_1920x1080.jpg",
               alt: "Brandon is at the ice hockey rink, dressed in gear, talking to Trisha Kinney.",
               pageId: [
-                BRANDON_WALSH_ID,
+                BrandonWalshID,
                 "trisha-kinney",
               ],
             },
@@ -4800,7 +4799,7 @@ export const dramaSeries: Show[] = [
             episodeImageUrl: {
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39810260/PPCBS_BEVERLYHILLS90210_043_UHD_3378554_1920x1080.jpg",
               alt: "Steve is at the gym talking to a guy.",
-              pageId: STEVE_SANDERS_ID
+              pageId: SteveSandersID
             },
             seasonNumber: 2,
             episodeNumber:20,
@@ -4830,12 +4829,19 @@ export const dramaSeries: Show[] = [
           {
             id: "everybody's-talkin'-'bout-it",
             episodeTitle: "Everybody's Talkin' 'Bout It",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39807750/PPCBS_BEVERLYHILLS90210_044_UHD_3378530_1920x1080.jpg",
+            episodeImageUrl: {
+              src:"https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39807750/PPCBS_BEVERLYHILLS90210_044_UHD_3378530_1920x1080.jpg",
+              alt: "Andrea is sitting next to John Griffin at a meeting.",
+              pageId: [
+                AndreaZuckermanID, 
+                "john-griffin",
+              ],
+            },
             seasonNumber: 2,
             episodeNumber: 21,
             plot: "Andrea heads up an initiative to introduce condoms into the school and the controversial issue leads to problems among the tight-knit group of friends. Some support, some oppose, and some, like Donna's mother, just use the issue to further their own desires. Meanwhile, Jackie has startling news for her own daughter.",
             director: DanAttiasName,
-            writtenBy: "Karen Rosin & Charles Rosin", 
+            writtenBy: `${KarenRosinName} & ${CharlesRosinName}`, 
             releaseDate: "February 6, 1992",
             usViewers: 19.0,
             soundtrack: [
@@ -4856,14 +4862,14 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39807766/PPCBS_BEVERLYHILLS90210_045_UHD_3378553_1920x1080.jpg",
               alt: "David and his dad are at the hospital looking at something.",
               pageId: [
-                DAVID_SILVER_ID,
-                MEL_SILVER_NAME
+                DavidSilverID,
+                MelSilverName
               ]
             },
             seasonNumber: 2,
             episodeNumber:22,
             plot: "Kelly's decision to confide in her friends about her mother's pregnancy wreaks major havoc in Mel and Jackie's relationship. Mel was unaware that Jackie's pregnant and he was planning on asking her to marry him. Brenda looks forward to a romantic Valentine's Day with Dylan, who has an unusual evening planned for them. Meanwhile, Andrea displays an amazing knack for picking winning horses during a trip to the race track with Nat.",
-            director: "Bill D'Elia",
+            director: BillDEliaName,
             writtenBy: [
               SteveWassermanName,
               JessicaKleinName
@@ -4884,7 +4890,15 @@ export const dramaSeries: Show[] = [
           {
             id: "cardio-funk",
             episodeTitle: "Cardio-Funk",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/12/2451026499630/PPCBS_BEVERLYHILLS90210_042_UHD_3371576_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/12/2451026499630/PPCBS_BEVERLYHILLS90210_042_UHD_3371576_1920x1080.jpg",
+              alt: "Dylan, Brenda and Brandon are singing karaoke at the peach pit",
+              pageId: [
+                BrandonWalshID,
+                BrendaWalshID,
+                DylanMcKayID
+              ]
+            },
             seasonNumber: 2,
             episodeNumber:23,
             plot: "Dylan and Brenda's relationship is put to the test when a friend from Dylan's past shows up and starts leaning on Dylan more and more. Brenda is tempted by a cute college boy, especially since Dylan is paying more attention to his old friend than he is her. Meanwhile, Nat purchases a karaoke machine for the Peach Pit which is an initial success, but the novelty quickly wears off.",
@@ -4905,7 +4919,15 @@ export const dramaSeries: Show[] = [
           {
             id: "the-pit-and-the-pendulum",
             episodeTitle: "The Pit and the Pendulum",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39807780/PPCBS_BEVERLYHILLS90210_046_UHD_3436412_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39807780/PPCBS_BEVERLYHILLS90210_046_UHD_3436412_1920x1080.jpg",
+              alt: "Brenda, Kelly and Dylan are talking to Marla at the school courtyard",
+              pageId: [
+                DylanMcKayID,
+                KellyTaylorID,
+                BrendaWalshID,
+              ],
+            },
             seasonNumber: 2,
             episodeNumber:24,
             plot: "When a mall development project places the future of The Peach Pit in jeopardy, Brandon stages a protest in the hopes of saving his favorite hang-out from demolition. Meanwhile, the teens attend a college party, but Brandon forgets to dress according to theme.",
@@ -4938,14 +4960,23 @@ export const dramaSeries: Show[] = [
           {
             id: "meeting-mr.-pony",
             episodeTitle: "Meeting Mr. Pony",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39811139/PPCBS_BEVERLYHILLS90210_047_UHD_3436413_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39811139/PPCBS_BEVERLYHILLS90210_047_UHD_3436413_1920x1080.jpg",
+              alt: "Brenda is standing in hallway. Behind her is Dylan along with her parents.",
+              pageId: [
+                BrendaWalshID,
+                DylanMcKayID,
+                JimWalshID,
+                CindyWalshID
+              ]
+            },
             seasonNumber: 2,
             episodeNumber:25,
             plot: "During a late night, after-hours study session, the Peach Pit is robbed and Brenda is there to face the robber. She puts on a brave front for friends and family, but secretly suffers from night terrors and flashbacks.",
             director: BradleyGrossName,
             writtenBy: [
               "Story by : Jonathan Lemkin",
-              "Teleplay by : Darren Star & Charles Rosin &  Karen Rosin & Jonathan Lemkin",
+              "Teleplay by : Darren Star & ${CharlesRosinName} &  ${KarenRosinName} & Jonathan Lemkin",
             ],
             releaseDate: "April 2, 1992",
             usViewers:20.2,
@@ -4963,12 +4994,21 @@ export const dramaSeries: Show[] = [
           {
             id: "things-to-do-on-a-rainy-day",
             episodeTitle: beverlyHillsS2Ep26Title,
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2019/07/09/1568063043967/PPCBS_BEVERLYHILLS90210_048_UHD_3409105_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2019/07/09/1568063043967/PPCBS_BEVERLYHILLS90210_048_UHD_3409105_1920x1080.jpg",
+              alt: "Brenda, Donna, Kelly and David are in the hotel lobby, all dressed in rain coats.",
+              pageId: [
+                BrendaWalshID,
+                DonnaMartinID,
+                KellyTaylorID,
+                DavidSilverID,
+              ]
+            },
             seasonNumber: 2,
             episodeNumber:26,
             plot: "When a popular R&B band comes to town, the gang tries to win tickets over the radio, but their efforts do not pan out. Music lover David finds out which hotel the band is staying at and the group decides to play groupies for a day by tracking them down at their hotel. Unfortunately, Donna finds more than the band when she catches her mother in a compromising position. Meanwhile, the guys (sans David) decide to hire a stripper for the evening, but their plans are foiled when Andrea barges into their private party.",
-            director: "Bethany Rooney",
-            writtenBy: "${JonathanRobertsName} & Maria Semple",
+            director: BethanyRooneyName,
+            writtenBy: `${JonathanRobertsName} & Maria Semple`,
             releaseDate: "April 23, 1992",
             usViewers:19.5,
             soundtrack: [
@@ -4992,8 +5032,8 @@ export const dramaSeries: Show[] = [
               src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/12/2451029571540/PPCBS_BEVERLYHILLS90210_049_UHD_V1_3428893_1920x1080.jpg",
               alt: "Dylan and Brenda are sitting in Dylan's car outside of the resort",
               pageId: [
-                BRENDA_WALSH_ID,
-                DYLAN_MCKAY_ID,
+                BrendaWalshID,
+                DylanMcKayID,
                 BrendaDylan_ID
               ]
             },
@@ -5021,11 +5061,19 @@ export const dramaSeries: Show[] = [
           {
             id: "wedding-bell-blues",
             episodeTitle: "Wedding Bell Blues",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2015/09/11/523740739862/PPCBS_BEVERLYHILLS90210_050_UHD_3436414_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2015/09/11/523740739862/PPCBS_BEVERLYHILLS90210_050_UHD_3436414_1920x1080.jpg",
+              alt: "Donna and Brenda at Jackie and Mel's wedding. They are dressed in bright pink halterneck dresses.",
+              pageId: [
+                BrendaWalshID,
+                DonnaMartinID,
+                BrendaDonna_ID
+              ]
+            },
             seasonNumber: 2,
             episodeNumber:28,
             plot: "Jim goes to Mexico to fetch Brenda and forbids her from seeing Dylan... permanently. When plumbing problems force Jackie to cancel her wedding, the Walshes offer to host it at their house. Donna mopes because as Kelly's mother prepares for her nuptials, her own parents are mulling divorce. Meanwhile, Andrea nurses hurt feelings when her wedding invitation fails to arrive.",
-            director: "Charles Baverman",
+            director: CharlesBravermanName,
             writtenBy: DarrenStarName,
             releaseDate: "May 7, 1992",
             usViewers:21.4,
@@ -5061,10 +5109,18 @@ export const dramaSeries: Show[] = [
            {
             id:	"misery-loves-company-90210",
             episodeTitle: "Misery Loves Company",
-            imageUrl: "https://static.wikia.nocookie.net/90210/images/5/5b/301brylan.png/revision/latest?cb=20200811211954",
+            episodeImageUrl: {
+              src: "https://static.wikia.nocookie.net/90210/images/5/5b/301brylan.png/revision/latest?cb=20200811211954",
+              alt: "Close up on Brenda and Dylan.",
+              pageId: [
+                BrendaWalshID, 
+                DylanMcKayID,
+                BrendaDylan_ID
+              ]
+            },
             seasonNumber: 3,
             episodeNumber: 1,
-            director:	 "Jeffrey Melman",	
+            director:	 JeffMelmanName,	
             writtenBy: [ 
               SteveWassermanName,  
               JessicaKleinName,
@@ -5095,7 +5151,15 @@ export const dramaSeries: Show[] = [
               seasonNumber: 3,
               episodeNumber: 2,	
               episodeTitle: "The Twins, the Trustee, and the Very Big Trip",
-              imageUrl: "https://static.wikia.nocookie.net/90210/images/e/e3/302brylankiss.png/revision/latest?cb=20220125220359",
+              episodeImageUrl: {
+                src: "https://static.wikia.nocookie.net/90210/images/e/e3/302brylankiss.png/revision/latest?cb=20220125220359",
+                alt: "Dylan and Brenda are kissing in front of a red car.",
+                pageId: [
+                  BrendaWalshID,
+                  DylanMcKayID,
+                  BrendaDylan_ID
+                ]
+              },
               director: "David Carson", 
 	            writtenBy: CharlesRosinName, 
 	            releaseDate: "July 22, 1992",	
@@ -5109,11 +5173,20 @@ export const dramaSeries: Show[] = [
             episodeNumber:	3,
             episodeTitle: "Too Little, Too Late",
             altEpisodeTitle: "Paris 75001",
-            imageUrl: "https://m.media-amazon.com/images/M/MV5BMTQ0OTA4NDEwOV5BMl5BanBnXkFtZTgwMjI3Mjg5MjE@._V1_.jpg",
+            episodeImageUrl: {
+              src: "https://m.media-amazon.com/images/M/MV5BMTQ0OTA4NDEwOV5BMl5BanBnXkFtZTgwMjI3Mjg5MjE@._V1_.jpg",
+              alt: "Donna, Brenda and Steve are at the courtyard.",
+              pageId: [
+                DonnaMartinID,
+                BrendaWalshID,
+                SteveSandersID,
+                BrendaDonna_ID
+              ],
+            },
             director: DanAttiasName,
 	          writtenBy: [
-              "Maria Semple & ${JonathanRobertsName} (Too Little, Too Late)",
-              "Karen Rosin (Paris 75001)",
+              `Maria Semple & ${JonathanRobertsName} (Too Little, Too Late)`,
+              `${KarenRosinName} (Paris 75001`,
             ],
             releaseDate:	"July 29, 1992",
             usViewers: 13.2,
@@ -5126,11 +5199,19 @@ export const dramaSeries: Show[] = [
             episodeNumber: 4,	
             episodeTitle: "Sex, Lies and Volleyball",
             altEpisodeTitle: "Photo Fini",
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809862/PPCBS_BEVERLYHILLS90210_054_UHD_3404158_1920x1080.jpg",
-            director: "Jeffrey Melman",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809862/PPCBS_BEVERLYHILLS90210_054_UHD_3404158_1920x1080.jpg",
+              alt: "Dylan and Kelly are at the beach club.",
+              pageId: [
+                DylanMcKayID, 
+                KellyTaylorID,
+                DylanKelly_ID
+              ],
+            },
+            director: JeffMelmanName,
 	          writtenBy: [
-              "Chris Brancato & Kenneth Biller (Sex, Lies and Volleyball)",
-              "Karen Rosin (Photo Fini)",
+              `${ChrisBrancatoName} & ${KennethBillerName} (Sex, Lies and Volleyball)`,
+              `${KarenRosinName} (Photo Fini)`,
             ],	
             releaseDate: "August 5, 1992",	
             usViewers: 13.2,
@@ -5143,11 +5224,19 @@ export const dramaSeries: Show[] = [
             episodeNumber: 5,
             episodeTitle:"Shooting Star",
             altEpisodeTitle: "American in Paris",	
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39812467/PPCBS_BEVERLYHILLS90210_055_UHD_3404164_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39812467/PPCBS_BEVERLYHILLS90210_055_UHD_3404164_1920x1080.jpg",
+              alt: "Dylan and Kelly cuddle at the beach in front of a fire.",
+              pageId: [
+                DylanMcKayID,
+                KellyTaylorID,
+                DylanKelly_ID
+              ],
+            },
             director: DanAttiasName,
 	          writtenBy: [
-              "Steve Wasserman & Jessica Klein (Shooting Star)",
-              "Karen Rosin (American in Paris)"
+              `${SteveWassermanName} & ${JessicaKleinName} (Shooting Star)`,
+              `${KarenRosinName} (American in Paris)`
             ],	
             releaseDate: "August 12, 1992",	
             usViewers:	16.2,
@@ -5161,12 +5250,12 @@ export const dramaSeries: Show[] = [
               {
                 id: "forbidden-places-meat-puppets",
                 title: "Forbidden Places",
-                artist: "Meat Puppets",
+                artist: MeatPuppetsArtist,
               },
               {
                 id: "precious-brian-austin-green",
                 title:  "Precious",
-                artist: "Brian Austin Green",
+                artist: BrianAustinGreenName,
               },
               {
                 id: "funny-how-time-slips-away-willie-nelson",
@@ -5180,7 +5269,13 @@ export const dramaSeries: Show[] = [
             seasonNumber: 3,
             episodeNumber: 6,	
             episodeTitle: "Castles in the Sand",	
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39807960/PPCBS_BEVERLYHILLS90210_056_UHD_3404160_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39807960/PPCBS_BEVERLYHILLS90210_056_UHD_3404160_1920x1080.jpg",
+              alt:  "Steve at the beach club dressed in a blue button-up with a silver pattern.",
+              pageId: [
+                SteveSandersID
+              ],
+            },
             director: "Paul Lazarus",	
             writtenBy: "Ann Donahue",	
             releaseDate: "August 19, 1992",	
@@ -5195,7 +5290,7 @@ export const dramaSeries: Show[] = [
               {
                 id: "be-my-love-brian-austin-green",
                 title: "Be My Love",
-                artist: "Brian Austin Green",  
+                artist: BrianAustinGreenName,  
               }
             ],
          },           
@@ -5204,11 +5299,25 @@ export const dramaSeries: Show[] = [
             seasonNumber: 3,
             episodeNumber: 7,
             episodeTitle:	"A Song of Myself",	
-            imageUrl: "https://thumbnails.cbsig.net/_x/w400/CBS_Production_Entertainment_VMS/2012/09/07/39811367/PPCBS_BEVERLYHILLS90210_057_UHD_3404166_1920x1080.jpg",
-            director: "Jeffrey Melman",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/_x/w400/CBS_Production_Entertainment_VMS/2012/09/07/39811367/PPCBS_BEVERLYHILLS90210_057_UHD_3404166_1920x1080.jpg",
+              alt: "Dylan, Jim, Brenda and Brandon are in the kitchen. Brandon has his arm around his father.",
+              pageId: [
+                BrandonWalshID,
+                BrendaWalshID,
+                DylanMcKayID,
+                JimWalshID,
+                BrandonBrenda_ID, 
+                BrendaDylan_ID,
+                BrandonDylan_ID,
+                BrandonJim_ID, 
+                DylanJim_ID,
+              ]
+            },
+            director: JeffMelmanName,
 	          writtenBy: [
-              "Chris Brancato", 
-              "Kenneth Biller",
+              ChrisBrancatoName, 
+              KennethBillerName,
             ],	
             releaseDate: "September 9, 1992",	
             usViewers: 16.6,
@@ -5241,8 +5350,12 @@ export const dramaSeries: Show[] = [
             seasonNumber: 3,
             episodeNumber: 8,	
             episodeTitle: "The Back Story",	
-            imageUrl: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2012/09/07/39813587/PPCBS_BEVERLYHILLS90210_058_UHD_3404162_1920x1080.jpg",
-            director: "Bradley M. Gross",	
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2012/09/07/39813587/PPCBS_BEVERLYHILLS90210_058_UHD_3404162_1920x1080.jpg",
+              alt: "Brenda is talking to Beth in the parking lot of West Beverly.",
+              pageId: BrendaWalshID,
+            },
+            director: BradleyGrossName,	
             writtenBy: KarenRosinName,
 	          releaseDate: "September 16, 1992",	
             usViewers: 14.3,
@@ -5275,9 +5388,17 @@ export const dramaSeries: Show[] = [
             seasonNumber: 3,
             episodeNumber: 9,
             episodeTitle:	"Highwire",	
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39807858/PPCBS_BEVERLYHILLS90210_059_UHD_3404159_1920x1080.jpg",
-            director: "Bethany Rooney",
-            writtenBy: "Star Frohman",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39807858/PPCBS_BEVERLYHILLS90210_059_UHD_3404159_1920x1080.jpg",
+              alt: "Kelly and Donna in art class.",
+              pageId: [
+                DonnaMartinID,
+                KellyTaylorID,
+                DonnaKelly_ID
+              ]
+            },
+            director: BethanyRooneyName,
+            writtenBy: StarFrohmanName,
 	          releaseDate: "September 23, 1992",
             usViewers:	16.2,
             plot: "With graduation on the horizon, the teens of West Beverly are stressed about where to go to college. The Walshes announce only one twin can go to an out-of-state college, which leads to some major fighting between the siblings. Kelly loses it when David walks in on her in the shower. Meanwhile, Steve gives more thought to using the legacy key, and Brenda feels Dylan slipping away.",
@@ -5299,9 +5420,18 @@ export const dramaSeries: Show[] = [
             seasonNumber: 3,
             episodeNumber: 10,
             episodeTitle:	"Home and Away",	
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809721/PPCBS_BEVERLYHILLS90210_060_UHD_3404163_1920x1080.jpg",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809721/PPCBS_BEVERLYHILLS90210_060_UHD_3404163_1920x1080.jpg",
+              alt: "Brandon and Andrea at the dance.",
+              pageId: [
+                BrandonWalshID,
+                AndreaZuckermanID,
+                BrandonAndrea_ID,
+              ]
+            
+            },
             director:  "Jack Bender",
-	          writtenBy: "Chip Johannessen",
+	          writtenBy: ChipJohannessenName,
 	          releaseDate: "October 7, 1992",	
             usViewers: 15.6,
             plot: "When two students from rival school Shaw High are shot to death by gang members during a football game, West Beverly decides to forfeit their own game against Shaw's team. Brandon meets a journalist from Shaw, and the two reporters decide to use the power of the press to put a stop to the violence. Kelly hopes to see her father again. Meanwhile, Sue Scanlon starts showing an interest in David, which irritates Donna but pleases David. Dylan invites Kelly to go to the Pigskin Prom with him and Brenda.",
@@ -5314,7 +5444,7 @@ export const dramaSeries: Show[] = [
               {
                 id: "let-me-be-your-baby-geoffrey-williams",
                 title: "let me be your baby",
-                artist:	"GEOFFREY WILLIAMS"              
+                artist:	GeoffreyWilliamsArtist              
               },
             ]
         },
@@ -5323,8 +5453,17 @@ export const dramaSeries: Show[] = [
             seasonNumber: 3,
             episodeNumber: 11,	
             episodeTitle: "A Presumption of Innocence",	
-            imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2015/09/12/524068419599/PPCBS_BEVERLYHILLS90210_061_UHD_3404262_1920x1080.jpg",
-            director:  "Bethany Rooney",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2015/09/12/524068419599/PPCBS_BEVERLYHILLS90210_061_UHD_3404262_1920x1080.jpg",
+              alt: "Brenda and Donna are talking to Andrea at the Peach Pit.",
+              pageId: [
+                BrendaWalshID,
+                DonnaMartinID,
+                AndreaZuckermanID,
+                BrendaDonna_ID,
+              ],
+            },
+            director:  BethanyRooneyName,
             writtenBy:KarenRosinName,
             releaseDate:	"October 21, 1992",	
             usViewers: 16.4,
@@ -5367,7 +5506,15 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber: 12,	
           episodeTitle: beverlyHillsS3Ep12Title,	
-          imageUrl: "https://static.wikia.nocookie.net/90210/images/9/96/312.png/revision/latest?cb=20210930005653",
+          episodeImageUrl: {
+            src: "https://static.wikia.nocookie.net/90210/images/9/96/312.png/revision/latest?cb=20210930005653",
+            alt: "A black and white photo of Brandon sitting by Andrea's bed at the hospital",
+            pageId: [
+              BrandonWalshID,
+              AndreaZuckermanID,
+              BrandonAndrea_ID,
+            ]
+          },
           director:  "Christopher Hibler",	
           writtenBy:[
             SteveWassermanName,
@@ -5399,9 +5546,17 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber: 13,	
           episodeTitle: "Rebel with a Cause",	
-          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809740/PPCBS_BEVERLYHILLS90210_063_UHD_3404253_1920x1080.jpg",
+          episodeImageUrl: {
+            src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809740/PPCBS_BEVERLYHILLS90210_063_UHD_3404253_1920x1080.jpg",
+            alt: "Donna and Brenda are standing next to each other in the courtyard at West Beverly. Donna is smiling while looking at Brenda",
+            pageId: [
+              BrendaWalshID,
+              DonnaMartinID,
+              BrendaDonna_ID
+            ]
+          },
           director: DanAttiasName,
-	        writtenBy: "Star Frohman",
+	        writtenBy: StarFrohmanName,
 	        releaseDate: "November 11, 1992",	
           usViewers:	19.7,
           plot: "Brenda assures Dylan that he's free to date whomever he likes but when she and Rick (Dean Cain) run into him and Kelly, Brenda reevaluates her position. Steve and Herbert grow apprehensive as the police show up at West Beverly to investigate their crime. Meanwhile, Andrea is released from the hospital but has to use a wheelchair.",
@@ -5425,11 +5580,19 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber: 14,	
           episodeTitle: "Wild Horses",
-          imageUrl: "https://static.wikia.nocookie.net/90210/images/2/27/314.jpg/revision/latest?cb=20180501142230",
+          episodeImageUrl: {
+            src: "https://static.wikia.nocookie.net/90210/images/2/27/314.jpg/revision/latest?cb=20180501142230",
+            alt: "Brenda and Brandon are talking in the hallway at West Beverly.",
+            pageId: [
+              BrendaWalshID,
+              BrandonWalshID,
+              BrandonBrenda_ID
+            ]
+          },
           director:	"Bobby Roth",	
           writtenBy: [
-            "Chris Brancato",
-            "Kenneth Biller"
+            ChrisBrancatoName,
+            KennethBillerName
           ],
           releaseDate:	"November 18, 1992",	
           usViewers: 16.9,
@@ -5454,8 +5617,19 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber: 15,	
           episodeTitle: "The Kindness of Strangers",
-          imageUrl: "https://static.wikia.nocookie.net/90210/images/d/df/315.png/revision/latest?cb=20231212123412",
-          director:	"Richard Lang",	
+          episodeImageUrl: {
+            src: "https://thumbnails.cbsig.net/_x/w400/CBS_Production_Entertainment_VMS/2012/09/07/39807918/PPCBS_BEVERLYHILLS90210_051_UHD_3404157_1920x1080.jpg",
+            alt: "Brenda, Kelly and Donna are in Donna's car.",
+            pageId: [
+              BrendaWalshID,
+              KellyTaylorID,
+              DonnaMartinID,
+              DonnaKelly_ID,
+              BrendaKelly_ID,
+              BrendaDonna_ID
+            ]
+          },
+          director:	RichardLangName,	
           writtenBy: [
             SteveWassermanName, 
             JessicaKleinName,
@@ -5470,8 +5644,16 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber: 16,	
           episodeTitle: "It's a Totally Happening Life",
-          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809782/PPCBS_BEVERLYHILLS90210_067_UHD_3404256_1920x1080.jpg",
-          director:	"Richard Lang",	
+          episodeImageUrl: {
+            src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809782/PPCBS_BEVERLYHILLS90210_067_UHD_3404256_1920x1080.jpg",
+            alt: "Brandon is about to kiss Andrea at the Peach Pit.",
+            pageId: [
+              BrandonWalshID,
+              AndreaZuckermanID,
+              BrandonAndrea_ID
+            ] 
+          },
+          director:	RichardLangName,	
           writtenBy: [
             KarenRosinName,
             CharlesRosinName
@@ -5507,9 +5689,19 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber: 17,
           episodeTitle:	"The Game Is Chicken",	
-          imageUrl: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2012/09/07/39813041/PPCBS_BEVERLYHILLS90210_066_UHD_3404251_1920x1080.jpg",
+          episodeImageUrl: {
+            src: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2012/09/07/39813041/PPCBS_BEVERLYHILLS90210_066_UHD_3404251_1920x1080.jpg",
+            alt: "Steve, Brandon and Dylan standing outside a white building, talking.",
+            pageId: [
+              BrandonWalshID,
+              DylanMcKayID,
+              SteveSandersID,
+              BrandonDylan_ID,
+              BrandonSteve_ID
+            ]
+          },
           director: "Jack Bender",
-          writtenBy: "Chip Johannessen",
+          writtenBy: ChipJohannessenName,
 	        releaseDate: "January 6, 1993",	
           usViewers: 16.2,
           plot: "Steve and Brandon get involved in the world of high-stakes drag racing, and their dangerous endeavor leads them to the very person who might be responsible for Andrea's accident. David's determination to graduate early means he has little time to work in the D.J. booth. Meanwhile, Brenda and Kelly agree to a double date with two Princeton men, only to find that their dates are not exactly the stuff dreams are made of.",
@@ -5528,7 +5720,7 @@ export const dramaSeries: Show[] = [
             },
             {
               title: "let me be your baby",
-              artist: "GEOFFREY WILLIAMS"	
+              artist: GeoffreyWilliamsArtist	
             },
             {
               title: "crystal blue persuasion",
@@ -5557,7 +5749,19 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber: 18,
           episodeTitle:	"Midlife... Now What?",	
-          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809787/PPCBS_BEVERLYHILLS90210_068_UHD_3404259_1920x1080.jpg",
+          episodeImageUrl: {
+            src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39809787/PPCBS_BEVERLYHILLS90210_068_UHD_3404259_1920x1080.jpg",
+            alt: "Brenda, Kelly, Donna and Andrea are sitting in a mud bath with face masks. The only one who is smiling is Andrea.",
+            pageId: [
+              BrendaWalshID,
+              DonnaMartinID,
+              KellyTaylorID,
+              AndreaZuckermanID,
+              DonnaKelly_ID,
+              BrendaDonna_ID,
+              BrendaKelly_ID,
+            ]
+          },
           director: "Robert Becker",	
           writtenBy: "Lana Freistat Melman",	
           releaseDate: "January 13, 1993",	
@@ -5579,8 +5783,19 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber: 19,
           episodeTitle:	beverlyHillsS3Ep19Title,
-          imageUrl: "https://thumbnails.cbsig.net/_x/w400/CBS_Production_Entertainment_VMS/2012/09/07/39807918/PPCBS_BEVERLYHILLS90210_051_UHD_3404157_1920x1080.jpg",
-          director:	"Bill D'Elia",	
+          episodeImageUrl: {
+            src: "https://thumbnails.cbsig.net/_x/w400/CBS_Production_Entertainment_VMS/2012/09/07/39807918/PPCBS_BEVERLYHILLS90210_051_UHD_3404157_1920x1080.jpg",
+            alt: "Brenda, Kelly and Donna are in the car.",
+            pageId: [
+              BrendaWalshID,
+              KellyTaylorID,
+              DonnaMartinID,
+              DonnaKelly_ID,
+              BrendaKelly_ID,
+              BrendaDonna_ID
+            ],
+          },
+          director:	BillDEliaName,	
           writtenBy: [
             SteveWassermanName, 
             JessicaKleinName
@@ -5611,9 +5826,18 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber: 20,	
           episodeTitle: "Parental Guidance Recommended",	
-          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39811319/PPCBS_BEVERLYHILLS90210_070_UHD_3404257_1920x1080.jpg",
+          episodeImageUrl: {
+            src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39811319/PPCBS_BEVERLYHILLS90210_070_UHD_3404257_1920x1080.jpg",
+            alt: "Donna and David are talking to Steve at the Peach Pit.",
+            pageId: [
+              DonnaMartinID,
+              DavidSilverID,
+              SteveSandersID,
+              DonnaDavid_ID
+            ]
+          },
           director: "Gwen Arner",	
-          writtenBy: "Chip Johannessen",
+          writtenBy: ChipJohannessenName,
         	releaseDate: "February 3, 1993",
           usViewers:	16.6,
           plot: "Iris McKay arrives in town to discuss dissolving Dylan's trust fund with Jim. She's against the idea but Dylan and Jack lay the pressure on hard. Iris also takes time to meet with Brenda, who is depressed over losing both Dylan and Kelly. Meanwhile, David and Steve meet after school with Curtis Bray, the famous but sleazy and debauched owner of Icon Records, with a demo tape to get a recording contract for David. However, Steve is shown to be a poor negotiator, and his sycopathic treatment of David visibly annoys Bray, who privately offers David a record with Icon Records, but only if he fires Steve. David decides to accept the deal, but Steve takes the news very badly and ends both his business and friendship with David. Elsewhere, Brandon is enjoying the high life, as he continues to place large bets.",
@@ -5645,9 +5869,16 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber:	21,	
           episodeTitle: "Dead End",	
-          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2015/09/12/524068419600/PPCBS_BEVERLYHILLS90210_071_UHD_3385471_1920x1080.jpg",
+          episodeImageUrl: {
+            src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2015/09/12/524068419600/PPCBS_BEVERLYHILLS90210_071_UHD_3385471_1920x1080.jpg",
+            alt: "Brandon and Steve are talking outside of West Beverly.",
+            pageId: [
+              BrandonWalshID,
+              SteveSandersID
+            ]
+          },
           director: JeffMelmanName,	
-          writtenBy: "Star Frohman", 
+          writtenBy: StarFrohmanName, 
           releaseDate: "February 10, 1993",	
           usViewers: 19.7,
           plot: "Jack and Dylan begin a new life together, living aboard a yacht with Dylan's enormous trust fund at their disposal. On the surface everything seems perfect, but Jack has some dangerous enemies. So does Brandon, whose unpaid gambling debts lead to some frightening visit and threat from his bookie, Duke, over a $500 debt. Meanwhile, Andrea and Jordan go on a date, Dylan and Kelly consummate their relationship, and Brenda and Donna take a self-defense class.",
@@ -5675,7 +5906,18 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber: 22,	
           episodeTitle: "The Child Is Father to the Man",	
-          imageUrl: "https://static.wikia.nocookie.net/90210/images/8/84/322.png/revision/latest?cb=20220630004208",
+          episodeImageUrl: {
+            src: "https://static.wikia.nocookie.net/90210/images/8/84/322.png/revision/latest?cb=20220630004208",
+            alt: "Brenda and Brandon are sitting with Dylan at Jack McKay's funeral.",
+            pageId: [
+              BrandonWalshID,
+              DylanMcKayID,
+              BrendaWalshID,
+              BrendaDylan_ID,
+              BrandonBrenda_ID,
+              BrandonDylan_ID
+            ]
+          },
           director: "James Whitmore Jr.",
           writtenBy: [
             KarenRosinName,
@@ -5704,7 +5946,15 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber: 23,
           episodeTitle:	"Duke's Bad Boy",	
-          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/28/2483822659896/PPCBS_BEVERLYHILLS90210_073_UHD_V1_3656848_1920x1080.jpg",
+          episodeImageUrl: {
+            src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/28/2483822659896/PPCBS_BEVERLYHILLS90210_073_UHD_V1_3656848_1920x1080.jpg",
+            alt: "Dylan and Andrea are at Dylan's house. Dylan is typing on a typewriter. Andrea is looking at him with her arms crossed.",
+            pageId: [
+              DylanMcKayID,
+              AndreaZuckermanID,
+              DylanAndrea_ID
+            ],
+          },
           director: "Robert Becker",	
           writtenBy: JessicaKleinName,	
           releaseDate: "March 3, 1993",	
@@ -5730,8 +5980,16 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber: 24,	
           episodeTitle: beverlyHillsS3Ep24Title,	
-          imageUrl: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2012/09/07/39812064/PPCBS_BEVERLYHILLS90210_074_UHD_3385466_1920x1080.jpg",
-          director: "Bethany Rooney",
+          episodeImageUrl: {
+            src: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2012/09/07/39812064/PPCBS_BEVERLYHILLS90210_074_UHD_3385466_1920x1080.jpg",
+            alt: "Dylan and Kelly are sitting in the courtyard. Dylan is watching her skeptically, as Kelly is holding a red and yellow package.",
+            pageId: [
+              DylanMcKayID,
+              KellyTaylorID,
+              DylanKelly_ID
+            ]
+          },
+          director: BethanyRooneyName,
           writtenBy: "Gillian Horvath",
           releaseDate:	"March 24, 1993",
           usViewers: 19.1,
@@ -5747,7 +6005,7 @@ export const dramaSeries: Show[] = [
             },
             {
               title: "let me be your baby",
-              artist:	"GEOFFREY WILLIAMS"
+              artist:	GeoffreyWilliamsArtist
             },
           ]
         },            
@@ -5756,9 +6014,13 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber:	25,	
           episodeTitle: "Senior Poll",	
-          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39812095/PPCBS_BEVERLYHILLS90210_075_UHD_3385467_1920x1080.jpg",
+          episodeImageUrl: {
+            src: "https://m.media-amazon.com/images/M/MV5BMTU0OTI3OTMyMV5BMl5BanBnXkFtZTgwNzU3Mzg3MjE@._V1_.jpg",
+            alt: "Dylan is on the phone at his place.",
+            pageId: DylanMcKayID
+          },
           director: "Christopher Hibler",	
-          writtenBy: "Chip Johannessen",
+          writtenBy: ChipJohannessenName,
 	        releaseDate: "April 7, 1993",	
           usViewers:	15.0,
           plot: "Senior superlatives are being awarded at West Beverly and most of the gang wins an award. Kelly wins Most Beautiful but instead of lending her a much needed confidence boost, the award leads her to believe that everyone judges her solely by her looks. Brenda feels left out that she didn't win a superlative and decides to apply to the University of Minnesota. Meanwhile, Steve and Brandon attend a Lakers basketball game, where Steve gets the chance to win $10,000.",
@@ -5782,8 +6044,20 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber: 26,	
           episodeTitle: "She Came in Through the Bathroom Window",	
-          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39811714/PPCBS_BEVERLYHILLS90210_076_UHD_3385468_1920x1080.jpg",
-          director: "Jason Priestley",	
+          episodeImageUrl: {
+            src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39811714/PPCBS_BEVERLYHILLS90210_076_UHD_3385468_1920x1080.jpg",
+            alt: "Andrea, Brenda, Donna and Kelly are sitting on a bench in the park.",
+            pageId: [
+              AndreaZuckermanID,
+              BrendaWalshID,
+              DonnaMartinID,
+              KellyTaylorID,
+              BrendaKelly_ID,
+              BrendaDonna_ID,
+              DonnaKelly_ID,
+            ]
+          },
+          director: JasonPriestleyName,	
           writtenBy: "Ken Stringer",	
           releaseDate: "April 28, 1993",
           usViewers:	14.4,
@@ -5808,8 +6082,24 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber: 27,
           episodeTitle:	"A Night to Remember",
-          imageUrl: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2015/09/12/524408899964/PPCBS_BEVERLYHILLS90210_077_UHD_3385472_1920x1080.jpg",
-          director:	"Richard Lang",
+          episodeImageUrl: {
+            src: "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2015/09/12/524408899964/PPCBS_BEVERLYHILLS90210_077_UHD_3385472_1920x1080.jpg",
+            alt: "The gang is taking pictures for prom.",
+            pageId: [
+              AndreaZuckermanID,
+              BrandonWalshID,
+              BrendaWalshID,
+              DavidSilverID,
+              DonnaMartinID,
+              DylanMcKayID,
+              KellyTaylorID,
+              SteveSandersID,
+              DonnaDavid_ID,
+              BrendaDylan_ID,
+              DylanKelly_ID,
+            ],
+          },
+          director:	RichardLangName,
           writtenBy: [
             SteveWassermanName,
             JessicaKleinName
@@ -5853,7 +6143,11 @@ export const dramaSeries: Show[] = [
           seasonNumber: 3,
           episodeNumber: 28,
           episodeTitle:	"Something in the Air",	
-          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39811210/PPCBS_BEVERLYHILLS90210_078_UHD_3385481_1920x1080.jpg",
+          episodeImageUrl: {
+            src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39811210/PPCBS_BEVERLYHILLS90210_078_UHD_3385481_1920x1080.jpg",
+            alt: "Donna is talking to the school board.",
+            pageId:  DonnaMartinID,
+          },
           director: "James Whitmore Jr.",	
           writtenBy: [
             SteveWassermanName, 
@@ -5885,7 +6179,15 @@ export const dramaSeries: Show[] = [
             30
           ],
           episodeTitle:	"Commencement",	
-          imageUrl: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/29/2484191811878/PPCBS_BEVERLYHILLS90210_079_1_UHD_V1_3666747_1920x1080.jpg",
+          episodeImageUrl: {
+            src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/29/2484191811878/PPCBS_BEVERLYHILLS90210_079_1_UHD_V1_3666747_1920x1080.jpg",
+            alt: "Kelly and David at graduation dressed in blue graduation gowns.",
+            pageId: [
+              KellyTaylorID,
+              DavidSilverID,
+              DavidKelly_ID,
+            ]
+          },
           director: DanAttiasName,
 	        writtenBy: [
             KarenRosinName, 
@@ -5912,44 +6214,44 @@ export const dramaSeries: Show[] = [
         ],
         mainCast: [
           { 
-            actor: "Jason Priestley", 
-            character: BRANDON_WALSH_NAME
+            actor: JasonPriestleyName, 
+            character: BrandonWalshName
           },
           { 
-            actor: "Shannen Doherty", 
-            character: BRENDA_WALSH_NAME
+            actor: ShannenDohertyName, 
+            character: BrendaWalshName
           },
           { 
             actor: "Jennie Garth", 
-            character: KELLY_TAYLOR_NAME
+            character: KellyTaylorName
           },
           { 
             actor: "Ian Ziering", 
-            character: STEVE_SANDERS_NAME
+            character: SteveSandersName
           },
           { 
             actor: "Gabrielle Carteris", 
-            character: ANDREA_ZUCKERMAN_NAME
+            character: AndreaZuckermanName
           },
           { 
             actor: "Luke Perry", 
-            character: DYLAN_MCKAY_NAME
+            character: DylanMcKayName
           },
           { 
-            actor: "Brian Austin Green", 
-            character: DAVID_SILVER_NAME
+            actor: BrianAustinGreenName, 
+            character: DavidSilverName
           },
           { 
             actor: "Tori Spelling", 
-            character: DONNA_MARTIN_NAME
+            character: DonnaMartinName
           },
           { 
             actor: "Carol Potter", 
-            character: CINDY_WALSH_NAME
+            character: CindyWalshName
           },
           { 
             actor: "James Eckhouse", 
-            character: JIM_WALSH_NAME
+            character: JimWalshName
           },
         ],
         recurring: [
@@ -5959,7 +6261,7 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Ann Gillespie",
-            character: JACKIE_TAYLOR_NAME
+            character: JackieTaylorName
           },
           {
             actor: "Dana Barron",
@@ -5975,7 +6277,7 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Josh Taylor", 
-            character: JACK_MCKAY_NAME
+            character: JackMcKayName
           },
         ],
         premiereDate:  "July 15, 1992" ,
@@ -6001,20 +6303,20 @@ export const dramaSeries: Show[] = [
         plot: "This season finds the Walsh Twins and friends have finished high school, and begin their freshmen year at California University, but quickly learn that college life comes with their own set of challenges.",
         mainCast: [
           { 
-            actor: "Jason Priestley", 
-            character: BRANDON_WALSH_NAME
+            actor: JasonPriestleyName, 
+            character: BrandonWalshName
           },
           { 
-            actor: "Shannen Doherty", 
-            character: BRENDA_WALSH_NAME
+            actor: ShannenDohertyName, 
+            character: BrendaWalshName
           },
           { 
             actor: "Jennie Garth", 
-            character: KELLY_TAYLOR_NAME
+            character: KellyTaylorName
           },
           { 
             actor: "Ian Ziering", 
-            character: STEVE_SANDERS_NAME
+            character: SteveSandersName
           },
           { 
             actor: "Gabrielle Carteris", 
@@ -6022,23 +6324,23 @@ export const dramaSeries: Show[] = [
           },
           { 
             actor: "Luke Perry", 
-            character: DYLAN_MCKAY_NAME
+            character: DylanMcKayName
           },
           { 
-            actor: "Brian Austin Green", 
-            character: DAVID_SILVER_NAME
+            actor: BrianAustinGreenName, 
+            character: DavidSilverName
           },
           { 
             actor: "Tori Spelling", 
-            character: DONNA_MARTIN_NAME
+            character: DonnaMartinName
           },
           { 
             actor: "Carol Potter", 
-            character: CINDY_WALSH_NAME
+            character: CindyWalshName
           },
           { 
             actor: "James Eckhouse", 
-            character: JIM_WALSH_NAME
+            character: JimWalshName
           },
         ],
         recurring: [
@@ -6048,7 +6350,7 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Ann Gillespie",
-            character: JACKIE_TAYLOR_NAME
+            character: JackieTaylorName
           },
           {
             actor: "David Gail",
@@ -6064,11 +6366,11 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Mark Damon Espinoza",
-            character: JESSE_VASQUEZ_NAME
+            character: JesseVasquezName
           },
           {
             actor: "Christine Elise",
-            character: EMILY_VALENTINE_NAME
+            character: EmilyValentineName
           },
           {
             actor: "Kerrie Keane",
@@ -6076,7 +6378,7 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Kathleen Robertson",
-            character: CLARE_ARNOLD_NAME
+            character: ClareArnoldName
           },
           {
             actor: "Mark Kiely",
@@ -6084,11 +6386,11 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Katherine Cannon",
-            character: FELICE_MARTIN_NAME
+            character: FeliceMartinName
           },
           {
             actor: "Michael Durrell",
-            character: JOHN_MARTIN_NAME
+            character: JohnMartinName
           },
           {
             actor: "Jennifer Grant",
@@ -6100,7 +6402,7 @@ export const dramaSeries: Show[] = [
           },
           {
             actor: "Noley Thornton",
-            character: ERICA_MCKAY_NAME
+            character: EricaMcKayName
           },
           {
             actor: "Nicholas Pryor",
@@ -6117,11 +6419,44 @@ export const dramaSeries: Show[] = [
             seasonNumber: 4,
             episodeNumber: 1,
             episodeTitle: beverlyHillsS4Ep1Title,
-            imageUrl: "",
-            director: "Bill D'Elia",
+            episodeImageUrl: {
+              src: "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2012/09/07/39815483/PPCBS_BEVERLYHILLS90210_080_UHD_3395268_1920x1080.jpg",
+              alt: "Kelly, Donna and David are at the porch of their new apartment",
+              pageId: [
+                DavidSilverID,
+                DonnaMartinID,
+                KellyTaylorID,
+                DonnaDavid_ID,
+                DonnaKelly_ID,
+                DavidKelly_ID,
+              ]
+            },
+            director: BillDEliaName,
             writtenBy: CharlesRosinName,
             releaseDate: "September 8, 1993",
             plot: "After the summer break, everyone prepares for university life. After working all summer at the Beverly Hills Beach Club, Brenda leaves Los Angeles to go to college in Minnesota and finds that her old friends now see her differently. Meanwhile, David and Donna seek out some affordable housing on the beach. As college approaches, Steve finally got off the wait list and accepted into C.U. and Brandon finishes his last day on the job of the Peach Pit. Steve and Brandon rent a beach front house in Malibu for the final two weeks of the summer, and they get a surprise visit from Steve's former girlfriend Jill Fleming, which makes Celeste jealous. Kelly returns from a two-month trip to Europe, without Dylan, who has been rejected from Berkeley. Also, Andrea frets with Gil Meyers over her deciding to stay in California to go to college.",
+            soundtrack: [
+              {
+                title: "Summertime Blues",
+                artist: "Eddie Cochran",
+              },
+              {
+                title: "Living In A Fantasy",
+                artist: "Rainbow Rastaman",
+              },
+              {
+                title: "Summer Means Fun",
+                artist: "Bruce & Terry",
+              },
+              {
+                title: "Tip Of My Tongue (Acoustic)",
+                artist: "Diesel",
+              },
+              {
+                title: "Surfer Girl",
+                artist: "The Beach Boys"
+              }
+            ]
           },
           {
             id: "",
@@ -6620,12 +6955,12 @@ export const dramaSeries: Show[] = [
       JessicaKleinName,
       "Paul Waigner",
       "Larry Mollin",
-      "Jason Priestley",
+      JasonPriestleyName,
       "Laurie McCarthy",
       "John Eisendrath",
       "Doug Steinberg",
       "Michael Braverman",
-      "Brian Austin Green",
+      BrianAustinGreenName,
       "Ian Ziering",
     ],
     prodLocation: ["Los Angeles, California"],
@@ -6638,17 +6973,17 @@ export const dramaSeries: Show[] = [
       DarrenStarName,
       "John Eisendrath",
       "Larry Mollin",
-      "Jason Priestley",
+      JasonPriestleyName,
       "David Semel",
       "Laurie McCarthy",
       "John Whelpley",
       "Livia Hanich",
-      "Brian Austin Green",
+      BrianAustinGreenName,
       "Betty Reardon",
       "Jon Paré",
       "Doug Steinberg",
       "Richard Gollance",
-       "Chip Johannessen",
+       ChipJohannessenName,
       "Phil Savath",
       "Michael Cassutt",
       JonathanRobertsName,
@@ -7021,15 +7356,15 @@ export const dramaSeries: Show[] = [
         recurring: [
           {
             actor: "Jennie Garth",
-            character: KELLY_TAYLOR_NAME,
+            character: KellyTaylorName,
           },
           {
             actor: "Ian Ziering",
-            character: STEVE_SANDERS_NAME,
+            character: SteveSandersName,
           },
           {
-            actor: "Brian Austin Green",
-            character: DAVID_SILVER_NAME,
+            actor: BrianAustinGreenName,
+            character: DavidSilverName,
           },
           {
             actor: "Deborah Adair", 
@@ -8192,7 +8527,7 @@ tags: ["Teen drama", "Drama"],
         promo: true,
       },
       {
-        id: ERIN_SILVER_ID,
+        id: ErinSilver_ID,
         label: "Silver",
         firstName: "Erin",
         lastName: "Silver",
@@ -8264,7 +8599,7 @@ tags: ["Teen drama", "Drama"],
       { actor: "AnnaLynne McCord", character: "Naomi Clark" },
       { actor: "Dustin Milligan", character: "Ethan Ward" },
       { actor: "Ryan Eggold", character: "Ryan Matthews" },
-      { actor: "Jessica Stroup", character: ERIN_SILVER_NAME },
+      { actor: "Jessica Stroup", character: ErinSilverName },
       { actor: "Michael Steger", character: "Navid Shirazi" },
       { actor: "Jessica Walter", character: "Tabitha Wilson" },
       { actor: "Jessica Lowndes", character: "Adrianna-Tate-Duncan" },
@@ -8414,7 +8749,7 @@ tags: ["Teen drama", "Drama"],
         lastName: "Doherty",
         imageUrl: "https://static.wikia.nocookie.net/90210/images/7/7e/2023shannendoherty.png/revision/latest/scale-to-width-down/250?cb=20231218171420",
         posterUrl: "https://i.abcnewsfe.com/a/1d638c48-3b9b-4d21-b7c5-3fb5aa1f375f/shannon-1-gty-er-231129_1701286550354_hpMain.jpg?w=992",
-        actor: "Shannen Doherty",
+        actor: ShannenDohertyName,
         gender: "F",
         promo: true,
       },
@@ -8435,7 +8770,7 @@ tags: ["Teen drama", "Drama"],
         lastName: "Green",
         imageUrl: "https://cdn.aarp.net/content/dam/aarpe/en/home/entertainment/television/brian-austin-green-on-the-new-90210/_jcr_content/root/container_main/container_body_main/container_body1/container_body_cf/container_image/articlecontentfragment/cfimage.coreimg.50.932.jpeg/content/dam/aarp/entertainment/television/2019/08/1140-brian-austin-green.jpg",
         posterUrl: "https://static.wikia.nocookie.net/90210/images/1/16/1bg.jpg/revision/latest/thumbnail/width/360/height/360?cb=20200718161107",
-        actor: "Brian Austin Green",
+        actor: BrianAustinGreenName,
         gender: "M",
         promo: true,
       },
@@ -8445,7 +8780,7 @@ tags: ["Teen drama", "Drama"],
         lastName: "Priestley",
         imageUrl: "https://media.zenfs.com/en/people_218/0c55a2e2a12d8b0d2283d263e1765256",
         posterUrl: "https://people.com/thmb/e8xJZFhd2zZ0f-XJLFckMqKGOHU=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(665x0:667x2)/bh-s11_03-jason-single_0068_r-2000-576cffa5165a46b3bfa2fc43fa49e3bb.jpg",
-        actor: "Jason Priestley",
+        actor: JasonPriestleyName,
         gender: "M",
         promo: true,
       },
@@ -8507,7 +8842,7 @@ tags: ["Teen drama", "Drama"],
             episodeNumber: 3,	
             imageUrl: "https://m.media-amazon.com/images/M/MV5BMzYzMDIwNGMtMTJmNC00ZGMxLTk4OTQtMTE5MjY5MGZkYTcxXkEyXkFqcGc@._V1_.jpg",
             episodeTitle: "The Photo Shoot",
-            director:	"Jason Priestley",	
+            director:	JasonPriestleyName,	
             writtenBy: [
               "Teleplay by : Jason Coffey & Merigan Mulhern and Mike Chessler & Chris Alberghini",
               "Story by : Jason Coffey & Merigan Mulhern"
@@ -8582,7 +8917,7 @@ tags: [
         gender: "F",
       },
       {
-        actor: "Shannen Doherty",
+        actor: ShannenDohertyName,
         gender: "F",
       },
       {
@@ -8590,11 +8925,11 @@ tags: [
         gender: "F",
       },
       {
-        actor: "Brian Austin Green",
+        actor: BrianAustinGreenName,
         gender: "M",
       },
       {
-        actor: "Jason Priestley",
+        actor: JasonPriestleyName,
         gender: "M",
       },
       {
@@ -8751,7 +9086,7 @@ tags: [
             song: [
               {
                 title:  "Keep It Together",
-                artist: "Brian Austin Green",
+                artist: BrianAustinGreenName,
               },
               {
                 title:  "summer in the city",
@@ -8837,10 +9172,10 @@ tags: [
       "Elizabeth Allen Rosenbaum",
       "Jennie Garth",
       "Tori Spelling",
-      "Shannen Doherty",
+      ShannenDohertyName,
       "Ian Ziering",
-      "Brian Austin Green",
-      "Jason Priestley",
+      BrianAustinGreenName,
+      JasonPriestleyName,
       "Gabrielle Carteris",
       "Paul Sciarrotta",
       "Mike Chessler",
@@ -14744,7 +15079,7 @@ tags: ["Teen drama", "Drama", "Coming-of-age"],
         firstName: "Angela",
         lastName: "Chase",
         imageUrl:
-          "https://img4.hulu.com/user/v3/artwork/0cf3b099-4f65-4a45-9040-99867705ed58?base_image_bucket_name=image_manager&base_image=c0f64851-306e-4f02-8441-ff036ddb6090&size=458x687&format=webp",
+          "https://img4.hulu.com/user/v3/artwork/0cf3b099-4f65-4a45-9040-99867705ed58?base_image_bucketName=image_manager&base_image=c0f64851-306e-4f02-8441-ff036ddb6090&size=458x687&format=webp",
         promo: true,
       },
       {
