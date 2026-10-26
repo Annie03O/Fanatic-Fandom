@@ -1,5 +1,5 @@
 import { Show } from "../types/structure/Show";
-import { KellyTaylorID, BrandonWalshID, BrendaWalshID, DylanMcKayID, DonnaMartinID, CU, WestBev, BrandonBrenda_ID, BrendaWalshName, BrandonJim_ID, BrandonWalshName, JimWalshName, BrandonCindy_ID, CindyWalshName, DylanMcKayName, BrandonDylan_ID, beverlyHillsS1Ep2Title, BrandonKelly_ID, KellyTaylorName, beverlyHillsS4Ep32Title, beverlyHillsS5Ep21Title, beverlyHillsS7Ep26Title, beverlyHillsS8Ep20Title, beverlyHillsS5Ep20Title, beverlyHillsS5Ep30Title, beverlyHillsS8Ep16Title, beverlyHillsS9Ep2Title, BrandonAndrea_ID, AndreaZuckermanID, SteveSandersName, SteveSandersID, ValerieMaloneName, ClareArnoldName, DavidSilverName, DonnaMartinName, BrendaCindy_ID, BrendaDylan_ID, BrendaKelly_ID, BrendaDonna_ID, AndreaZuckermanName, beverlyHillsS1Ep1Title, ToniMarchetteName, DylanToni_ID, beverlyHillsS6Ep3Title, beverlyHillsS6Ep10Title, beverlyHillsS1Ep10Title, beverlyHillsS2Ep2Title, beverlyHillsS6Ep31Title, beverlyHillsS2Ep8Title, beverlyHillsS2Ep1Title, beverlyHillsS3Ep12Title, beverlyHillsS5Ep1Title, beverlyHillsS9Ep8Title, beverlyHillsS2Ep26Title, DylanJim_ID, DylanKelly_ID, beverlyHillsS3Ep19Title, beverlyHillsS4Ep1Title, beverlyHillsS4Ep2Title, DylanDavid_ID, DylanAndrea_ID, DylanGina_ID, GinaKincaidName, GinaKincaidID, DylanValerie_ID, EmilyValentineName, JackMcKayName, IrisMcKayName, EricaMcKayName, beverlyHillsSeriesFinaleTitle, DonnaKelly_ID, beverlyHillsS3Ep24Title, KellyJackie_ID, JackieTaylorName, SammyTaylorName, ErinSilverName, MelSilverName, DavidKelly_ID, JohnMartinName, FeliceMartinName, BOBBI_KINCAIDName, SheilaSilverName, DonnaDavid_ID, beverlyHillsS6Ep32Title, beverlyHillsS2Ep17Title, beverlyHillsS4Ep21Title, beverlyHillsS7Ep11Title, beverlyHillsS7Ep21Title, beverlyHillsS10Ep24Title, beverlyHillsS4E15Title, beverlyHillsS7Ep2Title, beverlyHillsS7Ep19Title, beverlyHillsS8Ep10Title, beverlyHillsS6Ep8Title, beverlyHillsS6Ep15Title, beverlyHillsS6Ep21Title, beverlyHillsS6Ep30Title, SamanthaSandersName, RushSandersName, MadelineSandersName, RyanSandersName, AustinSandersName, JanetSosnaName, SteveValerie_ID, SteveJanet_ID, beverlyHillsS9Ep16Title, beverlyHillsS7Ep9Title, beverlyHillsS7Ep6Title, beverlyHillsS7Ep32Title, JesseVasquezName, ValerieMaloneID, PeachPitAfterDark, DavidValerie_ID, NOAH_HUNTERName, ColinRobbinsName, BrandonValerie_ID, RAY_PRUITName, JesseVasquez_ID, ScottScanlonID, ClareArnoldID, CARLY_REYNOLDS_ID, JanetSosnaID, NoahHunterID, beverlyHillsS1Ep3Title, CaitlinAdamsName, AmySpiesName, beverlyHillsS1Ep7Title, DanAttiasName, CharlesRosinName, JordanBuddeName, SOHOArtist, DarrenStarName, TheSupremesArtist, ChrisIsakArtist, KarenRosinName, CindyWalshID, CharlesBravermanName, SteveWassermanName, JessicaKleinName, TheRaveUpArtist, REMArtist, JonathanRobertsName, DavidSilverID, JeffMelmanName, JeffersonKibbeeName, BradleyGrossName, ERASUREArtist, EMILY_VALENTINE_ID, BrandonEmily_ID, ColorMeBaddArtist, JimWalshID, BethanyRooneyName, ChrisBrancatoName, KennethBillerName, MeatPuppetsArtist, BrianAustinGreenName, ChipJohannessenName, GeoffreyWilliamsArtist, StarFrohmanName, RichardLangName, BrandonSteve_ID, BillDEliaName, JasonPriestleyName, ShannenDohertyName } from "./variables/beverly-hills";
+import { KellyTaylorID, BrandonWalshID, BrendaWalshID, DylanMcKayID, DonnaMartinID, CU, WestBev, BrandonBrenda_ID, BrendaWalshName, BrandonJim_ID, BrandonWalshName, JimWalshName, BrandonCindy_ID, CindyWalshName, DylanMcKayName, BrandonDylan_ID, beverlyHillsS1Ep2Title, BrandonKelly_ID, KellyTaylorName, beverlyHillsS4Ep32Title, beverlyHillsS5Ep21Title, beverlyHillsS7Ep26Title, beverlyHillsS8Ep20Title, beverlyHillsS5Ep20Title, beverlyHillsS5Ep30Title, beverlyHillsS8Ep16Title, beverlyHillsS9Ep2Title, BrandonAndrea_ID, AndreaZuckermanID, SteveSandersName, SteveSandersID, ValerieMaloneName, ClareArnoldName, DavidSilverName, DonnaMartinName, BrendaCindy_ID, BrendaDylan_ID, BrendaKelly_ID, BrendaDonna_ID, AndreaZuckermanName, beverlyHillsS1Ep1Title, ToniMarchetteName, DylanToni_ID, beverlyHillsS6Ep3Title, beverlyHillsS6Ep10Title, beverlyHillsS1Ep10Title, beverlyHillsS2Ep2Title, beverlyHillsS6Ep31Title, beverlyHillsS2Ep8Title, beverlyHillsS2Ep1Title, beverlyHillsS3Ep12Title, beverlyHillsS5Ep1Title, beverlyHillsS9Ep8Title, beverlyHillsS2Ep26Title, DylanJim_ID, DylanKelly_ID, beverlyHillsS3Ep19Title, beverlyHillsS4Ep1Title, beverlyHillsS4Ep2Title, DylanDavid_ID, DylanAndrea_ID, DylanGina_ID, GinaKincaidName, GinaKincaidID, DylanValerie_ID, EmilyValentineName, JackMcKayName, IrisMcKayName, EricaMcKayName, beverlyHillsSeriesFinaleTitle, DonnaKelly_ID, beverlyHillsS3Ep24Title, KellyJackie_ID, JackieTaylorName, SammyTaylorName, ErinSilverName, MelSilverName, DavidKelly_ID, JohnMartinName, FeliceMartinName, BOBBI_KINCAIDName, SheilaSilverName, DonnaDavid_ID, beverlyHillsS6Ep32Title, beverlyHillsS2Ep17Title, beverlyHillsS4Ep21Title, beverlyHillsS7Ep11Title, beverlyHillsS7Ep21Title, beverlyHillsS10Ep24Title, beverlyHillsS4E15Title, beverlyHillsS7Ep2Title, beverlyHillsS7Ep19Title, beverlyHillsS8Ep10Title, beverlyHillsS6Ep8Title, beverlyHillsS6Ep15Title, beverlyHillsS6Ep21Title, beverlyHillsS6Ep30Title, SamanthaSandersName, RushSandersName, MadelineSandersName, RyanSandersName, AustinSandersName, JanetSosnaName, SteveValerie_ID, SteveJanet_ID, beverlyHillsS9Ep16Title, beverlyHillsS7Ep9Title, beverlyHillsS7Ep6Title, beverlyHillsS7Ep32Title, JesseVasquezName, ValerieMaloneID, PeachPitAfterDark, DavidValerie_ID, NoahHunterName, ColinRobbinsName, BrandonValerie_ID, RayPruitName, JesseVasquezID, ScottScanlonID, ClareArnoldID, CarlyReynoldsID, JanetSosnaID, NoahHunterID, beverlyHillsS1Ep3Title, CaitlinAdamsName, AmySpiesName, beverlyHillsS1Ep7Title, DanAttiasName, CharlesRosinName, JordanBuddeName, SOHOArtist, DarrenStarName, theSupremesArtist, ChrisIsakArtist, KarenRosinName, CindyWalshID, CharlesBravermanName, SteveWassermanName, JessicaKleinName, TheRaveUpArtist, REMArtist, JonathanRobertsName, DavidSilverID, JeffMelmanName, JeffersonKibbeeName, BradleyGrossName, ERASUREArtist, EmilyValentineID, BrandonEmily_ID, ColorMeBaddArtist, JimWalshID, BethanyRooneyName, ChrisBrancatoName, KennethBillerName, MeatPuppetsArtist, BrianAustinGreenName, ChipJohannessenName, GeoffreyWilliamsArtist, StarFrohmanName, RichardLangName, BrandonSteve_ID, BillDEliaName, JasonPriestleyName, ShannenDohertyName, ScottScanlonName, CarlyReynoldsName } from "./variables/beverly-hills";
 
 export const dramaSeries: Show[] = [
   {
@@ -1614,7 +1614,7 @@ export const dramaSeries: Show[] = [
             gender: "F",
            },
            {
-            name: BOBBI_KINCAIDName,
+            name: "Bobbi Kincaid",
             type: "Family",
             typeOfFamily: "Biological",
             extended: true,
@@ -1705,7 +1705,7 @@ export const dramaSeries: Show[] = [
            },
            {
             type: "Romantic",
-            name: NOAH_HUNTERName,
+            name: NoahHunterName,
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             imgUrl: "https://www.televisionofyore.com/uploads/9/3/0/3/9303799/8-25-inside_orig.jpeg",
             shortDesc: "Noah was a rebound relationship after Donna broke up with David the second time. The two were together through much of the 8th, 9th and 10th seasons with Noah sleeping with Val one drunken (and drugged) night and Donna briefly being torn between Noah and Wayne, a man she met in her store. Ultimately she and Noah break up near the end of the series, paving the way for a David/Donna reconciliation.",
@@ -1722,7 +1722,7 @@ export const dramaSeries: Show[] = [
            },
            {
             type: "Romantic",
-            name: RAY_PRUITName,
+            name: RayPruitName,
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             gender: "M",
             shortDesc: "Ray was somewhat of a rebound relationship with David. Donna seemed to love him (and stated that she did) but Ray was very manipulative and controlling - he hated her friends and wanted to monopolize all of her time. His actions later became somewhat abusive culminating in him (somewhat accidentally) pushing her down some stairs and hurting her arm. While Ray seemed to get a handle on his anger issues and the two tried to make their relationship work, when Donna found out he slept with Val she ends things permanently.",
@@ -2479,7 +2479,7 @@ export const dramaSeries: Show[] = [
           { 
             type: "Romantic",
             romantic: "Dated",
-            name: CARLY_REYNOLDSName,
+            name: CarlyReynoldsName,
             gender: "F",
           },
           {
@@ -2924,7 +2924,7 @@ export const dramaSeries: Show[] = [
             card: true,
            },
            {
-            name: NOAH_HUNTERName,
+            name: NoahHunterName,
             type: "Romantic",
             romantic: "Ex-Boyfriend/Ex-Girlfriend",
             gender: "M",
@@ -2989,7 +2989,7 @@ export const dramaSeries: Show[] = [
             card: true,
           },
            {
-            name: RAY_PRUITName,
+            name: RayPruitName,
             type: "Romantic",
             romantic: "Affair",
             gender: "M",
@@ -3132,7 +3132,7 @@ export const dramaSeries: Show[] = [
         promo: true,
       },
       {
-        id: JesseVasquez_ID,
+        id: JesseVasquezID,
         firstName: "Jesse",
         lastName: "Vasquez",
         imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2AQTnXilh1TQORSI7THbCbTMNiVQB52mG7-e5ZTIkvW0bPTKyBrOOWkg&s=10",
@@ -3140,7 +3140,7 @@ export const dramaSeries: Show[] = [
         promo: true,
       },
       {
-        id: CARLY_REYNOLDS_ID,
+        id: CarlyReynoldsID,
         firstName: "Carly",
         lastName: "Reynolds",
         imageUrl: "https://www.soapsworld.de/cms/wp-content/uploads/rollenbilder/beverly-hills-90210/hilary-swank-300x200.jpg",
@@ -3652,7 +3652,7 @@ export const dramaSeries: Show[] = [
             soundtrack: [
               {
                 title: "baby love",	
-                artist: TheSupremesArtist,
+                artist: theSupremesArtist,
               },
               {
                 title: "joey",	
@@ -3917,7 +3917,7 @@ export const dramaSeries: Show[] = [
               },	
               {
                 title: "you can't hurry love",	
-                artist: TheSupremesArtist,
+                artist: theSupremesArtist,
               },	
               {
                 title: "tinker tommy",	
@@ -4600,7 +4600,7 @@ export const dramaSeries: Show[] = [
               alt: "Brandon is standing in the hallway with his arm around Emily.",
               pageId: [
                 BrandonWalshID,
-                EMILY_VALENTINE_ID,
+                EmilyValentineID,
                 BrandonEmily_ID
               ]
             },
@@ -4642,7 +4642,7 @@ export const dramaSeries: Show[] = [
               alt: "Brandon is talking to Emily in the hallway",
               pageId: [
                 BrandonWalshID,
-                EMILY_VALENTINE_ID,
+                EmilyValentineID,
                 BrandonEmily_ID
               ]
             },
@@ -8527,7 +8527,7 @@ tags: ["Teen drama", "Drama"],
         promo: true,
       },
       {
-        id: ErinSilver_ID,
+        id: ErinSilverName,
         label: "Silver",
         firstName: "Erin",
         lastName: "Silver",
