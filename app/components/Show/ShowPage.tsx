@@ -1,7 +1,5 @@
 "use client"
 import { CharacterPortals } from "../Characters/CharactersPortals";
-import { allSeriesWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
-import { kidsSeriesWithSlug } from "@/app/functions/WithSlug/kidsSeriesWithSlug";
 import { useParams } from "next/navigation";
 import { SeasonsPortals } from "../Seasons/SeasonsPortals";
 import { SeriesInfobox as Infobox } from "./SeriesInfobox"; 
@@ -10,11 +8,9 @@ import SoundtrackPortals from "../Music/SoundtrackPortals";
 import RelatedPortal from "../RelatedPortal";
 import { useState } from "react";
 import { SoundtrackBreakDown } from "../Music/SoundtrackBreakdown";
-import { crimeSeriesWithSlug } from "../../functions/WithSlug/crimeSeriesWithSlug";
 import { MoviePortal } from "../Movies/MoviePortal";
-import { comedySeriesWithSlug } from "../../functions/WithSlug/comedySeriesWithSlug";
-import { fantasySeriesWithSlug } from "../../functions/WithSlug/fantasySeriesWithSlug";
 import { EpisodeBreakdownComponent } from "@/app/models/objects/EpisodeBreakdownComponent";
+import { slugCatalog } from "@/app/models/objects/slugCatalog";
 
 type ShowPageProps = {
     genre:  Genre;
@@ -25,25 +21,18 @@ const ShowPage = ({genre}: ShowPageProps) => {
     const [showEpisodes, setShowEpisodes ] = useState(false);
     const [showSoundtrack, setShowSoundtrack ] = useState(false);
 
-
     let series: Show | undefined;
-    if (genre === "drama") {
 
-        series = allSeriesWithSlug.items.find((s) => s.slug === slug || s.id === slug)
+    slugCatalog.map((i) => {
+        if (genre === i.genre) {
+            series = i.item.items.find((s) => s.slug === slug)
+        }
+    })
 
-    } else if (genre === "kids") {
-        series = kidsSeriesWithSlug.items.find((s) => s.slug === slug)
-    } else if (genre === "crime") {
-        series = crimeSeriesWithSlug.items.find((s) => s.slug === slug)
-    } else if (genre === "comedy") {
-        series = comedySeriesWithSlug.items.find((s) => s.slug === slug)
-    } else if (genre === "fantasy") {
-        series = fantasySeriesWithSlug.items.find((s) => s.slug === slug)
-    }
+    if (series === undefined) return null;
     
-    const cast = series?.cast ?? [];
-    const related = series?.related?.[0];
-    const relatedShow = related as { title?: string; id?: string } | undefined;
+    const relatedShow = series?.related?.[0] as { title?: string; id?: string } | undefined;
+
     const seasons = series?.seasons ?? [];
     const season = seasons.find((s) => s.id);
     if (seasons === undefined) return console.error("Season is undefined");
@@ -52,10 +41,10 @@ const ShowPage = ({genre}: ShowPageProps) => {
     const episodes = seasons.length === 1
         ? (seasons[0]?.episodeBreakdown ?? [])
         : [];
-    const soundtrack = series?.soundtrack ?? [];
     
-    console.log("Series", series);
+    
     if (!series) return <section>Series not found</section>
+    
     
 
     return (
@@ -93,11 +82,11 @@ const ShowPage = ({genre}: ShowPageProps) => {
                             {showEpisodes === true ? <button className="text-blue-300 underline" onClick={() =>setShowEpisodes(false)}>Collapse</button> : <button className="tex<t-blue-300 underline" onClick={() =>setShowEpisodes(true)}>Expand</button> }
                         </span>
                         <section className={`${showEpisodes === false ? " h-1/3 overflow-y-scroll" : "block"} border-b`}>
-                            {episodes.map((episode) => (
+                            {season?.episodeBreakdown.map((episode) => (
                                 <EpisodeBreakdownComponent
                                   key={episode.id}
-                                  season={season!}
                                   episode={episode}
+                                  show={series!}
                                 />
                             ))}
                         </section>
@@ -106,28 +95,29 @@ const ShowPage = ({genre}: ShowPageProps) => {
                             {showSoundtrack === true ? <button className="text-blue-300 underline" onClick={() =>setShowSoundtrack(false)}>Collapse</button> : <button className="tex<t-blue-300 underline" onClick={() =>setShowSoundtrack(true)}>Expand</button> }
                         </span>
                         <section className={`${showSoundtrack === false ? " h-1/6 overflow-y-scroll" : "block"} border-b`}>
-                            {soundtrack.map((s) => (
+                            {series.soundtrack !== undefined ? series.soundtrack.map((s) => (
                                 <SoundtrackBreakDown key={s.id} songs={s.songs}/>
-                            ))}
+                            )) : undefined}
                         </section>
 
                     </section>
                 )}
                     </section>
                     <section className="md:w-[50%] lg:w-[25%]">
-                        <Infobox show={series} type="Show"/>
+                        <Infobox show={series} type="Show" posterUrl={series.posterUrl}/>
                     </section>
                        
                 </section>
                 <section>
                     <h1>Cast</h1>
                     <ul className="list-circle">
-                        {cast.map((c) => (
+                        {series.cast.map((c) => (
                             <li key={String(c.actor)}>{c.actor} as {c.character}</li>
                         ))}
                     </ul>
                 </section>
             </article>
+
         </main>
     )
 }

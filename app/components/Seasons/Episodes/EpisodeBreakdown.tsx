@@ -1,28 +1,32 @@
 "use client"
-
 import { useState } from "react";
 import { toggleImage } from "@/app/functions/toggleImage";
 import { ModalComponent } from "@/app/models/objects/ModalComponent";
 import { createImages } from "@/app/models/objects/images";
-import { Season } from "@/app/models/types/seasons/Season";
-import type { EpisodeBreakdown as Episode } from "@/app/models/types/seasons/episode/EpisodeBreakdown";
+import { Show } from "@/app/models/types/structure/Show";
+import { EpisodeBreakdown as Episode } from "@/app/models/types/seasons/episode/EpisodeBreakdown";
 
 type Props = {
-    season: Season;
+    show: Show;
     episode: Episode;
     page?: boolean;
 }
 
-const EpisodeBreakdown = ({season, episode} : Props) => {
+const EpisodeBreakdown = ({show, episode} : Props) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [chooseImage, setChooseImage] = useState("");
+
+    if (show === null) return null;
     
-    const images = createImages(season).filter(
-      (image): image is {src: string; alt: string; pageId: string | string[]} => Boolean(image),
-    );
+    const images = createImages(show) ?? [];
+
+    const season = show.seasons?.find((i) => i.id);
+
+    if (season === undefined) return console.error("Couldn't find season");
+
+    console.log(season);
 
     if (episode === undefined) return console.error("Couldn't find episode for EpisodeBreakdown");
-    console.log(episode);
     
     if (episode.episodeImageUrl.src === undefined) return console.error("imageUrl property  is", episode.episodeImageUrl);
     if (episode.episodeImageUrl.src === undefined) return console.error("Couldn't find src for image");

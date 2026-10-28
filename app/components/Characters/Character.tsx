@@ -66,7 +66,7 @@ const sortedTypes = Object.keys(grouped).sort(); // eller din egen ordning
                          </section>
                         </section>
                         <section className="border md:w-[50%] lg:w-[30%]">
-                             <CharacterInfobox character={character}/>
+                             {CharacterInfobox({ show: series, character }) ?? null}
                         </section>
                            
                     </section>

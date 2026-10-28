@@ -1,9 +1,18 @@
 "use client";
+import { useState } from "react";
 import { convertToCharacterInfobox } from "../../functions/Convert/convertToCharacterInfobox";
-import type { Character } from "../../models/types/characters/Character";
-import type {  Occupation } from "@/app/models/types/characters/Occupation";
+import type { Character } from "@/app/models/types/characters/Character";
+import type { Occupation } from "@/app/models/types/characters/Occupation";
+import { ModalComponent } from "@/app/models/objects/ModalComponent";
+import type { Show } from "@/app/models/types/structure/Show";
+import { createImages } from "@/app/models/objects/images";
+import { toggleImage } from "@/app/functions/toggleImage";
+import type { Image } from "@/app/models/types/structure/Image";
 
-type Props = { character: Character };
+type Props = {
+  show: Show;
+  character: Character;
+};
 
 // More specific guard: Occupation has "title"
 const isOccupation = (v: unknown): v is Occupation =>
@@ -13,9 +22,14 @@ const isOccupation = (v: unknown): v is Occupation =>
 const isEducation = (v: unknown): v is Occupation =>
   !!v && typeof v === "object" && "place" in v && "started" in v;
 
-export const CharacterInfobox = ({ character }: Props) => {
+export const CharacterInfobox = ({ show, character }: Props) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [chosenImage, setChosenImage] = useState<string>("");
+
+  const images = createImages(show) ?? [];
+
   const characterWithInfobox = convertToCharacterInfobox(character);
-  const box = characterWithInfobox?.infobox?.[0];
+  const box = characterWithInfobox.infobox[0];
 
   if (!box) return null;
 
@@ -24,16 +38,55 @@ export const CharacterInfobox = ({ character }: Props) => {
       ? characterWithInfobox.nickname[0]
       : characterWithInfobox.firstName;
 
+  if (displayName === undefined) {
+    console.error("Name is missing for character with id:", character.id);
+    return null;
+  }
+
+  const posterUrl = characterWithInfobox.posterUrl ?? characterWithInfobox.imageUrl;
+  const characterImages: Image[] = images
+    .map((image) => ({
+      ...image,
+      pageId: !("pageId" in image)
+        ? []
+        : Array.isArray(image.pageId)
+          ? image.pageId
+          : typeof image.pageId === "string"
+            ? [image.pageId]
+            : [],
+    }))
+    .filter((image) => image.pageId.includes(character.id));
+  const modalImages: Image[] = characterImages.some(
+    (image) => image.src === posterUrl,
+  )
+    ? characterImages
+    : [
+        { src: posterUrl, alt: displayName, pageId: [character.id] },
+        ...characterImages,
+      ];
+
+  const openModal = () => {
+    toggleImage(posterUrl, setChosenImage);
+    setIsModalOpen(true);
+  };
+
   return (
     <section className="flex flex-col justify-content items-center gap-3 bg-[#f2e8ff] text-black  shadow-sm shadow-gray-400">
       <h2 className="text-3xl text-center">{displayName}</h2>
-
-      <img
-        src={characterWithInfobox.posterUrl}
-        alt={characterWithInfobox.firstName}
-        className="w-full h-auto"
-      />
-
+      {posterUrl ? (
+        <button
+          type="button"
+          className="cursor-pointer"
+          onClick={openModal}
+          aria-label={`View ${displayName} poster`}
+        >
+          <img
+            src={posterUrl}
+            alt={displayName}
+            className="w-full h-auto"
+          />
+        </button>
+      ) : null}
       <section className="text-md w-[98%]">
         {box.fields.map((item) => {
           if (!item) return null;
@@ -100,6 +153,17 @@ export const CharacterInfobox = ({ character }: Props) => {
           );
         })}
       </section>
+      {isModalOpen ? (
+        <ModalComponent
+          title={displayName}
+          images={modalImages}
+          imgUrl={chosenImage}
+          toggleImage={setChosenImage}
+          onClose={() => setIsModalOpen(false)}
+          id={character.id}
+          type="Character"
+        />
+      ) : null}
     </section>
   );
 };

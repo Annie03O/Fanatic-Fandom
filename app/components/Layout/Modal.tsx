@@ -5,11 +5,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useRef } from "react";
 
 
+type ModalImage = Image & {
+  episode?: {
+    seasonNumber: number;
+    episodeNumber: number | number[];
+    episodeTitle: string | string[];
+  };
+};
+
 type Props = {
   title: string;
   imgUrl: string;
   onClose: () => void;
-  images: Image[];
+  images: ModalImage[];
   toggleImage: (imgUrl: string) => void;
   type: "Show" | "Season" | "Character" | "Episode" | "Movie";
 };
@@ -18,7 +26,10 @@ export const Modal = ({ title, imgUrl, onClose, images, type, toggleImage }: Pro
   const stripRef = useRef<HTMLDivElement>(null);
   const thumbRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
+  if (images === undefined) return console.error("Images not found");
+  
   const activeIndex = images.findIndex((i) => i.src === imgUrl);
+  
 
   useEffect(() => {
     const strip = stripRef.current;
@@ -47,7 +58,9 @@ export const Modal = ({ title, imgUrl, onClose, images, type, toggleImage }: Pro
     return () => document.body.removeEventListener("keydown", handleKeyDown);
   }, [activeIndex, images, onClose, toggleImage]);
 
+  
   const image = images[activeIndex];
+  
   if (!image) {
     console.error("Couldn't find image src");
     return null;
@@ -63,8 +76,6 @@ export const Modal = ({ title, imgUrl, onClose, images, type, toggleImage }: Pro
     toggleImage(images[previous].src);
   };
 
-  
-
   const episode = type === "Season" ? image.episode : undefined;
   const episodeTitle = Array.isArray(episode?.episodeTitle)
     ? episode.episodeTitle.join(", ")
@@ -72,6 +83,9 @@ export const Modal = ({ title, imgUrl, onClose, images, type, toggleImage }: Pro
   const episodeNumber = Array.isArray(episode?.episodeNumber)
     ? episode.episodeNumber.join(", ")
     : episode?.episodeNumber;
+
+    
+  console.log("Images", images);
 
   return (
     <section className="fixed inset-0 z-50 flex items-center justify-center">

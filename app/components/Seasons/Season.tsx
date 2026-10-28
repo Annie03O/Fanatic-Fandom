@@ -4,47 +4,42 @@ import { useParams } from "next/navigation";
 import { allSeriesWithSlug } from "../../functions/WithSlug/allSeriesWithSlug";
 import { SeasonInfobox } from "./SeasonInfobox";
 import type { Season } from "@/app/models/types/seasons/Season";
-import { createImages } from "@/app/models/objects/images";
 import { EpisodeBreakdownComponent } from "@/app/models/objects/EpisodeBreakdownComponent";
-import { useState } from "react";
-import { toggleImage } from "@/app/functions/toggleImage";
 import { convertToSeasonInfobox } from "@/app/functions/Convert/convertToSeasonInfobox";
+import type { ComponentType } from "react";
+
 type Props = {
   genre:  Genre;
-  season: Season;
 };
 
-function Season({genre, season}: Props) {
+function Season({genre}: Props) {
   const { slug, seasonId } = useParams<{ slug: string; seasonId: string }>();
-  const [chosenImage, setChosenImage] = useState<string>("");
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  
-  
+    
   // allSeriesWithSlug är { ...dramaSeries, items: [...] }
   const series = allSeriesWithSlug.items.find((s) => s.slug === slug);
 
   if (!series) return <section>Series not found</section>;
 
+  const season = series.seasons?.find((s) => s.id === seasonId);
+
   const seasonWithInfobox = convertToSeasonInfobox(season);
   const box = seasonWithInfobox?.infobox;
+  const SeasonInfoboxComponent = SeasonInfobox as unknown as ComponentType<
+    Parameters<typeof SeasonInfobox>[0]
+  >;
 
   if (!box) return null;
 
 
   const posterUrl = box.posterSrc?.trim();
 
-  const openModal = () => {
-    if (posterUrl) toggleImage(posterUrl, setChosenImage);
-    setIsModalOpen(true);
-  }
   // Variant A: om mainCharacters ligger direkt på serien
     
   // Variant B: om serien har show-objekt (vanligt i din struktur)
 
   if (!season) return <section>Season not found, {season}</section>;
-  const images = createImages(season).filter(
-    (image): image is { src: string; alt: string; pageId: string | string[] } => Boolean(image),
-  );
+  
+  
   
   return (
     <article key={seasonId} className="flex flex-col justify-center items-center text-[#d1c3e3] w-full">
@@ -64,7 +59,7 @@ function Season({genre, season}: Props) {
                                 {season.episodeBreakdown.map((i, index) => (
                                   <EpisodeBreakdownComponent
                                     key={`${i.id || `episode-${i.seasonNumber}-${i.episodeNumber}`}-${index}`}
-                                    season={season}
+                                    show={series}
                                     episode={i}
                                   />
                                 )
@@ -73,18 +68,12 @@ function Season({genre, season}: Props) {
                            </section>
                         </section>
                         <section className="border md:w-[50%] lg:w-[30%]">
-                             <SeasonInfobox 
-                                images={images} 
-                                season={season} 
+                             <SeasonInfoboxComponent 
+                                show={series} 
                                 genre={genre} 
                                 slug={slug} 
-                                chosenImage={chosenImage}
-                                toggleImage={setChosenImage}
                                 posterUrl={posterUrl ? posterUrl : ""}
-                                openModal={openModal}
                                 box={box}
-                                isModalOpen={isModalOpen}
-                                setIsModalOpen={setIsModalOpen}
                               />
                         </section>
                     </section>

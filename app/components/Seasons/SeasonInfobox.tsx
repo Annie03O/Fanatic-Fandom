@@ -1,29 +1,48 @@
 "use client";
-import { Season } from "@/app/models/types/seasons/Season";
-import { convertToSeasonInfobox } from "@/app/functions/Convert/convertToSeasonInfobox";
 import Link from "next/link";
-import { Dispatch, SetStateAction, useState } from "react";
+import { useState } from "react";
 import { ModalComponent } from "@/app/models/objects/ModalComponent";
-import { Image } from "@/app/models/types/structure/Image";
 import { Box } from "@/app/models/types/structure/Box";
+import { createImages } from "@/app/models/objects/images";
+import { Show } from "@/app/models/types/structure/Show";
+import { toggleImage } from "@/app/functions/toggleImage";
 
 
 type Props = { 
-  season: Season 
+  show: Show 
   genre:  Genre;
   slug: string;
-  images: Image[];
-  toggleImage: (imgUrl: string) => void;
-  chosenImage: string;
   posterUrl: string;
-  openModal: () => void;
   box: Box;
-  isModalOpen: boolean;
-  setIsModalOpen: Dispatch<SetStateAction<boolean>>;
 };
 
 
-export const SeasonInfobox = ({ season, genre, slug, images, toggleImage, chosenImage, posterUrl, openModal, box, isModalOpen, setIsModalOpen }: Props) => {
+export const SeasonInfobox = ({ show, genre, slug, posterUrl, box }: Props) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [chosenImage, setChosenImage] = useState<string>("");
+  
+  if (show === null) return null;
+
+  const images = createImages(show) ?? [];
+
+  if (show.seasons === null) return console.error("Object for season not found in SeasonInfobox");;
+
+  const season = show.seasons?.find((s) => s.id);
+
+  if (season === undefined) return console.error("Season id is undefined");
+  
+  
+  const openModal = () => {
+    console.log("Du klickade på openModal");
+    
+    if (posterUrl) {
+      toggleImage(posterUrl, setChosenImage)
+    } else {
+      console.error("Couldn't find posterUrl");
+      
+    };
+    setIsModalOpen(true);
+  }
   
   return (
     <section className="flex flex-col justify-content items-center gap-3 bg-[#d1c3e3] text-black shadow-2xl  shadow-gray-600 ring-2 ring-[#d1c3e3]">
@@ -82,7 +101,7 @@ export const SeasonInfobox = ({ season, genre, slug, images, toggleImage, chosen
       </section>
       {isModalOpen && posterUrl ? (
         <ModalComponent
-          toggleImage={toggleImage}
+          toggleImage={setChosenImage}
           images={images}
           imgUrl={chosenImage}
           title={season.title ?? `Season ${season.seasonNumber}`}
