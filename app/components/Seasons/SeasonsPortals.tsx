@@ -81,8 +81,8 @@ export const SeasonsPortals = ({ show, page, genre }: Props) => {
             
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={s.posterUrl}
-              alt={`${s.title} `}
+              src={s.posterUrl.src}
+              alt={`${s.posterUrl.src} `}
               className={`${page === true ? "h-[250px] w-[200px]" : "w-full md:h-[145px] md:w-[100px]"} object-cover object-center blur-xs  transition-all duration-300 ease-in-out`}
             />
             <section className={`text-2xl text-center text-[#d1c3e3] flex flex-col items-center justify-center h-full text-4xl text-shadow-lg text-shadow-gray-600  border-2 border-black
