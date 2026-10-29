@@ -18,7 +18,7 @@ export const SeriesInfobox = ({type, show}: Props) => {
     <section className="flex flex-col justify-content items-center gap-3 bg-[#d1c3e3] text-black shadow-2xl  shadow-gray-600 ring-2 ring-[#d1c3e3]">
       <h2 className="text-2xl text-center">{box.name}</h2>
 
-      <img src={box.posterSrc} alt={box.name} />
+      <img src={box.posterSrc.src} alt={box.posterSrc.alt} />
 
       <section className=" text-lg">
         {box.fields.map((f) => (
