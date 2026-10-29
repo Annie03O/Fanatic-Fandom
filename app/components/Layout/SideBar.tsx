@@ -22,7 +22,7 @@ export const SideBar = ({ side }: Props) => {
             id: show.id,
             label: show.title,
             context: show.genre,
-            image: show.posterUrl,
+            image: show.posterUrl.src,
             href: `/${show.genre}/${toRouteSlug(show.title)}`,
 
           })), 10));
