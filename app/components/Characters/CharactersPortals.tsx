@@ -150,7 +150,7 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
             </h2>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={c.imageUrl}
+              src={c.imageUrl.src}
               alt={`${c.firstName} ${c.lastName}`}
                          className={`${page === true ? "h-[250px] w-[200px]" : "w-[250px] md:h-[160px] md:w-[120px]"} object-cover object-center `}
  />

@@ -21,8 +21,8 @@ export const ShowPortal = ({show, genre, title}: Props) => {
                 {show.posterUrl && (
                   <img
                     className="w-full h-full object-cover object-center"
-                    src={show.posterUrl}
-                    alt={show.title}
+                    src={show.posterUrl.src}
+                    alt={show.posterUrl.alt}
                   />
                 )}
                 </section>
