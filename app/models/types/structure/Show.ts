@@ -5,12 +5,13 @@ import { CastMember } from "./CastMember";
 import { Character } from "../characters/Character";
 import { Soundtrack } from "../music/Soundtrack";
 import { Movie } from "./Movie";
+import { Image } from "../characters/Image";
 
 export type Show = {
   id: string;
   title: string;  
   englishTitle?: string;  // for shows that have a different title in their original language
-  posterUrl: string;
+  posterUrl: Image;
   country: string | string[];         // ex "US", "UK", "SE"
   firstAirDate: string;           // ex "1990–2000" eller "2022–"
   lastAirDate?: string;

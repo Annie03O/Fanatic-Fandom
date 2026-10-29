@@ -2,6 +2,7 @@ import { CharacterArc } from "./CharacterArc";
 import { EpisodeBreakdown } from "../seasons/episode/EpisodeBreakdown";
 import { Occupation } from "./Occupation";
 import { Relationship } from "../structure/Relationship";
+import { Image } from "./Image";
 
 export type Character = {
     id: string;
@@ -9,8 +10,8 @@ export type Character = {
     middleName?: string;
     label?: string;
     lastName?: string;
-    posterUrl?: string;
-    imageUrl: string;
+    posterUrl?: Image;
+    imageUrl: Image;
     nickname?: string[]
     actor?: string | string[];
     birthday?: string; 

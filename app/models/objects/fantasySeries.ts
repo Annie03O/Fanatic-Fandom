@@ -1,4 +1,5 @@
 import { Show } from "../types/structure/Show";
+import { pilotLabel } from "./dramaSeries";
 
 
 export const fantasySeries: Show[] = [
@@ -1545,7 +1546,7 @@ tags: [
         seasonNumber: 1,
         premiereDate:  "2001-10-16" ,
         finaleDate:  "May 21, 2002" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "Tempest",
         title: "Smallville, Season 1",
         posterUrl:
@@ -2050,7 +2051,7 @@ tags: [
         seasonNumber: 1,
         premiereDate:  "September 10, 2009" ,
         finaleDate:  "May 13, 2010" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "Founder's Day",
         title: "The Vampire Diaries, Season 1",
         posterUrl:

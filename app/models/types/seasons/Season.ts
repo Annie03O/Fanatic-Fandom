@@ -1,5 +1,6 @@
 import { EpisodeBreakdown } from "./episode/EpisodeBreakdown";
 import { CastMember } from "../structure/CastMember";
+import { Image } from "../characters/Image";
 
 export type Season = {
   id: string;
@@ -10,7 +11,7 @@ export type Season = {
   finaleDate?:string;
   premiereEpisode?: string;
   finaleEpisode?: string;
-  posterUrl?: string;
+  posterUrl: Image;
   episodeCount: number;
   generation?: 1 | 2 | 3;
   mainCast: CastMember[];

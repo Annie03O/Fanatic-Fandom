@@ -1,5 +1,9 @@
 import { write } from "fs";
 import { Show } from "../types/structure/Show";
+import { Cohen_Name, Cooper_Name, JulieCooper_firstName, JulieCooper_ID, KirstenCohen_firstName, KirstenCohen_ID, LukeWard_fullName, MarissaCooper_firstName, MarissaCooper_ID, OC_ID, ocPilot_ID, ocS1_ID, ocS2_ID, ocS2Ep1_ID, ocS3_ID, ocS3ep8_ID, ocS4_ID, ocSeriesFinale_ID, RyanAtwood_firstName, RyanAtwood_ID, RyanAtwood_lastName, SandyCohen_firstName, SandyCohen_fullName, SandyCohen_ID, SethCohen_firstName, SethCohen_ID, SummerRoberts_firstName, SummerRoberts_fullName, SummerRoberts_ID, SummerRoberts_lastName, TaylorTownsend_firstName, TaylorTownsend_fullName, TaylorTownsend_ID, TaylorTownsend_lastName, TreyAtwood_fullName } from "../helpers/oc";
+
+export var pilotLabel = "Pilot";
+export var season = "Season";
 
 export const dramaSeries: Show[] = [
   {
@@ -6094,7 +6098,7 @@ export const dramaSeries: Show[] = [
         episodeCount: 32,
         premiereDate: "July 8, 1992",
         finaleDate: "May 26, 1993",
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "Suspicious Minds",
         network: "Fox",
         mainCast: [
@@ -7975,85 +7979,201 @@ tags: [
     ],
   },
   {
-    id: "the-oc",
+    id: OC_ID,
     title: "The O.C.",
     plot: "Ryan Atwood is a troubled teenage youth from the wrong side of the tracks in Chino, San Bernardino County, California who finds himself on his own, after he is thrown out of his own house. He finds a place to stay in the posh home of the Cohens in the wealthy community of Newport Beach, the O.C. (Orange County), California. Ryan is accepted by the stern but compassionate Sandford 'Sandy' Cohen, a lawyer who has represented Ryan in the past for his misdeeds. But Sandy's wife, Kirsten, aware of Ryan's criminal history, is wary of this new house guest. The Cohen's son, Seth, bonds with Ryan quickly and shows him the ropes of the community -- and vice-versa with Ryan giving advice to Seth about life and love. Ryan develops a crush on Marissa Cooper, a neighbor girl who lives down the street, and he has problems with her not-so-sheltered existence in dealing with her distant father Jimmy and her weak-willed mother Julie. Also, Marissa's best friend, Summer, is oblivious to the crush that Seth has on her, while taking a liking to Ryan. And so begins a new life for Ryan, the Cohens, the Coopers, and generally everyone else in the wealthy, picturesque, secretive, turbulent community in Orange County.",
     genre: "drama",
-tags: ["Teen drama", "Drama"],
+    tags: ["Teen drama", "Drama"],
     firstAirDate: "August 05, 2003",
     lastAirDate: "February 22, 2007",
     status: "Ended",
     country: "US",
     language: "en",
-    posterUrl:
-      "https://m.media-amazon.com/images/M/MV5BNWUzMDViY2YtOGE0OS00NWFhLWJhM2ItNDE2Njc5YmRjZWQyXkEyXkFqcGc@._V1_.jpg",
+    posterUrl: {
+      src: "https://m.media-amazon.com/images/M/MV5BNWUzMDViY2YtOGE0OS00NWFhLWJhM2ItNDE2Njc5YmRjZWQyXkEyXkFqcGc@._V1_.jpg",
+      alt: "Official poster for The O.C, containing Ryan, Seth, Marissa and Summer.",
+      pageId: [
+        OC_ID
+      ],
+    },
     numberOfSeasons: 4,
     numberOfEpisodes: 92,
     mainCharacters: [
       {
-        id: "ryan-atwood",
-        firstName: "Ryan",
-        lastName: "Atwood",
-        imageUrl: "https://assets.mycast.io/characters/ryan-atwood-1318730-normal.jpg",
-        posterUrl: 
-          "https://static.wikia.nocookie.net/ocwikia/images/f/f3/RyanAtwood-S4-3.jpg/revision/latest?cb=20220919041217",
-        promo: true,
+        id: RyanAtwood_ID,
+        firstName: RyanAtwood_firstName,
+        middleName: "Francis",
+        lastName: RyanAtwood_lastName,
+        nickname:[
+          `Chino (by ${LukeWard_fullName})`,
+          `Ry (by ${TreyAtwood_fullName})`,
+          `Kid (by ${SandyCohen_fullName})`,
+          `Atwood (by ${SummerRoberts_fullName})`,
+          `Peaches (by ${TaylorTownsend_fullName})`,
+          "Kid Chino",
+        ],
+        imageUrl: {
+          src: "https://assets.mycast.io/characters/ryan-atwood-1318730-normal.jpg",
+          alt: "Close-up on Ryan Atwood, sitting down looking serious.",
+          pageId: [
+            ocPilot_ID
+          ]
+        },
+        posterUrl: {
+          src: "https://static.wikia.nocookie.net/ocwikia/images/f/f3/RyanAtwood-S4-3.jpg/revision/latest?cb=20220919041217",
+          alt: "Poster of Ryan Atwood wearing a black T-shirt, leaning agaist a wooden wall.",
+          pageId: [
+            RyanAtwood_ID,
+          ]
+        },
+          promo: true,
+
       },
       {
-        id: "seth-cohen",
-        firstName: "Seth",
-        lastName: "Cohen",
-        imageUrl: "https://i.pinimg.com/236x/9e/5a/d1/9e5ad1ef359e49b2e99ba1547d0f9d47.jpg",
+        id: SethCohen_ID,
+        firstName: SethCohen_firstName,
+        lastName: Cohen_Name,
+        imageUrl: {
+          src: "https://i.pinimg.com/236x/9e/5a/d1/9e5ad1ef359e49b2e99ba1547d0f9d47.jpg",
+          alt: "Close-up on Seth who is smiling, wearing a dark blue polo-shirt.",
+          pageId: [
+            "the-oc"
+          ]
+        },
         posterUrl:
-          "https://static.wikia.nocookie.net/ocwikia/images/c/c4/SethCohen-S3-3.jpg/revision/latest?cb=20220906053105",
+          {
+            src: "https://static.wikia.nocookie.net/ocwikia/images/c/c4/SethCohen-S3-3.jpg/revision/latest?cb=20220906053105",
+            alt: "Poster of Seth wearing a white button-up with a black tie. He is sitting on the beach.",
+            pageId: [
+              ocS3_ID
+            ]
+          },
         promo: true,
       },
       {
-        id: "marissa-cooper",
-        firstName: "Marissa",
-        lastName: "Cooper",
-        imageUrl:"https://imagenes.elpais.com/resizer/v2/SYUVM35P45ASPK3Y5USJBOUBZE.jpg?auth=412f3798aac447693159e6878954b2a0173f5e8c07df61ccd62402a3f21c3b4e&width=1960&height=1470&smart=true",
-        posterUrl:  "https://upload.wikimedia.org/wikipedia/en/4/47/Marissa_cooper.JPG?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+        id: MarissaCooper_ID,
+        firstName: MarissaCooper_firstName,
+        lastName: Cooper_Name,
+        imageUrl: {
+          src: "https://imagenes.elpais.com/resizer/v2/SYUVM35P45ASPK3Y5USJBOUBZE.jpg?auth=412f3798aac447693159e6878954b2a0173f5e8c07df61ccd62402a3f21c3b4e&width=1960&height=1470&smart=true",
+          alt: "Close up for Marissa.",
+          pageId: [
+            MarissaCooper_ID,
+            ocS3_ID
+          ]
+
+        },
+        posterUrl:  {
+          src: "https://upload.wikimedia.org/wikipedia/en/4/47/Marissa_cooper.JPG?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+          alt: "Promo picture featuring Marissa Cooper. She is standing on the beach with her back to the sea.",
+          pageId: [
+            ocS3_ID
+          ]
+        },
         promo: true,
       },
       {
-        id: "summer-roberts",
-        firstName: "Summer",
-        lastName: "Roberts",
-        imageUrl: "https://i.pinimg.com/736x/a4/1c/cf/a41ccfc65666d6fc3406b4ea969aaffc.jpg",
-        posterUrl:  "https://static.wikia.nocookie.net/ocwikia/images/2/23/SummerRoberts-S4-0.jpg/revision/latest?cb=20220717090058",
+        id: SummerRoberts_ID,
+        firstName: SummerRoberts_firstName,
+        lastName: SummerRoberts_lastName,
+        imageUrl: {
+          src: "https://i.pinimg.com/736x/a4/1c/cf/a41ccfc65666d6fc3406b4ea969aaffc.jpg",
+          alt: "Close up on Summer, smiling.",
+          pageId: [
+            ocS4_ID,
+            ocSeriesFinale_ID
+          ]
+        },
+        posterUrl:{
+          src: "https://static.wikia.nocookie.net/ocwikia/images/2/23/SummerRoberts-S4-0.jpg/revision/latest?cb=20220717090058",
+          alt: "Summer Robert's promo poster for season 4. She is wearing a gray dress.",
+          pageId: [
+            ocS4_ID
+          ]
+        },
         promo: true,
       },
       {
-        id: "sandy-cohen",
-        firstName: "Sandy",
-        lastName: "Cohen",
-        imageUrl: "https://assets.mycast.io/characters/sandy-cohen-6509919-normal.jpg",
-        posterUrl:  "https://static.wikia.nocookie.net/ocwikia/images/9/92/SandyCohen-S1-0.jpg/revision/latest?cb=20220720204944",
+        id: SandyCohen_ID,
+        firstName: SandyCohen_firstName,
+        lastName: Cohen_Name,
+        imageUrl: {
+          src: "https://assets.mycast.io/characters/sandy-cohen-6509919-normal.jpg",
+          alt: "Close up on Sandy Cohen.",
+          pageId: [
+            ocS1_ID
+          ]
+        },
+        posterUrl: {
+          src: "https://static.wikia.nocookie.net/ocwikia/images/9/92/SandyCohen-S1-0.jpg/revision/latest?cb=20220720204944",
+          alt: "Poster of Sandy wearing a black suit.",
+          pageId: [
+            ocS3_ID
+          ]
+        },
         promo: true,
       },
       {
-        id: "kirsten-cohen",
-        firstName: "Kirsten",
-        lastName: "Cohen",
-        imageUrl: "https://imgix.bustle.com/uploads/image/2018/5/30/a464fba0-9a06-48fc-8607-50e6057dc3cd-screen-shot-2018-05-30-at-44009-pm.png?w=1200&h=900&fit=crop&crop=faces&fm=jpg",
-        posterUrl: "https://static.wikia.nocookie.net/ocwikia/images/e/ec/KirstenCohen-S3.jpg/revision/latest?cb=20220716140000",
+        id: KirstenCohen_ID,
+        firstName: KirstenCohen_firstName,
+        lastName: Cohen_Name,
+        imageUrl: {
+          src: "https://imgix.bustle.com/uploads/image/2018/5/30/a464fba0-9a06-48fc-8607-50e6057dc3cd-screen-shot-2018-05-30-at-44009-pm.png?w=1200&h=900&fit=crop&crop=faces&fm=jpg",
+          alt: "Kirsten is in the Cohen living room, smiling up at someone.",
+          pageId: [
+            ocS2Ep1_ID
+          ]
+        },
+        posterUrl: {
+          src: "https://static.wikia.nocookie.net/ocwikia/images/e/ec/KirstenCohen-S3.jpg/revision/latest?cb=20220716140000",
+          alt: "Kirsten is sitting in a wodden chair at the beach, wearing a dark nude halterneck dress.",
+          pageId: [
+            ocS3_ID,
+            KirstenCohen_ID
+          ]
+        },
         promo: true,
       },
       {
-        id: "julie-cooper",
-        firstName: "Julie",
-        lastName: "Cooper",
-        imageUrl: "https://i.pinimg.com/236x/f9/85/13/f9851318235ed756690c732e2191b779.jpg",
-        posterUrl: "https://static.wikia.nocookie.net/ocwikia/images/6/63/JulieCooper-S4.jpg/revision/latest?cb=20220716161029",
+        id: JulieCooper_ID,
+        firstName: JulieCooper_firstName,
+        lastName: Cooper_Name,
+        imageUrl: {
+          src: "https://i.pinimg.com/236x/f9/85/13/f9851318235ed756690c732e2191b779.jpg",
+          alt: "Julie in the Series Finale.",
+          pageId: [
+            ocS4_ID,
+            ocSeriesFinale_ID
+          ]
+        },
+        posterUrl:{ 
+          src: "https://static.wikia.nocookie.net/ocwikia/images/6/63/JulieCooper-S4.jpg/revision/latest?cb=20220716161029",
+          alt: "Julie Cooper poster from season 4. She is wearing a black dress while sitting on the floor.",
+          pageId: [
+            ocS4_ID
+          ]
+        },
         promo: true,
       },
       {
-        id: "taylor-townsend",
-        firstName: "Taylor",
-        lastName: "Townsend",
-        imageUrl:"https://assets.mycast.io/characters/taylor-townsend-2657429-normal.jpg",
-        posterUrl:  "https://static.wikia.nocookie.net/ocwikia/images/3/3d/TaylorTownsend-S4-6.jpg/revision/latest?cb=20220817140917",
+        id: TaylorTownsend_ID,
+        firstName: TaylorTownsend_firstName,
+        lastName: TaylorTownsend_lastName,
+        imageUrl: {
+          src: "https://assets.mycast.io/characters/taylor-townsend-2657429-normal.jpg",
+          alt: "Taylor is sitting in a booth at the diner, wearing a knitted light green sweater on top of a white button-up shirt.",
+          pageId: [
+            ocS3_ID,
+            ocS3ep8_ID
+          ]
+        },
+        posterUrl:  {
+          src: "https://static.wikia.nocookie.net/ocwikia/images/3/3d/TaylorTownsend-S4-6.jpg/revision/latest?cb=20220817140917",
+          alt: "Poster of Taylor from Season 4. She is sitting on the floor wearing a beige blouse and dark blue jeans.",
+          pageId: [
+            ocS4_ID
+          ]
+        },
         promo: true,
       },
     ],
@@ -8061,60 +8181,80 @@ tags: ["Teen drama", "Drama"],
       { actor: "Ben McKenzie", character: "Ryan Atwood", creditOrder: 1 },
       { actor: "Adam Brody", character: "Seth Cohen", creditOrder: 2 },
       { actor: "Mischa Barton", character: "Marissa Cooper", creditOrder: 3 },
-      { actor: "Rachel Bilson", character: "Summer Roberts", creditOrder: 4 },
-      { actor: "Peter Gallagher", character: "Sandy Cohen", creditOrder: 5 },
+      { actor: "Rachel Bilson", character: SummerRoberts_fullName, creditOrder: 4 },
+      { actor: "Peter Gallagher", character: SandyCohen_fullName, creditOrder: 5 },
       { actor: "Kelly Rowan", character: "Kirsten Cohen", creditOrder: 6 },
       { actor: "Melinda Clarke", character: "Julie Cooper", creditOrder: 7 },
       { actor: "Chris Carmack", character: "Luke Ward", creditOrder: 8 },
-      { actor: "Autumn Reeser", character: "Taylor Townsend", creditOrder: 9 },
+      { actor: "Autumn Reeser", character: TaylorTownsend_fullName, creditOrder: 9 },
     ],
     seasons: [
       {
-        id: "the-oc-season-1",
+        id: ocS1_ID,
         seasonNumber: 1,
         premiereDate:  "August 05, 2003" ,
         finaleDate:  "May 5, 2004" ,
         premiereEpisode: "Premiere",
         finaleEpisode: "The Ties That Bind",
         title: "The O.C, Season 1",
-        posterUrl:
-          "https://m.media-amazon.com/images/I/817eR03WS8L._AC_SY606_.jpg",
+        posterUrl: {
+           src:"https://m.media-amazon.com/images/I/817eR03WS8L._AC_SY606_.jpg",
+           alt: "Orange dvd-poster for season 1 of The O.C",
+           pageId: [
+            OC_ID
+           ]
+          },
         episodeCount: 27,
       },
       {
-        id: "the-oc-season-2",
+        id: ocS2_ID,
         seasonNumber: 2,
         premiereDate:  "2004-11-04" ,
         finaleDate:  "May 19, 2005" ,
         premiereEpisode: "The Distance",
         finaleEpisode: "The Dearly Beloved",
         title: "The O.C, Season 2",
-        posterUrl:
-          "https://m.media-amazon.com/images/I/81CIYuZhI5L._AC_SY879_.jpg",
+        posterUrl:{
+          src: "https://m.media-amazon.com/images/I/81CIYuZhI5L._AC_SY879_.jpg",
+          alt: "Blue dvd-poster for season 2 of The O.C.",
+          pageId: [
+            OC_ID
+          ]
+        },
         episodeCount: 24,
       },
       {
-        id: "the-oc-season-3",
+        id: ocS3_ID,
         seasonNumber: 3,
         premiereDate:  "September 08, 2005" ,
         finaleDate:  "May 18, 2006" ,
         premiereEpisode: "Premiere",
         finaleEpisode: "The Ties That Bind",
         title: "The O.C, Season 3",
-        posterUrl:
-          "https://m.media-amazon.com/images/I/71obja+gcxL._AC_SY606_.jpg",
+        posterUrl:{
+          src: "https://m.media-amazon.com/images/I/71obja+gcxL._AC_SY606_.jpg",
+          alt: "Poster for the third season of the O.C. In the picture, we see all the characters on the beach laughing.",
+          pageId: [
+            OC_ID
+          ]
+        },
         episodeCount: 25,
       },
       {
-        id: "the-oc-season-4",
+        id: ocS4_ID,
         seasonNumber: 4,
         premiereDate:  "2006-11-02" ,
         finaleDate:  "2007-02-22" ,
         premiereEpisode: "The Avengers",
         finaleEpisode: "The End's Not Near, It's Here",
         title: "The O.C, Season 4",
-        posterUrl:
-          "https://m.media-amazon.com/images/I/81zWx8lEXpL._AC_SY879_.jpg",
+        posterUrl:{
+          src: "https://m.media-amazon.com/images/I/81zWx8lEXpL._AC_SY879_.jpg",
+          alt: "Yellow dvd-poster for the last season of The O.C.",
+          pageId: [
+            OC_ID
+          ]
+        },
         episodeCount: 16,
       },
     ],
@@ -8303,7 +8443,7 @@ tags: ["Teen drama", "Drama"],
         seasonNumber: 1,
         premiereDate:  "September 23, 2003" ,
         finaleDate:  "May 11, 2004" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "The Games That Play Us",
         title: "One Tree Hill, Season 1",
         posterUrl:
@@ -8566,7 +8706,7 @@ tags: ["Teen drama", "Drama"],
         seasonNumber: 1,
         premiereDate:  "September 19, 2007" ,
         finaleDate:  "May 19, 2008" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "Much 'I Do' About Nothing",
         title: "Gossip Girl, Season 1",
         posterUrl: "https://m.media-amazon.com/images/I/514nr7tnsJL._AC_.jpg",
@@ -8577,7 +8717,7 @@ tags: ["Teen drama", "Drama"],
         seasonNumber: 2,
         premiereDate:  "September 01, 2008" ,
         finaleDate:  "May 18, 2009" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "The Goodbye Gossip Girl",
         title: "Gossip Girl, Season 2",
         posterUrl:
@@ -8860,7 +9000,7 @@ tags: ["Teen drama", "Drama"],
         seasonNumber: 1,
         premiereDate:  "1998-01-20" ,
         finaleDate:  "May 19, 1998" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "Decisions",
         title: "Dawson's Creek, Season 1",
         posterUrl:
@@ -9248,7 +9388,7 @@ tags: ["Musical", "Comedy-drama", "Teen drama"],
         seasonNumber: 1,
         premiereDate:  "May 19, 2009" ,
         finaleDate:  "2010-06-08" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "Journey to Regionals",
         title: "Glee, Season 1",
         posterUrl:
@@ -13015,7 +13155,7 @@ tags: ["Mystery", "Teen drama", "Thriller"],
         seasonNumber: 1,
         premiereDate:  "2010-06-08" ,
         finaleDate:  "2011-03-21" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "For Whom the Bell Tolls",
         title: "Pretty Little Liars, Season 1",
         posterUrl:
@@ -13337,7 +13477,7 @@ tags: ["Supernatural", "Teen drama", "Romance", "Drama"],
         seasonNumber: 1,
         premiereDate:  "September 10, 2009" ,
         finaleDate:  "May 13, 2010" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "Founder's Day",
         title: "The Vampire Diaries, Season 1",
         posterUrl:
@@ -13698,7 +13838,7 @@ tags: ["Drama", "Sports", "Teen drama"],
         seasonNumber: 1,
         premiereDate:  "2006-10-03" ,
         finaleDate:  "2007-04-11" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "State",
         title: "Friday Night Lights, Season 1",
         posterUrl:
@@ -13922,7 +14062,7 @@ tags: ["Teen drama", "Drama", "Coming-of-age"],
         seasonNumber: 1,
         premiereDate:  "August 25, 1994" ,
         finaleDate:  "1995-01-26" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "In Dreams Begin Responsibilities",
         title: "My So-Called Life, Season 1",
         posterUrl:
@@ -14065,7 +14205,7 @@ tags: ["Comedy-drama", "Teen drama", "Coming-of-age"],
         seasonNumber: 1,
         premiereDate:  "September 25, 1999" ,
         finaleDate:  "July 08, 2000" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "Discos and Dragons",
         title: "Freaks and Geeks, Season 1",
         posterUrl:
@@ -14199,7 +14339,7 @@ tags: ["Comedy-drama", "Teen drama", "Family"],
         seasonNumber: 1,
         premiereDate:  "2000-10-05" ,
         finaleDate:  "May 10, 2001" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "Love, Daisies and Troubadours",
         title: "Gilmore Girls, Season 1",
         posterUrl:
@@ -14430,7 +14570,7 @@ tags: ["Mystery", "Crime", "Teen drama", "Drama"],
         seasonNumber: 1,
         premiereDate:  "September 22, 2004" ,
         finaleDate:  "May 10, 2005" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "Leave It to Beaver",
         title: "Veronica March , Season 1",
         posterUrl:
@@ -14656,7 +14796,7 @@ tags: ["drama", "superhero", "high-school", "origin-story"],
         seasonNumber: 1,
         premiereDate:  "2001-10-16" ,
         finaleDate:  "May 21, 2002" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "Tempest",
         title: "Smallville, Season 1",
         posterUrl:
@@ -15670,7 +15810,7 @@ tags: ["Teen Drama", "Netflix", "Adventure"],
         id: "outer-banks-season-1",
         seasonNumber: 1,
         premiereDate:  "2020-04-15" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "The Phantom",
         title: "Outer Banks, Season 1",
         posterUrl:
@@ -16076,7 +16216,7 @@ tags: ["drama", "netflix", "school", "coming-of-age"],
         id: "never-have-i-ever-season-1",
         seasonNumber: 1,
         premiereDate:  "2020-04-27" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "... said I'm sorry",
         title: "Never Have I Ever, Season 1",
         posterUrl:
@@ -16262,7 +16402,7 @@ tags: ["drama", "family", "school", "issues"],
         seasonNumber: 1,
         premiereDate:  "2013-06-03" ,
         finaleDate:  "2014-03-23" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "Adoption Day",
         title: "The Fosters, Season 1",
         posterUrl:
@@ -16310,7 +16450,7 @@ tags: ["drama", "family", "school", "issues"],
         seasonNumber: 5,
         premiereDate:  "2013-06-03" ,
         finaleDate:  "2014-03-23" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "Adoption Day",
         title: "The Fosters, Season 5",
         posterUrl:
@@ -16509,7 +16649,7 @@ tags: ["drama", "MTV", "School", "Dramedy"],
         seasonNumber: 1,
         premiereDate:  "July 19, 2011" ,
         finaleDate:  "September 27, 2011" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "Fateful",
         title: "Awkward., Season 1",
         posterUrl:
@@ -17135,7 +17275,7 @@ tags: ["drama", "family", "teen-siblings"],
         seasonNumber: 1,
         premiereDate:  "September 12, 1994" ,
         finaleDate:  "1005-03-15" ,
-        premiereEpisode: "Pilot",
+        premiereEpisode: pilotLabel,
         finaleEpisode: "The Ides of March",
         title: "Party of Five, Season 1",
         posterUrl:

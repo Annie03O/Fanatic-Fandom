@@ -1,4 +1,5 @@
 import { Show } from "../types/structure/Show";
+import { pilotLabel } from "./dramaSeries";
 
 export const comedySeries:Show[] = [
     {
@@ -115,7 +116,7 @@ export const comedySeries:Show[] = [
                 episodeCount: 6,
                 premiereDate: "March 24, 2005",
                 finaleDate: "April 26, 2005",
-                premiereEpisode: "Pilot",
+                premiereEpisode: pilotLabel,
                 finaleEpisode: "Hot Girl",
                 posterUrl:"https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7893509_b_v12_ai.jpg",
                 network: "NBC",

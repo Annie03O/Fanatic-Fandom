@@ -1,6 +1,6 @@
 export type EpisodeBreakdown = {
     id: string;
-    imageUrl: string;
+    imageUrl: Image;
     seasonNumber: number;
     episodeNumber: number | number[];
     episodeTitle: string[] | string;

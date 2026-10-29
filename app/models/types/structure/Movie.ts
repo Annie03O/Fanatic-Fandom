@@ -5,7 +5,7 @@ import { Soundtrack } from "../music/Soundtrack";
 export type Movie = {
   base: {
     id: string;
-    posterUrl: string;
+    posterUrl: Image;
     title: string;
     plot?: string | string[];
     country?: string;
