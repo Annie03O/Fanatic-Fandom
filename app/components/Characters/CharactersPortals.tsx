@@ -23,8 +23,8 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
   const visible =
     page === false && mainChars.length > 9 ? mainChars.slice(0, 8) : mainChars;
 
-  // const pushCharacter = (id: string) => router.push(
-  //   `/${genre}/${slug}/characters/${id}`);
+   const pushCharacter = (id: string) => router.push(
+     `/${genre}/${slug}/characters/${id}`);
 
   const colsClass = (n: number) => {
     const cols = Math.max(1, Math.min(8, n)); // clamp 1..8
@@ -141,7 +141,7 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
         <button
           key={c.id}
           type="button"
-          // onClick={() => pushCharacter(c.id!)}
+          onClick={() => pushCharacter(c.id!)}
           className={`border w-fit bg-white shadow-xl shadow-gray-600 overflow-hidden ring-2 ring-[#d1c3e3]` }
         >
           <article className="w-fit flex flex-col-reverse relative ">

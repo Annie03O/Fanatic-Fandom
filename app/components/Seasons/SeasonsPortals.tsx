@@ -19,7 +19,7 @@ export const SeasonsPortals = ({ show, page, genre }: Props) => {
   const visible =
     page === false && seasons.length > 6 ? seasons.slice(0, 6) : seasons
 
-  //const pushSeason = (id: string) => router.push(`/${genre}/${slug}/seasons/${id}`);
+  const pushSeason = (id: string) => router.push(`/${genre}/${slug}/seasons/${id}`);
 
   const colsClass = (n: number) => {
     const cols = Math.max(1, Math.min(5, n)); // clamp 1..8
@@ -74,7 +74,7 @@ export const SeasonsPortals = ({ show, page, genre }: Props) => {
         <button
           key={s.id}
           type="button"
-          //onClick={() => pushSeason(s.id!)}
+          onClick={() => pushSeason(s.id!)}
           className="w-fit shadow-xl shadow-gray-600 ring-2 ring-[#d1c3e3]"
         >
           <section className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative"}>

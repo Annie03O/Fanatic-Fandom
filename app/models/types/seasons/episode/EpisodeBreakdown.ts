@@ -1,3 +1,5 @@
+import { Image } from "../../characters/Image";
+
 export type EpisodeBreakdown = {
     id: string;
     imageUrl: Image;

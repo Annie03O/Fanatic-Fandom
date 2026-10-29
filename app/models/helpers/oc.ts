@@ -1,6 +1,6 @@
-import { pilotLabel, season, seasonOne } from "../objects/dramaSeries";
+import { pilotLabel } from "../objects/dramaSeries";
 
-export var OC_ID = "OC_ID";
+export var OC_ID = "the-o.c";
 
 // Lastnames
 export var Atwood_Name = "Atwood";
@@ -74,9 +74,9 @@ export var Cooper_Name = "Cooper;"
            export var TreyAtwood_fullName = TreyAtwood_firstName + " " + Atwood_Name;
            export var TreyAtwood_ID = (TreyAtwood_firstName + "-" + Atwood_Name).toLowerCase();
 
-// Seasons
-   // Season 1
-   export var ocS1_ID = (OC_ID + "-" + season + "-1");
+// "season"s
+   // "season" 1
+   export var ocS1_ID = (OC_ID + "-" + "season" + "-1");
 
    // Episode
     
@@ -86,22 +86,22 @@ export var Cooper_Name = "Cooper;"
         export var ocS1Ep2 = "The Model Home";
         export var ocS1Ep2_ID = ocS1Ep2.split(" ").join("-").toLowerCase();
 
-    // Season 2
-    export var ocS2_ID = (OC_ID + "-" + season + "-2");
+    // "season" 2
+    export var ocS2_ID = (OC_ID + "-" + "season" + "-2");
        
        // Ep 1
        export var ocS2Ep1_Title = "The Distance";
        export var ocS2Ep1_ID = ocS2Ep1_Title.toLowerCase().split(" ").join("-") + "-episode";
 
-    // Season 3
-   export var ocS3_ID = (OC_ID + "-" + season + "-3");
+    // "season" 3
+   export var ocS3_ID = (OC_ID + "-" + "season" + "-3");
    
        //Ep 8
        export var ocS3ep8_Title = "The Game Plan";
        export var ocS3ep8_ID = ocS3ep8_Title.toLowerCase().split(" ").join("-");
 
-    // Season 4
-   export var ocS4_ID = (OC_ID + "-" + season + "-4");
+    // "season" 4
+   export var ocS4_ID = (OC_ID + "-" + "season" + "-4");
 
       //Episodes
 

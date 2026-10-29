@@ -3,7 +3,6 @@ import { Show } from "../types/structure/Show";
 import { Cohen_Name, Cooper_Name, JulieCooper_firstName, JulieCooper_ID, KirstenCohen_firstName, KirstenCohen_ID, LukeWard_fullName, MarissaCooper_firstName, MarissaCooper_ID, OC_ID, ocPilot_ID, ocS1_ID, ocS2_ID, ocS2Ep1_ID, ocS3_ID, ocS3ep8_ID, ocS4_ID, ocSeriesFinale_ID, RyanAtwood_firstName, RyanAtwood_ID, RyanAtwood_lastName, SandyCohen_firstName, SandyCohen_fullName, SandyCohen_ID, SethCohen_firstName, SethCohen_ID, SummerRoberts_firstName, SummerRoberts_fullName, SummerRoberts_ID, SummerRoberts_lastName, TaylorTownsend_firstName, TaylorTownsend_fullName, TaylorTownsend_ID, TaylorTownsend_lastName, TreyAtwood_fullName } from "../helpers/oc";
 
 export var pilotLabel = "Pilot";
-export var season = "Season";
 
 export const dramaSeries: Show[] = [
   {
