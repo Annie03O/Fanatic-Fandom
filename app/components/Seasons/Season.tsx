@@ -31,11 +31,11 @@ function Season({genre}: Props) {
 
   
   return (
-    <main className="flex flex-col justify-center items-center text-[#d1c3e3]">
-                <article className="  p-1 flex flex-col">            
+    <main className="flex flex-col justify-center items-center text-[#d1c3e3] w-full">
+                <article className="w-full p-1 flex flex-col">            
                     <h1 className="text-4xl">{season.title}</h1>
                     <section className=" flex flex-col-reverse md:flex-row  w-full pl-2">
-                        <section className="w-full flex flex-col gap-2">
+                        <section className=" flex flex-col gap-2 w-full">
                            <section className="w-[75%]">
                               <h2 className="text-3xl">Plot</h2>
                               <span>{season.plot}</span>
