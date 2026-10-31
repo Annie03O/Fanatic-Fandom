@@ -8058,6 +8058,7 @@ tags: [
         lastName: RyanAtwood_lastName,
         hairColor: "Blonde",
         eyeColor: "Blue",
+        birthday: "March 19, 1988",
         nickname:[
           `Chino (by ${LukeWard_fullName})`,
           `Ry (by ${TreyAtwood_fullName})`,
