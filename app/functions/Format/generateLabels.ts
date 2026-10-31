@@ -54,13 +54,13 @@ export const generateLabel = (i: Relationship): string => {
       const base = i.gender === "F" ? "Sister" : i.gender === "M" ? "Brother" : "Sibling";
 
         if (i.typeOfFamily) {
-          if (i.typeOfFamily === "Step")  return `${i.name} Step ${base}`
-          if (i.typeOfFamily === "Adoptive") return `${i.name} Adoptive ${base}`
-          if (i.typeOfFamily === "God") return `${i.name} God ${base}`
-          if (i.typeOfFamily ===  "In-Law") return `${i.name} ${base} In Law`
+          if (i.typeOfFamily === "Step")  return `Step ${base}`
+          if (i.typeOfFamily === "Adoptive") return `Adoptive ${base}`
+          if (i.typeOfFamily === "God") return `God ${base}`
+          if (i.typeOfFamily ===  "In-Law") return `${base} In Law`
         }
 
-        i.older === true ? `Older ${base}` : `Younger ${base}` 
+        i.older === true ? `Older ${base}`: `Younger ${base}`
       return base;
     }
     if (i.family === "Parent") {
@@ -68,11 +68,11 @@ export const generateLabel = (i: Relationship): string => {
         i.gender === "F" ? "Mother" : i.gender === "M" ? "Father" : "Parent";
 
         if (i.typeOfFamily) {
-          if (i.typeOfFamily === "Biological" && i.adopted)  return `${i.name} Birth ${parent}`
-          if (i.typeOfFamily === "Step")  return `${i.name} Step ${parent}`
-          if (i.typeOfFamily === "Adoptive") return `${i.name} Adoptive ${parent}`
-          if (i.typeOfFamily === "God") return `${i.name} God ${parent}`
-          if (i.typeOfFamily ===  "In-Law") return `${i.name} ${parent} In Law`
+          if (i.typeOfFamily === "Biological" && i.adopted)  return `Birth ${parent}`
+          if (i.typeOfFamily === "Step")  return `Step ${parent}`
+          if (i.typeOfFamily === "Adoptive") return `Adoptive ${parent}`
+          if (i.typeOfFamily === "God") return `God ${parent}`
+          if (i.typeOfFamily ===  "In-Law") return `${parent} In Law`
         }
      
     
@@ -83,11 +83,11 @@ export const generateLabel = (i: Relationship): string => {
       const child = i.gender === "F" ? "Daughter" : i.gender === "M" ? "Son" : "Child";
       
       if (i.typeOfFamily) {
-          if (i.typeOfFamily === "Biological" && i.adopted)  return `${i.name} (Birth ${child})`
-          if (i.typeOfFamily === "Step")  return `${i.name} (Step ${child})`
-          if (i.typeOfFamily === "Adoptive") return `${i.name} (Adoptive ${child})`
-          if (i.typeOfFamily === "God") return `${i.name} (God ${child})`
-          if (i.typeOfFamily ===  "In-Law") return `${i.name} (${child} In Law)`
+          if (i.typeOfFamily === "Biological" && i.adopted)  return `(Birth ${child})`
+          if (i.typeOfFamily === "Step")  return `(Step ${child})`
+          if (i.typeOfFamily === "Adoptive") return `(Adoptive ${child})`
+          if (i.typeOfFamily === "God") return `(God ${child})`
+          if (i.typeOfFamily ===  "In-Law") return `(${child} In Law)`
         }
       return child;
     }
