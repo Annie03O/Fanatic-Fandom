@@ -27,7 +27,7 @@ export default function RootLayout({
           </section>
           <article className="w-full flex flex-col justify-center items-center bg-black text-[#d1c3e3]">
             <BreadcrumpNav/>
-              <section className="w-[95%] h-full">
+              <section className="h-full">
                 {children}
               </section>
             </article>
