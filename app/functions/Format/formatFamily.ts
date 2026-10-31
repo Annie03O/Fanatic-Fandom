@@ -3,7 +3,7 @@ import { Relationship } from "../../models/types/structure/Relationship";
 function formatFamilyRelation(ship: Relationship) {
 
   // FAMILY
-  if (ship.type === "Family") {
+  if (ship.family) {
     // SIBLING
     if (ship.family === "Sibling") {
       const base = ship.gender === "F" ? "Sister" : ship.gender === "M" ? "Brother" : "Sibling";

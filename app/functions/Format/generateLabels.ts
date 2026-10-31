@@ -79,6 +79,22 @@ export const generateLabel = (i: Relationship): string => {
       return parent;
     }
 
+    if (i.family === "Grandparent") {
+      const grandparent =
+        i.gender === "F" ? "Grand-Mother" : i.gender === "M" ? "Grand-Father" : "Parent";
+
+        if (i.typeOfFamily) {
+          if (i.typeOfFamily === "Biological" && i.adopted)  return `Birth ${grandparent}`
+          if (i.typeOfFamily === "Step")  return `Step ${grandparent}`
+          if (i.typeOfFamily === "Adoptive") return `Adoptive ${grandparent}`
+          if (i.typeOfFamily === "God") return `God ${grandparent}`
+          if (i.typeOfFamily ===  "In-Law") return `${grandparent} In Law`
+        }
+     
+    
+      return grandparent;
+    }
+
     if (i.family === "Child") {
       const child = i.gender === "F" ? "Daughter" : i.gender === "M" ? "Son" : "Child";
       
