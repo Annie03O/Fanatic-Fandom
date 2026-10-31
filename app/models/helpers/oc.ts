@@ -7,7 +7,7 @@ export var OC_ID = generateId(OC_Title);
 // Lastnames
    export var Atwood_Name = "Atwood";
    export var Cohen_Name = "Cohen";
-   export var Cooper_Name = "Cooper;"
+   export var Cooper_Name = "Cooper";
 
 // Characters 
     // Main
