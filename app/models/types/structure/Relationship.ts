@@ -1,3 +1,5 @@
+import { Image } from "./Image";
+
 export type Relationship = {
     id?: string;
     type: "Romantic" | "Family" | "Friendship" | "Rivalty";
@@ -21,6 +23,6 @@ export type Relationship = {
     romantic?: "Girlfriend/Boyfriend" | "Dated" | "Fling" | "Crush" | "Ex-Boyfriend/Ex-Girlfriend" | "Wife/Husband" | "Ex-Wife/Ex-Husband" | "Hook-Up" | "Fiancé" | "Ex-Fiancé" | "Kissed" | "One Date" | "Affair";
     description?: string[]; 
     shortDesc?: string;
-    imgUrl?: string;
+    imgUrl?: Image;
     card?: boolean; 
 }

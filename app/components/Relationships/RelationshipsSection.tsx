@@ -2,10 +2,17 @@
 import React from "react";
 import { ShipCard } from "./ShipCard";
 import { Relationship } from "@/app/models/types/structure/Relationship";
+import type { Show } from "@/app/models/types/structure/Show";
 
 type Props = {
   relationships: Relationship[];
+  show: Show;
 };
+
+const RenderableShipCard = ShipCard as unknown as React.ComponentType<{
+  item: Relationship;
+  show: Show;
+}>;
 
 function normalizeType(type?: string) {
   const t = (type ?? "").trim().toLowerCase();
@@ -21,7 +28,7 @@ function normalizeType(type?: string) {
   return "Other";
 }
 
-export const RelationshipsSection = ({ relationships }: Props) => {
+export const RelationshipsSection = ({ relationships, show }: Props) => {
   const grouped = relationships.reduce<Record<string, Relationship[]>>(
     (acc, r) => {
       const key = normalizeType(r.type);
@@ -53,8 +60,12 @@ export const RelationshipsSection = ({ relationships }: Props) => {
             <h2 className="text-3xl border-b border-gray-600">{title}</h2>
 
             <section key={title} className="mt-3 flex flex-col gap-3">
-              {items.map((r) => (
-                <ShipCard key={r.id} item={r} />
+              {items.map((r, index) => (
+                <RenderableShipCard
+                  key={`${r.id ?? r.name ?? "relationship"}-${index}`}
+                  item={r}
+                  show={show}
+                />
               ))}
             </section>
           </section>

@@ -1,5 +1,6 @@
 "use client";
 import { Image } from "@/app/models/types/characters/Image";
+import { Category } from "@/app/models/types/structure/Category";
 import { faAngleLeft, faAngleRight, faClose } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useRef } from "react";
@@ -19,7 +20,7 @@ type Props = {
   onClose: () => void;
   images: ModalImage[];
   toggleImage: (imgUrl: string) => void;
-  type: "Show" | "Season" | "Character" | "Episode" | "Movie";
+  type: Category;
 };
 
 export const Modal = ({ title, imgUrl, onClose, images, type, toggleImage }: Props) => {

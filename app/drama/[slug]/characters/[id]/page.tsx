@@ -11,10 +11,14 @@ export function generateStaticParams() {
     );
 }
 
+function CharacterAdapter() {
+  return <Character />;
+}
+
 function CharacterPage() {
   return (
     <div>
-        <Character/>
+        <CharacterAdapter />
     </div>
   );
 }

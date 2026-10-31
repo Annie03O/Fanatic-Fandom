@@ -3,7 +3,6 @@
 import { useParams } from "next/navigation";
 import { seriesBetaWithSlug } from "../../functions/WithSlug/allSeriesWithSlug";
 import { CharacterInfobox } from "./CharacterInfobox";; 
-import { Relationship } from "@/app/models/types/structure/Relationship";
 import { RelationshipsSection } from "../Relationships/RelationshipsSection"; 
 import { CharacterArc } from "./CharacterArc";
 
@@ -23,21 +22,22 @@ function Character() {
   // Variant A: om mainCharacters ligger direkt på serien
   const character = series.mainCharacters?.find((c) => c.id === id);
 
+  if (character === undefined) return console.error("Character is undefined");
+
+  if (character.firstName === undefined) return console.error("Character firstName is undefined");
+
+  if (character.lastName === undefined) return console.error("Character lastName is undefined");
+
+
+  document.title = (character?.firstName + " " + character?.lastName)
+
   
   // Variant B: om serien har show-objekt (vanligt i din struktur)
   // const character = series.show?.mainCharacters?.find((c) => c.id === id);
 
   if (!character) return <section>Character not found, {character}</section>;
  
-  const grouped = (character.relationships ?? []).reduce<Record<string, Relationship[]>>(
-    (acc, r) => {
-      (acc[r.type] ??= []).push(r);
-      return acc;
-    },
-    {}
-  );
-
-const sortedTypes = Object.keys(grouped).sort(); // eller din egen ordning
+  if (character.relationships === undefined) return null;
 
   return (
     <main className=" md:w-full flex flex-col justify-center items-center text-[#f2e8ff] ">
@@ -62,11 +62,11 @@ const sortedTypes = Object.keys(grouped).sort(); // eller din egen ordning
                            </section>
                            <section className="flex flex-col justify-center items-center w-full border-b border-gray-600">
                              <h2 className="text-3xl w-full border-b border-gray-600">Relationships</h2>
-                           <RelationshipsSection relationships={character.relationships!} />
+                           <RelationshipsSection relationships={character.relationships!} show={series} />
                          </section>
                         </section>
                         <section className="border md:w-[50%] lg:w-[30%]">
-                             <CharacterInfobox character={character}/>
+                             <CharacterInfobox show={series} character={character}/>
                         </section>
                            
                     </section>

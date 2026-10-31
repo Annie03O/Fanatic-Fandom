@@ -26,7 +26,13 @@ export const CharacterInfobox = ({ show, character }: Props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [chosenImage, setChosenImage] = useState<string>("");
 
-  const images = createImages(show) ?? [];
+  const images = [
+    ...(createImages(show) ?? []),
+    ...(character.relationships?.flatMap((relationship) =>
+      relationship.imgUrl ? [relationship.imgUrl] : [],
+    ) ?? []),
+  ];
+
 
   const characterWithInfobox = convertToCharacterInfobox(character);
   const box = characterWithInfobox.infobox[0];
@@ -44,6 +50,7 @@ export const CharacterInfobox = ({ show, character }: Props) => {
   }
 
   const posterUrl = characterWithInfobox.posterUrl ?? characterWithInfobox.imageUrl;
+  
   const characterImages: Image[] = images
     .map((image) => ({
       ...image,
@@ -56,12 +63,17 @@ export const CharacterInfobox = ({ show, character }: Props) => {
             : [],
     }))
     .filter((image) => image.pageId.includes(character.id));
+
   const modalImages: Image[] = characterImages.some(
     (image) => image.src === posterUrl.src,
   )
     ? characterImages
     : [
-        { src: posterUrl.src, alt: displayName, pageId: [character.id] },
+        { 
+          src: posterUrl.src, 
+          alt: displayName, 
+          pageId: [character.id] 
+        },
         ...characterImages,
       ];
 
@@ -109,14 +121,15 @@ export const CharacterInfobox = ({ show, character }: Props) => {
                             key={`${item.label}-${line.title}-${line.started}-${i}`}
                             className="leading-snug"
                           >
+                            <div className="text-sm opacity-80">
+                              {Number(line.started) === Number(line.ended) ? line.started : line.ended ?  line.started + " – " +
+                               line.ended : line.started + " - " + "TBA"} 
+                            </div>
                             <div className="font-medium">
                               {line.title}
                               {line.place ? ` — ${line.place}` : ""}
                             </div>
-                            <div className="text-sm opacity-80">
-                              {line.started} –{" "}
-                              {line.hasEnded ? line.ended ?? "" : "Present"}
-                            </div>
+                            
                           </li>
                         );
                       }

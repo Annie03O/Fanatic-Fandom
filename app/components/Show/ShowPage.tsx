@@ -44,6 +44,9 @@ const ShowPage = ({genre}: ShowPageProps) => {
     
     
     if (!series) return <section>Series not found</section>
+
+    document.title = series.title;
+    
     
     
 

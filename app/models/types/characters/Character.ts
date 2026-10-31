@@ -20,6 +20,7 @@ export type Character = {
     gender?: "M" | "F" | "Non-Binary";
     married?: boolean;
     single?: boolean;
+    residence: Pick<Occupation, "place" | "started" | "hasEnded" | "ended">[];
     occupation?: Occupation[];
     education?: Occupation[]; 
     nationality?: string;

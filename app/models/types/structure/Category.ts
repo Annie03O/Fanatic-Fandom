@@ -1,0 +1,1 @@
+export type Category = "Show" | "Season" | "Character" | "Episode" | "Movie" | "Relationship"

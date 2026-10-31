@@ -1,6 +1,7 @@
 import { Modal } from "@/app/components/Layout/Modal";
 import { ReactElement } from "react";
 import { Image } from "../types/structure/Image";
+import { Category } from "../types/structure/Category";
 
 export const ModalComponent = Modal as unknown as (props: {
   title: string;
@@ -9,5 +10,5 @@ export const ModalComponent = Modal as unknown as (props: {
   images: Image[];
   toggleImage: (imgUrl: string) => void;
   id: string;
-  type: "Show" | "Season" | "Character" | "Episode" | "Movie";
+  type: Category;
 }) => ReactElement;

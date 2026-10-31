@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Show } from "../../models/types/structure/Show";
+import { allSeries } from "@/app/models/objects/allSeries";
+import { useParams } from "next/navigation";
 
 type Props = {
     show: Show; 
@@ -9,7 +11,7 @@ type Props = {
 
 export const ShowPortal = ({show, genre, title}: Props) => {  
   const tags = show.tags?.slice(0, 3) ?? [];
- 
+  
     return (
           <Link key={genre} href={`/${genre}/${title}`} >
             <section className="flex justify-center items-center text-black">

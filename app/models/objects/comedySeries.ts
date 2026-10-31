@@ -1,11 +1,18 @@
 import { Show } from "../types/structure/Show";
+import type { Image } from "../types/characters/Image";
 import { pilotLabel } from "./dramaSeries";
+
+const toImage = (src: string, alt: string): Image => ({
+    src,
+    alt,
+    pageId: [],
+});
 
 export const comedySeries:Show[] = [
     {
         id: "the-office",
         title: "The Office",
-        posterUrl: "https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", "Poster image"),
         firstAirDate: "March 24, 2005",
         lastAirDate: "May 16, 2013",
         plot: "This U.S. adaptation -- set at a paper company in Scranton, Pa. -- has a similar documentary style to that of the Ricky Gervais-led British original. It features the Dunder-Mifflin staff, which includes characters based on roles in the British show -- and, quite possibly, people with whom you work in your offifce. There's Jim, the likable employee who's a bit of an everyman. Jim has a thing for receptionist-turned-sales-rep Pam -- because office romances are always a good idea! There's also Dwight, the co-worker who is successful but devoid of social skills and common sense.",
@@ -22,8 +29,8 @@ export const comedySeries:Show[] = [
                 id: "michael-scott",
                 firstName: "Michael",
                 lastName: "Scott",
-                imageUrl: "https://i.pinimg.com/736x/d6/3d/ee/d63dee84adc4695b6aaa46ccc4882b06.jpg",
-                posterUrl: "https://i.pinimg.com/736x/93/17/b0/9317b05b14943cba1685eb90dadccdd0.jpg",
+                imageUrl: toImage("https://i.pinimg.com/736x/d6/3d/ee/d63dee84adc4695b6aaa46ccc4882b06.jpg", "Character image"),
+                posterUrl: toImage("https://i.pinimg.com/736x/93/17/b0/9317b05b14943cba1685eb90dadccdd0.jpg", "Poster image"),
                 actor:	"Steve Carell",
                 promo: true, 
             },
@@ -31,8 +38,8 @@ export const comedySeries:Show[] = [
                 id: "dwight-schrute",
                 firstName: "Dwight",
                 lastName: "Schrute",
-                imageUrl: "https://i.pinimg.com/1200x/6b/65/23/6b6523a7976fa55ff3ca25a6b81e95d7.jpg",
-                posterUrl: "https://i.pinimg.com/1200x/d0/1f/92/d01f920e945c7359c21dd1343988042e.jpg",
+                imageUrl: toImage("https://i.pinimg.com/1200x/6b/65/23/6b6523a7976fa55ff3ca25a6b81e95d7.jpg", "Character image"),
+                posterUrl: toImage("https://i.pinimg.com/1200x/d0/1f/92/d01f920e945c7359c21dd1343988042e.jpg", "Poster image"),
                 actor:	"Rainn Wilson",	
                 promo: true,
             },
@@ -40,8 +47,8 @@ export const comedySeries:Show[] = [
                 id: "jim-halpert",
                 firstName: "Jim",
                 lastName: "Halpert",
-                imageUrl:  "https://i.pinimg.com/1200x/cc/38/4a/cc384a20b70ad981e8ccab62c72ff9f6.jpg",
-                posterUrl:"https://i.pinimg.com/474x/a6/43/af/a643affe81dae867fef6e78f9b6104c0.jpg",
+                imageUrl:  toImage("https://i.pinimg.com/1200x/cc/38/4a/cc384a20b70ad981e8ccab62c72ff9f6.jpg", "Character image"),
+                posterUrl:toImage("https://i.pinimg.com/474x/a6/43/af/a643affe81dae867fef6e78f9b6104c0.jpg", "Poster image"),
                 actor:	"John Krasinski",
                 promo: true,
             },
@@ -49,8 +56,8 @@ export const comedySeries:Show[] = [
                 id: "pam-beesly",
                 firstName: "Pam",
                 lastName: "Beesly",
-                imageUrl: "https://i.pinimg.com/1200x/be/bd/c9/bebdc95609fec9a94cd9a1477f863b17.jpg",
-                posterUrl: "https://preview.redd.it/is-pam-hate-justified-v0-4imyar44cu4h1.jpeg?width=640&crop=smart&auto=webp&s=c8c856425369f2a1006b9b6a653c9bee88b2dc21",
+                imageUrl: toImage("https://i.pinimg.com/1200x/be/bd/c9/bebdc95609fec9a94cd9a1477f863b17.jpg", "Character image"),
+                posterUrl: toImage("https://preview.redd.it/is-pam-hate-justified-v0-4imyar44cu4h1.jpeg?width=640&crop=smart&auto=webp&s=c8c856425369f2a1006b9b6a653c9bee88b2dc21", "Poster image"),
                 actor:	"Jenna Fischer",
                 promo: true,
             },
@@ -58,7 +65,7 @@ export const comedySeries:Show[] = [
                 id: "ryan-howard",
                 firstName: "Ryan",
                 lastName: "Howard",
-                imageUrl: "https://i.pinimg.com/736x/31/9b/7e/319b7e6d13fe445ef364fc61b8951ff2.jpg",
+                imageUrl: toImage("https://i.pinimg.com/736x/31/9b/7e/319b7e6d13fe445ef364fc61b8951ff2.jpg", "Character image"),
                 actor:	"B. J. Novak",
                 promo: true,
             },
@@ -66,7 +73,7 @@ export const comedySeries:Show[] = [
                 id: "andy-bernard",
                 firstName: "Andy",
                 lastName: "Bernard",
-                imageUrl: "https://i.pinimg.com/736x/70/0d/de/700dde00376439762e84564d57e3d41d.jpg",
+                imageUrl: toImage("https://i.pinimg.com/736x/70/0d/de/700dde00376439762e84564d57e3d41d.jpg", "Character image"),
                 actor:	"Ed Helms",		
                 promo: true,
             },
@@ -74,7 +81,7 @@ export const comedySeries:Show[] = [
                 id: "robert-california",
                 firstName: "Robert",
                 lastName: "California",
-                imageUrl: "https://i.pinimg.com/736x/f7/e0/29/f7e02926fd30cbb4c4b2647eb8da4527.jpg",
+                imageUrl: toImage("https://i.pinimg.com/736x/f7/e0/29/f7e02926fd30cbb4c4b2647eb8da4527.jpg", "Character image"),
                 actor:	"James Spader",
                 promo: true,
             },
@@ -118,7 +125,7 @@ export const comedySeries:Show[] = [
                 finaleDate: "April 26, 2005",
                 premiereEpisode: pilotLabel,
                 finaleEpisode: "Hot Girl",
-                posterUrl:"https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7893509_b_v12_ai.jpg",
+                posterUrl:toImage("https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7893509_b_v12_ai.jpg", "Poster image"),
                 network: "NBC",
                 nextSeason: {
                     id: "the-office-season-2",
@@ -133,7 +140,7 @@ export const comedySeries:Show[] = [
                 finaleDate: "May 11, 2006",
                 premiereEpisode: "The Dundies",
                 finaleEpisode: "Casino Night",
-                posterUrl:"https://preview.redd.it/which-season-of-the-office-was-your-favorite-v0-hfsxd0imewl91.jpg?width=1080&crop=smart&auto=webp&s=fc311e81ab8c3a02ad49953750b82636cf3e5a63",
+                posterUrl:toImage("https://preview.redd.it/which-season-of-the-office-was-your-favorite-v0-hfsxd0imewl91.jpg?width=1080&crop=smart&auto=webp&s=fc311e81ab8c3a02ad49953750b82636cf3e5a63", "Poster image"),
                 network: "NBC",
                 previousSeason: {
                     id: "the-office-season-1",
@@ -152,7 +159,7 @@ export const comedySeries:Show[] = [
                 finaleDate: "May 17, 2007",
                 premiereEpisode: "Gay Witch Hunt",
                 finaleEpisode: "The Job",
-                posterUrl:"https://media.themoviedb.org/t/p/w500/1SR5ZR0KNHTRvAzFayaKbhKAFSu.jpg",
+                posterUrl:toImage("https://media.themoviedb.org/t/p/w500/1SR5ZR0KNHTRvAzFayaKbhKAFSu.jpg", "Poster image"),
                 network: "NBC",
                 previousSeason: {
                     id: "the-office-season-2",
@@ -171,7 +178,7 @@ export const comedySeries:Show[] = [
                 finaleDate: "May 15, 2008",
                 premiereEpisode: "Fun Run",
                 finaleEpisode: "Goodbye, Toby",
-                posterUrl:"https://i.ebayimg.com/images/g/Gv8AAOSw0vdeL14V/s-l1200.jpg",
+                posterUrl:toImage("https://i.ebayimg.com/images/g/Gv8AAOSw0vdeL14V/s-l1200.jpg", "Poster image"),
                 network: "NBC",
                 previousSeason: {
                     id: "the-office-season-3",
@@ -190,7 +197,7 @@ export const comedySeries:Show[] = [
                 finaleDate: "May 14, 2009",
                 premiereEpisode: "Weight Loss",
                 finaleEpisode: "Company Picnic",
-                posterUrl:"https://media.themoviedb.org/t/p/w500/hwlQxOPGIybqBz5TYYIe6XtOfi4.jpg",
+                posterUrl:toImage("https://media.themoviedb.org/t/p/w500/hwlQxOPGIybqBz5TYYIe6XtOfi4.jpg", "Poster image"),
                 network: "NBC",
                 previousSeason: {
                     id: "the-office-season-4",
@@ -209,7 +216,7 @@ export const comedySeries:Show[] = [
                 finaleDate: "May 20, 2010",
                 premiereEpisode: "Gossip",
                 finaleEpisode: "Whistleblower",
-                posterUrl:"https://m.media-amazon.com/images/I/814qAk4r+mL._SL1500_.jpg",
+                posterUrl:toImage("https://m.media-amazon.com/images/I/814qAk4r+mL._SL1500_.jpg", "Poster image"),
                 network: "NBC",
                 previousSeason: {
                     id: "the-office-season-5",
@@ -228,7 +235,7 @@ export const comedySeries:Show[] = [
                 finaleDate: "May 9, 2011",
                 premiereEpisode: "Nepotism",
                 finaleEpisode: "Search Committee",
-                posterUrl:"https://collider.com/wp-content/uploads/the-office-season-seven-dvd-cover.jpg",
+                posterUrl:toImage("https://collider.com/wp-content/uploads/the-office-season-seven-dvd-cover.jpg", "Poster image"),
                 network: "NBC",
                 previousSeason: {
                     id: "the-office-season-6",
@@ -247,7 +254,7 @@ export const comedySeries:Show[] = [
                 finaleDate: "May 10, 2012",
                 premiereEpisode: "The List",
                 finaleEpisode: "Free Family Portrait Studio",
-                posterUrl:"https://m.media-amazon.com/images/I/91vtdGntiEL._AC_SL1500_.jpg",
+                posterUrl:toImage("https://m.media-amazon.com/images/I/91vtdGntiEL._AC_SL1500_.jpg", "Poster image"),
                 network: "NBC",
                 previousSeason: {
                     id: "the-office-season-7",
@@ -266,7 +273,7 @@ export const comedySeries:Show[] = [
                 finaleDate: "May 16, 2013",
                 premiereEpisode: "New Guys",
                 finaleEpisode: "Finale",
-                posterUrl:"https://m.media-amazon.com/images/I/91a-rumlyJL._AC_SL1500_.jpg",
+                posterUrl:toImage("https://m.media-amazon.com/images/I/91a-rumlyJL._AC_SL1500_.jpg", "Poster image"),
                 network: "NBC",
                 previousSeason: {
                     id: "the-office-season-8",
@@ -356,19 +363,19 @@ tags: [
             {
                 id: "the-office-british-tv-series",
                 title: "The Office (British TV series)",
-                posterUrl: "https://m.media-amazon.com/images/M/MV5BNTk4MjNjODctNDgyZC00NDhkLWE1OGQtMjA3M2FlMDVjMjkzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+                posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BNTk4MjNjODctNDgyZC00NDhkLWE1OGQtMjA3M2FlMDVjMjkzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", "Poster image"),
             },
             {
                 id: "the-paper",
                 title: "The Paper",
-                posterUrl: "https://m.media-amazon.com/images/M/MV5BZGFmMGIxMmItNGYyMi00MzJkLWE5NTgtM2Y3YjMyMjk3YjJjXkEyXkFqcGc@._V1_.jpg"
+                posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BZGFmMGIxMmItNGYyMi00MzJkLWE5NTgtM2Y3YjMyMjk3YjJjXkEyXkFqcGc@._V1_.jpg", "Poster image")
             },
         ],
     },
     {
         id: "seinfeld",
         title: "Seinfeld",
-        posterUrl: "https://m.media-amazon.com/images/M/MV5BMmRjNjZjN2ItN2FkYi00ZDg0LWExN2EtMTU2ODUwNWU1M2NhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BMmRjNjZjN2ItN2FkYi00ZDg0LWExN2EtMTU2ODUwNWU1M2NhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", "Poster image"),
         country: "USA",
         language: "English",
         firstAirDate: "July 5, 1989",
@@ -396,7 +403,7 @@ tags: ["Sitcom"]
     { 
       id: "parks-and-recreation",
       title: "Parks and Recreation",
-      posterUrl: "https://m.media-amazon.com/images/M/MV5BNDlhMzAwNTAtNTk2NS00MTdkLWE3ZWYtMDU0MTFiYmU2ZTc0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BNDlhMzAwNTAtNTk2NS00MTdkLWE3ZWYtMDU0MTFiYmU2ZTc0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", "Poster image"),
       firstAirDate: "2009",
       lastAirDate: "2015",          
       plot: "The absurd antics of an Indiana town's public officials as they pursue sundry projects to make their city a better place.",
@@ -427,7 +434,7 @@ tags: [
 {
     id: "community",
     title: "Community",
-    posterUrl: "https://m.media-amazon.com/images/M/MV5BOGIwYzNmYTktZWExZC00MzAyLTk4NTItODgwZmIyNWZhNDEyXkEyXkFqcGc@._V1_.jpg",
+    posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BOGIwYzNmYTktZWExZC00MzAyLTk4NTItODgwZmIyNWZhNDEyXkEyXkFqcGc@._V1_.jpg", "Poster image"),
     firstAirDate: "September 17, 2009",
     lastAirDate: "June 2, 2015",
     plot: "A suspended lawyer is forced to enroll in a community college with an eccentric staff and student body.",
@@ -451,7 +458,7 @@ tags: [
 {
     id: "fresh-prince-of-bel-air",
     title: "The Fresh Prince of Bel-Air",
-    posterUrl: "https://m.media-amazon.com/images/M/MV5BYzhlMDVmNTgtZjkwOS00NGYwLTllMWEtYjY2OWNkMDliMTAyXkEyXkFqcGc@._V1_.jpg",
+    posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BYzhlMDVmNTgtZjkwOS00NGYwLTllMWEtYjY2OWNkMDliMTAyXkEyXkFqcGc@._V1_.jpg", "Poster image"),
     firstAirDate: "1990",
     lastAirDate: "1996",
     plot: "After getting into a fight, a streetwise teenager from a poor neighborhood in West Philadelphia, Pennsylvania is sent by his mother to live with his wealthy aunt, uncle, and cousins at their mansion in Bel-Air, Los Angeles in California.",
@@ -477,7 +484,7 @@ tags: [
 {
   id: "the-good-place",
   title: "The Good Place",
-  posterUrl: "https://m.media-amazon.com/images/M/MV5BNjI3ZGRhNDYtNDFjOS00OGFlLTg4NTEtYjZjYTViY2ZiMzBkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BNjI3ZGRhNDYtNDFjOS00OGFlLTg4NTEtYjZjYTViY2ZiMzBkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", "Poster image"),
   firstAirDate: "2016",
   lastAirDate: "2020",
   plot: "Eleanor Shellstrop, a deceased saleswoman who lived a morally corrupt life, finds herself in a heaven-like afterlife in a case of mistaken identity and tries to hide her past in order to stay there.",
@@ -522,7 +529,7 @@ tags: [
 {
     id: "new-girl",
     title: "New Girl",
-    posterUrl: "https://m.media-amazon.com/images/M/MV5BMTQ5MzM1NzMwMl5BMl5BanBnXkFtZTgwNjQ2MzI2NzE@._V1_.jpg",
+    posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BMTQ5MzM1NzMwMl5BMl5BanBnXkFtZTgwNjQ2MzI2NzE@._V1_.jpg", "Poster image"),
     firstAirDate: "September 20, 2011",
     lastAirDate: "May 15, 2018",
     plot: "After a bad break-up, Jess, an offbeat young woman, moves into an apartment loft with three single men. Although they find her behavior very unusual, the men support her - most of the time.",
@@ -566,7 +573,7 @@ tags: [
 {
     id: "saved-by-the-bell",
     title: "Saved By The Bell",
-    posterUrl: "https://www.moviezine.se/wp-content/uploads/2025/02/large_f4237d6d2e0546dbcf6e8481d3d2ed69-savedbythebellposter01o27.jpg",
+    posterUrl: toImage("https://www.moviezine.se/wp-content/uploads/2025/02/large_f4237d6d2e0546dbcf6e8481d3d2ed69-savedbythebellposter01o27.jpg", "Poster image"),
     firstAirDate: "August 20, 1989",
     lastAirDate: "May 20, 1993",
     plot: "A close-knit group of six friends get through their teens together while attending Bayside High School in Palisades, California.",
@@ -606,7 +613,7 @@ tags: ["Teen Sitcom"]
 {
     id: "the-big-bang-theory",
     title: "The Big Bang Theory",
-    posterUrl: "https://m.media-amazon.com/images/M/MV5BZjgzY2QyNzItNDhhYi00ZWIwLWFjN2UtZDJkN2MxYWNjMmJjXkEyXkFqcGc@._V1_.jpg",
+    posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BZjgzY2QyNzItNDhhYi00ZWIwLWFjN2UtZDJkN2MxYWNjMmJjXkEyXkFqcGc@._V1_.jpg", "Poster image"),
     firstAirDate: "September 24, 2007",
     lastAirDate: "May 16, 2019",
     plot: "The lives of four socially awkward scientists take a wild turn when a beautiful and free-spirited girl moves in next door.",
@@ -643,7 +650,7 @@ tags: ["Sitcom"]
 {
     id: "scrubs",
     title: "Scrubs",
-    posterUrl: "https://m.media-amazon.com/images/M/MV5BZDUwODJiYjktZjE0Yy00ZjViLWJiZWEtNThlNjI5MDg5MWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BZDUwODJiYjktZjE0Yy00ZjViLWJiZWEtNThlNjI5MDg5MWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", "Poster image"),
     firstAirDate: "October 2, 2001",
     lastAirDate: "May 8, 2010",
     plot: "In the unreal world of Sacred Heart Hospital, intern John 'J.D.' Dorian learns the ways of medicine, friendship and life.",
@@ -677,7 +684,7 @@ tags: ["Sitcom"]
 {
     id: "friends",
     title: "Friends",
-    posterUrl: "https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", "Poster image"),
     firstAirDate: "2016",
     lastAirDate: "2022",
     plot: "Earn and his cousin Alfred try to make their way in the world through Atlanta's rap scene. Along the way they come face-to-face with social and economic issues touching on race, relationships, poverty, status, and parenthood.",
@@ -716,7 +723,7 @@ tags: ["Sitcom"]
 { 
     id: "brooklyn-nine-nine",
     title: "Brooklyn Nine-Nine",
-    posterUrl: "https://m.media-amazon.com/images/M/MV5BNzBiODQxZTUtNjc0MC00Yzc1LThmYTMtN2YwYTU3NjgxMmI4XkEyXkFqcGc@._V1_.jpg",
+    posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BNzBiODQxZTUtNjc0MC00Yzc1LThmYTMtN2YwYTU3NjgxMmI4XkEyXkFqcGc@._V1_.jpg", "Poster image"),
     firstAirDate: "2013",
     lastAirDate: "2021",
     plot: "Comedy series following the exploits of Det. Jake Peralta and his diverse, lovable colleagues as they police the NYPD's 99th Precinct.",
@@ -745,7 +752,7 @@ tags: [
 {
     id: "family-ties",
     title: "Family Ties",
-    posterUrl: "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/image_1000x1500_7.png",
+    posterUrl: toImage("https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/image_1000x1500_7.png", "Poster image"),
     firstAirDate: "May 14, 1982",
     lastAirDate: "September 22, 1989",
     plot: "Chronicles liberal ex-hippies Steven and Elyse Keaton, their conservative son Alex, daughters Mallory and Jennifer, and later, youngest child Andrew.",
@@ -773,7 +780,7 @@ tags: ["Sitcom"]
 {
    id: "family-matters",
    title: "Family Matters",
-   posterUrl: "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/r_2024_04_06t155745415.jpg",
+   posterUrl: toImage("https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/r_2024_04_06t155745415.jpg", "Poster image"),
    firstAirDate: "September 22, 1989",
    lastAirDate: "July 17, 1998",
    plot: "The Winslow family deals with various misadventures, many of them caused by their pesky next-door neighbor, ultra-nerd Steve Urkel.",
@@ -817,7 +824,7 @@ tags: ["Sitcom"]
 {
     id: "cheers",
     title: "Cheers",
-    posterUrl: "https://media.the'movie'db.org/t/p/w500/nD1ZQBKbgKSmKcrAkWTofohsScj.jpg",
+    posterUrl: toImage("https://media.the'movie'db.org/t/p/w500/nD1ZQBKbgKSmKcrAkWTofohsScj.jpg", "Poster image"),
     firstAirDate: "September 30, 1982",
     lastAirDate: "May 20, 1993",
     plot: "The regulars of the Boston bar 'Cheers' share their experiences and lives with each other while drinking or working at the bar where everybody knows your name.",
@@ -852,7 +859,7 @@ tags: ["Comedy"]
 {
     id:"that-70s-show",
     title: "That '70s Show",
-    posterUrl: "https://m.media-amazon.com/images/M/MV5BMTdhMTNmNjEtOTI5Yi00N2MyLTlmOGMtOWMyYzFhZjhmZTU4XkEyXkFqcGc@._V1_.jpg",
+    posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BMTdhMTNmNjEtOTI5Yi00N2MyLTlmOGMtOWMyYzFhZjhmZTU4XkEyXkFqcGc@._V1_.jpg", "Poster image"),
     firstAirDate: "August 23, 1998",
     lastAirDate: "May 18, 2006",
     plot: "A comedy revolving around a group of teenage friends, their mishaps, and their coming of age, set in 1970s Wisconsin.",
@@ -878,7 +885,7 @@ tags: ["Teen Sitcom"]
 {
     id: "how-i-met-your-mother",
     title: "How I Met Your Mother",
-    posterUrl: "https://m.media-amazon.com/images/M/MV5BNjg1MDQ5MjQ2N15BMl5BanBnXkFtZTYwNjI5NjA3._V1_.jpg",
+    posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BNjg1MDQ5MjQ2N15BMl5BanBnXkFtZTYwNjI5NjA3._V1_.jpg", "Poster image"),
     firstAirDate: "September 19, 2005",
     lastAirDate: "March 31, 2014",
     plot: "A father recounts to his children the journey he and his four best friends took leading up to him meeting their mother.",
@@ -952,7 +959,7 @@ tags: ["Sitcom"]
     id: "full-house",
     title: "Full House",
     creator: ["Jeff Franklin"],
-    posterUrl: "https://m.media-amazon.com/images/M/MV5BZGQ3OTY3OGQtYzZlZS00YWZjLTgwYzMtZjg4YmY0Y2U1ZDg4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    posterUrl: toImage("https://m.media-amazon.com/images/M/MV5BZGQ3OTY3OGQtYzZlZS00YWZjLTgwYzMtZjg4YmY0Y2U1ZDg4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", "Poster image"),
     firstAirDate: "September 22, 1987",
     lastAirDate: "May 23, 1995",
     plot: "Danny, a widower talk-show host, has three daughters (D.J., Stephanie, and Michelle). Lucky for him, his brother-in-law Jesse, a true Elvis super-freak, and best friend Joey, a struggling comic, help him raise the girls. A sitcom about a really full house: by the last season, nine people and a dog live under the same roof.",

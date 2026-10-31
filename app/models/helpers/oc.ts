@@ -1,3 +1,4 @@
+import { generateLabel } from "@/app/functions/generateLabel";
 import { pilotLabel } from "../objects/dramaSeries";
 
 export var OC_ID = "the-o.c";
@@ -14,7 +15,7 @@ export var Cooper_Name = "Cooper;"
                 export var RyanAtwood_firstName = "Ryan";
                 export var RyanAtwood_lastName = `${Atwood_Name}-Cohen`;
                 export var RyanAtwood_fullName = RyanAtwood_firstName + " " + RyanAtwood_lastName
-                export var RyanAtwood_ID = (RyanAtwood_firstName + "-" + RyanAtwood_lastName).toLowerCase()
+                
 
             // Seth
                 export var SethCohen_firstName = "Seth";
@@ -52,30 +53,29 @@ export var Cooper_Name = "Cooper;"
               export var SummerRoberts_firstName = "Summer";
               export var SummerRoberts_lastName = "Roberts";
               export var SummerRoberts_fullName = SummerRoberts_firstName + " " + SummerRoberts_lastName;
-              export var SummerRoberts_ID = (SummerRoberts_firstName + "-" + SummerRoberts_lastName).toLowerCase();
-
+    
             // Caleb
+            export var CalebNichols_firstName = "Caleb";
+            export var CalebNichols_lastName = "Nichols";
+            export var CalebNichols_fullName = generateLabel(CalebNichols_firstName, CalebNichols_lastName);
 
             // Luke
                 export var LukeWard_firstName = "Luke";
                 export var LukeWard_lastName = "Ward";
                 export var LukeWard_fullName = LukeWard_firstName + " " + LukeWard_lastName
-                export var LukeWard_ID = (LukeWard_firstName + "-" + LukeWard_lastName).toLowerCase()
-
+    
             // Taylor 
                 export var TaylorTownsend_firstName = "Taylor";
                 export var TaylorTownsend_lastName = "Townsend";
                 export var TaylorTownsend_fullName = TaylorTownsend_firstName + " " + TaylorTownsend_lastName;
-                export var TaylorTownsend_ID = (TaylorTownsend_firstName + "-" + TaylorTownsend_lastName).toLowerCase();
-
+    
     //  Reacurring
         // Trey
            export var TreyAtwood_firstName = "Trey" 
            export var TreyAtwood_fullName = TreyAtwood_firstName + " " + Atwood_Name;
-           export var TreyAtwood_ID = (TreyAtwood_firstName + "-" + Atwood_Name).toLowerCase();
-
-// "season"s
-   // "season" 1
+    
+// Seasons
+   // Season 1
    export var ocS1_ID = (OC_ID + "-" + "season" + "-1");
 
    // Episode
