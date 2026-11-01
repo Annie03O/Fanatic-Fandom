@@ -30,6 +30,7 @@ function Season({ season, genre, slug }: Props) {
                                   <EpisodeBreakdown
                                     key={`${season.id}-${episode.id || "episode"}-${index}`}
                                     episode={episode}
+                                    slug={slug}
                                   />
                                 )
                                 )}
