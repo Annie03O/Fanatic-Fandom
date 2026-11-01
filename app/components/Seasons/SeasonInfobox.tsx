@@ -52,16 +52,14 @@ export const SeasonInfobox = ({ season, genre, slug }: Props) => {
           </section> 
           
           
-          <section className={
-            `
-              ${
-                season.nextSeason ? 
-                "w-full" 
-                : "w-1/2"
-                } 
-                flex justify-end`}> 
-                Next
-            </section>
+          <section className="w-1/2">
+           {
+             season.nextSeason 
+             ? `Season ${season.nextSeason.seasonNumber}` 
+             : ""
+            }
+          </section> 
+          
         </section>
         <section className="flex  pl-2 pr-2">
           {season.previousSeason ?
