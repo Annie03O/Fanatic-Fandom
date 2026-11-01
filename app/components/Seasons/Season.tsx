@@ -9,6 +9,7 @@ type Props = {
   genre: Genre;
   slug: string;
 };
+
 function Season({ season, genre, slug }: Props) {
   return (
     <main className="flex flex-col justify-center items-center text-[#d1c3e3] w-full">
@@ -25,8 +26,11 @@ function Season({ season, genre, slug }: Props) {
                               <h2 className="text-3xl left-2">Episodes</h2>
                             </section>
                               <section  className="h-1/10 overflow-y-scroll mr-2">
-                                {season.episodeBreakdown.map((episode) => (
-                                  <EpisodeBreakdown key={episode.id} episode={episode}/>
+                                {season.episodeBreakdown.map((episode, index) => (
+                                  <EpisodeBreakdown
+                                    key={`${season.id}-${episode.id || "episode"}-${index}`}
+                                    episode={episode}
+                                  />
                                 )
                                 )}
                               </section>

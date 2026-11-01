@@ -2,6 +2,11 @@
 import { Season } from "@/app/models/types/seasons/Season";
 import { convertToSeasonInfobox } from "@/app/functions/Convert/convertToSeasonInfobox";
 import Link from "next/link";
+import { ModalComponent } from "@/app/models/objects/ModalComponent";
+import { createImages } from "@/app/models/objects/images";
+import { seriesBetaWithSlug } from "@/app/functions/dramaSeriesTop50WithSlug";
+import { useState } from "react";
+import { toggleImage } from "@/app/functions/toggleImage";
 
 type Props = { 
   season: Season 
@@ -11,19 +16,47 @@ type Props = {
 
 
 export const SeasonInfobox = ({ season, genre, slug }: Props) => {
-  
+  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [chosenImage, setChosenImage] = useState<string>("");
+
   const seasonWithInfobox = convertToSeasonInfobox(season);
   const box = seasonWithInfobox?.infobox;
 
   if (!box) return null;
 
+  const show = seriesBetaWithSlug.items.find((i) => i.slug === slug)
+
+  if (!show) {
+    console.error(`Show not found for slug "${slug}"`);
+    return null;
+  }
+
+  const images = createImages(show) ?? [];
+
+  const seasonImages = images.filter((img) => img.pageId.includes(season.id));
+  const modalImages = seasonImages.some((image) => image.src === box.posterSrc.src)
+    ? seasonImages
+    : [box.posterSrc, ...seasonImages];
+
+  const openModal = () => {
+    toggleImage(box.posterSrc.src, setChosenImage)
+    setIsModalOpen(true);
+  }
+
 
   return (
     <section className="flex flex-col justify-content items-center gap-3 bg-[#d1c3e3] text-black shadow-2xl  shadow-gray-600 ring-2 ring-[#d1c3e3]">
-      <h2 className="text-2xl text-center">Season {season.seasonNumber}</h2>
+      <h2 className="text-2xl text-centerg">Season {season.seasonNumber}</h2>
 
       {box.posterSrc.src ? (
-        <img className="w-full h-auto" src={box.posterSrc.src} alt={box.posterSrc.alt} />
+        <button
+          type="button"
+          className="cursor-pointer"
+          onClick={openModal}
+          aria-label={`View ${show.title}, ${season.title} Poster`}
+        >
+          <img className="w-full h-auto" src={box.posterSrc.src} alt={box.posterSrc.alt} />
+        </button>
       ) : null}
 
       <section className="border-t border-gray-400 text-lg">
@@ -67,6 +100,17 @@ export const SeasonInfobox = ({ season, genre, slug }: Props) => {
               ) : ""}
   
           </section>
+          { isModalOpen === true ? (
+            <ModalComponent
+             title={season.title ? season.title : `Season ${season.seasonNumber}`}
+             images={modalImages}
+             imgUrl={chosenImage}
+             toggleImage={setChosenImage}
+             onClose={() => setIsModalOpen(false)}
+             id={season.id}
+             type="Season"
+          />
+        ) : null}
        </section>
       </section>
     </section>

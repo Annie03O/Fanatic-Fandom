@@ -27,10 +27,7 @@ export const Modal = ({ title, imgUrl, onClose, images, type, toggleImage }: Pro
   const stripRef = useRef<HTMLDivElement>(null);
   const thumbRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
-  if (images === undefined) return console.error("Images not found");
-  
   const activeIndex = images.findIndex((i) => i.src === imgUrl);
-  
 
   useEffect(() => {
     const strip = stripRef.current;
@@ -59,9 +56,8 @@ export const Modal = ({ title, imgUrl, onClose, images, type, toggleImage }: Pro
     return () => document.body.removeEventListener("keydown", handleKeyDown);
   }, [activeIndex, images, onClose, toggleImage]);
 
-  
   const image = images[activeIndex];
-  
+
   if (!image) {
     console.error("Couldn't find image src");
     return null;
@@ -84,9 +80,6 @@ export const Modal = ({ title, imgUrl, onClose, images, type, toggleImage }: Pro
   const episodeNumber = Array.isArray(episode?.episodeNumber)
     ? episode.episodeNumber.join(", ")
     : episode?.episodeNumber;
-
-    
-  console.log("Images", images);
 
   return (
     <section className="fixed inset-0 z-50 flex items-center justify-center">
@@ -136,10 +129,11 @@ export const Modal = ({ title, imgUrl, onClose, images, type, toggleImage }: Pro
             <div ref={stripRef} className="relative flex h-[75px] overflow-hidden">
               {images.map((i, idx) => (
                 <button
-                  key={i.src}
+                  key={`${i.src}-${idx}`}
                   ref={(el) => {
                     thumbRefs.current[idx] = el;
                   }}
+                  type="button"
                   className={`shrink-0 h-full w-[100px] ${idx === activeIndex ? "border-4 border-blue-400" : ""}`}
                   onClick={() => toggleImage(i.src)}
                 >

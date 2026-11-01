@@ -85,9 +85,9 @@ const ShowPage = ({genre}: ShowPageProps) => {
                             {showEpisodes === true ? <button className="text-blue-300 underline" onClick={() =>setShowEpisodes(false)}>Collapse</button> : <button className="tex<t-blue-300 underline" onClick={() =>setShowEpisodes(true)}>Expand</button> }
                         </span>
                         <section className={`${showEpisodes === false ? " h-1/3 overflow-y-scroll" : "block"} border-b`}>
-                            {season?.episodeBreakdown.map((episode) => (
+                            {season?.episodeBreakdown.map((episode, index) => (
                                 <EpisodeBreakdownComponent
-                                  key={episode.id}
+                                  key={`${season.id}-${episode.id || "episode"}-${index}`}
                                   episode={episode}
                                 />
                             ))}
