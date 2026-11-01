@@ -73,7 +73,7 @@ const ShowPage = ({genre}: ShowPageProps) => {
                                   ) : (
                                     <section className="flex flex-col">
                                       {seasons.length > 0 ?  <SeasonsPortals show={series} page={false} genre={genre}/> : movies.length > 0 ? <MoviePortal show={series} page={false} genre={genre}/> : ""}
-                                      <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true} />
+                                      {series.related ? <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true} /> : null}
                                     </section>
                                   )}
                               </section>
