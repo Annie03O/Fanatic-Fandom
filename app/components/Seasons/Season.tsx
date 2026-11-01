@@ -3,6 +3,13 @@
 import { SeasonInfobox } from "./SeasonInfobox";
 import { EpisodeBreakdown } from "./Episodes/EpisodeBreakdown";
 import type { Season as SeasonData } from "@/app/models/types/seasons/Season";
+import { JSX } from "react/jsx-runtime";
+
+type EpisodeBreakdownProps = Parameters<typeof EpisodeBreakdown>[0];
+
+function RenderEpisodeBreakdown(props: EpisodeBreakdownProps): JSX.Element | null {
+  return EpisodeBreakdown(props) as JSX.Element | null;
+}
 
 type Props = {
   season: SeasonData;
@@ -27,7 +34,7 @@ function Season({ season, genre, slug }: Props) {
                             </section>
                               <section  className="h-1/10 overflow-y-scroll mr-2">
                                 {season.episodeBreakdown.map((episode, index) => (
-                                  <EpisodeBreakdown
+                                  <RenderEpisodeBreakdown
                                     key={`${season.id}-${episode.id || "episode"}-${index}`}
                                     episode={episode}
                                     slug={slug}
