@@ -17,11 +17,15 @@ import {
   ocS1Ep17_ID, 
   ocS1Ep17_Title, 
   ocS1Ep20_ID, 
+  ocS1Ep20_Title, 
   ocS1Ep24_ID, 
   ocS1Ep24_Title, 
   ocS1Ep27_ID, 
   ocS1Ep27_Title, 
+  ocS1Ep2_ID, 
+  ocS1Ep2_Title, 
   ocS1Ep3_ID, 
+  ocS1Ep3_Title, 
   ocS1Ep9_ID, 
   ocS1Ep9_Title, 
   ocS2_ID, ocS2Ep14_ID, ocS2Ep18_ID, ocS2Ep1_ID, 
@@ -8691,7 +8695,7 @@ tags: [
     ],
     seasons: [
       {
-        id: generateId(OC_Title + "Season 1"),
+        id: generateId(OC_Title + "-Season 1"),
         seasonNumber: 1,
         premiereDate:  "August 05, 2003" ,
         finaleDate:  "May 5, 2004" ,
@@ -8706,6 +8710,398 @@ tags: [
            ]
           },
         episodeCount: 27,
+        episodeBreakdown: [
+          {
+            id: ocPilot_ID,
+            seasonNumber: 1,
+            episodeNumber: 1,
+            episodeTitle: ocPilot_Title,
+            imageUrl: {
+              src: "https://static.wikia.nocookie.net/ocwikia/images/0/09/OC-S1E01.jpg/revision/latest?cb=20220721162117",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: ocS1Ep2_ID,
+            seasonNumber: 1,
+            episodeNumber: 2,
+            episodeTitle: ocS1Ep2_Title,
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: ocS1Ep3_ID,
+            seasonNumber: 1,
+            episodeNumber: 3,
+            episodeTitle: ocS1Ep3_Title,
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 4,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 5,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 6,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 7,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 8,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: ocS1Ep9_ID,
+            seasonNumber: 1,
+            episodeNumber: 9,
+            episodeTitle: ocS1Ep9_Title,
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 10,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 11,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 12,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 13,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 14,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 15,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: ocS1Ep17_ID,
+            seasonNumber: 1,
+            episodeNumber: 17,
+            episodeTitle: ocS1Ep17_Title,
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 18,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 19,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: ocS1Ep20_ID,
+            seasonNumber: 1,
+            episodeNumber: 20,
+            episodeTitle: ocS1Ep20_Title,
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 21,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 22,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 23,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: ocS1Ep24_ID,
+            seasonNumber: 1,
+            episodeNumber: 24,
+            episodeTitle: ocS1Ep24_Title,
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 25,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: "",
+            seasonNumber: 1,
+            episodeNumber: 26,
+            episodeTitle: "",
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+          {
+            id: ocS1Ep27_ID,
+            seasonNumber: 1,
+            episodeNumber: 27,
+            episodeTitle: ocS1Ep27_Title,
+            imageUrl: {
+              src: "",
+              alt: "",
+              pageId: []
+            },
+            plot: "",
+            director: "",
+            writtenBy: "",
+            releaseDate: "",
+          },
+        ],
       },
       {
         id: ocS2_ID,

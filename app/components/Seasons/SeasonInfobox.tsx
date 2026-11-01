@@ -22,7 +22,7 @@ export const SeasonInfobox = ({ season, genre, slug }: Props) => {
     <section className="flex flex-col justify-content items-center gap-3 bg-[#d1c3e3] text-black shadow-2xl  shadow-gray-600 ring-2 ring-[#d1c3e3]">
       <h2 className="text-2xl text-center">Season {season.seasonNumber}</h2>
 
-      <img className="w-full h-auto" src={box.posterSrc} alt={box.name} />
+      <img className="w-full h-auto" src={box.posterSrc.src} alt={box.posterSrc.alt} />
 
       <section className="border-t border-gray-400 text-lg">
         {box.fields.map((f) => (
@@ -43,10 +43,15 @@ export const SeasonInfobox = ({ season, genre, slug }: Props) => {
           </section>
         ))}
         <section className="flex pl-2 pr-2">
-          {season.previousSeason ? 
-          <section className="w-1/2">Previous</section> 
-          : ""
-          }
+          <section className="w-1/2">
+           {
+             season.previousSeason 
+             ? `Season ${season.previousSeason.seasonNumber}` 
+             : "Previous"
+            }
+          </section> 
+          
+          
           <section className={
             `
               ${
