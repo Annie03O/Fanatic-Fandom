@@ -2,11 +2,12 @@ import { write } from "fs";
 import { Show } from "../types/structure/Show";
 import type { Image } from "../types/characters/Image";
 import { 
+  AllanHeinberg_Name,
   Atwood_Name, 
   CalebNichols_firstName,  CalebNichols_fullName, 
   CalebNichols_ID, 
   Cohen_Name, 
-  Cooper_Name, DawnAtwood_ID, JulieCooper_firstName, JulieCooper_ID, 
+  Cooper_Name, DawnAtwood_ID, DougLiman_Name, JulieCooper_firstName, JulieCooper_ID, 
   KirstenCohen_firstName, KirstenCohen_fullName, KirstenCohen_ID, 
   LindseyGardner_ID, 
   LukeWard_fullName, 
@@ -38,6 +39,13 @@ import {
   ocS4_ID, ocS4Ep15_ID, ocS4Ep15_Title, ocS4Ep5_ID, ocS4Ep6_Title, ocSeriesFinale_ID, 
   RyanAtwood_firstName, RyanAtwood_fullName, RyanAtwood_ID, 
   RyanAtwood_lastName,  
+  RyanDawn_ID,  
+  RyanMarissa_ID,  
+  RyanSandy_ID,  
+  RyanSeth_ID,  
+  RyanSummer_ID,  
+  RyanTaylor_ID,  
+  RyanTrey_ID,  
   SandyCohen_firstName, SandyCohen_fullName, SandyCohen_ID, 
   SethCohen_firstName, SethCohen_fullName, SethCohen_ID, 
   SummerRoberts_firstName, SummerRoberts_fullName, 
@@ -48,6 +56,7 @@ import {
   TreyAtwood_ID
 } from "../helpers/oc";
 import { generateId } from "@/app/functions/generateID";
+import { JoshSchwartz_Name } from "../helpers/commonPeople";
 
 const toImage = (src: string, alt: string): Image => ({
   src,
@@ -8151,7 +8160,7 @@ tags: [
             // Family
               // The Cohen's
                 {
-                  id: generateId("Ryan and Sandy"), 
+                  id: RyanSandy_ID, 
                   name: SandyCohen_fullName,
                   type: "Family",
                   family: "Parent",
@@ -8193,7 +8202,7 @@ tags: [
                   shortDesc: "When Sandy first brings Ryan home, Kirsten is not happy, since Ryan was just realeased from juvie. However, when Kirsten learns that Ryan's mom abandoned him, she starts to be more empathetic towards him. They eventually develop a close mother-son bond.",
                 },
                 {
-                  id: generateId("Ryan and Seth"),
+                  id: RyanSeth_ID,
                   name: SethCohen_fullName,
                   imgUrl: {
                     src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwpHMk6sFdAFVr3AHePZKzDas8kXOEx8nTKm58r5HEumIuwUh9nARqAcU&s=10",
@@ -8216,7 +8225,7 @@ tags: [
 
             // Atwoods
               {
-                id: generateId("Ryan and Dawn"),
+                id: RyanDawn_ID,
                 name: "Dawn " + Atwood_Name,
                 type: "Family",
                 family: "Parent",
@@ -8243,9 +8252,9 @@ tags: [
                 family: "Parent",
                 adopted: true,
                 gender: "M",
-              },
-              {
-              id: generateId("Ryan and Trey"),
+            },
+            {
+              id: RyanTrey_ID,
               name: TreyAtwood_fullName,
               type: "Family",
               typeOfFamily: "Biological",
@@ -8275,7 +8284,7 @@ tags: [
 
           // In Law
             {
-             id: generateId("Ryan and Summer"),
+             id: RyanSummer_ID,
              name: SummerRoberts_fullName,
              imgUrl: {
               src: "https://i.redd.it/pcuc4f74ttyg1.jpeg",
@@ -8360,7 +8369,7 @@ tags: [
         // Romances
           //  Girlfriends
             { 
-              id: generateId("Ryan and Taylor"),
+              id: RyanTaylor_ID,
               name: TaylorTownsend_fullName,
               type: "Romantic",
               romantic: "Girlfriend/Boyfriend",
@@ -8382,7 +8391,7 @@ tags: [
               shortDesc: "Ryan and Taylor Townsend's relationship begins in Season 4 when Taylor helps Ryan with his sleep issues. As they spend more time together, they develop feelings for each other. Despite Ryan's skepticism, largely due to his unresolved grief over the loss of his first love, Marissa Cooper, he decides to pursue a relationship with Taylor. Taylor's vibrant personality helps Ryan begin to heal and enjoy life again. By the end of the series, the nature of their romantic relationship remains ambiguous, although they share smiles at Seth and Summer's wedding, suggesting a potential continuation of their bond."
             }, 
             {
-              id: generateId("Ryan and Marissa"),
+              id: RyanMarissa_ID,
               name: MarissaCooper_fullName,
               type: "Romantic",
               romantic: "Ex-Boyfriend/Ex-Girlfriend",
@@ -8718,13 +8727,17 @@ tags: [
             episodeTitle: ocPilot_Title,
             imageUrl: {
               src: "https://static.wikia.nocookie.net/ocwikia/images/0/09/OC-S1E01.jpg/revision/latest?cb=20220721162117",
-              alt: "",
-              pageId: []
+              alt: "Ryan arrives at a party.",
+              pageId: [
+                ocS1_ID,
+                RyanAtwood_ID,
+                ocPilot_ID
+              ],
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Just after Ryan escapes jail time and is kicked out by his mother, his attorney, Sandy Cohen, brings him home, to the dismay of his wife, Kirsten. Ryan meets their son, Seth, and other Newport teenagers who lead him to trouble, making Kirsten think again about letting Ryan stay in their home.",
+            director: DougLiman_Name,
+            writtenBy: JoshSchwartz_Name,
+            releaseDate: "August 5, 2003",
           },
           {
             id: ocS1Ep2_ID,
@@ -8732,13 +8745,21 @@ tags: [
             episodeNumber: 2,
             episodeTitle: ocS1Ep2_Title,
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://preview.redd.it/welcome-back-to-the-oc-bitches-s1e02-the-model-home-v0-3ls3j06cw30e1.jpg?width=1912&format=pjpg&auto=webp&s=84de78117768ff18e74d6f8c7025a576fc425c3b",
+              alt: "Seth, Ryan and Marissa arrive at the model home.",
+              pageId: [
+                ocS1_ID,
+                RyanAtwood_ID,
+                MarissaCooper_ID,
+                SethCohen_ID,
+              ]
             },
             plot: "",
-            director: "",
-            writtenBy: "",
+            director: DougLiman_Name,
+            writtenBy: `
+              ${AllanHeinberg_Name} &
+              ${JoshSchwartz_Name}
+            `,
             releaseDate: "",
           },
           {
@@ -9190,7 +9211,7 @@ tags: [
         noImage: false,
       },
     ],  
-    creator: ["Josh Schwartz"],
+    creator: [JoshSchwartz_Name],
     themeSong: ["'California' by Phantom Planet"],
     composer: ["Christopher Tyng", "Richard Marvin"],
     executive: [
@@ -9199,7 +9220,7 @@ tags: [
       "Doug Liman (season 1)",
       "McG",
       "Stephanie Savage (season 4)",
-      "Josh Schwartz",
+      JoshSchwartz_Name,
     ],
     prodLocation: ["California"],
     producer: [
@@ -9715,11 +9736,11 @@ tags: ["Teen drama", "Drama"],
       },
     ],
     basedOn: true,
-    creator: ["Josh Schwartz", "Stephanie Savage"],
+    creator: [JoshSchwartz_Name, "Stephanie Savage"],
     themeSong: ["'Steps of the Met' by Transcenders"],
     composer: ["Christopher Tyng", "Richard Marvin"],
     executive: [
-      "Josh Schwartz",
+      JoshSchwartz_Name,
       "Stephanie Savage",
       "Donovan Shavis",
       "Bob Levy",
@@ -10027,7 +10048,7 @@ tags: ["Teen drama", "Drama"],
       "Doug Liman (season 1)",
       "McG",
       "Stephanie Savage (season 4)",
-      "Josh Schwartz",
+      JoshSchwartz_Name,
     ],
     prodLocation: ["Wilmington, North Carolina", "Cape Cod, Massachusetts"],
     producer: [

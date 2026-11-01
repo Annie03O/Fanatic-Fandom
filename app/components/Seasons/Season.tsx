@@ -32,7 +32,7 @@ function Season({ season, genre, slug }: Props) {
                               </section>
                            </section>
                         </section>
-                        <section className="border md:w-[50%] lg:w-[30%]">
+                        <section className="border md:w-[50%] lg:w-[25%]">
                              <SeasonInfobox season={season} genre={genre} slug={slug} />
                         </section>
                            

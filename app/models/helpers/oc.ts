@@ -91,7 +91,49 @@ export var OC_ID = generateId(OC_Title);
            export var LindseyGardner_lastName = "Gardner"
            export var LindseyGardner_fullName = generateLabel(LindseyGardner_firstName, LindseyGardner_lastName);
            export var LindseyGardner_ID = generateId(LindseyGardner_fullName!);
-    
+// Relationships
+   // Family
+         // The Cohens
+            export var RyanSandy_Label = generateLabel(RyanAtwood_firstName, SandyCohen_firstName)
+            export var RyanSandy_ID = generateId(RyanSandy_Label!);   
+
+            export var RyanKirsten_Label = generateLabel(RyanAtwood_firstName, KirstenCohen_firstName);
+            export var RyanKirsten_ID = generateId(RyanKirsten_Label!)
+
+            export var RyanSeth_Label = generateLabel(RyanAtwood_firstName, SethCohen_firstName);
+            export var RyanSeth_ID = generateId(RyanSeth_Label!);
+
+            export var RyanSummer_Label = generateLabel(RyanAtwood_firstName, SummerRoberts_firstName);
+            export var RyanSummer_ID = generateId(RyanSummer_Label!)
+
+         // The Atwoods
+            export var RyanDawn_Label = generateLabel(RyanAtwood_firstName, DawnAtwood_firstName);
+            export var RyanDawn_ID = generateId(RyanDawn_Label!)
+
+            export var RyanTrey_Label = generateLabel(RyanAtwood_firstName, TreyAtwood_firstName);
+            export var RyanTrey_ID = generateId(RyanTrey_Label!)
+            
+
+   // Romances
+      export var RyanMarissa_Label = generateLabel(RyanAtwood_firstName, MarissaCooper_firstName);
+      export var RyanMarissa_ID = generateId(RyanMarissa_Label!)
+
+      export var RyanTaylor_Label = generateLabel(RyanAtwood_firstName, TaylorTownsend_firstName);
+      export var RyanTaylor_ID = generateId(RyanTaylor_Label!)
+
+      export var RyanTheresa_Label = generateLabel(RyanAtwood_firstName, "Theresa");
+      export var RyanTheresa_ID = generateId(RyanTheresa_Label!)
+
+      export var RyanSadie_Label = generateLabel(RyanAtwood_firstName, "Sadie");
+      export var RyanSadie_ID = generateId(RyanSadie_Label!)
+// Crew 
+
+   // Directors
+      export var DougLiman_Name = "Doug Liman";
+
+   // Writers 
+      export var AllanHeinberg_Name = "Allan Heinberg"
+      
 // Seasons
    // Season 1
       export var ocS1_ID = generateId(OC_Title + " Season 1");
