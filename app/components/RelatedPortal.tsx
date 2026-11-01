@@ -64,7 +64,7 @@ export const RelatedPortal = ({show, page, title}: Props) => {
             
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={r.posterUrl}
+              src={r.posterUrl.src}
               alt={`${r.id} `}
               className="w-[250px] md:h-[145px] md:w-[100px]  object-center object-fit"
             />
