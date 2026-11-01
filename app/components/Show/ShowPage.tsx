@@ -65,7 +65,7 @@ const ShowPage = ({genre}: ShowPageProps) => {
                           <CharacterPortals genre={genre} show={series} page={false}/>
                            {seasons.length > 1 && series.related ? <SoundtrackPortals genre={genre} page={false} type="soundtrack" show={series} /> : ""}
                        </section>
-                              <section className="col-span-10 col-start-1 lg:col-start-7 border lg:row-start-3 lg:row-span-5  lg:col-span-6 w-full">
+                              <section className="col-span-10 col-start-1 lg:col-start-7 lg:row-start-3 lg:row-span-5  lg:col-span-6 w-full">
                                   {seasons.length === 1 ? (
                                       <>
                                           <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true} />
