@@ -1,7 +1,6 @@
 import Season from "@/app/components/Seasons/Season";
 import { seriesBetaWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
 import { notFound } from "next/navigation";
-import type { ComponentProps } from "react";
 
 
 export function generateStaticParams() {
@@ -30,7 +29,7 @@ async function SeasonPage({ params }: Props) {
   if (!series || !season) notFound();
 
   return (
-    <Season genre={series as unknown as ComponentProps<typeof Season>["genre"]} />
+    <Season season={season} genre={series.genre} slug={slug} />
   );
 }
 export default SeasonPage;

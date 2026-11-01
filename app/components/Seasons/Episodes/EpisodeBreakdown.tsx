@@ -33,10 +33,12 @@ export const EpisodeBreakdown = ({episode, page} : Props) => {
                    </ul>
                 </section>
                 <section className="w-full h-[200px] border flex">
-                  <span className="w-4/5 p-1">{episode.plot}</span>
-                  <section className="h-full border flex  w-1/5  overflow-hidden ">
-                    <img className="  flex   object-cover object-center" src={episode.imageUrl.src} alt={episode.imageUrl.src} />
-                  </section>
+                  <span className={`${episode.imageUrl.src ? "w-4/5" : "w-full"} p-1`}>{episode.plot}</span>
+                  {episode.imageUrl.src ? (
+                    <section className="h-full border flex w-1/5 overflow-hidden">
+                      <img className="flex object-cover object-center" src={episode.imageUrl.src} alt={episode.imageUrl.alt} />
+                    </section>
+                  ) : null}
                 </section>
                  
                </section>

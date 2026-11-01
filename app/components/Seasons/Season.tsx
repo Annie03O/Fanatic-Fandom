@@ -1,35 +1,15 @@
 "use client";
 
-import { useParams } from "next/navigation";
-import { seriesBetaWithSlug } from "../../functions/WithSlug/allSeriesWithSlug";
 import { SeasonInfobox } from "./SeasonInfobox";
 import { EpisodeBreakdown } from "./Episodes/EpisodeBreakdown";
+import type { Season as SeasonData } from "@/app/models/types/seasons/Season";
 
 type Props = {
-  genre:  Genre;
+  season: SeasonData;
+  genre: Genre;
+  slug: string;
 };
-function Season({genre}: Props) {
-  const { slug, seasonId } = useParams<{ slug: string; seasonId: string }>();
-
-
-  // seriesBetaWithSlug är { ...dramaSeries, items: [...] }
-  const series = seriesBetaWithSlug.items.find((s) => s.slug === slug);
-
-  if (!series) return <section>Series not found</section>;
-
-  console.log(seasonId);
-  
-
-  // Variant A: om mainCharacters ligger direkt på serien
-  const season = series.seasons?.find((s) => s.id === seasonId);
-
-  
-  // Variant B: om serien har show-objekt (vanligt i din struktur)
-  // const character = series.show?.mainCharacters?.find((c) => c.id === id);
-
-  if (!season) return <section>Season not found, {season}</section>;
-
-  
+function Season({ season, genre, slug }: Props) {
   return (
     <main className="flex flex-col justify-center items-center text-[#d1c3e3] w-full">
                 <article className="w-full p-1 flex flex-col">            
@@ -45,8 +25,8 @@ function Season({genre}: Props) {
                               <h2 className="text-3xl left-2">Episodes</h2>
                             </section>
                               <section  className="h-1/10 overflow-y-scroll mr-2">
-                                {season.episodeBreakdown.map((i) => (
-                                  <EpisodeBreakdown episode={i}/>
+                                {season.episodeBreakdown.map((episode) => (
+                                  <EpisodeBreakdown key={episode.id} episode={episode}/>
                                 )
                                 )}
                               </section>

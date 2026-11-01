@@ -22,7 +22,9 @@ export const SeasonInfobox = ({ season, genre, slug }: Props) => {
     <section className="flex flex-col justify-content items-center gap-3 bg-[#d1c3e3] text-black shadow-2xl  shadow-gray-600 ring-2 ring-[#d1c3e3]">
       <h2 className="text-2xl text-center">Season {season.seasonNumber}</h2>
 
-      <img className="w-full h-auto" src={box.posterSrc.src} alt={box.posterSrc.alt} />
+      {box.posterSrc.src ? (
+        <img className="w-full h-auto" src={box.posterSrc.src} alt={box.posterSrc.alt} />
+      ) : null}
 
       <section className="border-t border-gray-400 text-lg">
         {box.fields.map((f) => (
@@ -42,32 +44,30 @@ export const SeasonInfobox = ({ season, genre, slug }: Props) => {
                </section>
           </section>
         ))}
-        <section className="flex pl-2 pr-2">
-          <section className="w-1/2">
-           {
-             season.previousSeason 
-             ? `Season ${season.previousSeason.seasonNumber}` 
-             : ""
-            }
-          </section> 
-          
-          
-          <section className="w-1/2">
-           {
-             season.nextSeason 
-             ? `Season ${season.nextSeason.seasonNumber}` 
-             : ""
-            }
-          </section> 
-          
-        </section>
-        <section className="flex  pl-2 pr-2">
-          {season.previousSeason ?
-           <Link className="w-1/2" href={`/${genre}/${slug}/seasons/${season.previousSeason.id}`}>
-             Season {season.previousSeason?.seasonNumber}
-            </Link> : ""}
-          <section className={`w-full flex justify-end`}> Season {season.nextSeason?.seasonNumber}</section>
-        </section>
+        <section className="flex">
+            <section className="flex flex-col w-1/2">
+              {season.previousSeason ? (
+                <section className="flex flex-col w-full">
+                  <label className="font-bold flex justify-start">Previous</label>
+                  <Link className="flex justify-start" href={`/${genre}/${slug}/seasons/${season.previousSeason.id}`}>
+                    Season {season.previousSeason.seasonNumber}
+                  </Link>
+                </section>
+              ) : ""}
+  
+          </section>
+          <section className="flex flex-col w-1/2">
+              {season.nextSeason ? (
+                <section className="flex flex-col w-full">
+                  <label className="font-bold flex justify-end">Next</label>
+                  <Link className="flex justify-end underline hover:text-blue-500" href={`/${genre}/${slug}/seasons/${season.nextSeason.id}`}>
+                    Season {season.nextSeason.seasonNumber}
+                  </Link>
+                </section>
+              ) : ""}
+  
+          </section>
+       </section>
       </section>
     </section>
   );
