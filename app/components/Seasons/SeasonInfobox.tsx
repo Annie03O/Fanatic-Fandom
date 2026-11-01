@@ -51,7 +51,7 @@ export const SeasonInfobox = ({ season, genre, slug }: Props) => {
       {box.posterSrc.src ? (
         <button
           type="button"
-          className="cursor-pointer"
+          className="cursor-pointer hover:border-4 hover:border-blue-500 hover:rounded-lg overflow-hidden shadow-lg hover:shadow-none shadow-gray-500"
           onClick={openModal}
           aria-label={`View ${show.title}, ${season.title} Poster`}
         >
