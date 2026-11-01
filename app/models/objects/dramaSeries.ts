@@ -9102,6 +9102,11 @@ tags: [
             releaseDate: "",
           },
         ],
+        network: ["Fox"],
+        nextSeason: {
+          id: ocS2_ID,
+          seasonNumber: 2,
+        },
       },
       {
         id: ocS2_ID,
