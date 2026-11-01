@@ -63,7 +63,7 @@ const ShowPage = ({genre}: ShowPageProps) => {
                        </section>
                        <section className="col-start-1 lg:row-start-3 lg:row-span-5  col-span-10 lg:col-span-7 w-full flex flex-col justify-center items-center gap-3">
                           <CharacterPortals genre={genre} show={series} page={false}/>
-                           {seasons.length > 1 ? <SoundtrackPortals genre={genre} page={false} type="soundtrack" show={series} /> : ""}
+                           {seasons.length > 1 && series.related ? <SoundtrackPortals genre={genre} page={false} type="soundtrack" show={series} /> : ""}
                        </section>
                               <section className="col-span-10 col-start-1 lg:col-start-8 lg:row-start-3 lg:row-span-5  lg:col-span-5 w-full">
                                   {seasons.length === 1 ? (
@@ -73,7 +73,7 @@ const ShowPage = ({genre}: ShowPageProps) => {
                                   ) : (
                                     <section className="flex flex-col">
                                       {seasons.length > 0 ?  <SeasonsPortals show={series} page={false} genre={genre}/> : movies.length > 0 ? <MoviePortal show={series} page={false} genre={genre}/> : ""}
-                                      {series.related ? <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true} /> : null}
+                                      {series.related ? <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true} /> : <SoundtrackPortals genre={genre} page={false} type="soundtrack" show={series} />}
                                     </section>
                                   )}
                               </section>
