@@ -3,15 +3,18 @@ import { Show } from "../types/structure/Show";
 import type { Image } from "../types/characters/Image";
 import { 
   AllanHeinberg_Name,
+  AnnaStern_ID,
   Atwood_Name, 
-  CalebNichols_firstName,  CalebNichols_fullName, 
-  CalebNichols_ID, 
+  CalebNichols_fullName,CalebNichols_ID, 
   Cohen_Name, 
-  Cooper_Name, DawnAtwood_ID, DougLiman_Name, JulieCooper_firstName, JulieCooper_ID, 
+  Cooper_Name, DawnAtwood_ID, DougLiman_Name, IanToynton_Name, JaneEspenson_Name, JulieCaleb_ID, JulieCooper_ID, 
   KirstenCohen_firstName, KirstenCohen_fullName, KirstenCohen_ID, 
   LindseyGardner_ID, 
   LukeWard_fullName, 
+  LukeWard_ID, 
   MarissaCooper_firstName, MarissaCooper_fullName, MarissaCooper_ID, 
+  MarissaLuke_ID, 
+  MichaelLange_Name, 
   OC_ID, OC_Title, ocPilot_ID, 
   ocPilot_Title, 
   ocS1_ID, 
@@ -37,9 +40,11 @@ import {
   ocS3_ID, ocS3Ep16_ID, ocS3Ep16_Title, ocS3Ep17_ID, ocS3Ep18_Title, ocS3Ep20_Title, ocS3ep8_ID, 
   ocS3Finale_ID, 
   ocS4_ID, ocS4Ep15_ID, ocS4Ep15_Title, ocS4Ep5_ID, ocS4Ep6_Title, ocSeriesFinale_ID, 
+  PatrickNorris_Name, 
   RyanAtwood_firstName, RyanAtwood_fullName, RyanAtwood_ID, 
   RyanAtwood_lastName,  
   RyanDawn_ID,  
+  RyanKirsten_ID,  
   RyanLindsey_ID,  
   RyanMarissa_ID,  
   RyanSadie_ID,  
@@ -50,16 +55,19 @@ import {
   RyanTheresa_ID,  
   RyanTrey_ID,  
   SandyCohen_firstName, SandyCohen_fullName, SandyCohen_ID, 
-  SethCohen_firstName, SethCohen_fullName, SethCohen_ID, 
+  SandyKirsten_ID, 
+  SanfordBookstaver_Name, 
+  SethCohen_fullName, SethCohen_ID, 
+  SethSummer_ID, 
+  StephanieSavage_Name, 
   SummerRoberts_firstName, SummerRoberts_fullName, 
   SummerRoberts_ID, SummerRoberts_lastName, 
-  TaylorTownsend_firstName, TaylorTownsend_fullName, 
-  TaylorTownsend_ID, TaylorTownsend_lastName, 
+  TaylorTownsend_fullName, TaylorTownsend_ID, TaylorTownsend_lastName, 
   TreyAtwood_fullName, 
   TreyAtwood_ID
 } from "../helpers/oc";
 import { generateId } from "@/app/functions/generateID";
-import { JoshSchwartz_Name } from "../helpers/commonPeople";
+import { DanielAttias_Name, JoshSchwartz_Name, Julie_Name, Seth_Name, Taylor_Name } from "../helpers/commonPeople";
 
 const toImage = (src: string, alt: string): Image => ({
   src,
@@ -3397,7 +3405,7 @@ export const dramaSeries: Show[] = [
             episodeNumber: 9,
             episodeTitle: ["The Gentle Art of Listening"],
             imageUrl: toImage("https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483744323756/PPCBS_BEVERLYHILLS90210_009_UHD_V1_3654704_1920x1080.jpg", "Character image"),
-            director: "Dan Attias",
+            director: DanielAttias_Name,
             writtenBy:  "Charles Rosin", 
             plot: "As the students of West Beverly get pumped for Grudge Week against Beverly Hills High, Brenda grows annoyed by her friends' lack of school spirit. She volunteers for a teen crisis hotline and violates the rules when she takes an after-hours call from a date-rape victim, who is still in danger. Meanwhile, Brandon thinks that a sexy older woman named Nina is attracted to him and makes preparations to have sex with her. Brandon is also followed around school by a lovesick freshman girl to his annoyance.",
             releaseDate: "December 6, 1990",
@@ -3460,7 +3468,7 @@ export const dramaSeries: Show[] = [
             episodeNumber: 14,
             episodeTitle: ["East Side Story"],
             imageUrl: toImage("https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483743811579/PPCBS_BEVERLYHILLS90210_015_UHD_V1_3654614_1920x1080.jpg", "Character image"),
-            director: "Dan Attias",
+            director: DanielAttias_Name,
             writtenBy: [
               "Story by : Carmen Sternwood & Charles Rosin", 
               "Teleplay by :Charles Rosin", 
@@ -3526,7 +3534,7 @@ export const dramaSeries: Show[] = [
             episodeNumber: 19,
             episodeTitle: ["April is the Crulest Month"],
             imageUrl: toImage("https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/01/27/2483742787940/PPCBS_BEVERLYHILLS90210_019_UHD_V1_3654705_1920x1080.jpg", "Character image"),
-            director: "Dan Attias",
+            director: DanielAttias_Name,
             writtenBy: [
               "Steve Wasserman",
               "Jessica Klein"
@@ -8548,7 +8556,7 @@ tags: [
       },
       {
         id: SethCohen_ID,
-        firstName: SethCohen_firstName,
+        firstName: Seth_Name,
         lastName: Cohen_Name,
         imageUrl: {
           src: "https://i.pinimg.com/236x/9e/5a/d1/9e5ad1ef359e49b2e99ba1547d0f9d47.jpg",
@@ -8653,7 +8661,7 @@ tags: [
       },
       {
         id: JulieCooper_ID,
-        firstName: JulieCooper_firstName,
+        firstName: Julie_Name,
         lastName: Cooper_Name,
         imageUrl: {
           src: "https://i.pinimg.com/236x/f9/85/13/f9851318235ed756690c732e2191b779.jpg",
@@ -8674,7 +8682,7 @@ tags: [
       },
       {
         id: generateId(TaylorTownsend_fullName),
-        firstName: TaylorTownsend_firstName,
+        firstName: Taylor_Name,
         lastName: TaylorTownsend_lastName,
         imageUrl: {
           src: "https://assets.mycast.io/characters/taylor-townsend-2657429-normal.jpg",
@@ -8728,15 +8736,6 @@ tags: [
             seasonNumber: 1,
             episodeNumber: 1,
             episodeTitle: ocPilot_Title,
-            imageUrl: {
-              src: "https://static.wikia.nocookie.net/ocwikia/images/0/09/OC-S1E01.jpg/revision/latest?cb=20220721162117",
-              alt: "Ryan arrives at a party.",
-              pageId: [
-                ocS1_ID,
-                RyanAtwood_ID,
-                ocPilot_ID
-              ],
-            },
             plot: "Just after Ryan escapes jail time and is kicked out by his mother, his attorney, Sandy Cohen, brings him home, to the dismay of his wife, Kirsten. Ryan meets their son, Seth, and other Newport teenagers who lead him to trouble, making Kirsten think again about letting Ryan stay in their home.",
             director: DougLiman_Name,
             writtenBy: JoshSchwartz_Name,
@@ -8763,97 +8762,118 @@ tags: [
               ${AllanHeinberg_Name} &
               ${JoshSchwartz_Name}
             `,
-            releaseDate: "",
+            releaseDate: "August 12, 2003",
           },
           {
             id: ocS1Ep3_ID,
             seasonNumber: 1,
             episodeNumber: 3,
             episodeTitle: ocS1Ep3_Title,
-            imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
-            },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Sandy comes to Ryan's rescue once again. Kirsten decides to invite Dawn to an elite Casino Night, however the night forces Dawn to make a life altering decision. Julie begins to get vengeful after hearing about Kirsten's generous gift to Jimmy. Tension is still high between Marissa and Luke. Seth gets the night of his dreams.",
+            director: IanToynton_Name,
+            writtenBy: JaneEspenson_Name,
+            releaseDate: "August 19, 2003",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Debut`),
             seasonNumber: 1,
             episodeNumber: 4,
-            episodeTitle: "",
+            episodeTitle: "The Debut",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://m.media-amazon.com/images/M/MV5BMzdkMzgwYjktNTkxMS00ZGE2LWE4YzQtNDAxNjc4N2VkN2VlXkEyXkFqcGc@._V1_.jpg",
+              alt: "Ryan and Marissa dance at the debutant ball.",
+              pageId: [
+                RyanAtwood_ID,
+                MarissaCooper_ID,
+                RyanMarissa_ID,
+                ocS1_ID
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Now that Ryan is staying with the Cohens, he must attend the Cotillion Ball, where Newport's finest young ladies enter society, but the event is a disaster. Jimmy becomes a suspect of a fraud investigation.",
+            director: DanielAttias_Name,
+            writtenBy: `
+              ${AllanHeinberg_Name} &
+              ${JoshSchwartz_Name}
+            `,
+            releaseDate: "August 26, 2003",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Outsider`),
             seasonNumber: 1,
             episodeNumber: 5,
-            episodeTitle: "",
+            episodeTitle: "The Outsider",
+            plot: "Ryan gets a job and meets Donnie, a Newport teen from Corona, who gives Seth a taste of the wild side. Following Cotillion, Marissa and Julie find their reputations in jeopardy.",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://m.media-amazon.com/images/M/MV5BY2M3NmRjZDMtYTU1ZS00NjFhLWI0NGYtYTFkMWM3Zjg0MGNlXkEyXkFqcGc@._V1_.jpg",
+              alt: "Ryan is talking to Donnie at the Crab Shack.",
+              pageId: [
+                RyanAtwood_ID,
+                ocS1_ID
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            director: "Jesús Salvador Treviño",
+            writtenBy: "Melissa Rosenberg",
+            releaseDate: "September 2, 2003",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Girlfriend`),
             seasonNumber: 1,
             episodeNumber: 6,
-            episodeTitle: "",
+            episodeTitle: "The Girlfriend",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://m.media-amazon.com/images/M/MV5BODkzNzY4ODA2N15BMl5BanBnXkFtZTgwMjE0Njc3MjE@._V1_.jpg",
+              alt: "Gabrielle is sitting in the hot tub.",
+              pageId: [
+                ocS1_ID
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Kirsten's father, Caleb Nichol, comes to town with his new 24-year-old girlfriend, Gabrielle. Marissa isn't ready to pick between Luke and Ryan. Summer's growing feelings for Seth begin to show.",
+            director: "Steve Robman",
+            writtenBy: `
+              Story by : Debra J. Fisher & Erica Messer
+              Teleplay by : Josh Schwartz
+            `,
+            releaseDate: "September 9, 2003",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Escape`),
             seasonNumber: 1,
             episodeNumber: 7,
-            episodeTitle: "",
+            episodeTitle: "The Escape",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8NuxMiSudqfil9TIlMNY1DIYeve2no4zulNpFYl29F5u9QSBhIlMZVXLb2NhZMK4Axht_PQFnG9D96IUCbhvuE0PeR1J-lsOTgd10e6LjaqNFCDgM_2v760kUFc-UtbKl_hHPkRDplR8/s1600/ryanatwoodsmirkingseeinglukeandholly.jpg",
+              alt: "Marissa and Ryan catches Luke cheating.",
+              pageId: [
+                ocS1_ID,
+                MarissaCooper_ID,
+                RyanAtwood_ID,
+                RyanMarissa_ID,
+                MarissaLuke_ID,
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "With the summer ending, Ryan and Seth tag along with Summer and Marissa in a intense road trip to Tijuana that takes a fatal turn. Kirsten is upset that Sandy is considering the job, and finds herself in a compromising position with Jimmy in his new apartment.",
+            director: "Sanford Bookstaver",
+            writtenBy: JoshSchwartz_Name,
+            releaseDate: "September 16, 2003",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Rescue`),
             seasonNumber: 1,
             episodeNumber: 8,
-            episodeTitle: "",
+            episodeTitle: "The Rescue",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://substackcdn.com/image/fetch/$s_!KvLk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8280d365-8159-443f-bffa-c0dd21e0bf49_3024x1682.png",
+              alt: "Marissa is sitting in her hospital bed.",
+              pageId: [
+                ocS1_ID,
+                MarissaCooper_ID
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "After Marissa's attempted suicide, Julie tries to make an altering decision for her that has her moving to San Diego. Meanwhile, Ryan must take a placement test to determine his enrollment at The Harbor School. Sandy finds himself in the hot seat after being caught by Kirsten out with a female colleague.",
+            director: "Michael Lange",
+            writtenBy: `Story by : ${AllanHeinberg_Name}
+            Teleplay by : Melissa Rosenberg	`,
+            releaseDate: "October 29, 2003",
           },
           {
             id: ocS1Ep9_ID,
@@ -8861,149 +8881,206 @@ tags: [
             episodeNumber: 9,
             episodeTitle: ocS1Ep9_Title,
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://m.media-amazon.com/images/M/MV5BN2NjOTc5ZjMtYzczOS00MzA1LThkYWEtN2RkZDQ5NjQwMzA3XkEyXkFqcGc@._V1_.jpg",
+              alt: "Marissa and Ryan are stuck in the paris wheel.",
+              pageId: [
+                ocS1_ID,
+                RyanAtwood_ID,
+                MarissaCooper_ID,
+                RyanMarissa_ID,
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Ryan doesn't feel like he belongs at Harbor and Luke doesn't help his situation. Summer keeps her friendship with Seth private, but is jealous of his relationship with Anna. Sandy accepts a case against Caleb at his new job, that will test his relationship with Kirsten.",
+            director: PatrickNorris_Name,
+            writtenBy: `Debra J. Fisher & Erica Messer`,
+            releaseDate: "November 5, 2003",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Perfect Couple`),
             seasonNumber: 1,
             episodeNumber: 10,
-            episodeTitle: "",
+            episodeTitle: "The Perfect Couple",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://static.wikia.nocookie.net/ocwikia/images/8/89/Sandy_%26_Kirsten_-_The_Perfect_Couple.jpg/revision/latest/scale-to-width-down/985?cb=20240127065417",
+              alt: "Sandy and Kirsten are about to kiss.",
+              pageId: [
+                ocS1_ID,
+                SandyCohen_ID,
+                KirstenCohen_ID,
+                SandyKirsten_ID
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Kirsten becomes worried about Sandy's professional relationship with Rachel. Ryan spots Caleb and Julie together and is stuck between a rock and a hard place. Summer tries to admit her feelings to Seth.",
+            director: "Micheal Fresco",
+            writtenBy: AllanHeinberg_Name,
+            releaseDate: "November 12, 2003",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Homecoming`),
             seasonNumber: 1,
             episodeNumber: 11,
-            episodeTitle: "",
+            episodeTitle: "The Homecoming",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://static.wikia.nocookie.net/ocwikia/images/1/1b/OC-S1E11.jpg/revision/latest?cb=20220722165834",
+              alt: "Ryan is visiting his brother, Trey in prison.",
+              pageId: [
+                ocS1_ID,
+                TreyAtwood_ID
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "As Ryan and Marissa go to Chino to visit Trey for Thanksgiving, Ryan crashes into the past. Seth must choose between Anna and Summer. Kirsten and Sandy make an attempt to set up Jimmy and Rachel.",
+            director: "Keith Samples",
+            writtenBy: `
+              ${JoshSchwartz_Name} &
+              Brian Oh
+            `,
+            releaseDate: "November 19, 2003",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Secret`),
             seasonNumber: 1,
             episodeNumber: 12,
-            episodeTitle: "",
+            episodeTitle: "The Secret",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://static.wikia.nocookie.net/ocwikia/images/c/c8/Anna_and_Summer_-_The_Secret.webp/revision/latest?cb=20240129020339",
+              alt: "Anna is talking to Seth in front of Summer.",
+              pageId: [
+                ocS1_ID,
+                SethCohen_ID,
+                SummerRoberts_ID,
+                AnnaStern_ID,
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Ryan's trust is put to the test when he catches an unexpected moment that could ruin Luke. After thanksgiving, Seth finds himself on the outs with both Anna and Summer.",
+            director: "James Marshall",
+            writtenBy: `${AllanHeinberg_Name} & ${JoshSchwartz_Name}`,
+            releaseDate: "November 26, 2003",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Best Chrismukkah Ever`),
             seasonNumber: 1,
             episodeNumber: 13,
-            episodeTitle: "",
+            episodeTitle: "The Best Chrismukkah Ever",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://m.media-amazon.com/images/M/MV5BMjkwNTRiMWUtMjUwMS00Y2JmLWI0NmQtMDdmNThlOGFiNWVjXkEyXkFqcGc@._V1_.jpg",
+              alt: "Seth gets caught two-timing Anna and Summer.",
+              pageId: [
+                ocS1_ID,
+                SethCohen_ID,
+                AnnaStern_ID,
+                SummerRoberts_ID,
+                SethSummer_ID
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Kirsten learns something about her father that'll help Sandy's case, but will put her job in jeopardy. Ryan's Christmas does not go as planned. Marissa meets someone in therapy. Meanwhile, Seth struggles choosing between Anna and Summer.",
+            director: "Sanford Bookstaver",
+            writtenBy: StephanieSavage_Name,
+            releaseDate: "December 3, 2003",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Countdown`),
             seasonNumber: 1,
             episodeNumber: 14,
-            episodeTitle: "",
+            episodeTitle: "The Countdown",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://static.wikia.nocookie.net/ocwikia/images/9/97/Anna_and_Summer_-_The_Countdown.jpg/revision/latest/scale-to-width-down/985?cb=20240130095405",
+              alt: "Anna and Summer at the new years party.",
+              pageId: [
+                ocS1_ID,
+                SummerRoberts_ID,
+                AnnaStern_ID
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Kirsten's drifter younger sister, Hailey, crashes at the Cohen's home and throws a New Year's Eve party that gets out of control. Ryan is worried about Marissa's relationship with Oliver. Anna decides to spend her night with Seth, without Summer's knowledge.",
+            director: "Michael Fresco",
+            writtenBy: JoshSchwartz_Name,
+            releaseDate: "December 17, 2003",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Third Wheel`),
             seasonNumber: 1,
             episodeNumber: 15,
-            episodeTitle: "",
+            episodeTitle: "The Third Wheel",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://m.media-amazon.com/images/M/MV5BZThmNTI2ZDUtNmMwNS00MmVjLWFmY2YtZTE0MWVhYWE0YjViXkEyXkFqcGc@._V1_.jpg",
+              alt: "Close up on Marissa smiling.",
+              pageId: [
+                ocS1_ID,
+                MarissaCooper_ID
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Hailey realizes she overstayed her welcome at the Cohen residence. Oliver invites the gang to a Rooney concert, but Ryan catches him in a complicating situation. Seth has difficulties telling Summer about his relationship with Anna.",
+            director: "Sandy Smolan",
+            writtenBy: "Melissa Rosenberg",
+            releaseDate: "January 7, 2004",
+          },
+          {
+            id: generateId(`${OC_Title} The Links`),
+            seasonNumber: 1,
+            episodeNumber: 16,
+            episodeTitle: "The Links",
+            plot: "Oliver's friendship with Marissa strains her relationship with Ryan. Summer becomes jealous of Seth and Anna's relationship. Meanwhile, Hailey and Kirsten clash when Kirsten convinces Caleb of an devastating idea.",
+            imageUrl: {
+              src: "https://static.wikia.nocookie.net/ocwikia/images/7/71/OC-S1E16.jpg/revision/latest?cb=20220722173013",
+              alt: "Marissa is flirting with Oliver at the Golf court.",
+              pageId: [
+                ocS1_ID,
+                MarissaCooper_ID,
+                "oliver-trask"
+              ]
+            }, 
+            director: MichaelLange_Name,
+            writtenBy: "Debra J. Fisher & Erica Messer",
+            releaseDate: "January 14, 2004"
           },
           {
             id: ocS1Ep17_ID,
             seasonNumber: 1,
             episodeNumber: 17,
             episodeTitle: ocS1Ep17_Title,
-            imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
-            },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Oliver transfers to Harbor, while Ryan risks his academic future to expose him. Seth becomes jealous of Summer's relationship with Danny, forcing him to doubt his relationship with Anna. Meanwhile, Jimmy and Sandy go into business together. Also, Kirsten gets worried about the company when Caleb hires Julie as an interior designer.",
+            director: "Ian Toynton",
+            writtenBy: JoshSchwartz_Name,
+            releaseDate: "January 21, 2004",
           },
           {
-            id: "",
+            id: generateId("The Truth"),
             seasonNumber: 1,
             episodeNumber: 18,
-            episodeTitle: "",
+            episodeTitle: "The Truth",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://static.wikia.nocookie.net/ocwikia/images/a/a4/OC-S1E18.jpg/revision/latest?cb=20220722173606",
+              alt: "Ryan is talking to Seth in the parking lot.",
+              pageId: [
+                ocS1_ID,
+                RyanAtwood_ID,
+                SethCohen_ID,
+                RyanSeth_ID,
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Luke starts to see Oliver's true colors after he gets Ryan suspended, but Marissa won't see it. Anna confronts Seth about his relationship with Summer. Meanwhile, Caleb gets Kirsten to break up with Julie for him.",
+            director: "Rodman Flender",
+            writtenBy: AllanHeinberg_Name,
+            releaseDate: "February 11, 2004",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Heartbreak`),
             seasonNumber: 1,
             episodeNumber: 19,
-            episodeTitle: "",
+            episodeTitle: "The Heartbreak",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://static.wikia.nocookie.net/ocwikia/images/b/ba/Kirsten_and_Sandy_-_The_Heartbreak.webp/revision/latest?cb=20240205043725",
+              alt: "Kirsten is sitting on Sandy's lap at dinner.",
+              pageId: [
+                SandyCohen_ID,
+                KirstenCohen_ID,
+                SandyKirsten_ID
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Ryan and Marissa need to rebuild trust after the incident with Oliver, but it's hard when a surprise comes to town. Jimmy discovers he has a secret admirer, while Luke spends the night with Julie. Meanwhile, Seth and Summer make big step with their emotions.",
+            director: "Lev L. Spiro",
+            writtenBy: JoshSchwartz_Name,
+            releaseDate: "February 18, 2004",
           },
           {
             id: ocS1Ep20_ID,
@@ -9011,59 +9088,75 @@ tags: [
             episodeNumber: 20,
             episodeTitle: ocS1Ep20_Title,
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://m.media-amazon.com/images/M/MV5BYmVhMmUyZGItYjM5YS00ZmE4LWFiNmYtYzQ4NjIwMzU1ZTg1XkEyXkFqcGc@._V1_.jpg",
+              alt: "Seth and Summer are standing on a table by the kissing booth.",
+              pageId: [
+                SethCohen_ID,
+                SummerRoberts_ID,
+                SethSummer_ID
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Ryan realizes Theresa isn't telling him the truth on why she's staying in Newport. Summer keeps her relationship with Seth private, forcing him to Anna for support. Meanwhile, Sandy finds himself in the middle of Caleb's mess. Also, Jimmy suspects something between Julie and Luke.",
+            director: SanfordBookstaver_Name,
+            writtenBy: StephanieSavage_Name,
+            releaseDate: "February 25, 2004",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Goodbye Girl`),
             seasonNumber: 1,
             episodeNumber: 21,
-            episodeTitle: "",
+            episodeTitle: "The Goodbye Girl",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://static.wikia.nocookie.net/ocwikia/images/1/1d/OC-S1E21.jpg/revision/latest?cb=20220722175419",
+              alt: "Luke approaches Julie at an event.",
+              pageId: [
+                ocS1_ID,
+                JulieCooper_ID,
+                LukeWard_ID,
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Seth feels guilty when Anna announces she's moving back to Pittsburgh. Legal troubles brew for Caleb and Kirsten, while Sandy works to solve them. Luke and Julie find their secret affair harder to maintain. Meanwhile, Theresa's boyfriend from Chino arrives bringing trouble.",
+            director: PatrickNorris_Name,
+            writtenBy: JoshSchwartz_Name,
+            releaseDate: "March 3, 2004",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The L.A.`),
             seasonNumber: 1,
             episodeNumber: 22,
-            episodeTitle: "",
+            episodeTitle: "The L.A.",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://resizing.flixster.com/omtwdDkB-8g9qUQ2dikSXn79uq4=/620x336/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p2850875_e_h10_aa.jpg",
+              alt: "Seth meets Paris Hilton at a club.",
+              pageId: [
+                ocS1_ID,
+                SethCohen_ID
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Ryan, Marissa, Seth and Summer head down to L.A. and find a bombshell. Jimmy and Sandy approach Caleb for business help. Meanwhile, Ryan tries to keep Luke and Julie's affair a secret from Marissa.",
+            director: "David M. Barrett",
+            writtenBy: JoshSchwartz_Name,
+            releaseDate: "March 24, 2004",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Nana`),
             seasonNumber: 1,
             episodeNumber: 23,
-            episodeTitle: "",
+            episodeTitle: "The Nana",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://static.wikia.nocookie.net/ocwikia/images/e/ea/OC-S1E23.jpg/revision/latest?cb=20220722175811",
+              alt: "Ryan and Kirsten are in the kitchen, looking concearned.",
+              pageId: [
+                ocS1_ID,
+                RyanAtwood_ID,
+                KirstenCohen_ID,
+                RyanKirsten_ID
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Sandy's mother from Florida comes to Newport for a visit with a different attitude. Ryan searches for Marissa. Jimmy and Hailey take a step forward with their newfound romance.",
+            director: MichaelLange_Name,
+            writtenBy: AllanHeinberg_Name,
+            releaseDate: "March 31, 2004",
           },
           {
             id: ocS1Ep24_ID,
@@ -9071,44 +9164,66 @@ tags: [
             episodeNumber: 24,
             episodeTitle: ocS1Ep24_Title,
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://imageresizer.static9.net.au/dyaAeUs1HKslyVARCviQPSiDZb4=/1280x0/https%3A%2F%2Fvms-tv-images-prod.s3-ap-southeast-2.amazonaws.com%2F2023%2F11%2F548840%2Fep24.png",
+              alt: "Ryan, Marissa, Seth and Summer are laying in Marissa's new room.",
+              pageId: [
+                SethCohen_ID,
+                RyanAtwood_ID,
+                SummerRoberts_ID,
+                MarissaCooper_ID,
+                RyanMarissa_ID,
+                RyanSeth_ID,
+                RyanSummer_ID,
+                SethSummer_ID
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Still on the outs with her mom and Luke, Marissa begins hanging with her friends a lot more. Meanwhile, Jimmy becomes an obstacle in getting a liquor license. Caleb proposes to Julie.",
+            director: "Helen Shaver",
+            writtenBy: `Liz Friedman & ${JoshSchwartz_Name}`,
+            releaseDate: "April 14, 2004",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Shower`),
             seasonNumber: 1,
             episodeNumber: 25,
-            episodeTitle: "",
+            episodeTitle: "The Shower",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLlN8hPI6Ca5a2GtESIX_y4v-1O0UMoCw9qUYzG2Xq8Hy3K04xC3N6Eet0&s=10",
+              alt: "Julie and Caleb are opening gifts at their wedding shower.",
+              pageId: [
+                ocS1_ID,
+                JulieCooper_ID,
+                CalebNichols_ID,
+                JulieCaleb_ID
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Kirsten and Marissa throw a bridal shower for Julie, but Marissa invites an unwanted guest from Julie's past. Theresa calls Sandy for legal advice, but tries to avoid Ryan. Hailey and Jimmy continue their romance. Meanwhile, Summer is disappointed when Seth meets her father.",
+            director: "Sandy Smolan",
+            writtenBy: "J. J. Philbin",
+            releaseDate: "April 21, 2004",
           },
           {
-            id: "",
+            id: generateId(`${OC_Title} The Strip`),
             seasonNumber: 1,
             episodeNumber: 26,
-            episodeTitle: "",
+            episodeTitle: "The Strip",
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://static.wikia.nocookie.net/ocwikia/images/9/94/OC-S1E26.jpg/revision/latest?cb=20220722180539",
+              alt: "Seth, Ryan and Summer are walking in Vegas at night. Seth and Summer are holding hands.",
+              pageId: [
+                ocS1_ID,
+                RyanAtwood_ID,
+                SethCohen_ID,
+                SummerRoberts_ID,
+                SethSummer_ID,
+                RyanSeth_ID,
+                RyanSummer_ID,
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "While the boys are in Las Vegas, Jimmy and Sandy learn Caleb's true motives. Hailey devises a plan in an attempt to get Caleb to break it off with Julie. Marissa spends the night with Theresa and discovers something that might affect her.",
+            director: "James Marshall",
+            writtenBy: AllanHeinberg_Name,
+            releaseDate: "April 28, 2004",
           },
           {
             id: ocS1Ep27_ID,
@@ -9116,14 +9231,21 @@ tags: [
             episodeNumber: 27,
             episodeTitle: ocS1Ep27_Title,
             imageUrl: {
-              src: "",
-              alt: "",
-              pageId: []
+              src: "https://static.wikia.nocookie.net/ocwikia/images/3/34/Seth_and_Marissa_-_The_Ties_That_Bind.png/revision/latest/scale-to-width-down/1749?cb=20240215083351",
+              alt: "Seth is talking to Summer and Marissa at the diner.",
+              pageId: [
+                SummerRoberts_ID,
+                SethCohen_ID,
+                MarissaCooper_ID,
+                SethSummer_ID,
+                "summer-marissa",
+                "seth-marissa"
+              ]
             },
-            plot: "",
-            director: "",
-            writtenBy: "",
-            releaseDate: "",
+            plot: "Caleb and Julie officially get married, and Marissa moves in with them. Ryan and Theresa face a difficult decision regarding her pregnancy. Seth makes a bold move when things around him start to fall apart.",
+            director: PatrickNorris_Name,
+            writtenBy: JoshSchwartz_Name,
+            releaseDate: "May 5, 2004",
           },
         ],
         network: ["Fox"],
@@ -9739,12 +9861,12 @@ tags: ["Teen drama", "Drama"],
       },
     ],
     basedOn: true,
-    creator: [JoshSchwartz_Name, "Stephanie Savage"],
+    creator: [JoshSchwartz_Name, StephanieSavage_Name],
     themeSong: ["'Steps of the Met' by Transcenders"],
     composer: ["Christopher Tyng", "Richard Marvin"],
     executive: [
       JoshSchwartz_Name,
-      "Stephanie Savage",
+      StephanieSavage_Name,
       "Donovan Shavis",
       "Bob Levy",
       "Leslie Morgenstein",
@@ -18331,7 +18453,7 @@ tags: ["drama", "family", "teen-siblings"],
       "Steven Robman",
       "Daniel Attias",
       "Ian Biederman",
-      "Allan Heinberg",
+      "${AllanHeinberg_Name}",
     ],
     prodCompanies: [
       "Keyser/Lippman Productions",

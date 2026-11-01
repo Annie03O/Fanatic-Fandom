@@ -1,5 +1,7 @@
 import { generateLabel } from "@/app/functions/generateLabel";
 import { generateId } from "@/app/functions/generateID";
+import { Anna_Name, Caleb_Name, Julie_Name, Luke_Name, Seth_Name, Taylor_Name } from "./commonPeople";
+import { generateShipLabel } from "@/app/functions/generateShipLabel";
 
 export var OC_Title = "The O.C"
 export var OC_ID = generateId(OC_Title);
@@ -20,8 +22,7 @@ export var OC_ID = generateId(OC_Title);
                 
 
             // Seth
-                export var SethCohen_firstName = "Seth";
-                export var SethCohen_fullName = generateLabel(SethCohen_firstName, Cohen_Name);
+                export var SethCohen_fullName = generateLabel(Seth_Name, Cohen_Name);
                 export var SethCohen_ID = generateId(SethCohen_fullName!);
 
 
@@ -42,8 +43,7 @@ export var OC_ID = generateId(OC_Title);
                 export var MarissaCooper_ID = generateId(MarissaCooper_fullName!);
 
             // Julie
-               export var JulieCooper_firstName = "Julie";
-               export var JulieCooper_fullName = generateLabel(JulieCooper_firstName, Cooper_Name);
+               export var JulieCooper_fullName = generateLabel(Julie_Name, Cooper_Name);
                export var JulieCooper_ID = generateId(JulieCooper_fullName!);
 
             // Jimmy 
@@ -58,21 +58,18 @@ export var OC_ID = generateId(OC_Title);
               export var SummerRoberts_ID = generateId(SummerRoberts_fullName!)
     
             // Caleb
-               export var CalebNichols_firstName = "Caleb";
                export var CalebNichols_lastName = "Nichols";
-               export var CalebNichols_fullName = generateLabel(CalebNichols_firstName, CalebNichols_lastName);
+               export var CalebNichols_fullName = generateLabel(Caleb_Name, CalebNichols_lastName);
                export var CalebNichols_ID = generateId(CalebNichols_fullName!);
 
             // Luke
-                export var LukeWard_firstName = "Luke";
                 export var LukeWard_lastName = "Ward";
-                export var LukeWard_fullName = generateLabel(LukeWard_firstName, LukeWard_lastName);
+                export var LukeWard_fullName = generateLabel(Luke_Name, LukeWard_lastName);
                 export var LukeWard_ID = generateId(LukeWard_fullName!)
     
             // Taylor 
-                export var TaylorTownsend_firstName = "Taylor";
                 export var TaylorTownsend_lastName = "Townsend";
-                export var TaylorTownsend_fullName = generateLabel(TaylorTownsend_firstName, TaylorTownsend_lastName);
+                export var TaylorTownsend_fullName = generateLabel(Taylor_Name, TaylorTownsend_lastName);
                 export var TaylorTownsend_ID = generateId(TaylorTownsend_fullName!);
     
     //  Reacurring
@@ -86,6 +83,11 @@ export var OC_ID = generateId(OC_Title);
            export var DawnAtwood_fullName = generateLabel(DawnAtwood_firstName, Atwood_Name);
            export var DawnAtwood_ID = generateId(DawnAtwood_fullName!)
 
+         // Anna
+            export var AnnaStern_lastName = "Stern";
+            export var AnnaStern_fullName = generateLabel(Anna_Name, AnnaStern_lastName);
+            export var AnnaStern_ID = generateId(AnnaStern_fullName!);
+
         // Lindsey
            export var LindseyGardner_firstName = "Lindsey";
            export var LindseyGardner_lastName = "Gardner"
@@ -94,49 +96,74 @@ export var OC_ID = generateId(OC_Title);
 // Relationships
    // Family
          // The Cohens
-            export var RyanSandy_Label = generateLabel(RyanAtwood_firstName, SandyCohen_firstName)
+            export var RyanSandy_Label = generateShipLabel(RyanAtwood_firstName, SandyCohen_firstName)
             export var RyanSandy_ID = generateId(RyanSandy_Label!);   
 
-            export var RyanKirsten_Label = generateLabel(RyanAtwood_firstName, KirstenCohen_firstName);
+            export var RyanKirsten_Label = generateShipLabel(RyanAtwood_firstName, KirstenCohen_firstName);
             export var RyanKirsten_ID = generateId(RyanKirsten_Label!)
 
-            export var RyanSeth_Label = generateLabel(RyanAtwood_firstName, SethCohen_firstName);
+            export var RyanSeth_Label = generateShipLabel(RyanAtwood_firstName, Seth_Name);
             export var RyanSeth_ID = generateId(RyanSeth_Label!);
 
-            export var RyanSummer_Label = generateLabel(RyanAtwood_firstName, SummerRoberts_firstName);
+            export var RyanSummer_Label = generateShipLabel(RyanAtwood_firstName, SummerRoberts_firstName);
             export var RyanSummer_ID = generateId(RyanSummer_Label!)
 
          // The Atwoods
-            export var RyanDawn_Label = generateLabel(RyanAtwood_firstName, DawnAtwood_firstName);
+            export var RyanDawn_Label = generateShipLabel(RyanAtwood_firstName, DawnAtwood_firstName);
             export var RyanDawn_ID = generateId(RyanDawn_Label!)
 
-            export var RyanTrey_Label = generateLabel(RyanAtwood_firstName, TreyAtwood_firstName);
+            export var RyanTrey_Label = generateShipLabel(RyanAtwood_firstName, TreyAtwood_firstName);
             export var RyanTrey_ID = generateId(RyanTrey_Label!)
             
 
    // Romances
-      export var RyanMarissa_Label = generateLabel(RyanAtwood_firstName, MarissaCooper_firstName);
+      export var RyanMarissa_Label = generateShipLabel(RyanAtwood_firstName, MarissaCooper_firstName);
       export var RyanMarissa_ID = generateId(RyanMarissa_Label!)
 
-      export var RyanTaylor_Label = generateLabel(RyanAtwood_firstName, TaylorTownsend_firstName);
+      export var RyanTaylor_Label = generateShipLabel(RyanAtwood_firstName, Taylor_Name);
       export var RyanTaylor_ID = generateId(RyanTaylor_Label!)
 
-      export var RyanTheresa_Label = generateLabel(RyanAtwood_firstName, "Theresa");
+      export var RyanTheresa_Label = generateShipLabel(RyanAtwood_firstName, "Theresa");
       export var RyanTheresa_ID = generateId(RyanTheresa_Label!)
 
-      export var RyanSadie_Label = generateLabel(RyanAtwood_firstName, "Sadie");
+      export var RyanSadie_Label = generateShipLabel(RyanAtwood_firstName, "Sadie");
       export var RyanSadie_ID = generateId(RyanSadie_Label!)
 
-      export var RyanLindsey_Label = generateLabel(RyanAtwood_firstName, "Lindsey");
+      export var RyanLindsey_Label = generateShipLabel(RyanAtwood_firstName, "Lindsey");
       export var RyanLindsey_ID = generateId(RyanLindsey_Label!)
+
+      export var MarissaLuke_Label = generateShipLabel(MarissaCooper_firstName, Luke_Name);
+      export var MarissaLuke_ID = generateId(MarissaLuke_Label!)
+
+      export var SandyKirsten_Label = generateShipLabel(SandyCohen_firstName, KirstenCohen_firstName);
+      export var SandyKirsten_ID = generateId(SandyKirsten_Label!);
+
+      export var SethSummer_Label = generateShipLabel(Seth_Name, SummerRoberts_firstName);
+      export var SethSummer_ID = generateId(SethSummer_Label!);
+
+      export var SethAnna_Label = generateShipLabel(Seth_Name, Anna_Name);
+      export var SethAnna_ID = generateId(SethAnna_Label!);
+
+      export var JulieCaleb_Label = generateLabel(Caleb_Name, Julie_Name);
+      export var JulieCaleb_ID = generateId(JulieCaleb_Label!);
+
+
 
 // Crew 
 
    // Directors
       export var DougLiman_Name = "Doug Liman";
+      export var IanToynton_Name = "Ian Toynton"
+      export var MichaelLange_Name = "Michael Lange"
+      export var SanfordBookstaver_Name = "Sanford Bookstaver";
+      export var PatrickNorris_Name = "Patrick Norris";
 
    // Writers 
       export var AllanHeinberg_Name = "Allan Heinberg"
+      export var JaneEspenson_Name = "Jane Espenson"
+      export var StephanieSavage_Name = "Stephanie Savage"
+
+      
       
 // Seasons
    // Season 1

@@ -2,7 +2,7 @@ import { Image } from "../../characters/Image";
 
 export type EpisodeBreakdown = {
     id: string;
-    imageUrl: Image;
+    imageUrl?: Image;
     seasonNumber: number;
     episodeNumber: number | number[];
     episodeTitle: string[] | string;

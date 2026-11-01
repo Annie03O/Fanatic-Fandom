@@ -4,10 +4,21 @@ import type { Show } from "../types/structure/Show";
 
 type GalleryImage = Image & { episode?: EpisodeBreakdown };
 
+export const findImageByPageId = (
+  images: Image[],
+  pageId: string,
+): Image | undefined => {
+  if (!pageId.trim()) return undefined;
+
+  return images.find(
+    (image) => image.src.trim() && image.pageId.includes(pageId),
+  );
+};
+
 export const createImages = (show: Show): GalleryImage[] | null => {
   if (show.seasons === undefined) return null;
 
-  return show.seasons.flatMap((season) => {
+  const seasonImages = show.seasons.flatMap((season) => {
     const episodes = Array.isArray(season.episodeBreakdown)
       ? season.episodeBreakdown
       : [];
@@ -53,4 +64,18 @@ export const createImages = (show: Show): GalleryImage[] | null => {
       }),
     ];
   });
+
+  const relationshipImages = show.mainCharacters.flatMap((character) =>
+    (character.relationships ?? []).flatMap((relationship) => {
+      const image = relationship.imgUrl;
+      if (!image?.src.trim()) return [];
+
+      return [{
+        ...image,
+        alt: image.alt || relationship.name || "Relationship image",
+      }];
+    }),
+  );
+
+  return [...seasonImages, ...relationshipImages];
 };

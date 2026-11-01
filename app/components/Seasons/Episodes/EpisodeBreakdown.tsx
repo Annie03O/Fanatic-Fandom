@@ -2,7 +2,7 @@
 
 import { seriesBetaWithSlug } from "@/app/functions/dramaSeriesTop50WithSlug";
 import { toggleImage } from "@/app/functions/toggleImage";
-import { createImages } from "@/app/models/objects/images";
+import { createImages, findImageByPageId } from "@/app/models/objects/images";
 import { ModalComponent } from "@/app/models/objects/ModalComponent";
 import { EpisodeBreakdown as Episode } from "@/app/models/types/seasons/episode/EpisodeBreakdown"
 import { useState } from "react";
@@ -17,7 +17,8 @@ export const EpisodeBreakdown = ({episode, page, slug} : Props) => {
     const [isModalOpen, setIsModalOpen] = useState(false)
     const [chosenImage, setChosenImage] = useState<string>("");
 
-    
+    if (episode === undefined) return console.error("Episode not found");
+
       const show = seriesBetaWithSlug.items.find((i) => i.slug === slug)
     
       if (!show) {
@@ -28,19 +29,32 @@ export const EpisodeBreakdown = ({episode, page, slug} : Props) => {
       const images = createImages(show) ?? [];
 
 
-      const season = show.seasons?.find((i) => i.id)
+      const season = show.seasons?.find((i) => i.seasonNumber === episode.seasonNumber)
 
       if (season === undefined) return console.error("Season not found");
-    
+
       const seasonImages = images.filter((img) => img.pageId.includes(season.id));
 
       const modalImages = seasonImages.some((image) => image.src === season.posterUrl.src)
     ? seasonImages
     : [season.posterUrl, ...seasonImages];
 
+    const relationshipImages = show.mainCharacters.flatMap((character) =>
+      (character.relationships ?? []).flatMap((relationship) =>
+        relationship.imgUrl ? [relationship.imgUrl] : [],
+      ),
+    );
+    const episodeImage = findImageByPageId(relationshipImages, episode.id)
+      ?? (episode.imageUrl?.src.trim() ? episode.imageUrl : undefined);
+
+    const episodeModalImages = episodeImage && !modalImages.some((image) => image.src === episodeImage.src)
+      ? [...modalImages, episodeImage]
+      : modalImages;
 
     const openModal = () => {
-        toggleImage(episode.imageUrl.src, setChosenImage)
+        if (!episodeImage?.src.trim()) return;
+
+        toggleImage(episodeImage.src, setChosenImage)
         setIsModalOpen(true);
     }
     return <section className="flex flex-col border-b p-2 text-[#d1c3e3]">
@@ -65,17 +79,17 @@ export const EpisodeBreakdown = ({episode, page, slug} : Props) => {
                    </ul>
                 </section>
                 <section className="w-full h-[200px] border flex">
-                  <span className={`${episode.imageUrl.src ? "w-4/5" : "w-full"} p-1`}>{episode.plot}</span>
-                  {episode.imageUrl.src ? (
-                    <button onClick={openModal} className="h-full flex w-1/5 overflow-hidden cursor-pointer hover:border hover:border-4 hover:border-blue-500 hover:rounded-2xl">
-                      <img className="flex object-cover object-center" src={episode.imageUrl.src} alt={episode.imageUrl.alt} />
+                  <span className={`${episodeImage?.src.trim() ? "w-4/5" : "w-full"} p-1`}>{episode.plot}</span>
+                  {episodeImage?.src.trim() ? (
+                    <button type="button" onClick={openModal} className="h-full flex w-1/5 overflow-hidden cursor-pointer hover:border hover:border-4 hover:border-blue-500 hover:rounded-2xl">
+                      <img className="flex object-cover object-center" src={episodeImage.src} alt={episodeImage.alt || "Episode still"} />
                     </button>
                   ) : null}
                 </section>
                    { isModalOpen === true ? (
                             <ModalComponent
                              title={season.title ? season.title : `Season ${season.seasonNumber}`}
-                             images={modalImages}
+                             images={episodeModalImages}
                              imgUrl={chosenImage}
                              toggleImage={setChosenImage}
                              onClose={() => setIsModalOpen(false)}
