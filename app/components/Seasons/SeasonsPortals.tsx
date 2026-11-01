@@ -75,7 +75,7 @@ export const SeasonsPortals = ({ show, page, genre }: Props) => {
           key={s.id}
           type="button"
           onClick={() => pushSeason(s.id!)}
-          className="w-fit shadow-xl shadow-gray-600 ring-2 ring-[#d1c3e3]"
+          className="w-fit shadow-xl hover:shadow-none shadow-gray-600 ring-2 ring-[#d1c3e3] hover:ring-4 hover:ring-blue-500 hover:rounded-2xl overflow-hidden"
         >
           <section className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative"}>
             
