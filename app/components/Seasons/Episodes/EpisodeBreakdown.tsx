@@ -67,7 +67,7 @@ export const EpisodeBreakdown = ({episode, page, slug} : Props) => {
                 <section className="w-full h-[200px] border flex">
                   <span className={`${episode.imageUrl.src ? "w-4/5" : "w-full"} p-1`}>{episode.plot}</span>
                   {episode.imageUrl.src ? (
-                    <button onClick={openModal} className="h-full border flex w-1/5 overflow-hidden">
+                    <button onClick={openModal} className="h-full border flex w-1/5 overflow-hidden cursor-pointer">
                       <img className="flex object-cover object-center" src={episode.imageUrl.src} alt={episode.imageUrl.alt} />
                     </button>
                   ) : null}
