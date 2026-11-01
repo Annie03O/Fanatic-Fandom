@@ -24,7 +24,6 @@ const { slug } = useParams<{ slug: string }>();
   renders.current += 1;
   console.log("SeasonsPortals renders:", renders.current);
 
-
   const pushSoundtrack = (id: string) => router.push(`/drama/${slug}/soundtrack/${id}`);
 
   const colsClass = (n: number) => {
@@ -54,7 +53,7 @@ const { slug } = useParams<{ slug: string }>();
           key={s.id}
           type="button"
           onClick={() => pushSoundtrack(s.id!)}
-          className="text-lg hover:text-xl  w-fit rounded-2xl  shadow-lg shadow-gray-400/90 shadow-xl shadow-gray-600 ring-2 ring-[#d1c3e3]ansition-all duration-300 ease-in-out ring-2 overflow-hidden"
+          className="text-lg hover:text-xl  w-fit rounded-2xl  shadow-gray-400/90 shadow-xl hover:shadow-none shadow-gray-600 ring-2 ring-[#d1c3e3] hover:ring-4 hover:ring-blue-500  transition-all duration-300 ease-in-out overflow-hidden"
         >
           <section className={page === true ? "w-fit flex flex-col " : "flex flex-col-reverse relative md:w-[100px]"}>
             
