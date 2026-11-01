@@ -89,6 +89,7 @@ const ShowPage = ({genre}: ShowPageProps) => {
                                 <EpisodeBreakdownComponent
                                   key={`${season.id}-${episode.id || "episode"}-${index}`}
                                   episode={episode}
+                                  slug={slug}
                                 />
                             ))}
                         </section>
