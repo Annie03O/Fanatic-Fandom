@@ -61,11 +61,11 @@ const ShowPage = ({genre}: ShowPageProps) => {
                           <h2 className="text-3xl">Plot</h2>
                           <span className="block">{series.plot}</span>
                        </section>
-                       <section className="col-start-1 lg:row-start-3 lg:row-span-5  col-span-10 lg:col-span-7 w-full flex flex-col justify-center items-center gap-3">
+                       <section className="col-start-1 lg:row-start-3 lg:row-span-5  col-span-10 lg:col-span-6 w-full flex flex-col justify-center items-center gap-3">
                           <CharacterPortals genre={genre} show={series} page={false}/>
                            {seasons.length > 1 && series.related ? <SoundtrackPortals genre={genre} page={false} type="soundtrack" show={series} /> : ""}
                        </section>
-                              <section className="col-span-10 col-start-1 lg:col-start-8 lg:row-start-3 lg:row-span-5  lg:col-span-5 w-full">
+                              <section className="col-span-10 col-start-1 lg:col-start-7 border lg:row-start-3 lg:row-span-5  lg:col-span-6 w-full">
                                   {seasons.length === 1 ? (
                                       <>
                                           <RelatedPortal title={relatedShow?.title ?? relatedShow?.id ?? ""} show={series} page={true} />
