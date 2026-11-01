@@ -47,7 +47,7 @@ export const SeasonInfobox = ({ season, genre, slug }: Props) => {
            {
              season.previousSeason 
              ? `Season ${season.previousSeason.seasonNumber}` 
-             : "Previous"
+             : ""
             }
           </section> 
           
