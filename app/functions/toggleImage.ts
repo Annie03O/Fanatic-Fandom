@@ -3,4 +3,6 @@ export const toggleImage = (
   setChosenImage: (imgUrl: string) => void,
 ) => {
   setChosenImage(imgUrl);
+  console.log(imgUrl);
+  
 };

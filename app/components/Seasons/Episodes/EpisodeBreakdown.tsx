@@ -40,7 +40,7 @@ export const EpisodeBreakdown = ({episode, page, slug} : Props) => {
 
 
     const openModal = () => {
-        toggleImage(season.posterUrl.src, setChosenImage)
+        toggleImage(episode.imageUrl.src, setChosenImage)
         setIsModalOpen(true);
     }
     return <section className="flex flex-col border-b p-2 text-[#d1c3e3]">
@@ -67,7 +67,7 @@ export const EpisodeBreakdown = ({episode, page, slug} : Props) => {
                 <section className="w-full h-[200px] border flex">
                   <span className={`${episode.imageUrl.src ? "w-4/5" : "w-full"} p-1`}>{episode.plot}</span>
                   {episode.imageUrl.src ? (
-                    <button onClick={openModal} className="h-full border flex w-1/5 overflow-hidden cursor-pointer">
+                    <button onClick={openModal} className="h-full flex w-1/5 overflow-hidden cursor-pointer hover:border hover:border-4 hover:border-blue-500 hover:rounded-2xl">
                       <img className="flex object-cover object-center" src={episode.imageUrl.src} alt={episode.imageUrl.alt} />
                     </button>
                   ) : null}
