@@ -40,11 +40,14 @@ import {
   RyanAtwood_firstName, RyanAtwood_fullName, RyanAtwood_ID, 
   RyanAtwood_lastName,  
   RyanDawn_ID,  
+  RyanLindsey_ID,  
   RyanMarissa_ID,  
+  RyanSadie_ID,  
   RyanSandy_ID,  
   RyanSeth_ID,  
   RyanSummer_ID,  
   RyanTaylor_ID,  
+  RyanTheresa_ID,  
   RyanTrey_ID,  
   SandyCohen_firstName, SandyCohen_fullName, SandyCohen_ID, 
   SethCohen_firstName, SethCohen_fullName, SethCohen_ID, 
@@ -8419,7 +8422,7 @@ tags: [
             },
 
             {
-              id: generateId("Ryan and Lindsey"),
+              id: RyanLindsey_ID,
               name: "Lindsey Gardner",
               type: "Romantic",
               typeOfFamily: "Adoptive",
@@ -8447,7 +8450,7 @@ tags: [
               shortDesc: "Ryan and Lindsay have a brief relationship in the second season of the O.C., ending when Lindsay decides to move back to Chicago after positive paternity test results with Caleb, leaving Ryan sad."
             },
             {
-              id: generateId("Ryan and Theresa"),
+              id: RyanTheresa_ID,
               name: "Theresa Diaz",
               type: "Romantic",
               romantic: "Ex-Boyfriend/Ex-Girlfriend",
@@ -8474,7 +8477,7 @@ tags: [
               shortDesc: "Ryan Atwood and Theresa Diaz, childhood friends, developed romantic feelings leading to an intermittent relationship, which ended when Ryan left Chino. During a Thanksgiving visit to pay off Trey's debts, they apologized for their lack of communication. Afterward, Theresa got engaged to Eddie but later experienced doubts due to domestic violence. Following Ryan's breakup with Marissa Cooper, he and Theresa began dating again. Eddie's jealousy led to a confrontation at a party, prompting Theresa to return to Chino. She reappeared at the end of season two, revealing she had a baby, which she initially claimed was Eddie's but is heavily implied to be Ryan's. Despite briefly rekindling their relationship, Theresa ultimately felt Ryan was not ready for a serious commitment, especially concerning her child's welfare."
             },
             {
-              id: generateId("Ryan and Sadie"),
+              id: RyanSadie_ID,
               name: "Sadie Campbell",
               type: "Romantic",
               romantic: "Ex-Boyfriend/Ex-Girlfriend",
@@ -8754,7 +8757,7 @@ tags: [
                 SethCohen_ID,
               ]
             },
-            plot: "",
+            plot: "Marissa and Seth convince Ryan not to leave Newport, and hide him in one of Kirsten's vacant model homes, but their plan backfires horribly.",
             director: DougLiman_Name,
             writtenBy: `
               ${AllanHeinberg_Name} &

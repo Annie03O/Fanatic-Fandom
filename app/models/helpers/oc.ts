@@ -126,6 +126,10 @@ export var OC_ID = generateId(OC_Title);
 
       export var RyanSadie_Label = generateLabel(RyanAtwood_firstName, "Sadie");
       export var RyanSadie_ID = generateId(RyanSadie_Label!)
+
+      export var RyanLindsey_Label = generateLabel(RyanAtwood_firstName, "Lindsey");
+      export var RyanLindsey_ID = generateId(RyanLindsey_Label!)
+
 // Crew 
 
    // Directors
