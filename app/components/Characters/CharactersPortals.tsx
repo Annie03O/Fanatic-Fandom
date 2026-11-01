@@ -142,7 +142,7 @@ export const CharacterPortals = ({ show, page, genre }: Props) => {
           key={c.id}
           type="button"
           onClick={() => pushCharacter(c.id!)}
-          className="border w-fit bg-white shadow-xl shadow-gray-600 hover:shadow-none overflow-hidden ring-2 hover:ring-4 ring-[#d1c3e3] hover:ring-[#9f9f9f] hover:rounded cursor-pointer "
+          className="border w-fit bg-white shadow-xl shadow-gray-600 hover:shadow-none overflow-hidden ring-2 hover:ring-4 ring-[#d1c3e3] hover:ring-blue-500 hover:rounded cursor-pointer "
         >
           <article className="w-fit flex flex-col-reverse relative ">
             <h2 className={`text-2xl text-center bg-black ${page === false ? "absolute  w-full" : ""}`}>
