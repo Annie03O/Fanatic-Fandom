@@ -105,8 +105,8 @@ export const Modal = ({ title, imgUrl, onClose, images, type, toggleImage }: Pro
                   </span>
                 ) : null}
             </section>
-            <button type="button" onClick={onClose} aria-label="Close poster" className="text-4xl text-black">
-              <FontAwesomeIcon icon={faClose} />
+            <button type="button" onClick={onClose} aria-label="Close poster" className="text-4xl text-black cursor-pointer ">
+              <FontAwesomeIcon className="hover:text-blue-500" icon={faClose} />
             </button>
           </header>
 
