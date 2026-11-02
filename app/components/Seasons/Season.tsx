@@ -48,9 +48,6 @@ function Season({ season, genre, slug }: Props) {
     );
   }, [episodeBreakdownList, selectedEpisode]);
 
-  console.log("visibleEpisodes",visibleEpisodes);
-  
-
   return (
     <main className="flex flex-col justify-center items-center text-[#d1c3e3] w-full">
                 <article className="w-full p-1 flex flex-col">            
@@ -88,7 +85,7 @@ function Season({ season, genre, slug }: Props) {
                                 {visibleEpisodes.map((episode) => {
                                   return (
                                   <RenderEpisodeBreakdown
-                                    key={episode.id}
+                                    key={`${episode.id}-${episode.episodeNumber}`}
                                     episode={episode}
                                     slug={slug}
                                   />)
