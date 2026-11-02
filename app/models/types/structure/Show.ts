@@ -23,7 +23,7 @@ export type Show = {
   tags: string[];
   mainCharacters: Character[];
   cast: CastMember[];
-  recurring: CastMember[],
+  recurring: Character[],
   movies?: Movie[];  // for shows that have movies instead of seasons, like "The Hunger Games"
   seasons?: Season[];
   creator: string[] | string;
