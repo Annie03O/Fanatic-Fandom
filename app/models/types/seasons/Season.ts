@@ -16,8 +16,6 @@ export type Season = {
   generation?: 1 | 2 | 3;
   hasNewMainCast: boolean;
   mainCast?: CastMember[];
-  hasNewRecurring: boolean;
-  recurring?: CastMember[];
   guestStars?: CastMember[];
   episodeBreakdown: EpisodeBreakdown[];
   network: string | string[];
