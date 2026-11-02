@@ -35,4 +35,5 @@ export type Character = {
     generation?: 1 | 2 | 3;
     classOf?: "2006" | "2007" | "2008" | "2011" | "2013" | "2014" |"2015" | "2016" | "2017" |"2020" | "Other";
     characterArc?: CharacterArc[];
+    seasons?: string[];
 }

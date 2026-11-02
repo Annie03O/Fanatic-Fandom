@@ -39,39 +39,11 @@ export function convertToSeasonInfobox(season?: Season) {
     })
     .filter((s): s is string => Boolean(s));
 
-    const recurringCastNames: string[] = (season.recurring ?? [])
-    .filter(Boolean)
-    .map((c) => {
-      const a = c.actor;
-
-      // Anpassa efter din CastMember-shape:
-      if (typeof a === "string") return a;
-
-      // Om actor är objekt (t.ex. { firstName, lastName } eller { name })
-      if (a && typeof a === "object") {
-        const anyA = a as any;
-        const full =
-          [anyA.firstName, anyA.lastName].filter(Boolean).join(" ") ||
-          anyA.name ||
-          "";
-        return String(full).trim();
-      }
-
-      return "";
-    })
-    .filter((s): s is string => Boolean(s));
-
 
   const fields = [
     mainCastNames.length ? { 
       label: "Main Cast", 
       info: mainCastNames 
-    } 
-    : null,
-
-    recurringCastNames.length ? {
-      label: "Recurring",
-      info: recurringCastNames,
     } 
     : null,
     // InfoField vill inte ha number -> gör string
