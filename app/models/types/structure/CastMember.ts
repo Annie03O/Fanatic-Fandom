@@ -4,5 +4,6 @@ export type CastMember = {
   creditOrder?: number; // 1 = toppnamn
   imageUrl?: string;
   gender?: "F" | "M";
+  seasons: string[]
 }; 
 
