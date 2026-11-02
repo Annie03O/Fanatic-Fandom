@@ -12,5 +12,8 @@ export var DanielAttias_Name = "Daniel Attias";
         export var Luke_Name = "Luke";
         export var Seth_Name = "Seth";
 
+    // Unisex
+        export var Alex_Name = "Alex"
+
 // First/Last names
     export var Taylor_Name = "Taylor"

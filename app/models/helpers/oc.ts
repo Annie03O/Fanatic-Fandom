@@ -88,6 +88,12 @@ export var OC_ID = generateId(OC_Title);
             export var AnnaStern_fullName = generateLabel(Anna_Name, AnnaStern_lastName);
             export var AnnaStern_ID = generateId(AnnaStern_fullName!);
 
+         // Oliver
+            export var OliverTrask_firstName = "Oliver";
+            export var OliverTrask_lastName = "Trask";
+            export var OliverTrask_fullName =  generateLabel(OliverTrask_firstName, OliverTrask_lastName);
+            export var OliverTrask_ID = generateId(OliverTrask_fullName!)
+
         // Lindsey
            export var LindseyGardner_firstName = "Lindsey";
            export var LindseyGardner_lastName = "Gardner"
