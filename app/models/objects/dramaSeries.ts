@@ -8813,13 +8813,25 @@ tags: [
           firstName: "Taryn",
           lastName:"Baker",
           actor: "Kim Oja",
+          seasons: [
+            ocS1_ID,
+            ocS2_ID,
+            ocS3_ID,
+            ocS4_ID
+          ]
         },
         {
           id: generateId("Neil Roberts"),
           label: "Dr. Neil Roberts",
           firstName: "Neil",
           lastName: SummerRoberts_lastName,
-          actor: "Michael Nouri"
+          actor: "Michael Nouri",
+          seasons: [
+            ocS1_ID,
+            ocS2_ID,
+            ocS3_ID,
+            ocS4_ID
+          ]
         },
       // Season 1 + 2 + 3
         {
@@ -8827,6 +8839,11 @@ tags: [
           firstName: DawnAtwood_firstName,
           lastName: Atwood_Name,
           actor:    "Daphne Ashbrook",	
+          seasons: [
+            ocS1_ID,
+            ocS2_ID,
+            ocS3_ID,
+          ] 
         },
         {
           id: TreyAtwood_ID,
@@ -8836,12 +8853,22 @@ tags: [
             "Bradley Stryker",
             "Logan Marshall-Green"
           ],
+          seasons: [
+            ocS1_ID,
+            ocS2_ID,
+            ocS3_ID,
+          ]
         },
         {
           id: generateId("Theresa Diaz"),
           firstName: "Theresa",
           lastName: "Diaz",
           actor:    "Navi Rawat",
+          seasons: [
+            ocS1_ID,
+            ocS2_ID,
+            ocS3_ID,
+          ]
         },
       //  Season 1 + 2
         {
@@ -8849,6 +8876,10 @@ tags: [
           firstName: "Hailey",
           lastName: CalebNichols_lastName,
           actor:  "Amanda Righetti",
+          seasons: [
+            ocS1_ID,
+            ocS2_ID,
+          ]
         },
        
 
@@ -8858,11 +8889,19 @@ tags: [
           firstName: Anna_Name, 
           lastName:AnnaStern_lastName,
           actor: "Samaire Armstrong",	
+          seasons: [
+            ocS1_ID,
+            ocS3_ID,
+          ]
         },
         {
           id: generateId("Dr. Kim"),
           label: "Dr. Kim",
           actor: "Rosalind Chao",
+          seasons: [
+            ocS1_ID,
+            ocS3_ID,
+          ]
         },
        
 
@@ -8872,18 +8911,30 @@ tags: [
           firstName: "Holly",
           lastName: "Fischer",
           actor: "Ashley Hartman",
+          seasons: [
+            ocS1_ID,
+            ocS4_ID,
+          ]
         },
                 {
           id: generateId("Brad Ward"),
           firstName: "Brad",
           lastName: "Ward",
           actor:    "Wayne Dalglish",
+          seasons: [
+            ocS1_ID,
+            ocS4_ID,
+          ]
         },
         {
           id:         generateId("Eric Ward"),
           firstName: "Eric",
           lastName: "Ward",
           actor:    "Corey Price",
+          seasons: [
+            ocS1_ID,
+            ocS4_ID,
+          ]
         },
 
       
@@ -8893,100 +8944,140 @@ tags: [
           firstName: "Rachel ",
           lastName: "Hoffman",
           actor: "Bonnie Somerville",
+          seasons: [
+            ocS1_ID,
+          ]
         },
         {
           id: OliverTrask_ID,  
           firstName: OliverTrask_firstName,
           lastName: OliverTrask_lastName,
           actor: "Taylor Handley",
+          seasons: [
+            ocS1_ID,
+          ]
         },
-
-
-
-
-
-        // Season 2 
-          // Season 3  
-
         
       // Season 2
       {
         id: "dj-the-oc",
         firstName: "D.J.",
         actor: "Nicholas Gonzalez",
+        seasons: [
+            ocS2_ID,
+        ]
       },
       {
         id:       generateId("Zach Stevens"),
         firstName:"Zach",
         lastName: "Stevens",
         actor:    "Michael Cassidy",
+        seasons: [
+            ocS2_ID,
+        ]
       },
       {
         id: generateId(`${Alex_Name} Kelly`),
         firstName: Alex_Name,
         lastName:  "Kelly",
         actor:     "Olivia Wilde	",
+        seasons: [
+            ocS2_ID,
+        ]
       },
       {
         id: LindseyGardner_ID,      
         firstName: LindseyGardner_firstName,
         lastName: LindseyGardner_lastName,
         actor: "Shannon Lucio",	
+        seasons: [
+            ocS2_ID,
+        ]
       },
       {
         id: generateId("Renee Wheeler"),
         firstName: "Renee",
         lastName: "Wheeler",
         actor: "Kathleen York",
+        seasons: [
+            ocS2_ID,
+        ]
       },
       {
         id: generateId("Rebecca Bloom"),
         firstName: "Rebecca",
         lastName:"Bloom",
         actor: "Kim Delaney",
+        seasons: [
+            ocS2_ID,
+        ]
       },
       {
         id: generateId("Carter Buckley"),
         firstName: "Carter",
         lastName: "Buckley",
         actor: "Billy Campbell",
+        seasons: [
+            ocS2_ID,
+        ]
       },
       {
         id: generateId("Lance Baldwin"),
         firstName: "Lance",
         lastName: "Baldwin",
         actor: "Johnny Messner",
+        seasons: [
+            ocS2_ID,
+        ]
       },
       {
         id: generateId("Reed Carlson"),
         firstName: "Reed",
         lastName: "Carlson",
         actor: "Marguerite Moreau",
+        seasons: [
+            ocS2_ID,
+        ]
       },
       {
         id: generateId("Jess Sathers"),
         firstName: "Jess",
         lastName: "Sathers",
         actor: "Nikki Griffin",
+        seasons: [
+            ocS2_ID,
+        ]
       },
 
     // Season 3 + 4
       {
         id: generateId(`Heather ${OC_Title}`),
         firstName: "Heather",
-        actor: "Erin Foster"
+        actor: "Erin Foster",
+        seasons: [
+            ocS3_ID,
+            ocS4_ID
+        ]
       },
       {
         id: generateId("Kevin Volchock"),
         firstName: "Kevin",
         lastName: "Volchock",
         actor: "Cam Gigandet",
+        seasons: [
+            ocS3_ID,
+            ocS4_ID
+        ]
       },
       {
         id: generateId("Veronica Townsend"),
         firstName: "Veronica",
         lastName: "Townsend",
         actor: "Paula Trickey",
+        seasons: [
+            ocS3_ID,
+            ocS4_ID
+        ]
       },
     
     // Season 3
@@ -8995,47 +9086,71 @@ tags: [
         firstName: "Charlotte",
         lastName: "Morgan",
         actor: "Jeri Ryan",
+        seasons: [
+            ocS3_ID,
+        ]
       },
       {
         id: generateId("Jack Hess"),
         firstName: "Jack",
         lastName: "Hess",
         actor: "Eric Mabius",
+        seasons: [
+            ocS3_ID,
+        ]
       },
       {
         id: generateId("Johnny Harper"),
         firstName: "Johnny",
         lastName: "Harper",
         actor: "Ryan Donowho",
+        seasons: [
+            ocS3_ID,
+        ]
       },
       {
         id: generateId("Dennis Childress"),
         firstName: "Dennis",
         lastName: "Childress",
         actor: "Johnny Lewis",
+        seasons: [
+            ocS3_ID,
+        ]
       },
       {
         id: generateId(`Casey ${OC_Title}`),
         firstName: "Casey",
-        actor: "Kayla Ewell"
+        actor: "Kayla Ewell",
+        seasons: [
+            ocS3_ID,
+        ]
       },
       {
         id: generateId("Matt Ramsey"),
         firstName: "Matt",
         lastName: "Ramsey",
         actor: "Jeff Hephner",
+        seasons: [
+            ocS3_ID,
+        ]
       },
       {
         id: generateId("Sadie Campbell"),
         firstName: "Sadie",
         lastName: "Campbell",
         actor: "Nikki Reed",
+        seasons: [
+            ocS3_ID,
+        ]
       },
       {
         id: generateId("Henry Griffin"),
         firstName: "Henry",
         lastName: "Griffin",
         actor: "Shaun Duke",
+        seasons: [
+            ocS3_ID,
+        ]
       },
     // Season 4
       {
@@ -9043,24 +9158,36 @@ tags: [
         firstName: "Che",
         lastName: "Coo",
         actor: "Chris Pratt",
+        seasons: [
+            ocS4_ID,
+        ]
       },
       {
         id: "gordon-bullit",
         firstName: "Gordon",
         lastName: "Bullit",
-        actor: "Gary Grubbs"
+        actor: "Gary Grubbs",
+        seasons: [
+            ocS4_ID,
+        ]
       },
       {
         id: "spencer-bullit",
         firstName: "Spencer",
         lastName: "Bullit",
-        actor: "Brandon Quinn"
+        actor: "Brandon Quinn",
+        seasons: [
+            ocS4_ID,
+        ]
       },
       {
         id: "frank-Atwood	",
         firstName: "Frank",
         lastName: "Atwood	",
-        actor: "Kevin Sorbo"
+        actor: "Kevin Sorbo",
+        seasons: [
+            ocS4_ID,
+        ]
       },
     ],
     seasons: [
@@ -9068,7 +9195,7 @@ tags: [
         id: generateId(OC_Title + "-Season 1"),
         seasonNumber: 1,
         hasNewMainCast: false,
-        
+        plot: "The season follows the Cohen and Cooper families, and high school sophomore Ryan Atwood, described as \"a troubled teen from the wrong side of the tracks\" who is thrust into the wealthy, harbor-front community of Newport Beach, Orange County, California and \"will forever change the lives of the residents\".",
         premiereDate:  "August 05, 2003" ,
         finaleDate:  "May 5, 2004" ,
         premiereEpisode:  ocPilot_Title,

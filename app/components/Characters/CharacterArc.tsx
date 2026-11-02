@@ -21,12 +21,6 @@ export const CharacterArc = ({ character }: { character: Character }) => {
         return characterArcs.filter((a) => a.seasonNumber === selectedSeason);
       }, [characterArcs, selectedSeason]);
     
-      const toggleExpanded = (seasonNumber: number) => {
-        setExpandedBySeason((prev) => ({
-          ...prev,
-          [seasonNumber]: !prev[seasonNumber],
-        }));
-      };
     
       return (
         <section className="flex flex-col border-gray-600 gap-10 text-black p-2 w-[90%]">

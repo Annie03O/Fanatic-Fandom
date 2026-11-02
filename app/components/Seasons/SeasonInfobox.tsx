@@ -7,24 +7,36 @@ import { createImages } from "@/app/models/objects/images";
 import { seriesBetaWithSlug } from "@/app/functions/dramaSeriesTop50WithSlug";
 import { useState } from "react";
 import { toggleImage } from "@/app/functions/toggleImage";
+import { Show } from "@/app/models/types/structure/Show";
 
 type Props = { 
-  season: Season 
   genre:  Genre;
   slug: string;
 };
 
 
-export const SeasonInfobox = ({ season, genre, slug }: Props) => {
+export const SeasonInfobox = ({ genre, slug }: Props) => {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [chosenImage, setChosenImage] = useState<string>("");
+  
+  const show = seriesBetaWithSlug.items.find((i) => i.slug === slug)
 
-  const seasonWithInfobox = convertToSeasonInfobox(season);
+
+  if (!show) return console.error("Show not found");
+  
+  if  (show.seasons ===  undefined) return console.error("Season is undefined");
+  
+
+  const season = show.seasons.find((i) => i.id)
+
+  if (season === undefined) return console.error("Season with slug: ", slug, " not found" );
+  
+
+  const seasonWithInfobox = convertToSeasonInfobox(show);
   const box = seasonWithInfobox?.infobox;
 
   if (!box) return null;
 
-  const show = seriesBetaWithSlug.items.find((i) => i.slug === slug)
 
   if (!show) {
     console.error(`Show not found for slug "${slug}"`);
