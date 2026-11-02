@@ -8717,6 +8717,7 @@ tags: [
       {
         id: generateId(OC_Title + "-Season 1"),
         seasonNumber: 1,
+        mainCast: [],
         premiereDate:  "August 05, 2003" ,
         finaleDate:  "May 5, 2004" ,
         premiereEpisode:  ocPilot_Title,

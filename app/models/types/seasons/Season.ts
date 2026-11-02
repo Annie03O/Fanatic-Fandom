@@ -14,8 +14,10 @@ export type Season = {
   posterUrl: Image;
   episodeCount: number;
   generation?: 1 | 2 | 3;
-  mainCast: CastMember[];
-  recurring: CastMember[];
+  hasNewMainCast: boolean;
+  mainCast?: CastMember[];
+  hasNewRecurring: boolean;
+  recurring?: CastMember[];
   guestStars?: CastMember[];
   episodeBreakdown: EpisodeBreakdown[];
   network: string | string[];
