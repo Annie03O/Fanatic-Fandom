@@ -9792,6 +9792,63 @@ tags: [
         noSeason: 1,
         imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video22/v4/53/b8/01/53b8015e-1328-ee76-11b6-e97448103861/mzm.awsotetf.lsr/400x400bb.jpg", 
         noImage: false,
+        songs: [ 
+          {
+            episodeTitle: "Premiere",
+            song: [
+              {
+                id: generateId("Sweet Honey Slightly Stoopid"),
+                title: "Sweet Honey",
+                artist:  "Slightly Stoopid"
+              },
+              {
+                id: generateId("Swing, Swing The All-American Rejects"),
+                title: "Swing, Swing",
+                artist: "The All-American Rejects",
+             },
+             {
+                id: generateId("Honey And The Moon Joseph Arthur"),
+                title: "Honey And The Moon",
+                artist:  "Joseph Arthur"
+              },
+              {
+                id: generateId("Show Me Cham Pain"),
+                title: "Show Me",
+                artist:  "Cham Pain"
+              },
+              {
+                id: generateId("All Around the World Cooler Kids"),
+                title: "All Around the World",
+                artist:  "(Punk Debutante) Cooler Kids"
+              },
+              {
+                id: generateId("Hands Up The Black Eyed Peas"),
+                title: "Hands Up",
+                artist: "The Black Eyed Peas"
+              },
+              {
+                id: generateId("I'm A Player The K.G.B."),
+                title: "I'm A Player",
+                artist: "The K.G.B.",
+              },
+              {
+                id: generateId("Into Dust Mazzy Star"),
+                title: "Into Dust",
+                artist:  "Mazzy Star"
+              },
+              {
+                id: generateId("Let It Roll Maximum Roach"),
+                title: "Let It Roll",
+                artist:  "Maximum Roach"
+              },
+              {
+                id: generateId("California Phantom Planet"),
+                title: "California",
+                artist:  "Phantom Planet"
+              },
+            ]
+          }
+        ]
       },
       {
         id: "the-oc-soundtrack-s2",
