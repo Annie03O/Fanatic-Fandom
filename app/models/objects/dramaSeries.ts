@@ -9847,6 +9847,56 @@ tags: [
                 artist:  "Phantom Planet"
               },
             ]
+          },
+          {
+           episodeTitle: "The Model Home",
+           song: [
+              { 
+                id: generateId("Hallelujah Jeff Buckley"),
+                title: "Hallelujah", 
+                artist: "Jeff Buckley" 
+              },
+              { 
+                id: generateId("California Rufus Wainwright"),
+                title: "California", 
+                artist: "Rufus Wainwright" 
+              },
+              { 
+                id: generateId("I'm A Terrible Person Rooney"),
+                title: "I'm A Terrible Person", 
+                artist: "Rooney" 
+              },
+              { 
+                id: generateId("Caught By The River Doves"),
+                title: "Caught By The River", 
+                artist: "Doves" 
+              },
+              { 
+                id: generateId("In Your Eyes Aaron D"),
+                title: "In Your Eyes", 
+                artist: "Aaron D" 
+              },
+              { 
+                id: generateId("Do It With Madonna The Androidss"),
+                title: "Do It With Madonna", 
+                artist: "The Androidss" 
+              },
+              { 
+                id: generateId("We're Going Out Tonight Shady Lady"),
+                title: "We're Going Out Tonight", 
+                artist: "Shady Lady" 
+              },
+              { 
+                id: generateId("Hands Up The Black Eyed Peas"),
+                title: "Hands Up", 
+                artist: "The Black Eyed Peas" 
+              },
+              { 
+                id: generateId("Brand New Jones Robin Thicke"),
+                title: "Brand New Jones", 
+                artist: "Robin Thicke (as Thicke)" 
+              },
+           ] 
           }
         ]
       },
