@@ -197,7 +197,7 @@ export var OC_ID = generateId(OC_Title);
            export var ocS1Ep17_ID = generateId(OC_Title + ocS1Ep17_Title);
 
         // Ep 20
-           export var ocS1Ep20_Title = "The Rivals";
+           export var ocS1Ep20_Title = "The Telenovela";
            export var ocS1Ep20_ID = generateId(OC_Title + ocS1Ep20_Title);
 
         // Ep 24
