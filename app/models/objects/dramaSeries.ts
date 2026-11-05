@@ -10217,6 +10217,56 @@ tags: [
                 artist: "Jet"
               },
             ]
+          }, 
+          {
+            episodeTitle: "The Best Christmukkah Ever",
+            song: [
+              {
+                id: generateId("Santa Claus is Coming to Town The Ventures"),
+                title: "Santa Claus is Coming to Town",
+                artist: "The Ventures"
+              },            
+              {
+                id: generateId("Maybe This Christmas Ron Sexsmith"),
+                title: "Maybe This Christmas",
+                artist: "Ron Sexsmith"
+              },
+              {
+                id: generateId("(You Come In) Burned The Dandy Warhols"),
+                title: "(You Come In) Burned",
+                artist: "The Dandy Warhols"
+              },
+              {
+                id: generateId("Hannukah Lights Firstcom Music"),
+                title: "Hannukah Lights",
+                artist: "Firstcom Music"
+              },
+              {
+                id: generateId("Winter Wonderland Peggy Lee"),
+                title: "Winter Wonderland",
+                artist: "Peggy Lee"
+              },
+              {
+                id: generateId("Silent Night Firstcom Music"),
+                title: "Silent Night",
+                artist: "Firstcom Music"
+              },
+              {
+                id: generateId("Santa Baby Eartha Kitt"),
+                title: "Santa Baby",
+                artist: "Eartha Kitt"
+              },
+              {
+                id: generateId("We Wish You a Merry Christmas Firstcom Music"),
+                title: "We Wish You a Merry Christmas",
+                artist: "Firstcom Music"
+              },
+              {
+                id: generateId("Blue Christmas Bright Eyes"),
+                title: "Blue Christmas",
+                artist: "Bright Eyes"
+              },
+            ]
           }
         ]
       },
