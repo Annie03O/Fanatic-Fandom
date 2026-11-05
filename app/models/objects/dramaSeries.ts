@@ -10072,6 +10072,26 @@ tags: [
                 artist: "Mazzy Star"
               }
             ]
+          },
+          {
+            episodeTitle: "The Rescue",
+            song: [
+              {
+                id: generateId("Keep it Together Guster"),
+                title: "Keep it Together",
+                artist: "Guster"
+              },
+              {
+                id: generateId("Mr. Rabbit Paul Westerberg"),
+                title: "Mr. Rabbit",
+                artist: "Paul Westerberg"
+              },
+              {
+                id: generateId("Le Femme D'argent Air"),
+                title: "Le Femme D'argent",
+                artist: "Air"
+              }
+            ]
           }
         ]
       },
