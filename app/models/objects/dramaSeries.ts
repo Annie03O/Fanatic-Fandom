@@ -10347,6 +10347,36 @@ tags: [
                 artist: "Rooney"
               }
             ]
+          },
+          {
+            episodeTitle: "The Links",
+            song: [
+              {
+                id: generateId("Away From Me Puddle of Mudd"),
+                title: "Away From Me",
+                artist: "Puddle of Mudd"
+              },
+              {
+                id: generateId("Quiet Village Martin Denney"),
+                title: "Quiet Village",
+                artist: "Martin Denney"
+             },
+              {
+                id: generateId("It's Not Unusual Tom Jones"),
+                title: "It's Not Unusual",
+                artist: "Tom Jones"
+             },
+              {
+                id: generateId("Love Dance Martin Denney"),
+                title: "Love Dance",
+                artist: "Martin Denney"
+            },
+              {
+                id: generateId("Addicted Enrique Iglesias"),
+                title: "Addicted",
+                artist: "Enrique Iglesias"
+            },
+            ]
           }
         ]
       },
