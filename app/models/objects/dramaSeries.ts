@@ -10152,6 +10152,46 @@ tags: [
                   artist: "Leaves"
                 },
             ]
+          },
+          {
+            episodeTitle: "The Homecoming",
+            song:  [
+              {
+                id: generateId("Orange Sky Alexi Murdoch"),
+                title: "Orange Sky",
+                artist: "Alexi Murdoch"
+              },
+              {
+                id: generateId("We Drink On The Job Earlimart"),
+                title: "We Drink On The Job",
+                artist: "Earlimart"
+              },
+              {
+                id: generateId("Breathe Easy Minibar"),
+                title: "Breathe Easy",
+                artist: "Minibar"
+              },
+              {
+                id: generateId("Different Stars Trespassers William"),
+                title: "Different Stars",
+                artist: "Trespassers William"
+              },
+              {
+                id: generateId("Caravan The Joh Buzon Trio"),
+                title: "Caravan",
+                artist: "The Joh Buzon Trio"
+              },
+              {
+                id: generateId("Caravan Gordon Jenkins"),
+                title: "Caravan",
+                artist: "Gordon Jenkins"
+              },
+              {
+                id: generateId("Latinos Mundial Mellowman Ace"),
+                title: "Latinos Mundial",
+                artist: "Mellowman Ace"
+              },
+            ]
           }
         ]
       },
