@@ -10131,6 +10131,26 @@ tags: [
                 title: "Breathe",
                 artist: "Leaves"
               },
+            ],
+          },
+          {
+            episodeTitle: "The Perfect Couple",
+            song: [
+                {
+                  id: generateId("Strange and Beautiful (I'll Put a Spell on You) Matt Hales"),
+                  title: "Strange and Beautiful (I'll Put a Spell on You)",
+                  artist: "Matt Hales"
+                },            
+                {
+                  id: generateId("A Fine Romance Stacey Kent"),
+                  title: "A Fine Romance",
+                  artist: "Stacey Kent"
+                },       
+                {
+                  id: generateId("Breathe Leaves"),
+                  title: "Breathe",
+                  artist: "Leaves"
+                },
             ]
           }
         ]
