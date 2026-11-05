@@ -96,16 +96,20 @@ function formatFamilyRelation(ship: Relationship) {
       }
       
 
-      if (ship.family === "Grandparent") {
-        const base = ship.gender === "F" ? "Grandmother" : "Grandfather"
+       if (ship.extended === true) {  
+         const side = ship.ifExtended === "Maternal" ? "Maternal" : "Paternal"
 
-        // mest specifikt först
-        if (tof === "Biological" && ship.adopted) return `${ship.name} Biological ${base}`;
-        if (tof === "Biological") return `${ship.name} (${base})`;
-        if (tof === "Step") return `${ship.name} (Step ${base})`;
-        if (tof === "Adoptive") return `${ship.name} (Adoptive ${base})`;
-      
-        return ship.name + " " + `(${base})`;
+          if (ship.family === "Grandparent") {
+            const base = ship.gender === "F" ? "Grandmother" : "Grandfather"
+          
+            // mest specifikt först 
+            if (tof === "Biological" && ship.adopted) return `${ship.name} (Biological ${side + " " + base})`;
+            if (tof === "Biological") return `${ship.name} (${side + " " + base})`;
+            if (tof === "Step") return `${ship.name} (Step ${side + " " + base})`;
+            if (tof === "Adoptive") return `${ship.name} (Adoptive ${side + " " + base})`;
+          
+            return ship.name + " " + `(${base})`;
+          }
       }
     }
 
