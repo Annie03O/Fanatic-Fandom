@@ -6,6 +6,7 @@ import type { Image } from "@/app/models/types/structure/Image";
 import type { Relationship } from "@/app/models/types/structure/Relationship";
 import type { Show } from "@/app/models/types/structure/Show";
 import { generateLabel } from "@/app/functions/Format/generateLabels";
+import { findImageByPageId } from "@/app/models/objects/images";
 
 type Props = {
   item: Relationship;
@@ -29,7 +30,19 @@ export const ShipCard = ({ item, show }: Props) => {
     return null;
   }
 
-  const relationshipImage = item.imgUrl;
+  const episodeImages = show.seasons?.flatMap((season) => 
+    (season.episodeBreakdown ?? []).flatMap((episode) => 
+      episode.imageUrl ? [episode.imageUrl] : [],
+    )
+  );
+
+  if (episodeImages === undefined) return console.error("episodeImages are undefined");
+  
+
+
+  const relationshipImage = findImageByPageId(episodeImages, item.id!)
+    ?? (item.imgUrl?.src.trim() ? item.imgUrl : undefined);
+
   const characterPoster = character.posterUrl ?? character.imageUrl;
   const modalImages: Image[] = [
     ...(relationshipImage ? [relationshipImage] : []),
