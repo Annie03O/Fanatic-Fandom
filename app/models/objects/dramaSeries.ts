@@ -10090,7 +10090,47 @@ tags: [
                 id: generateId("Le Femme D'argent Air"),
                 title: "Le Femme D'argent",
                 artist: "Air"
-              }
+              },
+            ],
+          },
+          {
+            episodeTitle: ocS1Ep9_Title,
+            song: [
+              {
+                id: generateId("Paint the Silence South"),
+                title: "Paint the Silence",
+                artist: "South"
+              },
+              {
+                id: generateId("Don't Give Up On Me Solomon Burke"),
+                title: "Don't Give Up On Me",
+                artist: "Solomon Burke"
+              },
+              {
+                id: generateId("How Good Can It Be The 88"),
+                title: "How Good Can It Be",
+                artist: "The 88"
+              },
+            ],
+          }, 
+          {
+            episodeTitle: ocS1Ep9_Title,
+            song: [
+              {
+                id: generateId("Strange and Beautiful (I'll Put a Spell on You) Matt Hales"),
+                title: "Strange and Beautiful (I'll Put a Spell on You)",
+                artist: "Matt Hales"
+              },
+              {
+                id: generateId("A Fine romance Stacey Kent"),
+                title: "A Fine romance",
+                artist: "Stacey Kent"
+              },
+              {
+                id: generateId("Breathe Leaves"),
+                title: "Breathe",
+                artist: "Leaves"
+              },
             ]
           }
         ]
