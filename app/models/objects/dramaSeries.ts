@@ -10683,7 +10683,58 @@ tags: [
                 title: "9 Lives",
                 artist: "South"
               },
-            ] 
+            ], 
+          },
+          {
+            episodeTitle: "The Strip",
+            song: [
+              {
+                id: generateId("Jacqueline Franz Ferdinand"),
+                title: "Jacqueline",
+                artist: "Franz Ferdinand"
+              },
+              {
+                id: generateId("On Parade Electrelane"),
+                title: "On Parade",
+                artist: "Electrelane"
+              },
+              {
+                id: generateId("Ch-Checkit Out The Beastie Boys"),
+                title: "Ch-Checkit Out",
+                artist: "The Beastie Boys"
+              },
+              {
+                id: generateId("So Sweet Jonathan Rice"),
+                title: "So Sweet",
+                artist: "Jonathan Rice"
+              },
+              {
+                id: generateId("How High Tricky"),
+                title: "How High",
+                artist: "Tricky"
+              },
+              {
+                id: generateId("The Vanishing Stars"),
+                title: "The Vanishing",
+                artist: "Stars"
+              },
+              {
+                id: generateId("Fire The Ohio Players"),
+                title: "Fire",
+                artist: "The Ohio Players"
+              },
+              {
+                id: generateId("Passing By Zero 7"),
+                title: "Passing By",
+                artist: "Zero 7"
+              },
+              {
+                id: generateId("Meet Your Demise The Willowz"),
+                title: "Meet Your Demise",
+                artist: "The Willowz"
+              },
+
+            ]
           }
         ]
       },
