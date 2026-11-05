@@ -10379,7 +10379,7 @@ tags: [
             ]
           },
           {
-            episodeTitle: "The Rivals",
+            episodeTitle: ocS1Ep17_Title,
             song: [
               {
                 id: generateId("Come Into Our Room Clinic"),
