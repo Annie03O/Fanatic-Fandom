@@ -111,8 +111,16 @@ export var OC_ID = generateId(OC_Title);
             export var RyanSeth_Label = generateShipLabel(RyanAtwood_firstName, Seth_Name);
             export var RyanSeth_ID = generateId(RyanSeth_Label!);
 
+            export var SethSandy_Label = generateShipLabel(Seth_Name, SandyCohen_firstName)
+            export var SethSandy_ID = generateId(SethSandy_Label!);   
+
+            export var SethKirsten_Label = generateShipLabel(Seth_Name, KirstenCohen_firstName);
+            export var SethKirsten_ID = generateId(SethKirsten_Label!)
+
             export var RyanSummer_Label = generateShipLabel(RyanAtwood_firstName, SummerRoberts_firstName);
             export var RyanSummer_ID = generateId(RyanSummer_Label!)
+
+
 
          // The Atwoods
             export var RyanDawn_Label = generateShipLabel(RyanAtwood_firstName, DawnAtwood_firstName);
