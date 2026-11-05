@@ -10508,6 +10508,51 @@ tags: [
                 artist: "Patrick Park"
               },
             ]
+          }, 
+          {
+            episodeTitle: "The Goodbye Girl",
+            song: [
+              {
+                id: generateId("Alone Trespassers William"),
+                title: "Alone",
+                artist: "Trespassers William"
+              },
+              {
+                id: generateId("A Lack of Color Death Cab for Cutie"),
+                title: "A Lack of Color",
+                artist: "Death Cab for Cutie"
+              },
+              {
+                id: generateId("Specialist Interpol"),
+                title: "Specialist",
+                artist: "Interpol"
+              },
+              {
+                id: generateId("Walkin' The Walk Mastersource"),
+                title: "Walkin' The Walk",
+                artist: "Mastersource"
+              },
+              {
+                id: generateId("Something For You Mastersource"),
+                title: "Something For You",
+                artist: "Mastersource"
+              },
+              {
+                id: generateId("Separate Ways Journey"),
+                title: "Separate Ways",
+                artist: "Journey"
+              },
+              {
+                id: generateId("If You Leave Nada Surf"),
+                title: "If You Leave",
+                artist: "Nada Surf"
+              },
+              {
+                id: generateId("I Care 4 U Aaliyah"),
+                title: "I Care 4 U",
+                artist: "Aaliyah"
+              },
+            ]
           }
         ]
       },
