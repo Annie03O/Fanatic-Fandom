@@ -4,6 +4,7 @@ export type Image = {
   src: string;
   alt: string;
   pageId: string[];
+  card?: boolean;
 }
 
 export type EpisodeImage = Image & {
