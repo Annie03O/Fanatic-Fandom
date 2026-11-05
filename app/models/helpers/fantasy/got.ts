@@ -11,6 +11,13 @@ export var got_ID = generateId(got_Title);
     // Episodes
         // Episode 3
            export var gotS1Ep3_Title = "Lord Snow";
+           export var gotS1Ep3_ID = generateId(gotS1Ep3_Title);
+
+        // Episode 5
+           export var gotS1Ep5_Title = "The wolf and the lion";
+           export var gotS1Ep5_ID = generateId(gotS1Ep3_Title);        
+
+
            
 
     export var gotS2_Title = got_Title + ", Season 2";
