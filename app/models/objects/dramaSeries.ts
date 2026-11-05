@@ -10658,7 +10658,32 @@ tags: [
                 title: "Pillows and Records",
                 artist: "Highwater Rising"
               },
-            ]
+            ],
+          },
+          {
+            episodeTitle: "The Shower",
+            song: [
+              {
+                id: generateId("Met A Girl Like You Once Zack Hexum"),
+                title: "Met A Girl Like You Once",
+                artist: "Zack Hexum"
+              },
+              {
+                id: generateId("Keep It Clean Camera Obscura"),
+                title: "Keep It Clean",
+                artist: "Camera Obscura"
+              },
+              {
+                id: generateId("Right Now Adam Dorn"),
+                title: "Right Now",
+                artist: "Adam Dorn"
+              },
+              {
+                id: generateId("9 Lives South"),
+                title: "9 Lives",
+                artist: "South"
+              },
+            ] 
           }
         ]
       },
