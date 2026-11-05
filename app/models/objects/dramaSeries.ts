@@ -75,7 +75,7 @@ import {
   TreyAtwood_ID
 } from "../helpers/drama/oc";
 import { generateId } from "@/app/functions/generateID";
-import { Alex_Name, Anna_Name, DanielAttias_Name, JoshSchwartz_Name, Julie_Name, Seth_Name, Taylor_Name } from "../helpers/commonPeople";
+import { Alex_Name, Anna_Name, DanielAttias_Name, JoshSchwartz_Name, Julie_Name, REMArtist, Seth_Name, Taylor_Name } from "../helpers/commonPeople";
 
 const toImage = (src: string, alt: string): Image => ({
   src,
@@ -5043,7 +5043,7 @@ export const dramaSeries: Show[] = [
             },
             {
               title: "Losing My Religion",
-              artist: "R.E.M."
+              artist: REMArtist
             },
             {
               title: "droppin' like flies",
@@ -5073,7 +5073,7 @@ export const dramaSeries: Show[] = [
             song: [
               {
                 title: "You Are the Everything",
-                artist: "R.E.M."
+                artist: REMArtist
               },
               {
                 title: "I Don't Get Much Sleep Anymore",
@@ -5224,7 +5224,7 @@ export const dramaSeries: Show[] = [
              song: [	
                 {
                   title: "radio song",
-                  artist:	"R.E.M.",
+                  artist:	REMArtist,
                 },
                 {
                   title: "build me up buttercup",
@@ -5232,11 +5232,11 @@ export const dramaSeries: Show[] = [
                 },
                 {
                   title: "shiny happy people",
-                  artist:	"R.E.M.",	
+                  artist:	REMArtist,	
                 },
                 {
                   title: "losing my religion",
-                  artist:	"R.E.M.",
+                  artist:	REMArtist,
                 },
                 {
                   title: "over and over",
@@ -9926,6 +9926,41 @@ tags: [
                 title: "Caught By The River",
                 artist: "Less Than Jake"
               }
+            ]
+          },
+          {
+            episodeTitle: "The Debut",
+            song: [
+              {
+                id: generateId("Lazy Days Leona Naess"),
+                title: "Lazy Days",
+                artist: "Leona Naess"
+              },
+              {
+                id: generateId("Play Some D Brassy"),
+                title: "Play Some D",
+                artist: "Brassy"
+              },
+              {
+                id: generateId("To Sheila The Smashing Pumpkins"),
+                title: "To Sheila",
+                artist: "The Smashing Pumpkins"
+              },
+              {
+                id: generateId("Why Can't I? Liz Phair"),
+                title: "Why Can't I?",
+                artist: "Liz Phair"
+              },
+              {
+                id: generateId("White Flag Dido"),
+                title: "White Flag",
+                artist: "Dido"
+              },
+              {
+                id: generateId(`Orange Crush ${REMArtist}`),
+                title: "Orange Crush",
+                artist: REMArtist
+              },           
             ]
           }
         ]
