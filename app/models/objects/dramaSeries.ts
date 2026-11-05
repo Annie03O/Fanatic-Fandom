@@ -10011,7 +10011,51 @@ tags: [
                   title: "Rolling With Heat",
                   artist: "The Roots"
                 },
-
+            ],
+          },
+          {
+            episodeTitle: "The Girlfriend",
+            song: [
+              {
+                id: generateId("Wait For Me The Runaways"),
+                title: "Wait For Me",
+                artist: "The Runaways"
+              },
+              {
+                id: generateId("You're So Damn Hot OK Go"),
+                title: "You're So Damn Hot",
+                artist: "OK Go"
+              },
+              {
+                id: generateId("Disco Church The Faders"),
+                title: "Disco Church",
+                artist: "The Faders"
+              },
+              {
+                id: generateId("Break Palm Street"),
+                title: "Break",
+                artist: "Palm Street"
+              },
+              {
+                id: generateId("More Bounce Soul Kid #1"),
+                title: "More Bounce",
+                artist: "Soul Kid #1"
+              },
+              {
+                id: generateId("Do You User"),
+                title: "Do You",
+                artist: "User"
+              },
+              {
+                id: generateId("Hollow Tricky"),
+                title: "Hollow",
+                artist: "Tricky"
+              },
+              {
+                id: generateId("You and I Both Jason Mraz"),
+                title: "You and I Both",
+                artist: "Jason Mraz"
+              },
             ]
           }
         ]
