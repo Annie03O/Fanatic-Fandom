@@ -73,7 +73,7 @@ import {
   TreyAtwood_firstName, 
   TreyAtwood_fullName, 
   TreyAtwood_ID
-} from "../helpers/oc";
+} from "../helpers/drama/oc";
 import { generateId } from "@/app/functions/generateID";
 import { Alex_Name, Anna_Name, DanielAttias_Name, JoshSchwartz_Name, Julie_Name, Seth_Name, Taylor_Name } from "../helpers/commonPeople";
 
@@ -9794,7 +9794,7 @@ tags: [
         noImage: false,
         songs: [ 
           {
-            episodeTitle: "Premiere",
+            episodeTitle: ocPilot_Title,
             song: [
               {
                 id: generateId("Sweet Honey Slightly Stoopid"),
@@ -9849,7 +9849,7 @@ tags: [
             ]
           },
           {
-           episodeTitle: "The Model Home",
+           episodeTitle: ocS1Ep2_Title,
            song: [
               { 
                 id: generateId("Hallelujah Jeff Buckley"),
@@ -9896,7 +9896,10 @@ tags: [
                 title: "Brand New Jones", 
                 artist: "Robin Thicke (as Thicke)" 
               },
-           ] 
+           ], 
+          },
+          {
+            episodeTitle: 
           }
         ]
       },
