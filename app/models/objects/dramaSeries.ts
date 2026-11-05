@@ -10296,6 +10296,56 @@ tags: [
                 title: "Walking on the Moonlight",
                 artist: "Broockville"
               },
+            ],
+          }, 
+          {
+            episodeTitle: "The Third Wheel",
+            song: [            
+              {
+                id: generateId("I'm Shakin Rooney"),
+                title: "I'm Shakin",
+                artist: "Rooney"
+              },
+              {
+                id: generateId("Saturday Morning Eels"),
+                title: "Saturday Morning",
+                artist: "Eels"
+              },
+              {
+                id: generateId("Popular Mechanics For Lovers Beulah"),
+                title: "Popular Mechanics For Lovers",
+                artist: "Beulah"
+              },
+              {
+                id: generateId("Sorry Sorry Rooney"),
+                title: "Sorry Sorry",
+                artist: "Rooney"
+              },
+              {
+                id: generateId("Blue Side Rooney"),
+                title: "Blue Side",
+                artist: "Rooney"
+              },
+              {
+                id: generateId("Want In Laptop"),
+                title: "Want In",
+                artist: "Laptop"
+              },
+              {
+                id: generateId("Burn Baby Burn Ash"),
+                title: "Burn Baby Burn",
+                artist: "Ash"
+              },
+              {
+                id: generateId("Should I Know Buva"),
+                title: "Should I Know",
+                artist: "Buva"
+              },
+              {
+                id: generateId("Popstars Rooney"),
+                title: "Popstars",
+                artist: "Rooney"
+              }
             ]
           }
         ]
