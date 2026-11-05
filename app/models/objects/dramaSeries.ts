@@ -65,6 +65,8 @@ import {
   SandyKirsten_ID, 
   SanfordBookstaver_Name, 
   SethCohen_fullName, SethCohen_ID, 
+  SethKirsten_ID, 
+  SethSandy_ID, 
   SethSummer_ID, 
   StephanieSavage_Name, 
   SummerRoberts_firstName, SummerRoberts_fullName, 
@@ -8371,7 +8373,7 @@ tags: [
               family: "Grandparent",
               typeOfFamily: "Adoptive",
               extended: true,
-              ifExtended: "Maternal",
+              ifExtended: "Paternal",
               gender: "F",
               dead: true
             },
@@ -8582,7 +8584,121 @@ tags: [
               ocS3_ID
             ]
           },
-        promo: true,
+          relationships: [
+            // Family
+              {
+                id: SethSandy_ID, 
+                name: SandyCohen_fullName,
+                type: "Family",
+                family: "Parent",
+                typeOfFamily: "Biological",
+                gender: "M",
+                imgUrl: {
+                  src: "https://people.com/thmb/CfXLigPHZTjxzJxXOymnQnQ89Ns=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(511x0:513x2)/adam-brody-1024-2fca1fdedc904c6ba9aa5ffd1410d5b1.jpg",
+                  alt: "Sandy and Seth are sitting on the porch to the Cohen house.",
+                  pageId: [
+                    ocS4_ID,
+                    ocSeriesFinale_ID,
+                    SethCohen_ID,
+                    SandyCohen_ID
+                  ],
+                }, 
+                started: [ ocPilot_Title],
+                card: true,
+                shortDesc: "Seth and Sandy have a pretty typical father-son relationship. Sandy tries to give Seth good advice and Seth listens sometimes, but at the end of the day they loven each other.",
+              },
+              {
+                id: SethKirsten_ID,
+                name: KirstenCohen_fullName,
+                type: "Family",
+                family: "Parent",
+                typeOfFamily: "Biological",
+                gender: "F",
+                imgUrl: {
+                  src: "https://static.wikia.nocookie.net/ocwikia/images/9/96/SethBarmitzvah.png/revision/latest?cb=20230207231037",
+                  alt: "Group picture with Seth as a child with his parents.",
+                  pageId: [
+                    SandyCohen_ID,
+                    KirstenCohen_ID
+                  ],
+                }, 
+                card: true,
+                shortDesc: "Much like with Sandy, Seth has a close relationship with his mother. When Kirsten was struggling with alcoholism and refused to go to rehab in Season 2, Seth was the one who convinced her to go.",
+              },
+              {
+                id: RyanSeth_ID,
+                name: RyanAtwood_fullName,
+                imgUrl: {
+                  src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwpHMk6sFdAFVr3AHePZKzDas8kXOEx8nTKm58r5HEumIuwUh9nARqAcU&s=10",
+                  alt: "Seth and Ryan walk with their arms around each other.",
+                  pageId: [
+                    RyanAtwood_ID,
+                    ocS4Ep15_ID
+                  ]
+                
+                },
+                type: "Family",
+                family: "Sibling",
+                typeOfFamily: "Adoptive",
+                gender: "M",
+                kindOfFriendship: "Best Friend",
+                started: [ocPilot_Title],
+                card: true,
+                shortDesc: "Seth is the person friend Ryan makes after he moves to Newport, and Ryan is Seth's first real friend. The two quickly form a very close bond when Ryan starts defending Seth against his bullies. Their relationship is very brother-like, they tease each other but in the end always have the other ones back. They are best friends",
+              },
+              {
+              name: "Hailey Nichols",
+              type: "Family",
+              typeOfFamily: "Adoptive",
+              family: "Aunt/Uncle",
+              gender: "F",
+              extended: true,
+              ifExtended: "Maternal",
+            },
+            {
+              id: generateId("Ryan and Caleb"),
+              name: CalebNichols_fullName,
+              type: "Family",
+              family: "Grandparent",
+              typeOfFamily: "Biological",
+              extended: true,
+              ifExtended: "Maternal",
+              gender: "M",
+              dead: true,
+            }, 
+            {
+              name: "Rose Nichols",
+              type: "Family",
+              family: "Grandparent",
+              typeOfFamily: "Biological",
+              extended: true,
+              ifExtended: "Maternal",
+              gender: "F",
+              dead: true
+            },
+            {
+              name: "Sofie " + Cohen_Name,
+              type: "Family",
+              family: "Grandparent",
+              typeOfFamily: "Biological",
+              extended: true,
+              ifExtended: "Paternal",
+              gender: "F",
+              dead: true
+            },
+            {
+              name: "Mr. Cohen",
+              type: "Family",
+              family: "Grandparent",
+              typeOfFamily: "Adoptive",
+              extended: true,
+              ifExtended: "Paternal",
+              gender: "M",
+              dead: true
+            },
+              
+          ],
+          promo: true,
       },
       {
         id: MarissaCooper_ID,
