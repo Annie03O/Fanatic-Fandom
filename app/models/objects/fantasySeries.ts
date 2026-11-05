@@ -1,12 +1,19 @@
+import { got_ID, got_Title, gotS1_ID } from "../helpers/got";
 import { Show } from "../types/structure/Show";
 import { pilotLabel } from "./dramaSeries";
 
 
 export const fantasySeries: Show[] = [
   {
-    id:"game-of-thrones", 
-    title: "Game of Thrones", 
-    posterUrl: "https://i.redd.it/game-of-thrones-or-the-walking-dead-v0-nd3axk0385ah1.jpg?width=1000&format=pjpg&auto=webp&s=5d74b10b63cfb2493eb5e5f650a513a50b110b1a",
+    id: got_ID, 
+    title: got_Title, 
+    posterUrl: { 
+      src: "https://i.redd.it/game-of-thrones-or-the-walking-dead-v0-nd3axk0385ah1.jpg?width=1000&format=pjpg&auto=webp&s=5d74b10b63cfb2493eb5e5f650a513a50b110b1a",
+      alt: "Poster for the TV series Game of Thrones showing the Iron Throne, a seat made of fused swords, against a dark, misty background.",
+      pageId: [
+        got_ID
+      ]
+    },
     plot: "In the mythical continent of Westeros, several powerful families fight for control of the Seven Kingdoms. As conflict erupts in the kingdoms of men, an ancient enemy rises once again to threaten them all. Meanwhile, the last heirs of a recently usurped dynasty plot to take back their homeland from across the Narrow Sea.",
     basedOn: true,
     creator: [
@@ -18,7 +25,13 @@ export const fantasySeries: Show[] = [
         id:	"eddard-stark",
         firstName: "Eddard",
         lastName: "Stark",			
-        imageUrl: "https://i.pinimg.com/736x/8f/a8/d7/8fa8d7cb17eaea1f9518e34ac2983f1d.jpg",
+        imageUrl: {
+          src: "https://i.pinimg.com/736x/8f/a8/d7/8fa8d7cb17eaea1f9518e34ac2983f1d.jpg",
+          alt: "Close-up of Ned Stark in HBO’s Game of Thrones. He has long, wavy brown hair and a short, graying beard, and his squinting eye and sideways-pressed mouth give him a wary expression. He wears a studded brown leather breastplate over a dark tunic with a gray-green collar, and a metal Hand of the King pin is fastened to his chest. The background is softly blurred foliage in daylight.",
+          pageId: [
+            gotS1_ID,
+          ]
+        },
         actor: "Sean Bean",
         nickname: ["Ned"],
         promo: true,
@@ -27,7 +40,11 @@ export const fantasySeries: Show[] = [
         id: "jaime-lannister",
         firstName: "Jaime",
         lastName: "Lannister",
-        imageUrl: "https://i.pinimg.com/1200x/09/97/05/099705b94de38019981f1a3846889337.jpg",
+        imageUrl: {
+          src: "https://i.pinimg.com/1200x/09/97/05/099705b94de38019981f1a3846889337.jpg",
+          alt: "Jaime Lannister from Game of Thrones in close-up, with shoulder-length blond hair and light stubble, smirking and squinting slightly, wearing a beige leather jacket against a blurred rustic background.",
+
+        },
         actor: "Nikolaj Coster-Waldau",
         promo: true,
       },
