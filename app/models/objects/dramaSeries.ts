@@ -10370,12 +10370,43 @@ tags: [
                 id: generateId("Love Dance Martin Denney"),
                 title: "Love Dance",
                 artist: "Martin Denney"
-            },
+              },
               {
                 id: generateId("Addicted Enrique Iglesias"),
                 title: "Addicted",
                 artist: "Enrique Iglesias"
-            },
+              },
+            ]
+          },
+          {
+            episodeTitle: "The Rivals",
+            song: [
+              {
+                id: generateId("Come Into Our Room Clinic"),
+                title: "Come Into Our Room",
+                artist: "Clinic"
+              },
+              {
+                id: generateId("Boom Box Mosquitos"),
+                title: "Boom Box",
+                artist: "Mosquitos"
+              },
+              {
+                id: generateId("The Spoils Of The Spoiled The New Amsterdams"),
+                title: "The Spoils Of The Spoiled",
+                artist: "The New Amsterdams"
+              },
+              {
+                id: generateId("Cannonball Damien Rice"),
+                title: "Cannonball",
+                artist: "Damien Rice"
+              },
+              {
+                id: generateId("Big Sur The Thrills"),
+                title: "Big Sur",
+                artist: "The Thrills"
+              },
+
             ]
           }
         ]
