@@ -10597,6 +10597,31 @@ tags: [
                 title: "I Care 4 U",
                 artist: "Aaliyah"
               },
+            ],
+          },
+          {
+            episodeTitle: "The Nana",
+            song: [
+              {
+                id: generateId("Float On Modest Mouse"),
+                title: "Float On",
+                artist: "Modest Mouse"
+              },
+              {
+                id: generateId("Just A Ride Jem"),
+                title: "Just A Ride",
+                artist: "Jem"
+              },
+              {
+                id: generateId("Heartache Chris Murray"),
+                title: "Heartache",
+                artist: "Chris Murray"
+              },
+              {
+                id: generateId("Gentle Matt Hales"),
+                title: "Gentle",
+                artist: "Matt Hales"
+              },
             ]
           }
         ]
