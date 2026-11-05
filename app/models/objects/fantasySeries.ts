@@ -1,4 +1,4 @@
-import { got_ID, got_Title, gotS1_ID } from "../helpers/fantasy/got";
+import { got_ID, got_Title, gotS1_ID, gotS1Ep3_ID } from "../helpers/fantasy/got";
 import { Show } from "../types/structure/Show";
 import { pilotLabel } from "./dramaSeries";
 
@@ -43,6 +43,11 @@ export const fantasySeries: Show[] = [
         imageUrl: {
           src: "https://i.pinimg.com/1200x/09/97/05/099705b94de38019981f1a3846889337.jpg",
           alt: "Jaime Lannister from Game of Thrones in close-up, with shoulder-length blond hair and light stubble, smirking and squinting slightly, wearing a beige leather jacket against a blurred rustic background.",
+          pageId: [
+            got_ID,
+            gotS1_ID,
+            gotS1Ep3_ID
+          ]
 
         },
         actor: "Nikolaj Coster-Waldau",
