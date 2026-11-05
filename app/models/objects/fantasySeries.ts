@@ -1,4 +1,4 @@
-import { got_ID, got_Title, gotS1_ID } from "../helpers/got";
+import { got_ID, got_Title, gotS1_ID } from "../helpers/fantasy/got";
 import { Show } from "../types/structure/Show";
 import { pilotLabel } from "./dramaSeries";
 
