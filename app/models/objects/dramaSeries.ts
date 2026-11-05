@@ -10192,6 +10192,31 @@ tags: [
                 artist: "Mellowman Ace"
               },
             ]
+          }, 
+          {
+            episodeTitle: "The Secret",
+            song: [
+              {
+                id: generateId("We Used To Be Friends The Dandy Warhols"),
+                title: "We Used To Be Friends",
+                artist: "The Dandy Warhols"
+              },
+              {
+                id: generateId("Get What You Need Jet"),
+                title: "Get What You Need",
+                artist: "Jet"
+              },
+              {
+                id: generateId("If She Wants Me Belle & Sebastian"),
+                title: "If She Wants Me",
+                artist: "Belle & Sebastian"
+              },
+              {
+                id: generateId("Move On Jet"),
+                title: "Move On",
+                artist: "Jet"
+              },
+            ]
           }
         ]
       },
