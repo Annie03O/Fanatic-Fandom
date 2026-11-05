@@ -9962,6 +9962,57 @@ tags: [
                 artist: REMArtist
               },           
             ]
+          },
+          {
+            episodeTitle: "The Outsider",
+            song:  [
+                {
+                  id: generateId("The Way We Get By Spoon"),
+                  title: "The Way We Get By",
+                  artist: "Spoon"
+                },
+                {
+                  id: generateId("Sucka MCs The Grand Skeem"),
+                  title: "Sucka MCs",
+                  artist: "The Grand Skeem"
+                },
+                {
+                  id: generateId("Let's Get Retarded The Black Eyed Peas"),
+                  title: "Let's Get Retarded",
+                  artist: "The Black Eyed Peas"
+                },
+                {
+                  id: generateId("Brick By Brick Grade 8"),
+                  title: "Brick By Brick",
+                  artist: "Grade 8"
+                },
+                {
+                  id: generateId("Rock Like This The Grand Skeem"),
+                  title: "Rock Like This",
+                  artist: "The Grand Skeem"
+                },
+                {
+                  id: generateId("All Kinds of Time Fountains of Wayne"),
+                  title: "All Kinds of Time",
+                  artist: "Fountains of Wayne"
+                },
+                {
+                  id: generateId("Way Away Yellowcard"),
+                  title: "Way Away",
+                  artist: "Yellowcard"
+                },
+                {
+                  id: generateId("Eya Eya Oy The Grand Skeem"),
+                  title: "Eya Eya Oy",
+                  artist: "The Grand Skeem"
+                },
+                {
+                  id: generateId("Rolling With Heat The Roots"),
+                  title: "Rolling With Heat",
+                  artist: "The Roots"
+                },
+
+            ]
           }
         ]
       },
