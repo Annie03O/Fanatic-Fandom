@@ -76,6 +76,7 @@ import {
 } from "../helpers/drama/oc";
 import { generateId } from "@/app/functions/generateID";
 import { Alex_Name, Anna_Name, DanielAttias_Name, JoshSchwartz_Name, Julie_Name, REMArtist, Seth_Name, Taylor_Name } from "../helpers/commonPeople";
+import { generatePrime } from "crypto";
 
 const toImage = (src: string, alt: string): Image => ({
   src,
@@ -10733,7 +10734,55 @@ tags: [
                 title: "Meet Your Demise",
                 artist: "The Willowz"
               },
+            ],
+          },
+          {
+            episodeTitle: ocS1Ep27_Title,
+            song: [              
+              {
+                id: generateId("Hallelujah Jeff Buckley"),
+                title: "Hallelujah",
+                artist: "Jeff Buckley"
+              },
+              {
+                id: generateId("Flying High Jem"),
+                title: "Flying High",
+                artist: "Jem"
+              },
 
+              {
+                id: generateId("Orange Sky Alexi Murdoch"),
+                title: "Orange Sky",
+                artist: "Alexi Murdoch"
+              },
+
+              {
+                id: generateId("Montserrat Orquesta del Plata"),
+                title: "Montserrat",
+                artist: "Orquesta del Plata"
+              },
+
+              {
+                id: generateId("The Sea and The Rhythm Iron & Wine"),
+                title: "The Sea and The Rhythm",
+                artist: "Iron & Wine"
+              },
+
+              {
+                id: generateId("Bridal March CAR 188"),
+                title: "Bridal March",
+                artist: "CAR 188"
+              },
+              {
+                id: generateId("Bridal Chorus"),
+                title: "Here Comes The Bride (aka \"Bridal Chorus\")",
+                artist: "APM"
+              },
+              {
+                id: generateId("Maybe I'm Amazed Jem"),
+                title: "Maybe I'm Amazed",
+                artist: "Jem"
+              },
             ]
           }
         ]
