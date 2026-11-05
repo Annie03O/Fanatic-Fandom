@@ -10622,6 +10622,42 @@ tags: [
                 title: "Gentle",
                 artist: "Matt Hales"
               },
+            ],
+          },
+          {
+            episodeTitle: ocS1Ep24_Title,
+            song: [
+              {
+                id: generateId("Autumn Leaves Richard Hayman"),
+                title: "Autumn Leaves",
+                artist: "Richard Hayman"
+              },
+              {
+                id: generateId("Pride Jan Burton"),
+                title: "Pride",
+                artist: "Jan Burton"
+              },
+              {
+                id: generateId("All The Kings Horses Christina Lux"),
+                title: "All The Kings Horses",
+                artist: "Christina Lux"
+              },
+              {
+                id: generateId("Loose Caboose Henry Mancini"),
+                title: "Loose Caboose",
+                artist: "Henry Mancini"
+              },
+              {
+                id: generateId("Night Moves Bob Seger"),
+                title: "Night Moves",
+                artist: "Bob Seger"
+              },
+              
+              {
+                id: generateId("Pillows and Records Highwater Rising"),
+                title: "Pillows and Records",
+                artist: "Highwater Rising"
+              },
             ]
           }
         ]
