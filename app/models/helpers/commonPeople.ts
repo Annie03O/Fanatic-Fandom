@@ -1,6 +1,10 @@
-export var JoshSchwartz_Name = "Josh Schwartz";
+// Crew
+    export var JoshSchwartz_Name = "Josh Schwartz";
 
-export var DanielAttias_Name = "Daniel Attias";
+    export var DanielAttias_Name = "Daniel Attias";
+
+// Artists
+    export var REMArtist = "R.E.M";
 
 // First names
     // Girl
@@ -17,3 +21,4 @@ export var DanielAttias_Name = "Daniel Attias";
 
 // First/Last names
     export var Taylor_Name = "Taylor"
+
