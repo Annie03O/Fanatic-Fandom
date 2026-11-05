@@ -9899,7 +9899,34 @@ tags: [
            ], 
           },
           {
-            episodeTitle: 
+            episodeTitle: ocS1Ep3_Title,
+            song: [
+              {  
+                id: generateId("Wanna Be Happy Brooke"),
+                title: "Wanna Be Happy",
+                artist: "Brooke"
+              },
+              {  
+                id: generateId("Sing Sing Sing (With A Swing) James Horner"),
+                title: "Sing Sing Sing (With A Swing)",
+                artist: "James Horner"
+              },
+              {  
+                id: generateId("Rain City Turin Brakes"),
+                title: "Rain City",
+                artist: "Turin Brakes"
+              },
+              {
+                id: generateId("Caught By The River Doves"),
+                title: "Caught By The River",
+                artist: "Doves"
+              },
+              {
+                id: generateId("The Science of Selling Yourself Short Less Then Jake"),
+                title: "Caught By The River",
+                artist: "Less Than Jake"
+              }
+            ]
           }
         ]
       },
