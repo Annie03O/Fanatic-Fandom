@@ -10408,6 +10408,36 @@ tags: [
               },
 
             ]
+          },
+          {
+            episodeTitle: "The Truth",
+            song: [
+              {
+                id: generateId("Love Of The Loveless Eels"),
+                title: "Love Of The Loveless",
+                artist: "Eels"
+              },
+              {
+                id: generateId("Three Feet Tall I Am Kloot"),
+                title: "Three Feet Tall",
+                artist: "I Am Kloot"
+              },
+              {
+                id: generateId("New Resolution Azure Ray"),
+                title: "New Resolution",
+                artist: "Azure Ray"
+              },
+              {
+                id: generateId("Watching The Game At Joe's Mastersource"),
+                title: "Watching The Game At Joe's",
+                artist: "Mastersource"
+              },
+              {
+                id: generateId("Self-Help Turin Brakes"),
+                title: "Self-Help",
+                artist: "Turin Brakes"
+              },
+            ]
           }
         ]
       },
