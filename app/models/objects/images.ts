@@ -4,7 +4,7 @@ import type { Image } from "../types/structure/Image";
 import type { Relationship } from "../types/structure/Relationship";
 import type { Show } from "../types/structure/Show";
 
-type GalleryImage = Image & { episode?: EpisodeBreakdown };
+export type GalleryImage = Image & { episode?: EpisodeBreakdown };
 
 export const toImage = (
   value: Image | string | undefined,
@@ -67,7 +67,7 @@ export const findSecondPageId = (
   return secondCharacter;
 };
 
-export const createImages = (show: Show): GalleryImage[] | null => {
+export const createImages = (show: Show): Image[] | null => {
   if (show.seasons === undefined) return null;
 
   const seasonImages = show.seasons.flatMap((season) => {

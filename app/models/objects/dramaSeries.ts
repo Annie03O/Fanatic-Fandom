@@ -10473,7 +10473,7 @@ tags: [
           seasonNumber: 2,
           episodeNumber: 15,
           episodeTitle: "The Mallpisode",
-          plot: "A postcard from Zach comes in between Seth and Summer's rekindling. The "fantastic four" spend their day/night at the mall doing some charity work, providing Ryan and Marissa with apt distraction from the issues of their love lives. Marissa begins hiding things from Alex when she spends a night with Ryan. Kirsten begins to get to know the new editor of "Newport Living", while Julie finds her past right at her doorstep.",
+          plot: "A postcard from Zach comes in between Seth and Summer's rekindling. The \"fantastic four\" spend their day/night at the mall doing some charity work, providing Ryan and Marissa with apt distraction from the issues of their love lives. Marissa begins hiding things from Alex when she spends a night with Ryan. Kirsten begins to get to know the new editor of \"Newport Living\", while Julie finds her past right at her doorstep.",
           director: "Ian Toynton",
           writtenBy: "Stephanie Savage",
           releaseDate: "March 10, 2005",

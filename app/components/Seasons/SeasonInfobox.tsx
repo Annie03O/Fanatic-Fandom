@@ -7,15 +7,15 @@ import { createImages } from "@/app/models/objects/images";
 import { seriesBetaWithSlug } from "@/app/functions/dramaSeriesTop50WithSlug";
 import { useState } from "react";
 import { toggleImage } from "@/app/functions/toggleImage";
-import { Show } from "@/app/models/types/structure/Show";
 
-type Props = { 
+type Props = {
   genre:  Genre;
   slug: string;
+  season: Season;
 };
 
 
-export const SeasonInfobox = ({ genre, slug }: Props) => {
+export const SeasonInfobox = ({ genre, slug, season }: Props) => {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [chosenImage, setChosenImage] = useState<string>("");
   
@@ -27,12 +27,7 @@ export const SeasonInfobox = ({ genre, slug }: Props) => {
   if  (show.seasons ===  undefined) return console.error("Season is undefined");
   
 
-  const season = show.seasons.find((i) => i.id)
-
-  if (season === undefined) return console.error("Season with slug: ", slug, " not found" );
-  
-
-  const seasonWithInfobox = convertToSeasonInfobox(show);
+  const seasonWithInfobox = convertToSeasonInfobox(show, season);
   const box = seasonWithInfobox?.infobox;
 
   if (!box) return null;
@@ -46,12 +41,14 @@ export const SeasonInfobox = ({ genre, slug }: Props) => {
   const images = createImages(show) ?? [];
 
   const seasonImages = images.filter((img) => img.pageId.includes(season.id));
-  const modalImages = seasonImages.some((image) => image.src === box.posterSrc.src)
+  const modalImages = seasonImages.some((image) => image.src === box.posterSrc)
     ? seasonImages
-    : [box.posterSrc, ...seasonImages];
+    : seasonImages.length > 0
+      ? seasonImages
+      : box.posterSrc;
 
   const openModal = () => {
-    toggleImage(box.posterSrc.src, setChosenImage)
+    toggleImage(box.posterSrc, setChosenImage)
     setIsModalOpen(true);
   }
 
@@ -60,14 +57,14 @@ export const SeasonInfobox = ({ genre, slug }: Props) => {
     <section className="flex flex-col justify-content items-center gap-3 bg-[#d1c3e3] text-black shadow-2xl  shadow-gray-600 ring-2 ring-[#d1c3e3]">
       <h2 className="text-2xl text-centerg">Season {season.seasonNumber}</h2>
 
-      {box.posterSrc.src ? (
+      {box.posterSrc ? (
         <button
           type="button"
           className="cursor-pointer hover:border-4 hover:border-blue-500 hover:rounded-lg overflow-hidden shadow-lg hover:shadow-none shadow-gray-500"
           onClick={openModal}
           aria-label={`View ${show.title}, ${season.title} Poster`}
         >
-          <img className="w-full h-auto" src={box.posterSrc.src} alt={box.posterSrc.alt} />
+          <img className="w-full h-auto" src={box.posterSrc} alt={box.posterSrc} />
         </button>
       ) : null}
 
