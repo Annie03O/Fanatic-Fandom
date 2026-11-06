@@ -1,4 +1,4 @@
-import { Image } from "../../characters/Image";
+import { Image } from "../../structure/Image";
 
 export type EpisodeBreakdown = {
     id: string;

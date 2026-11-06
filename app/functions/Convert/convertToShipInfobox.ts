@@ -15,7 +15,8 @@ export function convertToShipInfobox(ship: Relationship) {
     infobox: [
       {
         name: ship.name,
-        posterSrc: ship.imgUrl,
+        posterSrc:
+          typeof ship.imgUrl === "string" ? ship.imgUrl : ship.imgUrl?.src,
         fields,
       },
     ],

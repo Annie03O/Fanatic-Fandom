@@ -1,8 +1,40 @@
 import type { EpisodeBreakdown } from "../types/seasons/episode/EpisodeBreakdown";
 import type { Image } from "../types/structure/Image";
+import type { Relationship } from "../types/structure/Relationship";
 import type { Show } from "../types/structure/Show";
 
 type GalleryImage = Image & { episode?: EpisodeBreakdown };
+
+export const toImage = (
+  value: Image | string | undefined,
+  alt: string,
+  pageId?: string,
+): Image | undefined => {
+  const src = typeof value === "string" ? value : value?.src;
+  if (typeof src !== "string" || !src.trim()) return undefined;
+
+  if (typeof value === "string") {
+    return { src: src.trim(), alt, pageId: pageId ? [pageId] : [] };
+  }
+  if (!value) return undefined;
+
+  return {
+    ...value,
+    src: src.trim(),
+    alt: value.alt || alt,
+    pageId: pageId && value.pageId.length === 0 ? [pageId] : value.pageId,
+  };
+};
+
+export const relationshipImages = (relationships: Relationship[]): Image[] =>
+  relationships.flatMap((relationship) => {
+    const image = toImage(
+      relationship.imgUrl,
+      relationship.name ?? "Relationship image",
+      relationship.id,
+    );
+    return image ? [image] : [];
+  });
 
 export const findImageByPageId = (
   images: Image[],
@@ -47,7 +79,7 @@ export const createImages = (show: Show): GalleryImage[] | null => {
 
         if (typeof src !== "string" || !src.trim()) return [];
 
-        const pageId = episodeImage.pageId;
+        const pageId = episodeImage!.pageId;
 
         return [{
           src,
@@ -65,17 +97,9 @@ export const createImages = (show: Show): GalleryImage[] | null => {
     ];
   });
 
-  const relationshipImages = show.mainCharacters.flatMap((character) =>
-    (character.relationships ?? []).flatMap((relationship) => {
-      const image = relationship.imgUrl;
-      if (!image?.src.trim()) return [];
-
-      return [{
-        ...image,
-        alt: image.alt || relationship.name || "Relationship image",
-      }];
-    }),
+  const relatedImages = show.mainCharacters.flatMap((character) =>
+    relationshipImages(character.relationships ?? []),
   );
 
-  return [...seasonImages, ...relationshipImages];
+  return [...seasonImages, ...relatedImages];
 };

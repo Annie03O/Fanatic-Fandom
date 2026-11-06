@@ -5,7 +5,7 @@ import type { Character } from "@/app/models/types/characters/Character";
 import type { Occupation } from "@/app/models/types/characters/Occupation";
 import { ModalComponent } from "@/app/models/objects/ModalComponent";
 import type { Show } from "@/app/models/types/structure/Show";
-import { createImages } from "@/app/models/objects/images";
+import { createImages, relationshipImages } from "@/app/models/objects/images";
 import { toggleImage } from "@/app/functions/toggleImage";
 import type { Image } from "@/app/models/types/structure/Image";
 
@@ -28,9 +28,7 @@ export const CharacterInfobox = ({ show, character }: Props) => {
 
   const images = [
     ...(createImages(show) ?? []),
-    ...(character.relationships?.flatMap((relationship) =>
-      relationship.imgUrl ? [relationship.imgUrl] : [],
-    ) ?? []),
+    ...relationshipImages(character.relationships ?? []),
   ];
 
 

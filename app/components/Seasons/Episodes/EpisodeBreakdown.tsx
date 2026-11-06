@@ -2,7 +2,7 @@
 
 import { seriesBetaWithSlug } from "@/app/functions/dramaSeriesTop50WithSlug";
 import { toggleImage } from "@/app/functions/toggleImage";
-import { createImages, findImageByPageId } from "@/app/models/objects/images";
+import { createImages, findImageByPageId, relationshipImages } from "@/app/models/objects/images";
 import { ModalComponent } from "@/app/models/objects/ModalComponent";
 import { EpisodeBreakdown as Episode } from "@/app/models/types/seasons/episode/EpisodeBreakdown"
 import { useState } from "react";
@@ -39,12 +39,10 @@ export const EpisodeBreakdown = ({episode, page, slug} : Props) => {
     ? seasonImages
     : [season.posterUrl, ...seasonImages];
 
-    const relationshipImages = show.mainCharacters.flatMap((character) =>
-      (character.relationships ?? []).flatMap((relationship) =>
-        relationship.imgUrl ? [relationship.imgUrl] : [],
-      ),
+    const relationshipGallery = show.mainCharacters.flatMap((character) =>
+      relationshipImages(character.relationships ?? []),
     );
-    const episodeImage = findImageByPageId(relationshipImages, episode.id)
+    const episodeImage = findImageByPageId(relationshipGallery, episode.id)
       ?? (episode.imageUrl?.src.trim() ? episode.imageUrl : undefined);
 
     const episodeModalImages = episodeImage && !modalImages.some((image) => image.src === episodeImage.src)
