@@ -200,9 +200,17 @@ export var OC_ID = generateId(OC_Title);
            export var ocS1Ep9_Title = "The Heights";
            export var ocS1Ep9_ID = generateId(OC_Title + ocS1Ep9_Title);
 
+         // Ep 15
+           export var ocS1Ep15_Title = "The Third Wheel";
+           export var ocS1Ep15_ID =  generateId(OC_Title + ocS1Ep15_Title);
+
         // Ep 17
            export var ocS1Ep17_Title = "The Rivals";
            export var ocS1Ep17_ID = generateId(OC_Title + ocS1Ep17_Title);
+
+         // Ep 18
+           export var ocS1Ep18_Title = "The Truth";
+           export var ocS1Ep18_ID =  generateId(OC_Title + ocS1Ep18_Title);
 
         // Ep 20
            export var ocS1Ep20_Title = "The Telenovela";
