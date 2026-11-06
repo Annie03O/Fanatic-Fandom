@@ -45,7 +45,7 @@ function Character() {
                     
                     <h1 className="text-4xl">{character.firstName  + " " + character.lastName}</h1>
                     <section className=" flex flex-col-reverse md:flex-row w-full ">
-                        <section className="w-full flex flex-col gap-2 p-2">
+                        <section className="w-[200px]:w-full w-[90%] flex flex-col gap-2 p-2">
                            <section className="w-full p-2 border-t border-gray-600">
                               <h2 className="text-3xl">Personality</h2>
                               <section className="bg-[#f2e8ff] text-black rounded-md p-3 inset-shadow-sm inset-shadow-gray-400 w-[90%] ">
