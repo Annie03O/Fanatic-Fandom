@@ -106,7 +106,7 @@ const ShowPage = ({genre}: ShowPageProps) => {
                     </section>
                 )}
                     </section>
-                    <section className="md:w-[50%] lg:w-[25%]">
+                    <section className="md:w-[50%] lg:w-[27%] border border-white border-4 mr-3">
                         <Infobox show={series} type="Show" posterUrl={series.posterUrl.src}/>
                     </section>
                        
