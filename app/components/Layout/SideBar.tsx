@@ -43,11 +43,11 @@ export const SideBar = ({ side }: Props) => {
                
               {item.image && (
                 // eslint-disable-next-line @next/next/no-img-element
-                <section className="border w-full  overflow-hidden ">
+                <section className="border w-full  overflow-hidden min-[1800px]:w-1/2">
                   <img src={item.image} alt={item.context + " - " + item.label} className="w-full h-full shrink-0 object-cover" />
                 </section>
               )}
-              <span className="min-w-[1800px]:w-1/2 flex flex-col">
+              <span className="min-[1800px]:w-1/2 flex flex-col">
                 
                 <span className="text-lg text-[#d1c3e3]">{item.label}</span>
               </span>
