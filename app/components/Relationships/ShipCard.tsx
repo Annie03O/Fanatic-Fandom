@@ -18,13 +18,7 @@ export const ShipCard = ({ item, show }: Props) => {
   const [chosenImage, setChosenImage] = useState("");
   const [shipImg, setShipImg]  = useState("")
 
-  const character = show.mainCharacters.find((candidate) =>
-    candidate.relationships?.some(
-      (relationship) =>
-        relationship === item ||
-        (item.id !== undefined && relationship.id === item.id),
-    ),
-  );
+  const character = show.mainCharacters.find((i) => i.id);
 
   if (character === undefined) {
     console.error("Character for relationship was not found", item.id);
@@ -37,16 +31,23 @@ export const ShipCard = ({ item, show }: Props) => {
     )
   ) ?? [];
 
+  const relationshipGallery = relationshipImages(show.relationships); 
+
   const linkedImage = item.id
     ? findImageByPageId(episodeImages, item.id)
     : undefined;
   const directImage = toImage(item.imgUrl, item.name ?? "Relationship image", item.id);
-  const relationshipImage = item.card
-    ? linkedImage ?? directImage
-    : directImage ?? linkedImage;
+
+  if (item.id === undefined) return console.error("Id not found");
+  
+
+  const relationshipImage = findImageByPageId(relationshipGallery, item.id)
+    ?? (item.imgUrl?.src.trim() ? item.imgUrl : undefined);
 
   if (relationshipImage === undefined) return console.error("relationshipImage is undefined.");
   
+  
+
 
   const characterPoster = character.posterUrl ?? character.imageUrl;
   const modalImages: Image[] = [

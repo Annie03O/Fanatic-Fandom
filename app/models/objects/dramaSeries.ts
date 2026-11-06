@@ -8696,24 +8696,24 @@ tags: [
                   dead: true
                 },
             // Romances
-               {
-                  id: SethSummer_ID,
-                  name: SummerRoberts_fullName,
-                  type: "Romantic",
-                  imgUrl: {
-                    src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVbWgWAlPNYcTtPss7vL1ivKlL92DKPwJlIAQq8UDqQi7618cC",
-                    alt: "Seth and Summer almost kiss.",
-                    pageId:  [
-                      ocS2_ID,
-                      SethCohen_ID,
-                      SummerRoberts_ID
-                    ]
-                  },
-                  romantic: "Wife/Husband",
-                  gender: "F",
-                  card: true,
-                  shortDesc: "When Ryan first arrives in Newport, Summer thinks he is hot and hits on him. However, since Ryan's new adoptive brother,  Seth is in love with Summer, Ryan rejects her. Later, when Summer and Seth start dating, and Ryan begins dating Summer's best friend, Marissa, Ryan and Summer form a close friendship. In the series finale, Summer and Seth get married, which makes them in-laws.",
-            }, 
+            //    {
+            //       id: SethSummer_ID,
+            //       name: SummerRoberts_fullName,
+            //       type: "Romantic",
+            //       imgUrl: {
+            //         src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVbWgWAlPNYcTtPss7vL1ivKlL92DKPwJlIAQq8UDqQi7618cC",
+            //         alt: "Seth and Summer almost kiss.",
+            //         pageId:  [
+            //           ocS2_ID,
+            //           SethCohen_ID,
+            //           SummerRoberts_ID
+            //         ]
+            //       },
+            //       romantic: "Wife/Husband",
+            //       gender: "F",
+            //       card: true,
+            //       shortDesc: "When Ryan first arrives in Newport, Summer thinks he is hot and hits on him. However, since Ryan's new adoptive brother,  Seth is in love with Summer, Ryan rejects her. Later, when Summer and Seth start dating, and Ryan begins dating Summer's best friend, Marissa, Ryan and Summer form a close friendship. In the series finale, Summer and Seth get married, which makes them in-laws.",
+            // }, 
             {
               id: SethAnna_ID,
               name: AnnaStern_fullName,
@@ -9344,6 +9344,26 @@ tags: [
             ocS4_ID,
         ]
       },
+    ],
+    relationships: [
+      {
+                  id: SethSummer_ID,
+                  name: SummerRoberts_fullName,
+                  type: "Romantic",
+                  imgUrl: {
+                    src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVbWgWAlPNYcTtPss7vL1ivKlL92DKPwJlIAQq8UDqQi7618cC",
+                    alt: "Seth and Summer almost kiss.",
+                    pageId:  [
+                      ocS2_ID,
+                      SethCohen_ID,
+                      SummerRoberts_ID
+                    ]
+                  },
+                  romantic: "Wife/Husband",
+                  gender: "F",
+                  card: true,
+                  shortDesc: "When Ryan first arrives in Newport, Summer thinks he is hot and hits on him. However, since Ryan's new adoptive brother,  Seth is in love with Summer, Ryan rejects her. Later, when Summer and Seth start dating, and Ryan begins dating Summer's best friend, Marissa, Ryan and Summer form a close friendship. In the series finale, Summer and Seth get married, which makes them in-laws.",
+            }, 
     ],
     seasons: [
       {

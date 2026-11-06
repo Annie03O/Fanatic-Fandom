@@ -6,6 +6,7 @@ import { Character } from "../characters/Character";
 import { Soundtrack } from "../music/Soundtrack";
 import { Movie } from "./Movie";
 import { Image } from "../characters/Image";
+import { Relationship } from "./Relationship";
 
 export type Show = {
   id: string;
@@ -42,6 +43,7 @@ export type Show = {
   network: string[] | string;
   related?: (Pick<Show, "id" | "posterUrl"> & { title?: string })[];
   soundtrack: Soundtrack[];
-  genre: "drama" | "kids" | "crime" | "comedy" | "fantasy"
+  genre: "drama" | "kids" | "crime" | "comedy" | "fantasy";
+  relationships: Relationship[];
 };
 

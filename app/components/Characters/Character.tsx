@@ -62,7 +62,7 @@ function Character() {
                            </section>
                            <section className="flex flex-col justify-center items-center w-full border-b border-gray-600">
                              <h2 className="text-3xl w-full border-b border-gray-600">Relationships</h2>
-                           <RelationshipsSection relationships={character.relationships!} show={series} />
+                           <RelationshipsSection relationships={series.relationships} show={series} />
                          </section>
                         </section>
                         <section className="border md:w-[50%] lg:w-[30%]">
