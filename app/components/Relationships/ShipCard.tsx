@@ -6,7 +6,7 @@ import type { Image } from "@/app/models/types/structure/Image";
 import type { Relationship } from "@/app/models/types/structure/Relationship";
 import type { Show } from "@/app/models/types/structure/Show";
 import { generateLabel } from "@/app/functions/Format/generateLabels";
-import { findImageByPageId } from "@/app/models/objects/images";
+import { findImageByPageId, relationshipImages, toImage } from "@/app/models/objects/images";
 
 type Props = {
   item: Relationship;
@@ -34,21 +34,21 @@ export const ShipCard = ({ item, show }: Props) => {
     (season.episodeBreakdown ?? []).flatMap((episode) => 
       episode.imageUrl ? [episode.imageUrl] : [],
     )
-  );
+  ) ?? [];
 
-  if (episodeImages === undefined) return console.error("episodeImages are undefined");
-  
-
-
-  const relationshipImage = findImageByPageId(episodeImages, item.id!)
-    ?? (item.imgUrl?.src.trim() ? item.imgUrl : undefined);
+  const linkedImage = item.id
+    ? findImageByPageId(episodeImages, item.id)
+    : undefined;
+  const directImage = toImage(item.imgUrl, item.name ?? "Relationship image", item.id);
+  const relationshipImage = item.card
+    ? linkedImage ?? directImage
+    : directImage ?? linkedImage;
+  const shipImg = relationshipImage?.src ?? "";
 
   const characterPoster = character.posterUrl ?? character.imageUrl;
   const modalImages: Image[] = [
     ...(relationshipImage ? [relationshipImage] : []),
-    ...(character.relationships?.flatMap((relationship) =>
-      relationship.imgUrl ? [relationship.imgUrl] : [],
-    ) ?? []),
+    ...relationshipImages(character.relationships ?? []),
     ...(characterPoster ? [characterPoster] : []),
   ].filter(
     (image, index, images) =>
@@ -89,7 +89,7 @@ export const ShipCard = ({ item, show }: Props) => {
           >
             <img
               className="object-cover object-center h-full w-full md:w-max right-0"
-              src={relationshipImage.src}
+              src={shipImg}
               alt={relationshipImage.alt || `Image of ${item.name ?? "relationship"}`}
             />
           </button>
