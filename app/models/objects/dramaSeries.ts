@@ -8256,7 +8256,15 @@ tags: [
       {
         id: SethCohen_ID,
         firstName: Seth_Name,
+        middleName: "Ezikiel",
         lastName: Cohen_Name,
+        nickname: [
+          Cohen_Name,
+          Seth_Name + "ny",
+          Seth_Name + "lah",
+          "Magnum P.I",
+        ],
+        
         gender: "M",
         imageUrl: {
           src: "https://i.pinimg.com/236x/9e/5a/d1/9e5ad1ef359e49b2e99ba1547d0f9d47.jpg",
