@@ -1,10 +1,11 @@
+import { Character } from "../characters/Character";
 import { Image } from "./Image";
 
 export type Relationship = {
     id?: string;
     type: "Romantic" | "Family" | "Friendship" | "Rivalty";
     current?: "Romantic" | "Family" | "Friendship" | "Rivalty",
-    characters?: string[];
+    characters?: Pick<Character, "id" | "label">;
     gender: "F" | "M" | ""
     name?: string;
     started?: string[];
