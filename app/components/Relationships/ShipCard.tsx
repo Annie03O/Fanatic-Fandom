@@ -6,7 +6,8 @@ import type { Image } from "@/app/models/types/structure/Image";
 import type { Relationship } from "@/app/models/types/structure/Relationship";
 import type { Show } from "@/app/models/types/structure/Show";
 import { generateLabel } from "@/app/functions/Format/generateLabels";
-import { findImageByPageId, relationshipImages, toImage } from "@/app/models/objects/images";
+import { findImageByPageId, findSecondPageId, relationshipImages, toImage } from "@/app/models/objects/images";
+import { useParams } from "next/navigation";
 
 type Props = {
   item: Relationship;
@@ -16,27 +17,33 @@ type Props = {
 export const ShipCard = ({ item, show }: Props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [chosenImage, setChosenImage] = useState("");
-  const [shipImg, setShipImg]  = useState("")
+  const [shipImg, setShipImg]  = useState("");
+  const {id} = useParams();
+  
 
-  const character = show.mainCharacters.find((i) => i.id);
+  const character = show.mainCharacters.find((i) => i.id === id);
 
+  console.log(character);
+  
+  if (item.characters === undefined) return console.error("characters not found");
+  
+
+  const secondCharacterFound = findSecondPageId(item.characters, character!)
+
+  const secondCharacter = show.mainCharacters.find((i) => i.id === secondCharacterFound?.id)
+  
   if (character === undefined) {
     console.error("Character for relationship was not found", item.id);
     return null;
   }
 
-  const episodeImages = show.seasons?.flatMap((season) => 
-    (season.episodeBreakdown ?? []).flatMap((episode) => 
-      episode.imageUrl ? [episode.imageUrl] : [],
-    )
-  ) ?? [];
+  if (secondCharacter === undefined) return console.error("Second character not found");
+
+  if (secondCharacter.gender === undefined) return console.error(`Gender for character with id: ${secondCharacter.id} is undefined.`);
+  
+  
 
   const relationshipGallery = relationshipImages(show.relationships); 
-
-  const linkedImage = item.id
-    ? findImageByPageId(episodeImages, item.id)
-    : undefined;
-  const directImage = toImage(item.imgUrl, item.name ?? "Relationship image", item.id);
 
   if (item.id === undefined) return console.error("Id not found");
   
@@ -47,8 +54,6 @@ export const ShipCard = ({ item, show }: Props) => {
   if (relationshipImage === undefined) return console.error("relationshipImage is undefined.");
   
   
-
-
   const characterPoster = character.posterUrl ?? character.imageUrl;
   const modalImages: Image[] = [
     ...(relationshipImage ? [relationshipImage] : []),
@@ -81,6 +86,8 @@ export const ShipCard = ({ item, show }: Props) => {
       imgUrl = item.imgUrl ? item.imgUrl.src : "";
     }
 
+
+
     setShipImg(imgUrl)
   })
 
@@ -92,7 +99,7 @@ export const ShipCard = ({ item, show }: Props) => {
         </section>
 
         <section>
-          <header className="text-lg">{generateLabel(item)}</header>
+          <header className="text-lg">{generateLabel(item, secondCharacter?.gender)}</header>
           <span>{item.shortDesc}</span>
         </section>
       </section>

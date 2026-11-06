@@ -1,12 +1,13 @@
+import { Show } from "@/app/models/types/structure/Show";
 import { Relationship } from "../../models/types/structure/Relationship";
 
-function formatFamilyRelation(ship: Relationship) {
+function formatFamilyRelation(ship: Relationship, gender: "F"  | "M" | "Non-Binary") {
 
   // FAMILY
   if (ship.family) {
     // SIBLING
     if (ship.family === "Sibling") {
-      const base = ship.gender === "F" ? "Sister" : ship.gender === "M" ? "Brother" : "Sibling";
+      const base = gender ? "Sister" : ship.gender === "M" ? "Brother" : "Sibling";
 
         if (ship.typeOfFamily) {
           if (ship.typeOfFamily === "Step")  return `${ship.name} (Step ${base})`
@@ -26,7 +27,7 @@ function formatFamilyRelation(ship: Relationship) {
 
     if (ship.family === "Parent") {
       const parent =
-        ship.gender === "F" ? "Mother" :
+        gender ? "Mother" :
         ship.gender === "M" ? "Father" :
         "parent";
         
@@ -47,7 +48,7 @@ function formatFamilyRelation(ship: Relationship) {
 
     if (ship.family === "Child") {
       const child =
-        ship.gender === "F" ? "Daughter" :
+        gender ? "Daughter" :
         ship.gender === "M" ? "Son" :
         "Child";
 
@@ -69,7 +70,7 @@ function formatFamilyRelation(ship: Relationship) {
       const side = ship.ifExtended === "Maternal" ? "Maternal" : "Paternal"
       if (ship.family === "Aunt/Uncle") {
         const base =
-          ship.gender === "F" ? "Aunt" :
+          gender ? "Aunt" :
           ship.gender === "M" ? "Uncle" :
           "";
     
@@ -100,7 +101,7 @@ function formatFamilyRelation(ship: Relationship) {
          const side = ship.ifExtended === "Maternal" ? "Maternal" : "Paternal"
 
           if (ship.family === "Grandparent") {
-            const base = ship.gender === "F" ? "Grandmother" : "Grandfather"
+            const base = gender ? "Grandmother" : "Grandfather"
           
             // mest specifikt först 
             if (tof === "Biological" && ship.adopted) return `${ship.name} (Biological ${side + " " + base})`;
@@ -118,8 +119,29 @@ function formatFamilyRelation(ship: Relationship) {
 
 }
 
-export function formatFamily(ship: Relationship) {
-  const formatted = formatFamilyRelation(ship);
+export function formatFamily(show: Show) {
+
+  if (show.mainCharacters === undefined) return console.error("Can't find mainCharacter list for: ", show.id);
+  
+
+  const character = show.mainCharacters.find((i) => i.id);
+
+  if (character === undefined) return console.error("Character not found in formatFamily");
+  
+  const ship = show.relationships.find((i) => i.id); 
+
+  if (ship  === undefined) return console.error('formatFamily failed to find ship');
+  
+  const secondCharacter = ship?.characters?.find((i) =>  i.id === character.id)
+
+  if (secondCharacter === undefined) return console.error(`Second character for ship with id: ${ship.id} not found`);
+ 
+  const rightCharacter = show.mainCharacters.find((i) => i.id === secondCharacter.id)
+
+  if (rightCharacter === undefined) return console.error("Character is  undefined");
+  
+
+  const formatted = formatFamilyRelation(ship, rightCharacter?.gender);
 
   if (!formatted || ship.dead !== true || !ship.name) return formatted;
 

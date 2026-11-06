@@ -1,7 +1,6 @@
 import { Relationship } from "@/app/models/types/structure/Relationship";
 
-export const generateLabel = (i: Relationship): string => {
- 
+export const generateLabel = (i: Relationship, gender: "F"  | "M" | "Non-Binary"): string => {
   
   // FRIENDSHIP
   if (i.type === "Friendship") {
@@ -13,12 +12,12 @@ export const generateLabel = (i: Relationship): string => {
 
   if (i.type === "Romantic") {
     if (i.romantic === "Ex-Boyfriend/Ex-Girlfriend") {
-        if (i.gender === "F") return "Ex-Girlfriend";
-        if (i.gender === "M") return "Ex-Boyfriend";
+        if (gender === "F") return "Ex-Girlfriend";
+        if (gender === "M") return "Ex-Boyfriend";
     }
     if (i.romantic === "Girlfriend/Boyfriend") {
-        if (i.gender === "F") return "Girlfriend";
-        if (i.gender === "M") return "Boyfriend";
+        if (gender === "F") return "Girlfriend";
+        if (gender === "M") return "Boyfriend";
     }
     if (i.romantic === "Crush") {
         if (i.ended) return "Former Crush"
@@ -34,14 +33,14 @@ export const generateLabel = (i: Relationship): string => {
     if (i.romantic === "Affair") return "Affair";
 
     if (i.romantic === "Wife/Husband") {
-        if (i.gender === "F") return "Wife";
-        if (i.gender === "M") return "Husband";
+        if (gender === "F") return "Wife";
+        if (gender === "M") return "Husband";
 
         return "Spouse"
     }
     if (i.romantic === "Ex-Wife/Ex-Husband") {
-        if (i.gender === "F") return "Ex-Wife";
-        if (i.gender === "M") return "Ex-Husband";
+        if (gender === "F") return "Ex-Wife";
+        if (gender === "M") return "Ex-Husband";
 
         return "Spouse"
     }
@@ -51,7 +50,7 @@ export const generateLabel = (i: Relationship): string => {
   if (i.type === "Family") {
     // SIBLING
     if (i.family === "Sibling") {
-      const base = i.gender === "F" ? "Sister" : i.gender === "M" ? "Brother" : "Sibling";
+      const base = gender === "F" ? "Sister" : gender === "M" ? "Brother" : "Sibling";
 
         if (i.typeOfFamily) {
           if (i.typeOfFamily === "Step")  return `Step ${base}`
@@ -65,7 +64,7 @@ export const generateLabel = (i: Relationship): string => {
     }
     if (i.family === "Parent") {
       const parent =
-        i.gender === "F" ? "Mother" : i.gender === "M" ? "Father" : "Parent";
+        gender === "F" ? "Mother" : gender === "M" ? "Father" : "Parent";
 
         if (i.typeOfFamily) {
           if (i.typeOfFamily === "Biological" && i.adopted)  return `Birth ${parent}`
@@ -81,7 +80,7 @@ export const generateLabel = (i: Relationship): string => {
 
     if (i.family === "Grandparent") {
       const grandparent =
-        i.gender === "F" ? "Grand-Mother" : i.gender === "M" ? "Grand-Father" : "Parent";
+        gender === "F" ? "Grand-Mother" : gender === "M" ? "Grand-Father" : "Parent";
 
         if (i.typeOfFamily) {
           if (i.typeOfFamily === "Biological" && i.adopted)  return `Birth ${grandparent}`
@@ -96,7 +95,7 @@ export const generateLabel = (i: Relationship): string => {
     }
 
     if (i.family === "Child") {
-      const child = i.gender === "F" ? "Daughter" : i.gender === "M" ? "Son" : "Child";
+      const child = gender === "F" ? "Daughter" : gender === "M" ? "Son" : "Child";
       
       if (i.typeOfFamily) {
           if (i.typeOfFamily === "Biological" && i.adopted)  return `(Birth ${child})`

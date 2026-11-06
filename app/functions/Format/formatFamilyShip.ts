@@ -1,11 +1,11 @@
 import { Relationship } from "../../models/types/structure/Relationship";
 
-export function formatFamilyShip(ship: Relationship) {
+export function formatFamilyShip(ship: Relationship, gender: "F"  | "M" | "Non-Binary") {
     // FAMILY
   if (ship.type === "Family") {
     // SIBLING
     if (ship.family === "Sibling") {
-      const base = ship.gender === "F" ? "Sister" : ship.gender === "M" ? "Brother" : "Sibling";
+      const base = gender === "F" ? "Sister" : gender === "M" ? "Brother" : "Sibling";
 
         if (ship.typeOfFamily) {
           if (ship.typeOfFamily === "Step")  return `${ship.name} (Step ${base})`
@@ -25,8 +25,8 @@ export function formatFamilyShip(ship: Relationship) {
 
     if (ship.family === "Parent") {
       const parent =
-        ship.gender === "F" ? "Mother" :
-        ship.gender === "M" ? "Father" :
+        gender === "F" ? "Mother" :
+        gender === "M" ? "Father" :
         "parent";
         
         
@@ -46,8 +46,8 @@ export function formatFamilyShip(ship: Relationship) {
 
     if (ship.family === "Child") {
       const child =
-        ship.gender === "F" ? "Daughter" :
-        ship.gender === "M" ? "Son" :
+        gender === "F" ? "Daughter" :
+        gender === "M" ? "Son" :
         "Child";
 
     
@@ -68,8 +68,8 @@ export function formatFamilyShip(ship: Relationship) {
       const side = ship.ifExtended === "Maternal" ? "Maternal" : "Paternal"
       if (ship.family === "Aunt/Uncle") {
         const base =
-          ship.gender === "F" ? "Aunt" :
-          ship.gender === "M" ? "Uncle" :
+          gender === "F" ? "Aunt" :
+          gender === "M" ? "Uncle" :
           "";
     
         if (!tof) return base;
@@ -96,7 +96,7 @@ export function formatFamilyShip(ship: Relationship) {
       
 
       if (ship.family === "Grandparent") {
-        const base = ship.gender === "F" ? "Grandmother" : "Grandfather"
+        const base = gender === "F" ? "Grandmother" : "Grandfather"
 
         // mest specifikt först
         if (tof === "Biological" && ship.adopted) return `${ship.name} (Birth ${base})`;

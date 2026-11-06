@@ -8565,6 +8565,7 @@ tags: [
         id: SethCohen_ID,
         firstName: Seth_Name,
         lastName: Cohen_Name,
+        gender: "M",
         imageUrl: {
           src: "https://i.pinimg.com/236x/9e/5a/d1/9e5ad1ef359e49b2e99ba1547d0f9d47.jpg",
           alt: "Close-up on Seth who is smiling, wearing a dark blue polo-shirt.",
@@ -8742,6 +8743,7 @@ tags: [
         id: MarissaCooper_ID,
         firstName: MarissaCooper_firstName,
         lastName: Cooper_Name,
+        gender: "F",
         imageUrl: {
           src: "https://imagenes.elpais.com/resizer/v2/SYUVM35P45ASPK3Y5USJBOUBZE.jpg?auth=412f3798aac447693159e6878954b2a0173f5e8c07df61ccd62402a3f21c3b4e&width=1960&height=1470&smart=true",
           alt: "Close up for Marissa.",
@@ -8764,6 +8766,7 @@ tags: [
         id: generateId(SummerRoberts_fullName),
         firstName: SummerRoberts_firstName,
         lastName: SummerRoberts_lastName,
+        gender: "F",
         imageUrl: {
           src: "https://i.pinimg.com/736x/a4/1c/cf/a41ccfc65666d6fc3406b4ea969aaffc.jpg",
           alt: "Close up on Summer, smiling.",
@@ -8785,6 +8788,7 @@ tags: [
         id: SandyCohen_ID,
         firstName: SandyCohen_firstName,
         lastName: Cohen_Name,
+        gender: "M",
         imageUrl: {
           src: "https://assets.mycast.io/characters/sandy-cohen-6509919-normal.jpg",
           alt: "Close up on Sandy Cohen.",
@@ -8805,6 +8809,7 @@ tags: [
         id: KirstenCohen_ID,
         firstName: KirstenCohen_firstName,
         lastName: Cohen_Name,
+        gender: "F",
         imageUrl: {
           src: "https://imgix.bustle.com/uploads/image/2018/5/30/a464fba0-9a06-48fc-8607-50e6057dc3cd-screen-shot-2018-05-30-at-44009-pm.png?w=1200&h=900&fit=crop&crop=faces&fm=jpg",
           alt: "Kirsten is in the Cohen living room, smiling up at someone.",
@@ -8826,6 +8831,7 @@ tags: [
         id: JulieCooper_ID,
         firstName: Julie_Name,
         lastName: Cooper_Name,
+        gender: "F",
         imageUrl: {
           src: "https://i.pinimg.com/236x/f9/85/13/f9851318235ed756690c732e2191b779.jpg",
           alt: "Julie in the Series Finale.",
@@ -8847,6 +8853,7 @@ tags: [
         id: generateId(TaylorTownsend_fullName),
         firstName: Taylor_Name,
         lastName: TaylorTownsend_lastName,
+        gender: "F",
         imageUrl: {
           src: "https://assets.mycast.io/characters/taylor-townsend-2657429-normal.jpg",
           alt: "Taylor is sitting in a booth at the diner, wearing a knitted light green sweater on top of a white button-up shirt.",
@@ -9363,6 +9370,16 @@ tags: [
                   gender: "F",
                   card: true,
                   shortDesc: "When Ryan first arrives in Newport, Summer thinks he is hot and hits on him. However, since Ryan's new adoptive brother,  Seth is in love with Summer, Ryan rejects her. Later, when Summer and Seth start dating, and Ryan begins dating Summer's best friend, Marissa, Ryan and Summer form a close friendship. In the series finale, Summer and Seth get married, which makes them in-laws.",
+                  characters: [
+                    {
+                      id: SummerRoberts_ID,
+                      label: SummerRoberts_fullName,
+                    },
+                    {
+                      id: SethCohen_ID,
+                      label: SethCohen_fullName
+                    }
+                  ]
             }, 
     ],
     seasons: [

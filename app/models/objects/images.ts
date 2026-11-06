@@ -1,3 +1,4 @@
+import { Character } from "../types/characters/Character";
 import type { EpisodeBreakdown } from "../types/seasons/episode/EpisodeBreakdown";
 import type { Image } from "../types/structure/Image";
 import type { Relationship } from "../types/structure/Relationship";
@@ -45,6 +46,18 @@ export const findImageByPageId = (
   return images.find(
     (image) => image.src.trim() && image.pageId.includes(pageId),
   );
+};
+
+export const findSecondPageId = (
+  characters: Pick<Character, "id" | "label">[]
+  ,
+  character: Character,
+) => {
+  console.log("findSecondPageId: ", character);
+  
+  const secondCharacter = characters.find((i) => i.id !== character.id);
+  
+  return secondCharacter;
 };
 
 export const createImages = (show: Show): GalleryImage[] | null => {

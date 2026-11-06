@@ -1,3 +1,4 @@
+import { Show } from "@/app/models/types/structure/Show";
 import { Character } from "../../models/types/characters/Character";
 import { InfoField } from "../../models/types/structure/layouts/Infobox";
 import { Relationship } from "../../models/types/structure/Relationship";
@@ -9,8 +10,12 @@ import { seriesBetaWithSlug } from "\.\./WithSlug/allSeriesWithSlug";
 
 const isInfoField = (x: InfoField | null): x is InfoField => x !== null;
 
-export function convertToCharacterInfobox(character: Character) {
-  const rels = (character.relationships ?? []).filter(
+export function convertToCharacterInfobox(show: Show, character: Character) {
+
+  // 
+
+
+  const rels = (show.relationships ?? []).filter(
     (r): r is Relationship => Boolean(r)
   );
 

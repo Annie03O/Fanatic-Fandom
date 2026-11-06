@@ -17,7 +17,7 @@ export type Character = {
     birthday?: string; 
     eyeColor?: string;
     hairColor?: string[] | string;
-    gender?: "M" | "F" | "Non-Binary";
+    gender: "M" | "F" | "Non-Binary";
     married?: boolean;
     single?: boolean;
     residence: Pick<Occupation, "place" | "started" | "hasEnded" | "ended">[];

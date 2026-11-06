@@ -32,7 +32,7 @@ export const CharacterInfobox = ({ show, character }: Props) => {
   ];
 
 
-  const characterWithInfobox = convertToCharacterInfobox(character);
+  const characterWithInfobox = convertToCharacterInfobox(show, character);
   const box = characterWithInfobox.infobox[0];
 
   if (!box) return null;
