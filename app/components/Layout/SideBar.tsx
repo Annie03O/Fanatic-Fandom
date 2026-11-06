@@ -38,16 +38,16 @@ export const SideBar = ({ side }: Props) => {
             {side === "left" ? "Recommended" : "Discover More"}
         </span>
         {items.map((item) => (
-          <section className="flex flex-col gap-2  border bg-black shadow-xl shadow-gray-600 hover:shadow-none ring-2 ring-[#d1c3e3] items-center" key={item.id}>
-            <Link href={item.href} className="flex border w-[200px] items-center gap-2 text-sm hover:underline">
+          <section className="flex flex-col gap-2 min-w-[1800px]:w-[200px] w-[130px] border bg-black shadow-xl shadow-gray-600 hover:shadow-none ring-2 ring-[#d1c3e3] items-center" key={item.id}>
+            <Link href={item.href} className="flex flex-col min-w-[1800px]:flex-row border w-full min-w-[1800px]:w-[200px] items-center gap-2 text-sm hover:underline">
                
               {item.image && (
                 // eslint-disable-next-line @next/next/no-img-element
-                <section className="border w-2/3 h-[150px]  overflow-hidden ">
+                <section className="border w-full  overflow-hidden ">
                   <img src={item.image} alt={item.context + " - " + item.label} className="w-full h-full shrink-0 object-cover" />
                 </section>
               )}
-              <span className=" w-1/2 flex flex-col">
+              <span className="min-w-[1800px]:w-1/2 flex flex-col">
                 
                 <span className="text-lg text-[#d1c3e3]">{item.label}</span>
               </span>
