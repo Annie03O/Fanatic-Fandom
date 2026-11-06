@@ -3,10 +3,10 @@ import { Image } from "./Image";
 
 export type Relationship = {
     id?: string;
-    type: "Romantic" | "Family" | "Friendship" | "Rivalty";
-    current?: "Romantic" | "Family" | "Friendship" | "Rivalty",
+    type: "Romantic" | "Family" | "Friendship" | "Rivalry";
+    current?: "Romantic" | "Family" | "Friendship" | "Rivalry",
     characters?: Pick<Character, "id" | "label">[];
-    gender: "F" | "M" | ""
+    gender?: "F" | "M" | ""
     name?: string;
     started?: string[];
     ended?: string[];

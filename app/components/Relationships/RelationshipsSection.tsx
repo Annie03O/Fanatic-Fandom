@@ -51,6 +51,7 @@ export const RelationshipsSection = ({ relationships, show }: Props) => {
     // { key: "Other", title: "Other" }, // slå på om du vill se allt som inte matchar
   ];
 
+  const ship = relationships.find((i) => i.id)
 
   return (
     <section className="flex w-[90%] flex-col gap-6">
@@ -64,11 +65,14 @@ export const RelationshipsSection = ({ relationships, show }: Props) => {
 
         const isExpanded = expandedSections[key] ?? false;
 
+        console.log(items);
+        
+
         return (
           <section key={key} className={`flex flex-col gap-3 w-[90%] ${isExpanded ? "" : `max-h-[400px] ${items.length > 1 ? "overflow-y-scroll" : "overflow-hidden"}`} p-2`}>
             <header className="flex border-b border-gray-600 relative items-center">
               <h2 className="text-3xl justify-start">{title}</h2>
-              {items.length > 1 ? <button
+              {items.length > 1  ? <button
                 type="button"
                 aria-expanded={isExpanded}
                 onClick={() =>

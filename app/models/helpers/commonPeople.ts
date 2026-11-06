@@ -8,7 +8,7 @@
 
 // First names
     // Girl
-        export var Anna_Name = "Anne";
+        export var Anna_Name = "Anna";
         export var Julie_Name = "Julie";
 
     // Boy

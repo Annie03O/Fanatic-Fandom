@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { ModalComponent } from "@/app/models/objects/ModalComponent";
 import type { Image } from "@/app/models/types/structure/Image";
 import type { Relationship } from "@/app/models/types/structure/Relationship";
@@ -18,31 +18,35 @@ type Props = {
 export const ShipCard = ({ item, show }: Props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [chosenImage, setChosenImage] = useState("");
-  const [shipImg, setShipImg]  = useState("");
   const {id} = useParams();
   
 
-  const character = show.mainCharacters.find((i) => i.id === id);
+  const showCharacters = [...show.mainCharacters, ...(show.recurring ?? [])];
+  const character = showCharacters.find((i) => i.id === id);
 
   console.log(character);
   
-  if (item.characters === undefined) return console.error("characters not found");
-  
-
-  const secondCharacterFound = findSecondPageId(item.characters, character!)
-
-  const secondCharacter = show.mainCharacters.find((i) => i.id === secondCharacterFound?.id)
-  
+  if (item.characters === undefined) return null;
   if (character === undefined) {
     console.error("Character for relationship was not found", item.id);
     return null;
   }
 
-  if (secondCharacter === undefined) return console.error("Second character not found");
+  const secondCharacterFound = findSecondPageId(item.characters, character)
 
-  if (secondCharacter.gender === undefined) return console.error(`Gender for character with id: ${secondCharacter.id} is undefined.`);
-  
-  
+  const secondCharacter = showCharacters.find((i) => i.id === secondCharacterFound?.id)
+
+  if (secondCharacter === undefined) {
+    console.error("Second character not found", item.id);
+    return null;
+  }
+
+  const secondCharacterGender =
+    secondCharacter.gender === "F" || secondCharacter.gender === "M"
+      ? secondCharacter.gender
+      : item.gender === "F" || item.gender === "M"
+        ? item.gender
+        : character.gender;
 
   const relationshipGallery = relationshipImages(show.relationships); 
 
@@ -79,18 +83,7 @@ export const ShipCard = ({ item, show }: Props) => {
   if (item.imgUrl === undefined) return console.error("Image not found");
   
 
-  useEffect(() => {
-    let imgUrl = "";
-    if (item.imgUrl?.card === true) {
-      imgUrl = relationshipImage.src;
-    } else {
-      imgUrl = item.imgUrl ? item.imgUrl.src : "";
-    }
-
-
-
-    setShipImg(imgUrl)
-  })
+  const shipImg = item.imgUrl.card ? relationshipImage.src : item.imgUrl.src;
 
   return (
     <section className="flex bg-[#f2e8ff] text-black min-h-[310px] h-fit w-full relative mr-1 inset-shadow-sm inset-shadow-gray-600 shadow-md shadow-gray-600 ring-2 ring-[#d1c3e3] rounded-xl overflow-hidden">
@@ -107,7 +100,7 @@ export const ShipCard = ({ item, show }: Props) => {
         </section>
 
         <section>
-          <header className="text-lg">{generateLabel(item, secondCharacter?.gender)}</header>
+          <header className="text-lg">{generateLabel(item, secondCharacterGender)}</header>
           <span>{item.shortDesc}</span>
         </section>
       </section>
