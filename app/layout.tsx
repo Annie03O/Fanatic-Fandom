@@ -27,13 +27,14 @@ export default function RootLayout({
           </section>
           <article className="w-full flex flex-col justify-center items-center bg-black text-[#d1c3e3]">
             <BreadcrumpNav/>
-              <section className="w-full h-full flex justify-center items-center">
+              <section className="w-full h-full flex justify-center">
                 {children}
               </section>
             </article>
          <section className="w-fit shrink-0 hidden md:flex flex-col items-stretch">
           <SideBar side="right"/>
           </section>
+
         </main>
       <Footer/>
       </body>
