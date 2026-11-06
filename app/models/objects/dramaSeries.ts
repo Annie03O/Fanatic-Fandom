@@ -48,6 +48,7 @@ import {
   ocS3_ID, ocS3Ep16_ID, ocS3Ep16_Title, ocS3Ep17_ID, ocS3Ep18_Title, ocS3Ep20_Title, ocS3ep8_ID, 
   ocS3Finale_ID, 
   ocS4_ID, ocS4Ep15_ID, ocS4Ep15_Title, ocS4Ep5_ID, ocS4Ep6_Title, ocSeriesFinale_ID, 
+  ocSeriesFinale_Title, 
   OliverTrask_firstName, 
   OliverTrask_ID, 
   OliverTrask_lastName, 
@@ -8078,6 +8079,8 @@ tags: [
     tags: ["Teen drama", "Drama"],
     firstAirDate: "August 05, 2003",
     lastAirDate: "February 22, 2007",
+    pilot: ocPilot_Title,
+    finaleEpisode: ocSeriesFinale_Title,
     status: "Ended",
     country: "US",
     language: "en",
@@ -8250,7 +8253,7 @@ tags: [
           }
         ],
         promo: true,
-        episodeCount: "92",
+        everyEpisode: true,
         actor: "Benjamin McKenzie"
       },
       {
@@ -8264,7 +8267,7 @@ tags: [
           Seth_Name + "lah",
           "Magnum P.I",
         ],
-        
+        birthday: "July 14, 1988",
         gender: "M",
         imageUrl: {
           src: "https://i.pinimg.com/236x/9e/5a/d1/9e5ad1ef359e49b2e99ba1547d0f9d47.jpg",
@@ -8358,6 +8361,43 @@ tags: [
             // }, 
           ],
           promo: true,
+          education: [
+            {
+              place: "Rhode Island School of Design",
+              hasEnded: true,
+              started: "2007",
+              ended: "2011",
+            },
+            {
+              place: "The Harbor School",
+              started: "2003",
+              hasEnded: true,
+              ended: "2007",
+            },
+          ],
+          occupation: [
+            {
+              title: "Comic Book Artist",
+              hasEnded: false,
+              started: "2004"
+            },
+          ],
+          residence: [
+            {
+              place: "Newport Beach, California",
+              started: "approx. 1996",
+              hasEnded: false
+            },
+            {
+              place: "Berkley, California",
+              started: "1988",
+              ended: "approx. 1996",
+              hasEnded: true
+            }
+          ],
+          actor: "Adam Brody",
+          everyEpisode: true,
+          
       },
       {
         id: MarissaCooper_ID,

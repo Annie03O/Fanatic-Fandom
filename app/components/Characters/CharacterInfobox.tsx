@@ -48,6 +48,8 @@ export const CharacterInfobox = ({ show, character }: Props) => {
           nickname?: string[];
           goesByNickname?: boolean;
           firstName?: string;
+          everyEpisode?: boolean,
+          
         }>;
         fields?: unknown[];
         posterUrl?: Image;
@@ -58,7 +60,7 @@ export const CharacterInfobox = ({ show, character }: Props) => {
   if (!convertedCharacter) return null;
 
   const infobox = Array.isArray((convertedCharacter as { infobox?: unknown[] }).infobox)
-    ? ((convertedCharacter as { infobox?: Array<{ fields?: unknown[]; posterSrc?: Image; posterUrl?: Image; imageUrl?: Image }> }).infobox?.[0] ?? convertedCharacter)
+    ? ((convertedCharacter as { infobox?: Array<{ fields?: unknown[]; posterSrc?: Image; posterUrl?: Image; imageUrl?: Image, episodeCount: string }> }).infobox?.[0] ?? convertedCharacter)
     : convertedCharacter;
 
   type InfoboxField = {
@@ -216,6 +218,7 @@ export const CharacterInfobox = ({ show, character }: Props) => {
                   <span>{String(item.info)}</span>
                 )}
               </span>
+              
             </section>
           );
         })}

@@ -296,5 +296,5 @@ export var OC_ID = generateId(OC_Title);
            export var ocS4Ep15_ID = generateId(OC_Title + " " + ocS4Ep15_Title);
 
         //Ep 16
-           export var ocSeriesFinaleTitle = "The End's Not Near, It's Here"
-           export var ocSeriesFinale_ID = generateId(OC_Title + " " + ocSeriesFinaleTitle);    
+           export var ocSeriesFinale_Title = "The End's Not Near, It's Here"
+           export var ocSeriesFinale_ID = generateId(OC_Title + " " + ocSeriesFinale_Title);    

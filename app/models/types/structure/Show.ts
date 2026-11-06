@@ -16,6 +16,8 @@ export type Show = {
   country: string | string[];         // ex "US", "UK", "SE"
   firstAirDate: string;           // ex "1990–2000" eller "2022–"
   lastAirDate?: string;
+  pilot: string;
+  finaleEpisode: string;
   status: string;          // ex "ended", "running"
   language: string | string[];       // ex "English", "Swedish"
   plot: string | string[];
