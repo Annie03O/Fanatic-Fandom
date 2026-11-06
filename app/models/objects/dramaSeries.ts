@@ -40,7 +40,7 @@ import {
   ocS1Ep3_Title, 
   ocS1Ep9_ID, 
   ocS1Ep9_Title, 
-  ocS2_ID, ocS2Ep14_ID, ocS2Ep18_ID, ocS2Ep1_ID, 
+  ocS2_ID, ocS2Ep14_ID, ocS2Ep14_Title, ocS2Ep18_ID, ocS2Ep1_ID, 
   ocS2Ep1_Title, 
   ocS2Ep20_ID, 
   ocS2Ep20_Title, 
@@ -11614,6 +11614,809 @@ tags: [
         noSeason: 2,
         imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video/v4/0e/42/4a/0e424ab0-e248-ca6e-9606-c467430b6426/mzl.bdxltsrk.lsr/400x400bb.jpg",
         noImage: false,
+        songs: [
+          {
+            episodeTitle: ocS2Ep1_Title,
+            song: [
+              {
+                id: generateId("Somersault Zero 7"),
+                title: "Somersault",
+                artist: "Zero 7"
+            },
+
+              {
+                id: generateId("You got me all wrong Dios Malos"),
+                title: "You got me all wrong",
+                artist: "Dios Malos"
+
+            },
+
+              {
+                id: generateId("Eastern Glow Jimmy LaValle"),
+                title: "Eastern Glow",
+                artist: "Jimmy LaValle"
+
+            },
+
+              {
+                id: generateId("All the arms Around You Halloween, Alaska"),
+                title: "All the arms Around You",
+                artist: "Halloween, Alaska"
+
+            },
+            ],
+          },
+          {
+            episodeTitle: "The Way We Were",
+            song: [
+              {
+                id: generateId("To Be Alone With You Sufjan Stevens"),
+                title: "To Be Alone With You",
+                artist: "Sufjan Stevens"
+
+            },
+              {
+                id: generateId("Trouble Sleeping The Perishers"),
+                title: "Trouble Sleeping",
+                artist: "The Perishers"
+
+            },
+              {
+                id: generateId("Walnut Tree Keane"),
+                title: "Walnut Tree",
+                artist: "Keane"
+
+            },
+              {
+                id: generateId("Ester Elefant"),
+                title: "Ester",
+                artist: "Elefant"
+
+            },
+              {
+                id: generateId("The End's Not Near The New Year"),
+                title: "The End's Not Near",
+                artist: "The New Year"
+
+            },
+            ]
+          },
+          {
+            episodeTitle: "The New Kids on the Block",
+            song: [
+              {
+                id: generateId("On the Table A.C. Newman"),
+                title: "On the Table",
+                artist: "A.C. Newman"
+              },
+              {
+                id: generateId("No Yes No Pet"),
+                title: "No Yes No",
+                artist: "Pet"
+              },
+              {
+                id: generateId("Faded Beauty Queens The Thrills"),
+                title: "Faded Beauty Queens",
+                artist: "The Thrills"
+              },
+              {
+                id: generateId("Little House of Savages The Walkmen"),
+                title: "Little House of Savages",
+                artist: "The Walkmen"
+              },
+              {
+                id: generateId("Weekends The Perishers"),
+                title: "Weekends",
+                artist: "The Perishers"
+              },
+              {
+                id: generateId("Worn Me Down Rachael Yamagata"),
+                title: "Worn Me Down",
+                artist: "Rachael Yamagata"
+              },
+            ], 
+          },
+          {
+            episodeTitle: ocS2Ep4_Title,
+            song: [
+              {
+                id: generateId("Silence Gomez"),
+                title: "Silence",
+                artist: "Gomez"
+              },
+              {
+                id: generateId("Fortress Pinback"),
+                title: "Fortress",
+                artist: "Pinback"
+              },
+              {
+                id: generateId("On Your Way Jimmy LaValle"),
+                title: "On Your Way",
+                artist: "Jimmy LaValle"
+              },
+              {
+                id: generateId("Domesticada The Mosquitos"),
+                title: "Domesticada",
+                artist: "The Mosquitos"
+              },
+              {
+                id: generateId("Smile Like You Mean It The Killers"),
+                title: "Smile Like You Mean It",
+                artist: "The Killers"
+              },
+              {
+                id: generateId("Mr. Brightside The Killers"),
+                title: "Mr. Brightside",
+                artist: "The Killers"
+              },
+              {
+                id: generateId("Everything Will Be Alright The Killers"),
+                title: "Everything Will Be Alright",
+                artist: "The Killers"
+              },
+              {
+                id: generateId("Primitive (The Way I Treat You) Ambulance LTD"),
+                title: "Primitive (The Way I Treat You)",
+                artist: "Ambulance LTD"
+              },
+              {
+                id: generateId("Sometimes You Can't Make it on Your Own U2"),
+                title: "Sometimes You Can't Make it on Your Own",
+                artist: "U2"
+              },
+            ]
+          },
+          {
+            episodeTitle: "The SnO.C",
+            song: [
+              {
+                id: generateId("Goodnight & Go Imogen Heap"),
+                title: "Goodnight & Go",
+                artist: "Imogen Heap"
+              },
+              {
+                id: generateId("Run Run Run Phoenix"),
+                title: "Run Run Run",
+                artist: "Phoenix"
+              },
+              {
+                id: generateId("Desperate Guys The Faint"),
+                title: "Desperate Guys",
+                artist: "The Faint"
+              },
+              {
+                id: generateId("Cool Gwen Stefani"),
+                title: "Cool",
+                artist: "Gwen Stefani"
+              },
+              {
+                id: generateId("Closer Dirty Vegas"),
+                title: "Closer",
+                artist: "Dirty Vegas"
+              },
+              {
+                id: generateId("Let it Die Fiest"),
+                title: "Let it Die",
+                artist: "Fiest"
+              },
+              {
+                id: generateId("Turn Off/Turn On Mascott"),
+                title: "Turn Off/Turn On",
+                artist: "Mascott"
+              },
+              {
+                id: generateId("Soft Lights Frausdots"),
+                title: "Soft Lights",
+                artist: "Frausdots"
+              },
+              {
+                id: generateId("Lay Lady Lay Magnet feat. Gemma Hayes"),
+                title: "Lay Lady Lay",
+                artist: "Magnet feat. Gemma Hayes"
+              },
+            ]
+          },
+          {
+            episodeTitle: "The Chrismukkah That Almost Wasn't",
+            song: [
+               {
+                 id: generateId("Christmas is Going to the Dogs Eels"),
+                 title: "Christmas is Going to the Dogs",
+                 artist: "Eels"
+               },
+               {
+                 id: generateId("As Har Mar Superstar"),
+                 title: "As",
+                 artist: "Har Mar Superstar"
+               },
+               {
+                 id: generateId("Mamacita, Donde Esta Santa Claus Guster"),
+                 title: "Mamacita, Donde Esta Santa Claus",
+                 artist: "Guster"
+               },
+               {
+                 id: generateId("Hustle Van McCoy"),
+                 title: "Hustle",
+                 artist: "Van McCoy"
+               },
+               {
+                 id: generateId("Carol of the Meows Guster"),
+                 title: "Carol of the Meows",
+                 artist: "Guster"
+               },
+               {
+                 id: generateId("Christmas Leona Naess"),
+                 title: "Christmas",
+                 artist: "Leona Naess"
+               },
+               {
+                 id: generateId("Silent Night CHAP 200"),
+                 title: "Silent Night",
+                 artist: "CHAP 200"
+               },
+               {
+                 id: generateId("Maybe This Christmas Ron Sexsmith"),
+                 title: "Maybe This Christmas",
+                 artist: "Ron Sexsmith"
+               },
+            ], 
+          },
+          {
+            episodeTitle: "The Family Ties",
+            song: [
+              {
+                id: generateId("Let's Go Olympic Hopefuls"),
+                title: "Let's Go",
+                artist: "Olympic Hopefuls"
+              },
+              {
+                id: generateId("Paper Thin Walls Modest Mouse"),
+                title: "Paper Thin Walls",
+                artist: "Modest Mouse"
+              },
+              {
+                id: generateId("The View Modest Mouse"),
+                title: "The View",
+                artist: "Modest Mouse"
+              },
+              {
+                id: generateId("Save This Town Blue Foundation"),
+                title: "Save This Town",
+                artist: "Blue Foundation"
+              },
+              {
+                id: generateId("Soulfood (Charles Webster's Banging House Dub) Martina Topley Bird"),
+                title: "Soulfood (Charles Webster's Banging House Dub)",
+                artist: "Martina Topley Bird"
+              },
+              {
+                id: generateId("Twilight Elliott Smith"),
+                title: "Twilight",
+                artist: "Elliott Smith"
+              },
+              {
+                id: generateId("The World At Large Modest Mouse"),
+                title: "The World At Large",
+                artist: "Modest Mouse"
+              },
+            ],
+          },
+          {
+            episodeTitle: "The Power of Love",
+            song: [
+                    {
+                      id: generateId("Don't Give Up On Me Solomon Burke"),
+                      title: "Don't Give Up On Me",
+                      artist: "Solomon Burke"
+                    },
+                    {
+                      id: generateId("Baby You Should Know Joy Zipper"),
+                      title: "Baby You Should Know",
+                      artist: "Joy Zipper"
+                    },
+                    {
+                      id: generateId("Open Arms Journey"),
+                      title: "Open Arms",
+                      artist: "Journey"
+                    },
+                    {
+                      id: generateId("New Hampshire Matt Pond PA"),
+                      title: "New Hampshire",
+                      artist: "Matt Pond PA"
+                    },
+                    {
+                      id: generateId("Don't Give Up On Me Sandy Cohen"),
+                      title: "Don't Give Up On Me",
+                      artist: "Sandy Cohen"
+                    },
+                    {
+                      id: generateId("She's No Lady, She's My Wife Sandy Cohen"),
+                      title: "She's No Lady, She's My Wife",
+                      artist: "Sandy Cohen"
+                    },
+                 ]
+               },
+               {
+                episodeTitle: "The Ex-Factor",
+                song: [
+                        {
+                          id: generateId("Hardcore Days & Softcore Nights Aqueduct"),
+                          title: "Hardcore Days & Softcore Nights",
+                          artist: "Aqueduct"
+                        },
+                        {
+                          id: generateId("Play Flunk"),
+                          title: "Play",
+                          artist: "Flunk"
+                        },
+                        {
+                          id: generateId("Saturday Night The Thrills"),
+                          title: "Saturday Night",
+                          artist: "The Thrills"
+                        },
+                        {
+                          id: generateId("Girls Can Be Cruel Infusion"),
+                          title: "Girls Can Be Cruel",
+                          artist: "Infusion"
+                        },
+                        {
+                          id: generateId("Not For All the Love in the World The Thrills"),
+                          title: "Not For All the Love in the World",
+                          artist: "The Thrills"
+                        },
+                        {
+                          id: generateId("Honey Dew Tom Quick"),
+                          title: "Honey Dew",
+                          artist: "Tom Quick"
+                        },
+                        {
+                          id: generateId("Curse of Comfort The Thrills"),
+                          title: "Curse of Comfort",
+                          artist: "The Thrills"
+                        },
+                        {
+                          id: generateId("Strange Religion Mark Lanegan Band"),
+                          title: "Strange Religion",
+                          artist: "Mark Lanegan Band"
+                        },
+                     ]
+                   },
+                   {
+                    episodeTitle: "The Accomplice",
+                    song: [
+                      {
+                        id: generateId("Hands Up! Walking Concert"),
+                        title: "Hands Up!",
+                        artist: "Walking Concert"
+                      },
+                      {
+                        id: generateId("10AM Automatic The Black Keys"),
+                        title: "10AM Automatic",
+                        artist: "The Black Keys"
+                      },
+                      {
+                        id: generateId("Western Springs Poster Children"),
+                        title: "Western Springs",
+                        artist: "Poster Children"
+                      },
+                      {
+                        id: generateId("Evil Interpol"),
+                        title: "Evil",
+                        artist: "Interpol"
+                      },
+                      {
+                        id: generateId("Portions For Foxes Rilo Kiley"),
+                        title: "Portions For Foxes",
+                        artist: "Rilo Kiley"
+                      },
+                      {
+                        id: generateId("Warmth Tiger Lou"),
+                        title: "Warmth",
+                        artist: "Tiger Lou"
+                      },
+                      {
+                        id: generateId("Strangerman Ringside"),
+                        title: "Strangerman",
+                        artist: "Ringside"
+                      },
+                      {
+                        id: generateId("Pretty (Ugly Before) Elliott Smith"),
+                        title: "Pretty (Ugly Before)",
+                        artist: "Elliott Smith"
+                      },
+                    ]
+                   },
+                   {
+                    episodeTitle: "The Second Chance",
+                    song: [
+                      {
+                        id: generateId("Summer Quest The Go Find"),
+                        title: "Summer Quest",
+                        artist: "The Go Find"
+                      },
+                      {
+                        id: generateId("Summer Quest The Go Find"),
+                        title: "Summer Quest",
+                        artist: "The Go Find"
+                      },
+                      {
+                        id: generateId("Everybody Come Down The Delgados"),
+                        title: "Everybody Come Down",
+                        artist: "The Delgados"
+                      },
+                      {
+                        id: generateId("Everybody Come Down The Delgados"),
+                        title: "Everybody Come Down",
+                        artist: "The Delgados"
+                      },
+                      {
+                        id: generateId("Sweets Martin Craft"),
+                        title: "Sweets",
+                        artist: "Martin Craft"
+                      },
+                      {
+                        id: generateId("Sweets Martin Craft"),
+                        title: "Sweets",
+                        artist: "Martin Craft"
+                      },
+                      {
+                        id: generateId("Cartwheels The Reindeer Section"),
+                        title: "Cartwheels",
+                        artist: "The Reindeer Section"
+                      },
+                      {
+                        id: generateId("Cartwheels The Reindeer Section"),
+                        title: "Cartwheels",
+                        artist: "The Reindeer Section"
+                      },
+                      {
+                        id: generateId("The Bully Sia"),
+                        title: "The Bully",
+                        artist: "Sia"
+                      },
+                      {
+                        id: generateId("The Bully Sia"),
+                        title: "The Bully",
+                        artist: "Sia"
+                      },
+                      {
+                        id: generateId("The Reason Why Rachael Yamagata"),
+                        title: "The Reason Why",
+                        artist: "Rachael Yamagata"
+                      },
+                      {
+                        id: generateId("The Reason Why Rachael Yamagata"),
+                        title: "The Reason Why",
+                        artist: "Rachael Yamagata"
+                      },
+                    ],
+                   },
+                   {
+                    episodeTitle: "The Lonely Hearts Club",
+                    song: [
+                            {
+                              id: generateId("Rear Moth Psapp"),
+                              title: "Rear Moth",
+                              artist: "Psapp"
+                            },
+                            {
+                              id: generateId("Tourist Athlete"),
+                              title: "Tourist",
+                              artist: "Athlete"
+                            },
+                            {
+                              id: generateId("No Idea J. Belle"),
+                              title: "No Idea",
+                              artist: "J. Belle"
+                            },
+                            {
+                              id: generateId("True Love Goes Trent Dabbs"),
+                              title: "True Love Goes",
+                              artist: "Trent Dabbs"
+                            },
+                            {
+                              id: generateId("The Outer Banks Jimmy LaValle"),
+                              title: "The Outer Banks",
+                              artist: "Jimmy LaValle"
+                            },
+                            {
+                              id: generateId("Another Day Jimmy LaValle"),
+                              title: "Another Day",
+                              artist: "Jimmy LaValle"
+                            },{
+                              id: generateId("Sambossa Jazzelicious"),
+                              title: "Sambossa",
+                              artist: "Jazzelicious"
+                            },
+                            {
+                              id: generateId("Follow Barði Jóhannsson"),
+                              title: "Follow",
+                              artist: "Barði Jóhannsson"
+                            },
+                            {
+                              id: generateId("Eve, The Apple Of My Eye Bell X1"),
+                              title: "Eve, The Apple Of My Eye",
+                              artist: "Bell X1"
+                            },
+                    ]
+                   },
+                   {
+                    episodeTitle: "The Father Knows Best",
+                    song: [
+                      {
+                        id: generateId("Lesson No. 1 Viva Voce"),
+                        title: "Lesson No. 1",
+                        artist: "Viva Voce"
+                      },
+                      {
+                        id: generateId("Lesson No. 1 Viva Voce"),
+                        title: "Lesson No. 1",
+                        artist: "Viva Voce"
+                      },
+                      {
+                        id: generateId("No Sleep Sam Roberts"),
+                        title: "No Sleep",
+                        artist: "Sam Roberts"
+                      },
+                      {
+                        id: generateId("No Sleep Sam Roberts"),
+                        title: "No Sleep",
+                        artist: "Sam Roberts"
+                      },
+                      {
+                        id: generateId("Memories Left At Sea Sunday Runners"),
+                        title: "Memories Left At Sea",
+                        artist: "Sunday Runners"
+                      },
+                      {
+                        id: generateId("Memories Left At Sea Sunday Runners"),
+                        title: "Memories Left At Sea",
+                        artist: "Sunday Runners"
+                      },
+                      {
+                        id: generateId("Faking The Books Lali Puna"),
+                        title: "Faking The Books",
+                        artist: "Lali Puna"
+                      },
+                      {
+                        id: generateId("Faking The Books Lali Puna"),
+                        title: "Faking The Books",
+                        artist: "Lali Puna"
+                      },
+                      {
+                        id: generateId("Your Ex- Lover Is Dead Stars"),
+                        title: "Your Ex- Lover Is Dead",
+                        artist: "Stars"
+                      },
+                      {
+                        id: generateId("Your Ex- Lover Is Dead Stars"),
+                        title: "Your Ex- Lover Is Dead",
+                        artist: "Stars"
+                      },
+                      {
+                        id: generateId("Misread Kings of Convenience"),
+                        title: "Misread",
+                        artist: "Kings of Convenience"
+                      },
+                      {
+                        id: generateId("Misread Kings of Convenience"),
+                        title: "Misread",
+                        artist: "Kings of Convenience"
+                      },
+                      {
+                        id: generateId("Universal Traveler Air"),
+                        title: "Universal Traveler",
+                        artist: "Air"
+                      },
+                      {
+                        id: generateId("Universal Traveler Air"),
+                        title: "Universal Traveler",
+                        artist: "Air"
+                      },
+                    ]
+                   },
+                   {
+                    episodeTitle: ocS2Ep14_Title,
+                    song: [
+                      {
+                        id: generateId("No Rain Blind Melon"),
+                        title: "No Rain",
+                        artist: "Blind Melon"
+                      },
+                      {
+                        id: generateId("God Killed The Queen Louis XIV"),
+                        title: "God Killed The Queen",
+                        artist: "Louis XIV"
+                      },
+                      {
+                        id: generateId("Faking The Books Lali Puna"),
+                        title: "Faking The Books",
+                        artist: "Lali Puna"
+                      },
+                      {
+                        id: generateId("Save It For A Rainy Day The Jayhawks"),
+                        title: "Save It For A Rainy Day",
+                        artist: "The Jayhawks"
+                      },
+                      {
+                        id: generateId("No Easy Way To Say Goodbye The Joel Evans Quartet feat. Roberta Donnay"),
+                        title: "No Easy Way To Say Goodbye",
+                        artist: "The Joel Evans Quartet feat. Roberta Donnay"
+                      },
+                      {
+                        id: generateId("End Of The Road Boyz II Men"),
+                        title: "End Of The Road",
+                        artist: "Boyz II Men"
+                      },
+                      {
+                        id: generateId("Champagne Supernova Matt Pond PA"),
+                        title: "Champagne Supernova",
+                        artist: "Matt Pond PA"
+                      },
+                      {
+                        id: generateId("In Every Sunflower Bell X1"),
+                        title: "In Every Sunflower",
+                        artist: "Bell X1"
+                      },
+                    ],
+                   },
+                   {
+                    episodeTitle: "The Mallpisode",
+                    song: [
+                      {
+                        id: generateId("Girl Beck"),
+                        title: "Girl",
+                        artist: "Beck"
+                      },
+                      {
+                        id: generateId("Big Talker The Murmurs"),
+                        title: "Big Talker",
+                        artist: "The Murmurs"
+                      },
+                      {
+                        id: generateId("TKO Le Tigre"),
+                        title: "TKO",
+                        artist: "Le Tigre"
+                      },
+                      {
+                        id: generateId("At The Mall Pansy Division"),
+                        title: "At The Mall",
+                        artist: "Pansy Division"
+                      },
+                      {
+                        id: generateId("C + F Sam Prekop"),
+                        title: "C + F",
+                        artist: "Sam Prekop"
+                      },
+                      {
+                        id: generateId("E - Pro Beck"),
+                        title: "E - Pro",
+                        artist: "Beck"
+                      },
+                      {
+                        id: generateId("Que Onda Guero Beck"),
+                        title: "Que Onda Guero",
+                        artist: "Beck"
+                      },
+                      {
+                        id: generateId("Scarecrow Beck"),
+                        title: "Scarecrow",
+                        artist: "Beck"
+                      },
+                      {
+                        id: generateId("Missing Beck"),
+                        title: "Missing",
+                        artist: "Beck"
+                      },
+                      {
+                        id: generateId("True Love Will Find You In The End Beck"),
+                        title: "True Love Will Find You In The End",
+                        artist: "Beck"
+                      },
+                    ]
+                   },
+                   {
+                    episodeTitle: "The Blaze of Glory",
+                    song: [
+                      {
+                        id: generateId("Meantime The Futureheads"),
+                        title: "Meantime",
+                        artist: "The Futureheads"
+                      },
+                      {
+                        id: generateId("What I'm Looking For Brendan Benson"),
+                        title: "What I'm Looking For",
+                        artist: "Brendan Benson"
+                      },
+                      {
+                        id: generateId("Debaser Pixies"),
+                        title: "Debaser",
+                        artist: "Pixies"
+                      },
+                      {
+                        id: generateId("Frequency Feeder"),
+                        title: "Frequency",
+                        artist: "Feeder"
+                      },
+                      {
+                        id: generateId("Rock You Like A Hurricane Scorpions"),
+                        title: "Rock You Like A Hurricane",
+                        artist: "Scorpions"
+                      },
+                      {
+                        id: generateId("AFK Pinback"),
+                        title: "AFK",
+                        artist: "Pinback"
+                      },
+                      {
+                        id: generateId("Snakes of Hawaii Army Navy"),
+                        title: "Snakes of Hawaii",
+                        artist: "Army Navy"
+                      },
+                      {
+                        id: generateId("A Smile That Explodes Joseph Arthur"),
+                        title: "A Smile That Explodes",
+                        artist: "Joseph Arthur"
+                      },
+                    ],
+                   },
+                   {
+                    episodeTitle: "The Brothers Grim",
+                    song: [
+                       {
+                         id: generateId("New Innocent Tyro Allegory Havergal"),
+                         title: "New Innocent Tyro Allegory",
+                         artist: "Havergal"
+                       },
+                       {
+                         id: generateId("I Only Want You Eagles Of Death Metal"),
+                         title: "I Only Want You",
+                         artist: "Eagles Of Death Metal"
+                       },
+                       {
+                         id: generateId("Beat Up Blue (Lucid Version) Justin Catalino"),
+                         title: "Beat Up Blue (Lucid Version)",
+                         artist: "Justin Catalino"
+                       },
+                       {
+                         id: generateId("Like You Like An Arsonist Paris Texas"),
+                         title: "Like You Like An Arsonist",
+                         artist: "Paris Texas"
+                       },
+                       {
+                         id: generateId("Too Much Love LCD Soundsystem"),
+                         title: "Too Much Love",
+                         artist: "LCD Soundsystem"
+                       },
+                       {
+                         id: generateId("Saturday Night Kaiser Chiefs"),
+                         title: "Saturday Night",
+                         artist: "Kaiser Chiefs"
+                       },
+                       {
+                         id: generateId("Reason Is Treason Kasabian"),
+                         title: "Reason Is Treason",
+                         artist: "Kasabian"
+                       },
+                       {
+                         id: generateId("Artists Are Boring Kingdom Flying Club"),
+                         title: "Artists Are Boring",
+                         artist: "Kingdom Flying Club"
+                       },
+                       {
+                         id: generateId("Call Me Arthur Yoria"),
+                         title: "Call Me",
+                         artist: "Arthur Yoria"
+                       },
+                     ],
+                   },
+                   {
+                    episodeTitle: "The Risky Business",
+                    song: [
+                      
+                    ]
+                   }
+              ]
       },
       {
         id: "the-oc-soundtrack-s3",
