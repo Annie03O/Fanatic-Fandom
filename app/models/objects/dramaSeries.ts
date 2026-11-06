@@ -3,6 +3,7 @@ import { Show } from "../types/structure/Show";
 import type { Image } from "../types/characters/Image";
 import { 
   AllanHeinberg_Name,
+  AnnaStern_fullName,
   AnnaStern_ID,
   AnnaStern_lastName,
   Atwood_Name, 
@@ -22,8 +23,10 @@ import {
   OC_ID, OC_Title, ocPilot_ID, 
   ocPilot_Title, 
   ocS1_ID, 
+  ocS1Ep15_Title, 
   ocS1Ep17_ID, 
   ocS1Ep17_Title, 
+  ocS1Ep18_Title, 
   ocS1Ep20_ID, 
   ocS1Ep20_Title, 
   ocS1Ep24_ID, 
@@ -64,6 +67,7 @@ import {
   SandyCohen_firstName, SandyCohen_fullName, SandyCohen_ID, 
   SandyKirsten_ID, 
   SanfordBookstaver_Name, 
+  SethAnna_ID, 
   SethCohen_fullName, SethCohen_ID, 
   SethKirsten_ID, 
   SethSandy_ID, 
@@ -8710,6 +8714,26 @@ tags: [
                   card: true,
                   shortDesc: "When Ryan first arrives in Newport, Summer thinks he is hot and hits on him. However, since Ryan's new adoptive brother,  Seth is in love with Summer, Ryan rejects her. Later, when Summer and Seth start dating, and Ryan begins dating Summer's best friend, Marissa, Ryan and Summer form a close friendship. In the series finale, Summer and Seth get married, which makes them in-laws.",
             }, 
+            {
+              id: SethAnna_ID,
+              name: AnnaStern_fullName,
+              type: "Romantic",
+              romantic: "Ex-Boyfriend/Ex-Girlfriend",
+              gender: "F",
+              imgUrl: {
+                src: "https://lovelace-media.imgix.net/uploads/26/b5c241a0-df8c-0132-c000-0a13eebe068d.jpg",
+                alt: "Seth kisses Annas hand on his bed.",
+                pageId: [
+                  ocS1_ID,
+                  SethCohen_ID,
+                  AnnaStern_ID
+                ]
+              },
+              started: [ocS1Ep15_Title],
+              ended: [ocS1Ep18_Title],
+              card: true,
+              shortDesc: "Seth meets Anna at the debutant ball when he is sulking because Summer found another date. Anna tells Seth that he needs to be more confident if he wants girls to notice him, before asking him to be her eskort. The two later bond over their love for comic books and eventually start dating. But Anna soon relizes that Seth is still in love with Summer which leads to their break-up.",
+            }
 
           ],
           promo: true,
@@ -9611,7 +9635,7 @@ tags: [
             id: generateId(`${OC_Title} The Third Wheel`),
             seasonNumber: 1,
             episodeNumber: 15,
-            episodeTitle: "The Third Wheel",
+            episodeTitle: ocS1Ep15_Title,
             imageUrl: {
               src: "https://m.media-amazon.com/images/M/MV5BZThmNTI2ZDUtNmMwNS00MmVjLWFmY2YtZTE0MWVhYWE0YjViXkEyXkFqcGc@._V1_.jpg",
               alt: "Close up on Marissa smiling.",
@@ -9655,10 +9679,10 @@ tags: [
             releaseDate: "January 21, 2004",
           },
           {
-            id: generateId("The Truth"),
+            id: generateId(ocS1Ep18_Title),
             seasonNumber: 1,
             episodeNumber: 18,
-            episodeTitle: "The Truth",
+            episodeTitle: ocS1Ep18_Title,
             imageUrl: {
               src: "https://static.wikia.nocookie.net/ocwikia/images/a/a4/OC-S1E18.jpg/revision/latest?cb=20220722173606",
               alt: "Ryan is talking to Seth in the parking lot.",
@@ -10431,7 +10455,7 @@ tags: [
             ],
           }, 
           {
-            episodeTitle: "The Third Wheel",
+            episodeTitle: ocS1Ep15_Title,
             song: [            
               {
                 id: generateId("I'm Shakin Rooney"),
@@ -10542,7 +10566,7 @@ tags: [
             ]
           },
           {
-            episodeTitle: "The Truth",
+            episodeTitle: ocS1Ep18_Title,
             song: [
               {
                 id: generateId("Love Of The Loveless Eels"),
