@@ -49,3 +49,20 @@ Tips:
 Kör Format Document (Shift+Alt+F) efteråt så får du rätt indrag i din array.
 Rader som inte är en titel följd av Performed by, till exempel (Main Title Theme), matchas inte och blir kvar. Ta bort dem först, till exempel med sökningen ^[ \t]*\(.*\)\r?\n.
 Om en titel innehåller citattecken (") måste du escapa dem manuellt efteråt.
+
+
+<!-- Avsnitt -->
+Find:
+^(\d+)\s+(\d+)\s+.([^\t]+?).\t([^\t]+)\t([^\t]+)\t([^\t]+)\t[^\t]*\t[^\r\n]*\r?\n(?:[ \t]*\r?\n)?([^\r\n]+)(?:\r?\n[ \t]*)*
+
+Replace:
+  {
+  id: generateId(OC_Title + " " + "$3"),
+  seasonNumber: 2,
+  episodeNumber: $2,
+  episodeTitle: "$3",
+  plot: "$7",
+  director: "$4",
+  writtenBy: "$5",
+  releaseDate: "$6",
+},
