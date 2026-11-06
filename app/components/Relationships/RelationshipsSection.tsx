@@ -65,10 +65,10 @@ export const RelationshipsSection = ({ relationships, show }: Props) => {
         const isExpanded = expandedSections[key] ?? false;
 
         return (
-          <section key={key} className={`flex flex-col gap-3 w-[90%] ${isExpanded ? "" : "max-h-[400px] overflow-y-hidden"} p-2`}>
+          <section key={key} className={`flex flex-col gap-3 w-[90%] ${isExpanded ? "" : `max-h-[400px] ${items.length > 1 ? "overflow-y-scroll" : "overflow-hidden"}`} p-2`}>
             <header className="flex border-b border-gray-600 relative items-center">
               <h2 className="text-3xl justify-start">{title}</h2>
-              <button
+              {items.length > 1 ? <button
                 type="button"
                 aria-expanded={isExpanded}
                 onClick={() =>
@@ -80,7 +80,7 @@ export const RelationshipsSection = ({ relationships, show }: Props) => {
                 className="absolute right-1 underline hover:text-blue-500"
               >
                 {isExpanded ? "Hide" : "Expand"}
-              </button>
+              </button> : ""}
             </header>
             <section key={title} className="mt-3 flex flex-col gap-3">
               {items.map((r, index) => (
