@@ -23,6 +23,6 @@ export type Relationship = {
     romantic?: "Girlfriend/Boyfriend" | "Dated" | "Fling" | "Crush" | "Ex-Boyfriend/Ex-Girlfriend" | "Wife/Husband" | "Ex-Wife/Ex-Husband" | "Hook-Up" | "Fiancé" | "Ex-Fiancé" | "Kissed" | "One Date" | "Affair";
     description?: string[]; 
     shortDesc?: string;
-    imgUrl?: Image | string;
+    imgUrl?: Image;
     card?: boolean; 
 }
