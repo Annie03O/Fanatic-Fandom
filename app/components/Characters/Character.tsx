@@ -1,43 +1,41 @@
 "use client";
 
+import { useEffect } from "react";
 import { useParams } from "next/navigation";
 import { seriesBetaWithSlug } from "../../functions/WithSlug/allSeriesWithSlug";
 import { CharacterInfobox } from "./CharacterInfobox";; 
 import { RelationshipsSection } from "../Relationships/RelationshipsSection"; 
 import { CharacterArc } from "./CharacterArc";
+import { getCharacterRelationships } from "@/app/models/objects/images";
 
 function Character() {
   const { slug, id } = useParams<{ slug: string; id: string }>();
 
-
-  // seriesBetaWithSlug är { ...dramaSeries, items: [...] }
   const series = seriesBetaWithSlug.items.find((s) => s.slug === slug);
+  const character = series?.mainCharacters?.find((c) => c.id === id);
+  const characterExists = Boolean(character);
+  const firstName = character?.firstName;
+  const lastName = character?.lastName;
+
+  useEffect(() => {
+    // The title is an external browser side effect, not React state.
+    // eslint-disable-next-line react-hooks/immutability
+    if (characterExists) document.title = [firstName, lastName].filter(Boolean).join(" ");
+  }, [characterExists, firstName, lastName]);
 
   if (!series) return <section>Series not found</section>;
-
-
-  console.log(id);
-  
-
-  // Variant A: om mainCharacters ligger direkt på serien
-  const character = series.mainCharacters?.find((c) => c.id === id);
-
-  if (character === undefined) return console.error("Character is undefined");
-
-  if (character.firstName === undefined) return console.error("Character firstName is undefined");
-
-  if (character.lastName === undefined) return console.error("Character lastName is undefined");
-
-
-  document.title = (character?.firstName + " " + character?.lastName)
-
-  
-  // Variant B: om serien har show-objekt (vanligt i din struktur)
-  // const character = series.show?.mainCharacters?.find((c) => c.id === id);
-
-  if (!character) return <section>Character not found, {character}</section>;
+  if (!character) return <section>Character not found, {id}</section>;
+  if (!character.firstName || !character.lastName) {
+    return <section>Character name is missing for {id}</section>;
+  }
  
-  if (character.relationships === undefined) return null;
+  const relationshipList = [
+    ...(series.relationships ?? []).filter((relationship) =>
+      relationship.characters?.some((person) => person.id === character.id)
+    ),
+    ...getCharacterRelationships(character),
+  ];
+
 
   return (
     <main className=" md:w-full flex flex-col justify-center items-center text-[#f2e8ff] ">
@@ -62,7 +60,7 @@ function Character() {
                            </section>
                            <section className="flex flex-col justify-center items-center w-full border-b border-gray-600">
                              <h2 className="text-3xl w-full border-b border-gray-600">Relationships</h2>
-                           <RelationshipsSection relationships={series.relationships} show={series} />
+                           <RelationshipsSection relationships={relationshipList} show={series} />
                          </section>
                         </section>
                         <section className="border md:w-[50%] lg:w-[30%]">

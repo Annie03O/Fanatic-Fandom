@@ -10,9 +10,10 @@ import {
   CalebNichols_fullName,CalebNichols_ID, 
   CalebNichols_lastName, 
   Cohen_Name, 
-  Cooper_Name, DawnAtwood_firstName, DawnAtwood_ID, DougLiman_Name, IanToynton_Name, JaneEspenson_Name, JulieCaleb_ID, JulieCooper_ID, 
+  Cooper_Name, DawnAtwood_firstName, DawnAtwood_fullName, DawnAtwood_ID, DougLiman_Name, IanToynton_Name, JaneEspenson_Name, JulieCaleb_ID, JulieCooper_ID, 
   KirstenCohen_firstName, KirstenCohen_fullName, KirstenCohen_ID, 
   LindseyGardner_firstName, 
+  LindseyGardner_fullName, 
   LindseyGardner_ID, 
   LindseyGardner_lastName, 
   LukeWard_fullName, 
@@ -83,6 +84,7 @@ import {
 import { generateId } from "@/app/functions/generateID";
 import { Alex_Name, Anna_Name, DanielAttias_Name, JoshSchwartz_Name, Julie_Name, REMArtist, Seth_Name, Taylor_Name } from "../helpers/commonPeople";
 import { generatePrime } from "crypto";
+import { generateLabel } from "@/app/functions/generateLabel";
 
 const toImage = (src: string, alt: string): Image => ({
   src,
@@ -8182,202 +8184,16 @@ tags: [
             ended: "2003",
           }
         ],
-        relationships: [
+        minorRelationships: [
             // Family
               // The Cohen's
-                {
-                  id: RyanSandy_ID, 
-                  name: SandyCohen_fullName,
-                  type: "Family",
-                  family: "Parent",
-                  typeOfFamily: "Adoptive",
-                  gender: "M",
-                  imgUrl: {
-                    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTkmnIJXByMTAyq3DY2TgbZDsJXIl5kkrnaNrVsPXpjsQbE6-X_c2m88Y&s=10",
-                    alt: "Sandy helps Ryan with his tie.",
-                    pageId: [
-                      ocS1_ID,
-                      ocPilot_ID,
-                      RyanAtwood_ID,
-                      SandyCohen_ID
-                    ],
-                  }, 
-                  started: [ ocPilot_Title],
-                  card: true,
-                  shortDesc: "Ryan and Sandy has a close and loving father-son bond. Sandy was the person who helped Ryan when his biological mom, Dawn, kicked him out, and took him in. Sandy is also shown to be protective over Ryan, defending him towards the snobs in Newport.",
-                },
-                {
-                  id: generateId("Ryan and Kirsten"),
-                  name: KirstenCohen_fullName,
-                  type: "Family",
-                  family: "Parent",
-                  typeOfFamily: "Adoptive",
-                  gender: "F",
-                  imgUrl: {
-                    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDzAnAW4XDIRpl0lKf3P6Hcwfg3R9-bX9pusmKjCVU4bzFiyfIUVPyC1o&s=10",
-                    alt: "Kirsten stands behind Ryan with her hands on her shoulders.",
-                    pageId: [
-                      RyanAtwood_ID,
-                      KirstenCohen_ID
-                    ],
-                  }, 
-                  started: [
-                    ocPilot_Title
-                  ],
-                  card: true,
-                  shortDesc: "When Sandy first brings Ryan home, Kirsten is not happy, since Ryan was just realeased from juvie. However, when Kirsten learns that Ryan's mom abandoned him, she starts to be more empathetic towards him. They eventually develop a close mother-son bond.",
-                },
-                {
-                  id: RyanSeth_ID,
-                  name: SethCohen_fullName,
-                  imgUrl: {
-                    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwpHMk6sFdAFVr3AHePZKzDas8kXOEx8nTKm58r5HEumIuwUh9nARqAcU&s=10",
-                    alt: "Seth and Ryan walk with their arms around each other.",
-                    pageId: [
-                      RyanAtwood_ID,
-                      ocS4Ep15_ID
-                    ]
-                  
-                  },
-                  type: "Family",
-                  family: "Sibling",
-                  typeOfFamily: "Adoptive",
-                  gender: "M",
-                  kindOfFriendship: "Best Friend",
-                  started: [ocPilot_Title],
-                  card: true,
-                  shortDesc: "Seth is the person friend Ryan makes after he moves to Newport, and Ryan is Seth's first real friend. The two quickly form a very close bond when Ryan starts defending Seth against his bullies. Their relationship is very brother-like, they tease each other but in the end always have the other ones back. They are best friends",
-                },
-
-            // Atwoods
               {
-                id: RyanDawn_ID,
-                name: "Dawn " + Atwood_Name,
-                type: "Family",
-                family: "Parent",
-                typeOfFamily: "Biological",
-                adopted: true,
-                gender: "F",
-                imgUrl: {
-                  src: "https://static.wikia.nocookie.net/ocwikia/images/d/d6/Ryan_and_Dawn_-_The_Gamble.jpg/revision/latest?cb=20240123100652",
-                  alt: "Dawn and Ryan arrive a the casino",
-                  pageId: [
-                    ocS1_ID,
-                    ocS1Ep3_ID,
-                    RyanAtwood_ID,
-                    DawnAtwood_ID, 
-                  ],
-                },
-                card: true,
-                shortDesc: "Ryan has a complicated relationship to his mother. Despite the fact that Dawn kicked him out, she actually loves her son a lot, but believes that she is not good enough to be his mother.",
-              },
-              {
-                name: "Frank " + Atwood_Name,
-                type: "Family",
-                typeOfFamily: "Biological",
-                family: "Parent",
-                adopted: true,
-                gender: "M",
-            },
-            {
-              id: RyanTrey_ID,
-              name: TreyAtwood_fullName,
-              type: "Family",
-              typeOfFamily: "Biological",
-              family: "Sibling",
-              gender: "M",
-              imgUrl: {
-                src: "https://substackcdn.com/image/fetch/$s_!ISft!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fae9922-96bd-481e-9ec0-336d2d90deed_1280x720.jpeg",
-                alt: "Trey is looking at the glass egg from Risky business.",
-                pageId: [
-                  ocS2_ID,
-                  ocS2Ep18_ID,
-                  TreyAtwood_ID,
-                ]
-              },
-              older: true,
-              card: true,
-              shortDesc: "Trey is Ryan's older brother. They grew up together in Chino, but when Trey goes to jail for stealing a car, they become distant. In season 2, Trey is released from prison and moves to Newport. For a while they begin to reconcile, however, when Ryan finds out that Trey tried to force himself on Marissa, it all comes crashing down.",
-            },
-            {
-              name: "unnamed",
-              type: "Family",
-              typeOfFamily: "Biological",
-              family: "Sibling",
-              gender: "M",
-              older: false,
-            }, 
-
-          // In Law
-            {
-             id: RyanSummer_ID,
-             name: SummerRoberts_fullName,
-             imgUrl: {
-              src: "https://i.redd.it/pcuc4f74ttyg1.jpeg",
-              alt: "Ryan tickles Summer before their graduation ceremony.",
-              pageId: [
-                ocS3_ID,
-                ocS3Finale_ID,
-                SummerRoberts_ID,
-                RyanAtwood_ID
-              ]
-             },
-             type: "Family",
-             typeOfFamily: "In-Law",
-             family: "Sibling",
-             kindOfFriendship: "Close",
-             gender: "F",
-             card: true,
-             shortDesc: "When Ryan first arrives in Newport, Summer thinks he is hot and hits on him. However, since Ryan's new adoptive brother,  Seth is in love with Summer, Ryan rejects her. Later, when Summer and Seth start dating, and Ryan begins dating Summer's best friend, Marissa, Ryan and Summer form a close friendship. In the series finale, Summer and Seth get married, which makes them in-laws.",
-            }, 
-          
-          // Extended 
-            {
-              name: "Hailey Nichols",
-              type: "Family",
-              typeOfFamily: "Adoptive",
-              family: "Aunt/Uncle",
-              gender: "F",
-              extended: true,
-              ifExtended: "Maternal",
-            },
-            {
-              id: generateId("Ryan and Caleb"),
-              name: CalebNichols_fullName,
-              type: "Family",
-              family: "Grandparent",
-              typeOfFamily: "Adoptive",
-              extended: true,
-              ifExtended: "Maternal",
-              gender: "M",
-              imgUrl: {
-                src: "https://static.wikia.nocookie.net/ocwikia/images/6/66/Caleb_Nichol.jpg/revision/latest?cb=20190216142637",
-                alt: "Close-up on Caleb sitting in his chair.",
-                pageId: [
-                  CalebNichols_ID
-                ]
-              },
-              dead: true,
-              card: true,
-              shortDesc: "Right from the moment Ryan arrived in Newport, Caleb expressed obvious distaste for him. Caleb has never given Ryan a chance and mostly see him as a problem."
-            }, 
-            {
               name: "Rose Nichols",
               type: "Family",
               family: "Grandparent",
               typeOfFamily: "Adoptive",
               extended: true,
               ifExtended: "Maternal",
-              gender: "F",
-              dead: true
-            },
-            {
-              name: "Sofie " + Cohen_Name,
-              type: "Family",
-              family: "Grandparent",
-              typeOfFamily: "Adoptive",
-              extended: true,
-              ifExtended: "Paternal",
               gender: "F",
               dead: true
             },
@@ -8391,133 +8207,8 @@ tags: [
               gender: "M",
               dead: true
             },
-        
-        // Romances
-          //  Girlfriends
-            { 
-              id: RyanTaylor_ID,
-              name: TaylorTownsend_fullName,
-              type: "Romantic",
-              romantic: "Girlfriend/Boyfriend",
-              gender: "F",
-              imgUrl: {
-                src: "https://photos1.blogger.com/x/blogger/3464/1690/1600/315610/405_thesleepingbeauty_ryanandtaylordance.jpg",
-                alt: "Ryan and Taylor slow dance.",
-                pageId: [
-                  ocS4_ID,
-                  ocS4Ep5_ID,
-                  RyanAtwood_ID,
-                  TaylorTownsend_ID
-                ]
-              },
-              started: [
-                ocS4Ep6_Title
-              ],
-              card: true, 
-              shortDesc: "Ryan and Taylor Townsend's relationship begins in Season 4 when Taylor helps Ryan with his sleep issues. As they spend more time together, they develop feelings for each other. Despite Ryan's skepticism, largely due to his unresolved grief over the loss of his first love, Marissa Cooper, he decides to pursue a relationship with Taylor. Taylor's vibrant personality helps Ryan begin to heal and enjoy life again. By the end of the series, the nature of their romantic relationship remains ambiguous, although they share smiles at Seth and Summer's wedding, suggesting a potential continuation of their bond."
-            }, 
-            {
-              id: RyanMarissa_ID,
-              name: MarissaCooper_fullName,
-              type: "Romantic",
-              romantic: "Ex-Boyfriend/Ex-Girlfriend",
-              gender: "F",
-              started: [
-                ocS1Ep9_Title,
-                ocS1Ep24_Title,
-                ocS2Ep20_Title
-              ], 
-              ended: [
-                ocS1Ep17_Title,
-                ocS1Ep27_Title,
-                ocS3Ep16_Title
-              ],
-              card: true,
-              shortDesc: "Ryan and Marissa's relationship can be best described as on-and-off, this is mostly because of Marissa's involvement with other guys while dating Ryan. In Season 3, the two break up for good after Marissa catches feelings for a guy named Johnny, who later dies. In the end of the season, Ryan is driving Marissa the port, when her ex-boyfiend, Volchock hits them with his car, killing Marissa.",
-            },
-
-            {
-              id: RyanLindsey_ID,
-              name: "Lindsey Gardner",
-              type: "Romantic",
-              typeOfFamily: "Adoptive",
-              family: "Aunt/Uncle",
-              gender: "F",
-              imgUrl: {
-                src: "https://i.redd.it/209oqpsq3vx01.jpg",
-                alt: "Ryan and Lindsey are lying on her bed, while waiting for the results of the paternity test.",
-                pageId: [
-                  RyanAtwood_ID,
-                  LindseyGardner_ID,
-                  ocS2Ep14_ID 
-                ],
-              },
-              extended: true,
-              ifExtended: "Maternal",
-              romantic: "Ex-Boyfriend/Ex-Girlfriend",
-              started: [
-                ocS2Ep4_Title
-              ],
-              ended: [
-                ocS2Ep4_Title
-              ],
-              card: true,
-              shortDesc: "Ryan and Lindsay have a brief relationship in the second season of the O.C., ending when Lindsay decides to move back to Chicago after positive paternity test results with Caleb, leaving Ryan sad."
-            },
-            {
-              id: RyanTheresa_ID,
-              name: "Theresa Diaz",
-              type: "Romantic",
-              romantic: "Ex-Boyfriend/Ex-Girlfriend",
-              gender: "F",
-              imgUrl: {
-                src: "https://www.looper.com/img/gallery/questionable-things-we-ignored-in-the-o-c/who-is-teresas-baby-daddy-1637186153.jpg",
-                alt: "Theresa and Ryan are sitting on the couch at the Cohen's.",
-                pageId: [
-                  ocS1_ID,
-                  ocS1Ep20_ID,
-                  RyanAtwood_ID,
-                  "theresa-diaz",
-                ]
-              },
-              started: [
-                 `Before ${ocPilot_Title}`,
-                 ocS1Ep27_Title,
-              ],
-              ended: [
-                `Before ${ocPilot_Title}`,
-                ocS2Ep1_Title
-              ],
-              card: true,
-              shortDesc: "Ryan Atwood and Theresa Diaz, childhood friends, developed romantic feelings leading to an intermittent relationship, which ended when Ryan left Chino. During a Thanksgiving visit to pay off Trey's debts, they apologized for their lack of communication. Afterward, Theresa got engaged to Eddie but later experienced doubts due to domestic violence. Following Ryan's breakup with Marissa Cooper, he and Theresa began dating again. Eddie's jealousy led to a confrontation at a party, prompting Theresa to return to Chino. She reappeared at the end of season two, revealing she had a baby, which she initially claimed was Eddie's but is heavily implied to be Ryan's. Despite briefly rekindling their relationship, Theresa ultimately felt Ryan was not ready for a serious commitment, especially concerning her child's welfare."
-            },
-            {
-              id: RyanSadie_ID,
-              name: "Sadie Campbell",
-              type: "Romantic",
-              romantic: "Ex-Boyfriend/Ex-Girlfriend",
-              gender: "F",
-              imgUrl: {
-                src: "https://i.redd.it/t3lovq0s4s891.jpg",
-                alt: "Dark image of Ryan and Sadie standing next to each other.",
-                pageId: [
-                  ocS3_ID,
-                  ocS3Ep17_ID,
-                  RyanAtwood_ID,
-                  generateId("Sadie Campbell"),
-                ]
-              },
-              started: [ 
-                ocS3Ep18_Title,
-              ],
-              ended: [
-                ocS3Ep20_Title,
-              ],
-              shortDesc: "Sadie moves to Newport after her cousin Johnny's death to assist her aunt with finances and funeral arrangements. She meets Marissa, mistakenly believing her to be Johnny’s girlfriend, and learns about Ryan. At The Bait Shop, Sadie and Ryan share an instant connection, but he lies to Marissa about being with Seth and goes on a road trip with Sadie. After an emotional night of card games in a motel, Ryan's relationship with Marissa ends. Sadie and Ryan's romance is short-lived due to external dramas and his impending college departure. Ultimately, Sadie decides to leave Newport to pursue her career as a jeweler.",
-              card: true,
-            },
-
-          //  Hook-ups
+            
+          // Hook-ups
             {
               name: "Chloe",
               type: "Romantic",
@@ -8529,7 +8220,8 @@ tags: [
               type: "Romantic",
               romantic: "Hook-Up",
               gender: "F",
-            },            
+            },
+                          
         ],
         characterArc: [
           {
@@ -8581,73 +8273,14 @@ tags: [
               ocS3_ID
             ]
           },
-          relationships: [
+          minorRelationships: [
             // Family
               // Immediate
-                {
-                  id: SethSandy_ID, 
-                  name: SandyCohen_fullName,
-                  type: "Family",
-                  family: "Parent",
-                  typeOfFamily: "Biological",
-                  gender: "M",
-                  imgUrl: {
-                    src: "https://people.com/thmb/CfXLigPHZTjxzJxXOymnQnQ89Ns=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(511x0:513x2)/adam-brody-1024-2fca1fdedc904c6ba9aa5ffd1410d5b1.jpg",
-                    alt: "Sandy and Seth are sitting on the porch to the Cohen house.",
-                    pageId: [
-                      ocS4_ID,
-                      ocSeriesFinale_ID,
-                      SethCohen_ID,
-                      SandyCohen_ID
-                    ],
-                  }, 
-                  started: [ ocPilot_Title],
-                  card: true,
-                  shortDesc: "Seth and Sandy have a pretty typical father-son relationship. Sandy tries to give Seth good advice and Seth listens sometimes, but at the end of the day they loven each other.",
-                },
-                {
-                  id: SethKirsten_ID,
-                  name: KirstenCohen_fullName,
-                  type: "Family",
-                  family: "Parent",
-                  typeOfFamily: "Biological",
-                  gender: "F",
-                  imgUrl: {
-                    src: "https://static.wikia.nocookie.net/ocwikia/images/9/96/SethBarmitzvah.png/revision/latest?cb=20230207231037",
-                    alt: "Group picture with Seth as a child with his parents.",
-                    pageId: [
-                      SandyCohen_ID,
-                      KirstenCohen_ID
-                    ],
-                  }, 
-                  card: true,
-                  shortDesc: "Much like with Sandy, Seth has a close relationship with his mother. When Kirsten was struggling with alcoholism and refused to go to rehab in Season 2, Seth was the one who convinced her to go.",
-                },
-                {
-                  id: RyanSeth_ID,
-                  name: RyanAtwood_fullName,
-                  imgUrl: {
-                    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwpHMk6sFdAFVr3AHePZKzDas8kXOEx8nTKm58r5HEumIuwUh9nARqAcU&s=10",
-                    alt: "Seth and Ryan walk with their arms around each other.",
-                    pageId: [
-                      RyanAtwood_ID,
-                      ocS4Ep15_ID
-                    ]
-                  
-                  },
-                  type: "Family",
-                  family: "Sibling",
-                  typeOfFamily: "Adoptive",
-                  gender: "M",
-                  kindOfFriendship: "Best Friend",
-                  started: [ocPilot_Title],
-                  card: true,
-                  shortDesc: "Seth is the person friend Ryan makes after he moves to Newport, and Ryan is Seth's first real friend. The two quickly form a very close bond when Ryan starts defending Seth against his bullies. Their relationship is very brother-like, they tease each other but in the end always have the other ones back. They are best friends",
-                },
-
+                
+              
               // Extended
                 {
-                  id: generateId("Ryan and Caleb"),
+                  id: generateId("Seth and Caleb"),
                   name: CalebNichols_fullName,
                   type: "Family",
                   family: "Grandparent",
@@ -8660,7 +8293,7 @@ tags: [
                 {
                   name: "Hailey Nichols",
                   type: "Family",
-                  typeOfFamily: "Adoptive",
+                  typeOfFamily: "Biological",
                   family: "Aunt/Uncle",
                   gender: "F",
                   extended: true,
@@ -8715,27 +8348,6 @@ tags: [
             //       card: true,
             //       shortDesc: "When Ryan first arrives in Newport, Summer thinks he is hot and hits on him. However, since Ryan's new adoptive brother,  Seth is in love with Summer, Ryan rejects her. Later, when Summer and Seth start dating, and Ryan begins dating Summer's best friend, Marissa, Ryan and Summer form a close friendship. In the series finale, Summer and Seth get married, which makes them in-laws.",
             // }, 
-            {
-              id: SethAnna_ID,
-              name: AnnaStern_fullName,
-              type: "Romantic",
-              romantic: "Ex-Boyfriend/Ex-Girlfriend",
-              gender: "F",
-              imgUrl: {
-                src: "https://lovelace-media.imgix.net/uploads/26/b5c241a0-df8c-0132-c000-0a13eebe068d.jpg",
-                alt: "Seth kisses Annas hand on his bed.",
-                pageId: [
-                  ocS1_ID,
-                  SethCohen_ID,
-                  AnnaStern_ID
-                ]
-              },
-              started: [ocS1Ep15_Title],
-              ended: [ocS1Ep18_Title],
-              card: true,
-              shortDesc: "Seth meets Anna at the debutant ball when he is sulking because Summer found another date. Anna tells Seth that he needs to be more confident if he wants girls to notice him, before asking him to be her eskort. The two later bond over their love for comic books and eventually start dating. But Anna soon relizes that Seth is still in love with Summer which leads to their break-up.",
-            }
-
           ],
           promo: true,
       },
@@ -9354,8 +8966,65 @@ tags: [
     ],
     relationships: [
       {
+                  id: SethSandy_ID, 
+                  type: "Family",
+                  family: "Parent",
+                  typeOfFamily: "Biological",
+                  gender: "M",
+                  imgUrl: {
+                    src: "https://people.com/thmb/CfXLigPHZTjxzJxXOymnQnQ89Ns=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(511x0:513x2)/adam-brody-1024-2fca1fdedc904c6ba9aa5ffd1410d5b1.jpg",
+                    alt: "Sandy and Seth are sitting on the porch to the Cohen house.",
+                    pageId: [
+                      ocS4_ID,
+                      ocSeriesFinale_ID,
+                      SethCohen_ID,
+                      SandyCohen_ID
+                    ],
+                  },
+                  characters: [
+                    {
+                      id: SethCohen_ID,
+                      label: SethCohen_fullName
+                    },
+                    {
+                      id: SandyCohen_ID,
+                      label: SandyCohen_fullName
+                    },
+                  ], 
+                  started: [ ocPilot_Title],
+                  card: true,
+                  shortDesc: "Seth and Sandy have a pretty typical father-son relationship. Sandy tries to give Seth good advice and Seth listens sometimes, but at the end of the day they loven each other.",
+                },
+                {
+                  id: SethKirsten_ID,
+                  type: "Family",
+                  family: "Parent",
+                  typeOfFamily: "Biological",
+                  gender: "F",
+                  imgUrl: {
+                    src: "https://static.wikia.nocookie.net/ocwikia/images/9/96/SethBarmitzvah.png/revision/latest?cb=20230207231037",
+                    alt: "Group picture with Seth as a child with his parents.",
+                    pageId: [
+                      SandyCohen_ID,
+                      KirstenCohen_ID
+                    ],
+                  }, 
+
+                  card: true,
+                  characters: [
+                    {
+                      id: SethCohen_ID,
+                      label: SethCohen_fullName
+                    },
+                    {
+                      id: KirstenCohen_ID,
+                      label: KirstenCohen_fullName
+                    },
+                  ], 
+                  shortDesc: "Much like with Sandy, Seth has a close relationship with his mother. When Kirsten was struggling with alcoholism and refused to go to rehab in Season 2, Seth was the one who convinced her to go.",
+                },
+                {
                   id: SethSummer_ID,
-                  name: SummerRoberts_fullName,
                   type: "Romantic",
                   imgUrl: {
                     src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVbWgWAlPNYcTtPss7vL1ivKlL92DKPwJlIAQq8UDqQi7618cC",
@@ -9381,6 +9050,481 @@ tags: [
                     }
                   ]
             }, 
+            {
+              id: SethAnna_ID,
+              name: AnnaStern_fullName,
+              type: "Romantic",
+              romantic: "Ex-Boyfriend/Ex-Girlfriend",
+              gender: "F",
+              imgUrl: {
+                src: "https://lovelace-media.imgix.net/uploads/26/b5c241a0-df8c-0132-c000-0a13eebe068d.jpg",
+                alt: "Seth kisses Annas hand on his bed.",
+                pageId: [
+                  ocS1_ID,
+                  SethCohen_ID,
+                  AnnaStern_ID
+                ]
+              },
+              started: [ocS1Ep15_Title],
+              ended: [ocS1Ep18_Title],
+              characters: [
+                {
+                  id: SethCohen_ID,
+                  label: SethCohen_fullName
+                },
+                {
+                  id: AnnaStern_ID,
+                  label: AnnaStern_fullName
+                }
+              ],
+              card: true,
+              shortDesc: "Seth meets Anna at the debutant ball when he is sulking because Summer found another date. Anna tells Seth that he needs to be more confident if he wants girls to notice him, before asking him to be her eskort. The two later bond over their love for comic books and eventually start dating. But Anna soon relizes that Seth is still in love with Summer which leads to their break-up.",
+            },
+              {
+                  id: RyanSandy_ID, 
+                  type: "Family",
+                  family: "Parent",
+                  typeOfFamily: "Adoptive",
+                  gender: "M",
+                  imgUrl: {
+                    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTkmnIJXByMTAyq3DY2TgbZDsJXIl5kkrnaNrVsPXpjsQbE6-X_c2m88Y&s=10",
+                    alt: "Sandy helps Ryan with his tie.",
+                    pageId: [
+                      ocS1_ID,
+                      ocPilot_ID,
+                      RyanAtwood_ID,
+                      SandyCohen_ID
+                    ],
+                  }, 
+                  started: [ ocPilot_Title],
+                  card: true,
+                  characters: [
+                    {
+                      id: RyanAtwood_ID,
+                      label: RyanAtwood_fullName
+                    },
+                    {
+                      id: SandyCohen_ID,
+                      label: SandyCohen_fullName
+                    },
+                  ], 
+                  shortDesc: "Ryan and Sandy has a close and loving father-son bond. Sandy was the person who helped Ryan when his biological mom, Dawn, kicked him out, and took him in. Sandy is also shown to be protective over Ryan, defending him towards the snobs in Newport.",
+                },
+                {
+                  id: generateId("Ryan and Kirsten"),
+                  type: "Family",
+                  family: "Parent",
+                  typeOfFamily: "Adoptive",
+                  gender: "F",
+                  imgUrl: {
+                    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDzAnAW4XDIRpl0lKf3P6Hcwfg3R9-bX9pusmKjCVU4bzFiyfIUVPyC1o&s=10",
+                    alt: "Kirsten stands behind Ryan with her hands on her shoulders.",
+                    pageId: [
+                      RyanAtwood_ID,
+                      KirstenCohen_ID
+                    ],
+                  }, 
+                  started: [
+                    ocPilot_Title
+                  ],
+                  card: true,
+                  
+                  characters: [
+                    {
+                      id: RyanAtwood_ID,
+                      label: RyanAtwood_fullName
+                    },
+                    {
+                      id: KirstenCohen_ID,
+                      label: KirstenCohen_fullName
+                    },
+                  ], 
+                  shortDesc: "When Sandy first brings Ryan home, Kirsten is not happy, since Ryan was just realeased from juvie. However, when Kirsten learns that Ryan's mom abandoned him, she starts to be more empathetic towards him. They eventually develop a close mother-son bond.",
+                },
+                {
+                  id: RyanSeth_ID,
+                  imgUrl: {
+                    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwpHMk6sFdAFVr3AHePZKzDas8kXOEx8nTKm58r5HEumIuwUh9nARqAcU&s=10",
+                    alt: "Seth and Ryan walk with their arms around each other.",
+                    pageId: [
+                      RyanAtwood_ID,
+                      ocS4Ep15_ID
+                    ]
+                  
+                  },
+                  type: "Family",
+                  family: "Sibling",
+                  typeOfFamily: "Adoptive",
+                  gender: "M",
+                  kindOfFriendship: "Best Friend",
+                  started: [ocPilot_Title],
+                  characters: [
+                    {
+                      id: RyanAtwood_ID,
+                      label: RyanAtwood_fullName,
+                    },
+                    {
+                      id: SethCohen_ID,
+                      label: SethCohen_fullName,
+                    },
+                  ],
+                  card: true,
+                  shortDesc: "Seth is the person friend Ryan makes after he moves to Newport, and Ryan is Seth's first real friend. The two quickly form a very close bond when Ryan starts defending Seth against his bullies. Their relationship is very brother-like, they tease each other but in the end always have the other ones back. They are best friends",
+                },
+
+            // Atwoods
+              {
+                id: RyanDawn_ID,
+                type: "Family",
+                family: "Parent",
+                typeOfFamily: "Biological",
+                adopted: true,
+                gender: "F",
+                imgUrl: {
+                  src: "https://static.wikia.nocookie.net/ocwikia/images/d/d6/Ryan_and_Dawn_-_The_Gamble.jpg/revision/latest?cb=20240123100652",
+                  alt: "Dawn and Ryan arrive a the casino",
+                  pageId: [
+                    ocS1_ID,
+                    ocS1Ep3_ID,
+                    RyanAtwood_ID,
+                    DawnAtwood_ID, 
+                  ],
+                },
+                characters: [
+                  {
+                    id: RyanAtwood_ID,
+                    label: RyanAtwood_fullName,
+                  },
+                  {
+                    id: DawnAtwood_ID,
+                    label: DawnAtwood_fullName,
+                  },
+                ],
+                card: true,
+                shortDesc: "Ryan has a complicated relationship to his mother. Despite the fact that Dawn kicked him out, she actually loves her son a lot, but believes that she is not good enough to be his mother.",
+              },
+              {
+                id: generateId(`${RyanAtwood_firstName} and Frank`),
+                type: "Family",
+                typeOfFamily: "Biological",
+                family: "Parent",
+                adopted: true,
+                gender: "M",
+                characters: [
+                  {
+                    id: RyanAtwood_ID,
+                    label: RyanAtwood_fullName,
+                  },
+                  {
+                    id: generateId("Frank Atwood"),
+                    label: "Frank Atwood",
+                  },
+                ],
+            },
+            {
+              id: RyanTrey_ID,
+              type: "Family",
+              typeOfFamily: "Biological",
+              family: "Sibling",
+              gender: "M",
+              imgUrl: {
+                src: "https://substackcdn.com/image/fetch/$s_!ISft!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fae9922-96bd-481e-9ec0-336d2d90deed_1280x720.jpeg",
+                alt: "Trey is looking at the glass egg from Risky business.",
+                pageId: [
+                  ocS2_ID,
+                  ocS2Ep18_ID,
+                  TreyAtwood_ID,
+                ]
+              },
+              older: true,
+              card: true,
+              shortDesc: "Trey is Ryan's older brother. They grew up together in Chino, but when Trey goes to jail for stealing a car, they become distant. In season 2, Trey is released from prison and moves to Newport. For a while they begin to reconcile, however, when Ryan finds out that Trey tried to force himself on Marissa, it all comes crashing down.",
+              characters: [
+                {
+                  id: RyanAtwood_ID,
+                  label: RyanAtwood_fullName,
+                },
+                {
+                  id: TreyAtwood_ID,
+                  label: TreyAtwood_fullName,
+                },
+              ]
+            },
+            {
+              name: "unnamed",
+              type: "Family",
+              typeOfFamily: "Biological",
+              family: "Sibling",
+              gender: "M",
+              older: false,
+            }, 
+
+          // In Law
+            {
+             id: RyanSummer_ID,
+             imgUrl: {
+              src: "https://i.redd.it/pcuc4f74ttyg1.jpeg",
+              alt: "Ryan tickles Summer before their graduation ceremony.",
+              pageId: [
+                ocS3_ID,
+                ocS3Finale_ID,
+                SummerRoberts_ID,
+                RyanAtwood_ID
+              ]
+             },
+             type: "Family",
+             typeOfFamily: "In-Law",
+             family: "Sibling",
+             kindOfFriendship: "Close",
+             gender: "F",
+             card: true,
+             shortDesc: "When Ryan first arrives in Newport, Summer thinks he is hot and hits on him. However, since Ryan's new adoptive brother,  Seth is in love with Summer, Ryan rejects her. Later, when Summer and Seth start dating, and Ryan begins dating Summer's best friend, Marissa, Ryan and Summer form a close friendship. In the series finale, Summer and Seth get married, which makes them in-laws.",
+             characters: [
+              {
+                id: RyanAtwood_ID,
+                label: RyanAtwood_fullName,
+              },
+              {
+                id: SummerRoberts_ID,
+                label: SummerRoberts_fullName,
+              },
+             ]
+            }, 
+          
+          // Extended 
+            {
+              name: "Hailey Nichols",
+              type: "Family",
+              typeOfFamily: "Adoptive",
+              family: "Aunt/Uncle",
+              gender: "F",
+              extended: true,
+              ifExtended: "Maternal",
+            },
+            {
+              id: generateId("Ryan and Caleb"),
+              type: "Family",
+              family: "Grandparent",
+              typeOfFamily: "Adoptive",
+              extended: true,
+              ifExtended: "Maternal",
+              gender: "M",
+              imgUrl: {
+                src: "https://static.wikia.nocookie.net/ocwikia/images/6/66/Caleb_Nichol.jpg/revision/latest?cb=20190216142637",
+                alt: "Close-up on Caleb sitting in his chair.",
+                pageId: [
+                  CalebNichols_ID
+                ]
+              },
+              dead: true,
+              card: true,
+              shortDesc: "Right from the moment Ryan arrived in Newport, Caleb expressed obvious distaste for him. Caleb has never given Ryan a chance and mostly see him as a problem.",
+              characters: [
+                {
+                  id: RyanAtwood_ID,
+                  label: RyanAtwood_fullName,
+                },
+                {
+                  id: CalebNichols_ID,
+                  label: CalebNichols_fullName
+                }
+              ]
+            }, 
+            {
+              type: "Family",
+              family: "Grandparent",
+              typeOfFamily: "Adoptive",
+              extended: true,
+              ifExtended: "Paternal",
+              gender: "F",
+              dead: true,
+              characters: [
+                {
+                  id: RyanAtwood_ID,
+                  label: RyanAtwood_fullName
+                },
+                {
+                  id: generateId(`Sofie ${Cohen_Name}`),
+                  label: `Sofie ${Cohen_Name}`
+                }
+              ]
+            },
+
+            
+        // Romances
+          //  Girlfriends
+            { 
+              id: RyanTaylor_ID,
+              name: TaylorTownsend_fullName,
+              type: "Romantic",
+              romantic: "Girlfriend/Boyfriend",
+              gender: "F",
+              imgUrl: {
+                src: "https://photos1.blogger.com/x/blogger/3464/1690/1600/315610/405_thesleepingbeauty_ryanandtaylordance.jpg",
+                alt: "Ryan and Taylor slow dance.",
+                pageId: [
+                  ocS4_ID,
+                  ocS4Ep5_ID,
+                  RyanAtwood_ID,
+                  TaylorTownsend_ID
+                ]
+              },
+              started: [
+                ocS4Ep6_Title
+              ],
+              characters: [
+                {
+                  id: RyanAtwood_ID,
+                  label: RyanAtwood_fullName,
+                },
+                {
+                  id: TaylorTownsend_ID, 
+                  label: TaylorTownsend_fullName
+                }
+              ],
+              card: true, 
+              shortDesc: "Ryan and Taylor Townsend's relationship begins in Season 4 when Taylor helps Ryan with his sleep issues. As they spend more time together, they develop feelings for each other. Despite Ryan's skepticism, largely due to his unresolved grief over the loss of his first love, Marissa Cooper, he decides to pursue a relationship with Taylor. Taylor's vibrant personality helps Ryan begin to heal and enjoy life again. By the end of the series, the nature of their romantic relationship remains ambiguous, although they share smiles at Seth and Summer's wedding, suggesting a potential continuation of their bond."
+            }, 
+            {
+              id: RyanMarissa_ID,
+              name: MarissaCooper_fullName,
+              type: "Romantic",
+              romantic: "Ex-Boyfriend/Ex-Girlfriend",
+              gender: "F",
+              started: [
+                ocS1Ep9_Title,
+                ocS1Ep24_Title,
+                ocS2Ep20_Title
+              ], 
+              ended: [
+                ocS1Ep17_Title,
+                ocS1Ep27_Title,
+                ocS3Ep16_Title
+              ],
+              characters: [
+                {
+                  id: RyanAtwood_ID,
+                  label: RyanAtwood_fullName,
+                },
+                {
+                  id: MarissaCooper_ID, 
+                  label: MarissaCooper_fullName
+                }
+              ],
+              card: true,
+              shortDesc: "Ryan and Marissa's relationship can be best described as on-and-off, this is mostly because of Marissa's involvement with other guys while dating Ryan. In Season 3, the two break up for good after Marissa catches feelings for a guy named Johnny, who later dies. In the end of the season, Ryan is driving Marissa the port, when her ex-boyfiend, Volchock hits them with his car, killing Marissa.",
+            },
+
+            {
+              id: RyanLindsey_ID,
+              name: "Lindsey Gardner",
+              type: "Romantic",
+              typeOfFamily: "Adoptive",
+              family: "Aunt/Uncle",
+              gender: "F",
+              imgUrl: {
+                src: "https://i.redd.it/209oqpsq3vx01.jpg",
+                alt: "Ryan and Lindsey are lying on her bed, while waiting for the results of the paternity test.",
+                pageId: [
+                  RyanAtwood_ID,
+                  LindseyGardner_ID,
+                  ocS2Ep14_ID 
+                ],
+              },
+              extended: true,
+              ifExtended: "Maternal",
+              romantic: "Ex-Boyfriend/Ex-Girlfriend",
+              started: [
+                ocS2Ep4_Title
+              ],
+              ended: [
+                ocS2Ep4_Title
+              ],
+              card: true,
+              characters: [
+                {
+                  id: RyanAtwood_ID,
+                  label: RyanAtwood_fullName,
+                },
+                {
+                  id: LindseyGardner_ID, 
+                  label: LindseyGardner_fullName
+                }
+              ],
+              shortDesc: "Ryan and Lindsay have a brief relationship in the second season of the O.C., ending when Lindsay decides to move back to Chicago after positive paternity test results with Caleb, leaving Ryan sad."
+            },
+            {
+              id: RyanTheresa_ID,
+              name: "Theresa Diaz",
+              type: "Romantic",
+              romantic: "Ex-Boyfriend/Ex-Girlfriend",
+              gender: "F",
+              imgUrl: {
+                src: "https://www.looper.com/img/gallery/questionable-things-we-ignored-in-the-o-c/who-is-teresas-baby-daddy-1637186153.jpg",
+                alt: "Theresa and Ryan are sitting on the couch at the Cohen's.",
+                pageId: [
+                  ocS1_ID,
+                  ocS1Ep20_ID,
+                  RyanAtwood_ID,
+                  "theresa-diaz",
+                ]
+              },
+              started: [
+                 `Before ${ocPilot_Title}`,
+                 ocS1Ep27_Title,
+              ],
+              ended: [
+                `Before ${ocPilot_Title}`,
+                ocS2Ep1_Title
+              ],
+              card: true,
+              characters: [
+                {
+                  id: RyanAtwood_ID,
+                  label: RyanAtwood_fullName,
+                },
+                {
+                  id: generateId("Theresa Diaz"), 
+                  label: "Theresa Diaz"
+                }
+              ],
+              shortDesc: "Ryan Atwood and Theresa Diaz, childhood friends, developed romantic feelings leading to an intermittent relationship, which ended when Ryan left Chino. During a Thanksgiving visit to pay off Trey's debts, they apologized for their lack of communication. Afterward, Theresa got engaged to Eddie but later experienced doubts due to domestic violence. Following Ryan's breakup with Marissa Cooper, he and Theresa began dating again. Eddie's jealousy led to a confrontation at a party, prompting Theresa to return to Chino. She reappeared at the end of season two, revealing she had a baby, which she initially claimed was Eddie's but is heavily implied to be Ryan's. Despite briefly rekindling their relationship, Theresa ultimately felt Ryan was not ready for a serious commitment, especially concerning her child's welfare."
+            },
+            {
+              id: RyanSadie_ID,
+              name: "Sadie Campbell",
+              type: "Romantic",
+              romantic: "Ex-Boyfriend/Ex-Girlfriend",
+              gender: "F",
+              imgUrl: {
+                src: "https://i.redd.it/t3lovq0s4s891.jpg",
+                alt: "Dark image of Ryan and Sadie standing next to each other.",
+                pageId: [
+                  ocS3_ID,
+                  ocS3Ep17_ID,
+                  RyanAtwood_ID,
+                  generateId("Sadie Campbell"),
+                ]
+              },
+              started: [ 
+                ocS3Ep18_Title,
+              ],
+              ended: [
+                ocS3Ep20_Title,
+              ],
+              shortDesc: "Sadie moves to Newport after her cousin Johnny's death to assist her aunt with finances and funeral arrangements. She meets Marissa, mistakenly believing her to be Johnny’s girlfriend, and learns about Ryan. At The Bait Shop, Sadie and Ryan share an instant connection, but he lies to Marissa about being with Seth and goes on a road trip with Sadie. After an emotional night of card games in a motel, Ryan's relationship with Marissa ends. Sadie and Ryan's romance is short-lived due to external dramas and his impending college departure. Ultimately, Sadie decides to leave Newport to pursue her career as a jeweler.",
+              characters: [
+                {
+                  id: RyanAtwood_ID,
+                  label: RyanAtwood_fullName,
+                },
+                {
+                  id: generateId("Sadie Campbell"), 
+                  label: "Sadie Campbell"
+                }
+              ],
+              card: true,
+            },
     ],
     seasons: [
       {

@@ -27,6 +27,7 @@ export type Character = {
     goesByNickname?: boolean;
     personality?: string;
     relationships?: Relationship[];
+    minorRelationships?: Relationship[];
     promo?: boolean;
     number?: number; 
     firstEpisode?: string;

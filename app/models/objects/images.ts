@@ -37,6 +37,13 @@ export const relationshipImages = (relationships: Relationship[]): Image[] =>
     return image ? [image] : [];
   });
 
+export const getCharacterRelationships = (
+  character: Pick<Character, "relationships" | "minorRelationships">,
+): Relationship[] => [
+  ...(character.relationships ?? []),
+  ...(character.minorRelationships ?? []),
+];
+
 export const findImageByPageId = (
   images: Image[],
   pageId: string,
@@ -111,7 +118,7 @@ export const createImages = (show: Show): GalleryImage[] | null => {
   });
 
   const relatedImages = show.mainCharacters.flatMap((character) =>
-    relationshipImages(character.relationships ?? []),
+    relationshipImages(getCharacterRelationships(character)),
   );
 
   return [...seasonImages, ...relatedImages];

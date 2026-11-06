@@ -18,9 +18,14 @@ type Props = {
 const isOccupation = (v: unknown): v is Occupation =>
   !!v && typeof v === "object" && "title" in v && "started" in v;
 
-// Education typically has "place" (and not "title")
-const isEducation = (v: unknown): v is Occupation =>
-  !!v && typeof v === "object" && "place" in v && "started" in v;
+// Education typically has "place" (and not "title").
+// Guard against occupation records that also include a place field.
+const isEducation = (v: unknown): v is Occupation & { place: string; hasEnded?: boolean; ended?: string | number } =>
+  !!v &&
+  typeof v === "object" &&
+  "place" in v &&
+  "started" in v &&
+  !("title" in v);
 
 export const CharacterInfobox = ({ show, character }: Props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -28,14 +33,64 @@ export const CharacterInfobox = ({ show, character }: Props) => {
 
   const images = [
     ...(createImages(show) ?? []),
-    ...relationshipImages(character.relationships ?? []),
+    ...relationshipImages(show.relationships ?? []),
   ];
 
 
-  const characterWithInfobox = convertToCharacterInfobox(show, character);
-  const box = characterWithInfobox.infobox[0];
+  const convertedCharacter = convertToCharacterInfobox(show, character) as
+    | (Character & {
+        infobox?: Array<{
+          fields?: unknown[];
+          posterSrc?: Image;
+          posterUrl?: Image;
+          imageUrl?: Image;
+          name?: string;
+          nickname?: string[];
+          goesByNickname?: boolean;
+          firstName?: string;
+        }>;
+        fields?: unknown[];
+        posterUrl?: Image;
+        imageUrl?: Image;
+      })
+    | null;
 
-  if (!box) return null;
+  if (!convertedCharacter) return null;
+
+  const infobox = Array.isArray((convertedCharacter as { infobox?: unknown[] }).infobox)
+    ? ((convertedCharacter as { infobox?: Array<{ fields?: unknown[]; posterSrc?: Image; posterUrl?: Image; imageUrl?: Image }> }).infobox?.[0] ?? convertedCharacter)
+    : convertedCharacter;
+
+  type InfoboxField = {
+    label: string;
+    info: unknown;
+  };
+
+  const characterWithInfobox: Character & {
+    infobox?: Array<{
+      fields?: unknown[];
+      posterSrc?: Image;
+      posterUrl?: Image;
+      imageUrl?: Image;
+      name?: string;
+      nickname?: string[];
+      goesByNickname?: boolean;
+      firstName?: string;
+    }>;
+    fields: InfoboxField[];
+    posterUrl?: Image;
+    imageUrl?: Image;
+  } = {
+    ...convertedCharacter,
+    ...infobox,
+    fields: Array.isArray(infobox?.fields)
+      ? (infobox.fields as InfoboxField[])
+      : [],
+    posterUrl:
+      infobox?.posterUrl ??
+      convertedCharacter.posterUrl ??
+      convertedCharacter.imageUrl,
+  };
 
   const displayName =
     characterWithInfobox.goesByNickname && characterWithInfobox.nickname?.length
@@ -48,7 +103,7 @@ export const CharacterInfobox = ({ show, character }: Props) => {
   }
 
   const posterUrl = characterWithInfobox.posterUrl ?? characterWithInfobox.imageUrl;
-  
+
   const characterImages: Image[] = images
     .map((image) => ({
       ...image,
@@ -62,20 +117,21 @@ export const CharacterInfobox = ({ show, character }: Props) => {
     }))
     .filter((image) => image.pageId.includes(character.id));
 
-  const modalImages: Image[] = characterImages.some(
-    (image) => image.src === posterUrl.src,
-  )
-    ? characterImages
-    : [
-        { 
-          src: posterUrl.src, 
-          alt: displayName, 
-          pageId: [character.id] 
-        },
-        ...characterImages,
-      ];
+  const modalImages: Image[] = posterUrl
+    ? characterImages.some((image) => image.src === posterUrl.src)
+      ? characterImages
+      : [
+          {
+            src: posterUrl.src,
+            alt: displayName,
+            pageId: [character.id],
+          },
+          ...characterImages,
+        ]
+    : characterImages;
 
   const openModal = () => {
+    if (!posterUrl) return;
     toggleImage(posterUrl.src, setChosenImage);
     setIsModalOpen(true);
   };
@@ -98,7 +154,7 @@ export const CharacterInfobox = ({ show, character }: Props) => {
         </button>
       ) : null}
       <section className="text-md w-[98%]">
-        {box.fields.map((item) => {
+        {characterWithInfobox.fields.map((item: InfoboxField) => {
           if (!item) return null;
 
           return (

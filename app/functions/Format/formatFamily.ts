@@ -121,7 +121,8 @@ function formatFamilyRelation(ship: Relationship, gender: "F"  | "M" | "Non-Bina
 
 export function formatFamily(show: Show) {
 
-  if (show.mainCharacters === undefined) return console.error("Can't find mainCharacter list for: ", show.id);
+  if (show.mainCharacters === undefined) return console.error("Can't find mainCharacter list for: ", show);
+  if (!show.relationships?.length) return undefined;
   
 
   const character = show.mainCharacters.find((i) => i.id);
@@ -132,18 +133,39 @@ export function formatFamily(show: Show) {
 
   if (ship  === undefined) return console.error('formatFamily failed to find ship');
   
+  if (ship.characters === undefined) return console.error("Characters for ship is undefined");
+  
   const secondCharacter = ship?.characters?.find((i) =>  i.id === character.id)
+
+  console.log(secondCharacter);
+  
 
   if (secondCharacter === undefined) return console.error(`Second character for ship with id: ${ship.id} not found`);
  
   const rightCharacter = show.mainCharacters.find((i) => i.id === secondCharacter.id)
 
   if (rightCharacter === undefined) return console.error("Character is  undefined");
-  
+
 
   const formatted = formatFamilyRelation(ship, rightCharacter?.gender);
 
   if (!formatted || ship.dead !== true || !ship.name) return formatted;
 
+    const rels = (show.relationships ?? []).filter(
+    (r): r is Relationship => Boolean(r)
+  );
+
+
+  console.log(rels);
+  
+
+  // Map over relationships, not shows
+  const family = rels
+    .map((r) => formatFamilyRelation(r, rightCharacter?.gender))
+    .filter((s): s is string => Boolean(s));
+
+
   return formatted.replace(ship.name, `${ship.name} †`);
+
+  
 }

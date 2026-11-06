@@ -1,5 +1,6 @@
 import Character from "@/app/components/Characters/Character";
 import { seriesBetaWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
+import type { ComponentType } from "react";
 
 
 export function generateStaticParams() {
@@ -12,7 +13,8 @@ export function generateStaticParams() {
 }
 
 function CharacterAdapter() {
-  return <Character />;
+  const CharacterComponent = Character as ComponentType;
+  return <CharacterComponent />;
 }
 
 function CharacterPage() {

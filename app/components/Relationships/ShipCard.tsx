@@ -6,6 +6,7 @@ import type { Image } from "@/app/models/types/structure/Image";
 import type { Relationship } from "@/app/models/types/structure/Relationship";
 import type { Show } from "@/app/models/types/structure/Show";
 import { generateLabel } from "@/app/functions/Format/generateLabels";
+import { generateLabel as createName } from "@/app/functions/generateLabel";
 import { findImageByPageId, findSecondPageId, relationshipImages, toImage } from "@/app/models/objects/images";
 import { useParams } from "next/navigation";
 
@@ -57,7 +58,7 @@ export const ShipCard = ({ item, show }: Props) => {
   const characterPoster = character.posterUrl ?? character.imageUrl;
   const modalImages: Image[] = [
     ...(relationshipImage ? [relationshipImage] : []),
-    ...relationshipImages(character.relationships ?? []),
+    ...relationshipImages(show.relationships ?? []),
     ...(characterPoster ? [characterPoster] : []),
   ].filter(
     (image, index, images) =>
@@ -95,7 +96,14 @@ export const ShipCard = ({ item, show }: Props) => {
     <section className="flex bg-[#f2e8ff] text-black min-h-[310px] h-fit w-full relative mr-1 inset-shadow-sm inset-shadow-gray-600 shadow-md shadow-gray-600 ring-2 ring-[#d1c3e3] rounded-xl overflow-hidden">
       <section className="flex flex-col w-2/3 p-2">
         <section className="flex flex-col gap-2 border-b border-gray-400">
-          <h1 className="text-2xl">{item.name}</h1>
+          <h1 className="text-2xl">
+            {
+              secondCharacter.label ? secondCharacter.label 
+              : secondCharacter.goesByNickname === true && secondCharacter.nickname 
+              ? createName(secondCharacter.nickname[0], secondCharacter.lastName) 
+              : createName(secondCharacter.firstName, secondCharacter.lastName)
+          }
+          </h1>
         </section>
 
         <section>

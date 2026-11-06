@@ -2,33 +2,74 @@ import { Show } from "@/app/models/types/structure/Show";
 import { Character } from "../../models/types/characters/Character";
 import { InfoField } from "../../models/types/structure/layouts/Infobox";
 import { Relationship } from "../../models/types/structure/Relationship";
-import { formatFamily } from "../Format/formatFamily";
+import { formatFamilyShip } from "../Format/formatFamilyShip";
 import { formatFriendship } from "../Format/formatFriendShip";
 import { formatMaritalStatus } from "../Format/formatMaritalStatus";
 import { formatRomance } from "../Format/formatRomance";
 import { seriesBetaWithSlug } from "\.\./WithSlug/allSeriesWithSlug";
+import { getCharacterRelationships } from "@/app/models/objects/images";
 
 const isInfoField = (x: InfoField | null): x is InfoField => x !== null;
 
 export function convertToCharacterInfobox(show: Show, character: Character) {
+  const rels = [
+    ...(show.relationships ?? []).filter((relationship) =>
+      relationship.characters?.some((person) => person.id === character.id)
+    ),
+    ...getCharacterRelationships(character),
+  ]
+    .filter((relationship): relationship is Relationship => Boolean(relationship))
+    .map((relationship) => ({
+      ...relationship,
+      name:
+        relationship.name ??
+        relationship.characters?.find((person) => person.id !== character.id)?.label,
+    }))
+    .filter((relationship, index, relationships) => {
+      const key = relationship.id ?? [
+        relationship.type,
+        relationship.family,
+        relationship.romantic,
+        relationship.kindOfFriendship,
+        relationship.name,
+        relationship.gender,
+        relationship.characters?.map((person) => person.id).sort().join(","),
+      ].join("|");
 
-  // 
+      return relationships.findIndex((candidate) => {
+        const candidateKey = candidate.id ?? [
+          candidate.type,
+          candidate.family,
+          candidate.romantic,
+          candidate.kindOfFriendship,
+          candidate.name ??
+            candidate.characters?.find((person) => person.id !== character.id)?.label,
+          candidate.gender,
+          candidate.characters?.map((person) => person.id).sort().join(","),
+        ].join("|");
 
-
-  const rels = (show.relationships ?? []).filter(
-    (r): r is Relationship => Boolean(r)
-  );
+        return candidateKey === key;
+      }) === index;
+    });
 
   const friends = rels.
-    map(formatFriendship).
+    map((formatFriendship)).
     filter((f): f is string => Boolean(f)) ;
   const family = rels
-    .map(formatFamily)
+    .map((relationship) =>
+      formatFamilyShip(
+        relationship,
+        relationship.gender === "F" || relationship.gender === "M"
+          ? relationship.gender
+          : character.gender,
+      )
+    )
     .filter((s): s is string => Boolean(s));
 
   const romance = rels.
     map(formatRomance). 
     filter((s): s is string => Boolean(s))
+
 
   const fullName =
     character.firstName?.length && character.lastName?.length
@@ -72,6 +113,8 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
 export const dramaSeriesWithInfobox = {
   items: seriesBetaWithSlug.items.map((show) => ({
     ...show,
-    characters: (show.mainCharacters ?? []).map(convertToCharacterInfobox),
+    characters: (show.mainCharacters ?? []).map((character) =>
+      convertToCharacterInfobox(show, character)
+    ),
   })),
 };
