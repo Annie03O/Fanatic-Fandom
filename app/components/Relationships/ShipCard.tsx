@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ModalComponent } from "@/app/models/objects/ModalComponent";
 import type { Image } from "@/app/models/types/structure/Image";
 import type { Relationship } from "@/app/models/types/structure/Relationship";
@@ -16,6 +16,7 @@ type Props = {
 export const ShipCard = ({ item, show }: Props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [chosenImage, setChosenImage] = useState("");
+  const [shipImg, setShipImg]  = useState("")
 
   const character = show.mainCharacters.find((candidate) =>
     candidate.relationships?.some(
@@ -43,7 +44,9 @@ export const ShipCard = ({ item, show }: Props) => {
   const relationshipImage = item.card
     ? linkedImage ?? directImage
     : directImage ?? linkedImage;
-  const shipImg = relationshipImage?.src ?? "";
+
+  if (relationshipImage === undefined) return console.error("relationshipImage is undefined.");
+  
 
   const characterPoster = character.posterUrl ?? character.imageUrl;
   const modalImages: Image[] = [
@@ -65,6 +68,20 @@ export const ShipCard = ({ item, show }: Props) => {
     setChosenImage(relationshipImage.src);
     setIsModalOpen(true);
   };
+
+  if (item.imgUrl === undefined) return console.error("Image not found");
+  
+
+  useEffect(() => {
+    let imgUrl = "";
+    if (item.imgUrl?.card === true) {
+      imgUrl = relationshipImage.src;
+    } else {
+      imgUrl = item.imgUrl ? item.imgUrl.src : "";
+    }
+
+    setShipImg(imgUrl)
+  })
 
   return (
     <section className="flex bg-[#f2e8ff] text-black min-h-[310px] h-fit w-full relative mr-1 inset-shadow-sm inset-shadow-gray-600 shadow-md shadow-gray-600 ring-2 ring-[#d1c3e3] rounded-xl overflow-hidden">
