@@ -8276,6 +8276,7 @@ tags: [
             OC_ID
           ]
         },
+        personality: "Seth is the classic nerd, with a passion for comics (his greatest love) and rock music. Although his family is one of the best known in their seaside town, he is constantly bullied at school and treated like a loser. Before Ryan joined the family, Seth was an only child, and he was rather selfish at first. But Ryan’s arrival and their growing friendship, along with his deep love for Summer and the relationship that followed, taught him that he sometimes has to think of other people too.",
         posterUrl:
           {
             src: "https://static.wikia.nocookie.net/ocwikia/images/c/c4/SethCohen-S3-3.jpg/revision/latest?cb=20220906053105",
@@ -8359,6 +8360,39 @@ tags: [
             //       card: true,
             //       shortDesc: "When Ryan first arrives in Newport, Summer thinks he is hot and hits on him. However, since Ryan's new adoptive brother,  Seth is in love with Summer, Ryan rejects her. Later, when Summer and Seth start dating, and Ryan begins dating Summer's best friend, Marissa, Ryan and Summer form a close friendship. In the series finale, Summer and Seth get married, which makes them in-laws.",
             // }, 
+          ],
+          characterArc: [
+            {
+              seasonNumber: 1,
+              summary: [
+                "Ryan Atwood became friends with Seth Cohen after Seth’s father, Sandy, brought Ryan home with him. The two bonded quickly: Ryan didn’t look down on Seth the way the other “Newpsies” did, and Seth was the first person to welcome Ryan into the family without hesitation. Not long after Ryan arrived, Seth got to know Marissa Cooper, which gave him a chance to talk with her best friend, Summer Roberts, the school’s second most popular girl and someone he’d had a crush on since childhood. A trip to Tijuana together brought them closer, even though Summer insisted she didn’t like him. She soon rejected his invitation on a date after noticing some cheerleaders watching them. Once she finally admitted her feelings, Summer became jealous of Anna Stern, a friend Seth met at cotillion dance practice and who shared his interests, comics included. Seth and Anna began dating after he chose her in a competition between her and Summer for his attention. The relationship was brief, however, ending when Seth made it clear that he really wanted Summer and regretted his choice. Anna eventually returned home to Pittsburgh, but the two stayed close friends.",
+                "Although Seth and Summer got together and lost their virginity to each other, Summer still wanted to keep things secret. Seth wouldn’t accept that and professed his love for her from the top of a coffee cart outside the school. Their relationship then became official and lasted until Ryan, Seth’s best and nearly only friend, announced he was going back to Chino, his old neighborhood, because his pregnant ex-girlfriend had decided to keep the baby and raise it in her hometown. Seth urged Ryan to stay and was devastated when he left, though he pretended not to care even as it hurt him deeply. Unable to bear the thought of being a loner again, and despite still having Summer, he chose to spend the summer sailing the seas on his boat, the Summer Breeze, named in her honor. He left a note for her and for his parents, who were heartbroken to lose both Seth and Ryan in a single day.",
+              ],
+            },
+            {
+              seasonNumber: 2,
+              summary: [
+                "Seth opens the season in Portland, Oregon, staying with Luke and Luke’s father, Carson, having sailed away from Newport Beach after Ryan went back to Chino to be with Theresa. Kirsten phones again and again, trying to talk Seth into coming home, but gets nowhere. Sandy flies up to Portland and fares no better, so in the end it falls to Ryan to persuade Seth to return. The decision gets easier for Seth when Theresa tells Ryan she has miscarried, which leads Ryan to move back to Newport.",
+                "Seth is crushed to learn that Summer has moved on and is now seeing Zach Stevens, a water polo player and the son of a congressman. He sinks further when he spots Summer and Zach laughing together over lunch with Neil Roberts, right after Seth’s botched attempt to win over Summer’s father.",
+                "Alex Kelly worked at a club in Newport Beach, had been emancipated from her parents, and rented her own apartment. Her tough exterior led Seth to assume she was out of his league. Hoping to match that edge, he put on one of Ryan’s tank tops and took his grandfather’s Aston Martin out for a joyride. Alex, though, found Seth’s innocence charming, and they began dating soon after he got a job at her club. It didn’t last long, as Alex, who was bisexual, left Seth for Marissa Cooper.",
+                "When Seth, Summer and Zach travel to San Diego to pitch Atomic County, Seth ends up alone in an adjoining hotel room while Summer and Zach share a bed in another. Sleepless all night, he wrecks the pitch by adding elements that weren’t in the original, including a romance between The Ironist (Seth) and Little Miss Vixen (Summer). Convinced he has lost Summer for good, Seth takes the bus back to Newport. Then, just as she and Zach are about to fly to Italy, Summer breaks up with him, takes a cab to the Cohen house, and kisses Seth in the rain.",
+                "At the Atomic County launch party, Seth and Zach come to blows over Summer. When the prom and a meeting with George Lucas land on the same night, the two flip a coin to decide who takes Summer to the prom and who meets Lucas. Zach wins the prom date and Seth gets the Lucas meeting, but the two realize they should swap places. Seth reaches the prom just in time to watch Summer be crowned Prom Queen, then climbs on stage and declares his love for her again with a long kiss.",
+              ],
+            },
+            {
+              seasonNumber: 3,
+              summary: [
+                "Seth and Summer stayed together and began applying to colleges, settling on Brown University, Seth’s dream school, because, as he put it, “most importantly, it’s 3,000 miles away.” Summer decided that if she got into Brown and Seth didn’t, she would turn it down to be with him. She was accepted and he was not, but Seth lied and told her he had gotten in too, since he didn’t want her to give up Brown for his sake. The lie ended up tearing them apart. While visiting Brown, Seth ran into Anna, who helped him land an interview at the Rhode Island School of Design (RISD). In the season finale, Seth surprised Summer with the news that he’d been accepted to RISD for the spring semester, and the two got back together. They graduated from high school happily, but life turned painful when their friend Marissa died in a car accident."
+              ]
+            },
+            {
+              seasonNumber: 4,
+              summary: [
+                "Six months after Marissa’s death, Seth was working at a comic-book store and struggling with Summer, who had gone from a materialistic gossip to a tree-hugging vegan at college (she later protested poverty at the Cohens’ Thanksgiving dinner) and wasn’t returning his calls. He left her long messages on her answering machine. When they met up in Newport, Summer was cold toward him. After a visit from Taylor, she realized she’d been pushing Seth away because she couldn’t face what Newport represented: the memory of Marissa. She came home for Thanksgiving, and Seth confronted her with this idea. She eventually accepted it, telling him so by voicemail as she headed back to Brown to work through it alone.",
+                "Summer came to terms with Marissa’s death through therapy and seemed to return to her old self, but she and Seth soon found that her tree-hugging ways had left a lasting mark. Seth supported her by stepping back and letting her pursue her new interests, which made Summer see how much he meant to her, and their bond grew stronger. A semester-long suspension from Brown, the result of false pretenses, hit just as Seth was due to start at RISD, so he chose to delay college until the following fall so they could go back to Providence together. On New Year’s Eve, a pregnancy scare led Seth to propose. The scare turned out to be false, but the wedding plans stayed in place. Summer later backed out of the engagement, though they kept dating.",
+                "Their relationship was tested again when Summer was offered a job at .G.E.O.R.G.E. while Seth had nothing lined up. When an earthquake hit Newport, the two narrowly escaped a falling streetlight, and the Cohens, whose house was destroyed, crowded into Summer’s house along with Julie and Kaitlin Cooper. For the next six months Seth drifted, and Summer challenged him to find something he was passionate about and chase it. She took the job at .G.E.O.R.G.E. but promised to keep in touch. The series wrapped up four years later in “The End’s Not Near, It’s Here,” with the couple marrying in a Jewish ceremony, with Ryan as best man.",
+              ]
+            }
           ],
           promo: true,
           education: [
