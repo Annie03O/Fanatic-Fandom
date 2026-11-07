@@ -1,6 +1,8 @@
 import { Relationship } from "../../models/types/structure/Relationship";
 
- function formatShip(ship: Relationship): string | null {
+export function formatRomance(ship: Relationship, gender: "F"  | "M" | "Non-Binary"): string | null {
+
+  
   if (ship.type !== "Romantic" && !(ship.type === "Friendship" && ship.romantic)) return null;
 
   if (ship.romantic === "Crush")  return `${ship.name} (Crush)`;
@@ -11,39 +13,31 @@ import { Relationship } from "../../models/types/structure/Relationship";
   if (ship.romantic === "Affair")  return `${ship.name} (Affair)`;
 
   if (ship.romantic === "Ex-Boyfriend/Ex-Girlfriend") {
-    if (ship.gender === "F") return `${ship.name} (Ex-Girlfriend)`;
-    if (ship.gender === "M") return `${ship.name} (Ex-Boyfriend)`;
+    if (gender === "F") return `${ship.name} (Ex-Girlfriend)`;
+    if (gender === "M") return `${ship.name} (Ex-Boyfriend)`;
     return `${ship.name} (Ex)`;
   }
 
   if (ship.romantic === "Girlfriend/Boyfriend") {
-    if (ship.gender === "F") return `${ship.name} (Girlfriend)`;
-    if (ship.gender === "M") return `${ship.name} (Boyfriend)`;
+    if (gender === "F") return `${ship.name} (Girlfriend)`;
+    if (gender === "M") return `${ship.name} (Boyfriend)`;
     return `${ship.name} (Partner)`;
   }
 
   if (ship.romantic === "Ex-Fiancé") return `${ship.name} (Ex-Fiancé)`
   if (ship.romantic === "Wife/Husband") {
-    if (ship.gender === "F") return `${ship.name} (Wife)`;
-    if (ship.gender === "M") return `${ship.name} (Husband)`;
+    if (gender === "F") return `${ship.name} (Wife)`;
+    if (gender === "M") return `${ship.name} (Husband)`;
     
     return `${ship.name} (Spouse)`;
   }
 
   if (ship.romantic === "Ex-Wife/Ex-Husband") {
-    if (ship.gender === "F") return `${ship.name} (Ex-Wife)`;
-    if (ship.gender === "M") return `${ship.name} (Ex-Husband)`;
+    if (gender === "F") return `${ship.name} (Ex-Wife)`;
+    if (gender === "M") return `${ship.name} (Ex-Husband)`;
     
     return `${ship.name} (Spouse)`;
   }
 
   return ship.name ? `${ship.name} (Romance)` : null;
-}
-
-export function formatRomance(ship: Relationship) {
-  const formatted = formatShip(ship);
-
-  if (!formatted || ship.dead !== true || !ship.name) return formatted;
-
-  return formatted.replace(ship.name, `${ship.name} †`);
 }

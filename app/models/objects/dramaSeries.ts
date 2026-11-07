@@ -8456,12 +8456,24 @@ tags: [
         status: "Deceased",
         birthday: "May 4, 1998",
         dateOfDeath: "May 18, 2006",
+        causeOfDeath: "Car Accident",
         residence: [
           {
             place: "Orange County",
             hasEnded: true,
             started: "1988",
             ended: "2006"
+          }
+        ],
+        characterArc: [
+          {
+            seasonNumber: 1,
+            summary: [ 
+              
+              "Throughout the first season, Marissa was involved in an on-again, off-again relationship with Ryan, with the relationships being interrupted by Luke Ward and Oliver Trask, respectively. Oliver eventually was discovered to be mentally unstable and hiding an unhealthy obsession with Marissa.",
+              "During this time, her mother, Julie Cooper, was romantically involved with Kirsten Cohen's father, Caleb Nichol. During a brief break-up with Caleb, Marissa's mother had a fling with Marissa's ex-boyfriend Luke, which caused Marissa to run away — strangely enough — to Chino and Ryan's ex-girlfriend Theresa's house. This lead to Ryan and Marissa once again becoming romantically involved.",
+              "At the end of the first season, Julie and Caleb married, making Marissa stepdaughter to the most powerful, but also the most controversial, man in Newport. She was blackmailed into moving in with her mother and Caleb in their new mansion. Ryan also left her to go back to Chino after it was discovered Theresa maybe pregnant with Ryan's child. Theresa wanted to return there to be with her family and Ryan felt compelled to go with her, effectively ending his relationship with Marissa and leaving her. Marissa as a result once again restarted her drinking.",
+            ]
           }
         ],
         promo: true,
@@ -9063,7 +9075,6 @@ tags: [
                         type: "Family",
                         family: "Parent",
                         typeOfFamily: "Adoptive",
-                        gender: "M",
                         imgUrl: {
                           src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTkmnIJXByMTAyq3DY2TgbZDsJXIl5kkrnaNrVsPXpjsQbE6-X_c2m88Y&s=10",
                           alt: "Sandy helps Ryan with his tie.",
@@ -9079,11 +9090,13 @@ tags: [
                         characters: [
                           {
                             id: RyanAtwood_ID,
-                            label: RyanAtwood_fullName
+                            label: RyanAtwood_fullName,
+                            gender: "M"
                           },
                           {
                             id: SandyCohen_ID,
-                            label: SandyCohen_fullName
+                            label: SandyCohen_fullName,
+                            gender: "M"
                           },
                         ], 
                         shortDesc: "Ryan and Sandy has a close and loving father-son bond. Sandy was the person who helped Ryan when his biological mom, Dawn, kicked him out, and took him in. Sandy is also shown to be protective over Ryan, defending him towards the snobs in Newport.",
@@ -9093,7 +9106,6 @@ tags: [
                         type: "Family",
                         family: "Parent",
                         typeOfFamily: "Adoptive",
-                        gender: "F",
                         imgUrl: {
                           src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDzAnAW4XDIRpl0lKf3P6Hcwfg3R9-bX9pusmKjCVU4bzFiyfIUVPyC1o&s=10",
                           alt: "Kirsten stands behind Ryan with her hands on her shoulders.",
@@ -9110,11 +9122,13 @@ tags: [
                         characters: [
                           {
                             id: RyanAtwood_ID,
-                            label: RyanAtwood_fullName
+                            label: RyanAtwood_fullName,
+                            gender: "M"
                           },
                           {
                             id: KirstenCohen_ID,
-                            label: KirstenCohen_fullName
+                            label: KirstenCohen_fullName,
+                            gender: "F"
                           },
                         ], 
                         shortDesc: "When Sandy first brings Ryan home, Kirsten is not happy, since Ryan was just realeased from juvie. However, when Kirsten learns that Ryan's mom abandoned him, she starts to be more empathetic towards him. They eventually develop a close mother-son bond.",
@@ -9133,17 +9147,18 @@ tags: [
                               type: "Family",
                               family: "Sibling",
                               typeOfFamily: "Adoptive",
-                              gender: "M",
                               kindOfFriendship: "Best Friend",
                               started: [ocPilot_Title],
                               characters: [
                                 {
                                   id: RyanAtwood_ID,
                                   label: RyanAtwood_fullName,
+                                  gender: "M"
                                 },
                                 {
                                   id: SethCohen_ID,
                                   label: SethCohen_fullName,
+                                  gender: "M"
                                 },
                               ],
                               card: true,
@@ -9157,7 +9172,6 @@ tags: [
                             family: "Parent",
                             typeOfFamily: "Biological",
                             adopted: true,
-                            gender: "F",
                             imgUrl: {
                               src: "https://static.wikia.nocookie.net/ocwikia/images/d/d6/Ryan_and_Dawn_-_The_Gamble.jpg/revision/latest?cb=20240123100652",
                               alt: "Dawn and Ryan arrive a the casino",
@@ -9172,10 +9186,12 @@ tags: [
                               {
                                 id: RyanAtwood_ID,
                                 label: RyanAtwood_fullName,
+                                gender: "M"
                               },
                               {
                                 id: DawnAtwood_ID,
                                 label: DawnAtwood_fullName,
+                                gender: "F"
                               },
                             ],
                             card: true,
@@ -9187,15 +9203,16 @@ tags: [
                             typeOfFamily: "Biological",
                             family: "Parent",
                             adopted: true,
-                            gender: "M",
                             characters: [
                               {
                                 id: RyanAtwood_ID,
                                 label: RyanAtwood_fullName,
+                                gender: "M"
                               },
                               {
                                 id: generateId("Frank Atwood"),
                                 label: "Frank Atwood",
+                                gender: "M"
                               },
                             ],
                         },
@@ -9204,7 +9221,6 @@ tags: [
                           type: "Family",
                           typeOfFamily: "Biological",
                           family: "Sibling",
-                          gender: "M",
                           imgUrl: {
                             src: "https://substackcdn.com/image/fetch/$s_!ISft!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fae9922-96bd-481e-9ec0-336d2d90deed_1280x720.jpeg",
                             alt: "Trey is looking at the glass egg from Risky business.",
@@ -9220,11 +9236,13 @@ tags: [
                           characters: [
                             {
                               id: RyanAtwood_ID,
-                              label: RyanAtwood_fullName,
+                              label: RyanAtwood_ID,
+                              gender: "M"
                             },
                             {
                               id: TreyAtwood_ID,
                               label: TreyAtwood_fullName,
+                              gender: "M"
                             },
                           ]
                         },
@@ -9233,7 +9251,6 @@ tags: [
                           type: "Family",
                           typeOfFamily: "Biological",
                           family: "Sibling",
-                          gender: "M",
                           older: false,
                         }, 
       
@@ -9254,17 +9271,18 @@ tags: [
                          typeOfFamily: "In-Law",
                          family: "Sibling",
                          kindOfFriendship: "Close",
-                         gender: "F",
                          card: true,
                          shortDesc: "When Ryan first arrives in Newport, Summer thinks he is hot and hits on him. However, since Ryan's new adoptive brother,  Seth is in love with Summer, Ryan rejects her. Later, when Summer and Seth start dating, and Ryan begins dating Summer's best friend, Marissa, Ryan and Summer form a close friendship. In the series finale, Summer and Seth get married, which makes them in-laws.",
                          characters: [
                           {
                             id: RyanAtwood_ID,
                             label: RyanAtwood_fullName,
+                            gender: "M"
                           },
                           {
                             id: SummerRoberts_ID,
                             label: SummerRoberts_fullName,
+                            gender: "F"
                           },
                          ]
                         }, 
@@ -9275,7 +9293,6 @@ tags: [
                           type: "Family",
                           typeOfFamily: "Adoptive",
                           family: "Aunt/Uncle",
-                          gender: "F",
                           extended: true,
                           ifExtended: "Maternal",
                         },
@@ -9286,7 +9303,6 @@ tags: [
                           typeOfFamily: "Adoptive",
                           extended: true,
                           ifExtended: "Maternal",
-                          gender: "M",
                           imgUrl: {
                             src: "https://static.wikia.nocookie.net/ocwikia/images/6/66/Caleb_Nichol.jpg/revision/latest?cb=20190216142637",
                             alt: "Close-up on Caleb sitting in his chair.",
@@ -9300,11 +9316,13 @@ tags: [
                           characters: [
                             {
                               id: RyanAtwood_ID,
-                              label: RyanAtwood_fullName,
+                              label: RyanAtwood_ID,
+                              gender: "M"
                             },
                             {
                               id: CalebNichols_ID,
-                              label: CalebNichols_fullName
+                              label: CalebNichols_fullName,
+                              gender: "M"
                             }
                           ]
                         }, 
@@ -9314,16 +9332,17 @@ tags: [
                           typeOfFamily: "Adoptive",
                           extended: true,
                           ifExtended: "Paternal",
-                          gender: "F",
                           dead: true,
                           characters: [
                             {
-                              id: RyanAtwood_ID,
-                              label: RyanAtwood_fullName
-                            },
+                               id: RyanAtwood_ID,
+                               label: RyanAtwood_ID,
+                               gender: "M"
+                             },
                             {
                               id: generateId(`Sofie ${Cohen_Name}`),
-                              label: `Sofie ${Cohen_Name}`
+                              label: `Sofie ${Cohen_Name}`,
+                              gender: "F"
                             }
                           ]
                         },     
@@ -9335,7 +9354,6 @@ tags: [
                           name: TaylorTownsend_fullName,
                           type: "Romantic",
                           romantic: "Girlfriend/Boyfriend",
-                          gender: "F",
                           imgUrl: {
                             src: "https://photos1.blogger.com/x/blogger/3464/1690/1600/315610/405_thesleepingbeauty_ryanandtaylordance.jpg",
                             alt: "Ryan and Taylor slow dance.",
@@ -9352,11 +9370,13 @@ tags: [
                           characters: [
                             {
                               id: RyanAtwood_ID,
-                              label: RyanAtwood_fullName,
+                              label: RyanAtwood_ID,
+                              gender: "M"
                             },
                             {
                               id: TaylorTownsend_ID, 
-                              label: TaylorTownsend_fullName
+                              label: TaylorTownsend_fullName,
+                              gender: "F"
                             }
                           ],
                           card: true, 
@@ -9364,10 +9384,8 @@ tags: [
                         }, 
                         {
                           id: RyanMarissa_ID,
-                          name: MarissaCooper_fullName,
                           type: "Romantic",
                           romantic: "Ex-Boyfriend/Ex-Girlfriend",
-                          gender: "F",
                           started: [
                             ocS1Ep9_Title,
                             ocS1Ep24_Title,
@@ -9382,10 +9400,12 @@ tags: [
                             {
                               id: RyanAtwood_ID,
                               label: RyanAtwood_fullName,
+                              gender: "M"
                             },
                             {
                               id: MarissaCooper_ID, 
-                              label: MarissaCooper_fullName
+                              label: MarissaCooper_fullName,
+                              gender: "F"
                             }
                           ],
                           card: true,
@@ -9397,7 +9417,6 @@ tags: [
                     type: "Romantic",
                     typeOfFamily: "Adoptive",
                     family: "Aunt/Uncle",
-                    gender: "F",
                     imgUrl: {
                       src: "https://i.redd.it/209oqpsq3vx01.jpg",
                       alt: "Ryan and Lindsey are lying on her bed, while waiting for the results of the paternity test.",
@@ -9420,11 +9439,13 @@ tags: [
                     characters: [
                       {
                         id: RyanAtwood_ID,
-                        label: RyanAtwood_fullName,
+                        label: RyanAtwood_ID,
+                        gender: "M"
                       },
                       {
                         id: LindseyGardner_ID, 
-                        label: LindseyGardner_fullName
+                        label: LindseyGardner_fullName,
+                        gender: "F"
                       }
                     ],
                     shortDesc: "Ryan and Lindsay have a brief relationship in the second season of the O.C., ending when Lindsay decides to move back to Chicago after positive paternity test results with Caleb, leaving Ryan sad."
@@ -9434,7 +9455,6 @@ tags: [
                     name: "Theresa Diaz",
                     type: "Romantic",
                     romantic: "Ex-Boyfriend/Ex-Girlfriend",
-                    gender: "F",
                     imgUrl: {
                       src: "https://www.looper.com/img/gallery/questionable-things-we-ignored-in-the-o-c/who-is-teresas-baby-daddy-1637186153.jpg",
                       alt: "Theresa and Ryan are sitting on the couch at the Cohen's.",
@@ -9457,11 +9477,13 @@ tags: [
                     characters: [
                       {
                         id: RyanAtwood_ID,
-                        label: RyanAtwood_fullName,
+                        label: RyanAtwood_ID,
+                        gender: "M"
                       },
                       {
                         id: generateId("Theresa Diaz"), 
-                        label: "Theresa Diaz"
+                        label: "Theresa Diaz",
+                        gender: "F"
                       }
                     ],
                     shortDesc: "Ryan Atwood and Theresa Diaz, childhood friends, developed romantic feelings leading to an intermittent relationship, which ended when Ryan left Chino. During a Thanksgiving visit to pay off Trey's debts, they apologized for their lack of communication. Afterward, Theresa got engaged to Eddie but later experienced doubts due to domestic violence. Following Ryan's breakup with Marissa Cooper, he and Theresa began dating again. Eddie's jealousy led to a confrontation at a party, prompting Theresa to return to Chino. She reappeared at the end of season two, revealing she had a baby, which she initially claimed was Eddie's but is heavily implied to be Ryan's. Despite briefly rekindling their relationship, Theresa ultimately felt Ryan was not ready for a serious commitment, especially concerning her child's welfare."
@@ -9471,7 +9493,6 @@ tags: [
                     name: "Sadie Campbell",
                     type: "Romantic",
                     romantic: "Ex-Boyfriend/Ex-Girlfriend",
-                    gender: "F",
                     imgUrl: {
                       src: "https://i.redd.it/t3lovq0s4s891.jpg",
                       alt: "Dark image of Ryan and Sadie standing next to each other.",
@@ -9492,11 +9513,13 @@ tags: [
                     characters: [
                       {
                         id: RyanAtwood_ID,
-                        label: RyanAtwood_fullName,
+                        label: RyanAtwood_ID,
+                        gender: "M"
                       },
                       {
                         id: generateId("Sadie Campbell"), 
-                        label: "Sadie Campbell"
+                        label: "Sadie Campbell",
+                        gender: "F"
                       }
                     ],
                     card: true,
@@ -9508,15 +9531,16 @@ tags: [
                     type: "Rivalry",
                     current: "Friendship",
                     kindOfFriendship: "Normal",
-                    gender: "M",   
                     characters: [
                       {
                         id: RyanAtwood_ID,
                         label: RyanAtwood_ID,
+                        gender: "M"
                       },
                       {
                         id: LukeWard_ID,
-                        label: LukeWard_fullName
+                        label: LukeWard_fullName,
+                        gender: "M"
                       },
                     ],
                   },
@@ -9528,7 +9552,6 @@ tags: [
                           type: "Family",
                           family: "Parent",
                           typeOfFamily: "Biological",
-                          gender: "M",
                           imgUrl: {
                             src: "https://people.com/thmb/CfXLigPHZTjxzJxXOymnQnQ89Ns=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(511x0:513x2)/adam-brody-1024-2fca1fdedc904c6ba9aa5ffd1410d5b1.jpg",
                             alt: "Sandy and Seth are sitting on the porch to the Cohen house.",
@@ -9542,11 +9565,13 @@ tags: [
                           characters: [
                             {
                               id: SethCohen_ID,
-                              label: SethCohen_fullName
+                              label: SethCohen_fullName,
+                              gender: "M"
                             },
                             {
                               id: SandyCohen_ID,
-                              label: SandyCohen_fullName
+                              label: SandyCohen_fullName,
+                              gender: "M"
                             },
                           ], 
                           started: [ ocPilot_Title],
@@ -9558,7 +9583,6 @@ tags: [
                           type: "Family",
                           family: "Parent",
                           typeOfFamily: "Biological",
-                          gender: "F",
                           imgUrl: {
                             src: "https://static.wikia.nocookie.net/ocwikia/images/9/96/SethBarmitzvah.png/revision/latest?cb=20230207231037",
                             alt: "Group picture with Seth as a child with his parents.",
@@ -9572,11 +9596,13 @@ tags: [
                           characters: [
                             {
                               id: SethCohen_ID,
-                              label: SethCohen_fullName
+                              label: SethCohen_fullName,
+                              gender: "M"
                             },
                             {
                               id: KirstenCohen_ID,
-                              label: KirstenCohen_fullName
+                              label: KirstenCohen_fullName,
+                              gender: "F"
                             },
                           ], 
                           shortDesc: "Much like with Sandy, Seth has a close relationship with his mother. When Kirsten was struggling with alcoholism and refused to go to rehab in Season 2, Seth was the one who convinced her to go.",
@@ -9595,17 +9621,18 @@ tags: [
                             ]
                           },
                           romantic: "Wife/Husband",
-                          gender: "F",
                           card: true,
                           shortDesc: "When Ryan first arrives in Newport, Summer thinks he is hot and hits on him. However, since Ryan's new adoptive brother,  Seth is in love with Summer, Ryan rejects her. Later, when Summer and Seth start dating, and Ryan begins dating Summer's best friend, Marissa, Ryan and Summer form a close friendship. In the series finale, Summer and Seth get married, which makes them in-laws.",
                           characters: [
                             {
                               id: SummerRoberts_ID,
                               label: SummerRoberts_fullName,
+                              gender: "F"
                             },
                             {
                               id: SethCohen_ID,
-                              label: SethCohen_fullName
+                              label: SethCohen_fullName,
+                              gender: "M"
                             }
                           ]
                     }, 
@@ -9614,7 +9641,6 @@ tags: [
                       name: AnnaStern_fullName,
                       type: "Romantic",
                       romantic: "Ex-Boyfriend/Ex-Girlfriend",
-                      gender: "F",
                       imgUrl: {
                         src: "https://lovelace-media.imgix.net/uploads/26/b5c241a0-df8c-0132-c000-0a13eebe068d.jpg",
                         alt: "Seth kisses Annas hand on his bed.",
@@ -9629,11 +9655,13 @@ tags: [
                       characters: [
                         {
                           id: SethCohen_ID,
-                          label: SethCohen_fullName
+                          label: SethCohen_fullName,
+                          gender: "M"
                         },
                         {
                           id: AnnaStern_ID,
-                          label: AnnaStern_fullName
+                          label: AnnaStern_fullName,
+                          gender: "F"
                         }
                       ],
                       card: true,
@@ -9647,10 +9675,12 @@ tags: [
                         {
                           id: SethCohen_ID,
                           label: SethCohen_fullName,
+                          gender: "M"
                         },
                         {
                           id: generateId(Alex_Name + " Kelly"),
-                          label: Alex_Name + " Kelly"
+                          label: Alex_Name + " Kelly",
+                          gender: "F"
                         }
                       ]
                     },
@@ -9659,15 +9689,16 @@ tags: [
                       id: generateId("Seth and Marissa"),
                       type: "Friendship",
                       kindOfFriendship: "Normal",
-                      gender: "F",   
                       characters: [
                         {
                           id: SethCohen_ID,
                           label: SethCohen_fullName,
+                          gender: "M"
                         },
                         {
                           id: MarissaCooper_ID,
-                          label: MarissaCooper_fullName
+                          label: MarissaCooper_fullName,
+                          gender: "F"
                         },
                       ],
                     },
@@ -9675,15 +9706,16 @@ tags: [
                       id: generateId("Luke and Seth"),
                       type: "Friendship",
                       kindOfFriendship: "Normal",
-                      gender: "F",   
                       characters: [
                         {
                           id: SethCohen_ID,
                           label: SethCohen_fullName,
+                          gender: "M"
                         },
                         {
                           id: LukeWard_ID,
-                          label: LukeWard_fullName
+                          label: LukeWard_fullName,
+                          gender: "M"
                         },
                       ],
                     },
@@ -9695,10 +9727,12 @@ tags: [
                         {
                           id: SethCohen_ID,
                           label: SethCohen_fullName,
+                          gender: "M"
                         }, 
                         {
                           id: TaylorTownsend_ID,
-                          label: TaylorTownsend_fullName
+                          label: TaylorTownsend_fullName,
+                          gender: "F"
                         }
                       ]
                     },
@@ -9714,10 +9748,66 @@ tags: [
                         {
                           id: MarissaCooper_ID,
                           label: MarissaCooper_fullName,
+                          gender: "M"
                         },
                         {
                           id: LukeWard_ID,
-                          label: LukeWard_fullName
+                          label: LukeWard_fullName,
+                          gender: "M"
+                        },
+                      ],
+                    },
+                    {
+                      id: generateId("Alex and Marissa"),
+                      type: "Romantic",
+                      kindOfFriendship: "Normal", 
+                      romantic: "Ex-Boyfriend/Ex-Girlfriend",
+                      characters: [
+                        {
+                          id: MarissaCooper_ID,
+                          label: MarissaCooper_fullName,
+                          gender: "F"
+                        },
+                        {
+                          id: generateId(Alex_Name + " " + "Kelly"),
+                          label: Alex_Name + " " + "Kelly",
+                          gender: "F"
+                        },
+                      ],
+                    },
+                    {
+                      id: generateId("Volchock and Marissa"),
+                      type: "Romantic",
+                      kindOfFriendship: "Normal", 
+                      romantic: "Ex-Boyfriend/Ex-Girlfriend",
+                      characters: [
+                        {
+                          id: MarissaCooper_ID,
+                          label: MarissaCooper_fullName,
+                          gender: "F"
+                        },
+                        {
+                          id: generateId("Kevin Volchock"),
+                          label: "Kevin Volchock",
+                          gender: "M"
+                        },
+                      ],
+                    },
+                    {
+                      id: generateId("DJ and Marissa"),
+                      type: "Romantic",
+                      kindOfFriendship: "Normal", 
+                      romantic: "Ex-Boyfriend/Ex-Girlfriend",
+                      characters: [
+                        {
+                          id: MarissaCooper_ID,
+                          label: MarissaCooper_fullName,
+                          gender: "F"
+                        },
+                        {
+                          id: generateId(`${OC_Title} DJ`),
+                          label: "DJ",
+                          gender: "M"
                         },
                       ],
                     },
@@ -9732,10 +9822,12 @@ tags: [
                       {
                         id: JulieCooper_ID,
                         label: JulieCooper_fullName,
+                        gender: "F",
                       },
                       {
                         id: CalebNichols_ID,
-                        label: CalebNichols_ID
+                        label: CalebNichols_ID,
+                        gender: "M"
                       },
                     ],
                   },
@@ -9747,10 +9839,12 @@ tags: [
                       {
                         id: JulieCooper_ID,
                         label: JulieCooper_fullName,
+                        gender: "F"
                       },
                       {
                         id: generateId("Jimmy " + Cooper_Name),
-                        label: "Jimmy " + Cooper_Name
+                        label: "Jimmy " + Cooper_Name,
+                        gender: "M"
                       },
                     ],
                   },
@@ -9763,10 +9857,12 @@ tags: [
                       {
                         id: JulieCooper_ID,
                         label: JulieCooper_fullName,
+                        gender: "F"
                       },
                       {
                         id: LukeWard_ID,
-                        label: LukeWard_fullName
+                        label: LukeWard_fullName,
+                        gender: "M"
                       },
                     ],
                   },

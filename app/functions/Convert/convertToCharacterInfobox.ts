@@ -32,7 +32,6 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
         relationship.romantic,
         relationship.kindOfFriendship,
         relationship.name,
-        relationship.gender,
         relationship.characters?.map((person) => person.id).sort().join(","),
       ].join("|");
 
@@ -44,7 +43,6 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
           candidate.kindOfFriendship,
           candidate.name ??
             candidate.characters?.find((person) => person.id !== character.id)?.label,
-          candidate.gender,
           candidate.characters?.map((person) => person.id).sort().join(","),
         ].join("|");
 
@@ -52,23 +50,38 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
       }) === index;
     });
 
-  const friends = rels.
-    map((formatFriendship)).
-    filter((f): f is string => Boolean(f)) ;
+  const friends = rels
+    .map((relationship) => formatFriendship(relationship))
+    .filter((f): f is string => Boolean(f));
+
   const family = rels
-    .map((relationship) =>
-      formatFamilyShip(
+    .map((relationship) => {
+      const relationshipGender =
+        "gender" in relationship ? relationship.gender : undefined;
+
+      return formatFamilyShip(
         relationship,
-        relationship.gender === "F" || relationship.gender === "M"
-          ? relationship.gender
-          : character.gender,
-      )
-    )
+        character.gender === "F" || relationshipGender === "M"
+          ? character.gender
+          : character.gender === "Non-Binary"
+            ? "Non-Binary"
+            : character.gender
+      );
+    })
     .filter((s): s is string => Boolean(s));
 
-  const romance = rels.
-    map(formatRomance). 
-    filter((s): s is string => Boolean(s))
+    
+
+  const romance = rels
+    .map((ship) => {
+      const otherCharacter = ship.characters?.find(
+          (person) => person.id !== character.id
+        );
+        const otherGender = otherCharacter?.gender ?? "Non-Binary";
+        
+        return formatRomance(ship, otherGender);
+        })
+    .filter((s): s is string => Boolean(s));
 
 
   const fullName =

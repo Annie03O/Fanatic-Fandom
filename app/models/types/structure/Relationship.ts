@@ -5,8 +5,7 @@ export type Relationship = {
     id?: string;
     type: "Romantic" | "Family" | "Friendship" | "Rivalry";
     current?: "Romantic" | "Family" | "Friendship" | "Rivalry",
-    characters?: Pick<Character, "id" | "label">[];
-    gender?: "F" | "M" | ""
+    characters?: Pick<Character, "id" | "label" | "gender">[];
     name?: string;
     started?: string[];
     ended?: string[];
