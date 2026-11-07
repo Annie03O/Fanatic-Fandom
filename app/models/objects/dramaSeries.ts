@@ -12501,7 +12501,7 @@ tags: [
                      ]
                    },
                   {
-                     episodeTitle: "The O.C. Confidential",
+                     episodeTitle: ocS2Ep20_Title,
                      song: [
                        {
                          id: generateId("Positive Tension Bloc Party"),
@@ -12613,7 +12613,80 @@ tags: [
                          title: "Sound Makes A Circle",
                          artist: "Audible"
                        },
-                     ]    
+                     ],    
+                  },
+                  {
+                     episodeTitle: "The Return of the Nana",
+                     song: [
+                     {
+                       id: generateId("Na Na Na Na Naa Kaiser Chiefs"),
+                       title: "Na Na Na Na Naa",
+                       artist: "Kaiser Chiefs"
+                     },
+                     {
+                       id: generateId("Love Underground Robbers on High Street"),
+                       title: "Love Underground",
+                       artist: "Robbers on High Street"
+                     },
+                     {
+                       id: generateId("Night Groove Marc Durst Trio"),
+                       title: "Night Groove",
+                       artist: "Marc Durst Trio"
+                     },
+                     {
+                       id: generateId("Questa o Quella Rigoletto"),
+                       title: "Questa o Quella",
+                       artist: "Rigoletto"
+                     },
+                     {
+                       id: generateId("Get Down Cham Pain"),
+                       title: "Get Down",
+                       artist: "Cham Pain"
+                     },
+                     {
+                       id: generateId("Bring Em Out Tip 'T.I.' Harris"),
+                       title: "Bring Em Out",
+                       artist: "Tip 'T.I.' Harris"
+                     },
+                     {
+                       id: generateId("Kids With Guns Gorillaz featuring Neneh Cherry"),
+                       title: "Kids With Guns",
+                       artist: "Gorillaz featuring Neneh Cherry"
+                     },
+                     {
+                       id: generateId("Adios Alan Paul"),
+                       title: "Adios",
+                       artist: "Alan Paul"
+                     },
+                     {
+                       id: generateId("Step Aside Efterklang"),
+                       title: "Step Aside",
+                       artist: "Efterklang"
+                     },
+                     {
+                       id: generateId("I Turn My Camera On Spoon"),
+                       title: "I Turn My Camera On",
+                       artist: "Spoon"
+                     },
+                     {
+                       id: generateId("Miami Will Smith"),
+                       title: "Miami",
+                       artist: "Will Smith"
+                     },
+                     {
+                       id: generateId("Shadowland Youth Group"),
+                       title: "Shadowland",
+                       artist: "Youth Group"
+                     },
+                     {
+                       id: generateId("Eye Of The Tiger Survivor                     ]"),
+                       title: "Eye Of The Tiger",
+                       artist: "Survivor                     ]"
+                     },
+                    ]
+                  },
+                  {
+                    
                   }            
                 ]
       },
