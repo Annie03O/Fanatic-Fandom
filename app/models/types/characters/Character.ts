@@ -15,6 +15,7 @@ export type Character = {
     nickname?: string[]
     actor?: string | string[];
     birthday?: string; 
+    status?: string;
     eyeColor?: string;
     hairColor?: string[] | string;
     gender: "M" | "F" | "Non-Binary";
