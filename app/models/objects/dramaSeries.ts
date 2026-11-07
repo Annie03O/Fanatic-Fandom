@@ -12686,7 +12686,44 @@ tags: [
                     ]
                   },
                   {
-                    
+                    episodeTitle: "The Showdown",
+                    song:  [
+                             {
+                               id: generateId("But Then Again No Shout Out Louds"),
+                               title: "But Then Again No",
+                               artist: "Shout Out Louds"
+                             },
+                             {
+                               id: generateId("Hey Scenesters! The Cribs"),
+                               title: "Hey Scenesters!",
+                               artist: "The Cribs"
+                             },
+                             {
+                               id: generateId("The Party's Crashing Us Of Montreal"),
+                               title: "The Party's Crashing Us",
+                               artist: "Of Montreal"
+                             },
+                             {
+                               id: generateId("Cage That Tiger Soledad Brothers"),
+                               title: "Cage That Tiger",
+                               artist: "Soledad Brothers"
+                             },
+                             {
+                               id: generateId("The Big Fight Stars"),
+                               title: "The Big Fight",
+                               artist: "Stars"
+                             },
+                             {
+                               id: generateId("Freight Elevator The Rogers Sisters"),
+                               title: "Freight Elevator",
+                               artist: "The Rogers Sisters"
+                             },
+                             {
+                               id: generateId("Twenty Two Fourteen Jimmy LaValle"),
+                               title: "Twenty Two Fourteen",
+                               artist: "Jimmy LaValle"
+                             },
+                    ]   
                   }            
                 ]
       },
