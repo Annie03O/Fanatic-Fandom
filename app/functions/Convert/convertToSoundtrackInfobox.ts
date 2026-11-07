@@ -18,21 +18,25 @@ export function convertToSoundtrackInfobox(soundtrack?: Soundtrack) {
 
   const artists = soundtrack.songs.flatMap(s => (s.song ?? []).map(i => i.artist))
 
-  const recurringArtist = [...new Set(
+  
+  const filteredArtist = [...new Set(
     artists.filter((a, index) => artists.indexOf(a) !== index)
   )] 
+  
+  const recurringArtist = filteredArtist.length > 10 ? filteredArtist.slice(0,9) : artists
+
 
   const fields = [
     typeof soundtrack.songs.length === "number"
       ? { 
         label: "Song Count", 
-        info: String(soundtrack.songs.length) 
+        info: String(soundtrack.songs.length)
       }
       : null,
 
     recurringArtist.length ? { 
       label: "Reucurring Artists", 
-      info: recurringArtist 
+      info: recurringArtist,
     } 
     : null,
 
