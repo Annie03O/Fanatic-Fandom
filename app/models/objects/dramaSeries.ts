@@ -40,7 +40,7 @@ import {
   ocS1Ep3_Title, 
   ocS1Ep9_ID, 
   ocS1Ep9_Title, 
-  ocS2_ID, ocS2Ep14_ID, ocS2Ep14_Title, ocS2Ep18_ID, ocS2Ep1_ID, 
+  ocS2_ID, ocS2Ep14_ID, ocS2Ep14_Title, ocS2Ep18_ID, ocS2Ep18_Title, ocS2Ep1_ID, 
   ocS2Ep1_Title, 
   ocS2Ep20_ID, 
   ocS2Ep20_Title, 
@@ -12411,9 +12411,38 @@ tags: [
                      ],
                    },
                    {
-                    episodeTitle: "The Risky Business",
+                    episodeTitle: ocS2Ep18_Title,
                     song: [
-                      
+                      {
+                        id: generateId("Play Flunk"),
+                        title: "Play",
+                        artist: "Flunk"
+                      },
+                      {
+                        id: generateId("Sister Jack Spoon"),
+                        title: "Sister Jack",
+                        artist: "Spoon"
+                      },
+                      {
+                        id: generateId("Banquet Bloc Party"),
+                        title: "Banquet",
+                        artist: "Bloc Party"
+                      },
+                      {
+                        id: generateId("Love On A Real Train Tangerine Dream"),
+                        title: "Love On A Real Train",
+                        artist: "Tangerine Dream"
+                      },
+                      {
+                        id: generateId("Legendary Lou Barlow"),
+                        title: "Legendary",
+                        artist: "Lou Barlow"
+                      },
+                      {
+                        id: generateId("Marvo Ging Chemical Brothers"),
+                        title: "Marvo Ging",
+                        artist: "Chemical Brothers"
+                      },
                     ]
                    }
               ]
