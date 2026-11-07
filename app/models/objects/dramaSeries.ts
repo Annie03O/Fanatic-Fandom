@@ -12444,6 +12444,61 @@ tags: [
                         artist: "Chemical Brothers"
                       },
                     ]
+                   },
+                   {
+                    episodeTitle: "The Rager",
+                    song: [ 
+                            {
+                               id: generateId("Every Rose Has Its Thorn Poison"),
+                               title: "Every Rose Has Its Thorn",
+                               artist: "Poison"
+                             },
+                             {
+                               id: generateId("Requiem for O.M.M. Of Montreal"),
+                               title: "Requiem for O.M.M.",
+                               artist: "Of Montreal"
+                             },
+                             {
+                               id: generateId("Stop Dragging Me Down The Obscurities"),
+                               title: "Stop Dragging Me Down",
+                               artist: "The Obscurities"
+                             },
+                             {
+                               id: generateId("Under The Milky Way The Church"),
+                               title: "Under The Milky Way",
+                               artist: "The Church"
+                             },
+                             {
+                               id: generateId("Decent Days And Nights The Futureheads"),
+                               title: "Decent Days And Nights",
+                               artist: "The Futureheads"
+                             },
+                             {
+                               id: generateId("Technologic Daft Punk"),
+                               title: "Technologic",
+                               artist: "Daft Punk"
+                             },
+                             {
+                               id: generateId("Here I Go Again Whitesnake"),
+                               title: "Here I Go Again",
+                               artist: "Whitesnake"
+                             },
+                             {
+                               id: generateId("Daft Punk Is Playing At My House LCD Soundsystem"),
+                               title: "Daft Punk Is Playing At My House",
+                               artist: "LCD Soundsystem"
+                             },
+                             {
+                               id: generateId("Mi Casa Beat Phreaks"),
+                               title: "Mi Casa",
+                               artist: "Beat Phreaks"
+                             },
+                             {
+                               id: generateId("Melt Way Out West"),
+                               title: "Melt",
+                               artist: "Way Out West"
+                             },
+                    ]
                    }
               ]
       },
