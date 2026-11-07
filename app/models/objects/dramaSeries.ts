@@ -12776,7 +12776,49 @@ tags: [
                     ],
                   }, 
                   {
-                    episodeTitle: "The Dea"
+                    episodeTitle: "The Dearly Beloved",
+                    song: [
+                            {
+                              id: generateId("Hide and Seek Imogen Heap"),
+                              title: "Hide and Seek",
+                              artist: "Imogen Heap"
+                            },
+                            {
+                              id: generateId("El Manana Gorillaz"),
+                              title: "El Manana",
+                              artist: "Gorillaz"
+                            },
+                            {
+                              id: generateId("Crosses Jose Gonzalez"),
+                              title: "Crosses",
+                              artist: "Jose Gonzalez"
+                            },
+                            {
+                              id: generateId("You're Not The Law The Dead 60s"),
+                              title: "You're Not The Law",
+                              artist: "The Dead 60s"
+                            },
+                            {
+                              id: generateId("An Honest Mistake The Bravery"),
+                              title: "An Honest Mistake",
+                              artist: "The Bravery"
+                            },
+                            {
+                              id: generateId("Hot Ride The Prodigy"),
+                              title: "Hot Ride",
+                              artist: "The Prodigy"
+                            },
+                            {
+                              id: generateId("Friends Ryan Adams & The Cardinals"),
+                              title: "Friends",
+                              artist: "Ryan Adams & The Cardinals"
+                            },
+                            {
+                              id: generateId("Twenty Two Fourteen Jimmy LaValle"),
+                              title: "Twenty Two Fourteen",
+                              artist: "Jimmy LaValle"
+                            },
+                    ]
                   }
                 ]
       },
