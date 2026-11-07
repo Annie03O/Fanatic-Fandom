@@ -12724,7 +12724,60 @@ tags: [
                                artist: "Jimmy LaValle"
                              },
                     ]   
-                  }            
+                  },
+                  {
+                    episodeTitle: "The O.Sea",
+                    song: [
+                      {
+                        id: generateId("Dirty Lives Love as Laughter"),
+                        title: "Dirty Lives",
+                        artist: "Love as Laughter"
+                      },
+                      {
+                        id: generateId("Panther Wilco"),
+                        title: "Panther",
+                        artist: "Wilco"
+                      },
+                      {
+                        id: generateId("Rae My Pet Genius"),
+                        title: "Rae",
+                        artist: "My Pet Genius"
+                      },
+                      {
+                        id: generateId("Antmusic Hyper"),
+                        title: "Antmusic",
+                        artist: "Hyper"
+                      },
+                      {
+                        id: generateId("Cava Del Rio Senza"),
+                        title: "Cava Del Rio",
+                        artist: "Senza"
+                      },
+                      {
+                        id: generateId("Love For Granted Phoenix"),
+                        title: "Love For Granted",
+                        artist: "Phoenix"
+                      },
+                      {
+                        id: generateId("Nothing Like You & I The Perishers"),
+                        title: "Nothing Like You & I",
+                        artist: "The Perishers"
+                      },
+                      {
+                        id: generateId("Fix You Coldplay"),
+                        title: "Fix You",
+                        artist: "Coldplay"
+                      },
+                      {
+                        id: generateId("Honest Mistake The Bravery"),
+                        title: "Honest Mistake",
+                        artist: "The Bravery"
+                      },
+                    ],
+                  }, 
+                  {
+                    episodeTitle: "The Dea"
+                  }
                 ]
       },
       {
