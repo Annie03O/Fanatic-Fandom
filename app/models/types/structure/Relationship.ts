@@ -17,7 +17,7 @@ export type Relationship = {
     adopted?: boolean;
     extended?: boolean;
     ifExtended?: "Maternal" | "Paternal",
-    family?: "Parent" | "Sibling" | "Cousin" | "Grandparent" | "Child" | "Aunt/Uncle" ; 
+    family?: "Parent/Child" | "Sibling" | "Cousin" | "Grandparent/Grandchild" | "Pibling/Nibling"; 
     secondParent?: string;
     kindOfFriendship?: "Normal" | "Close" | "Best Friend" | "Mentor" | "Father Figure";
     romantic?: "Girlfriend/Boyfriend" | "Dated" | "Fling" | "Crush" | "Ex-Boyfriend/Ex-Girlfriend" | "Wife/Husband" | "Ex-Wife/Ex-Husband" | "Hook-Up" | "Fiancé" | "Ex-Fiancé" | "Kissed" | "One Date" | "Affair";
