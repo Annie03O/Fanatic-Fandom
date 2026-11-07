@@ -17,6 +17,7 @@ export type Character = {
     birthday?: string; 
     status?: "Alive" | "Deceased";
     dateOfDeath?: string;
+    causeOfDeath?: string;
     eyeColor?: string;
     hairColor?: string[] | string;
     gender: "M" | "F" | "Non-Binary";
