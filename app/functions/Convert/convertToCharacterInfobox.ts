@@ -93,6 +93,16 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
       info: character.birthday 
     } 
       : null,
+    character.dateOfDeath?.length 
+    ? {
+      label: "Deceased",
+      info: character.dateOfDeath,
+    } : null,
+    character.causeOfDeath?.length 
+    ? {
+      label: "Cause of Death",
+      info: character.causeOfDeath
+    } : null,
     character.hairColor?.length
      ? {
        label: "Hair Color", 
@@ -117,6 +127,12 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
       info: character.education 
     } 
     : null,
+    character.status?.length 
+    ? {
+      label: "Status",
+      info: character.status === "Deceased" ? "Deceased" 
+       : "Alive" 
+    } : null,
 
     maritalStatus 
     ? { 
