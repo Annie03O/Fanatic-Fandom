@@ -8445,7 +8445,6 @@ tags: [
             MarissaCooper_ID,
             ocS3_ID
           ]
-
         },
         posterUrl:  {
           src: "https://upload.wikimedia.org/wikipedia/en/4/47/Marissa_cooper.JPG?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
@@ -8454,6 +8453,17 @@ tags: [
             ocS3_ID
           ]
         },
+        status: "Deceased",
+        birthday: "May 4, 1998",
+        dateOfDeath: "May 18, 2006",
+        residence: [
+          {
+            place: "Orange County",
+            hasEnded: true,
+            started: "1988",
+            ended: "2006"
+          }
+        ],
         promo: true,
       },
       {
