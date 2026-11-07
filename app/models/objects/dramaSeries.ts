@@ -12448,59 +12448,174 @@ tags: [
                    {
                     episodeTitle: "The Rager",
                     song: [ 
-                            {
-                               id: generateId("Every Rose Has Its Thorn Poison"),
-                               title: "Every Rose Has Its Thorn",
-                               artist: "Poison"
-                             },
-                             {
-                               id: generateId("Requiem for O.M.M. Of Montreal"),
-                               title: "Requiem for O.M.M.",
-                               artist: "Of Montreal"
-                             },
-                             {
-                               id: generateId("Stop Dragging Me Down The Obscurities"),
-                               title: "Stop Dragging Me Down",
-                               artist: "The Obscurities"
-                             },
-                             {
-                               id: generateId("Under The Milky Way The Church"),
-                               title: "Under The Milky Way",
-                               artist: "The Church"
-                             },
-                             {
-                               id: generateId("Decent Days And Nights The Futureheads"),
-                               title: "Decent Days And Nights",
-                               artist: "The Futureheads"
-                             },
-                             {
-                               id: generateId("Technologic Daft Punk"),
-                               title: "Technologic",
-                               artist: "Daft Punk"
-                             },
-                             {
-                               id: generateId("Here I Go Again Whitesnake"),
-                               title: "Here I Go Again",
-                               artist: "Whitesnake"
-                             },
-                             {
-                               id: generateId("Daft Punk Is Playing At My House LCD Soundsystem"),
-                               title: "Daft Punk Is Playing At My House",
-                               artist: "LCD Soundsystem"
-                             },
-                             {
-                               id: generateId("Mi Casa Beat Phreaks"),
-                               title: "Mi Casa",
-                               artist: "Beat Phreaks"
-                             },
-                             {
-                               id: generateId("Melt Way Out West"),
-                               title: "Melt",
-                               artist: "Way Out West"
-                             },
-                    ]
-                   }
-              ]
+                      {
+                         id: generateId("Every Rose Has Its Thorn Poison"),
+                         title: "Every Rose Has Its Thorn",
+                         artist: "Poison"
+                       },
+                       {
+                         id: generateId("Requiem for O.M.M. Of Montreal"),
+                         title: "Requiem for O.M.M.",
+                         artist: "Of Montreal"
+                       },
+                       {
+                         id: generateId("Stop Dragging Me Down The Obscurities"),
+                         title: "Stop Dragging Me Down",
+                         artist: "The Obscurities"
+                       },
+                       {
+                         id: generateId("Under The Milky Way The Church"),
+                         title: "Under The Milky Way",
+                         artist: "The Church"
+                       },
+                       {
+                         id: generateId("Decent Days And Nights The Futureheads"),
+                         title: "Decent Days And Nights",
+                         artist: "The Futureheads"
+                       },
+                       {
+                         id: generateId("Technologic Daft Punk"),
+                         title: "Technologic",
+                         artist: "Daft Punk"
+                       },
+                       {
+                         id: generateId("Here I Go Again Whitesnake"),
+                         title: "Here I Go Again",
+                         artist: "Whitesnake"
+                       },
+                       {
+                         id: generateId("Daft Punk Is Playing At My House LCD Soundsystem"),
+                         title: "Daft Punk Is Playing At My House",
+                         artist: "LCD Soundsystem"
+                       },
+                       {
+                         id: generateId("Mi Casa Beat Phreaks"),
+                         title: "Mi Casa",
+                         artist: "Beat Phreaks"
+                       },
+                       {
+                         id: generateId("Melt Way Out West"),
+                         title: "Melt",
+                         artist: "Way Out West"
+                       },
+                     ]
+                   },
+                  {
+                     episodeTitle: "The O.C. Confidential",
+                     song: [
+                       {
+                         id: generateId("Positive Tension Bloc Party"),
+                         title: "Positive Tension",
+                         artist: "Bloc Party"
+                       },
+                       {
+                         id: generateId("Positive Tension Bloc Party"),
+                         title: "Positive Tension",
+                         artist: "Bloc Party"
+                       },
+                       {
+                         id: generateId("Superluminal Home Video"),
+                         title: "Superluminal",
+                         artist: "Home Video"
+                       },
+                       {
+                         id: generateId("Superluminal Home Video"),
+                         title: "Superluminal",
+                         artist: "Home Video"
+                       },
+                       {
+                         id: generateId("E Talking Soulwax"),
+                         title: "E Talking",
+                         artist: "Soulwax"
+                       },
+                       {
+                         id: generateId("E Talking Soulwax"),
+                         title: "E Talking",
+                         artist: "Soulwax"
+                       },
+                       {
+                         id: generateId("Trust Me Temper Temper"),
+                         title: "Trust Me",
+                         artist: "Temper Temper"
+                       },
+                       {
+                         id: generateId("Trust Me Temper Temper"),
+                         title: "Trust Me",
+                         artist: "Temper Temper"
+                       },
+                       {
+                         id: generateId("Tres Cosas Juana Molina"),
+                         title: "Tres Cosas",
+                         artist: "Juana Molina"
+                       },
+                       {
+                         id: generateId("Tres Cosas Juana Molina"),
+                         title: "Tres Cosas",
+                         artist: "Juana Molina"
+                       },
+                       {
+                         id: generateId("How Does It Feel The Koreans"),
+                         title: "How Does It Feel",
+                         artist: "The Koreans"
+                       },
+                       {
+                         id: generateId("How Does It Feel The Koreans"),
+                         title: "How Does It Feel",
+                         artist: "The Koreans"
+                       },
+                       {
+                         id: generateId("The Sound Of Settling Death Cab for Cutie"),
+                         title: "The Sound Of Settling",
+                         artist: "Death Cab for Cutie"
+                       },
+                       {
+                         id: generateId("The Sound Of Settling Death Cab for Cutie"),
+                         title: "The Sound Of Settling",
+                         artist: "Death Cab for Cutie"
+                       },
+                       {
+                         id: generateId("A Movie Script Ending Death Cab for Cutie"),
+                         title: "A Movie Script Ending",
+                         artist: "Death Cab for Cutie"
+                       },
+                       {
+                         id: generateId("A Movie Script Ending Death Cab for Cutie"),
+                         title: "A Movie Script Ending",
+                         artist: "Death Cab for Cutie"
+                       },
+                       {
+                         id: generateId("Title And Registration Death Cab for Cutie"),
+                         title: "Title And Registration",
+                         artist: "Death Cab for Cutie"
+                       },
+                       {
+                         id: generateId("Title And Registration Death Cab for Cutie"),
+                         title: "Title And Registration",
+                         artist: "Death Cab for Cutie"
+                       },
+                       {
+                         id: generateId("House on Fire Arkarna"),
+                         title: "House on Fire",
+                         artist: "Arkarna"
+                       },
+                       {
+                         id: generateId("House on Fire Arkarna"),
+                         title: "House on Fire",
+                         artist: "Arkarna"
+                       },
+                       {
+                         id: generateId("Sound Makes A Circle Audible"),
+                         title: "Sound Makes A Circle",
+                         artist: "Audible"
+                       },
+                       {
+                         id: generateId("Sound Makes A Circle Audible"),
+                         title: "Sound Makes A Circle",
+                         artist: "Audible"
+                       },
+                     ]    
+                  }            
+                ]
       },
       {
         id: "the-oc-soundtrack-s3",
