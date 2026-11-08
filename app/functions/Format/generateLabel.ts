@@ -56,9 +56,9 @@ export const generateLabel = (i: Relationship): string => {
         i.older === true ? `Older ${base}` : `Younger ${base}` 
       return base;
     }
-    if (i.family === "Parent") {
+    if (i.family === "Parent/Child") {
       const parent =
-        i.gender === "F" ? "Mother" : i.gender === "M" ? "Father" : "Parent";
+        i.gender === "F" ? "Mother" : i.gender === "M" ? "Father" : "Parent/Child";
 
         if (i.typeOfFamily) {
           if (i.typeOfFamily === "Biological" && i.adopted)  return `${i.name} Birth ${parent}`
@@ -72,8 +72,8 @@ export const generateLabel = (i: Relationship): string => {
       return parent;
     }
 
-    if (i.family === "Child") {
-      const child = i.gender === "F" ? "Daughter" : i.gender === "M" ? "Son" : "Child";
+    if (i.family === "Parent/Child") {
+      const child = i.gender === "F" ? "Daughter" : i.gender === "M" ? "Son" : "Parent/Child";
       
       if (i.typeOfFamily) {
           if (i.typeOfFamily === "Biological" && i.adopted)  return `${i.name} (Birth ${child})`

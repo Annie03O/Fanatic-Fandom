@@ -31,7 +31,7 @@ function Character() {
  
   const relationshipList = [
     ...(series.relationships ?? []).filter((relationship) =>
-      relationship.characters?.some((person) => person.id === character.id)
+      relationship.characters?.some((person) => person?.content?.id === character.id)
     ),
     ...getCharacterRelationships(character),
   ];

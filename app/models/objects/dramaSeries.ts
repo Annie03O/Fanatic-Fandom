@@ -10,7 +10,9 @@ import {
   CalebNichols_fullName,CalebNichols_ID, 
   CalebNichols_lastName, 
   Cohen_Name, 
-  Cooper_Name, DawnAtwood_firstName, DawnAtwood_fullName, DawnAtwood_ID, DougLiman_Name, IanToynton_Name, JaneEspenson_Name, JulieCaleb_ID, JulieCooper_fullName, JulieCooper_ID, 
+  Cooper_Name, DawnAtwood_firstName, DawnAtwood_fullName, DawnAtwood_ID, DougLiman_Name, IanToynton_Name, JaneEspenson_Name, JimmyCooper_fullName, JimmyCooper_ID, JimmyCooper_label, JulieCaleb_ID, JulieCooper_fullName, JulieCooper_ID, 
+  KaitlinCooper_firstName, 
+  KaitlinCooper_fullName, 
   KirstenCohen_firstName, KirstenCohen_fullName, KirstenCohen_ID, 
   LindseyGardner_firstName, 
   LindseyGardner_fullName, 
@@ -9206,13 +9208,15 @@ tags: [
                                   label: RyanAtwood_fullName,
                                   gender: "M"
                                 },            
+                                older: false
                              },
                               {
                                 content: {
                                   id: DawnAtwood_ID,
                                   label: DawnAtwood_fullName,
                                   gender: "F"
-                                }
+                                },
+                                older: true
                               },
                             ],
                             card: true,
@@ -9231,14 +9235,16 @@ tags: [
                                   id: RyanAtwood_ID,
                                   label: RyanAtwood_fullName,
                                   gender: "M"
-                                },            
+                                },         
+                                older: false   
                             },
                               {
                                 content: {
                                   id: generateId("Frank Atwood"),
                                   label: "Frank Atwood",
                                   gender: "M"
-                                }
+                                },
+                                older: true
                               },
                             ],
                         },
@@ -9256,7 +9262,6 @@ tags: [
                               TreyAtwood_ID,
                             ]
                           },
-                          older: true,
                           card: true,
                           shortDesc: "Trey is Ryan's older brother. They grew up together in Chino, but when Trey goes to jail for stealing a car, they become distant. In season 2, Trey is released from prison and moves to Newport. For a while they begin to reconcile, however, when Ryan finds out that Trey tried to force himself on Marissa, it all comes crashing down.",
                           characters: [
@@ -9669,7 +9674,7 @@ tags: [
                                 label: SandyCohen_fullName,
                                 gender: "M"
                               },
-                              older: false,
+                              older: true,
                             },
                           ], 
                           started: [ ocPilot_Title],
@@ -9706,7 +9711,7 @@ tags: [
                                 label: KirstenCohen_fullName,
                                 gender: "F"
                               },
-                              older: false,
+                              older: true,
                             },
                           ], 
                           shortDesc: "Much like with Sandy, Seth has a close relationship with his mother. When Kirsten was struggling with alcoholism and refused to go to rehab in Season 2, Seth was the one who convinced her to go.",
@@ -9858,9 +9863,11 @@ tags: [
                               older: false,
                             }, 
                         {
-                          id: TaylorTownsend_ID,
-                          label: TaylorTownsend_fullName,
-                          gender: "F"
+                          content: {
+                             id: TaylorTownsend_ID,
+                             label: TaylorTownsend_fullName,
+                             gender: "F"
+                          }
                         }
                       ]
                     },
@@ -9871,7 +9878,73 @@ tags: [
                     id: generateId("Julie and Marissa"),
                     type: "Family",
                     typeOfFamily: "Biological",
-                    family: ""
+                    family: "Parent/Child",
+                    characters: [
+                      {
+                        content: {
+                          id: MarissaCooper_ID,
+                          label: MarissaCooper_fullName,
+                          gender: "F"
+                        },
+                        older: false,
+                      },
+                      {
+                        content: {
+                          id: JulieCooper_ID,
+                          label: JulieCooper_fullName,
+                          gender: "F",
+                        }, 
+                        older: true
+                      }
+                    ],
+                  },
+                  {
+                    id: generateId("Jimmy and Marissa"),
+                    type: "Family",
+                    typeOfFamily: "Biological",
+                    family: "Parent/Child",
+                    characters: [
+                      {
+                        content: {
+                          id: MarissaCooper_ID,
+                          label: MarissaCooper_fullName,
+                          gender: "F"
+                        },
+                        older: false,
+                      },
+                      {
+                        content: {
+                          id: JimmyCooper_ID,
+                          label: JimmyCooper_label,
+                          gender: "M",
+                        }, 
+                        older: true
+                      },
+                    ],
+                  },
+                  {
+                    id: generateId("Kaitlin and Marissa"),
+                    type: "Family",
+                    typeOfFamily: "Biological",
+                    family: "Sibling",
+                    characters: [
+                      {
+                        content: {
+                          id: MarissaCooper_ID,
+                          label: MarissaCooper_fullName,
+                          gender: "F"
+                        },
+                        older: true,
+                      },
+                      {
+                        content: {
+                          id: KaitlinCooper_firstName,
+                          label: KaitlinCooper_fullName,
+                          gender: "F",
+                        }, 
+                        older: false
+                      },
+                    ],
                   },
                   // Romances
                     {

@@ -1,6 +1,6 @@
 import { Relationship } from "@/app/models/types/structure/Relationship";
 
-export const generateLabel = (i: Relationship, gender: "F"  | "M" | "Non-Binary"): string => {
+export const generateLabel = (i: Relationship, gender: boolean | "F"  | "M" | "Non-Binary"): string => {
   
   // FRIENDSHIP
   if (i.type === "Friendship") {
@@ -62,9 +62,9 @@ export const generateLabel = (i: Relationship, gender: "F"  | "M" | "Non-Binary"
         i.older === true ? `Older ${base}`: `Younger ${base}`
       return base;
     }
-    if (i.family === "Parent") {
+    if (i.family === "Parent/Child") {
       const parent =
-        gender === "F" ? "Mother" : gender === "M" ? "Father" : "Parent";
+        gender === "F" ? "Mother" : gender === "M" ? "Father" : "Parent/Child";
 
         if (i.typeOfFamily) {
           if (i.typeOfFamily === "Biological" && i.adopted)  return `Birth ${parent}`
@@ -78,9 +78,16 @@ export const generateLabel = (i: Relationship, gender: "F"  | "M" | "Non-Binary"
       return parent;
     }
 
-    if (i.family === "Grandparent") {
+    if (i.family === "Grandparent/Grandchild") {
       const grandparent =
-        gender === "F" ? "Grand-Mother" : gender === "M" ? "Grand-Father" : "Parent";
+        gender === "F" ? "Grand-Mother" 
+         : gender === "M" ? "Grand-Father" 
+         : "Grandparent";
+
+      const Grandchild = 
+        gender === "F" ? "Grand-Daughter" 
+         : gender === "M" ? "Grand-Son"
+         : "Grandchild"
 
         if (i.typeOfFamily) {
           if (i.typeOfFamily === "Biological" && i.adopted)  return `Birth ${grandparent}`
@@ -92,19 +99,6 @@ export const generateLabel = (i: Relationship, gender: "F"  | "M" | "Non-Binary"
      
     
       return grandparent;
-    }
-
-    if (i.family === "Child") {
-      const child = gender === "F" ? "Daughter" : gender === "M" ? "Son" : "Child";
-      
-      if (i.typeOfFamily) {
-          if (i.typeOfFamily === "Biological" && i.adopted)  return `(Birth ${child})`
-          if (i.typeOfFamily === "Step")  return `(Step ${child})`
-          if (i.typeOfFamily === "Adoptive") return `(Adoptive ${child})`
-          if (i.typeOfFamily === "God") return `(God ${child})`
-          if (i.typeOfFamily ===  "In-Law") return `(${child} In Law)`
-        }
-      return child;
     }
 
     return "Family";

@@ -24,7 +24,7 @@ export function formatFamilyShip(ship: Relationship, gender: "F"  | "M" | "Non-B
 
       return ship.older === undefined
       ? named(base)
-      : named(`${ship.older ? "Older" : "Younger"} ${base}`);
+      : named(`${ship.older ? "Older" : ship.older === false ? "Younger" : ""} ${base}`);
     }
     const tof = ship.typeOfFamily;
 

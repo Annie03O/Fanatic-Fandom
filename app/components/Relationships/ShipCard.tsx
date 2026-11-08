@@ -20,21 +20,30 @@ export const ShipCard = ({ item, show }: Props) => {
   const [chosenImage, setChosenImage] = useState("");
   const {id} = useParams();
   
+  const character = show.mainCharacters.find((i) => i.id === id);
+
+  if (character === undefined) return console.error("Character not found.");
+  
 
   const showCharacters = [...show.mainCharacters, ...(show.recurring ?? [])];
-  const character = showCharacters.find((i) => i.id === id);
 
-  console.log(character);
+  if (item.characters === undefined) return console.error("Characterlist not found.");
+  
+
+  const miniCharacter = item.characters.find((i) => i.content.id === id)
+
+  console.log(miniCharacter);
+
   
   if (item.characters === undefined) return null;
-  if (character === undefined) {
+  if (miniCharacter === undefined) {
     console.error("Character for relationship was not found", item.id);
     return null;
   }
 
-  const secondCharacterFound = findSecondPageId(item.characters, character)
+  const secondCharacterFound = findSecondPageId(item.characters, miniCharacter)
 
-  const secondCharacter = showCharacters.find((i) => i.id === secondCharacterFound?.id)
+  const secondCharacter = showCharacters.find((i) => i.id === secondCharacterFound?.content.id)
 
   if (secondCharacter === undefined) {
     console.error("Second character not found", item.id);
@@ -42,11 +51,9 @@ export const ShipCard = ({ item, show }: Props) => {
   }
 
   const secondCharacterGender =
-    secondCharacter.gender === "F" || secondCharacter.gender === "M"
+    secondCharacter.gender === "F" || secondCharacter.gender === "M" || secondCharacter.gender === "Non-Binary"
       ? secondCharacter.gender
-      : item.gender === "F" || item.gender === "M"
-        ? item.gender
-        : character.gender;
+      : miniCharacter.content.gender === "F" || miniCharacter.content.gender === "M" || miniCharacter.content.gender === "Non-Binary"
 
   const relationshipGallery = relationshipImages(show.relationships); 
 
@@ -56,7 +63,8 @@ export const ShipCard = ({ item, show }: Props) => {
   const relationshipImage = findImageByPageId(relationshipGallery, item.id)
     ?? (item.imgUrl?.src.trim() ? item.imgUrl : undefined);
 
-  if (relationshipImage === undefined) return console.error("relationshipImage is undefined.");
+  if (relationshipImage === undefined) return;
+  if (isModalOpen === true && relationshipImage === undefined) return console.error("relationshipImage is undefined.");
   
   
   const characterPoster = character.posterUrl ?? character.imageUrl;

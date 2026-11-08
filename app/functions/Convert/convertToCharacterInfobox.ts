@@ -63,10 +63,12 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
         relatedCharacters(relationship).find((person) => person.id !== character.id)?.gender ??
         character.gender;
 
-        const miniCharacter = relationship.characters?.find((i) => i.content.id !== character.id)
 
-        if (miniCharacter === undefined) return console.error("Character not found in 'characters object'");
-        
+      const miniCharacter = relationship.characters?.find(
+        (person) => person?.content && person.content.id !== character.id
+      );
+
+      if (!miniCharacter) return null;
 
       return formatFamilyShip(relationship, relationshipGender, miniCharacter);
     })

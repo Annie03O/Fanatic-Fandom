@@ -1,11 +1,15 @@
 import { Character } from "../characters/Character";
 import { Image } from "./Image";
+export type MiniCharacter = {
+    content: Pick<Character, "id" | "label" | "gender">,
+    older?: boolean
+}
 
 export type Relationship = {
     id?: string;
     type: "Romantic" | "Family" | "Friendship" | "Rivalry";
     current?: "Romantic" | "Family" | "Friendship" | "Rivalry",
-    characters?: Pick<Character, "id" | "label" | "gender">[];
+    characters?: MiniCharacter[];
     name?: string;
     started?: string[];
     ended?: string[];

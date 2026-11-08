@@ -51,8 +51,10 @@ export var OC_ID = generateId(OC_Title);
                export var JimmyCooper_label = generateLabel("Jimmy", Cooper_Name);
                export var JimmyCooper_ID = generateId(`Jimmy ${Cooper_Name}`);
 
-
             // Kaitlin
+               export var KaitlinCooper_firstName = "Kaitlin";
+               export var KaitlinCooper_fullName = generateLabel(KaitlinCooper_firstName, Cooper_Name);
+               export var KaitlinCooper_ID = generateId(KaitlinCooper_fullName!);
 
         // Others
             // Summer

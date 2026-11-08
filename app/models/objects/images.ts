@@ -1,7 +1,7 @@
 import { Character } from "../types/characters/Character";
 import type { EpisodeBreakdown } from "../types/seasons/episode/EpisodeBreakdown";
 import type { Image } from "../types/structure/Image";
-import type { Relationship } from "../types/structure/Relationship";
+import type { MiniCharacter, Relationship } from "../types/structure/Relationship";
 import type { Show } from "../types/structure/Show";
 
 export type GalleryImage = Image & { episode?: EpisodeBreakdown };
@@ -56,13 +56,13 @@ export const findImageByPageId = (
 };
 
 export const findSecondPageId = (
-  characters: Pick<Character, "id" | "label">[]
+  characters: MiniCharacter[]
   ,
-  character: Character,
+  character: MiniCharacter,
 ) => {
   console.log("findSecondPageId: ", character);
   
-  const secondCharacter = characters.find((i) => i.id !== character.id);
+  const secondCharacter = characters.find((i) => i.content.id !== character.content.id);
   
   return secondCharacter;
 };
