@@ -20,5 +20,6 @@
         export var Alex_Name = "Alex"
 
 // First/Last names
-    export var Taylor_Name = "Taylor"
+    export var Taylor_Name = "Taylor";
+    export var James_Name = "James";
 
