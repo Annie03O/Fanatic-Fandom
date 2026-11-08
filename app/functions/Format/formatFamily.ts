@@ -143,14 +143,14 @@ export function formatFamily(show: Show) {
   
   if (ship.characters === undefined) return console.error("Characters for ship is undefined");
   
-  const secondCharacter = ship?.characters?.find((i) =>  i.id === character.id)
+  const secondCharacter = ship?.characters?.find((i) =>  i.content.id === character.id)
 
   console.log(secondCharacter);
   
 
   if (secondCharacter === undefined) return console.error(`Second character for ship with id: ${ship.id} not found`);
  
-  const rightCharacter = show.mainCharacters.find((i) => i.id === secondCharacter.id)
+  const rightCharacter = show.mainCharacters.find((i) => i.id === secondCharacter.content.id)
 
   if (rightCharacter === undefined) return console.error("Character is  undefined");
 
