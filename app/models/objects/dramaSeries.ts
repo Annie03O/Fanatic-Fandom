@@ -49,6 +49,7 @@ import {
   ocS2Ep4_Title, 
   ocS3_ID, ocS3Ep16_ID, ocS3Ep16_Title, ocS3Ep17_ID, ocS3Ep18_Title, ocS3Ep20_Title, ocS3ep8_ID, 
   ocS3Finale_ID, 
+  ocS3Finale_Title, 
   ocS4_ID, ocS4Ep15_ID, ocS4Ep15_Title, ocS4Ep5_ID, ocS4Ep6_Title, ocSeriesFinale_ID, 
   ocSeriesFinale_Title, 
   OliverTrask_firstName, 
@@ -8465,6 +8466,14 @@ tags: [
             ended: "2006"
           }
         ],
+        education: [
+          {
+              place: "The Harbor School",
+              started: "2003",
+              hasEnded: true,
+              ended: "2007",
+            },
+        ], 
         characterArc: [
           {
             seasonNumber: 1,
@@ -8476,6 +8485,10 @@ tags: [
             ]
           }
         ],
+        actor: "Micha Barton",
+        firstEpisode: ocPilot_Title,
+        lastEpisode: ocS3Finale_Title,
+        episodeCount: 76,
         promo: true,
       },
       {
