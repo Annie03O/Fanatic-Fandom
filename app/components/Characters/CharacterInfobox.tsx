@@ -217,7 +217,7 @@ export const CharacterInfobox = ({ show, character }: Props) => {
                   <header>
                     <h4 className="border-b border-gray-500 px-2 py-1 text-lg font-bold text-center bg-black text-[#d1c3e3]">Deseased</h4>
                   </header>
-                <section className="flex flex-row-reverse justify-center border gap-2  border-b border-gray-400 pl-1">
+                <section className="flex flex-row-reverse justify-center gap-2  border-b border-gray-400 pl-1">
                 
                   {deceasedFields.map((item) => (
                     <div className="w-full" key={item.label}>
