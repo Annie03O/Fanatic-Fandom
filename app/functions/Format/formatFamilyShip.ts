@@ -1,6 +1,7 @@
-import { Relationship } from "../../models/types/structure/Relationship";
+import { faL } from "@fortawesome/free-solid-svg-icons";
+import { MiniCharacter, Relationship } from "../../models/types/structure/Relationship";
 
-export function formatFamilyShip(ship: Relationship, gender: "F"  | "M" | "Non-Binary") {
+export function formatFamilyShip(ship: Relationship, gender: "F"  | "M" | "Non-Binary", charater: MiniCharacter) {
   const named = (relation: string) =>
     ship.name ? `${ship.name} (${relation})` : relation;
 
@@ -27,54 +28,53 @@ export function formatFamilyShip(ship: Relationship, gender: "F"  | "M" | "Non-B
     }
     const tof = ship.typeOfFamily;
 
-    if (ship.family === "Parent") {
+    if (ship.family === "Parent/Child") {
       const parent =
         gender === "F" ? "Mother" :
         gender === "M" ? "Father" :
-        "parent";
-        
-        
-      if (!tof) return named(parent);
-        
-      // mest specifikt först
-      if (tof === "Biological" && ship.adopted) return named(`Birth ${parent}`);
-      if (tof === "Biological") return named(parent);
-        
-      if (tof === "Step") return named(`Step ${parent}`);
-      if (tof === "Adoptive") return named(`Adoptive ${parent}`);
-      if (tof === "God") return named(`God ${parent}`);
-      if (tof === "In-Law") return named(`${parent} In Law`);
-        
-      return named(parent);
-    }
+        "Parent";
 
-    if (ship.family === "Child") {
       const child =
         gender === "F" ? "Daughter" :
         gender === "M" ? "Son" :
-        "Child";
+        "Child"
 
-    
-      if (!tof) return named(child);
-
+      const base = 
+        charater.older === true ? parent :
+        charater.older === false ? child :
+        "Parent/Child"
+        
+      if (!tof) return named(base);
+        
       // mest specifikt först
-      if (tof === "Biological" && ship.adopted) return named(`Birth ${child}`);
-      if (tof === "Biological") return named(child);
-
-      if (tof === "Step") return named(`Step ${child}`);
-      if (tof === "Adoptive") return named(`Adoptive ${child}`);
-      if (tof === "God") return named(`God ${child}`);
-      if (tof === "In-Law") return named(`${child} In Law`);
-
-      return named(child);
+      if (tof === "Biological" && ship.adopted) return named(`Birth ${base}`);
+      if (tof === "Biological") return named(base);
+        
+      if (tof === "Step") return named(`Step ${base}`);
+      if (tof === "Adoptive") return named(`Adoptive ${base}`);
+      if (tof === "God") return named(`God ${base}`);
+      if (tof === "In-Law") return named(`${base} In Law`);
+        
+      return named(base);
     }
+
     if (ship.extended === true) {  
-      const side = ship.ifExtended === "Maternal" ? "Maternal" : "Paternal"
-      if (ship.family === "Aunt/Uncle") {
-        const base =
+      const side = ship.ifExtended === "Maternal" && charater.older === true ? "Maternal" : charater.older === true ? "Paternal" : ""
+      if (ship.family === "Pibling/Nibling") {
+        const pibling =
           gender === "F" ? "Aunt" :
           gender === "M" ? "Uncle" :
-          "";
+          "Pibling";
+        
+        const nibling = 
+          gender === "F" ? "Niece" :
+          gender === "M" ? "Nephew" :
+          "Nibling"
+
+        const base = 
+          charater.older === true ? pibling 
+          : charater.older === false ? nibling 
+          : "Pibling/Nibling"
     
         if (!tof) return named(base);
 
@@ -99,8 +99,22 @@ export function formatFamilyShip(ship: Relationship, gender: "F"  | "M" | "Non-B
       }
       
 
-      if (ship.family === "Grandparent") {
-        const base = gender === "F" ? "Grandmother" : "Grandfather"
+      if (ship.family === "Grandparent/Grandchild") {
+        const grandparent = 
+         gender === "F" ? "Grandmother" 
+          : gender === "M" ? "Grandfather" 
+          : "Grandparent"
+
+        const grandchild =
+         gender === "F" ? "Grandaughter" 
+          : gender === "M" ? "Grandson"
+          : "Grandchild"
+
+        const base =
+         charater.older === true ? grandparent 
+          : charater.older === false ? grandchild 
+          : "Grandparent/Grandchild"
+
 
         // mest specifikt först
         if (tof === "Biological" && ship.adopted) return named(`Birth ${base}`);
