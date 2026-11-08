@@ -8439,6 +8439,8 @@ tags: [
         firstName: MarissaCooper_firstName,
         lastName: Cooper_Name,
         gender: "F",
+        hairColor: "Blonde",
+        eyeColor: "Blue",
         imageUrl: {
           src: "https://imagenes.elpais.com/resizer/v2/SYUVM35P45ASPK3Y5USJBOUBZE.jpg?auth=412f3798aac447693159e6878954b2a0173f5e8c07df61ccd62402a3f21c3b4e&width=1960&height=1470&smart=true",
           alt: "Close up for Marissa.",
@@ -8486,6 +8488,7 @@ tags: [
           }
         ],
         actor: "Micha Barton",
+        everyEpisode: false,
         firstEpisode: ocPilot_Title,
         lastEpisode: ocS3Finale_Title,
         episodeCount: 76,

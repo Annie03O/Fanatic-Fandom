@@ -96,7 +96,9 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
   const maritalStatus = formatMaritalStatus(character);
 
   const fields: InfoField[] = [
-    fullName ? { label: "Full Name", info: fullName } : null,
+    fullName ? { label: "Full Name", info: fullName,
+      category: "Biography"
+     } : null,
     character.nickname?.length 
       ? { 
         label: "Nicknames", 
@@ -106,13 +108,14 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
     character.birthday?.length 
     ? { 
       label: "Born", 
-      info: character.birthday 
+      info: character.birthday, category: "Biography" 
     } 
       : null,
     character.dateOfDeath?.length 
     ? {
       label: "Deceased",
       info: character.dateOfDeath,
+      category: "Biography"
     } : null,
     character.causeOfDeath?.length 
     ? {
@@ -123,18 +126,21 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
     ? {
       label: "Status",
       info: character.status === "Deceased" ? "Deceased" 
-       : "Alive" 
+       : "Alive", 
+       category: "Biography"
     } : null,
     character.hairColor?.length
      ? {
        label: "Hair Color", 
-       info: character.hairColor 
+       info: character.hairColor,
+       category: "Appearances"
       } 
        : null,
     character.eyeColor?.length 
     ? { 
       label: "Eye Color", 
-      info: character.eyeColor 
+      info: character.eyeColor, 
+       category: "Appearances"
     } 
       : null,
     character.residence?.length 
@@ -145,7 +151,7 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
      character.occupation?.toString().length
      ? { 
       label: "Occupation", 
-      info: character.occupation 
+      info: character.occupation, category: "Career" 
      } 
      : null,
     character.education?.toString().length 
@@ -164,49 +170,40 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
     family.length 
     ? { 
       label: "Family", 
-      info: family 
+      info: family, 
+      category: "Relationships" 
     } 
       : null,
     friends.length 
     ? { 
       label: "Friends", 
-      info: friends
+      info: friends,
+      category: "Relationships" 
     } 
     : null,
     romance.length 
     ? { 
       label: "Romance", 
-      info: romance
-    } 
-    : null, 
-    character.actor?.length 
-    ? {
-       label: "Actor", 
-      info: character.actor 
+      info: romance,
+      category: "Relationships" 
     } 
     : null,
-    character.everyEpisode === true || character.firstEpisode?.length 
-    ? {
-      label: "First Episode", 
-      info: character.everyEpisode === true ? show.pilot :
-        show.pilot
-    } 
-    : null,
-    character.everyEpisode === true || character.lastEpisode?.length 
-    ? {
-      label: "Last Episode", 
-      info: character.everyEpisode === true ? show.finaleEpisode :
-        show.finaleEpisode 
-    } 
-    : null,
+    
     character.everyEpisode === true || String(character.episodeCount ?? "").trim().length > 0
     ? {
       label: "Episode Count",
       info: character.everyEpisode === true
         ? String(show.numberOfEpisodes)
-        : String(character.episodeCount)
+        : String(character.episodeCount),  category: "Backstage"
     } 
-    : null
+    : null,   
+    // character.actor?.length 
+    // ? {
+    //    label: "Actor", 
+    //   info: character.actor,
+    //   category: "Backstage"
+    // } 
+    // : null,
   ].filter(isInfoField);
 
   return {
