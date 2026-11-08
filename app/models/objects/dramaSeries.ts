@@ -253,7 +253,7 @@ export const dramaSeries: Show[] = [
             id: "brandon-jim",
             type: "Family", 
             name: "Jim Walsh",
-            family: "Parent",
+            family: "Parent/Child",
             typeOfFamily: "Biological", 
             imgUrl: "https://m.media-amazon.com/images/M/MV5BMTgxMTIxNzk0NF5BMl5BanBnXkFtZTgwOTMyMDYzMzE@._V1_.jpg",
             gender: "M"   
@@ -263,7 +263,7 @@ export const dramaSeries: Show[] = [
             type: "Family", 
             typeOfFamily: "Biological",
             name: "Cindy Walsh",
-            family: "Parent", 
+            family: "Parent/Child", 
             imgUrl: "https://m.media-amazon.com/images/M/MV5BMTgxMTIxNzk0NF5BMl5BanBnXkFtZTgwOTMyMDYzMzE@._V1_.jpg",   
             gender: "F"
           },
@@ -299,7 +299,7 @@ export const dramaSeries: Show[] = [
           {          
             name: "Unborn baby",
             type: "Family",
-            family: "Child",
+            family: "Parent/Child",
             gender: "",
             shortDesc: "In season 7 Brandon and Kelly find out that Kelly was pregnant without realizing, but unfortunately miscarried.",
             dead: true,
@@ -311,7 +311,7 @@ export const dramaSeries: Show[] = [
             typeOfFamily: "Biological",
             extended: true,
             ifExtended: "Maternal",
-            family: "Aunt/Uncle",
+            family: "Pibling/Nibling",
             gender: "F"
           },
           {
@@ -319,7 +319,7 @@ export const dramaSeries: Show[] = [
             type: "Family",
             extended: true,
             ifExtended: "Maternal",
-            family: "Grandparent",
+            family: "Grandparent/Grandchild",
             gender: "F"
           },
           {
@@ -327,7 +327,7 @@ export const dramaSeries: Show[] = [
             type: "Family",
             extended: true,
             ifExtended: "Maternal",
-            family: "Grandparent",
+            family: "Grandparent/Grandchild",
             gender: "M"
           },
           {
@@ -335,7 +335,7 @@ export const dramaSeries: Show[] = [
             type: "Family",
             extended: true,
             ifExtended: "Paternal",
-            family: "Grandparent",
+            family: "Grandparent/Grandchild",
             gender: "F"
           },
           {
@@ -621,7 +621,7 @@ export const dramaSeries: Show[] = [
             id: "branda-jim",
             type: "Family", 
             name: "Jim Walsh",
-            family: "Parent", 
+            family: "Parent/Child", 
             imgUrl: "https://i.ytimg.com/vi/NXUDF9riTw0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD-4g_yL3AQK8ZUcpTGo3hbyDQqsQ",
             gender: "M"   
           },
@@ -629,7 +629,7 @@ export const dramaSeries: Show[] = [
             id: "brandon-cindy",
             type: "Family", 
             name: "Cindy Walsh",
-            family: "Parent", 
+            family: "Parent/Child", 
             gender: "F"
           },
           {
@@ -675,7 +675,7 @@ export const dramaSeries: Show[] = [
             type: "Family",
             extended: true,
             ifExtended: "Maternal",
-            family: "Aunt/Uncle",
+            family: "Pibling/Nibling",
             gender: "F"
           },
           {
@@ -683,7 +683,7 @@ export const dramaSeries: Show[] = [
             type: "Family",
             extended: true,
             ifExtended: "Maternal",
-            family: "Grandparent",
+            family: "Grandparent/Grandchild",
             gender: "F"
           },
           {
@@ -691,7 +691,7 @@ export const dramaSeries: Show[] = [
             type: "Family",
             extended: true,
             ifExtended: "Maternal",
-            family: "Grandparent",
+            family: "Grandparent/Grandchild",
             gender: "M"
           },
           {
@@ -699,7 +699,7 @@ export const dramaSeries: Show[] = [
             type: "Family",
             extended: true,
             ifExtended: "Paternal",
-            family: "Grandparent",
+            family: "Grandparent/Grandchild",
             gender: "F"
           },
           {
@@ -912,7 +912,7 @@ export const dramaSeries: Show[] = [
           {          
             type: "Family",
             name: "Sammy Taylor",
-            family: "Child",
+            family: "Parent/Child",
             shortDesc: "Sammy is Dylan's son that he had with Kelly between the original show and the 90210 reboot. He and Sammy doesn't have that much of a relationship.",
             imgUrl: "https://lthumb.lisimg.com/985/697985.jpg?width=280&sharpen=true",   
             gender: "M",
@@ -1124,7 +1124,7 @@ export const dramaSeries: Show[] = [
             {
               name: "Jack McKay",
               type: "Family",
-              family: "Parent",
+              family: "Parent/Child",
               gender: "M",
               imgUrl: "https://90sflashback.wordpress.com/wp-content/uploads/2013/02/tdodm.png",
               shortDesc: "Dylan and Jack’s relationship is marked by distance, disappointment, and unfulfilled hope. Because of Jack’s criminal past and long absences, Dylan grows up feeling abandoned and emotionally neglected. Although they later attempt to reconnect, their bond is cut short by Jack’s death, leaving Dylan with unresolved grief and lasting emotional scars.",
@@ -1143,7 +1143,7 @@ export const dramaSeries: Show[] = [
             {
               name: "Iris McKay",
               type: "Family",
-              family: "Parent",
+              family: "Parent/Child",
               gender: "F",
               imgUrl: "https://preview.redd.it/iris-mckay-v0-kqmt4w6owrrb1.jpg?width=1080&crop=smart&auto=webp&s=da126437314e637f3c7fd3223e8d5f8a99fa8bd1",
               shortDesc: "Dylan and Iris share a caring but distant relationship shaped by long periods of separation. Iris is supportive and emotionally aware, but often absent, which leaves Dylan feeling unsupported at times. When she is present, she offers guidance and stability, becoming one of the few adults he truly trusts.",
@@ -1357,7 +1357,7 @@ export const dramaSeries: Show[] = [
             id: "kelly-jackie",
             type: "Family", 
             name: "Jackie Taylor",
-            family: "Parent",
+            family: "Parent/Child",
             typeOfFamily: "Biological", 
             imgUrl: "https://images.squarespace-cdn.com/content/v1/5b01f654365f02faae6e97a5/1527227323314-JV21L40WKEB63X19BKKN/tumblr_inline_ngbhwnjNOO1qeo68j.jpg?format=1500w",   
             gender: "F",
@@ -1413,7 +1413,7 @@ export const dramaSeries: Show[] = [
           {          
             type: "Family",
             name: "Sammy Taylor",
-            family: "Child", 
+            family: "Parent/Child", 
             typeOfFamily: "Biological",
             shortDesc: "Sammy is Dylan's son that he had with Kelly between the original show and the 90210 reboot. He and Sammy doesn't have that much of a relationship.",
             imgUrl: "https://lthumb.lisimg.com/985/697985.jpg?width=280&sharpen=true",   
@@ -1424,7 +1424,7 @@ export const dramaSeries: Show[] = [
           {          
             name: "Unborn baby",
             type: "Family",
-            family: "Child",
+            family: "Parent/Child",
             typeOfFamily: "Biological",
             gender: "",
             shortDesc: "In season 7 Brandon and Kelly find out that Kelly was pregnant without realizing, but unfortunately miscarried.",
@@ -1479,7 +1479,7 @@ export const dramaSeries: Show[] = [
             {
               name: "Mel Silver",
               type: "Family",
-              family: "Parent", 
+              family: "Parent/Child", 
               typeOfFamily: "Step",
               gender: "M"
             },
@@ -1516,7 +1516,7 @@ export const dramaSeries: Show[] = [
             {
               name: "Ed",
               type: "Family",
-              family: "Grandparent",
+              family: "Grandparent/Grandchild",
               dead: true,
               extended: true,
               gender: "M"
@@ -1680,14 +1680,14 @@ export const dramaSeries: Show[] = [
            {
             type: "Family",
             name: "John Martin",
-            family: "Parent",
+            family: "Parent/Child",
             typeOfFamily: "Biological",
             gender: "M",
            },
            {
             type: "Family",
             name: "Felice Martin",
-            family: "Parent",
+            family: "Parent/Child",
             typeOfFamily: "Biological",
             gender: "F",
            },
@@ -1697,7 +1697,7 @@ export const dramaSeries: Show[] = [
             typeOfFamily: "Biological",
             extended: true,
             ifExtended: "Maternal",
-            family: "Aunt/Uncle",
+            family: "Pibling/Nibling",
             gender: "F"
           },
            {
@@ -1711,28 +1711,28 @@ export const dramaSeries: Show[] = [
             type: "Family",
             name: "Mel Silver",
             typeOfFamily: "In-Law",
-            family: "Parent",
+            family: "Parent/Child",
             gender: "M",
            },
            {
             type: "Family",
             name: "Jackie Taylor",
             typeOfFamily: "In-Law",
-            family: "Parent",
+            family: "Parent/Child",
             gender: "F",
            },
            {
             type: "Family",
             name: "Sheila Silver",
             typeOfFamily: "In-Law",
-            family: "Parent",
+            family: "Parent/Child",
             gender: "F",
            },
            {
             type: "Family",
             name: "Jackie Taylor",
             typeOfFamily: "In-Law",
-            family: "Parent",
+            family: "Parent/Child",
             gender: "F",
            },
            {
@@ -1745,7 +1745,7 @@ export const dramaSeries: Show[] = [
            {
             name: "Celia Martin",
             type: "Family",
-            family: "Grandparent",
+            family: "Grandparent/Grandchild",
             extended: true,
             gender: "F"
           },
@@ -2033,20 +2033,20 @@ export const dramaSeries: Show[] = [
             type: "Family",
             name: "Mel Silver",
             typeOfFamily: "Biological",
-            family: "Parent",
+            family: "Parent/Child",
             gender: "M",
           },
           {
             type: "Family",
             name: "Sheila Silver",
             typeOfFamily: "Biological",
-            family: "Parent",
+            family: "Parent/Child",
             gender: "F",
           },
           {
             type: "Family",
             name: "Jackie Tayor",
-            family: "Parent",
+            family: "Parent/Child",
             typeOfFamily: "Step",
             gender: "F",
           },
@@ -2070,7 +2070,7 @@ export const dramaSeries: Show[] = [
             name: "Henry Silver",
             type: "Family",
             ifExtended: "Paternal",
-            family: "Grandparent",
+            family: "Grandparent/Grandchild",
             extended: true,
             gender: "M"
           },
@@ -2080,7 +2080,7 @@ export const dramaSeries: Show[] = [
             typeOfFamily: "Biological",
             extended: true,
             ifExtended: "Maternal",
-            family: "Aunt/Uncle",
+            family: "Pibling/Nibling",
             gender: "F"
           },
           {
@@ -2462,7 +2462,7 @@ export const dramaSeries: Show[] = [
             type: "Family",
             typeOfFamily: "Adoptive",
             adopted: true,
-            family: "Parent",
+            family: "Parent/Child",
             name: "Samantha Sanders",
             gender: "F",
             card: true,
@@ -2473,7 +2473,7 @@ export const dramaSeries: Show[] = [
             type: "Family",
             typeOfFamily: "Biological",
             adopted: true,
-            family: "Parent",
+            family: "Parent/Child",
             name: "Karen Brown",
             gender: "F",
             card: true,
@@ -2482,7 +2482,7 @@ export const dramaSeries: Show[] = [
           {
             type: "Family",
             typeOfFamily: "Biological",
-            family: "Parent",
+            family: "Parent/Child",
             name: "Rush Sanders",
             gender: "M",
             card: true,
@@ -2495,7 +2495,7 @@ export const dramaSeries: Show[] = [
             adopted: true,
             ifExtended: "Maternal",
             extended: true,
-            family: "Grandparent",
+            family: "Grandparent/Grandchild",
             name: "Al Brown",
             gender: "M",
             card: true,
@@ -2505,7 +2505,7 @@ export const dramaSeries: Show[] = [
           {
             type: "Family",
             typeOfFamily: "Biological",
-            family: "Child",
+            family: "Parent/Child",
             name: "Madeline Sanders",
             gender: "F",
           },
@@ -2762,14 +2762,14 @@ export const dramaSeries: Show[] = [
           name: "Gail Zuckerman",
           type: "Family",
           typeOfFamily: "Biological",
-          family: "Parent",
+          family: "Parent/Child",
           gender: "F",
         },
          {
           name: "Kenny Zuckerman",
           type: "Family",
           typeOfFamily: "Biological",
-          family: "Parent",
+          family: "Parent/Child",
           gender: "M",
         },
          {
@@ -2784,7 +2784,7 @@ export const dramaSeries: Show[] = [
           type: "Family",
           typeOfFamily: "Biological",
           extended: true,
-          family: "Grandparent",
+          family: "Grandparent/Grandchild",
           ifExtended: "Maternal",
           gender: "F",
         },
@@ -2792,7 +2792,7 @@ export const dramaSeries: Show[] = [
           name: "Hannah Zuckerman-Vasquez",
           type: "Family",
           typeOfFamily: "Biological",
-          family: "Child",
+          family: "Parent/Child",
           secondParent: "Jesse Vasquez",
           gender: "F",
         },
@@ -2956,7 +2956,7 @@ export const dramaSeries: Show[] = [
             name: "Abby Malone",
             type: "Family",
             typeOfFamily: "Biological",
-            family: "Parent",
+            family: "Parent/Child",
             gender: "F",
           },
           {
@@ -2977,7 +2977,7 @@ export const dramaSeries: Show[] = [
             name: "Victor Malone",
             type: "Family",
             typeOfFamily: "Biological",
-            family: "Parent",
+            family: "Parent/Child",
             dead: true,
             gender: "M",
           },
@@ -8193,21 +8193,21 @@ tags: [
               {
               name: "Rose Nichols",
               type: "Family",
-              family: "Grandparent",
+              family: "Grandparent/Grandchild",
               typeOfFamily: "Adoptive",
+              older: true,
               extended: true,
               ifExtended: "Maternal",
-              gender: "F",
               dead: true
             },
             {
               name: "Mr. Cohen",
               type: "Family",
-              family: "Grandparent",
+              family: "Grandparent/Grandchild",
+              older: true,
               typeOfFamily: "Adoptive",
               extended: true,
               ifExtended: "Paternal",
-              gender: "M",
               dead: true
             },
             
@@ -8216,13 +8216,11 @@ tags: [
               name: "Chloe",
               type: "Romantic",
               romantic: "Hook-Up",
-              gender: "F",
             },
             {
               name: "Gabrielle",
               type: "Romantic",
               romantic: "Hook-Up",
-              gender: "F",
             },
                           
         ],
@@ -8295,7 +8293,7 @@ tags: [
                   id: generateId("Seth and Caleb"),
                   name: CalebNichols_fullName,
                   type: "Family",
-                  family: "Grandparent",
+                  family: "Grandparent/Grandchild",
                   typeOfFamily: "Biological",
                   extended: true,
                   ifExtended: "Maternal",
@@ -8306,7 +8304,7 @@ tags: [
                   name: "Hailey Nichols",
                   type: "Family",
                   typeOfFamily: "Biological",
-                  family: "Aunt/Uncle",
+                  family: "Pibling/Nibling",
                   gender: "F",
                   extended: true,
                   ifExtended: "Maternal",
@@ -8314,7 +8312,7 @@ tags: [
                 {
                   name: "Rose Nichols",
                   type: "Family",
-                  family: "Grandparent",
+                  family: "Grandparent/Grandchild",
                   typeOfFamily: "Biological",
                   extended: true,
                   ifExtended: "Maternal",
@@ -8324,7 +8322,7 @@ tags: [
                 {
                   name: "Sofie " + Cohen_Name,
                   type: "Family",
-                  family: "Grandparent",
+                  family: "Grandparent/Grandchild",
                   typeOfFamily: "Biological",
                   extended: true,
                   ifExtended: "Paternal",
@@ -8334,7 +8332,7 @@ tags: [
                 {
                   name: "Mr. Cohen",
                   type: "Family",
-                  family: "Grandparent",
+                  family: "Grandparent/Grandchild",
                   typeOfFamily: "Biological",
                   extended: true,
                   ifExtended: "Paternal",
@@ -9073,7 +9071,8 @@ tags: [
                     {
                         id: RyanSandy_ID, 
                         type: "Family",
-                        family: "Parent",
+                        family: "Parent/Child",
+                        older: true,
                         typeOfFamily: "Adoptive",
                         imgUrl: {
                           src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTkmnIJXByMTAyq3DY2TgbZDsJXIl5kkrnaNrVsPXpjsQbE6-X_c2m88Y&s=10",
@@ -9089,14 +9088,20 @@ tags: [
                         card: true,
                         characters: [
                           {
-                            id: RyanAtwood_ID,
-                            label: RyanAtwood_fullName,
-                            gender: "M"
+                            content: {
+                                id: RyanAtwood_ID,
+                                label: RyanAtwood_fullName,
+                                gender: "M"
+                              },            
+                            older: false 
                           },
                           {
-                            id: SandyCohen_ID,
-                            label: SandyCohen_fullName,
-                            gender: "M"
+                            content: {
+                              id: SandyCohen_ID,
+                              label: SandyCohen_fullName,
+                              gender: "M"
+                            },            
+                            older: true
                           },
                         ], 
                         shortDesc: "Ryan and Sandy has a close and loving father-son bond. Sandy was the person who helped Ryan when his biological mom, Dawn, kicked him out, and took him in. Sandy is also shown to be protective over Ryan, defending him towards the snobs in Newport.",
@@ -9104,7 +9109,8 @@ tags: [
                       {
                         id: generateId("Ryan and Kirsten"),
                         type: "Family",
-                        family: "Parent",
+                        family: "Parent/Child",
+                        older: true,
                         typeOfFamily: "Adoptive",
                         imgUrl: {
                           src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDzAnAW4XDIRpl0lKf3P6Hcwfg3R9-bX9pusmKjCVU4bzFiyfIUVPyC1o&s=10",
@@ -9121,55 +9127,66 @@ tags: [
                         
                         characters: [
                           {
-                            id: RyanAtwood_ID,
-                            label: RyanAtwood_fullName,
-                            gender: "M"
+                            content: {
+                                id: RyanAtwood_ID,
+                                label: RyanAtwood_fullName,
+                                gender: "M"
+                              },                        
+                            older: false
                           },
                           {
-                            id: KirstenCohen_ID,
-                            label: KirstenCohen_fullName,
-                            gender: "F"
+                            content: {
+                              id: KirstenCohen_ID,
+                              label: KirstenCohen_fullName,
+                              gender: "F"
+                            },
+                            older: true
                           },
                         ], 
                         shortDesc: "When Sandy first brings Ryan home, Kirsten is not happy, since Ryan was just realeased from juvie. However, when Kirsten learns that Ryan's mom abandoned him, she starts to be more empathetic towards him. They eventually develop a close mother-son bond.",
                       },
+                      {
+                          id: RyanSeth_ID,
+                          imgUrl: {
+                            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwpHMk6sFdAFVr3AHePZKzDas8kXOEx8nTKm58r5HEumIuwUh9nARqAcU&s=10",
+                            alt: "Seth and Ryan walk with their arms around each other.",
+                            pageId: [
+                              RyanAtwood_ID,
+                              ocS4Ep15_ID
+                            ]
+                          
+                          },
+                          type: "Family",
+                          family: "Sibling",
+                          typeOfFamily: "Adoptive",
+                          kindOfFriendship: "Best Friend",
+                          started: [ocPilot_Title],
+                          characters: [
                             {
-                              id: RyanSeth_ID,
-                              imgUrl: {
-                                src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwpHMk6sFdAFVr3AHePZKzDas8kXOEx8nTKm58r5HEumIuwUh9nARqAcU&s=10",
-                                alt: "Seth and Ryan walk with their arms around each other.",
-                                pageId: [
-                                  RyanAtwood_ID,
-                                  ocS4Ep15_ID
-                                ]
-                              
-                              },
-                              type: "Family",
-                              family: "Sibling",
-                              typeOfFamily: "Adoptive",
-                              kindOfFriendship: "Best Friend",
-                              started: [ocPilot_Title],
-                              characters: [
-                                {
-                                  id: RyanAtwood_ID,
-                                  label: RyanAtwood_fullName,
-                                  gender: "M"
-                                },
-                                {
-                                  id: SethCohen_ID,
-                                  label: SethCohen_fullName,
-                                  gender: "M"
-                                },
-                              ],
-                              card: true,
-                              shortDesc: "Seth is the person friend Ryan makes after he moves to Newport, and Ryan is Seth's first real friend. The two quickly form a very close bond when Ryan starts defending Seth against his bullies. Their relationship is very brother-like, they tease each other but in the end always have the other ones back. They are best friends",
+                              content: {
+                                id: RyanAtwood_ID,
+                                label: RyanAtwood_fullName,
+                                gender: "M"
+                              },                    
                             },
+                            {
+                              content: {
+                                id: SethCohen_ID,
+                                label: SethCohen_fullName,
+                                gender: "M"
+                              },            
+                            },
+                          ],
+                          card: true,
+                          shortDesc: "Seth is the person friend Ryan makes after he moves to Newport, and Ryan is Seth's first real friend. The two quickly form a very close bond when Ryan starts defending Seth against his bullies. Their relationship is very brother-like, they tease each other but in the end always have the other ones back. They are best friends",
+                        },
       
                         // Atwoods
                           {
                             id: RyanDawn_ID,
                             type: "Family",
-                            family: "Parent",
+                            family: "Parent/Child",
+                            older: true,
                             typeOfFamily: "Biological",
                             adopted: true,
                             imgUrl: {
@@ -9184,14 +9201,18 @@ tags: [
                             },
                             characters: [
                               {
-                                id: RyanAtwood_ID,
-                                label: RyanAtwood_fullName,
-                                gender: "M"
-                              },
+                                content: {
+                                  id: RyanAtwood_ID,
+                                  label: RyanAtwood_fullName,
+                                  gender: "M"
+                                },            
+                             },
                               {
-                                id: DawnAtwood_ID,
-                                label: DawnAtwood_fullName,
-                                gender: "F"
+                                content: {
+                                  id: DawnAtwood_ID,
+                                  label: DawnAtwood_fullName,
+                                  gender: "F"
+                                }
                               },
                             ],
                             card: true,
@@ -9201,18 +9222,23 @@ tags: [
                             id: generateId(`${RyanAtwood_firstName} and Frank`),
                             type: "Family",
                             typeOfFamily: "Biological",
-                            family: "Parent",
+                            family: "Parent/Child",
+                            older: true,
                             adopted: true,
                             characters: [
                               {
-                                id: RyanAtwood_ID,
-                                label: RyanAtwood_fullName,
-                                gender: "M"
-                              },
+                                content: {
+                                  id: RyanAtwood_ID,
+                                  label: RyanAtwood_fullName,
+                                  gender: "M"
+                                },            
+                            },
                               {
-                                id: generateId("Frank Atwood"),
-                                label: "Frank Atwood",
-                                gender: "M"
+                                content: {
+                                  id: generateId("Frank Atwood"),
+                                  label: "Frank Atwood",
+                                  gender: "M"
+                                }
                               },
                             ],
                         },
@@ -9235,14 +9261,20 @@ tags: [
                           shortDesc: "Trey is Ryan's older brother. They grew up together in Chino, but when Trey goes to jail for stealing a car, they become distant. In season 2, Trey is released from prison and moves to Newport. For a while they begin to reconcile, however, when Ryan finds out that Trey tried to force himself on Marissa, it all comes crashing down.",
                           characters: [
                             {
-                              id: RyanAtwood_ID,
-                              label: RyanAtwood_ID,
-                              gender: "M"
+                              content: {
+                                id: RyanAtwood_ID,
+                                label: RyanAtwood_fullName,
+                                gender: "M",
+                              },            
+                              older: false
                             },
                             {
-                              id: TreyAtwood_ID,
-                              label: TreyAtwood_fullName,
-                              gender: "M"
+                              content: { 
+                                id: TreyAtwood_ID,
+                                label: TreyAtwood_fullName,
+                                gender: "M"
+                              },
+                              older: true
                             },
                           ]
                         },
@@ -9274,15 +9306,19 @@ tags: [
                          card: true,
                          shortDesc: "When Ryan first arrives in Newport, Summer thinks he is hot and hits on him. However, since Ryan's new adoptive brother,  Seth is in love with Summer, Ryan rejects her. Later, when Summer and Seth start dating, and Ryan begins dating Summer's best friend, Marissa, Ryan and Summer form a close friendship. In the series finale, Summer and Seth get married, which makes them in-laws.",
                          characters: [
-                          {
-                            id: RyanAtwood_ID,
-                            label: RyanAtwood_fullName,
-                            gender: "M"
-                          },
-                          {
-                            id: SummerRoberts_ID,
-                            label: SummerRoberts_fullName,
-                            gender: "F"
+                            {
+                              content: {
+                                id: RyanAtwood_ID,
+                                label: RyanAtwood_fullName,
+                                gender: "M"
+                              },            
+                            },           
+                           {
+                            content: {
+                              id: SummerRoberts_ID,
+                              label: SummerRoberts_fullName,
+                              gender: "F"
+                            }
                           },
                          ]
                         }, 
@@ -9292,14 +9328,33 @@ tags: [
                           name: "Hailey Nichols",
                           type: "Family",
                           typeOfFamily: "Adoptive",
-                          family: "Aunt/Uncle",
+                          family: "Pibling/Nibling",
                           extended: true,
                           ifExtended: "Maternal",
+                          characters: [
+                            {
+                              content: {
+                                id: RyanAtwood_ID,
+                                label: RyanAtwood_fullName,
+                                gender: "M"
+                              },            
+                              older: false,
+                            },
+                            {
+                              content: {
+                                id: generateId("Hailey" + " " + CalebNichols_lastName),
+                                label: "Hailey" + " " + CalebNichols_lastName,
+                                gender: "F",
+                              },            
+                              older: true
+                            },
+                          ]
                         },
                         {
                           id: generateId("Ryan and Caleb"),
                           type: "Family",
-                          family: "Grandparent",
+                          family: "Grandparent/Grandchild",
+                          older: true,
                           typeOfFamily: "Adoptive",
                           extended: true,
                           ifExtended: "Maternal",
@@ -9315,34 +9370,47 @@ tags: [
                           shortDesc: "Right from the moment Ryan arrived in Newport, Caleb expressed obvious distaste for him. Caleb has never given Ryan a chance and mostly see him as a problem.",
                           characters: [
                             {
-                              id: RyanAtwood_ID,
-                              label: RyanAtwood_ID,
-                              gender: "M"
+                              content: {
+                                id: RyanAtwood_ID,
+                                label: RyanAtwood_fullName,
+                                gender: "M"
+                              },            
+                              older: false
                             },
                             {
-                              id: CalebNichols_ID,
-                              label: CalebNichols_fullName,
-                              gender: "M"
+                              content: {
+                                id: CalebNichols_ID,
+                                label: CalebNichols_fullName,
+                                gender: "M"
+                              },
+                              older: true
                             }
                           ]
                         }, 
                         {
                           type: "Family",
-                          family: "Grandparent",
+                          family: "Grandparent/Grandchild",
+                          older: true,
                           typeOfFamily: "Adoptive",
                           extended: true,
                           ifExtended: "Paternal",
                           dead: true,
                           characters: [
                             {
-                               id: RyanAtwood_ID,
-                               label: RyanAtwood_ID,
-                               gender: "M"
-                             },
+                              content: {
+                                id: RyanAtwood_ID,
+                                label: RyanAtwood_fullName,
+                                gender: "M"
+                              },            
+                              older: false
+                            },
                             {
-                              id: generateId(`Sofie ${Cohen_Name}`),
-                              label: `Sofie ${Cohen_Name}`,
-                              gender: "F"
+                              content: {
+                                id: generateId(`Sofie ${Cohen_Name}`),
+                                label: `Sofie ${Cohen_Name}`,
+                                gender: "F"
+                              },
+                              older: true
                             }
                           ]
                         },     
@@ -9369,14 +9437,18 @@ tags: [
                           ],
                           characters: [
                             {
-                              id: RyanAtwood_ID,
-                              label: RyanAtwood_ID,
-                              gender: "M"
+                              content: {
+                                id: RyanAtwood_ID,
+                                label: RyanAtwood_fullName,
+                                gender: "M"
+                              },            
                             },
                             {
-                              id: TaylorTownsend_ID, 
-                              label: TaylorTownsend_fullName,
-                              gender: "F"
+                              content: {
+                                id: TaylorTownsend_ID, 
+                                label: TaylorTownsend_fullName,
+                                gender: "F"
+                              }
                             }
                           ],
                           card: true, 
@@ -9398,14 +9470,18 @@ tags: [
                           ],
                           characters: [
                             {
-                              id: RyanAtwood_ID,
-                              label: RyanAtwood_fullName,
-                              gender: "M"
-                            },
+                              content: {
+                                id: RyanAtwood_ID,
+                                label: RyanAtwood_fullName,
+                                gender: "M"
+                              },            
+                            },            
                             {
-                              id: MarissaCooper_ID, 
-                              label: MarissaCooper_fullName,
-                              gender: "F"
+                              content: {
+                                id: MarissaCooper_ID, 
+                                label: MarissaCooper_fullName,
+                                gender: "F"
+                              }
                             }
                           ],
                           card: true,
@@ -9416,7 +9492,7 @@ tags: [
                     name: "Lindsey Gardner",
                     type: "Romantic",
                     typeOfFamily: "Adoptive",
-                    family: "Aunt/Uncle",
+                    family: "Pibling/Nibling",
                     imgUrl: {
                       src: "https://i.redd.it/209oqpsq3vx01.jpg",
                       alt: "Ryan and Lindsey are lying on her bed, while waiting for the results of the paternity test.",
@@ -9438,15 +9514,19 @@ tags: [
                     card: true,
                     characters: [
                       {
-                        id: RyanAtwood_ID,
-                        label: RyanAtwood_ID,
-                        gender: "M"
+                        content: {
+                          id: RyanAtwood_ID,
+                          label: RyanAtwood_fullName,
+                          gender: "M"
+                        },            
                       },
                       {
-                        id: LindseyGardner_ID, 
-                        label: LindseyGardner_fullName,
-                        gender: "F"
-                      }
+                        content: {
+                          id: LindseyGardner_ID,
+                          label: LindseyGardner_fullName,
+                          gender: "F"
+                        },            
+                      },
                     ],
                     shortDesc: "Ryan and Lindsay have a brief relationship in the second season of the O.C., ending when Lindsay decides to move back to Chicago after positive paternity test results with Caleb, leaving Ryan sad."
                   },
@@ -9476,15 +9556,19 @@ tags: [
                     card: true,
                     characters: [
                       {
-                        id: RyanAtwood_ID,
-                        label: RyanAtwood_ID,
-                        gender: "M"
+                        content: {
+                          id: RyanAtwood_ID,
+                          label: RyanAtwood_fullName,
+                          gender: "M"
+                        },           
                       },
                       {
-                        id: generateId("Theresa Diaz"), 
-                        label: "Theresa Diaz",
-                        gender: "F"
-                      }
+                        content: {
+                          id:  generateId("Theresa Diaz"),
+                          label: "Theresa Diaz",
+                          gender: "F"
+                        },            
+                      },
                     ],
                     shortDesc: "Ryan Atwood and Theresa Diaz, childhood friends, developed romantic feelings leading to an intermittent relationship, which ended when Ryan left Chino. During a Thanksgiving visit to pay off Trey's debts, they apologized for their lack of communication. Afterward, Theresa got engaged to Eddie but later experienced doubts due to domestic violence. Following Ryan's breakup with Marissa Cooper, he and Theresa began dating again. Eddie's jealousy led to a confrontation at a party, prompting Theresa to return to Chino. She reappeared at the end of season two, revealing she had a baby, which she initially claimed was Eddie's but is heavily implied to be Ryan's. Despite briefly rekindling their relationship, Theresa ultimately felt Ryan was not ready for a serious commitment, especially concerning her child's welfare."
                   },
@@ -9512,15 +9596,19 @@ tags: [
                     shortDesc: "Sadie moves to Newport after her cousin Johnny's death to assist her aunt with finances and funeral arrangements. She meets Marissa, mistakenly believing her to be Johnny’s girlfriend, and learns about Ryan. At The Bait Shop, Sadie and Ryan share an instant connection, but he lies to Marissa about being with Seth and goes on a road trip with Sadie. After an emotional night of card games in a motel, Ryan's relationship with Marissa ends. Sadie and Ryan's romance is short-lived due to external dramas and his impending college departure. Ultimately, Sadie decides to leave Newport to pursue her career as a jeweler.",
                     characters: [
                       {
-                        id: RyanAtwood_ID,
-                        label: RyanAtwood_ID,
-                        gender: "M"
+                        content: {
+                          id: RyanAtwood_ID,
+                          label: RyanAtwood_fullName,
+                          gender: "M"
+                        },            
                       },
                       {
-                        id: generateId("Sadie Campbell"), 
-                        label: "Sadie Campbell",
-                        gender: "F"
-                      }
+                        content: {
+                          id:  generateId("Sadie Campbell"),
+                          label: "Sadie Campbell",
+                          gender: "F"
+                        },            
+                      },
                     ],
                     card: true,
                   },
@@ -9533,14 +9621,18 @@ tags: [
                     kindOfFriendship: "Normal",
                     characters: [
                       {
-                        id: RyanAtwood_ID,
-                        label: RyanAtwood_ID,
-                        gender: "M"
+                        content: {
+                          id: RyanAtwood_ID,
+                          label: RyanAtwood_fullName,
+                          gender: "M"
+                        },           
                       },
                       {
-                        id: LukeWard_ID,
-                        label: LukeWard_fullName,
-                        gender: "M"
+                        content: {
+                          id:  LukeWard_ID,
+                          label: LukeWard_fullName,
+                          gender: "M"
+                        },            
                       },
                     ],
                   },
@@ -9550,7 +9642,7 @@ tags: [
                         {
                           id: SethSandy_ID, 
                           type: "Family",
-                          family: "Parent",
+                          family: "Parent/Child",
                           typeOfFamily: "Biological",
                           imgUrl: {
                             src: "https://people.com/thmb/CfXLigPHZTjxzJxXOymnQnQ89Ns=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(511x0:513x2)/adam-brody-1024-2fca1fdedc904c6ba9aa5ffd1410d5b1.jpg",
@@ -9564,14 +9656,20 @@ tags: [
                           },
                           characters: [
                             {
-                              id: SethCohen_ID,
-                              label: SethCohen_fullName,
-                              gender: "M"
+                              content: {
+                                id: SethCohen_ID,
+                                label: SethCohen_fullName,
+                                gender: "M"
+                              },
+                              older: false,
                             },
                             {
-                              id: SandyCohen_ID,
-                              label: SandyCohen_fullName,
-                              gender: "M"
+                              content: {
+                                id: SandyCohen_ID,
+                                label: SandyCohen_fullName,
+                                gender: "M"
+                              },
+                              older: false,
                             },
                           ], 
                           started: [ ocPilot_Title],
@@ -9581,7 +9679,7 @@ tags: [
                         {
                           id: SethKirsten_ID,
                           type: "Family",
-                          family: "Parent",
+                          family: "Parent/Child",
                           typeOfFamily: "Biological",
                           imgUrl: {
                             src: "https://static.wikia.nocookie.net/ocwikia/images/9/96/SethBarmitzvah.png/revision/latest?cb=20230207231037",
@@ -9595,14 +9693,20 @@ tags: [
                           card: true,
                           characters: [
                             {
-                              id: SethCohen_ID,
-                              label: SethCohen_fullName,
-                              gender: "M"
+                              content: {
+                                id: SethCohen_ID,
+                                label: SethCohen_fullName,
+                                gender: "M"
+                              },
+                              older: false,
                             },
                             {
-                              id: KirstenCohen_ID,
-                              label: KirstenCohen_fullName,
-                              gender: "F"
+                              content: {
+                                id: KirstenCohen_ID,
+                                label: KirstenCohen_fullName,
+                                gender: "F"
+                              },
+                              older: false,
                             },
                           ], 
                           shortDesc: "Much like with Sandy, Seth has a close relationship with his mother. When Kirsten was struggling with alcoholism and refused to go to rehab in Season 2, Seth was the one who convinced her to go.",
@@ -9625,15 +9729,19 @@ tags: [
                           shortDesc: "When Ryan first arrives in Newport, Summer thinks he is hot and hits on him. However, since Ryan's new adoptive brother,  Seth is in love with Summer, Ryan rejects her. Later, when Summer and Seth start dating, and Ryan begins dating Summer's best friend, Marissa, Ryan and Summer form a close friendship. In the series finale, Summer and Seth get married, which makes them in-laws.",
                           characters: [
                             {
-                              id: SummerRoberts_ID,
-                              label: SummerRoberts_fullName,
-                              gender: "F"
+                              content: {
+                                id: SummerRoberts_ID,
+                                label: SummerRoberts_fullName,
+                                gender: "F"
+                              },            
                             },
                             {
-                              id: SethCohen_ID,
-                              label: SethCohen_fullName,
-                              gender: "M"
-                            }
+                              content: {
+                                id: SethCohen_ID,
+                                label: SethCohen_fullName,
+                                gender: "M"
+                              },
+                            },
                           ]
                     }, 
                     {
@@ -9654,14 +9762,19 @@ tags: [
                       ended: [ocS1Ep18_Title],
                       characters: [
                         {
-                          id: SethCohen_ID,
-                          label: SethCohen_fullName,
-                          gender: "M"
+                          content: {
+                            id: SethCohen_ID,
+                            label: SethCohen_fullName,
+                            gender: "M"
+                          },
+                          older: false,
                         },
                         {
-                          id: AnnaStern_ID,
-                          label: AnnaStern_fullName,
-                          gender: "F"
+                          content: {
+                            id: AnnaStern_ID,
+                            label: AnnaStern_fullName,
+                            gender: "F"
+                          }
                         }
                       ],
                       card: true,
@@ -9673,15 +9786,19 @@ tags: [
                       romantic: "Dated",
                       characters: [
                         {
-                          id: SethCohen_ID,
-                          label: SethCohen_fullName,
-                          gender: "M"
+                          content: {
+                            id: SethCohen_ID,
+                            label: SethCohen_fullName,
+                            gender: "M"
+                          },
                         },
                         {
-                          id: generateId(Alex_Name + " Kelly"),
-                          label: Alex_Name + " Kelly",
-                          gender: "F"
-                        }
+                          content: {
+                            id: generateId(Alex_Name + " Kelly"),
+                            label: Alex_Name + " Kelly",
+                            gender: "F"
+                          },            
+                        },
                       ]
                     },
                   // Friends
@@ -9691,14 +9808,18 @@ tags: [
                       kindOfFriendship: "Normal",
                       characters: [
                         {
-                          id: SethCohen_ID,
-                          label: SethCohen_fullName,
-                          gender: "M"
+                          content: {
+                            id: SethCohen_ID,
+                            label: SethCohen_fullName,
+                            gender: "M"
+                          },
                         },
                         {
-                          id: MarissaCooper_ID,
-                          label: MarissaCooper_fullName,
-                          gender: "F"
+                          content: {
+                            id: MarissaCooper_ID,
+                            label: MarissaCooper_fullName,
+                            gender: "F"
+                          },            
                         },
                       ],
                     },
@@ -9708,15 +9829,19 @@ tags: [
                       kindOfFriendship: "Normal",
                       characters: [
                         {
-                          id: SethCohen_ID,
-                          label: SethCohen_fullName,
-                          gender: "M"
-                        },
+                              content: {
+                                id: SethCohen_ID,
+                                label: SethCohen_fullName,
+                                gender: "M"
+                              },
+                              older: false,
+                            },
                         {
-                          id: LukeWard_ID,
-                          label: LukeWard_fullName,
-                          gender: "M"
-                        },
+                              content: {
+                                id: LukeWard_ID,
+                                label: LukeWard_fullName,
+                                gender: "M"
+                              },            },
                       ],
                     },
                     {
@@ -9725,10 +9850,13 @@ tags: [
                       kindOfFriendship: "Normal",
                       characters: [
                         {
-                          id: SethCohen_ID,
-                          label: SethCohen_fullName,
-                          gender: "M"
-                        }, 
+                              content: {
+                                id: SethCohen_ID,
+                                label: SethCohen_fullName,
+                                gender: "M"
+                              },
+                              older: false,
+                            }, 
                         {
                           id: TaylorTownsend_ID,
                           label: TaylorTownsend_fullName,
@@ -9738,6 +9866,13 @@ tags: [
                     },
                   
                 // Marissa
+                  // Family
+                  {
+                    id: generateId("Julie and Marissa"),
+                    type: "Family",
+                    typeOfFamily: "Biological",
+                    family: ""
+                  },
                   // Romances
                     {
                       id: generateId("Luke and Marissa"),
@@ -9746,14 +9881,18 @@ tags: [
                       romantic: "Ex-Boyfriend/Ex-Girlfriend",
                       characters: [
                         {
-                          id: MarissaCooper_ID,
-                          label: MarissaCooper_fullName,
-                          gender: "M"
+                          content: {
+                            id: MarissaCooper_ID,
+                            label: MarissaCooper_fullName,
+                            gender: "F"
+                          },            
                         },
                         {
-                          id: LukeWard_ID,
-                          label: LukeWard_fullName,
-                          gender: "M"
+                          content: {
+                            id: LukeWard_ID,
+                            label: LukeWard_fullName,
+                            gender: "M"
+                          },            
                         },
                       ],
                     },
@@ -9764,14 +9903,18 @@ tags: [
                       romantic: "Ex-Boyfriend/Ex-Girlfriend",
                       characters: [
                         {
-                          id: MarissaCooper_ID,
-                          label: MarissaCooper_fullName,
-                          gender: "F"
+                          content: {
+                            id: MarissaCooper_ID,
+                            label: MarissaCooper_fullName,
+                            gender: "F"
+                          },            
                         },
-                        {
-                          id: generateId(Alex_Name + " " + "Kelly"),
-                          label: Alex_Name + " " + "Kelly",
-                          gender: "F"
+                        { 
+                          content: {
+                            id: generateId(Alex_Name + " " + "Kelly"),
+                            label: Alex_Name + " " + "Kelly",
+                            gender: "F"
+                          }                        
                         },
                       ],
                     },
@@ -9782,14 +9925,18 @@ tags: [
                       romantic: "Ex-Boyfriend/Ex-Girlfriend",
                       characters: [
                         {
-                          id: MarissaCooper_ID,
-                          label: MarissaCooper_fullName,
-                          gender: "F"
+                          content: {
+                            id: MarissaCooper_ID,
+                            label: MarissaCooper_fullName,
+                            gender: "F"
+                          },            
                         },
                         {
-                          id: generateId("Kevin Volchock"),
-                          label: "Kevin Volchock",
-                          gender: "M"
+                          content: {
+                            id: generateId("Kevin Volchock"),
+                            label: "Kevin Volchock",
+                            gender: "M"
+                         }
                         },
                       ],
                     },
@@ -9800,14 +9947,18 @@ tags: [
                       romantic: "Ex-Boyfriend/Ex-Girlfriend",
                       characters: [
                         {
-                          id: MarissaCooper_ID,
-                          label: MarissaCooper_fullName,
-                          gender: "F"
+                          content: {
+                            id: MarissaCooper_ID,
+                            label: MarissaCooper_fullName,
+                            gender: "F"
+                          },            
                         },
                         {
-                          id: generateId(`${OC_Title} DJ`),
-                          label: "DJ",
-                          gender: "M"
+                          content: {
+                            id: generateId(`${OC_Title} DJ`),
+                            label: "DJ",
+                            gender: "M"
+                         }
                         },
                       ],
                     },
@@ -9860,10 +10011,11 @@ tags: [
                         gender: "F"
                       },
                       {
-                        id: LukeWard_ID,
-                        label: LukeWard_fullName,
-                        gender: "M"
-                      },
+                              content: {
+                                id:  LukeWard_ID,
+                                label: LukeWard_fullName,
+                                gender: "M"
+                              },            },
                     ],
                   },
 
