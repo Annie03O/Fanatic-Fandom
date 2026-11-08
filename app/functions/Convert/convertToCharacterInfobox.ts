@@ -131,7 +131,12 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
       info: character.eyeColor 
     } 
       : null,
-    character.occupation?.toString().length
+    character.residence?.length 
+    ? {
+      label: "Residence",
+      info: character.residence
+    } : null,
+     character.occupation?.toString().length
      ? { 
       label: "Occupation", 
       info: character.occupation 
