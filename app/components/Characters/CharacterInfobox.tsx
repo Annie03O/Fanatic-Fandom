@@ -184,8 +184,10 @@ export const CharacterInfobox = ({ show, character }: Props) => {
   }
 
   return (
-    <section className="flex flex-col justify-content items-center gap-3 bg-[#f2e8ff] text-black shadow-sm shadow-gray-400">
-      <h2 className="text-3xl text-center">{displayName}</h2>
+    <section className="flex flex-col justify-content items-center bg-[#f2e8ff] text-black shadow-sm shadow-gray-400">
+      <header className="bg-black text-[#f2e8ff] w-full ">
+        <h2 className="text-3xl text-center">{displayName}</h2>
+        </header>
       {posterUrl ? (
         <button
           type="button"
@@ -200,7 +202,7 @@ export const CharacterInfobox = ({ show, character }: Props) => {
           />
         </button>
       ) : null}
-      <section className="text-md w-[98%]">
+      <section className="text-md">
         {Array.from(fieldsByCategory, ([category, fields]) => (
           <section key={category}>
             <h3 className="border-b border-gray-500 px-2 py-1 text-xl font-bold text-center text-[#d1c3e3] bg-black">
