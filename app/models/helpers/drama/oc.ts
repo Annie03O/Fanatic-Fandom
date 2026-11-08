@@ -1,6 +1,6 @@
 import { generateLabel } from "@/app/functions/generateLabel";
 import { generateId } from "@/app/functions/generateID";
-import { Anna_Name, Caleb_Name, Julie_Name, Luke_Name, Seth_Name, Taylor_Name } from "../commonPeople";
+import { Anna_Name, Caleb_Name, James_Name, Julie_Name, Luke_Name, Seth_Name, Taylor_Name } from "../commonPeople";
 import { generateShipLabel } from "@/app/functions/generateShipLabel";
 
 export var OC_Title = "The O.C"
@@ -47,6 +47,10 @@ export var OC_ID = generateId(OC_Title);
                export var JulieCooper_ID = generateId(JulieCooper_fullName!);
 
             // Jimmy 
+               export var JimmyCooper_fullName = generateLabel(James_Name, Cooper_Name);
+               export var JimmyCooper_label = generateLabel("Jimmy", Cooper_Name);
+               export var JimmyCooper_ID = generateId(`Jimmy ${Cooper_Name}`);
+
 
             // Kaitlin
 
