@@ -10,6 +10,7 @@ import { toggleImage } from "@/app/functions/toggleImage";
 import type { Image } from "@/app/models/types/structure/Image";
 import { seriesBetaWithSlug } from "@/app/functions/WithSlug/allSeriesWithSlug";
 import { useParams } from "next/navigation";
+import { InfoField } from "@/app/models/types/structure/InfoboxCategory";
 
 type Props = {
   show: Show;
@@ -29,24 +30,11 @@ const isEducation = (v: unknown): v is Occupation & { place: string; hasEnded?: 
   "started" in v &&
   !("title" in v);
 
-export type InfoboxCategory =
-  | "Biography"
-  | "Relationships"
-  | "Career"
-  | "Appearance"
-  | "Backstage";
-
-export type InfoField = {
-  label: string;
-  info: string | string[] | Occupation[];
-  category?: InfoboxCategory;
-} | null;
 
 export const CharacterInfobox = ({ show, character }: Props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [chosenImage, setChosenImage] = useState<string>("");
-  const [isAlive, setIsAlive] = useState<"Alive" | "Deceased">();
-  const { slug, id } = useParams<{ slug: string; id: string }>();
+  const { slug } = useParams<{ slug: string; id: string }>();
 
   const seriesList = seriesBetaWithSlug.items.find((i) => i.slug === slug)
 
@@ -57,18 +45,6 @@ export const CharacterInfobox = ({ show, character }: Props) => {
     ...relationshipImages(show.relationships ?? []),
   ];
 
-  function createBio(c: Character) {
-    const base = []
-    if (c.status === "Deceased") return [c.birthday, c.hairColor, c.eyeColor, c.residence, c.gender, c.dateOfDeath, c.causeOfDeath]
-    
-
-    return [c.birthday, c.hairColor, c.eyeColor, c.residence, c.gender]
-  }
-
-  const bio = createBio(character);
-
-  console.log("bio", bio);
-  
   
   const convertedCharacter = convertToCharacterInfobox(show, character) as
     | (Character & {
@@ -96,11 +72,6 @@ export const CharacterInfobox = ({ show, character }: Props) => {
     ? ((convertedCharacter as { infobox?: Array<{ fields?: unknown[]; posterSrc?: Image; posterUrl?: Image; imageUrl?: Image, episodeCount: string }> }).infobox?.[0] ?? convertedCharacter)
     : convertedCharacter;
 
-  type InfoboxField = {
-    label: string;
-    info: unknown;
-    category?: InfoboxCategory;
-  };
 
   const characterWithInfobox: Character & {
     infobox?: Array<{
@@ -113,14 +84,14 @@ export const CharacterInfobox = ({ show, character }: Props) => {
       goesByNickname?: boolean;
       firstName?: string;
     }>;
-    fields: InfoboxField[];
+    fields: InfoField[];
     posterUrl?: Image;
     imageUrl?: Image;
   } = {
     ...convertedCharacter,
     ...infobox,
     fields: Array.isArray(infobox?.fields)
-      ? (infobox.fields as InfoboxField[])
+      ? (infobox.fields as InfoField[])
       : [],
     posterUrl:
       infobox?.posterUrl ??
@@ -172,7 +143,7 @@ export const CharacterInfobox = ({ show, character }: Props) => {
     setIsModalOpen(true);
   };
 
-  const fieldsByCategory = new Map<string, InfoboxField[]>();
+  const fieldsByCategory = new Map<string, InfoField[]>();
 
   for (const field of characterWithInfobox.fields) {
     if (!field) continue;
@@ -212,19 +183,19 @@ export const CharacterInfobox = ({ show, character }: Props) => {
               const isDeceasedBiography =
                 category === "Biography" && character.status === "Deceased";
               const deceasedFields = fields.filter((item) =>
-                ["Deceased", "Cause of Death", "Status"].includes(item.label)
+                ["Deceased", "Cause of Death", "Status"].includes(item!.label)
               );
               const renderDeceasedRow = () => (
                 <section>
                   <header>
-                    <h4 className="border-b border-gray-500 px-2 py-1 text-lg font-bold text-center bg-black text-[#d1c3e3]">Deseased</h4>
+                    <h4 className="borsewder-b border-gray-500 px-2 py-1 text-lg font-bold text-center bg-black text-[#d1c3e3]">Deseased</h4>
                   </header>
                 <section className="flex flex-row-reverse justify-center gap-2  border-b border-gray-400 pl-1">
                 
                   {deceasedFields.map((item) => (
-                    <div className="w-full" key={item.label}>
-                      <div className="whitespace-nowrap font-semibold">{item.label}</div>
-                      <div>{String(item.info)}</div>
+                    <div className="w-full" key={item!.label}>
+                      <div className="whitespace-nowrap font-semibold">{item!.label}</div>
+                      <div>{String(item!.info)}</div>
                     </div>
                   ))}
                 </section>
@@ -233,25 +204,25 @@ export const CharacterInfobox = ({ show, character }: Props) => {
               const regularFields = fields.filter(
                 (item) =>
                   !isDeceasedBiography ||
-                  !["Deceased", "Cause of Death", "Status"].includes(item.label)
+                  !["Deceased", "Cause of Death", "Status"].includes(item!.label)
               );
-              const hasBirthday = regularFields.some((item) => item.label === "Born");
+              const hasBirthday = regularFields.some((item) => item!.label === "Born");
 
               return (
                 <>
                   {regularFields.map((item) => (
-                    <Fragment key={item.label}>
+                    <Fragment key={item!.label}>
                       <section className="grid grid-cols-10 gap-2 p-2 border-b border-gray-400">
-                        <span className="col-span-3 font-semibold">{item.label}</span>
+                        <span className="col-span-3 font-semibold">{item!.label}</span>
 
                         <span className="col-span-7">
-                          {Array.isArray(item.info) ? (
+                          {Array.isArray(item!.info) ? (
                             <ul className="flex flex-col gap-2">
-                              {item.info.map((line: unknown, i: number) => {
+                              {item!.info.map((line: unknown, i: number) => {
                                 if (isOccupation(line)) {
                                   return (
                                     <li
-                                      key={`${item.label}-${line.title}-${line.started}-${i}`}
+                                      key={`${item!.label}-${line.title}-${line.started}-${i}`}
                                       className="leading-snug"
                                     >
                                       <div className="text-sm opacity-80">
@@ -272,7 +243,7 @@ export const CharacterInfobox = ({ show, character }: Props) => {
                                 if (isEducation(line)) {
                                   return (
                                     <li
-                                      key={`${item.label}-${line.place}-${line.started}-${i}`}
+                                      key={`${item!.label}-${line.place}-${line.started}-${i}`}
                                       className="leading-snug"
                                     >
                                       <div className="font-medium">{line.place}</div>
@@ -285,18 +256,18 @@ export const CharacterInfobox = ({ show, character }: Props) => {
                                 }
 
                                 return (
-                                  <li key={`${item.label}-${i}`} className="leading-snug">
+                                  <li key={`${item!.label}-${i}`} className="leading-snug">
                                     {String(line)}
                                   </li>
                                 );
                               })}
                             </ul>
                           ) : (
-                            <span>{String(item.info)}</span>
+                            <span>{String(item!.info)}</span>
                           )}
                         </span>
                       </section>
-                      {isDeceasedBiography && item.label === "Born" && renderDeceasedRow()}
+                      {isDeceasedBiography && item!.label === "Born" && renderDeceasedRow()}
                     </Fragment>
                   ))}
                   {isDeceasedBiography && !hasBirthday && renderDeceasedRow()}

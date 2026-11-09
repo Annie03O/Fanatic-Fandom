@@ -7,6 +7,7 @@ import { createImages } from "@/app/models/objects/images";
 import { seriesBetaWithSlug } from "@/app/functions/dramaSeriesTop50WithSlug";
 import { useState } from "react";
 import { toggleImage } from "@/app/functions/toggleImage";
+import { InfoField } from "@/app/models/types/structure/InfoboxCategory";
 
 type Props = {
   genre:  Genre;
@@ -52,6 +53,17 @@ export const SeasonInfobox = ({ genre, slug, season }: Props) => {
     setIsModalOpen(true);
   }
 
+  const fieldsByCategory = new Map<string, InfoField[]>();
+
+  for (const field of box.fields) {
+    if (!field) continue;
+
+    const category = field.category ?? "General";
+    const group = fieldsByCategory.get(category) ?? [];
+    group.push(field);
+    fieldsByCategory.set(category, group);
+  }
+
 
   return (
     <section className="flex flex-col justify-content items-center gap-3 bg-[#d1c3e3] text-black shadow-2xl  shadow-gray-600 ring-2 ring-[#d1c3e3]">
@@ -69,21 +81,26 @@ export const SeasonInfobox = ({ genre, slug, season }: Props) => {
       ) : null}
 
       <section className="border-t border-gray-400 text-lg">
-        {box.fields.map((f) => (
-          <section className="grid grid-cols-2 w-full p-1" key={f!.label}>
-            <section className=" cols-start-1 cols-span-2">{f!.label}</section>{" "}
-            <section className="cols-span-1">
-              {
-              Array.isArray(f!.info) 
-               ? f!.info.map((item, i) => ( 
-                 <span key={i}>{ item}
-                 
-                 <br />
-                 </span>
-                 
-               ))  
-               : f!.info}
-               </section>
+        {Array.from(fieldsByCategory, ([category, fields]) => (
+          <section key={category}>
+            <h3 className="border-b border-gray-500 px-2 py-1 text-xl font-bold text-center text-[#d1c3e3] bg-black">
+              {category}
+            </h3>
+            {fields.map((f) => (
+              <section className="grid grid-cols-10 gap-2 p-2 border-b border-gray-400" key={f!.label}>
+                <span className="col-span-3 font-semibold">{f!.label}</span>
+                <span className="col-span-7">
+                  {Array.isArray(f!.info)
+                    ? f!.info.map((item, i) => (
+                        <span key={i}>
+                          {String(item)}
+                          <br />
+                        </span>
+                      ))
+                    : f!.info}
+                </span>
+              </section>
+            ))}
           </section>
         ))}
         <section className="flex">

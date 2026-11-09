@@ -19,7 +19,14 @@ Ersätt med:
 
 Performed by
 Nu består allt av par: en titelrad följt av en Performed by-rad.
-
+Blind Asylum
+Performed by Orenda Fink
+Weight of the World
+Performed by Black Rebel Motorcycle Club
+Appearances
+Performed by Citizens Here & One Broad
+Holding Me Up
+Performed by Dandy Warhols
 Steg 3: Bygg objekten
 
 Sök:

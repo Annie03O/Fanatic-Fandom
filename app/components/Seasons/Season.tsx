@@ -62,7 +62,7 @@ function Season({ season, genre, slug }: Props) {
                             <section className="text-left w-full flex relative items-center border-b">
                               <h2 className="text-3xl left-2">Episodes</h2>
                             </section>
-                              <section  className=" overflow-y-scroll mr-2">
+                              <section  className=" overflow-y-scroll h-[500px] mr-2">
                                 <section className="flex flex-col gap-2 relative top-2">
                                   <select
                                     className="w-fit rounded-md border bg-[#f2e8ff] px-3 py-2 text-black"

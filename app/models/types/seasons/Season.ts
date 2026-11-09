@@ -18,7 +18,7 @@ export type Season = {
   mainCast?: CastMember[];
   guestStars?: CastMember[];
   episodeBreakdown: EpisodeBreakdown[];
-  network: string | string[];
+  network?: string | string[];
   previousSeason?: Pick<Season, "id" | "seasonNumber">;
   nextSeason?: Pick<Season, "id" | "seasonNumber">;
 };

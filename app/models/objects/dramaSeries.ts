@@ -53,7 +53,8 @@ import {
   ocS2Ep20_ID, 
   ocS2Ep20_Title, 
   ocS2Ep4_Title, 
-  ocS3_ID, ocS3Ep16_ID, ocS3Ep16_Title, ocS3Ep17_ID, ocS3Ep18_Title, ocS3Ep20_Title, ocS3ep8_ID, 
+  ocS3_ID, ocS3Ep16_ID, ocS3Ep16_Title, ocS3Ep17_ID, ocS3Ep18_ID, ocS3Ep18_Title, ocS3Ep20_ID, ocS3Ep20_Title, ocS3ep8_ID, 
+  ocS3ep8_Title, 
   ocS3Finale_ID, 
   ocS3Finale_Title, 
   ocS4_ID, ocS4Ep15_ID, ocS4Ep15_Title, ocS4Ep5_ID, ocS4Ep6_Title, ocSeriesFinale_ID, 
@@ -10865,6 +10866,7 @@ tags: [
         premiereEpisode: "The Distance",
         finaleEpisode: "The Dearly Beloved",
         title: "The O.C, Season 2",
+        hasNewMainCast: false,
         posterUrl:{
           src: "https://m.media-amazon.com/images/I/81CIYuZhI5L._AC_SY879_.jpg",
           alt: "Blue dvd-poster for season 2 of The O.C.",
@@ -11121,7 +11123,15 @@ tags: [
           writtenBy: "Josh Schwartz",
           releaseDate: "May 19, 2005",
         },
-      ]
+        ],
+        previousSeason: {
+          id: ocS1_ID,
+          seasonNumber: 1,
+        }, 
+        nextSeason: {
+          id: ocS3_ID,
+          seasonNumber: 3
+        }
       },
       {
         id: ocS3_ID,
@@ -11139,6 +11149,272 @@ tags: [
           ]
         },
         episodeCount: 25,
+        episodeBreakdown: [
+          {
+            id: generateId(OC_Title + " " + "The Aftermath"),
+            seasonNumber: 3,
+            episodeNumber: 1,
+            episodeTitle: "The Aftermath",
+            plot: "Three months after the shooting, the aftermath is still being felt. Ryan and his friends feel like on thin ice as the investigation is still ongoing. Julie takes desperate measures to protect Marissa's future. Jimmy finds himself back into an familiar situation. Sandy takes over Kirsten's job, while Kirsten meets a new friend while in rehab.",
+            director: "Ian Toynton",
+            writtenBy: [
+              "Story by : Josh Schwartz & Bob DeLaurentis",
+              "Teleplay by : Josh Schwartz",
+            ],
+            releaseDate: "September 8, 2005",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Shape of Things to Come"),
+            seasonNumber: 3,
+            episodeNumber: 2,
+            episodeTitle: "The Shape of Things to Come",
+            plot: "Sandy tries to encourage Kirsten to come home, but her friendship with Charlotte keeps her at rehab. The new Dean of Discipline determines Ryan and Marissa's fates at Harbor. Meanwhile, Summer is not pleased with Taylor Townsend arranging the school's kick-off carnival. Jimmy has an unexpected proposal for Julie.",
+            director: "Tony Wharmby",
+            writtenBy: "J. J. Philbin",
+            releaseDate: "September 15, 2005",
+          },
+          {
+            id: generateId(OC_Title + " " + "The End of Innocence"),
+            seasonNumber: 3,
+            episodeNumber: 3,
+            episodeTitle: "The End of Innocence",
+            plot: "Sandy and Julie begin to interfere in Ryan and Marissa's relationship. Dean Hess threatens Seth and Summer with consequences for their lack of school spirit. Meanwhile, Caleb's will leaves the family in shock and Jimmy in trouble.",
+            director: "Michael Lange",
+            writtenBy: "Stephanie Savage",
+            releaseDate: "September 22, 2005",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Last Waltz"),
+            seasonNumber: 3,
+            episodeNumber: 4,
+            episodeTitle: "The Last Waltz",
+            plot: "Marissa adapts to Newport Union, but Ryan is worried the separation will affect their relationship. Taylor schemes with Seth and Dean Hess' feud, but Summer finds a way to retaliate. Meanwhile, Charlotte arrives in Newport with big plans for Kirsten. Sandy takes over the future of the Newport Group. Also, Julie may no longer be considered a Newport Beach socialite.",
+            director: "Ian Toynton",
+            writtenBy: "John Stephens",
+            releaseDate: "September 29, 2005",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Perfect Storm"),
+            seasonNumber: 3,
+            episodeNumber: 5,
+            episodeTitle: "The Perfect Storm",
+            plot: "Sandy, Seth and Summer find a way to blackmail Dean Hess into letting Ryan back into Harbor. Meanwhile, Charlotte makes Julie an offer she can't refuse.",
+            director: "Tony Wharmby",
+            writtenBy: "Mike Kelley",
+            releaseDate: "November 3, 2005",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Swells"),
+            seasonNumber: 3,
+            episodeNumber: 6,
+            episodeTitle: "The Swells",
+            plot: "Taylor throws a Harbor event and plans to separate Seth and Summer. Ryan becomes concerned about Marissa's new life at Newport Union. Meanwhile, Sandy works on a plan for the Newport Group and forms a new partnership. Charlotte convinces Julie to involve Kirsten in her scheme.",
+            director: "Michael Fresco",
+            writtenBy: "J. J. Philbin",
+            releaseDate: "November 10, 2005",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Anger Management"),
+            seasonNumber: 3,
+            episodeNumber: 7,
+            episodeTitle: "The Anger Management",
+            plot: "Marissa is determined to get Volchok to stay away from Ryan. Taylor begins to cause major rifts in Seth and Summer's relationship. Meanwhile, Sandy's new business partner goes above and beyond the call of duty. Charlotte is forced to leave town after Julie makes a bold move in their scheme.",
+            director: "Michael Fresco",
+            writtenBy: "John Stephens",
+            releaseDate: "November 17, 2005",
+          },
+          {
+            id: ocS3ep8_ID,
+            seasonNumber: 3,
+            episodeNumber: 8,
+            episodeTitle: "The Game Plan",
+            plot: "Ryan, Seth and Summer think about their future and start applying to colleges, while Marissa has other plans. Julie is forced to move into a trailer park and Kirsten is determined to help. Meanwhile, Sandy invites an old friend from UC Berkeley to dinner to inspire Ryan and Seth.",
+            director: "Tate Donovan",
+            writtenBy: "Cory Martin",
+            releaseDate: "December 1, 2005",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Disconnect"),
+            seasonNumber: 3,
+            episodeNumber: 9,
+            episodeTitle: "The Disconnect",
+            plot: "Ryan takes an internship working for Sandy at the Newport Group, but he ends up working to save Matt's career. Summer and Seth are determined to get accepted into Brown. Johnny tells Marissa how he feels about her. Julie tries to adapt to her new living situation.",
+            director: "Tony Wharmby",
+            writtenBy: "Stephanie Savage",
+            releaseDate: "December 8, 2005",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Chrismukkah Bar-Mitzvahkkah"),
+            seasonNumber: 3,
+            episodeNumber: 10,
+            episodeTitle: "The Chrismukkah Bar-Mitzvahkkah",
+            plot: "Johnny's sudden misfortune forces him to take matters into his own hands, but Marissa and Ryan are determined to help. Kirsten reaches out to Julie about her living situation. Meanwhile, the holidays lead Summer to question Neil about her mother.",
+            director: "Ian Toynton",
+            writtenBy: "Josh Schwartz",
+            releaseDate: "December 15, 2005",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Safe Harbor"),
+            seasonNumber: 3,
+            episodeNumber: 11,
+            episodeTitle: "The Safe Harbor",
+            plot: "Ryan, Seth, and Summer create a case to bring Marissa back to Harbor, much to Johnny's dismay; Sandy must make an ethical work decision that could influence the judge's verdict. Meanwhile, Neil and Julie are determined to tell their daughters what they've been hiding from them.",
+            director: "Tony Wharmby",
+            writtenBy: "Mike Kelley",
+            releaseDate: "January 12, 2006",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Sister Act"),
+            seasonNumber: 3,
+            episodeNumber: 12,
+            episodeTitle: "The Sister Act",
+            plot: "Kaitlin Cooper returns to Newport, but brings trouble with her and asks Ryan for help. Meanwhile, Veronica Townsend requests a personal favor from Kirsten and threatens Marissa's future at Harbor.",
+            director: "Ian Toynton",
+            writtenBy: "Leila Gerstein",
+            releaseDate: "January 19, 2006",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Pot Stirrer"),
+            seasonNumber: 3,
+            episodeNumber: 13,
+            episodeTitle: "The Pot Stirrer",
+            plot: "Marissa tries everything she can to rebuild her relationship with Kaitlin, who teaches Seth an alternative stress reliever. Sandy and Matt work together to secure a contract for the new hospital. Meanwhile, Julie is determined to bring her family together.",
+            director: "Norman Buckley",
+            writtenBy: "John Stephens",
+            releaseDate: "January 26, 2006",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Cliffhanger"),
+            seasonNumber: 3,
+            episodeNumber: 14,
+            episodeTitle: "The Cliffhanger",
+            plot: "Tensions between Ryan, Julie, Marissa and Johnny lead to a shocking turn of events. Seth confronts Summer about his Brown interview. Meanwhile, Kirsten and Julie take their dating service a little too far.",
+            director: "Michael Lange",
+            writtenBy: "J. J. Philbin",
+            releaseDate: "February 2, 2006",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Heavy Lifting"),
+            seasonNumber: 3,
+            episodeNumber: 15,
+            episodeTitle: "The Heavy Lifting",
+            plot: "Johnny's death brings a relative to Newport, who makes Ryan question his feelings for Marissa. Summer confronts Seth about the marijuana and his lies. Kaitlin returns to boarding school. Meanwhile, Kirsten and Julie throw a Valentine's Day party to promote NewMatch.",
+            director: "Ian Toynton",
+            writtenBy: "Stephanie Savage",
+            releaseDate: "February 9, 2006",
+          },
+          {
+            id: ocS3Ep16_ID,
+            seasonNumber: 3,
+            episodeNumber: 16,
+            episodeTitle: ocS3Ep16_Title,
+            plot: "Ryan and Sadie go on a road trip to find Johnny's dad, while Marissa's being investigated. Meanwhile, Seth and Summer discover Julie and Neil's secret relationship.",
+            director: "Michael Fresco",
+            writtenBy: "Mike Kelley",
+            releaseDate: "March 9, 2006",
+          },
+          {
+            id: ocS3Ep17_ID,
+            seasonNumber: 3,
+            episodeNumber: 17,
+            episodeTitle: "The Journey",
+            plot: "Ryan struggles whether to invite Marissa to his birthday party or not, while Sandy decides if he should invite one of Ryan's family members. Neil and Julie decide to tell Marissa and Summer about their relationship. Volchok tries to become involved in Marissa's life.",
+            director: "Roxann Dawson",
+            writtenBy: "John Stephens",
+            releaseDate: "March 16, 2006",
+          },
+          {
+            id: ocS3Ep18_ID,
+            seasonNumber: 3,
+            episodeNumber: 18,
+            episodeTitle: ocS3Ep18_Title,
+            plot: "An old nemesis returns to Newport, causing rifts in Ryan's new relationship with Sadie. Seth and Summer turn to Taylor when their relationship struggles. Marissa finds herself all alone in Newport and spends the night with Volchok. Meanwhile, Sandy grapples with business pressure.",
+            director: "Robert Duncan McNeill",
+            writtenBy: "Mark Fish & J. J. Philbin",
+            releaseDate: "March 23, 2006",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Secrets and Lies"),
+            seasonNumber: 3,
+            episodeNumber: 19,
+            episodeTitle: "The Secrets and Lies",
+            plot: "Julie and Neil tell their daughters about their engagement; however, Marissa distances herself from Summer when she gets closer to Volchok. Ryan tries to move on with his relationship with Sadie. Meanwhile, Kirsten and Seth have a night out. At the Newport Group, Sandy has to deal with Matt's mishaps.",
+            director: "Michael Fresco",
+            writtenBy: "Stephanie Savage & Josh Schwartz",
+            releaseDate: "March 30, 2006",
+          },
+          {
+            id: ocS3Ep20_ID,
+            seasonNumber: 3,
+            episodeNumber: 20,
+            episodeTitle: ocS3Ep20_Title,
+            plot: "Ryan and Sadie plan their future after high school, but their decision concerns Sandy and Kirsten. Marissa and Summer begin to rebuild their friendship. Meanwhile, the drama surrounding Sandy's job intensifies and seeps into the Cohen household.",
+            director: "Norman Buckley",
+            writtenBy: "Leila Gerstein",
+            releaseDate: "April 6, 2006",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Dawn Patrol"),
+            seasonNumber: 3,
+            episodeNumber: 21,
+            episodeTitle: "The Dawn Patrol",
+            plot: "Ryan leaves Newport to invite Dawn to graduation, but hesitates. Summer and Taylor try to uncover what Seth is hiding from them. Julie confronts Volchok about his relationship with Marissa. Meanwhile, Sandy begins to pay more attention to the Newport Group than his home life.",
+            director: "Ian Toynton",
+            writtenBy: "Mike Kelley",
+            releaseDate: "April 13, 2006",
+          },
+          {
+            id: generateId(OC_Title + " " + "The College Try"),
+            seasonNumber: 3,
+            episodeNumber: 22,
+            episodeTitle: "The College Try",
+            plot: "Ryan and Marissa leave Newport to attend an orientation at UC Berkeley, while Seth visits Brown and sees a familiar face, to Summer's displeasure. Kirsten is surprised to see someone from the family's past at the airport, and turns to Sandy for support.",
+            director: "Tony Wharmby",
+            writtenBy: "J. J. Philbin",
+            releaseDate: "April 20, 2006",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Party Favor"),
+            seasonNumber: 3,
+            episodeNumber: 23,
+            episodeTitle: "The Party Favor",
+            plot: "Ryan invites Theresa to prom, while Marissa bring Volchok, who only causes trouble. Anna helps Seth rebuild his relationship with Summer. Meanwhile, Kirsten turns to Julie for support. Sandy finds trouble in the hospital development.",
+            director: "Michael Lange",
+            writtenBy: "John Stephens",
+            releaseDate: "April 27, 2006",
+          },
+          {
+            id: generateId(OC_Title + " " + "The Man of the Year"),
+            seasonNumber: 3,
+            episodeNumber: 24,
+            episodeTitle: "The Man of the Year",
+            plot: "Sandy and Seth confront each other about their recent behaviors. Volchok leads Ryan into trouble. Kirsten returns to some bad habits. Meanwhile, Marissa leaves Newport when Kaitlin calls for a favor.",
+            director: "Tony Wharmby",
+            writtenBy: "Stephanie Savage",
+            releaseDate: "May 4, 2006",
+          },
+          {
+            id: ocS3Finale_ID,
+            seasonNumber: 3,
+            episodeNumber: 25,
+            episodeTitle: ocS3Finale_Title,
+            plot: "Graduation day celebrations are cut short as the day takes a tragic turn for one of the graduates.",
+            director: "Ian Toynton",
+            writtenBy: [
+              "Story by : Bob DeLaurentis & Josh Schwartz",
+              "Teleplay by : Josh Schwartz",
+            ],
+            releaseDate: "May 18, 2006",
+          },
+        ],
+        previousSeason: {
+          id: ocS2_ID,
+          seasonNumber: 2,
+        }, 
+        nextSeason: {
+          id: ocS4_ID,
+          seasonNumber: 4
+        }
       },
       {
         id: ocS4_ID,
@@ -11156,6 +11432,10 @@ tags: [
           ]
         },
         episodeCount: 16,
+        previousSeason: {
+          id: ocS3_ID,
+          seasonNumber: 3,
+        }, 
       },
     ],
     soundtrack: [
@@ -13379,6 +13659,885 @@ tags: [
         noSeason: 3,
         imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/Video3/v4/2c/fb/b0/2cfbb02e-5160-e482-d13f-12b805f961c9/mzl.mcozxbqv.lsr/400x400bb.jpg",
         noImage: false,
+        songs: [
+          {
+            episodeTitle: "The Aftermath",
+            song: [
+               {
+                 id: generateId("Beretta Manishevitz"),
+                 title: "Beretta",
+                 artist: "Manishevitz"
+               },
+               {
+                 id: generateId("Hide Another Mistake The 88"),
+                 title: "Hide Another Mistake",
+                 artist: "The 88"
+               },
+               {
+                 id: generateId("Song For No One Ian Broudie"),
+                 title: "Song For No One",
+                 artist: "Ian Broudie"
+               },
+               {
+                 id: generateId("Way To Go Teen Wolf"),
+                 title: "Way To Go",
+                 artist: "Teen Wolf"
+               },
+               {
+                 id: generateId("Blue Light Bloc Party"),
+                 title: "Blue Light",
+                 artist: "Bloc Party"
+               },
+               {
+                 id: generateId("Soul Meets Body Death Cab for Cutie"),
+                 title: "Soul Meets Body",
+                 artist: "Death Cab for Cutie"
+               },
+            ]
+          },
+          {
+            episodeTitle: "The Shape of Things to Come",
+            song: [
+                {
+                  id: generateId("In Dreams Crash My Model Car"),
+                  title: "In Dreams",
+                  artist: "Crash My Model Car"
+                },
+                {
+                  id: generateId("Paint The Silence South"),
+                  title: "Paint The Silence",
+                  artist: "South"
+                },
+                {
+                  id: generateId("Plan Of The Man The M's"),
+                  title: "Plan Of The Man",
+                  artist: "The M's"
+                },
+                {
+                  id: generateId("Ooh La The Kooks"),
+                  title: "Ooh La",
+                  artist: "The Kooks"
+                },
+                {
+                  id: generateId("Waiting for a Girl Like You Cobra Verde"),
+                  title: "Waiting for a Girl Like You",
+                  artist: "Cobra Verde"
+                },
+                {
+                  id: generateId("Soul Meets Body Death Cab for Cutie"),
+                  title: "Soul Meets Body",
+                  artist: "Death Cab for Cutie"
+                },
+                {
+                  id: generateId("Get the Party Started Cobra Verde"),
+                  title: "Get the Party Started",
+                  artist: "Cobra Verde"
+                },
+                {
+                  id: generateId("Do You Want To Franz Ferdinand"),
+                  title: "Do You Want To",
+                  artist: "Franz Ferdinand"
+                },
+                {
+                  id: generateId("California 2005 (No Whistling) Phantom Planet"),
+                  title: "California 2005 (No Whistling)",
+                  artist: "Phantom Planet"
+                },
+            ],
+          },
+          {
+            episodeTitle: "The End of Innocence",
+            song: [
+                  {
+                    id: generateId("Wish I Was Dead Pt. 2 Shout Out Louds"),
+                    title: "Wish I Was Dead Pt. 2",
+                    artist: "Shout Out Louds"
+                  },
+                  {
+                    id: generateId("Gangsters and Thugs The Transplants"),
+                    title: "Gangsters and Thugs",
+                    artist: "The Transplants"
+                  },
+                  {
+                    id: generateId("Salvation Black Rebel Motorcycle Club"),
+                    title: "Salvation",
+                    artist: "Black Rebel Motorcycle Club"
+                  },
+                  {
+                    id: generateId("Baby Blue All Sad Girls Are Beautiful"),
+                    title: "Baby Blue",
+                    artist: "All Sad Girls Are Beautiful"
+                  },
+                  {
+                    id: generateId("In the Aeroplane Over the Sea Matt Pond PA"),
+                    title: "In the Aeroplane Over the Sea",
+                    artist: "Matt Pond PA"
+                  },
+            ],
+          },
+          {
+            episodeTitle: "The Last Waltz",
+            song: [
+              {
+                id: generateId("Circles Bob Mould"),
+                title: "Circles",
+                artist: "Bob Mould"
+              },
+              {
+                id: generateId("Fire Fire M.I.A."),
+                title: "Fire Fire",
+                artist: "M.I.A."
+              },
+              {
+                id: generateId("Ain't No Game Basko"),
+                title: "Ain't No Game",
+                artist: "Basko"
+              },
+              {
+                id: generateId("I Don't Want To Fall In Love She Wants Revenge"),
+                title: "I Don't Want To Fall In Love",
+                artist: "She Wants Revenge"
+              },
+              {
+                id: generateId("Natural (Radio Edit) Infusion"),
+                title: "Natural (Radio Edit)",
+                artist: "Infusion"
+              },
+              {
+                id: generateId("Triumphant Röyksopp"),
+                title: "Triumphant",
+                artist: "Röyksopp"
+              },
+              {
+                id: generateId("Forever Young Youth Group"),
+                title: "Forever Young",
+                artist: "Youth Group"
+              },
+            ],
+          },
+          {
+            episodeTitle: "The Perfect Storm",
+            song: [
+                    {
+                      id: generateId("Blind Asylum Orenda Fink"),
+                      title: "Blind Asylum",
+                      artist: "Orenda Fink"
+                    },
+                    {
+                      id: generateId("Weight of the World Black Rebel Motorcycle Club"),
+                      title: "Weight of the World",
+                      artist: "Black Rebel Motorcycle Club"
+                    },
+                    {
+                      id: generateId("Appearances Citizens Here & One Broad"),
+                      title: "Appearances",
+                      artist: "Citizens Here & One Broad"
+                    },
+                    {
+                      id: generateId("Holding Me Up Dandy Warhols"),
+                      title: "Holding Me Up",
+                      artist: "Dandy Warhols"
+                    },
+            ],
+          },
+          {
+            episodeTitle: "The Swells",
+            song: [
+              {
+                id: generateId("Publish My Love Rogue Wave"),
+                title: "Publish My Love",
+                artist: "Rogue Wave"
+              },
+              {
+                id: generateId("Knocked Down Pennywise"),
+                title: "Knocked Down",
+                artist: "Pennywise"
+              },
+              {
+                id: generateId("No Rest For The Weekend Orange"),
+                title: "No Rest For The Weekend",
+                artist: "Orange"
+              },
+              {
+                id: generateId("Suggar Ladytron"),
+                title: "Suggar",
+                artist: "Ladytron"
+              },
+              {
+                id: generateId("Swagger Calla"),
+                title: "Swagger",
+                artist: "Calla"
+              },
+            ],
+          },
+          {
+            episodeTitle: "The Anger Management",
+            song: [
+                   {
+                     id: generateId("Interruptions Rogue Wave"),
+                     title: "Interruptions",
+                     artist: "Rogue Wave"
+                   },
+                   {
+                     id: generateId("Rock & Roll Queen The Subways"),
+                     title: "Rock & Roll Queen",
+                     artist: "The Subways"
+                   },
+                   {
+                     id: generateId("Travel In Time Carmen Rizzo feat. Kate Havnevik"),
+                     title: "Travel In Time",
+                     artist: "Carmen Rizzo feat. Kate Havnevik"
+                   },
+                   {
+                     id: generateId("Opium Dreams Rithma"),
+                     title: "Opium Dreams",
+                     artist: "Rithma"
+                   },
+                   {
+                     id: generateId("I Want To Hear What You Have Got To Say The Subways"),
+                     title: "I Want To Hear What You Have Got To Say",
+                     artist: "The Subways"
+                   },
+            ],
+          },
+          {
+            episodeTitle: ocS3ep8_Title,
+            song: [
+              {
+                id: generateId("Unsatisfied Nine Black Alps"),
+                title: "Unsatisfied",
+                artist: "Nine Black Alps"
+              },
+              {
+                id: generateId("Every Day Dios Malos"),
+                title: "Every Day",
+                artist: "Dios Malos"
+              },
+              {
+                id: generateId("Open Invitation BRMC"),
+                title: "Open Invitation",
+                artist: "BRMC"
+              },
+              {
+                id: generateId("No Way Out Love Of Diagrams"),
+                title: "No Way Out",
+                artist: "Love Of Diagrams"
+              },
+              {
+                id: generateId("N.Y.L.A. The Talk"),
+                title: "N.Y.L.A.",
+                artist: "The Talk"
+              },
+              {
+                id: generateId("Yellow Petra Haden & Bill Frisell"),
+                title: "Yellow",
+                artist: "Petra Haden & Bill Frisell"
+              },
+            ],
+          },
+          {
+            episodeTitle: "The Disconnect",
+            song: [
+                   {
+                     id: generateId("Hard To Be You The 88"),
+                     title: "Hard To Be You",
+                     artist: "The 88"
+                   },
+                   {
+                     id: generateId("My Worst Nightmare Fine China"),
+                     title: "My Worst Nightmare",
+                     artist: "Fine China"
+                   },
+                   {
+                     id: generateId("Come On Client"),
+                     title: "Come On",
+                     artist: "Client"
+                   },
+                   {
+                     id: generateId("The Stroke Billy Squier"),
+                     title: "The Stroke",
+                     artist: "Billy Squier"
+                   },
+                   {
+                     id: generateId("Make It Bounce The Invisible Men"),
+                     title: "Make It Bounce",
+                     artist: "The Invisible Men"
+                   },
+                   {
+                     id: generateId("On And On Nikka Costa"),
+                     title: "On And On",
+                     artist: "Nikka Costa"
+                   },
+                   {
+                     id: generateId("Go Sadness Shout Out Louds"),
+                     title: "Go Sadness",
+                     artist: "Shout Out Louds"
+                   },
+            ]
+          },
+          {
+            episodeTitle: "The Chrismukkah Bar Mitz-vahkkah",
+            song: [
+             
+                {
+                  id: generateId("Christmas All Over Again Tom Petty & The Heartbreakers"),
+                  title: "Christmas All Over Again",
+                  artist: "Tom Petty & The Heartbreakers"
+                },
+                {
+                  id: generateId("Christmas Day in the Sun Hot Hot Heat"),
+                  title: "Christmas Day in the Sun",
+                  artist: "Hot Hot Heat"
+                },
+                {
+                  id: generateId("That's What Friends Are For Dionne Warwick and Friends (Elton John, Gladys Knight and Stevie Wonder)"),
+                  title: "That's What Friends Are For",
+                  artist: "Dionne Warwick and Friends (Elton John, Gladys Knight and Stevie Wonder)"
+                },
+                {
+                  id: generateId("Y.M.C.A. The Village People"),
+                  title: "Y.M.C.A.",
+                  artist: "The Village People"
+                },
+                {
+                  id: generateId("The Christmas Song The Raveonettes"),
+                  title: "The Christmas Song",
+                  artist: "The Raveonettes"
+                },
+                {
+                  id: generateId("Doxology David Poe"),
+                  title: "Doxology",
+                  artist: "David Poe"
+                },
+                {
+                  id: generateId("I Have a Little Dreidel Samuel E. Goldfarb"),
+                  title: "I Have a Little Dreidel",
+                  artist: "Samuel E. Goldfarb"
+                },
+                {
+                  id: generateId("Silent Night Franz Xaver Gruber"),
+                  title: "Silent Night",
+                  artist: "Franz Xaver Gruber"
+                },
+            ],
+          },
+          {
+            episodeTitle: "The Safe Harbor",
+            song: [
+                   {
+                     id: generateId("Our House Phantom Planet"),
+                     title: "Our House",
+                     artist: "Phantom Planet"
+                   },
+                   {
+                     id: generateId("I Love A Man In Uniform Gang of Four"),
+                     title: "I Love A Man In Uniform",
+                     artist: "Gang of Four"
+                   },
+                   {
+                     id: generateId("Albany Brownout Francine"),
+                     title: "Albany Brownout",
+                     artist: "Francine"
+                   },
+                   {
+                     id: generateId("Dancing In The Moonlight Magnet"),
+                     title: "Dancing In The Moonlight",
+                     artist: "Magnet"
+                   },
+                   {
+                     id: generateId("California Rogue Wave"),
+                     title: "California",
+                     artist: "Rogue Wave"
+                   },
+            ],
+          },
+          {
+            episodeTitle: "The Sister Act",
+            song: [
+              {
+                id: generateId("Shuffle Your Feet Black Rebel Motorcycle Club"),
+                title: "Shuffle Your Feet",
+                artist: "Black Rebel Motorcycle Club"
+              },
+              {
+                id: generateId("Time Bomb Goldspot"),
+                title: "Time Bomb",
+                artist: "Goldspot"
+              },
+              {
+                id: generateId("A Boy Brushed Red ... Living In Black And White Underoath"),
+                title: "A Boy Brushed Red ... Living In Black And White",
+                artist: "Underoath"
+              },
+              {
+                id: generateId("Sail Into The Sun The Funky Lowlives"),
+                title: "Sail Into The Sun",
+                artist: "The Funky Lowlives"
+              },
+              {
+                id: generateId("Back To Ours APM"),
+                title: "Back To Ours",
+                artist: "APM"
+              },
+              {
+                id: generateId("Sour Milk Phontaine"),
+                title: "Sour Milk",
+                artist: "Phontaine"
+              },
+              {
+                id: generateId("Retreat The Rakes"),
+                title: "Retreat",
+                artist: "The Rakes"
+              },
+              {
+                id: generateId("All My Life DJ Harry"),
+                title: "All My Life",
+                artist: "DJ Harry"
+              },
+              {
+                id: generateId("Winter Bebel Gilberto"),
+                title: "Winter",
+                artist: "Bebel Gilberto"
+              },
+            ],
+          },
+          {
+            episodeTitle: "The Pot Stirrer",
+            song: [
+              {
+                id: generateId("Insomnia Electric President"),
+                title: "Insomnia",
+                artist: "Electric President"
+              },
+              {
+                id: generateId("I Only Have Eyes For You Martina Topley-Bird"),
+                title: "I Only Have Eyes For You",
+                artist: "Martina Topley-Bird"
+              },
+              {
+                id: generateId("My Favourite Friend Diefenbach"),
+                title: "My Favourite Friend",
+                artist: "Diefenbach"
+              },
+              {
+                id: generateId("Stay In The Shade Jose Gonzalez"),
+                title: "Stay In The Shade",
+                artist: "Jose Gonzalez"
+              },
+              {
+                id: generateId("Low Happening Howling Bells"),
+                title: "Low Happening",
+                artist: "Howling Bells"
+              },
+              {
+                id: generateId("Brand New Delhi The Tao of Groove"),
+                title: "Brand New Delhi",
+                artist: "The Tao of Groove"
+              },
+            ],
+          },
+          {
+            episodeTitle: "The Cliffhanger",
+            song: [
+                  {
+                    id: generateId("Love Knows How To Fight M. Craft"),
+                    title: "Love Knows How To Fight",
+                    artist: "M. Craft"
+                  },
+                  {
+                    id: generateId("Hide Away Rock Kills Kid"),
+                    title: "Hide Away",
+                    artist: "Rock Kills Kid"
+                  },
+                  {
+                    id: generateId("Fall At Your Feet James Blunt"),
+                    title: "Fall At Your Feet",
+                    artist: "James Blunt"
+                  },
+                  {
+                    id: generateId("Cava Del Rio Senza"),
+                    title: "Cava Del Rio",
+                    artist: "Senza"
+                  },
+                  {
+                    id: generateId("Wasted Black Flag"),
+                    title: "Wasted",
+                    artist: "Black Flag"
+                  },
+            ],
+          },
+          {
+            episodeTitle: "The Heavy Lifting",
+            song: [
+                    {
+                      id: generateId("For The Widows In Paradise, For The Fatherless In Ypsilanti Sufjan Stevens"),
+                      title: "For The Widows In Paradise, For The Fatherless In Ypsilanti",
+                      artist: "Sufjan Stevens"
+                    },
+                    {
+                      id: generateId("Grand Machine #12 Electric President"),
+                      title: "Grand Machine #12",
+                      artist: "Electric President"
+                    },
+                    {
+                      id: generateId("White Daisy Passing Rocky Votolato"),
+                      title: "White Daisy Passing",
+                      artist: "Rocky Votolato"
+                    },
+                    {
+                      id: generateId("Neverending Math Equation Sun Kil Moon"),
+                      title: "Neverending Math Equation",
+                      artist: "Sun Kil Moon"
+                    },
+            ]
+          },
+          {
+            episodeTitle: ocS3Ep16_Title,
+            song: [
+              {
+                id: generateId("Bom Bom Bom Living Things"),
+                title: "Bom Bom Bom",
+                artist: "Living Things"
+              },
+              {
+                id: generateId("Under The Sea Digby Jones"),
+                title: "Under The Sea",
+                artist: "Digby Jones"
+              },
+              {
+                id: generateId("If You Need The Morning La Rocca"),
+                title: "If You Need The Morning",
+                artist: "La Rocca"
+              },
+              {
+                id: generateId("The Matter (Of Our Discussion) Boom Bip Feat. Nina Nastasia"),
+                title: "The Matter (Of Our Discussion)",
+                artist: "Boom Bip Feat. Nina Nastasia"
+              },
+              {
+                id: generateId("C-C (You Set The Fire In Me) Tom Vek"),
+                title: "C-C (You Set The Fire In Me)",
+                artist: "Tom Vek"
+              },
+              {
+                id: generateId("I Ain't Saying My Goodbyes Tom Vek"),
+                title: "I Ain't Saying My Goodbyes",
+                artist: "Tom Vek"
+              },
+              {
+                id: generateId("Forever Young Youth Group"),
+                title: "Forever Young",
+                artist: "Youth Group"
+              },
+            ],
+          },
+          {
+            episodeTitle: ocS3Ep18_Title,
+            song: [
+              {
+                id: generateId("In Dreams Crash My Model Car"),
+                title: "In Dreams",
+                artist: "Crash My Model Car"
+              },
+              {
+                id: generateId("Paint The Silence South"),
+                title: "Paint The Silence",
+                artist: "South"
+              },
+              {
+                id: generateId("Plan Of The Man The M's"),
+                title: "Plan Of The Man",
+                artist: "The M's"
+              },
+              {
+                id: generateId("Ooh La The Kooks"),
+                title: "Ooh La",
+                artist: "The Kooks"
+              },
+              {
+                id: generateId("Waiting for a Girl Like You Cobra Verde"),
+                title: "Waiting for a Girl Like You",
+                artist: "Cobra Verde"
+              },
+            ]
+          },
+          {
+            episodeTitle: ocS3Ep18_Title,
+            song: [
+                {
+                  id: generateId("Argyle Socks Scissors For Lefty"),
+                  title: "Argyle Socks",
+                  artist: "Scissors For Lefty"
+                },
+                {
+                  id: generateId("Lover I Don't Have To Love Bettie Serveert"),
+                  title: "Lover I Don't Have To Love",
+                  artist: "Bettie Serveert"
+                },
+                {
+                  id: generateId("Inaction We Are Scientists"),
+                  title: "Inaction",
+                  artist: "We Are Scientists"
+                },
+                {
+                  id: generateId("Girl And The Sea The Presets"),
+                  title: "Girl And The Sea",
+                  artist: "The Presets"
+                },
+                {
+                  id: generateId("Don't Pity Me Spiderbaby"),
+                  title: "Don't Pity Me",
+                  artist: "Spiderbaby"
+                },
+                {
+                  id: generateId("It's Just Cruel The National Trust"),
+                  title: "It's Just Cruel",
+                  artist: "The National Trust"
+                },
+                {
+                  id: generateId("What If's And Maybe's Bromheads (as Bromheads Jacket)"),
+                  title: "What If's And Maybe's",
+                  artist: "Bromheads (as Bromheads Jacket)"
+                },
+            ],
+          },
+          {
+            episodeTitle: "The Secrets and Lies",
+            song: [
+                   {
+                     id: generateId("Faster Kill Pussycat Paul Oakenfold (feat. Brittany Murphy)"),
+                     title: "Faster Kill Pussycat",
+                     artist: "Paul Oakenfold (feat. Brittany Murphy)"
+                   },
+                   {
+                     id: generateId("Spin Me Around The Surge"),
+                     title: "Spin Me Around",
+                     artist: "The Surge"
+                   },
+                   {
+                     id: generateId("A Night In Vegas Victor Malloy"),
+                     title: "A Night In Vegas",
+                     artist: "Victor Malloy"
+                   },
+                   {
+                     id: generateId("When You're Gone Luther Russell"),
+                     title: "When You're Gone",
+                     artist: "Luther Russell"
+                   },
+                   {
+                     id: generateId("Young Shields Casiotone For The Painfully Alone"),
+                     title: "Young Shields",
+                     artist: "Casiotone For The Painfully Alone"
+                   },
+                   {
+                     id: generateId("Meredith Oceansize"),
+                     title: "Meredith",
+                     artist: "Oceansize"
+                   },
+            ],
+          }, 
+          {
+            episodeTitle: ocS3Ep20_Title,
+            song: [
+              {
+                id: generateId("Good Day Tally Hall"),
+                title: "Good Day",
+                artist: "Tally Hall"
+              },
+              {
+                id: generateId("That's All I Need The Scotland Yard Gospel Choir"),
+                title: "That's All I Need",
+                artist: "The Scotland Yard Gospel Choir"
+              },
+              {
+                id: generateId("China Chris Holmes"),
+                title: "China",
+                artist: "Chris Holmes"
+              },
+              {
+                id: generateId("The Secret Show Dopo Yume"),
+                title: "The Secret Show",
+                artist: "Dopo Yume"
+              },
+              {
+                id: generateId("The Crime True Love"),
+                title: "The Crime",
+                artist: "True Love"
+              },
+              {
+                id: generateId("Fog (again) - Live Version Radiohead"),
+                title: "Fog (again) - Live Version",
+                artist: "Radiohead"
+              },
+            ],
+          },
+          {
+           episodeTitle: "The Dawn Patrol",
+           song: [
+                  {
+                    id: generateId("A Picture Of Me Without You George Jones"),
+                    title: "A Picture Of Me Without You",
+                    artist: "George Jones"
+                  },
+                  {
+                    id: generateId("Tiny Cities Made of Ashes Sun Kil Moon"),
+                    title: "Tiny Cities Made of Ashes",
+                    artist: "Sun Kil Moon"
+                  },
+                  {
+                    id: generateId("Any Sound The Vines"),
+                    title: "Any Sound",
+                    artist: "The Vines"
+                  },
+                  {
+                    id: generateId("Foxy Foxy Rob Zombie"),
+                    title: "Foxy Foxy",
+                    artist: "Rob Zombie"
+                  },
+                  {
+                    id: generateId("Woman Wolfmother"),
+                    title: "Woman",
+                    artist: "Wolfmother"
+                  },
+                  {
+                    id: generateId("Waiting For You Ben Harper"),
+                    title: "Waiting For You",
+                    artist: "Ben Harper"
+                  },
+           ], 
+          },
+          {
+            episodeTitle: "The College Try",
+            song: [
+                     {
+                       id: generateId("Hands Ms. John Soda"),
+                       title: "Hands",
+                       artist: "Ms. John Soda"
+                     },
+                     {
+                       id: generateId("Leave Me Alone Two Hours Traffic"),
+                       title: "Leave Me Alone",
+                       artist: "Two Hours Traffic"
+                     },
+                     {
+                       id: generateId("Wrap It Up Whitey"),
+                       title: "Wrap It Up",
+                       artist: "Whitey"
+                     },
+                     {
+                       id: generateId("Night Birds Ryan Adams"),
+                       title: "Night Birds",
+                       artist: "Ryan Adams"
+                     },
+                     {
+                       id: generateId("Samba Sandwich Jonathan Boyle"),
+                       title: "Samba Sandwich",
+                       artist: "Jonathan Boyle"
+                     },
+            ]
+          },
+          {
+            episodeTitle: "The Party Favor",
+            song: [
+                  {
+                    id: generateId("Getting Hit on at the Bank The Briefs"),
+                    title: "Getting Hit on at the Bank",
+                    artist: "The Briefs"
+                  },
+                  {
+                    id: generateId("Earthquakes & Sharks Brandston"),
+                    title: "Earthquakes & Sharks",
+                    artist: "Brandston"
+                  },
+                  {
+                    id: generateId("Oregon Girl Someone Still Loves You Boris Yeltsin"),
+                    title: "Oregon Girl",
+                    artist: "Someone Still Loves You Boris Yeltsin"
+                  },
+                  {
+                    id: generateId("One Day Bratsound"),
+                    title: "One Day",
+                    artist: "Bratsound"
+                  },
+                  {
+                    id: generateId("To All of You Syd Matters"),
+                    title: "To All of You",
+                    artist: "Syd Matters"
+                  },
+                  {
+                    id: generateId("Random Lady Sovereign"),
+                    title: "Random",
+                    artist: "Lady Sovereign"
+                  },
+                  {
+                    id: generateId("I Can't Come Down Embrace"),
+                    title: "I Can't Come Down",
+                    artist: "Embrace"
+                  },
+                  {
+                    id: generateId("Gotta Reason Hard-Fi"),
+                    title: "Gotta Reason",
+                    artist: "Hard-Fi"
+                  },
+                  {
+                    id: generateId("One Day Jeehun Hwang (as Bratsound)"),
+                    title: "One Day",
+                    artist: "Jeehun Hwang (as Bratsound)"
+                  },
+            ],
+          },
+          {
+            episodeTitle: "The Man of The Year",
+            song: [
+              {
+                id: generateId("Cherry Bomb The Runaways"),
+                title: "Cherry Bomb",
+                artist: "The Runaways"
+              },
+              {
+                id: generateId("The Pioneers Bloc Party"),
+                title: "The Pioneers",
+                artist: "Bloc Party"
+              },
+              {
+                id: generateId("The Pioneers Tunng"),
+                title: "The Pioneers",
+                artist: "Tunng"
+              },
+              {
+                id: generateId("Some You Give Away La Rocca"),
+                title: "Some You Give Away",
+                artist: "La Rocca"
+              },
+              {
+                id: generateId("Spaceship The Vines"),
+                title: "Spaceship",
+                artist: "The Vines"
+              },
+              {
+                id: generateId("Flames Go Higher Eagles Of Death Metal"),
+                title: "Flames Go Higher",
+                artist: "Eagles Of Death Metal"
+              },
+            ]
+          },
+          {
+            episodeTitle: ocS3Finale_Title,
+            song: [
+                   {
+                     id: generateId("Chapters Commuter"),
+                     title: "Chapters",
+                     artist: "Commuter"
+                   },
+                   {
+                     id: generateId("Speeding Cars Imogen Heap"),
+                     title: "Speeding Cars",
+                     artist: "Imogen Heap"
+                   },
+
+            ]
+          }
+        ]
       },
       {
         id: "the-oc-soundtrack-s4",

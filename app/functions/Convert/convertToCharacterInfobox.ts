@@ -1,6 +1,6 @@
 import { Show } from "@/app/models/types/structure/Show";
 import { Character } from "../../models/types/characters/Character";
-import { InfoField } from "../../models/types/structure/layouts/Infobox";
+import { InfoField } from "../../models/types/structure/InfoboxCategory";
 import { Relationship } from "../../models/types/structure/Relationship";
 import { formatFamilyShip } from "../Format/formatFamilyShip";
 import { formatFriendship } from "../Format/formatFriendShip";
@@ -106,7 +106,7 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
 
   const maritalStatus = formatMaritalStatus(character);
 
-  const fields: InfoField[] = [
+  const allFields: InfoField[] = [
     fullName ? { label: "Full Name", info: fullName,
       category: "Biography"
      } : null,
@@ -207,8 +207,10 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
         ? String(show.numberOfEpisodes)
         : String(character.episodeCount),  category: "Backstage"
     } 
-    : null,   
-  ].filter(isInfoField);
+    : null,
+  ];
+
+  const fields = allFields.filter(isInfoField);
 
   return {
     ...character,

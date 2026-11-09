@@ -2,7 +2,7 @@
 import { CharacterPortals } from "../Characters/CharactersPortals";
 import { useParams } from "next/navigation";
 import { SeasonsPortals } from "../Seasons/SeasonsPortals";
-import { SeriesInfobox as Infobox } from "./SeriesInfobox"; 
+import { ShowInfobox as Infobox } from "./ShowInfobox"; 
 import { Show } from "../../models/types/structure/Show";
 import SoundtrackPortals from "../Music/SoundtrackPortals";
 import RelatedPortal from "../RelatedPortal";
@@ -35,7 +35,10 @@ const ShowPage = ({genre}: ShowPageProps) => {
 
     const seasons = series?.seasons ?? [];
     const season = seasons.find((s) => s.id);
-    if (seasons === undefined) return console.error("Season is undefined");
+    if (seasons === undefined) {
+      console.error("Season is undefined");
+      return null;
+    }
     
     const movies = series?.movies ?? [];
     const episodes = seasons.length === 1
