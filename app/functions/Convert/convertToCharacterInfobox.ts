@@ -53,7 +53,13 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
       }) === index;
     });
 
-  const friends = rels
+    const relsFriends = [...rels].sort(
+      (a,b) => 
+        Number(b.kindOfFriendship === "Best Friend") -
+        Number(a.kindOfFriendship === "Best Friend")
+    );
+
+  const friends = relsFriends
     .map((relationship) => formatFriendship(relationship))
     .filter((f): f is string => Boolean(f));
 
@@ -74,9 +80,14 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
     })
     .filter((s): s is string => Boolean(s));
 
-    
 
-  const romance = rels
+    const relsRomance = [...rels].sort(
+      (a,b) => 
+        Number(b.romantic === "Wife/Husband" || b.romantic === "Fiancé" || b.romantic === "Girlfriend/Boyfriend") -
+        Number(a.romantic === "Wife/Husband" || b.romantic === "Fiancé" || b.romantic === "Girlfriend/Boyfriend")
+    );
+
+  const romance = relsRomance
     .map((ship) => {
       const otherGender =
         relatedCharacters(ship).find((person) => person.id !== character.id)?.gender ??
@@ -197,13 +208,6 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
         : String(character.episodeCount),  category: "Backstage"
     } 
     : null,   
-    // character.actor?.length 
-    // ? {
-    //    label: "Actor", 
-    //   info: character.actor,
-    //   category: "Backstage"
-    // } 
-    // : null,
   ].filter(isInfoField);
 
   return {
