@@ -206,6 +206,11 @@ export var OC_ID = generateId(OC_Title);
            export var ocS1Ep9_Title = "The Heights";
            export var ocS1Ep9_ID = generateId(OC_Title + ocS1Ep9_Title);
 
+        // Ep 12
+           export var ocS1Ep12_Title = "The Secret";
+           export var ocS1Ep12_ID =  generateId(OC_Title + ocS1Ep12_Title);
+
+
          // Ep 15
            export var ocS1Ep15_Title = "The Third Wheel";
            export var ocS1Ep15_ID =  generateId(OC_Title + ocS1Ep15_Title);
