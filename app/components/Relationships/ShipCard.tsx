@@ -50,10 +50,15 @@ export const ShipCard = ({ item, show }: Props) => {
     return null;
   }
 
-  const secondCharacterGender =
-    secondCharacter.gender === "F" || secondCharacter.gender === "M" || secondCharacter.gender === "Non-Binary"
-      ? secondCharacter.gender
-      : miniCharacter.content.gender === "F" || miniCharacter.content.gender === "M" || miniCharacter.content.gender === "Non-Binary"
+  const isGender = (g: unknown): g is "F" | "M" | "Non-Binary" =>
+    g === "F" || g === "M" || g === "Non-Binary";
+
+  // Prefer the show's character record, fall back to the gender set on the relationship entry
+  const secondCharacterGender = isGender(secondCharacter.gender)
+    ? secondCharacter.gender
+    : isGender(secondCharacterFound?.content.gender)
+      ? secondCharacterFound.content.gender
+      : false;
 
   const relationshipGallery = relationshipImages(show.relationships); 
 

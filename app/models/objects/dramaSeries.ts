@@ -20,18 +20,22 @@ import {
   LindseyGardner_lastName, 
   LukeWard_fullName, 
   LukeWard_ID, 
+  LukeWard_lastName, 
   MarissaCooper_firstName, MarissaCooper_fullName, MarissaCooper_ID, 
   MarissaLuke_ID, 
   MichaelLange_Name, 
   OC_ID, OC_Title, ocPilot_ID, 
   ocPilot_Title, 
   ocS1_ID, 
+  ocS1Ep12_ID, 
+  ocS1Ep12_Title, 
   ocS1Ep15_Title, 
   ocS1Ep17_ID, 
   ocS1Ep17_Title, 
   ocS1Ep18_Title, 
   ocS1Ep20_ID, 
   ocS1Ep20_Title, 
+  ocS1Ep22_Title, 
   ocS1Ep24_ID, 
   ocS1Ep24_Title, 
   ocS1Ep27_ID, 
@@ -40,9 +44,11 @@ import {
   ocS1Ep2_Title, 
   ocS1Ep3_ID, 
   ocS1Ep3_Title, 
+  ocS1Ep6_Title, 
+  ocS1Ep7_Title, 
   ocS1Ep9_ID, 
   ocS1Ep9_Title, 
-  ocS2_ID, ocS2Ep14_ID, ocS2Ep14_Title, ocS2Ep18_ID, ocS2Ep18_Title, ocS2Ep1_ID, 
+  ocS2_ID, ocS2Ep12_ID, ocS2Ep12_Title, ocS2Ep14_ID, ocS2Ep14_Title, ocS2Ep16_ID, ocS2Ep16_Title, ocS2Ep18_ID, ocS2Ep18_Title, ocS2Ep1_ID, 
   ocS2Ep1_Title, 
   ocS2Ep20_ID, 
   ocS2Ep20_Title, 
@@ -86,7 +92,7 @@ import {
   TreyAtwood_ID
 } from "../helpers/drama/oc";
 import { generateId } from "@/app/functions/generateID";
-import { Alex_Name, Anna_Name, DanielAttias_Name, JoshSchwartz_Name, Julie_Name, REMArtist, Seth_Name, Taylor_Name } from "../helpers/commonPeople";
+import { Alex_Name, Anna_Name, DanielAttias_Name, JoshSchwartz_Name, Julie_Name, Luke_Name, REMArtist, Seth_Name, Taylor_Name } from "../helpers/commonPeople";
 import { generatePrime } from "crypto";
 import { generateLabel } from "@/app/functions/generateLabel";
 
@@ -8441,6 +8447,7 @@ tags: [
         gender: "F",
         hairColor: "Blonde",
         eyeColor: "Blue",
+        personality: "Marissa Cooper is the privileged but troubled girl next door, whose designer wardrobe hides her mood swings and hard partying. Sensitive and altruistic, she wants a way out of her world, and like her sister Kaitlin, she rebels against their materialistic mother, while staying close to her father, whom she calls the “last thing keeping [her] sane.” She rarely joins clubs or organizations, and her main interests are romance and risky behavior, which often overlap. That behavior strains her on-off relationship with Ryan Atwood: during his first Christmas in Newport Beach, he is furious to find her drunk because he grew up with alcoholic parents, but she doesn’t understand his reaction and thinks he is overreacting.",
         imageUrl: {
           src: "https://imagenes.elpais.com/resizer/v2/SYUVM35P45ASPK3Y5USJBOUBZE.jpg?auth=412f3798aac447693159e6878954b2a0173f5e8c07df61ccd62402a3f21c3b4e&width=1960&height=1470&smart=true",
           alt: "Close up for Marissa.",
@@ -8485,6 +8492,14 @@ tags: [
               "During this time, her mother, Julie Cooper, was romantically involved with Kirsten Cohen's father, Caleb Nichol. During a brief break-up with Caleb, Marissa's mother had a fling with Marissa's ex-boyfriend Luke, which caused Marissa to run away — strangely enough — to Chino and Ryan's ex-girlfriend Theresa's house. This lead to Ryan and Marissa once again becoming romantically involved.",
               "At the end of the first season, Julie and Caleb married, making Marissa stepdaughter to the most powerful, but also the most controversial, man in Newport. She was blackmailed into moving in with her mother and Caleb in their new mansion. Ryan also left her to go back to Chino after it was discovered Theresa maybe pregnant with Ryan's child. Theresa wanted to return there to be with her family and Ryan felt compelled to go with her, effectively ending his relationship with Marissa and leaving her. Marissa as a result once again restarted her drinking.",
             ]
+          }
+        ],
+        minorRelationships: [
+          {
+            name: "unnamed",
+            type: "Family",
+            family: "Sibling",
+            half: "Maternal",
           }
         ],
         actor: "Micha Barton",
@@ -8578,6 +8593,20 @@ tags: [
           pageId: [
             ocS4_ID
           ]
+        },
+        promo: true,
+      },
+      {
+        id: LukeWard_ID,
+        firstName: Luke_Name,
+        lastName: LukeWard_lastName,
+        imageUrl: {
+          src: "https://i.pinimg.com/736x/99/8f/5b/998f5b42beea469a1cd82a008fd3d3d1.jpg",
+          alt: "Close up on Luke smiling in the car.",
+          pageId: [
+            ocS1_ID,
+            ocS1Ep12_ID
+          ],  
         },
         promo: true,
       },
@@ -8854,7 +8883,7 @@ tags: [
         
       // Season 2
       {
-        id: "dj-the-oc",
+        id: generateId(OC_Title + "D.J"),
         firstName: "D.J.",
         actor: "Nicholas Gonzalez",
         seasons: [
@@ -9479,6 +9508,16 @@ tags: [
                           id: RyanMarissa_ID,
                           type: "Romantic",
                           romantic: "Ex-Boyfriend/Ex-Girlfriend",
+                          imgUrl: {
+                            src: "https://i.pinimg.com/736x/18/b2/83/18b28353526eef8110a7915c2d5cd272.jpg",
+                            alt: "Marissa has her head on Ryan's shoulder.",
+                            pageId: [
+                              ocS1_ID,
+                              MarissaCooper_ID,
+                              RyanAtwood_ID,
+                              ocS1Ep24_ID,
+                            ]
+                          },
                           started: [
                             ocS1Ep9_Title,
                             ocS1Ep24_Title,
@@ -9962,12 +10001,56 @@ tags: [
                       },
                     ],
                   },
+                  {
+                    id: generateId("Cindy and Marissa"),
+                    type: "Family",
+                    typeOfFamily: "Biological",
+                    family: "Pibling/Nibling",
+                    extended: true,
+                    ifExtended: "Maternal",
+                    characters: [
+                      {
+                        content: {
+                          id: MarissaCooper_ID,
+                          label: MarissaCooper_fullName,
+                          gender: "F"
+                        },
+                        older: false,
+                      },
+                      {
+                        content: {
+                          id: "cindy-oc",
+                          label: "Cindy",
+                          gender: "F",
+                        }, 
+                        older: true
+                      },
+                    ],
+                  },
                   // Romances
                     {
                       id: generateId("Luke and Marissa"),
                       type: "Romantic",
                       kindOfFriendship: "Normal", 
                       romantic: "Ex-Boyfriend/Ex-Girlfriend",
+                      imgUrl: {
+                        src: "https://static.wikia.nocookie.net/ocwikia/images/d/d6/OC-S1E02.jpg/revision/latest?cb=20220721162220",
+                        alt: "Marissa and Luke are at a party.",
+                        pageId: [
+                          ocS1_ID,
+                          ocS1Ep2_ID,
+                          MarissaCooper_ID,
+                          LukeWard_ID
+                        ],
+                      },
+                      started: [
+                        "5th grade",
+                        ocS1Ep6_Title
+                      ],
+                      ended: [
+                        ocS1Ep7_Title
+                      ],
+                      shortDesc: "Marissa and Luke’s history goes back to the fifth grade, when they met on a class trip to the Museum of Tolerance. Their relationship is troubled from the start, and its constant problems leave viewers wondering whether the two are really in love. The breaking point comes in Tijuana, where Marissa catches Luke cheating on her with her friend Holly Fischer on a club dance floor. She ends the relationship, and Luke later becomes involved with her mother, Julie Cooper. By the second season, their turbulent romance has given way to a mature friendship, as they accept that they may not be well matched as a couple but can still support each other.",
                       characters: [
                         {
                           content: {
@@ -9984,12 +10067,28 @@ tags: [
                           },            
                         },
                       ],
+                      card: true
                     },
                     {
                       id: generateId("Alex and Marissa"),
                       type: "Romantic",
                       kindOfFriendship: "Normal", 
                       romantic: "Ex-Boyfriend/Ex-Girlfriend",
+                      imgUrl: {
+                        src: "https://i.pinimg.com/564x/58/7f/8d/587f8db289cca6914c054a7121e4cad9.jpg",
+                        alt: "Marissa and Alex kissing.",
+                        pageId: [
+                          MarissaCooper_ID,
+                          generateId(Alex_Name + " " + "Kelly")
+                        ],
+                      },
+                      shortDesc: "Marissa begins a relationship with Alex Kelly, an emancipated, bisexual girl, who works at The Bait Shop. Soon the two move in together. But their relationship doesn't last long.",
+                      started: [
+                        ocS2Ep12_Title
+                      ],
+                      ended: [
+                        ocS2Ep16_Title
+                      ],
                       characters: [
                         {
                           content: {
@@ -10006,12 +10105,23 @@ tags: [
                           }                        
                         },
                       ],
+                      card: true
                     },
                     {
                       id: generateId("Volchock and Marissa"),
                       type: "Romantic",
                       kindOfFriendship: "Normal", 
                       romantic: "Ex-Boyfriend/Ex-Girlfriend",
+                      imgUrl: {
+                        src: "https://substackcdn.com/image/fetch/$s_!Mv5p!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc479adf4-0917-4a0c-9a33-94e46249186e_1280x720.jpeg",
+                        alt: "",
+                        pageId: [
+                          ocS3_ID,
+                          MarissaCooper_ID,
+                          
+                        ],
+                      },
+                      shortDesc: "After Johnny Harper’s death, Marissa struggles to find closure and, following her breakup with Ryan, falls in with Kevin Volchok, relapsing into drinking, trying cocaine, and pulling away from her friends and mother. She nearly leaves Kevin but stays after glimpsing his sensitive side, then ends things when she catches him cheating at senior prom. After graduating from Harbor, she accepts her father’s invitation to spend a year with him on a boat in Greece and pays Kevin to leave town. While Ryan is driving her to the airport, a drunken Kevin rams their car off the road and it flips. Ryan carries Marissa to safety before the car explodes, and she dies in his arms.",
                       characters: [
                         {
                           content: {
@@ -10028,6 +10138,7 @@ tags: [
                          }
                         },
                       ],
+                      card: true
                     },
                     {
                       id: generateId("DJ and Marissa"),
@@ -10044,14 +10155,97 @@ tags: [
                         },
                         {
                           content: {
-                            id: generateId(`${OC_Title} DJ`),
+                            id: generateId(OC_Title + "D.J"),
                             label: "DJ",
                             gender: "M"
                          }
                         },
                       ],
+
                     },
-                
+                // Friendships 
+                {
+                  id: generateId(MarissaCooper_firstName + " and " + SummerRoberts_firstName),
+                  type: "Friendship",
+                  kindOfFriendship: "Best Friend",
+                  imgUrl: {
+                    src: "https://static.wikia.nocookie.net/ocwikia/images/e/ee/Summer_and_Marissa_-_The_LA.jpg/revision/latest?cb=20240205233655",
+                    alt: "Summer is wrapping her arms around Marissa.",
+                    pageId: [
+                      ocS1_ID,
+                      ocS1Ep20_ID,
+                      MarissaCooper_ID,
+                      SummerRoberts_ID
+                    ]
+                  },
+                  shortDesc: "Marissa and Summer have been best friends since childhood. Throughout the show, they are constantly there supporting each other. After Marissa dies, Summer is devestated, struggling to move on without her.",
+                  characters: [
+                    {
+                      content: {
+                        id: MarissaCooper_ID,
+                        label: MarissaCooper_fullName,
+                        gender: "F",
+                      },
+                    },
+                    {
+                      content: {
+                        id: SummerRoberts_ID,
+                        label: SummerRoberts_fullName,
+                        gender: "F",
+                      },
+                    },
+                  ],
+                  started: [
+                    "Childhood"
+                  ],
+                  ended: [
+                    "The Graduates"
+                  ],
+                  card: true,
+                },
+                {
+                  id: generateId("Marissa and Johnny"),
+                  type: "Romantic",
+                  romantic: "Crush",
+                  kindOfFriendship: "Normal",
+                  characters: [
+                    {
+                      content: {
+                        id: MarissaCooper_ID,
+                        label: MarissaCooper_fullName,
+                        gender: "F",
+                      },
+                    },
+                    {
+                      content: {
+                        id: "johnny-harper",
+                        label: "Johnny Harper",
+                        gender: "M",
+                      },
+                    },
+                  ],
+                },
+                {
+                  id: generateId("Marissa and Taylor"),
+                  type:"Friendship",
+                  kindOfFriendship: "Normal",
+                  characters: [
+                    {
+                      content: {
+                        id: MarissaCooper_ID,
+                        label: MarissaCooper_fullName,
+                        gender: "F",
+                      },
+                    },
+                    {
+                      content: {
+                        id: TaylorTownsend_ID,
+                        label: TaylorTownsend_fullName,
+                        gender: "F",
+                      },
+                    },
+                  ],
+                },
               // Julie
                 // Romances
                   {
@@ -10060,14 +10254,18 @@ tags: [
                     romantic: "Ex-Wife/Ex-Husband",
                     characters: [
                       {
-                        id: JulieCooper_ID,
-                        label: JulieCooper_fullName,
-                        gender: "F",
+                        content: {
+                          id: JulieCooper_ID,
+                          label: JulieCooper_fullName,
+                          gender: "F",
+                        }
                       },
                       {
-                        id: CalebNichols_ID,
-                        label: CalebNichols_ID,
-                        gender: "M"
+                        content: { 
+                          id: CalebNichols_ID,
+                          label: CalebNichols_ID,
+                          gender: "M"
+                        },
                       },
                     ],
                   },
@@ -10077,14 +10275,18 @@ tags: [
                     romantic: "Ex-Wife/Ex-Husband",
                     characters: [
                       {
-                        id: JulieCooper_ID,
-                        label: JulieCooper_fullName,
-                        gender: "F"
+                        content: {
+                          id: JulieCooper_ID,
+                          label: JulieCooper_fullName,
+                          gender: "F",
+                        }
                       },
                       {
-                        id: generateId("Jimmy " + Cooper_Name),
-                        label: "Jimmy " + Cooper_Name,
-                        gender: "M"
+                        content: {
+                          id: generateId("Jimmy " + Cooper_Name),
+                          label: "Jimmy " + Cooper_Name,
+                          gender: "M"
+                        }
                       },
                     ],
                   },
@@ -10095,9 +10297,11 @@ tags: [
                     romantic: "Ex-Boyfriend/Ex-Girlfriend",
                     characters: [
                       {
-                        id: JulieCooper_ID,
-                        label: JulieCooper_fullName,
-                        gender: "F"
+                        content: {
+                          id: JulieCooper_ID,
+                          label: JulieCooper_fullName,
+                          gender: "F",
+                        }
                       },
                       {
                               content: {
@@ -10218,7 +10422,7 @@ tags: [
             id: generateId(`${OC_Title} The Girlfriend`),
             seasonNumber: 1,
             episodeNumber: 6,
-            episodeTitle: "The Girlfriend",
+            episodeTitle: ocS1Ep6_Title,
             imageUrl: {
               src: "https://m.media-amazon.com/images/M/MV5BODkzNzY4ODA2N15BMl5BanBnXkFtZTgwMjE0Njc3MjE@._V1_.jpg",
               alt: "Gabrielle is sitting in the hot tub.",
@@ -10238,7 +10442,7 @@ tags: [
             id: generateId(`${OC_Title} The Escape`),
             seasonNumber: 1,
             episodeNumber: 7,
-            episodeTitle: "The Escape",
+            episodeTitle: ocS1Ep7_Title,
             imageUrl: {
               src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8NuxMiSudqfil9TIlMNY1DIYeve2no4zulNpFYl29F5u9QSBhIlMZVXLb2NhZMK4Axht_PQFnG9D96IUCbhvuE0PeR1J-lsOTgd10e6LjaqNFCDgM_2v760kUFc-UtbKl_hHPkRDplR8/s1600/ryanatwoodsmirkingseeinglukeandholly.jpg",
               alt: "Marissa and Ryan catches Luke cheating.",
@@ -10523,7 +10727,7 @@ tags: [
             id: generateId(`${OC_Title} The L.A.`),
             seasonNumber: 1,
             episodeNumber: 22,
-            episodeTitle: "The L.A.",
+            episodeTitle: ocS1Ep22_Title,
             imageUrl: {
               src: "https://resizing.flixster.com/omtwdDkB-8g9qUQ2dikSXn79uq4=/620x336/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p2850875_e_h10_aa.jpg",
               alt: "Seth meets Paris Hilton at a club.",
@@ -10786,10 +10990,10 @@ tags: [
 
         },
         {
-          id: generateId(OC_Title + " " + "The Lonely Hearts Club"),
+          id: generateId(OC_Title + " " + ocS2Ep12_Title),
           seasonNumber: 2,
           episodeNumber: 12,
-          episodeTitle: "The Lonely Hearts Club",
+          episodeTitle: ocS2Ep12_Title,
           plot: "Sandy tries to make amends with Kirsten after she finds Rebecca living in his office. Seth, Summer and Zach go to San Diego to promote the comic book idea, but Seth uses the trip for his personal gain. With Lindsey trying to bond with Caleb, Ryan begins to feel left out. Meanwhile, Julie is back in town and attempts to reconnect with Marissa.",
           director: "Ian Toynton",
           writtenBy: "J. J. Philbin",
@@ -10826,10 +11030,10 @@ tags: [
           releaseDate: "March 10, 2005",
         },
         {
-            id: generateId(OC_Title + " " + "The Blaze of Glory"),
+            id: ocS2Ep16_ID,
             seasonNumber: 2,
             episodeNumber: 16,
-            episodeTitle: "The Blaze of Glory",
+            episodeTitle: ocS2Ep16_Title,
             plot: "Alex's jealousy of Ryan gets in way of her relationship with Marissa. Meanwhile, Kirsten wants Carter to continue working with the magazine. With Lance breathing down her neck, Julie seeks Sandy's legal help.",
             director: "Robert Duncan McNeill",
             writtenBy: "Mike Kelley",
@@ -10848,10 +11052,10 @@ tags: [
           
         },
         {
-          id: generateId(OC_Title + " " + "The Risky Business"),
+          id: generateId(OC_Title + " " + ocS2Ep18_Title),
           seasonNumber: 2,
           episodeNumber: 18,
-          episodeTitle: "The Risky Business",
+          episodeTitle: ocS2Ep18_Title,
           plot: "Trey's arrival brings trouble to the Newport Beach yard sale. Zach and Seth's comic book gets help from Carter.",
           director: "Norman Buckley",
           writtenBy: "Cory Martin",
@@ -11183,7 +11387,7 @@ tags: [
             ],
           },
           {
-            episodeTitle: "The Girlfriend",
+            episodeTitle: ocS1Ep6_Title,
             song: [
               {
                 id: generateId("Wait For Me The Runaways"),
@@ -11228,7 +11432,7 @@ tags: [
             ]
           },
           {
-            episodeTitle: "The Escape",
+            episodeTitle: ocS1Ep7_Title,
             song: [
               {
                 id: generateId("A Movie Script Ending Death Cab for Cutie"),
@@ -11724,7 +11928,7 @@ tags: [
             ],
           }, 
           {
-            episodeTitle: "The L.A",
+            episodeTitle: ocS1Ep22_Title,
             song: [
               {
                 id: generateId("Alone Trespassers William"),
@@ -12439,7 +12643,7 @@ tags: [
                     ],
                    },
                    {
-                    episodeTitle: "The Lonely Hearts Club",
+                    episodeTitle: ocS2Ep12_Title,
                     song: [
                             {
                               id: generateId("Rear Moth Psapp"),
@@ -12663,7 +12867,7 @@ tags: [
                     ]
                    },
                    {
-                    episodeTitle: "The Blaze of Glory",
+                    episodeTitle: ocS2Ep16_Title,
                     song: [
                       {
                         id: generateId("Meantime The Futureheads"),

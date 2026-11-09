@@ -201,6 +201,18 @@ export var OC_ID = generateId(OC_Title);
         // Ep 3
            export var ocS1Ep3_Title = "The Gamble";
            export var ocS1Ep3_ID = generateId(OC_Title + ocS1Ep3_Title)
+         
+        // Ep 4
+           export var ocS1Ep4_Title = "The Debut";
+           export var ocS1Ep4_ID = generateId(OC_Title + ocS1Ep4_Title)
+
+        // Ep 6
+           export var ocS1Ep6_Title = "The Girlfriend";
+           export var ocS1Ep6_ID = generateId(OC_Title + ocS1Ep6_Title)
+
+        // Ep 7
+           export var ocS1Ep7_Title = "The Escape";
+           export var ocS1Ep7_ID = generateId(OC_Title + ocS1Ep7_Title)
 
         // Ep 9
            export var ocS1Ep9_Title = "The Heights";
@@ -227,6 +239,11 @@ export var OC_ID = generateId(OC_Title);
            export var ocS1Ep20_Title = "The Telenovela";
            export var ocS1Ep20_ID = generateId(OC_Title + ocS1Ep20_Title);
 
+        // Ep 21
+           export var ocS1Ep22_Title = "The L.A";
+           export var ocS1Ep22_ID = generateId(OC_Title + ocS1Ep22_Title);
+ 
+
         // Ep 24
            export var ocS1Ep24_Title = "The Proposal";
            export var ocS1Ep24_ID = generateId(OC_Title + ocS1Ep24_Title);
@@ -248,9 +265,18 @@ export var OC_ID = generateId(OC_Title);
          export var ocS2Ep4_Title = "The New Era"
          export var ocS2Ep4_ID = generateId(OC_Title + ocS2Ep4_Title)
 
+      //  Ep 12
+         export var ocS2Ep12_Title =  "The Lonely Hearts Club"
+         export var ocS2Ep12_ID = generateId(OC_Title + ocS2Ep4_Title)
+
+
         // Ep 14   
           export var ocS2Ep14_Title = "The Rainy Day Women";
           export var ocS2Ep14_ID = generateId(OC_Title + ocS2Ep14_Title)
+        
+        // Ep 16   
+          export var ocS2Ep16_Title = "The Blaze of Glory";
+          export var ocS2Ep16_ID = generateId(OC_Title + ocS2Ep16_Title)
 
         // Ep 18
           export var ocS2Ep18_Title = "The Risky Business"
