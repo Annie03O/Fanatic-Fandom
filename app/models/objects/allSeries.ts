@@ -8,4 +8,6 @@ export const allSeries = comedySeries.concat(crimeSeries, dramaSeries, fantasySe
 
 export const seriesBelowHundred = allSeries.filter(i => i.numberOfEpisodes < 100);
 
-export const seriesBeta = seriesBelowHundred.filter(i => i.mainCharacters && i.seasons && i.soundtrack);
+export const seriesBetaList = seriesBelowHundred.filter(i => i.mainCharacters && i.seasons && i.soundtrack);
+
+export const seriesBeta = seriesBelowHundred.filter(i => i.mainCharacters ? i.mainCharacters.length < 15 : i.mainCharacters)
