@@ -117,8 +117,13 @@ const ShowPage = ({genre}: ShowPageProps) => {
                 <section>
                     <h1>Cast</h1>
                     <ul className="list-circle">
-                        {series.cast.map((c) => (
-                            <li key={String(c.actor)}>{c.actor} as {c.character}</li>
+                        {series.mainCharacters.map((c) => (
+                            <li key={String(c.actor)}>{c.actor} as {
+                                c.goesByNickname === true && c.nickname !== undefined 
+                                ? c.nickname[0] + " " + c.lastName 
+                                : c.firstName + " " + c.lastName
+                              }
+                            </li>
                         ))}
                     </ul>
                 </section>
