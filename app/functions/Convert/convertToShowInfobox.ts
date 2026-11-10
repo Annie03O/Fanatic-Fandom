@@ -13,7 +13,7 @@ const isInfoField = (v: unknown): v is NonNullable<InfoField> => {
 export function convertToShowInfobox(show?: Show) {
   if (!show) return null; // <- skydd (fixar "reading cast" om du råkar skicka undefined)
 
-  const castNames: string[] = (show.cast ?? [])
+  const castNames: string[] = (show.mainCharacters ?? [])
     .filter(Boolean)
     .map((c) => {
       const a = c.actor;
