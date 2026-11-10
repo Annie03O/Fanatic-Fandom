@@ -53,17 +53,44 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
       }) === index;
     });
 
-    const relsFriends = [...rels].sort(
-      (a,b) => 
-        Number(b.kindOfFriendship === "Best Friend") -
-        Number(a.kindOfFriendship === "Best Friend")
-    );
+    type KindOfFriendship = "Normal" | "Close" | "Best Friend" | "Mentor" | "Father Figure";
+
+    const friendshipRank: Record<KindOfFriendship, number> = {
+       "Father Figure": 0,
+       "Mentor": 1,
+       "Best Friend": 2,
+       "Close": 3,
+       "Normal": 4,
+     };
+
+
+    const rankOf = (r: Relationship) =>
+      r.kindOfFriendship ? friendshipRank[r.kindOfFriendship] : Number.MAX_SAFE_INTEGER;
+
+    const relsFriends = [...rels].sort((a, b) => rankOf(a) - rankOf(b));
+    
+    
 
   const friends = relsFriends
     .map((relationship) => formatFriendship(relationship))
     .filter((f): f is string => Boolean(f));
+  
+  type Family = "Parent/Child" | "Sibling" | "Cousin" | "Grandparent/Grandchild" | "Pibling/Nibling";
+  
+  const familyRank: Record<Family, number> = {
+    "Parent/Child": 0, 
+    "Sibling": 1, 
+    "Cousin": 3, 
+    "Grandparent/Grandchild": 2, 
+    "Pibling/Nibling": 4,
+  }
 
-  const family = rels
+  const rankOfFamily = (r: Relationship) =>
+    r.family ? familyRank[r.family] : Number.MAX_SAFE_INTEGER
+
+  const relsFamily = [...rels].sort((a,b) => rankOfFamily(a) - rankOfFamily(b))
+
+  const family = relsFamily
     .map((relationship) => {
       const relationshipGender =
         relatedCharacters(relationship).find((person) => person.id !== character.id)?.gender ??
@@ -81,10 +108,11 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
     .filter((s): s is string => Boolean(s));
 
 
+    const isCurrentPartner = (r: Relationship) =>
+      r.romantic === "Wife/Husband" || r.romantic === "Fiancé" || r.romantic === "Girlfriend/Boyfriend";
+
     const relsRomance = [...rels].sort(
-      (a,b) => 
-        Number(b.romantic === "Wife/Husband" || b.romantic === "Fiancé" || b.romantic === "Girlfriend/Boyfriend") -
-        Number(a.romantic === "Wife/Husband" || b.romantic === "Fiancé" || b.romantic === "Girlfriend/Boyfriend")
+      (a, b) => Number(isCurrentPartner(b)) - Number(isCurrentPartner(a))
     );
 
   const romance = relsRomance
