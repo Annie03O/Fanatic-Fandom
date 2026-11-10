@@ -29,6 +29,7 @@ const EMPTY_EPISODES: SeasonData["episodeBreakdown"] = [];
 function Season({ season, genre, slug }: Props) {
   const episodeBreakdownList = season.episodeBreakdown ?? EMPTY_EPISODES;
   const [selectedEpisode, setSelectedEpisode] = useState<number | null>(null);
+  const [expand, setExpand] = useState(false);
 
   const episodes = useMemo(() => {
     const episodeNumbers = episodeBreakdownList.flatMap((episode) =>
@@ -62,8 +63,8 @@ function Season({ season, genre, slug }: Props) {
                             <section className="text-left w-full flex relative items-center border-b">
                               <h2 className="text-3xl left-2">Episodes</h2>
                             </section>
-                              <section  className=" overflow-y-scroll h-[500px] mr-2">
-                                <section className="flex flex-col gap-2 relative top-2">
+                              <section  className={`${expand === false ? "overflow-y-scroll h-[500px]" : ""}  mr-2`}>
+                                <section className="flex border gap-2 relative top-2">
                                   <select
                                     className="w-fit rounded-md border bg-[#f2e8ff] px-3 py-2 text-black"
                                     value={selectedEpisode ?? ""}
@@ -81,6 +82,12 @@ function Season({ season, genre, slug }: Props) {
                                       ))
                                     }
                                   </select>
+                                  <button onClick={
+                                    expand === false ? () => setExpand(true)
+                                     : () => setExpand(false)
+                                     } className="absolute right-2 top-1 underline text-blue-500 hover:text-blue-300 cursor-pointer">
+                                    {expand === false ? "Expand" : "Hide" }
+                                  </button>
                                 </section>
                                 {visibleEpisodes.map((episode) => {
                                   return (
