@@ -12,7 +12,7 @@ export default function AllCharacterPage({genre}: Props) {
         const {slug} = useParams<{slug: string}>();
     
     const series = kidsSeriesWithSlug.items.find((s) => s.slug === slug)
-    const cast = series?.cast ?? [];
+    
 
     if (!series) return <section>Series not found</section>
         

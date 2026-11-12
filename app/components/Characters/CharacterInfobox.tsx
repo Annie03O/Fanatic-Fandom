@@ -280,7 +280,7 @@ export const CharacterInfobox = ({ show, character }: Props) => {
            <section className="flex flex-col w-1/2 justify-center items-center">
                <span className="font-bold">First Seen</span>
                <span>{
-                 character.everyEpisode === true ? show.pilot 
+                 (character.everyEpisode === true || character.firstAndLast === true )? show.pilot 
                    : character.firstEpisode
                  }
                 </span>
@@ -288,7 +288,7 @@ export const CharacterInfobox = ({ show, character }: Props) => {
            <section className="flex flex-col border-l w-1/2 justify-center items-center">
               <span className="font-bold">Last Seen</span>
                <span>{
-                 character.everyEpisode === true ? show.finaleEpisode 
+                 (character.everyEpisode === true || character.firstAndLast === true) ? show.finaleEpisode 
                    : character.lastEpisode
                  }
                 </span>

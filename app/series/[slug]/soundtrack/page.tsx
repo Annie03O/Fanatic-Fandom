@@ -7,8 +7,7 @@ export default function AllSoundtrack()  {
     const {slug} = useParams<{slug: string}>();
         
         const series = seriesBetaWithSlug.items.find((s) => s.slug === slug)
-        const cast = series?.cast ?? [];
-    
+        
         console.log("series", series);
         
     

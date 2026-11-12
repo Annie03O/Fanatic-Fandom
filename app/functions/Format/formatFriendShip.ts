@@ -6,7 +6,8 @@ export function formatFriends(ship: Relationship): string | null {
   if (ship.kindOfFriendship === "Normal")  return `${ship.name}`;
   if (ship.kindOfFriendship === "Close")  return `${ship.name} (Close Friend)`;
   if (ship.kindOfFriendship === "Best Friend")  return `${ship.name} (Best Friend)`;
-  if (ship.kindOfFriendship === "Father Figure") return `${ship.name} (Father Figure)`
+  if (ship.kindOfFriendship === "Father Figure") return `${ship.name} (Father Figure)`;
+  if (ship.kindOfFriendship === "Mentor") return `${ship.name} (Mentor)`;
 
 
   return ship.name ? `${ship.name} (Friends)` : null;

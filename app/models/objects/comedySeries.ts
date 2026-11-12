@@ -86,36 +86,6 @@ export const comedySeries:Show[] = [
                 promo: true,
             },
         ],
-        cast: [
-            {
-                character: "Michael Scott",
-                actor:	"Steve Carell"
-            },
-            {
-                character: "Dwight Schrute",
-                actor:	"Rainn Wilson"	
-            },
-            {
-                character: "Jim Halpert",
-                actor:	"John Krasinski"
-            },
-            {
-                character: "Pam Beesly",
-                actor:	"Jenna Fischer"
-            },
-            {
-                character: "Ryan Howard",
-                actor:	"B. J. Novak"
-            },
-            {
-                character: "Andy Bernard",
-                actor:	"Ed Helms"		
-            },
-            {
-                character: "Robert California",
-                actor:	"James Spader"
-            },
-        ],
         seasons: [
             {
                 id: "the-office-season-1",
@@ -385,17 +355,6 @@ tags: [
             "Larry David",
             "Jerry Seinfeld",
         ],
-        cast: [
-            {
-              actor:"Jerry Seinfeld"
-            },
-            {
-               actor: "Julia Louis-Dreyfus"
-            },
-            {
-               actor: "Michael Richards"
-            },
-        ],
         network: "NBC",
         genre: "comedy",
 tags: ["Sitcom"]
@@ -411,17 +370,6 @@ tags: ["Sitcom"]
         "Greg Daniels",
         "Michael Schur"
       ],
-      cast: [ 
-        {
-            actor: "Amy Poehler",
-        },
-        {
-            actor: "Jim O'Heir",
-        },
-        {
-            actor: "Nick Offerman"
-        }
-    ],
     genre: "comedy",
 tags: [
         "Sitcom",
@@ -439,14 +387,6 @@ tags: [
     lastAirDate: "June 2, 2015",
     plot: "A suspended lawyer is forced to enroll in a community college with an eccentric staff and student body.",
     creator: ["Dan Harmon"],
-    cast: [
-        {
-            actor: "Joel McHale"
-        },
-        {
-            actor: "Danny PudiDonald Glover"
-        },
-    ],
     network: "NBC",
     genre: "comedy",
 tags: [
@@ -466,14 +406,6 @@ tags: [
         "Andy Borowitz",
         "Susan Borowitz"
     ],
-    cast: [
-        {
-            actor: "Will Smith",
-        },
-        {
-            actor: "James AveryAlfonso Ribeiro",
-        },
-    ],
     network: "NBC",
     genre: "comedy",
 tags: [	
@@ -489,35 +421,6 @@ tags: [
   lastAirDate: "2020",
   plot: "Eleanor Shellstrop, a deceased saleswoman who lived a morally corrupt life, finds herself in a heaven-like afterlife in a case of mistaken identity and tries to hide her past in order to stay there.",
   creator: ["Michael Schur"],
-    cast: [
-        {
-            actor: "Kristen Bell"
-        },
-        {
-            actor: "William Jackson Harper",
-        },
-        {
-            actor: "Jameela Jamil"
-        }, 
-       {
-        actor: "Ted Danson",
-     },
-     {
-        actor: "Kristen Bell",
-     },
-     {
-        actor: "William Jackson Harper",
-     },
-     {
-        actor: "Manny Jacinto",
-     },
-     {
-        actor: "Jameela Jamil",
-     },
-      {
-        actor: "D'Arcy Carden",
-     },
-    ],
     genre: "comedy",
     tags: [
         "Comedy",
@@ -536,33 +439,6 @@ tags: [
     creator: [
         "Elizabeth Meriwether",
     ],
-    cast: [
-        	
-        {
-            actor: "Zooey Deschanel",
-        },
-        {
-            actor: "Jake Johnson",
-        },
-        {
-            actor: "Max Greenfield",
-        },
-        {
-            actor: "Lamorne Morris",
-        },
-        {
-            actor: "Hannah Simone",
-        },
-        {
-            actor: "Damon Wayans Jr.",
-        },
-        {
-            actor: "Danielle Rockoff",
-        },
-        {
-            actor: "Rhiannon Rockoff",
-        },
-    ],
     network: "Fox",
     genre: "comedy",
     tags: [
@@ -578,35 +454,6 @@ tags: [
     lastAirDate: "May 20, 1993",
     plot: "A close-knit group of six friends get through their teens together while attending Bayside High School in Palisades, California.",
     creator: ["Sam Bobrick"],
-    cast: [
-        {
-            actor: "Mark-Paul Gosselaar",
-        },
-        {
-            actor: "Mario Lopez",
-        },
-        {
-            actor: "Dustin Diamond",
-        },
-        {
-            actor: "Tiffani-Amber Thiessen",
-        },
-        {
-            actor: "Elizabeth Berkley",
-        },
-        {
-            actor: "Lark Voorhies",
-        },
-        {
-            actor: "Ed Alonzo",
-        },
-        {
-            actor: "Dennis Haskins",
-        },
-        {
-            actor: "Leanna Creel",
-        },
-    ],
     genre: "comedy",
 tags: ["Teen Sitcom"]
 },
@@ -621,29 +468,6 @@ tags: ["Teen Sitcom"]
         "Chuck Lorre",
         "Bill Prady",
     ],
-    cast: [
-        {
-            actor: "Mayim Bialik",
-        },
-        {
-            actor: "Kaley Cuoco",
-        },
-        {
-            actor: "Johnny Galecki",
-        },
-        {
-            actor: "Simon Helberg ",
-        },
-        {
-            actor: "Jim Parsons",
-        },
-        {
-            actor: "Melissa Rauch",
-        },
-        {
-            actor: "Kunal Nayyar",
-        },
-    ],
     genre: "comedy",
 tags: ["Sitcom"]
 },
@@ -655,29 +479,6 @@ tags: ["Sitcom"]
     lastAirDate: "May 8, 2010",
     plot: "In the unreal world of Sacred Heart Hospital, intern John 'J.D.' Dorian learns the ways of medicine, friendship and life.",
     creator: ["Bill Lawrence"],
-    cast: [
-        {
-           actor: "John C. McGinley",
-        }, 
-        { 
-           actor: "Zach Braff",
-        }, 
-        {
-           actor: "Donald Faison",
-        }, 
-        {
-           actor: "Michael Mosley"
-        }, 
-        {
-           actor: "Dave Franco",
-        }, 
-        {
-           actor: "Eliza Coupe",
-        }, 
-        {
-           actor: "Kerry Bishé",
-        },
-    ], 
     genre: "comedy",
 tags: ["Sitcom"]
 },
@@ -689,33 +490,6 @@ tags: ["Sitcom"]
     lastAirDate: "2022",
     plot: "Earn and his cousin Alfred try to make their way in the world through Atlanta's rap scene. Along the way they come face-to-face with social and economic issues touching on race, relationships, poverty, status, and parenthood.",
     creator: "Donald Glover",
-    cast: [
-        	
-        {
-            actor: "Jennifer Aniston",
-            character: "Rachel Green",
-        },
-        {
-            actor: "Courteney Cox",
-            character: "Monica Geller",
-        },
-        {
-            actor: "Lisa Kudrow",
-            character: "Phoebe Buffay",
-        },
-        {
-            actor: "Matt LeBlanc",
-            character: "Joey Tribbiani",
-        },
-        {
-            actor: "Matthew Perry",
-            character: "Chandler Bing",
-        },
-        {
-            actor: "David Schwimmer",
-            character: "Ross Geller",
-        }
-    ],
     network: "NBC",
     genre: "comedy",
 tags: ["Sitcom"]
@@ -730,17 +504,6 @@ tags: ["Sitcom"]
     creator: [
         "Dan Goor",
         "Michael Schur",
-    ],
-    cast: [
-        {
-           actor:"Andy Samberg",
-        },
-        {    
-           actor: "Stephanie Beatriz",
-        },
-        {
-           actor: "Terry Crews",
-        },
     ],
     genre: "comedy",
 tags: [
@@ -757,23 +520,6 @@ tags: [
     lastAirDate: "September 22, 1989",
     plot: "Chronicles liberal ex-hippies Steven and Elyse Keaton, their conservative son Alex, daughters Mallory and Jennifer, and later, youngest child Andrew.",
     creator: [ "Gary David Goldberg" ],
-    cast: [
-        {
-           actor: "Michael J. Fox",
-        }, 
-        {
-           actor: "Justine Bateman",
-        }, 
-        {
-           actor: "Meredith Baxter",
-        }, 
-        {
-           actor: "Tina Yothers",
-        }, 
-        {
-           actor: "Michael Gross",
-        },
-    ],
     genre: "comedy",
 tags: ["Sitcom"]
 },
@@ -789,35 +535,6 @@ tags: ["Sitcom"]
     "Robert L. Boyett",
     "Thomas L. Miller",
    ],
-   cast: [
-    {
-        actor: "Reginald VelJohnson",
-    },
-    {
-        actor: "Jaleel White",
-    },
-    {
-        actor: "Darius McCrary",
-    },
-    {
-        actor: "Jaimee Foxworth",
-    }, 
-    {
-        actor: "Telma Hopkins",
-    }, 
-    {
-        actor: "Rosetta LeNoire",
-    }, 
-    {
-        actor: "Bryton James",
-    },  
-    {
-        actor: "Jo Marie Payton",
-    },  
-    {
-        actor: "Kellie Shanygne Williams"
-    } 
-],
 genre: "comedy",
 tags: ["Sitcom"]
 },
@@ -833,26 +550,6 @@ tags: ["Sitcom"]
         "Glen Charles",
         "Les Charles",
     ],
-    cast: [
-        {
-           actor: "Ted Danson",
-        }, 
-        {
-           actor: "Shelley Long",
-        }, 
-        {
-           actor: "John Ratzenberger",
-        }, 
-        {
-           actor: "George Wendt",
-        }, 
-        {
-            actor: "Nicholas Colasanto",
-        }, 
-        {
-            actor: "Rhea Perlman",
-        },
-    ], 
     genre: "comedy",
 tags: ["Comedy"]
 },
@@ -867,17 +564,6 @@ tags: ["Comedy"]
         "Mark Brazill",
         "Bonnie Turner",
         "Terry Turner",
-    ],
-    cast: [
-        {
-            actor: "Topher Grace",
-        },
-        {
-            actor: "Laura Prepon",
-        },
-        {
-            actor: "Mila Kunis",
-        },
     ],
     genre: "comedy",
 tags: ["Teen Sitcom"]
@@ -929,28 +615,6 @@ tags: ["Teen Sitcom"]
             actor: "Jason Segel",
         
     },
-    ],
-    cast: [
-        {
-            actor: "Josh Radnor",
-            character: "Ted Moseby",
-        }, 
-        {
-            actor: "Cobie Smulders",
-            character: "Robin Scherbatsky"
-        }, 
-        {
-            actor: "Neil Patrick Harris",
-            character: "Barney Stinson"
-        }, 
-        {
-            actor: "Alyson Hannigan",
-            character: "Lily Aldrin",
-        }, 
-        {
-            actor: "Jason Segel",
-            character: "Marshhall Eriksen"
-        },
     ],
     genre: "comedy",
 tags: ["Sitcom"]

@@ -11,9 +11,9 @@ const getActorName = (actor: string | string[]) =>
     : actor.trim();
 
 export function convertToSeasonInfobox(show: Show, season: Season) {
-  const mainCastNames: string[] = (show.cast ?? [])
+  const mainCastNames: string[] = (show.mainCharacters ?? [])
     .filter((i) => i.seasons?.includes(season.id))
-    .map((castMember) => getActorName(castMember.actor))
+    .map((character) => character.actor ? getActorName(character.actor) : "")
     .filter((s): s is string => Boolean(s));
 
   const recurringCastNames: string[] = (show.recurring ?? [])

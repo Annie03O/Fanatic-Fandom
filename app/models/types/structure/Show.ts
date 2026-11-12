@@ -25,7 +25,6 @@ export type Show = {
   numberOfEpisodes: number;
   tags: string[];
   mainCharacters: Character[];
-  cast: CastMember[];
   recurring: Character[],
   movies?: Movie[];  // for shows that have movies instead of seasons, like "The Hunger Games"
   seasons?: Season[];

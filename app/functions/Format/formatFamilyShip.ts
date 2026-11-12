@@ -5,6 +5,11 @@ export function formatFamilyShip(ship: Relationship, gender: "F"  | "M" | "Non-B
   const named = (relation: string) =>
     ship.name ? `${ship.name} (${relation})` : relation;
 
+  // SPOUSE (can be on a "Romantic" relationship too)
+  if (ship.family === "Spouse") {
+    return named(gender === "F" ? "Wife" : gender === "M" ? "Husband" : "Spouse");
+  }
+
     // FAMILY
   if (ship.type === "Family") {
     // SIBLING
@@ -121,6 +126,7 @@ export function formatFamilyShip(ship: Relationship, gender: "F"  | "M" | "Non-B
         if (tof === "Biological") return named(base);
         if (tof === "Step") return named(`Step ${base}`);
         if (tof === "Adoptive") return named(`Adoptive ${base}`);
+        if (tof === "In-Law") return named(`${base} In Law`);
       
         return named(base);
       }

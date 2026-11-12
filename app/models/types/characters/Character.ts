@@ -36,6 +36,7 @@ export type Character = {
     firstEpisode?: string;
     lastEpisode?: string;
     everyEpisode?: boolean;
+    firstAndLast?: boolean;
     episodeCount?: string | number;
     generation?: 1 | 2 | 3;
     classOf?: "2006" | "2007" | "2008" | "2011" | "2013" | "2014" |"2015" | "2016" | "2017" |"2020" | "Other";

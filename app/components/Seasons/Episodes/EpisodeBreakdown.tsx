@@ -5,6 +5,7 @@ import { toggleImage } from "@/app/functions/toggleImage";
 import { createImages, findImageByPageId, getCharacterRelationships, relationshipImages } from "@/app/models/objects/images";
 import { ModalComponent } from "@/app/models/objects/ModalComponent";
 import { EpisodeBreakdown as Episode } from "@/app/models/types/seasons/episode/EpisodeBreakdown"
+import type { Image } from "@/app/models/types/structure/Image";
 import { useState } from "react";
 
 type Props = {
@@ -39,11 +40,18 @@ export const EpisodeBreakdown = ({episode, page, slug} : Props) => {
     ? seasonImages
     : [season.posterUrl, ...seasonImages];
 
-    const relationshipGallery = show.mainCharacters.flatMap((character) =>
-      relationshipImages(getCharacterRelationships(character)),
-    );
-    const episodeImage = findImageByPageId(relationshipGallery, episode.id)
-      ?? (episode.imageUrl?.src.trim() ? episode.imageUrl : undefined);
+    const characterGallery = show.mainCharacters.flatMap((character) => [
+      character.imageUrl,
+      character.posterUrl,
+    ]).filter((image): image is Image => Array.isArray(image?.pageId) && !!image.src?.trim());
+    const relationshipGallery = [
+      ...relationshipImages(show.relationships ?? []),
+      ...show.mainCharacters.flatMap((character) =>
+        relationshipImages(getCharacterRelationships(character)),
+      ),
+    ];
+    const episodeImage = (episode.imageUrl?.src.trim() ? episode.imageUrl : undefined)
+      ?? findImageByPageId([...characterGallery, ...relationshipGallery, ...images], episode.id);
 
     const episodeModalImages = episodeImage && !modalImages.some((image) => image.src === episodeImage.src)
       ? [...modalImages, episodeImage]
@@ -80,7 +88,7 @@ export const EpisodeBreakdown = ({episode, page, slug} : Props) => {
                   <span className={`${episodeImage?.src.trim() ? "w-4/5" : "w-full"} p-1`}>{episode.plot}</span>
                   {episodeImage?.src.trim() ? (
                     <button type="button" onClick={openModal} className="h-full flex w-1/5 overflow-hidden cursor-pointer hover:border hover:border-4 hover:border-blue-500 hover:rounded-2xl">
-                      <img className="flex object-cover object-center" src={episodeImage.src} alt={episodeImage.alt || "Episode still"} />
+                      <img className="block w-full h-full object-cover object-center"src={episodeImage.src} alt={episodeImage.alt || "Episode still"} />
                     </button>
                   ) : null}
                 </section>

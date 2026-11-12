@@ -314,40 +314,6 @@ export const crimeSeries: Show[] = [
                 season: 3,
                 }
     ],
-    cast: [
-        {
-            actor:     "Jakob Eklund",
-            character: "Johan Falk",
-       },
-       {
-            actor:    "Joel Kinnaman",
-            character:"Frank Wagner",
-       },
-       {
-            actor:     "Mikael Tornving",
-            character: "Patrik Agrell",
-       },
-       { 
-            actor:     "Meliz Karlge",
-            character: "Sophie Nordh",
-       },
-       {
-            actor:     "Jens Hultén",
-            character: "Seth Rydell",
-       },
-       {
-            actor:    "André Sjöberg",
-            character:"Dick Jörgensen",
-       },
-       {
-            actor:     "Henrik Norlén",
-            character: "Lasse Karlsson",
-       },
-       {
-            actor:    "Marie Richardson",
-            character:"Helén Falk",
-       },
-    ],
     prodLocation: ["Sweden"],
     posterUrl: toImage("https://image.tmdb.org/t/p/original/qRhEJUcOVtgMEno5LEkZZ190vDy.jpg", "Poster image"),
     firstAirDate: "October 29, 1999",

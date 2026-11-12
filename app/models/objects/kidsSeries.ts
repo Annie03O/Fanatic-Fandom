@@ -330,133 +330,6 @@ export const kidsSeries: Show[] = [
               promo: true
             }
         ],
-        cast: [
-          {
-              character: "Luna Valente", 
-              actor: "Karol Sevilla", 
-          },
-          {
-              character: "Matteo Balsano", 
-              actor: "Ruggero Pasquarelli", 
-            },
-          {
-              character: "Simón Álvarez",
-              imageUrl: "https://pbs.twimg.com/profile_images/782192147793674244/I0H9Ia9N_400x400.jpg",
-              actor: "Micheal Ronda",
-              },
-          {
-            character: "Ámbar Smith",
-            actor: "Valentina Zenere", 
-          },
-          {
-            character: "Nina Simonetti",
-            actor: "Carolina Kopelioff", 
-          },
-          {
-            character: "Delfi Alzamendi",
-            actor: "Malena Ratner",
-          },
-          {
-            character: "Gastón Battán",
-            actor: "Agustìn Bernasconi", 
-          },
-          {
-            character: "Jazmín Carvajal",
-            actor: "Katja Martínez", 
-            },
-          {
-            character: "Jim Medina", 
-            actor: "Ana Jara" , 
-            },
-          {
-            character: "Yam F. Sánchez",
-            actor: "Chiara Parravicini", 
-          },
-          {
-            character: "Ramiro Ponce", 
-            actor: "Jorge López", 
-          },
-          {
-            character: "Pedro Arias",
-            actor:"Gastón Vietto", 
-          },
-          {
-            character : "Nico Navarro",
-            actor: "Lionel Ferro", 
-          },
-          {
-            character: "Tamara Ríos", 
-            actor: "Luz Capriota", 
-          },
-          {
-            character: "Sharon Benson", 
-            actor:"Lucila Gandolfo", 
-          },
-          {
-            character: "Rey",
-            actor: "Rodrigo Pedreira", 
-          },
-          {
-            character: "Miguel Valente",
-            actor: "David Muri", 
-          },
-          {
-            character: "Mónica Valente",
-            actor: "Ana Carolina Valsagna", 
-          },
-          {
-            character: "Tino Alcaraz",
-            actor: "Diego Sassi Alcalá", 
-          },
-          {
-            character: "Cato Alcoba",
-            actor: "Germán Tripel", 
-          },
-          {
-            character: "Amanda Alcoba",
-            actor: "Antonella Querzoli", 
-          },
-          {
-            character: "Ricardo Simonetti",
-            actor: "Ezequiel Rodríquez", 
-          },
-          {
-            character: "Ana Valparaíso",
-            actor: "Caro Ibarro", 
-          },
-          {
-            character: "Mora Barza",
-            actor: "Paula Kohan", 
-          },
-          {
-            character: "Juliana", 
-            actor:"Estela Ribeiro", 
-          },
-          {
-            character: "Alfredo Bilder",
-            actor:"Roberto Carnaghi", 
-          },
-          {
-            character: "Gary Lopez",
-            actor: "Joaquín Berthold", 
-          },
-          {
-            character: "Benicio", 
-            actor: "Pasquale Di Nuzzo", 
-          },
-          {
-            character: "Emilia", 
-            actor: "Giovanna Reynaud", 
-          },
-          {
-            character: "Eric Andrande",
-            actor: "Jandino", 
-          },
-          {
-            character: "Maggie García", 
-            actor: "Victoria Suárez Battán", 
-          }
-      ],
         seasons: [ 
           { 
             id: "soy-luna-season-1",
@@ -615,6 +488,7 @@ tags:  [ "Kids",
             id: "bia-urquiza",
             firstName: "Beatriz",
             lastName: "Urquiza",
+            actor: "Isabela Souza",
             imageUrl: toImage("https://static.wikia.nocookie.net/bia_deutschland_0/images/f/f4/Bia_Urquiza.jpeg/revision/latest/thumbnail/width/360/height/450?cb=20200331051633&path-prefix=de", "Character image"),
             posterUrl: toImage("https://static.wikia.nocookie.net/p__/images/c/c7/Bia_2019.jpg/revision/latest?cb=20211116015524&path-prefix=", "Poster image"),
             promo: true,
@@ -625,6 +499,7 @@ tags:  [ "Kids",
             id: "ana-da-silvo",
             firstName: "Ana",
             lastName: "Da Silvo",
+            actor: "Gabriella Di Grecco",
             imageUrl: toImage("https://i.pinimg.com/originals/0f/ab/7b/0fab7bdf9b9df804f6895aa60f66082b.jpg", "Character image"),
             posterUrl: toImage("https://i.pinimg.com/1200x/7a/05/02/7a05021bbb65ae7f3883f42f296a219d.jpg", "Poster image"),
             promo: true,
@@ -634,6 +509,7 @@ tags:  [ "Kids",
             id: "manuel-guitiérrez-quemola",
             firstName: "Manuel",
             lastName: "Guitiérrez Quemola",
+            actor: "Julio Peña Fernández",
             imageUrl: toImage("https://i.pinimg.com/736x/06/28/e1/0628e1af516ad8853df198dd5aba3f77.jpg", "Character image"),
             promo: true,
           },
@@ -641,6 +517,7 @@ tags:  [ "Kids",
             id: "victor-guitierrez",
             firstName: "Victor",
             lastName: "Guitiérrez",
+            actor: "Fernando Dente",
             imageUrl: toImage("https://i.pinimg.com/originals/1e/e6/18/1ee618aed0961235e97555ac0c69f6e5.jpg", "Character image"),
             posterUrl: toImage("https://static.wikia.nocookie.net/p__/images/c/c7/Bia_2019.jpg/revision/latest?cb=20211116015524&path-prefix=", "Poster image"),
             promo: true,
@@ -649,6 +526,7 @@ tags:  [ "Kids",
             id: "celeste-quinterro",
             firstName: "Celeste",
             lastName: "Quinterro",
+            actor: "Agustina Palma",
             imageUrl: toImage("https://static.wikia.nocookie.net/bia_deutschland_0/images/6/6c/Celeste_Quintero.jpeg/revision/latest?cb=20200331052700&path-prefix=de", "Character image"),
             posterUrl: toImage("https://i.pinimg.com/736x/fc/25/f5/fc25f5bf2a4eba8ba2fefca77f394989.jpg", "Poster image"),
             promo: true,
@@ -657,6 +535,7 @@ tags:  [ "Kids",
             id: "chiara-callegri",
             firstName: "Chiara",
             lastName: "Callegri",
+            actor: "Giulia Guerrini",
             imageUrl: toImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcw4u1SoncogEu0zlpVkGsTH4lwc7YjqLF-7KnK5vDxxPL4n2MzJ8-dI21&s=10", "Character image"),
             promo: true,
           },
@@ -664,6 +543,7 @@ tags:  [ "Kids",
             id: "carmín-laguardia",
             firstName: "Carmín",
             lastName: "Laguardia",
+            actor: "Andrea de Alba",
             imageUrl: toImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg_W8Epim8e-FCv73KBnHoRiGX-CA8MKWzC4e_wylXxzZULirsaJmvtima&s=10", "Character image"),
             promo: true,
           },
@@ -671,6 +551,7 @@ tags:  [ "Kids",
             id: "alex-gutiérrez",
             firstName: "Alex",
             lastName: "Gutiérrez",
+            actor: "Guido Messina",
             imageUrl: toImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCfxLZxKpmaws8Des01tSwTeYEvl1t97T-ihS8Ih6-W7WmrVDxvkJ6ZQc&s=10", "Character image"),
             promo: true,
           },
@@ -678,6 +559,7 @@ tags:  [ "Kids",
             id: "pixie-ocaranta",
             firstName: "Isabel",
             lastName: "Ocaranta",
+            actor: "Daniela Trujillo",
             imageUrl:  toImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1BsCyTx4AsyEDOU5pa9cUI0ZX_HC-5PTFSdNUvvYAiGqVWT4uwGGHtzA&s=10", "Character image"),
             promo: true,
             nickname: ["Pixie"],
@@ -687,6 +569,7 @@ tags:  [ "Kids",
             id: "daisy-durant",
             firstName: "Daisy",
             lastName: "Durant",
+            actor: "Micaela Diaz",
             imageUrl: toImage("https://static.wikia.nocookie.net/bia/images/3/36/Capture.PNG-1.png/revision/latest?cb=20191009170801&path-prefix=es", "Character image"),
             promo: true,
           },
@@ -694,6 +577,7 @@ tags:  [ "Kids",
             id: "mara-morales",
             firstName: "Mara",
             lastName: "Morales",
+            actor: "Julia Argüelles",
             imageUrl: toImage("https://static.wikia.nocookie.net/disney/images/f/f5/Mara_Morales.jpg/revision/latest?cb=20201003171349&path-prefix=es", "Character image"),
             posterUrl: toImage("https://static.wikia.nocookie.net/p__/images/c/c7/Bia_2019.jpg/revision/latest?cb=20211116015524&path-prefix=", "Poster image"),
             promo: true,
@@ -702,6 +586,7 @@ tags:  [ "Kids",
             id: "pietro-benedetto-junior",
             firstName: "Pietro",
             lastName: "Benedetto Junior",
+            actor: "Alan Madanes",
             imageUrl: toImage("https://static.wikia.nocookie.net/bia/images/6/6d/Images-2.jpg/revision/latest?cb=20191010150829&path-prefix=es", "Character image"),
             promo: true,
           },
@@ -709,6 +594,7 @@ tags:  [ "Kids",
             id: "thiago-kunst",
             firstName: "Thiago",
             lastName: "Kunst",
+            actor: "Rhener Freitas",
             imageUrl: toImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBwMY2l4hHS0eCUfHQFHwssBfbK4XsMdahdfLrKWHtCw&s=10", "Character image"),
             promo: true,
           },
@@ -716,6 +602,7 @@ tags:  [ "Kids",
             id: "guillermo-ruiz",
             firstName: "Guillermo",
             lastName: "Ruiz",
+            actor: "Esteban Velásquez",
             imageUrl: toImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRl6GvVoYoN6VVLmaZVOTX1JSoRjZwRlgf97pY_Fjn_KohiQFrJ1BYghDq&s=10", "Character image"),
             promo: true,
           },
@@ -723,6 +610,7 @@ tags:  [ "Kids",
             id: "marcos-golden",
             firstName: "Marcos",
             lastName: "Golden",
+            actor: "Rodrigo Rumi",
             imageUrl:  toImage("https://static.wikia.nocookie.net/villains/images/0/06/Mark_bia.jpg/revision/latest?cb=20211015145559", "Character image"),
             promo: true,
           },
@@ -730,18 +618,21 @@ tags:  [ "Kids",
             id: "jhon-caballero",
             firstName: "Jhon",
             lastName: "Caballero",
+            actor: "Luis Giraldo",
             imageUrl: toImage("https://static.wikia.nocookie.net/bia/images/a/aa/Jhon.jpg/revision/latest/scale-to-width-down/277?cb=20190425072342&path-prefix=pt-br", "Character image"),
             promo: true,
           },
           {
             id: "aillén",
             firstName: "Aillén",
+            actor: "Valentina González",
             imageUrl: toImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9M8FnBU4pvStQpsysx5dVu7Y7-I1fUKKgRN5QKU3AiYkQBVvQ_4kzTDU&s=10", "Character image"),
             promo: true,
           },
           {
             id: "jandino-bia",
             firstName: "Jandino",
+            actor: "Jandino Asporaat",
             imageUrl: toImage("https://i.pinimg.com/564x/50/18/9e/50189e2c49785175b0db558dddbf7bb5.jpg", "Character image"),
             promo: true,
           },
@@ -749,6 +640,7 @@ tags:  [ "Kids",
             id: "antonio-gutiérrez",
             firstName: "Antonio",
             lastName: "Gutiérrez",
+            actor: "Sergio Surraco",
             imageUrl: toImage("https://static.wikia.nocookie.net/villains/images/3/38/Antonio_gutierrez_bia.png/revision/latest?cb=20211102194159", "Character image"),
             promo: false,
           },
@@ -756,6 +648,7 @@ tags:  [ "Kids",
             id: "alice-urquiza",
             firstName: "Alice",
             lastName: "Urquiza",
+            actor: "Estela Ribeiro",
             imageUrl: toImage("https://i.pinimg.com/236x/86/9d/ac/869dac9f17b23cb992e224ffaaebdfcd.jpg", "Character image"),
             promo: false,
           },
@@ -763,6 +656,7 @@ tags:  [ "Kids",
             id: "mariano-urquiza",
             firstName: "Mariano",
             lastName: "Urquiza",
+            actor: "Alejandro Botto",
             imageUrl: toImage("https://static.wikia.nocookie.net/disneybia/images/d/dc/Captura.PNG/revision/latest/thumbnail/width/360/height/450?cb=20200615061239", "Character image"),
             promo: false,
           },
@@ -770,108 +664,16 @@ tags:  [ "Kids",
             id: "paula-gutiérrez",
             firstName: "Paula",
             lastName: "Gutiérrez",
+            actor: "Mariela Pizzo",
             imageUrl: toImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEdFg5DOiGlukXkVZDNacWQ9i0-7-Be3oXJ7OZLTUMJcTtrySi4SBodd4&s=10", "Character image"),
             promo: false,
           },
           {
             id: "luan",
             firstName: "Luan",
+            actor: "André Lamoglia",
             imageUrl: toImage("https://pbs.twimg.com/media/ESOXvF8XkAAiDPR?format=jpg&name=small", "Character image"),
             promo: true,
-          },
-        ],
-        cast: [
-          {
-            actor: "Isabela Souza",
-            character: "Beatriz 'Bia' Urquiza"
-          },
-          {
-            actor: "Gabriella Di Grecco", 
-            character: "Ana Da Silvo / Helena Urquiza",
-          },
-          {
-            actor: "Julio Peña Fernández",  
-            character: "Manuel Gutierrez Quemol",
-          },
-          {
-            actor: "Fernando Dente",
-            character: "Víctor Gutiérrez"
-          },
-          {
-            actor: "Agustina Palma", 
-            character: "Celeste Quinterro"
-          },
-          {
-            actor: "Giulia Guerrini", 
-            character: "Chiara Callegri"
-          },
-          {
-            actor: "Andrea de Alba", 
-            character: "Carmín Laguardia"
-          },
-          {
-            actor: "Guido Messina",
-            character: "Alex Gutiérrez"
-          },
-          {
-            actor: "Daniela Trujillo",
-            character: "Isabel 'Pixie' Ocaranta"
-          },
-          {
-            actor: "Micaela Diaz", 
-            character: "Daisy Durant"
-          },
-          {
-            actor: "Julia Argüelles",
-            character: "Mara Morales"
-          },
-          {
-            actor: "Alan Madanes",
-            character: "Pietro Benedetto Junior",
-            },
-          {
-            actor: "Rhener Freitas", 
-            character: "Thiago Kunst"
-          },
-          {
-            actor: "Esteban Velásquez",
-            character: "Guillermo Ruiz",
-          },
-          {
-            actor: "Rodrigo Rumi",
-            character: "Marcos Golden"
-          },
-          {
-            actor: "Luis Giraldo", 
-            character: "Jhon Caballero", 
-          },
-          {
-            actor: "Valentina González", 
-            character: "Aillén"
-          },
-          {
-            actor: "Jandino", 
-            character: "himself"
-          },
-          {
-            actor: "Sergio Surraco", 
-            character: "Antonio Gutiérrez",
-          },
-          {
-            actor: "Estela Ribeiro", 
-            character: "Alice Urquiza"
-          },
-          {
-            actor: "Alejandro Botto", 
-            character: "Mariano Urquiza"
-          },
-          {
-            actor: "Mariela Pizzo",
-            character: "Paula Gutiérrez",
-          },
-          {
-            actor: "André Lamoglia",
-            character: "Luan",
           },
         ],
         seasons: [
@@ -983,6 +785,7 @@ tags:  [ "Kids",
             firstName: "Alexandra",
             middleName: "Margarita",
             lastName: "Russo",
+            actor: "Selena Gomez",
             imageUrl: toImage("https://akns-images.eonline.com/eol_images/Entire_Site/2023227/rs_1200x1200-230327145631-1200-Selena_Gomez-The_Wizards_of_Waverly_Place-gj.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top", "Character image"),
             posterUrl: toImage("https://static.wikia.nocookie.net/wizardsofwaverlyplace/images/4/4c/Alex_Russo.jpg/revision/latest?cb=20130710142823", "Poster image"),
             nickname: ["Alex"],
@@ -994,6 +797,7 @@ tags:  [ "Kids",
             firstName: "Justin",
             middleName: "Vincenzo Pepe",
             lastName: "Russo",
+            actor: "David Henrie",
             imageUrl: toImage("https://disneynews.us/wp-content/uploads/2022/10/Justin-Russo-Wizards-of-Waverly-Place-disney.jpg", "Character image"),
             posterUrl: toImage("https://static.wikia.nocookie.net/wizardsofwaverlyplace/images/2/25/Justin_Russo_WOWP_Season_1_Promo_1.jpg/revision/latest?cb=20241017143507", "Poster image"),
             promo: true,
@@ -1004,6 +808,7 @@ tags:  [ "Kids",
             firstName: "Maximilian",
             middleName: "Alonzo Ernesto",
             lastName: "Russo",
+            actor: "Jake T. Austin",
             imageUrl: toImage("https://pbs.twimg.com/media/GbHgtzKbQAIVbH4.jpg", "Character image"),
             posterUrl: toImage("https://static.wikia.nocookie.net/wizardsofwaverlyplace/images/5/5c/Max-full.png/revision/latest?cb=20201205233748", "Poster image"),
             promo: true,
@@ -1014,6 +819,7 @@ tags:  [ "Kids",
             id: "harper-finkle",
             firstName: "Harper",
             lastName: "Finkle",
+            actor: "Jennifer Stone",
             imageUrl: toImage("https://i.pinimg.com/736x/54/37/a6/5437a66dd957a627ecd411c83849efca.jpg", "Character image"),
             posterUrl: toImage("https://static.wikia.nocookie.net/feiticeirosdewaverly/images/9/90/Stone.jpg/revision/latest/scale-to-width-down/284?cb=20100101152548&path-prefix=pt-br", "Poster image"),
             promo: true,
@@ -1022,6 +828,7 @@ tags:  [ "Kids",
             id: "theresa-russo",
             firstName: "Theresa",
             lastName: "Russo",
+            actor: "Maria Canals Barrera",
             imageUrl: toImage("https://i.pinimg.com/736x/7d/5e/88/7d5e88764bd49457ba941c9cb48bc331.jpg", "Character image"),
             posterUrl: toImage("https://i.pinimg.com/736x/1c/18/95/1c18951ca00170468398ee8ce6038b9a.jpg", "Poster image"),
             promo: true,
@@ -1030,31 +837,10 @@ tags:  [ "Kids",
             id: "jerry-russo",
             firstName: "Jerry",
             lastName: "Russo",
+            actor: "David DeLuise",
             imageUrl: toImage("https://i.pinimg.com/736x/da/52/d0/da52d07fc7d6b3f3672b85713684b10e.jpg", "Character image"),
             posterUrl: toImage("https://i.pinimg.com/736x/38/a9/d8/38a9d82d458d4f4a8e8cca041b7d2215.jpg", "Poster image"),
             promo: true,
-          },
-        ],
-        cast: [
-          {
-            character: "Alex Russo",
-            actor:	"Selena Gomez"
-          },
-          {
-            character: "Justin Russo",
-            actor:	"David Henrie"
-          },
-          {
-            character: "Max Russo",
-            actor:	"Jake T. Austin"
-          },
-          {
-            character: "Harper Finkle",
-            actor:	"Jennifer Stone"
-          },
-          {
-            character: "Theresa Russo",
-            actor:	"Maria Canals Barrera"
           },
         ],
         seasons: [
@@ -1156,6 +942,7 @@ tags:  [ "Kids", "Comedy", "Fantasy", "Family"],
             firstName: "Austin",
             middleName: "Monica",
             lastName: "Moon",
+            actor: "Ross Lynch",
             imageUrl: toImage("https://static.wikia.nocookie.net/austinally/images/9/9c/Austin_Moon.jpg/revision/latest?cb=20130227144546", "Character image"),
             posterUrl: toImage("https://preview.redd.it/why-do-you-think-ross-lynch-never-made-it-in-hollywood-v0-22yp6iljtrud1.jpg?width=600&format=pjpg&auto=webp&s=39cd1d459a64c6d5d3ffb4de554ae6529c082818", "Poster image"),
             promo: true,
@@ -1165,6 +952,7 @@ tags:  [ "Kids", "Comedy", "Fantasy", "Family"],
             firstName: "Ally",
             middleName: "Edgar",
             lastName: "Moon",
+            actor: "Laura Marano",
             imageUrl: toImage("https://static.wikia.nocookie.net/austinally/images/6/62/Ally_Dawson%3B_Season_Two_-_Close_Up.png/revision/latest?cb=20130227161226", "Character image"),
             posterUrl: toImage("https://i.pinimg.com/736x/5e/6e/83/5e6e838d9c0cc1efd33d41ddae235834.jpg", "Poster image"),
             promo: true,
@@ -1173,6 +961,7 @@ tags:  [ "Kids", "Comedy", "Fantasy", "Family"],
             id: "trish-de-la-rosa",
             firstName: "Trish",
             lastName: "De La Rosa",
+            actor: "Raini Rodriguez",
             imageUrl: toImage("https://static.wikia.nocookie.net/p__/images/a/a0/Trish2.jpg/revision/latest?cb=20140111213000&path-prefix=protagonist", "Character image"),
             posterUrl: toImage("https://static.wikia.nocookie.net/austinally/images/1/14/TrishD.jpeg/revision/latest?cb=20160216024657", "Poster image"),
             promo: true
@@ -1181,28 +970,10 @@ tags:  [ "Kids", "Comedy", "Fantasy", "Family"],
             id: "dez-wade",
             firstName: "Dez",
             lastName: "Wade",
+            actor: "Calum Worthy",
             imageUrl: toImage("https://i.pinimg.com/736x/a6/f2/99/a6f29972271dfae58e289503a1fee81a.jpg", "Character image"),
             promo: true,
           }
-        ],
-        cast: [
-          	
-          {
-            actor: "Ross Lynch",
-            character: "Austin Moon",
-          },
-          {
-            actor: "Laura Marano",
-            character: "Ally Dawson",
-          },
-          {
-            actor: "Raini Rodriguez",
-            character: "Trish De La Rosa",
-          },
-          {
-            actor: "Calum Worthy",
-            character: "Dez Wade",
-          },
         ],
         country: "United States",
         firstAirDate: "December 2, 2011",
@@ -1443,64 +1214,6 @@ tags:  [ "Kids",
             promo: true,
           },
         ],
-        cast: [
-          {
-            character: "Penny Mendez",
-            actor:	"Olivia-Mai Barrett",	
-          },
-          {
-            character: "Camilla Young",
-            actor: "Shannon Gaskin"	
-          },
-          {
-            character: "Sebastian Storm",
-            actor: "Finlay MacMillan"	
-          },
-          {
-            character: "Sofia Hu",
-            actor: "Olivia Chan",	
-          },
-          {
-            character: "Nick Weber",
-            actor: "Damien Walsh"		
-          },
-          {
-            character: "Mike Weber",
-            actor: [
-              "Damien Walsh",  
-              "Luke Walsh",
-            ]
-          },
-          {
-            character: "Aleksandr 'Sasha' Lukin",
-            actor: "Ryan Dean"	
-          },
-          {
-            character: "Lucy Carpenter",
-            actor: "Jessica Alexander",
-          },
-          {
-            character: "Tom Lauder",	
-            actor: "Jack Christou",		
-          },
-          {
-            character: "Pete Swanson",
-            actor: "Giacomo Vigo"
-          },
-          {
-            character: "Rob Walker",
-            actor:"Keenan Munn-Francis",	
-          },
-          {
-            character: "Vicky Bernhard",
-            actor: "Kira Malou",		
-          },
-          {
-            character: "Martha Patel",
-            actor: "Amani Lia",
-          },
-          
-        ],
         seasons: [
           {
             id: "penny-on-mars-season-1",
@@ -1660,33 +1373,6 @@ tags:  [ "Kids", "Drama", "Music", "Romance",],
             actor: "Doc Shaw",
           },
         ],
-        cast: [
-          	
-          { 
-            actor: "Cole Sprouse",
-            character: "Cody Martin",
-          },
-          { 
-            actor: "Dylan Sprouse",
-            character: "Zack Martin",
-          },
-          { 
-            actor: "Brenda Song",
-            character: "London Tipton",
-          },
-          { 
-            actor: "Debby Ryan",
-            character: "Bailey Pickett",
-          },
-          { 
-            actor: "Phill Lewis",
-            character: "Marion Moseby",
-          },
-          { 
-            actor: "Doc Shaw",
-            character: "Marcus Little",
-          },
-        ],
         seasons: [
           {
             id: "the-suite-life-on-deck-season-1",
@@ -1815,6 +1501,7 @@ tags:  [ "Kids", "Comedy", "Family", ],
             id: "liv-rooney",
             firstName: "Olivia",
             lastName: "Rooney",
+            actor: "Dove Cameron",
             imageUrl: toImage("https://static.wikia.nocookie.net/livandmaddie/images/8/82/Liv.jpg/revision/latest?cb=20130817010616", "Character image"),
             promo: true,
            nickname: ["Liv"],
@@ -1825,6 +1512,7 @@ tags:  [ "Kids", "Comedy", "Family", ],
             id: "maddie-rooney",
             firstName: "Madison",
             lastName: "Rooney",
+            actor: "Dove Cameron",
             imageUrl: toImage("https://static.wikia.nocookie.net/p__/images/6/6c/04192261d6f45bcb2d407fc5e82819dce12c47ec.jpg/revision/latest?cb=20140524210756&path-prefix=protagonist", "Character image"),
             promo: true,
             nickname: ["Maddie"],
@@ -1834,6 +1522,7 @@ tags:  [ "Kids", "Comedy", "Family", ],
             id: "parker-rooney",
             firstName: "Parker",
             lastName: "Rooney",
+            actor: "Tenzing Norgay Trainor",
             imageUrl: toImage("https://static.wikia.nocookie.net/livandmaddie/images/d/d3/Parkers2.jpg/revision/latest?cb=20140908111944", "Character image"),
             promo: true,
           },
@@ -1841,6 +1530,7 @@ tags:  [ "Kids", "Comedy", "Family", ],
             id: "joey-rooney",
             firstName: "Joseph",
             lastName: "Rooney",
+            actor: "Joey Bragg",
             imageUrl: toImage("https://static.wikia.nocookie.net/livandmaddie/images/e/e9/Joeys2.jpg/revision/latest?cb=20140908111703", "Character image"),
             promo: true,
             nickname: ["Joey"],
@@ -1850,6 +1540,7 @@ tags:  [ "Kids", "Comedy", "Family", ],
             id: "karen-rooney",
             firstName: "Karen",
             lastName: "Rooney",
+            actor: "Kali Rocha",
             imageUrl: toImage("https://static.wikia.nocookie.net/livandmaddie/images/4/4f/Karen.jpg/revision/latest?cb=20130817024054", "Character image"),
             promo: true,
           },
@@ -1857,38 +1548,9 @@ tags:  [ "Kids", "Comedy", "Family", ],
             id: "pete-rooney",
             firstName: "Pete",
             lastName: "Rooney",
+            actor: "Benjamin King",
             imageUrl: toImage("https://static.wikia.nocookie.net/livandmaddie/images/b/b1/Peteseason2.jpg/revision/latest?cb=20140908112452", "Character image"),
             promo: true,
-          },
-        ],
-        cast: [
-          	
-            {
-            actor: "Dove Cameron",
-            character: [
-              "Liv Rooney",
-              "Maddie Rooney"
-            ],
-          },
-            {
-            actor: "Joey Bragg",
-            character: "Joey Rooney",
-          },
-            {
-            actor: "Tenzing Norgay Trainor",
-            character: "Parker Rooney",
-          },
-            {
-            actor: "Kali Rocha",
-            character: "Karen Rooney",
-          },
-            {
-            actor: "Benjamin King",
-            character: "Pete Rooney",
-          },
-            {
-            actor: "Lauren Lindsey Donzis",
-            character: "Ruby Rooney",
           },
         ],
         seasons: [
@@ -2404,147 +2066,6 @@ tags:  [ "Kids", "Comedy", "Family", , "Music"],
             goesByNickname: true ,
           },
         ],
-        cast: [
-          {
-            actor: "Martina Stoessel", 
-            character: "Violetta Castillo"
-          },
-          {
-            actor: "Jorge Blanco", 
-            character: "León Vargas",
-          },
-          {
-            actor: "Mercedes Lambre",
-            character: "Ludmila Ferro",
-          },
-          {
-            actor: "Nicolás Garnier", 
-            character: "Andrés Calixto"
-          },
-          {
-            actor: "Alba Rico",
-            character: "Natalia 'Naty' Vidal",
-          },
-          {
-            actor: "Lodovica Comello",
-            character: "Francesca Caviglia",
-          },
-          {
-            actor: "Candelaria Molfese",  
-            character: "Camila Torres",
-          },
-          {
-            actor: "Facundo Gambandé", 
-            character: "Maximiliano 'Maxi' Ponte",
-          },
-          {
-            actor: "Diego Ramos", 
-            character: "Germán Castillo",
-          },
-          {
-            actor: "Pablo Espinosa", 
-            character: "Tomás Heredia"
-          },
-          {
-            actor: "Simone Lijoi", 
-            character: "Luca Caviglia" 
-          },
-          {
-            actor: "Artur Logunov", 
-            character: "Braco"
-          },
-          {
-            actor: "Rodrigo Velilla", 
-            character: "Napoleón 'Napo' Ferro" 
-          },
-          {
-            actor: "Samuel Nascimento", 
-            character: "Broduey Silva",
-          },
-          {
-            actor: "Clara Alonso",
-            character: "Ángeles 'Angie' Carrara",
-          },
-          {
-            actor: "Florencia Benítez", 
-            character: "Jade La Fontaine",
-          },
-          {
-            actor: "Joaquín Berthold", 
-            character: "Matías La Fontaine",
-          },
-          {
-            actor: "Mirta Wons", 
-            character: "Olga Patricia Peña"
-          },
-          {
-            actor: "Alfredo Allende", 
-            character: "Lisandro Ramallo",
-          },
-          {
-            actor: "Pablo Sultani", 
-            character: "Beto Benvenuto",
-          },
-          {
-            actor: "Rodrigo Pedreira", 
-            character: "Gregorio Casal",
-          },
-          {
-            actor: "Ezequiel Rodríguez",
-            character: "Pablo Galindo",
-          },
-          {
-            actor: "Alberto Fernández de Rosa", 
-            character: "Antonio Jerez Fernández Méndez"},
-          {
-            actor: "Diego Domínguez", 
-            character: "Diego Hernández"
-           },
-          {
-            actor: "Xabiani Ponce de León", 
-            character: "Marco Tavelli"
-          },
-          {
-            actor: "Valeria Baroni", 
-            character: "Lara Jiménez",
-          },
-          {
-            actor: "Carla Pandolfi", 
-            character: "Esmeralda Ferrara Di Pietro" 
-          },
-          {
-            actor: "Valentina Frione", 
-            character: "Jacqueline 'Jackie' Sáenz",
-          },
-          {
-            actor: "Ruggero Pasquarelli", 
-            character: "Federico Paccini",
-          },
-          {
-            actor: "Macarena Miguel", 
-            character: "Gery Lopez",
-          },
-          {
-            actor: "Damien Lauretta", 
-            character: "Clement Cortés/Alexandre 'Alex' Benoit"
-          },
-          {
-            actor: "Florencia Ortíz", 
-            character: "Priscila Ferro"
-          },
-          {
-            actor: "Rodrigo Frampton", 
-            character: "Milton Vinicius"
-          },
-          {
-            actor: "Diego Alcalá", 
-            character: "Marotti Reyes Almeyda",
-          },
-          {
-            actor: "Nacho Gadano", 
-            character: "Nicolás Cortés",
-          },
-        ],
         numberOfSeasons: 3,
         numberOfEpisodes: 240,
         seasons: [
@@ -2707,32 +2228,6 @@ tags:  [ "Kids", "Drama", "Music", "Romance", "Telenovela"],
             posterUrl: toImage("https://static.wikia.nocookie.net/hannahmontana/images/0/00/Rico_Suave_2.jpg/revision/latest/scale-to-width-down/250?cb=20240310054817", "Poster image"),
             actor: "Moises Arias",
             promo: true,
-          },
-        ],
-        cast:  [
-          {
-            character: "Miley Stewart",	
-            actor: "Miley Cyrus",
-          },
-          {
-            character: "Lilly Truscott",	
-            actor: "Emily Osment",
-          },
-          {
-            character: "Oliver Oken", 
-            actor: "Mitchel Musso",	
-          },
-          {
-            character: "Jackson Stewart",	
-            actor: "Jason Earles",
-          },
-          {
-            character: "Robby Ray Stewart",
-            actor: "Billy Ray Cyrus",
-           },
-          {
-            character: "Rico Suave",
-            actor: "Moises Arias",
           },
         ],
         themeSong: '"The Best of Both Worlds" by Miley Cyrus',
@@ -3052,32 +2547,6 @@ tags:  [ "Kids", "Comedy", "Music", "Family", ],
             ],
             promo: true, 
           }
-        ],
-        cast: [
-          {
-            actor: "Bridgit Mendler",
-            character: "Teddy Duncan",
-          },
-          {
-            actor: "Leigh-Allyn Baker",
-            character: "Amy Duncan",
-          },
-          {
-            actor: "Bradley Steven Perry",
-            character: "Gabe Duncan",
-          },
-          {
-            actor: "Mia Talerico",
-            character: "Charlie Duncan",
-          },
-          {
-            actor: "Eric Allan Kramer",
-            character: "Bob Duncan",
-          },
-          {
-            actor: "Jason Dolley",
-            character: "PJ Duncan",
-          },
         ],
         seasons: [
           {

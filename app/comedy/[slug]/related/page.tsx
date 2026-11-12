@@ -11,8 +11,7 @@ export default function AllRelatedPage({genre}: Props) {
     const {slug} = useParams<{slug: string}>();
     
     const series = comedySeriesWithSlug.items.find((s) => s.slug === slug)
-    const cast = series?.cast ?? [];
-
+    
     console.log("series", series);
    
     const related = series?.related?.find((t) => t.title);

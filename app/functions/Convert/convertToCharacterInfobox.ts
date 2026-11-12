@@ -75,14 +75,15 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
     .map((relationship) => formatFriendship(relationship))
     .filter((f): f is string => Boolean(f));
   
-  type Family = "Parent/Child" | "Sibling" | "Cousin" | "Grandparent/Grandchild" | "Pibling/Nibling";
+  type Family = "Parent/Child" | "Sibling" | "Cousin" | "Grandparent/Grandchild" | "Pibling/Nibling" | "Spouse";
   
   const familyRank: Record<Family, number> = {
-    "Parent/Child": 0, 
-    "Sibling": 1, 
+    "Parent/Child": 1, 
+    "Sibling": 2, 
     "Cousin": 3, 
-    "Grandparent/Grandchild": 2, 
-    "Pibling/Nibling": 4,
+    "Grandparent/Grandchild": 4, 
+    "Pibling/Nibling": 5,
+    "Spouse": 0
   }
 
   const rankOfFamily = (r: Relationship) =>

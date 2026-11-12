@@ -5,9 +5,17 @@ function formatFamilyRelation(ship: Relationship, gender: "F"  | "M" | "Non-Bina
 
   // FAMILY
   if (ship.family) {
+    if (ship.family === "Spouse") {
+      const spouse = 
+      gender === "F" ? `${ship.name} (Wife)` 
+      : gender === "M" ? `${ship.name} (Husband)` 
+      : `${ship.name} (Spouse)`
+
+      return ship.name + ` (${spouse})` 
+    }
     // SIBLING
     if (ship.family === "Sibling") {
-      const base = gender ? "Sister" : gender === "M" ? "Brother" : "Sibling";
+      const base = gender === "F" ? "Sister" : gender === "M" ? "Brother" : "Sibling";
         if (ship.typeOfFamily) {
           if (ship.typeOfFamily === "Step")  return `${ship.name} (Step ${base})`
           if (ship.typeOfFamily === "Adoptive") return `${ship.name} (Adoptive ${base})`
