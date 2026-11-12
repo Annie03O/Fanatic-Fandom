@@ -1,7 +1,7 @@
 import { Show } from "@/app/models/types/structure/Show";
 import { Character } from "../../models/types/characters/Character";
 import { InfoField } from "../../models/types/structure/InfoboxCategory";
-import { Relationship } from "../../models/types/structure/Relationship";
+import { MiniCharacter, Relationship } from "../../models/types/structure/Relationship";
 import { formatFamilyShip } from "../Format/formatFamilyShip";
 import { formatFriendship } from "../Format/formatFriendShip";
 import { formatMaritalStatus } from "../Format/formatMaritalStatus";
@@ -95,12 +95,25 @@ export function convertToCharacterInfobox(show: Show, character: Character) {
     .map((relationship) => {
       const relationshipGender =
         relatedCharacters(relationship).find((person) => person.id !== character.id)?.gender ??
+        relationship.gender ??
         character.gender;
 
-
-      const miniCharacter = relationship.characters?.find(
-        (person) => person?.content && person.content.id !== character.id
-      );
+      // Major relationships list the other character in `characters`.
+      // Minor relationships have no `characters`, so build one from the relationship itself.
+      const miniCharacter: MiniCharacter | undefined =
+        relationship.characters?.find(
+          (person) => person?.content && person.content.id !== character.id
+        ) ??
+        (relationship.characters?.length
+          ? undefined
+          : {
+              content: {
+                id: relationship.id ?? relationship.name ?? "",
+                label: relationship.name ?? "",
+                gender: relationshipGender,
+              },
+              older: relationship.older,
+            });
 
       if (!miniCharacter) return null;
 

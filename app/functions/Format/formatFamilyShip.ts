@@ -2,6 +2,7 @@ import { faL } from "@fortawesome/free-solid-svg-icons";
 import { MiniCharacter, Relationship } from "../../models/types/structure/Relationship";
 
 export function formatFamilyShip(ship: Relationship, gender: "F"  | "M" | "Non-Binary", charater: MiniCharacter) {
+
   const named = (relation: string) =>
     ship.name ? `${ship.name} (${relation})` : relation;
 

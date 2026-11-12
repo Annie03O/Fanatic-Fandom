@@ -29,4 +29,5 @@ export type Relationship = {
     shortDesc?: string;
     imgUrl?: Image;
     card?: boolean; 
+    gender?: "F" | "M" | "Non-Binary"
 }

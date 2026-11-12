@@ -8491,7 +8491,6 @@ tags: [
       },
       {
         id: SandyCohen_ID,
-        actor: "Peter Gallagher",
         seasons: [ocS1_ID, ocS2_ID, ocS3_ID, ocS4_ID],
         firstName: SandyCohen_firstName,
         lastName: Cohen_Name,
@@ -8510,7 +8509,80 @@ tags: [
             ocS3_ID
           ]
         },
+        minorRelationships: [
+          {
+            name: "Unnamed older brother",
+            type: "Family",
+            typeOfFamily: "Biological",
+            family: "Sibling",
+            older: true
+          },
+        ],
         promo: true,
+        residence: [
+          {
+            place: "Berkley, California",
+            started: "2007",
+            hasEnded: false,
+          },
+          {
+            place: "Newport Beach, California",
+            started: "Approx. 1996",
+            hasEnded: true,
+            ended: "2007"
+          },
+          {
+            place: "Berkley, California",
+            started: "At birth",
+            hasEnded: true,
+            ended: "Approx. 1996"
+          },
+        ],
+        education: [
+          {
+            title: "University of California, Berkley",
+            started: "Early 80s",
+            hasEnded: true,
+            ended: "Approx. 1984"
+          }
+        ],
+        occupation: [
+          {
+            title: "Law Professor",
+            hasEnded: false,
+            started: "2007"
+          },
+          {
+            title: "C.E.O",
+            place: "The Newport Group",
+            hasEnded: true,
+            started: "2005",
+            ended: "2007"
+          }, 
+          {
+            title: "Corporate lawyer",
+            place: "His own law firm",
+            hasEnded: true,
+            started: "2004",
+            ended: "2005"
+          },
+          {
+            title: "Corporate lawyer",
+            place: "Partridge, Savage and Kahn",
+            hasEnded: true,
+            started: "2004",
+            ended: "2004"
+          },
+          {
+            title: "Public Defender",
+            place: "The Public Defender Office",
+            hasEnded: true,
+            started: "1988",
+            ended: "2003"
+          }
+        ],
+        everyEpisode: true,
+        actor: "Peter Gallagher",
       },
       {
         id: KirstenCohen_ID,
@@ -10320,6 +10392,33 @@ tags: [
                     ],
                     card: true,
                   },
+              // Sandy
+                //  Family 
+                   {
+                    id: generateId("Sandy and Sofie"),
+                    type: "Family",
+                    typeOfFamily: "Biological",
+                    family: "Parent/Child",
+                    characters: [
+                      {
+                        content: {
+                          id: SandyCohen_ID,
+                          label: SandyCohen_fullName,
+                          gender: "M",
+                        },
+                        older: false,
+                      },
+                      {
+                        content: {
+                          id: generateId("Sophie " + Cohen_Name + " Sr."),
+                          label: "Sophie " + Cohen_Name + " Sr.",
+                          gender: "F"
+                        },
+                        older: true
+                      },
+                    ],
+                   },
+                   
               // Julie
                 // Romances
                   {
